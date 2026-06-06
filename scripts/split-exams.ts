@@ -68,6 +68,12 @@ function convertHtmlTablesToMarkdown(content: string): string {
 
   const turndownService = createTurndownService();
 
+  // 增加类型守卫 (Null Check)
+  if (!turndownService) {
+    console.warn(`  [表格转换] Turndown 服务未初始化，跳过转换`);
+    return content;
+  }
+
   // 替换所有 <table>...</table> 块
   const tableRegex = /<table[\s\S]*?<\/table>/gi;
   const convertedContent = content.replace(tableRegex, (tableHtml) => {
