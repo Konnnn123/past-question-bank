@@ -1,0 +1,11 @@
+[build]
+  # 强制指定构建命令
+  command = "npm run build"
+  # 强制指定发布目录！Next.js 静态导出的默认文件夹是 out
+  publish = "out"
+
+# 设定 404 页面的回退（防止直接显示 Netlify 默认的丑陋报错页）
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
