@@ -16,6 +16,21 @@
 # next.js
 /.next/
 /out/
+/dist/
+/site/
+/build-output/
+/built/
+/dist-build/
+/dist-site/
+/final-build/
+/final/
+/output/
+/prod/
+/public-site/
+/release-build/
+/release/
+/site-build/
+/www/
 
 # production
 /build
@@ -39,3 +54,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+/deploy/

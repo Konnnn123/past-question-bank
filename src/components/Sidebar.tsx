@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import Link from "next/link";
 import type { FilterState } from "@/types/question";
 
 interface SidebarProps {
@@ -100,14 +101,14 @@ export default function Sidebar({
       {/* Header */}
       <div className="p-4 border-b border-gray-200">
         <h1 className="text-sm font-semibold text-gray-900 tracking-tight">
-          過去問数据库
+          過去問データベース
         </h1>
         <p className="text-xs text-gray-500 mt-1">
           東京大学大学院 建築学専攻
         </p>
         <div className="mt-2 flex items-center gap-2">
           <span className="text-xs text-gray-400">
-            {filteredCount} / {totalCount} 题
+            {filteredCount} / {totalCount} 問
           </span>
           {hasActiveFilters && (
             <button
@@ -154,7 +155,7 @@ export default function Sidebar({
           onClick={() => toggleSection("category")}
           className="w-full flex items-center justify-between p-3 text-xs font-medium text-gray-700 hover:bg-gray-100 transition-colors"
         >
-          考试类别 (Category)
+          試験区分 (Category)
           <span className="text-gray-400">{expandedSections.category ? "▼" : "▶"}</span>
         </button>
         {expandedSections.category && (
@@ -182,7 +183,7 @@ export default function Sidebar({
           onClick={() => toggleSection("subject")}
           className="w-full flex items-center justify-between p-3 text-xs font-medium text-gray-700 hover:bg-gray-100 transition-colors"
         >
-          学科 (Subject)
+          科目 (Subject)
           <span className="text-gray-400">{expandedSections.subject ? "▼" : "▶"}</span>
         </button>
         {expandedSections.subject && (
@@ -210,7 +211,7 @@ export default function Sidebar({
           onClick={() => toggleSection("tag")}
           className="w-full flex items-center justify-between p-3 text-xs font-medium text-gray-700 hover:bg-gray-100 transition-colors"
         >
-          标签 (Tags)
+          タグ (Tags)
           <span className="text-gray-400">{expandedSections.tag ? "▼" : "▶"}</span>
         </button>
         {expandedSections.tag && (
@@ -272,6 +273,25 @@ export default function Sidebar({
             })}
           </div>
         )}
+      </div>
+      {/* Knowledge Map Link */}
+      <div className="p-3 space-y-2">
+        <Link
+          href="/knowledge-map"
+          className="flex items-center gap-2 w-full px-3 py-2 rounded-lg bg-gray-900 text-white text-xs font-medium hover:bg-gray-800 transition-colors"
+        >
+          <span>📖</span>
+          <span>構造力学 知識地図</span>
+        </Link>
+        <a
+          href="https://app.notion.com/p/118e961e469080ff9a0bca950748804e"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 w-full px-3 py-2 rounded-lg bg-purple-600 text-white text-xs font-medium hover:bg-purple-700 transition-colors"
+        >
+          <span>📓</span>
+          <span>建築史ノート</span>
+        </a>
       </div>
     </aside>
   );

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkMath from "remark-math";
 import remarkGfm from "remark-gfm";
@@ -21,17 +21,29 @@ export default function QuestionDetailClient({
 }: QuestionDetailClientProps) {
   const [answer, setAnswer] = useState(question?.answer || "");
   const [isEditing, setIsEditing] = useState(false);
+  const [referrer, setReferrer] = useState("/");
+
+  useEffect(() => {
+    const stored = localStorage.getItem("questionReferrer");
+    if (stored) {
+      setReferrer(stored);
+    }
+  }, []);
+
+  const handleBack = () => {
+    localStorage.removeItem("questionReferrer");
+  };
 
   if (!question) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <p className="text-gray-400">题目未找到</p>
+          <p className="text-gray-400">問題が見つかりません</p>
           <Link
             href="/"
             className="mt-3 text-sm text-blue-600 hover:text-blue-800"
           >
-            返回列表
+            問題一覧に戻る
           </Link>
         </div>
       </div>
@@ -43,10 +55,11 @@ export default function QuestionDetailClient({
       {/* Top Bar */}
       <header className="border-b border-gray-200 px-6 py-3 flex items-center justify-between sticky top-0 bg-white/80 backdrop-blur-sm z-10">
         <Link
-          href="/"
+          href={referrer}
+          onClick={handleBack}
           className="text-sm text-gray-500 hover:text-gray-900 transition-colors"
         >
-          ← 返回列表
+          ← 戻る
         </Link>
         <div className="flex items-center gap-3">
           <span className="text-sm text-gray-500">
@@ -85,7 +98,7 @@ export default function QuestionDetailClient({
         {/* Question Content */}
         <div className="border border-gray-200 rounded-xl overflow-hidden mb-8">
           <div className="px-6 py-4 border-b border-gray-100 bg-gray-50">
-            <h2 className="text-sm font-semibold text-gray-700">原题</h2>
+            <h2 className="text-sm font-semibold text-gray-700">原題</h2>
           </div>
           <div className="p-6">
             <div className="prose prose-gray max-w-none">
@@ -156,12 +169,12 @@ export default function QuestionDetailClient({
         {/* Answer Section (Placeholder) */}
         <div className="border border-gray-200 rounded-xl overflow-hidden">
           <div className="px-6 py-4 border-b border-gray-100 bg-gray-50 flex items-center justify-between">
-            <h2 className="text-sm font-semibold text-gray-700">我的解答</h2>
+            <h2 className="text-sm font-semibold text-gray-700">解答</h2>
             <button
               onClick={() => setIsEditing(!isEditing)}
               className="text-xs text-blue-600 hover:text-blue-800 transition-colors"
             >
-              {isEditing ? "保存" : "编辑"}
+              {isEditing ? "保存" : "編集"}
             </button>
           </div>
           <div className="p-6">
@@ -169,7 +182,7 @@ export default function QuestionDetailClient({
               <textarea
                 value={answer}
                 onChange={(e) => setAnswer(e.target.value)}
-                placeholder="在此输入你的解答..."
+                placeholder="解答を入力してください..."
                 className="w-full h-48 text-sm text-gray-800 leading-relaxed border border-gray-200 rounded-lg p-4 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-y"
               />
             ) : answer ? (
@@ -178,7 +191,7 @@ export default function QuestionDetailClient({
               </div>
             ) : (
               <p className="text-sm text-gray-400 italic">
-                暂无解答 — 点击「编辑」开始作答
+                まだ解答がありません — 「編集」をクリックして解答を入力してください
               </p>
             )}
           </div>

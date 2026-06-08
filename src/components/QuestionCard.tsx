@@ -13,15 +13,21 @@ interface QuestionCardProps {
 }
 
 export default function QuestionCard({ question, index }: QuestionCardProps) {
-  // 截取前 500 字符作为预览
   const previewContent =
     question.content.length > 500
       ? question.content.slice(0, 500) + "..."
       : question.content;
 
+  const handleClick = () => {
+    if (typeof window !== "undefined") {
+      localStorage.setItem("questionReferrer", "/");
+    }
+  };
+
   return (
     <Link
       href={`/question/${index}`}
+      onClick={handleClick}
       className="group block border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg hover:border-gray-300 transition-all duration-200 bg-white"
     >
       {/* Header */}
@@ -113,7 +119,7 @@ export default function QuestionCard({ question, index }: QuestionCardProps) {
       {question.answer && (
         <div className="px-5 pb-4">
           <div className="p-3 bg-green-50 border border-green-200 rounded-lg">
-            <p className="text-xs font-medium text-green-800 mb-1">我的解答</p>
+            <p className="text-xs font-medium text-green-800 mb-1">解答</p>
             <p className="text-sm text-green-700 whitespace-pre-wrap">
               {question.answer}
             </p>

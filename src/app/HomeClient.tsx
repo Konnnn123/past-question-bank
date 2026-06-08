@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Sidebar from "@/components/Sidebar";
 import QuestionCard from "@/components/QuestionCard";
 import type { Question, FilterState } from "@/types/question";
@@ -12,6 +12,8 @@ interface HomeClientProps {
   categories: string[];
   tagFrequency: Record<string, Record<string, number>>;
 }
+
+const STORAGE_KEY = "homeFilters";
 
 export default function HomeClient({
   questions,
@@ -26,6 +28,25 @@ export default function HomeClient({
     categories: [],
     tags: [],
   });
+
+  // マウント時にlocalStorageからフィルタを復元
+  useEffect(() => {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) {
+      try {
+        const parsed = JSON.parse(stored);
+        setFilters(parsed);
+      } catch {
+        // JSONパース失敗時は無視
+      }
+    }
+  }, []);
+
+  // フィルタ変更時にlocalStorageに保存
+  const handleFilterChange = (newFilters: FilterState) => {
+    setFilters(newFilters);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(newFilters));
+  };
 
   const filteredQuestions = useMemo(() => {
     return questions.filter((q) => {
@@ -55,7 +76,7 @@ export default function HomeClient({
         categories={categories}
         tagFrequency={tagFrequency}
         filters={filters}
-        onFilterChange={setFilters}
+        onFilterChange={handleFilterChange}
         totalCount={questions.length}
         filteredCount={filteredQuestions.length}
       />
@@ -64,15 +85,15 @@ export default function HomeClient({
           {/* Header */}
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 tracking-tight">
-              问题列表
+              問題一覧
             </h2>
             <p className="text-sm text-gray-500 mt-1">
-              共 {filteredQuestions.length} 题
+              全 {filteredQuestions.length} 問
               {filters.years.length > 0 ||
               filters.subjects.length > 0 ||
               filters.categories.length > 0 ||
               filters.tags.length > 0
-                ? " (已筛选)"
+                ? " (フィルター適用中)"
                 : ""}
             </p>
           </div>
@@ -93,14 +114,14 @@ export default function HomeClient({
             </div>
           ) : (
             <div className="text-center py-20">
-              <p className="text-gray-400 text-sm">没有匹配的题目</p>
+              <p className="text-gray-400 text-sm">該当する問題がありません</p>
               <button
                 onClick={() =>
-                  setFilters({ years: [], subjects: [], categories: [], tags: [] })
+                  handleFilterChange({ years: [], subjects: [], categories: [], tags: [] })
                 }
                 className="mt-3 text-sm text-blue-600 hover:text-blue-800"
               >
-                清除筛选
+                クリア
               </button>
             </div>
           )}
