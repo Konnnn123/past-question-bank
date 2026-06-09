@@ -6,6 +6,7 @@ import ReactMarkdown from "react-markdown";
 import remarkMath from "remark-math";
 import remarkGfm from "remark-gfm";
 import rehypeKatex from "rehype-katex";
+import { SidebarLayout } from "@/components/layout";
 import type { Question } from "@/types/question";
 
 interface QuestionDetailClientProps {
@@ -36,22 +37,25 @@ export default function QuestionDetailClient({
 
   if (!question) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <p className="text-gray-400">問題が見つかりません</p>
-          <Link
-            href="/"
-            className="mt-3 text-sm text-blue-600 hover:text-blue-800"
-          >
-            問題一覧に戻る
-          </Link>
+      <SidebarLayout>
+        <div className="flex items-center justify-center h-full">
+          <div className="text-center">
+            <p className="text-gray-400">問題が見つかりません</p>
+            <Link
+              href="/"
+              className="mt-3 text-sm text-blue-600 hover:text-blue-800"
+            >
+              問題一覧に戻る
+            </Link>
+          </div>
         </div>
-      </div>
+      </SidebarLayout>
     );
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <SidebarLayout>
+      <div className="bg-white">
       {/* Top Bar */}
       <header className="border-b border-gray-200 px-6 py-3 flex items-center justify-between sticky top-0 bg-white/80 backdrop-blur-sm z-10">
         <Link
@@ -198,5 +202,6 @@ export default function QuestionDetailClient({
         </div>
       </div>
     </div>
+    </SidebarLayout>
   );
 }

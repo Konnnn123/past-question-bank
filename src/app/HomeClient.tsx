@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
-import Sidebar from "@/components/Sidebar";
+import { SidebarLayout, FilterSlot } from "@/components/layout";
 import QuestionCard from "@/components/QuestionCard";
 import type { Question, FilterState } from "@/types/question";
 
@@ -68,19 +68,23 @@ export default function HomeClient({
     });
   }, [questions, filters]);
 
+  // 侧边栏下半部分：筛选器
+  const sidebarSlot = (
+    <FilterSlot
+      years={years}
+      subjects={subjects}
+      categories={categories}
+      tagFrequency={tagFrequency}
+      filters={filters}
+      onFilterChange={handleFilterChange}
+      totalCount={questions.length}
+      filteredCount={filteredQuestions.length}
+    />
+  );
+
   return (
-    <div className="flex min-h-screen bg-white">
-      <Sidebar
-        years={years}
-        subjects={subjects}
-        categories={categories}
-        tagFrequency={tagFrequency}
-        filters={filters}
-        onFilterChange={handleFilterChange}
-        totalCount={questions.length}
-        filteredCount={filteredQuestions.length}
-      />
-      <main className="flex-1 p-8 overflow-y-auto">
+    <SidebarLayout slot={sidebarSlot}>
+      <div className="p-8">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="mb-8">
@@ -126,7 +130,7 @@ export default function HomeClient({
             </div>
           )}
         </div>
-      </main>
-    </div>
+      </div>
+    </SidebarLayout>
   );
 }

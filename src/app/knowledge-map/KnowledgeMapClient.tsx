@@ -6,7 +6,9 @@ import ReactMarkdown from "react-markdown";
 import remarkMath from "remark-math";
 import remarkGfm from "remark-gfm";
 import rehypeKatex from "rehype-katex";
+import { SidebarLayout, TocPanel } from "@/components/layout";
 import type { Question } from "@/types/question";
+import type { TocNode } from "@/types/layout";
 
 interface Props {
   content: string;
@@ -17,13 +19,24 @@ interface Props {
 
 const KP_YEAR_MAP: Record<string, number[]> = {
   "断面2次モーメント（I）": [2013, 2014, 2024],
-  "曲げモーメント（M）とせん断力（V）": [2013, 2016, 2017, 2018, 2019, 2024, 2025],
+  "せん断力と曲げモーメント": [2013, 2016, 2017, 2018, 2019, 2024, 2025],
   "支点反力の計算": [2016, 2017, 2018, 2022, 2025, 2026],
-  "たわみ角法": [2019],
   "トラス構造": [2022, 2026],
+  "たわみ角法": [2019],
   "オイラー座屈": [2022],
   "熱応力と熱変形": [2015, 2025],
   "塑性解析": [2014],
+  // 追加の知識ポイント
+  "仮想仕事の原理（単位外力法）": [2013, 2016, 2017, 2018, 2024, 2025, 2026],
+  "固定モーメント法（Moment Distribution Method / Hardy Cross法）": [2016, 2017, 2019],
+  "D値法（Portal Method の発展）": [2025],
+  "剛性マトリクス法": [2024],
+  "構造物の終局強度（崩壊メカニズム）": [2014],
+  "不静定構造の基本": [2016, 2017, 2019],
+  "仕事とエネルギー": [2013, 2015],
+  "変形（たわみ）": [2013, 2016, 2017, 2018, 2024, 2025, 2026],
+  "静定ラーメン": [2016, 2017, 2018],
+  "断面の終局強度": [2014],
 };
 
 const RESOURCES: Record<string, { title: string; url: string }[]> = {
@@ -31,25 +44,25 @@ const RESOURCES: Record<string, { title: string; url: string }[]> = {
     { title: "🔍 Google", url: "https://www.google.com/search?q=断面2次モーメント+計算方法+建築構造" },
     { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=断面2次モーメント+構造力学" },
   ],
-  "曲げモーメント（M）とせん断力（V）": [
-    { title: "🔍 Google", url: "https://www.google.com/search?q=曲げモーメント図+せん断力図+描き方+構造力学" },
-    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=曲げモーメント図+せん断力図+構造力学" },
+  "せん断力と曲げモーメント": [
+    { title: "🔍 Google", url: "https://www.google.com/search?q=SFD+BMD+描き方+建築構造力学+梁" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=せん断力図+曲げモーメント図+描き方+構造力学" },
   ],
   "支点反力の計算": [
     { title: "🔍 Google", url: "https://www.google.com/search?q=支点反力+計算方法+ピン+ローラー+構造力学" },
     { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=支点反力+構造力学+計算" },
   ],
-  "たわみ角法": [
-    { title: "🔍 Google", url: "https://www.google.com/search?q=たわみ角法+slope+deflection+構造力学" },
-    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=たわみ角法+構造力学" },
-  ],
   "トラス構造": [
-    { title: "🔍 Google", url: "https://www.google.com/search?q=トラス構造+軸力計算+節点法+構造力学" },
-    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=トラス+軸力+構造力学" },
+    { title: "🔍 Google", url: "https://www.google.com/search?q=トラス+節点法+截面法+内力計算+建築構造力学" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=トラス+節点法+構造力学" },
+  ],
+  "たわみ角法": [
+    { title: "🔍 Google", url: "https://www.google.com/search?q=たわみ角法+構造力学+節点方程式+建築構造力学" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=たわみ角法+構造力学+ラーメン解析" },
   ],
   "オイラー座屈": [
-    { title: "🔍 Google", url: "https://www.google.com/search?q=オイラー座屈+座屈荷重+構造力学" },
-    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=オイラー座屈+座屈+構造力学" },
+    { title: "🔍 Google", url: "https://www.google.com/search?q=オイラー座屈+座屈荷重+建築構造力学+圧縮材" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=オイラー座屈+座屈荷重+構造力学" },
   ],
   "熱応力と熱変形": [
     { title: "🔍 Google", url: "https://www.google.com/search?q=熱応力+熱膨張+構造力学+建築" },
@@ -58,6 +71,46 @@ const RESOURCES: Record<string, { title: string; url: string }[]> = {
   "塑性解析": [
     { title: "🔍 Google", url: "https://www.google.com/search?q=塑性断面係数+塑性解析+構造力学" },
     { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=塑性解析+構造力学" },
+  ],
+  "仮想仕事の原理（単位外力法）": [
+    { title: "🔍 Google", url: "https://www.google.com/search?q=仮想仕事の原理+単位外力法+構造力学+変位計算" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=仮想仕事の原理+構造力学+単位外力法" },
+  ],
+  "固定モーメント法（Moment Distribution Method / Hardy Cross法）": [
+    { title: "🔍 Google", url: "https://www.google.com/search?q=固定モーメント法+モーメント分配法+Hardy+Cross+構造力学" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=固定モーメント法+モーメント分配法+構造力学" },
+  ],
+  "D値法（Portal Method の発展）": [
+    { title: "🔍 Google", url: "https://www.google.com/search?q=D値法+建築構造力学+水平力+柱の剛性" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=D値法+ラーメン+地震力+構造力学" },
+  ],
+  "剛性マトリクス法": [
+    { title: "🔍 Google", url: "https://www.google.com/search?q=剛性マトリクス法+構造解析+全体剛性マトリクス+建築構造力学" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=剛性マトリクス法+構造解析+建築構造力学" },
+  ],
+  "構造物の終局強度（崩壊メカニズム）": [
+    { title: "🔍 Google", url: "https://www.google.com/search?q=崩壊メカニズム+塑性ヒンジ+崩壊荷重+建築構造力学" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=崩壊メカニズム+塑性ヒンジ+構造力学" },
+  ],
+  "不静定構造の基本": [
+    { title: "🔍 Google", url: "https://www.google.com/search?q=不静定構造+力法+適合条件+構造力学+建築" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=不静定構造+力法+構造力学+解法" },
+  ],
+  "仕事とエネルギー": [
+    { title: "🔍 Google", url: "https://www.google.com/search?q=ひずみエネルギー+外力仕事+内力仕事+構造力学" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=ひずみエネルギー+外力仕事+構造力学" },
+  ],
+  "変形（たわみ）": [
+    { title: "🔍 Google", url: "https://www.google.com/search?q=梁+たわみ+変形+構造力学+計算" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=梁+たわみ+変形+構造力学" },
+  ],
+  "静定ラーメン": [
+    { title: "🔍 Google", url: "https://www.google.com/search?q=ゲルバー梁+3ヒンジラーメン+静定ラーメン+構造力学" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=ゲルバー梁+構造力学+解析" },
+  ],
+  "断面の終局強度": [
+    { title: "🔍 Google", url: "https://www.google.com/search?q=N-M相関曲線+終局強度+軸力+曲げモーメント+建築構造力学" },
+    { title: "📺 YouTube", url: "https://www.youtube.com/results?search_query=N-M相関曲線+終局強度+構造力学" },
   ],
 };
 
@@ -88,13 +141,11 @@ function extractText(children: React.ReactNode): string {
 
 // === TOC ===
 
-interface TocItem { id: string; text: string; level: number; children?: TocItem[]; }
-
-function buildTocTree(items: TocItem[]): TocItem[] {
-  const root: TocItem[] = [];
-  const stack: TocItem[] = [];
+function buildTocTree(items: TocNode[]): TocNode[] {
+  const root: TocNode[] = [];
+  const stack: TocNode[] = [];
   for (const item of items) {
-    const node = { ...item, children: [] as TocItem[] };
+    const node = { ...item, children: [] as TocNode[] };
     while (stack.length > 0 && stack[stack.length - 1].level >= node.level) stack.pop();
     if (stack.length === 0) root.push(node);
     else { const p = stack[stack.length - 1]; if (!p.children) p.children = []; p.children.push(node); }
@@ -197,26 +248,15 @@ function RelatedQuestions({
 
 export default function KnowledgeMapClient({ content, questions }: Props) {
   const [activeId, setActiveId] = useState("");
-  const [expandedToc, setExpandedToc] = useState<Record<string, boolean>>({});
-  const [tocOpen, setTocOpen] = useState(true);
 
-  // TOC構築
+  // TOC構築（TocPanel に渡す TocNode[]）
   const tocTree = useMemo(() => {
-    const items: TocItem[] = [];
+    const items: TocNode[] = [];
     for (const line of content.split("\n")) {
       const m = line.match(/^(#{1,3})\s+(.+)$/);
       if (m) items.push({ id: headingToId(m[2].trim()), text: m[2].trim(), level: m[1].length });
     }
     return buildTocTree(items);
-  }, [content]);
-
-  useEffect(() => {
-    const initial: Record<string, boolean> = {};
-    for (const line of content.split("\n")) {
-      const m = line.match(/^#\s+(.+)$/);
-      if (m) initial[headingToId(m[1].trim())] = true;
-    }
-    setExpandedToc(initial);
   }, [content]);
 
   // スクロール追跡
@@ -232,10 +272,6 @@ export default function KnowledgeMapClient({ content, questions }: Props) {
     document.querySelectorAll("[id]").forEach((h) => observer.observe(h));
     return () => observer.disconnect();
   }, []);
-
-  const scrollTo = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
 
   // Markdownコンポーネント定義
   const components = useMemo(
@@ -325,49 +361,12 @@ export default function KnowledgeMapClient({ content, questions }: Props) {
     [questions]
   );
 
-  // TOCツリーレンダリング
-  const renderTocItems = (items: TocItem[]) =>
-    items.map((item) => {
-      const hasChildren = item.children && item.children.length > 0;
-      const isExpanded = expandedToc[item.id] !== false;
-      return (
-        <li key={item.id}>
-          <div className="flex items-center">
-            {hasChildren && (
-              <button
-                onClick={() => setExpandedToc((p) => ({ ...p, [item.id]: !p[item.id] }))}
-                className="shrink-0 w-4 h-4 flex items-center justify-center text-gray-400 hover:text-gray-600"
-              >
-                <span className={`text-[10px] transition-transform ${isExpanded ? "rotate-90" : ""}`}>
-                  ▶
-                </span>
-              </button>
-            )}
-            {!hasChildren && <span className="shrink-0 w-4" />}
-            <button
-              onClick={() => scrollTo(item.id)}
-              className={`flex-1 text-left px-1.5 py-1 rounded-md text-xs transition-all hover:bg-gray-200 ${
-                item.level === 1
-                  ? "font-semibold text-gray-900"
-                  : item.level === 2
-                  ? "font-medium text-gray-700 pl-2"
-                  : "text-gray-500 pl-4"
-              } ${activeId === item.id ? "bg-blue-50 text-blue-700 font-medium" : ""}`}
-            >
-              {item.text}
-            </button>
-          </div>
-          {hasChildren && isExpanded && (
-            <ul className="ml-2 mt-0.5">{renderTocItems(item.children!)}</ul>
-          )}
-        </li>
-      );
-    });
+  // 将 TocPanel 注入到侧边栏
+  const sidebarSlot = <TocPanel tree={tocTree} activeId={activeId} />;
 
   return (
-    <div className="min-h-screen bg-white flex">
-      {/* メインコンテンツ */}
-      <div className="flex-1 min-w-0">
+    <SidebarLayout slot={sidebarSlot}>
+      <div>
         <header className="border-b border-gray-200 px-6 py-3 flex items-center justify-between sticky top-0 bg-white/80 backdrop-blur-sm z-20">
           <Link href="/" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">
             ← 問題一覧に戻る
@@ -386,33 +385,7 @@ export default function KnowledgeMapClient({ content, questions }: Props) {
           </div>
         </div>
       </div>
-
-      {/* TOC */}
-      <nav
-        className={`${
-          tocOpen ? "w-56" : "w-0"
-        } shrink-0 border-l border-gray-200 bg-gray-50/50 h-screen sticky top-0 overflow-hidden transition-all duration-300 hidden lg:block`}
-      >
-        <div className="p-4 w-56">
-          <div className="flex items-center justify-between mb-3">
-            <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wider">目次</h3>
-            <button onClick={() => setTocOpen(false)} className="text-gray-400 hover:text-gray-600 text-xs">
-              ✕
-            </button>
-          </div>
-          <ul className="space-y-0.5">{renderTocItems(tocTree)}</ul>
-        </div>
-      </nav>
-
-      {!tocOpen && (
-        <button
-          onClick={() => setTocOpen(true)}
-          className="fixed right-0 top-1/2 -translate-y-1/2 bg-gray-100 hover:bg-gray-200 border border-gray-200 border-r-0 rounded-l-lg px-2 py-4 text-xs text-gray-500 transition-colors z-30 hidden lg:block"
-        >
-          📋
-        </button>
-      )}
-    </div>
+    </SidebarLayout>
   );
 }
 

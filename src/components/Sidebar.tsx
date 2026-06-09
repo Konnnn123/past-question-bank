@@ -283,6 +283,13 @@ export default function Sidebar({
           <span>📖</span>
           <span>構造力学 知識地図</span>
         </Link>
+        <Link
+          href="/environment-knowledge-map"
+          className="flex items-center gap-2 w-full px-3 py-2 rounded-lg bg-teal-600 text-white text-xs font-medium hover:bg-teal-700 transition-colors"
+        >
+          <span>🌡️</span>
+          <span>建築環境工学 知識地図</span>
+        </Link>
         <a
           href="https://app.notion.com/p/118e961e469080ff9a0bca950748804e"
           target="_blank"
