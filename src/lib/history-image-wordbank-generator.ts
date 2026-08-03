@@ -56,7 +56,12 @@ function selectSurplus(axis: AnswerAxis, facts: HistoryImageWordBankFact[], sele
 export function validateHistoryImageWordBankSet(set: Omit<HistoryImageWordBankSet, "validation">) {
   const axes: AnswerAxis[] = ["building", "architect"];
   const uniqueImages = new Set(set.items.map((item) => item.image.assetId)).size === IMAGE_COUNT;
-  const assetsExist = set.items.every((item) => item.image.exists && item.image.webPath.startsWith("/images/"));
+  const assetsExist = set.items.every((item) =>
+    item.image.exists && (
+      item.image.webPath.startsWith("/images/") ||
+      item.image.webPath.startsWith("/architecture-images/")
+    ),
+  );
   const bankChecks = axes.map((axis) => {
     const answers = set.items.map((item) => item.answers[axis]);
     const bank = set.wordBanks[axis];

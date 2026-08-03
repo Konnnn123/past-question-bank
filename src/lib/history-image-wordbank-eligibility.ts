@@ -28,6 +28,16 @@ type HistoryReviewRecord = { nameJa: string; status: string };
 
 const APPROVED_HISTORY_REVIEW_STATUSES = new Set(["corrected", "screened-no-hard-error-found"]);
 
+function resolveImage(root: string, sourceWebPath: string) {
+  const fileName = path.posix.basename(sourceWebPath);
+  const webPath = `/architecture-images/${fileName}`;
+
+  return {
+    webPath,
+    exists: fs.existsSync(path.join(root, "public", webPath.replace(/^\/+/, ""))),
+  };
+}
+
 export function getEligibleHistoryImageWordBankFacts(): HistoryImageWordBankFact[] {
   const root = process.cwd();
   const assets = JSON.parse(fs.readFileSync(path.join(root, "data", "image-assets.json"), "utf-8")).assets as ImageAsset[];
@@ -45,6 +55,7 @@ export function getEligibleHistoryImageWordBankFacts(): HistoryImageWordBankFact
     );
     const styleFact = sourceFacts.find((fact) => fact.relation === "has_architectural_style" && fact.value === asset.style);
     if (!architectFact || !styleFact) return [];
+    const image = resolveImage(root, asset.webPath);
 
     return [{
       id: `history-image:${asset.id}`,
@@ -54,7 +65,7 @@ export function getEligibleHistoryImageWordBankFacts(): HistoryImageWordBankFact
       reviewStatus: "approved" as const,
       templateId: "history_image_multi_wordbank_matching" as const,
       domain: "history_image" as const,
-      image: { assetId: asset.id, webPath: asset.webPath, exists: fs.existsSync(path.join(root, "public", asset.webPath)) },
+      image: { assetId: asset.id, ...image },
       building: { term: building, factId: `entity:${building}` },
       architect: { term: architectFact.value, factId: architectFact.id },
       style: { term: styleFact.value, factId: styleFact.id },
