@@ -1,0 +1,225 @@
+{
+  "version": 2,
+  "questions": [
+    {
+      "id": "cs-environment-01",
+      "subject": "environment",
+      "format": "correct_statement_select",
+      "topic": "熱貫流",
+      "prompt": "建築物の熱貫流率に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "熱貫流率Uの値が小さいほど、壁体の断熱性能は高い。",
+        "熱貫流率Uの値が大きいほど、壁体の断熱性能は高い。",
+        "壁体の断熱性能は、熱貫流率と室内外温度差の積で評価される。",
+        "熱貫流率は壁体の厚さのみで決まり、材料の熱伝導率には依存しない。"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "熱貫流率Uの値が小さいほど、壁体の断熱性能は高い。",
+      "falseMisconceptions": {
+        "1": {"id": "env-mis-001", "error": "U値と断熱性能の関係を逆転"},
+        "2": {"id": null, "error": "熱貫流率と温度差を混同（熱流量との混同）"},
+        "3": {"id": null, "error": "熱貫流率の支配因子を厚さのみと誤認"}
+      },
+      "explanation": "U値は熱の通りやすさを表し、U = 1/R。R（熱抵抗）が大きいほど断熱性能が高く、Uは小さくなる。",
+      "scores": {"technicalAccuracy": 5, "distractorQuality": 4, "examFidelity": 5}
+    },
+    {
+      "id": "cs-environment-02",
+      "subject": "environment",
+      "format": "correct_statement_select",
+      "topic": "換気",
+      "prompt": "室内換気に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "換気回数が多くても短絡流が生じると、実質的な空気交換効率は低下する。",
+        "必要換気量は、室容積に比例して大きくする必要がある。",
+        "換気回数を2倍にすれば、室内の汚染物質濃度は必ず半減する。",
+        "置換換気より混合換気のほうが、一般的に換気効率は高い。"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "換気回数が多くても短絡流が生じると、実質的な空気交換効率は低下する。",
+      "falseMisconceptions": {
+        "1": {"id": "env-mis-002", "error": "必要換気量を室容積に比例と誤認"},
+        "2": {"id": null, "error": "換気回数と濃度の線形関係を誤認"},
+        "3": {"id": "env-mis-007", "error": "置換換気と混合換気の効率順を逆転"}
+      },
+      "explanation": "換気効率は流れのパターンに依存し、短絡流があると新鮮空気が室内に行き渡らず効率が低下する。必要換気量は汚染物質発生量と許容濃度で決まる（Q = G/(Ci−Co)）。",
+      "scores": {"technicalAccuracy": 5, "distractorQuality": 5, "examFidelity": 5}
+    },
+    {
+      "id": "cs-environment-03",
+      "subject": "environment",
+      "format": "correct_statement_select",
+      "topic": "結露",
+      "prompt": "建築物の壁体結露に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "室内の相対湿度が100%未満であっても、壁体表面温度が露点以下になれば表面結露は発生する。",
+        "室内温度が露点温度より高ければ、壁体のどの位置でも結露は発生しない。",
+        "壁体内部の結露は、室内側に防湿層を設けることで完全に防止できる。",
+        "相対湿度が100%に達した時点で、壁体表面に必ず結露が生じる。"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "室内の相対湿度が100%未満であっても、壁体表面温度が露点以下になれば表面結露は発生する。",
+      "falseMisconceptions": {
+        "1": {"id": "env-mis-005", "error": "室温と露点温度の比較のみで結露判定と誤認"},
+        "2": {"id": null, "error": "防湿層の過信（完全防止は困難）"},
+        "3": {"id": "env-mis-008", "error": "相対湿度100%と結露を等価と誤認"}
+      },
+      "explanation": "結露判定は壁体表面温度θsiと露点温度θdpの比較による。室温が高くても表面温度が露点以下なら結露する。θsi = θi − U(θi − θo)/hi。",
+      "scores": {"technicalAccuracy": 5, "distractorQuality": 5, "examFidelity": 5}
+    },
+    {
+      "id": "cs-environment-04",
+      "subject": "environment",
+      "format": "correct_statement_select",
+      "topic": "放射",
+      "prompt": "建築空間における放射伝熱に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "二面間の放射熱流は、両面の絶対温度の4乗差に比例する。",
+        "二面間の放射熱流は、両面のセルシウス温度差に比例する。",
+        "放射伝熱は、媒質がなければ伝達されない。",
+        "壁体表面の放射率が小さいほど、放射熱流は増加する。"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "二面間の放射熱流は、両面の絶対温度の4乗差に比例する。",
+      "falseMisconceptions": {
+        "1": {"id": "env-mis-004", "error": "放射と温度差の比例関係を誤認"},
+        "2": {"id": null, "error": "放射に媒質が必要と誤認（対流・伝導との混同）"},
+        "3": {"id": null, "error": "放射率と熱流の関係を逆転"}
+      },
+      "explanation": "Stefan-Boltzmann則：q = εσ(T₁⁴ − T₂⁴)。放射は真空中でも伝達される。放射率εが小さいほど放射熱流は減少する。",
+      "scores": {"technicalAccuracy": 5, "distractorQuality": 4, "examFidelity": 4}
+    },
+    {
+      "id": "cs-environment-05",
+      "subject": "environment",
+      "format": "correct_statement_select",
+      "topic": "遮音",
+      "prompt": "建築物の遮音性能に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "単層壁の遮音性能は質量則に従うが、コインシデンス効果により特定周波数で透過損失が低下する。",
+        "壁体の遮音性能は面密度のみで決まり、周波数には依存しない。",
+        "二重壁の中空層を広くすれば、すべての周波数帯域で遮音性能が単調に向上する。",
+        "質量則によれば、壁体の質量を2倍にすると透過損失は2倍になる。"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "単層壁の遮音性能は質量則に従うが、コインシデンス効果により特定周波数で透過損失が低下する。",
+      "falseMisconceptions": {
+        "1": {"id": "env-mis-009", "error": "遮音性能を面密度のみで決まると誤認"},
+        "2": {"id": null, "error": "二重壁の中空層効果を過信"},
+        "3": {"id": null, "error": "質量と透過損失の関係を線形と誤認（TLは対数）"}
+      },
+      "explanation": "質量則：TL = 20log(f·m) − 43。質量2倍でTLは約6dB向上。コインシデンス効果で特定周波数の透過損失が低下。二重壁では共鳴透過の影響も受ける。",
+      "scores": {"technicalAccuracy": 5, "distractorQuality": 5, "examFidelity": 4}
+    },
+    {
+      "id": "cs-planning-01",
+      "subject": "planning",
+      "format": "correct_statement_select",
+      "topic": "病院",
+      "prompt": "病院建築の病棟計画に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "療養病棟の1床あたり面積基準は、一般病棟より大きい。",
+        "一般病棟と療養病棟の1床あたり面積基準は同一である。",
+        "病室の面積基準は病床数に関わらず一律に定められている。",
+        "病棟の廊下幅は、日本の建築基準法で1.2m以上と定められている。"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "療養病棟の1床あたり面積基準は、一般病棟より大きい。",
+      "falseMisconceptions": {
+        "1": {"id": "plan-mis-001", "error": "一般・療養病棟の面積基準を同一と誤認"},
+        "2": {"id": null, "error": "面積基準を病床数に無関係と誤認"},
+        "3": {"id": null, "error": "病棟廊下幅の具体的数値を誤って記憶"}
+      },
+      "explanation": "医療法施行規則：一般病棟≥6.4m²/床、療養病棟≥8.0m²/床。個室と多床室でも基準が異なる。病棟廊下幅は片側ベッド搬送で≥2.4mが一般的。",
+      "scores": {"technicalAccuracy": 5, "distractorQuality": 5, "examFidelity": 5}
+    },
+    {
+      "id": "cs-planning-02",
+      "subject": "planning",
+      "format": "correct_statement_select",
+      "topic": "学校",
+      "prompt": "学校建築の教室計画に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "教室の必要面積は、児童生徒数に加えて教育方法やICT機器の配置によっても変動する。",
+        "教室の必要面積は、児童生徒数に比例する単一の基準式で決定される。",
+        "普通教室の面積は、小学校と中学校とで同一の基準が適用される。",
+        "教室の天井高は、室面積にかかわらず一律2.4m以上と定められている。"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "教室の必要面積は、児童生徒数に加えて教育方法やICT機器の配置によっても変動する。",
+      "falseMisconceptions": {
+        "1": {"id": "plan-mis-002", "error": "児童生徒数のみで面積が決まると誤認"},
+        "2": {"id": null, "error": "小学校と中学校の基準を同一と誤認"},
+        "3": {"id": null, "error": "天井高を一律と誤認（面積と用途で変動）"}
+      },
+      "explanation": "学習指導要領の改訂により、一斉授業だけでなくグループ学習・個別学習・ICT活用に対応した面積が必要。小中学校で基準は異なる。",
+      "scores": {"technicalAccuracy": 5, "distractorQuality": 4, "examFidelity": 4}
+    },
+    {
+      "id": "cs-planning-03",
+      "subject": "planning",
+      "format": "correct_statement_select",
+      "topic": "避難",
+      "prompt": "共同住宅の避難計画に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "階段室型共同住宅では、片廊下型と比較して各住戸からの避難経路が限定される場合がある。",
+        "階段室型共同住宅では、すべての住戸から2方向避難が常に確保されている。",
+        "共同住宅では、バルコニーを避難経路として使用することは認められていない。",
+        "11階以上の共同住宅では、全ての住戸に屋外避難階段を直接設けなければならない。"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "階段室型共同住宅では、片廊下型と比較して各住戸からの避難経路が限定される場合がある。",
+      "falseMisconceptions": {
+        "1": {"id": "plan-mis-003", "error": "階段室型で常に2方向避難可能と誤認"},
+        "2": {"id": null, "error": "バルコニー避難の法的位置づけを誤認"},
+        "3": {"id": null, "error": "高層住戸の避難要件を過大に誤認"}
+      },
+      "explanation": "階段室型は各住戸の避難方向が限定されるため、バルコニー経由の代替避難経路の確保が重要な設計要件となる。建築基準法では2方向避難の原則がある。",
+      "scores": {"technicalAccuracy": 5, "distractorQuality": 5, "examFidelity": 5}
+    },
+    {
+      "id": "cs-planning-04",
+      "subject": "planning",
+      "format": "correct_statement_select",
+      "topic": "オフィス",
+      "prompt": "オフィスビルの基準階計画に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "基準階面積が過大になると、コアから外周までの距離が長くなり、自然採光の均等性が低下する。",
+        "基準階面積が大きいほど、常にレンタブル比が向上する。",
+        "オフィスビルの基準階天井高は、日本の建築基準法で2.6m以上と定められている。",
+        "コア配置は基準階面積に影響を与えない。"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "基準階面積が過大になると、コアから外周までの距離が長くなり、自然採光の均等性が低下する。",
+      "falseMisconceptions": {
+        "1": {"id": "plan-mis-004", "error": "基準階面積と効率の単調関係を誤認"},
+        "2": {"id": null, "error": "天井高の具体的基準値を誤って記憶"},
+        "3": {"id": null, "error": "コア配置と基準階面積の無関係を誤認"}
+      },
+      "explanation": "基準階面積の増大は、コアから窓面までの距離増加をもたらし、自然採光・通風の均等性が低下する。レンタブル比と環境性能のバランスが必要。",
+      "scores": {"technicalAccuracy": 5, "distractorQuality": 5, "examFidelity": 4}
+    },
+    {
+      "id": "cs-planning-05",
+      "subject": "planning",
+      "format": "correct_statement_select",
+      "topic": "図書館",
+      "prompt": "図書館の施設計画に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "集密書架の導入により、同一床面積であっても収蔵可能冊数は大幅に増加する。",
+        "図書館の収蔵能力は、閲覧室を含む延床面積にほぼ比例する。",
+        "開架式書架の通路幅は、日本の図書館基準で60cm以上と定められている。",
+        "図書館の計画において、書架配置は収蔵能力に影響を与えない。"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "集密書架の導入により、同一床面積であっても収蔵可能冊数は大幅に増加する。",
+      "falseMisconceptions": {
+        "1": {"id": "plan-mis-005", "error": "収蔵能力を床面積比例と誤認"},
+        "2": {"id": null, "error": "通路幅の具体的基準値を誤って記憶"},
+        "3": {"id": null, "error": "書架配置と収蔵能力の関係を否定"}
+      },
+      "explanation": "集密書架は通常の開架式書架の2倍以上の収蔵が可能。書架配置（片側・両側）や通路幅の設計により収蔵効率は大きく変動する。通路幅は車椅子対応で≥1.2mが推奨。",
+      "scores": {"technicalAccuracy": 5, "distractorQuality": 4, "examFidelity": 4}
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "building-construction-rc-reviewed-facts-v1",
+  "layer": "knowledge_pool",
+  "subject": "building_construction",
+  "domain": "rc_construction",
+  "status": "reviewed_domain_pack",
+  "reviewMethod": "Each fact was checked against a Specialist 1 source prompt and its indexed answer. Facts with image-only or candidate-only evidence were excluded.",
+  "facts": [
+    {"id":"rc-01","promptTerm":"鉄筋コンクリートを構成する鋼材とコンクリート","relatedAnswer":"線膨張係数","relationType":"shares_material_property","answerRole":"material_property","source":{"exam":"2013 専門1 建築構法 Q2","prompt":"鋼材とコンクリートでほぼ等しい性質","indexedAnswer":"線膨張係数"},"reviewStatus":"reviewed"},
+    {"id":"rc-02","promptTerm":"鉄筋コンクリート構造の鉄筋","relatedAnswer":"引張力","relationType":"primarily_resists","answerRole":"structural_role","source":{"exam":"2013 専門1 建築構法 Q2","prompt":"RCで鉄筋が主として負担する力","indexedAnswer":"引張力"},"reviewStatus":"reviewed"},
+    {"id":"rc-03","promptTerm":"スランプ値","relatedAnswer":"コンクリートの軟らかさ","relationType":"indicates","answerRole":"concrete_property","source":{"exam":"2013 専門1 建築構法 Q2","prompt":"コンクリートの軟らかさを表す値","indexedAnswer":"スランプ値"},"reviewStatus":"reviewed"},
+    {"id":"rc-04","promptTerm":"スランプ値が大きいコンクリート","relatedAnswer":"軟らかい","relationType":"indicates_state","answerRole":"concrete_property","source":{"exam":"2013 専門1 建築構法 Q2","prompt":"軟らかい場合のスランプ値","indexedAnswer":"大きい"},"reviewStatus":"reviewed"},
+    {"id":"rc-05","promptTerm":"帯筋","relatedAnswer":"鉄筋コンクリート柱","relationType":"used_in_member","answerRole":"rc_member","source":{"exam":"2017 専門1 建築構法 Q3","prompt":"帯筋","indexedAnswer":"鉄筋コンクリート柱"},"reviewStatus":"reviewed"},
+    {"id":"rc-06","promptTerm":"あばら筋","relatedAnswer":"鉄筋コンクリート梁","relationType":"used_in_member","answerRole":"rc_member","source":{"exam":"2017 専門1 建築構法 Q3","prompt":"あばら筋","indexedAnswer":"鉄筋コンクリート梁"},"reviewStatus":"reviewed"},
+    {"id":"rc-07","promptTerm":"かぶり厚さ","relatedAnswer":"鉄筋表面からコンクリート表面までの最小寸法","relationType":"defined_as","answerRole":"rc_definition","source":{"exam":"2024 専門1 建築構法 Q3","prompt":"鉄筋の表面からコンクリートの表面までの最小寸法","indexedAnswer":"かぶり"},"reviewStatus":"reviewed"},
+    {"id":"rc-08","promptTerm":"豆板","relatedAnswer":"コンクリート打設時の充填不良部分","relationType":"defined_as","answerRole":"construction_defect","source":{"exam":"2024 専門1 建築構法 Q3","prompt":"コンクリート打設時の充填不良部分","indexedAnswer":"豆板"},"reviewStatus":"reviewed"},
+    {"id":"rc-09","promptTerm":"コールドジョイント","relatedAnswer":"打継ぎ面でコンクリートが一体化しない施工不良","relationType":"defined_as","answerRole":"construction_defect","source":{"exam":"2019 専門1 建築構法 Q3","prompt":"コンクリートが打ち継ぎ面で一体化しない施工不良","indexedAnswer":"コールド"},"reviewStatus":"reviewed"},
+    {"id":"rc-10","promptTerm":"フォームタイ","relatedAnswer":"型枠を締め付ける部材","relationType":"formwork_component_role","answerRole":"formwork_component","source":{"exam":"2019 専門1 建築構法 Q3 図（コンクリート工事）","prompt":"図中 n","indexedAnswer":"フォームタイ","image":"public/past-exams/2019年度_建築専門1_公開版_2062812174603792384_c72b5140c401.jpg"},"reviewStatus":"reviewed","verification":"Image label, indexed answer, and visible formwork-clamping position agree."},
+    {"id":"rc-11","promptTerm":"セパレーター","relatedAnswer":"型枠間隔を保持する部材","relationType":"formwork_component_role","answerRole":"formwork_component","source":{"exam":"2019 専門1 建築構法 Q3 図（コンクリート工事）","prompt":"図中 o","indexedAnswer":"セパレーター","image":"public/past-exams/2019年度_建築専門1_公開版_2062812174603792384_c72b5140c401.jpg"},"reviewStatus":"reviewed","verification":"Image label, indexed answer, and visible spacer position agree."},
+    {"id":"rc-12","promptTerm":"せき板","relatedAnswer":"コンクリートに接する型枠面材","relationType":"formwork_component_role","answerRole":"formwork_component","source":{"exam":"2019 専門1 建築構法 Q3 図（コンクリート工事）","prompt":"図中 p","indexedAnswer":"せき板","image":"public/past-exams/2019年度_建築専門1_公開版_2062812174603792384_c72b5140c401.jpg"},"reviewStatus":"reviewed","verification":"Image label, indexed answer, and visible formwork face agree."}
+  ],
+  "eligibility": {
+    "approvedForGenerator": true,
+    "generatorLimit": "The pack is eligible as reviewed knowledge, but it contains only 3 facts in its largest shared answer role (formwork_component). It cannot yet produce a 10-blank same-role association bank.",
+    "excluded": ["image-source-unresolved facts", "candidate-only facts", "structural_mechanics"]
+  },
+  "validation": {"factCount":12,"allReviewed":true,"allHaveSourceAndIndexedAnswer":true,"imageConfirmedFacts":["rc-10","rc-11","rc-12"],"structuralMechanicsExcluded":true}
+}

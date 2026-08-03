@@ -1,0 +1,1391 @@
+{
+  "version": 1,
+  "totalBlueprints": 24,
+  "blueprints": [
+    {
+      "id": "image_to_building",
+      "subject": "history",
+      "name": "圖片→建築名稱",
+      "questionAction": "identify",
+      "requiredFactRelations": [
+        "has_image",
+        "entityName"
+      ],
+      "promptTemplate": "次の写真の建築名称を答えなさい。",
+      "answerType": "free_recall",
+      "distractorStrategy": "none",
+      "needsImage": true,
+      "validationRules": [
+        "image_present",
+        "name_not_leaked"
+      ],
+      "occurrences": [
+        {
+          "blueprintId": "image_to_building",
+          "year": 2014,
+          "category": "専門2-2",
+          "questionNumber": "Q12",
+          "originalForm": "作図：建築の特徴を図示"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2015,
+          "category": "専門1",
+          "questionNumber": "Q6",
+          "originalForm": "語群マッチング：写真→建築名"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2016,
+          "category": "専門2-2",
+          "questionNumber": "Q11",
+          "originalForm": "作図：建築の特徴を図示"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2016,
+          "category": "専門2-2",
+          "questionNumber": "Q8",
+          "originalForm": "論述：図面→建築名+設計者+概念説明"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2018,
+          "category": "専門2-2",
+          "questionNumber": "Q4",
+          "originalForm": "作図：建築の特徴を図示"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2019,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→建築名"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2020,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→建築名"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2022,
+          "category": "専門2-2",
+          "questionNumber": "Q1",
+          "originalForm": "論述：図面→建築名+設計者+概念説明"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2022,
+          "category": "専門2-2",
+          "questionNumber": "Q4",
+          "originalForm": "作図：建築の特徴を図示"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2022,
+          "category": "専門2-2",
+          "questionNumber": "Q5",
+          "originalForm": "論述：図面→建築名+設計者+概念説明"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2023,
+          "category": "専門2-2",
+          "questionNumber": "Q1",
+          "originalForm": "論述：図面→建築名+設計者+概念説明"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2024,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→建築名"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2024,
+          "category": "専門2-2",
+          "questionNumber": "Q3",
+          "originalForm": "作図：建築の特徴を図示"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2025,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→建築名"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2025,
+          "category": "専門2-2",
+          "questionNumber": "Q3",
+          "originalForm": "作図：建築の特徴を図示"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2026,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→建築名"
+        },
+        {
+          "blueprintId": "image_to_building",
+          "year": 2026,
+          "category": "専門2-2",
+          "questionNumber": "Q3",
+          "originalForm": "作図：建築の特徴を図示"
+        }
+      ],
+      "occurrenceCount": 17,
+      "years": [
+        2014,
+        2015,
+        2016,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "image_to_architect",
+      "subject": "history",
+      "name": "圖片→建築師",
+      "questionAction": "identify",
+      "requiredFactRelations": [
+        "has_image",
+        "designed_by"
+      ],
+      "promptTemplate": "次の写真の建築の設計者を答えなさい。",
+      "answerType": "free_recall",
+      "distractorStrategy": "none",
+      "needsImage": true,
+      "validationRules": [
+        "image_present"
+      ],
+      "occurrences": [
+        {
+          "blueprintId": "image_to_architect",
+          "year": 2015,
+          "category": "専門1",
+          "questionNumber": "Q6",
+          "originalForm": "語群マッチング：写真→建築家"
+        },
+        {
+          "blueprintId": "image_to_architect",
+          "year": 2019,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→建築家"
+        },
+        {
+          "blueprintId": "image_to_architect",
+          "year": 2020,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→建築家"
+        },
+        {
+          "blueprintId": "image_to_architect",
+          "year": 2024,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→建築家"
+        },
+        {
+          "blueprintId": "image_to_architect",
+          "year": 2025,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→建築家"
+        },
+        {
+          "blueprintId": "image_to_architect",
+          "year": 2026,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→建築家"
+        }
+      ],
+      "occurrenceCount": 6,
+      "years": [
+        2015,
+        2019,
+        2020,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "image_to_style",
+      "subject": "history",
+      "name": "圖片→樣式／時代",
+      "questionAction": "identify",
+      "requiredFactRelations": [
+        "has_image",
+        "has_style"
+      ],
+      "promptTemplate": "次の写真の建築様式を答えなさい。",
+      "answerType": "free_recall",
+      "distractorStrategy": "none",
+      "needsImage": true,
+      "validationRules": [
+        "image_present"
+      ],
+      "occurrences": [
+        {
+          "blueprintId": "image_to_style",
+          "year": 2015,
+          "category": "専門1",
+          "questionNumber": "Q6",
+          "originalForm": "語群マッチング：写真→様式"
+        },
+        {
+          "blueprintId": "image_to_style",
+          "year": 2019,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→様式"
+        },
+        {
+          "blueprintId": "image_to_style",
+          "year": 2020,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→様式"
+        },
+        {
+          "blueprintId": "image_to_style",
+          "year": 2024,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→様式"
+        },
+        {
+          "blueprintId": "image_to_style",
+          "year": 2025,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→様式"
+        },
+        {
+          "blueprintId": "image_to_style",
+          "year": 2026,
+          "category": "専門1",
+          "questionNumber": "Q5",
+          "originalForm": "語群マッチング：写真→様式"
+        }
+      ],
+      "occurrenceCount": 6,
+      "years": [
+        2015,
+        2019,
+        2020,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "building_to_architect",
+      "subject": "history",
+      "name": "建築→建築師（配對）",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "designed_by"
+      ],
+      "promptTemplate": "次の建築と設計者・関連人物の組合せとして、最も適切なものを一つ選びなさい。\n\n{entityName}",
+      "answerType": "single_choice",
+      "distractorStrategy": "same_type_peer",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer",
+        "type_consistency",
+        "no_leak"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": []
+    },
+    {
+      "id": "building_to_period",
+      "subject": "history",
+      "name": "建築→成立年代（配對）",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "built_in"
+      ],
+      "promptTemplate": "次の建築の建設・成立年代として、最も適切なものを一つ選びなさい。\n\n{entityName}",
+      "answerType": "single_choice",
+      "distractorStrategy": "same_type_peer",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer",
+        "no_leak"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": []
+    },
+    {
+      "id": "building_to_feature",
+      "subject": "history",
+      "name": "建築→代表特徵（配對）",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "has_feature"
+      ],
+      "promptTemplate": "「{entityName}」の建築的特徴として、最も適切なものを一つ選びなさい。",
+      "answerType": "single_choice",
+      "distractorStrategy": "same_type_peer",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer",
+        "feature_length_balanced"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": []
+    },
+    {
+      "id": "architect_to_work",
+      "subject": "history",
+      "name": "建築師→作品（配對）",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "designed"
+      ],
+      "promptTemplate": "次の建築家・人物の代表作として、最も適切なものを一つ選びなさい。\n\n{entityName}",
+      "answerType": "single_choice",
+      "distractorStrategy": "same_type_peer",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": []
+    },
+    {
+      "id": "building_style_pairing",
+      "subject": "history",
+      "name": "建築→様式（語群配對）",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "has_style"
+      ],
+      "promptTemplate": "次の建築と建築様式・類型の組合せとして、最も適切なものを一つ選びなさい。\n\n{entityName}",
+      "answerType": "single_choice",
+      "distractorStrategy": "same_type_peer",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": []
+    },
+    {
+      "id": "odd_one_out",
+      "subject": "history",
+      "name": "異類辨識",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "has_style",
+        "built_in"
+      ],
+      "promptTemplate": "次の建築のうち、様式・時代の異なるものを一つ選びなさい。",
+      "answerType": "single_choice",
+      "distractorStrategy": "same_type_peer",
+      "needsImage": false,
+      "validationRules": [
+        "exactly_one_odd",
+        "group_coherent"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": [],
+      "status": "deprecated",
+      "deprecatedReason": "Group D: never observed in real exam or redundant"
+    },
+    {
+      "id": "definition_to_term",
+      "subject": "construction",
+      "name": "定義→用語",
+      "questionAction": "fill_blank",
+      "requiredFactRelations": [
+        "entityName",
+        "defined_as"
+      ],
+      "promptTemplate": "次の説明の空欄に入る最も適切な建築構法・材料・部材の用語を一つ選びなさい。\n\n{definition}：（　　　）",
+      "answerType": "single_choice",
+      "distractorStrategy": "word_bank_surplus",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer",
+        "blanks_count_match"
+      ],
+      "occurrences": [
+        {
+          "blueprintId": "definition_to_term",
+          "year": 2022,
+          "category": "専門1",
+          "questionNumber": "Q3",
+          "originalForm": "語群填空：説明文→用語"
+        }
+      ],
+      "occurrenceCount": 1,
+      "years": [
+        2022
+      ]
+    },
+    {
+      "id": "term_to_category",
+      "subject": "construction",
+      "name": "用語→分類",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "belongs_to"
+      ],
+      "promptTemplate": "次の建築構法用語が属する分類として、最も適切なものを一つ選びなさい。\n\n「{entityName}」",
+      "answerType": "single_choice",
+      "distractorStrategy": "category_peer",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer",
+        "type_consistency"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": []
+    },
+    {
+      "id": "term_to_definition",
+      "subject": "construction",
+      "name": "用語→説明（四選一）",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "defined_as"
+      ],
+      "promptTemplate": "次の建築構法用語「{entityName}」の説明として、最も適切なものを一つ選びなさい。",
+      "answerType": "single_choice",
+      "distractorStrategy": "definition_similar",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer",
+        "option_length_balanced"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": []
+    },
+    {
+      "id": "term_association",
+      "subject": "construction",
+      "name": "用語關聯配對",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "belongs_to"
+      ],
+      "promptTemplate": "次の用語と最も関連の深い用語を一つ選びなさい。\n\n「{entityName}」",
+      "answerType": "single_choice",
+      "distractorStrategy": "category_peer",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer",
+        "genuine_association"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": [],
+      "status": "deprecated",
+      "deprecatedReason": "Group D: never observed in real exam or redundant"
+    },
+    {
+      "id": "image_to_component",
+      "subject": "construction",
+      "name": "圖片→構件名稱",
+      "questionAction": "identify",
+      "requiredFactRelations": [
+        "has_image",
+        "entityName"
+      ],
+      "promptTemplate": "次の写真の構法部材・工法の名称を答えなさい。",
+      "answerType": "free_recall",
+      "distractorStrategy": "none",
+      "needsImage": true,
+      "validationRules": [
+        "image_present"
+      ],
+      "occurrences": [
+        {
+          "blueprintId": "image_to_component",
+          "year": 2016,
+          "category": "専門2-2",
+          "questionNumber": "Q12",
+          "originalForm": "作図：施工工程・構法図示"
+        },
+        {
+          "blueprintId": "image_to_component",
+          "year": 2016,
+          "category": "専門2-2",
+          "questionNumber": "Q13",
+          "originalForm": "作図：施工工程・構法図示"
+        },
+        {
+          "blueprintId": "image_to_component",
+          "year": 2018,
+          "category": "専門2-2",
+          "questionNumber": "Q3",
+          "originalForm": "作図：施工工程・構法図示"
+        },
+        {
+          "blueprintId": "image_to_component",
+          "year": 2020,
+          "category": "専門2-2",
+          "questionNumber": "Q3",
+          "originalForm": "作図：施工工程・構法図示"
+        },
+        {
+          "blueprintId": "image_to_component",
+          "year": 2022,
+          "category": "専門2-2",
+          "questionNumber": "Q3",
+          "originalForm": "作図：施工工程・構法図示"
+        },
+        {
+          "blueprintId": "image_to_component",
+          "year": 2023,
+          "category": "専門2-2",
+          "questionNumber": "Q3",
+          "originalForm": "作図：施工工程・構法図示"
+        }
+      ],
+      "occurrenceCount": 6,
+      "years": [
+        2016,
+        2018,
+        2020,
+        2022,
+        2023
+      ]
+    },
+    {
+      "id": "number_fill_blank",
+      "subject": "planning",
+      "name": "數值填空",
+      "questionAction": "fill_blank",
+      "requiredFactRelations": [
+        "entityName",
+        "standard_value"
+      ],
+      "promptTemplate": "建築計画における次の基準値を答えなさい。\n\n「{entityName}」",
+      "answerType": "fill_blank",
+      "distractorStrategy": "none",
+      "needsImage": false,
+      "validationRules": [
+        "numeric_answer",
+        "unit_present"
+      ],
+      "occurrences": [
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2016,
+          "category": "専門2-2",
+          "questionNumber": "Q6",
+          "originalForm": "計算導出"
+        },
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2017,
+          "category": "専門1",
+          "questionNumber": "Q1",
+          "originalForm": "數値填空"
+        },
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2018,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "計算導出"
+        },
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2019,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "數値填空"
+        },
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2019,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "計算導出"
+        },
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2020,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "數値填空"
+        },
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2020,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "計算導出"
+        },
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2022,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "數値填空"
+        },
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2022,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "計算導出"
+        },
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2023,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "數値填空"
+        },
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2024,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "數値填空"
+        },
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2025,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "計算導出"
+        },
+        {
+          "blueprintId": "number_fill_blank",
+          "year": 2026,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "數値填空"
+        }
+      ],
+      "occurrenceCount": 13,
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "number_four_choice",
+      "subject": "planning",
+      "name": "數值四選一",
+      "questionAction": "select",
+      "requiredFactRelations": [
+        "entityName",
+        "standard_value"
+      ],
+      "promptTemplate": "建築計画における「{entityName}」について、最も適切なものを一つ選びなさい。",
+      "answerType": "single_choice",
+      "distractorStrategy": "numeric_neighbor",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer",
+        "numeric_options"
+      ],
+      "occurrences": [
+        {
+          "blueprintId": "number_four_choice",
+          "year": 2017,
+          "category": "専門1",
+          "questionNumber": "Q1",
+          "originalForm": "インライン數値選択"
+        },
+        {
+          "blueprintId": "number_four_choice",
+          "year": 2019,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "インライン數値選択"
+        },
+        {
+          "blueprintId": "number_four_choice",
+          "year": 2020,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "インライン數値選択"
+        },
+        {
+          "blueprintId": "number_four_choice",
+          "year": 2022,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "インライン數値選択"
+        },
+        {
+          "blueprintId": "number_four_choice",
+          "year": 2023,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "インライン數値選択"
+        },
+        {
+          "blueprintId": "number_four_choice",
+          "year": 2024,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "インライン數値選択"
+        },
+        {
+          "blueprintId": "number_four_choice",
+          "year": 2026,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "インライン數値選択"
+        }
+      ],
+      "occurrenceCount": 7,
+      "years": [
+        2017,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2026
+      ]
+    },
+    {
+      "id": "concept_four_choice",
+      "subject": "planning",
+      "name": "概念四選一",
+      "questionAction": "select",
+      "requiredFactRelations": [
+        "entityName",
+        "defined_as"
+      ],
+      "promptTemplate": "次の建築計画用語・事例「{entityName}」の説明として、最も適切なものを一つ選びなさい。",
+      "answerType": "single_choice",
+      "distractorStrategy": "definition_similar",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer"
+      ],
+      "occurrences": [
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2014,
+          "category": "専門2-2",
+          "questionNumber": "Q6",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2014,
+          "category": "専門2-2",
+          "questionNumber": "Q7",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2014,
+          "category": "専門2-2",
+          "questionNumber": "Q8",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2016,
+          "category": "専門2-2",
+          "questionNumber": "Q6",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2016,
+          "category": "専門2-2",
+          "questionNumber": "Q7",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2017,
+          "category": "専門2-2",
+          "questionNumber": "Q1",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2017,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2018,
+          "category": "専門2-2",
+          "questionNumber": "Q1",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2018,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2019,
+          "category": "専門2-2",
+          "questionNumber": "Q1",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2019,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2019,
+          "category": "専門2-2",
+          "questionNumber": "Q4",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2020,
+          "category": "専門2-2",
+          "questionNumber": "Q1",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2020,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2022,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2023,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2023,
+          "category": "専門2-2",
+          "questionNumber": "Q4",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2024,
+          "category": "専門2-2",
+          "questionNumber": "Q1",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2024,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2025,
+          "category": "専門2-2",
+          "questionNumber": "Q1",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2025,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2026,
+          "category": "専門2-2",
+          "questionNumber": "Q1",
+          "originalForm": "概念説明"
+        },
+        {
+          "blueprintId": "concept_four_choice",
+          "year": 2026,
+          "category": "専門2-2",
+          "questionNumber": "Q2",
+          "originalForm": "概念説明"
+        }
+      ],
+      "occurrenceCount": 23,
+      "years": [
+        2014,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "case_to_feature",
+      "subject": "planning",
+      "name": "案例→計劃特徵",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "defined_as"
+      ],
+      "promptTemplate": "次の建築計画事例の特徴として、最も適切なものを一つ選びなさい。\n\n{entityName}",
+      "answerType": "single_choice",
+      "distractorStrategy": "definition_similar",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": [],
+      "status": "deprecated",
+      "deprecatedReason": "Group D: never observed in real exam or redundant"
+    },
+    {
+      "id": "false_statement_identify",
+      "subject": "planning",
+      "name": "錯誤陳述辨識",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "defined_as"
+      ],
+      "promptTemplate": "次の記述のうち、誤っているものを一つ選びなさい。",
+      "answerType": "single_choice",
+      "distractorStrategy": "definition_similar",
+      "needsImage": false,
+      "validationRules": [
+        "exactly_one_false",
+        "others_true"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": [],
+      "status": "deprecated",
+      "deprecatedReason": "Group D: never observed in real exam or redundant"
+    },
+    {
+      "id": "phenomenon_to_term",
+      "subject": "environment",
+      "name": "現象→術語",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "defined_as"
+      ],
+      "promptTemplate": "次の現象説明と最も関係の深い用語を選びなさい。\n\n{description}",
+      "answerType": "single_choice",
+      "distractorStrategy": "word_bank_surplus",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer"
+      ],
+      "occurrences": [
+        {
+          "blueprintId": "phenomenon_to_term",
+          "year": 2014,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群マッチング：現象説明→用語"
+        },
+        {
+          "blueprintId": "phenomenon_to_term",
+          "year": 2015,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "語群マッチング：現象説明→用語"
+        },
+        {
+          "blueprintId": "phenomenon_to_term",
+          "year": 2016,
+          "category": "専門1",
+          "questionNumber": "Q3",
+          "originalForm": "語群マッチング：現象説明→用語"
+        },
+        {
+          "blueprintId": "phenomenon_to_term",
+          "year": 2017,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "語群マッチング：現象説明→用語"
+        },
+        {
+          "blueprintId": "phenomenon_to_term",
+          "year": 2019,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群マッチング：現象説明→用語"
+        },
+        {
+          "blueprintId": "phenomenon_to_term",
+          "year": 2022,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群マッチング：現象説明→用語"
+        },
+        {
+          "blueprintId": "phenomenon_to_term",
+          "year": 2024,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群マッチング：現象説明→用語"
+        },
+        {
+          "blueprintId": "phenomenon_to_term",
+          "year": 2025,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群マッチング：現象説明→用語"
+        },
+        {
+          "blueprintId": "phenomenon_to_term",
+          "year": 2026,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群マッチング：現象説明→用語"
+        }
+      ],
+      "occurrenceCount": 9,
+      "years": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2019,
+        2022,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "id": "formula_to_quantity",
+      "subject": "environment",
+      "name": "公式→物理量",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "formula_text",
+        "computes"
+      ],
+      "promptTemplate": "次の式が表す物理量として、最も適切なものを一つ選びなさい。\n\n{formula}",
+      "answerType": "single_choice",
+      "distractorStrategy": "formula_structural",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer"
+      ],
+      "occurrences": [
+        {
+          "blueprintId": "formula_to_quantity",
+          "year": 2013,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "語群＋補完：公式→物理量名＋指数"
+        },
+        {
+          "blueprintId": "formula_to_quantity",
+          "year": 2014,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群＋補完：公式→物理量名＋指数"
+        },
+        {
+          "blueprintId": "formula_to_quantity",
+          "year": 2015,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "語群＋補完：公式→物理量名＋指数"
+        },
+        {
+          "blueprintId": "formula_to_quantity",
+          "year": 2016,
+          "category": "専門1",
+          "questionNumber": "Q3",
+          "originalForm": "語群＋補完：公式→物理量名＋指数"
+        },
+        {
+          "blueprintId": "formula_to_quantity",
+          "year": 2017,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "語群＋補完：公式→物理量名＋指数"
+        },
+        {
+          "blueprintId": "formula_to_quantity",
+          "year": 2018,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群＋補完：公式→物理量名＋指数"
+        },
+        {
+          "blueprintId": "formula_to_quantity",
+          "year": 2020,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群＋補完：公式→物理量名＋指数"
+        },
+        {
+          "blueprintId": "formula_to_quantity",
+          "year": 2022,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群＋補完：公式→物理量名＋指数"
+        },
+        {
+          "blueprintId": "formula_to_quantity",
+          "year": 2023,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群＋補完：公式→物理量名＋指数"
+        },
+        {
+          "blueprintId": "formula_to_quantity",
+          "year": 2024,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群＋補完：公式→物理量名＋指数"
+        },
+        {
+          "blueprintId": "formula_to_quantity",
+          "year": 2025,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "語群＋補完：公式→物理量名＋指数"
+        }
+      ],
+      "occurrenceCount": 11,
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "id": "quantity_to_formula",
+      "subject": "environment",
+      "name": "物理量→公式",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "formula_text"
+      ],
+      "promptTemplate": "「{entityName}」を表す式として、最も適切なものを一つ選びなさい。",
+      "answerType": "single_choice",
+      "distractorStrategy": "formula_structural",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": []
+    },
+    {
+      "id": "numeric_calculation",
+      "subject": "environment",
+      "name": "小型數值計算",
+      "questionAction": "calculate",
+      "requiredFactRelations": [
+        "entityName",
+        "formula_text"
+      ],
+      "promptTemplate": "以下の条件で「{entityName}」を計算しなさい。",
+      "answerType": "fill_blank",
+      "distractorStrategy": "none",
+      "needsImage": false,
+      "validationRules": [
+        "numeric_answer",
+        "conditions_given"
+      ],
+      "occurrences": [
+        {
+          "blueprintId": "numeric_calculation",
+          "year": 2013,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "數値計算"
+        },
+        {
+          "blueprintId": "numeric_calculation",
+          "year": 2014,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "數値計算"
+        },
+        {
+          "blueprintId": "numeric_calculation",
+          "year": 2015,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "數値計算"
+        },
+        {
+          "blueprintId": "numeric_calculation",
+          "year": 2016,
+          "category": "専門1",
+          "questionNumber": "Q3",
+          "originalForm": "數値計算"
+        },
+        {
+          "blueprintId": "numeric_calculation",
+          "year": 2017,
+          "category": "専門1",
+          "questionNumber": "Q4",
+          "originalForm": "數値計算"
+        },
+        {
+          "blueprintId": "numeric_calculation",
+          "year": 2018,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "數値計算"
+        },
+        {
+          "blueprintId": "numeric_calculation",
+          "year": 2020,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "數値計算"
+        },
+        {
+          "blueprintId": "numeric_calculation",
+          "year": 2022,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "數値計算"
+        },
+        {
+          "blueprintId": "numeric_calculation",
+          "year": 2023,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "數値計算"
+        },
+        {
+          "blueprintId": "numeric_calculation",
+          "year": 2024,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "數値計算"
+        },
+        {
+          "blueprintId": "numeric_calculation",
+          "year": 2025,
+          "category": "専門1",
+          "questionNumber": "Q2",
+          "originalForm": "數値計算"
+        }
+      ],
+      "occurrenceCount": 11,
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "id": "condition_change_judge",
+      "subject": "environment",
+      "name": "條件變化→增減判斷",
+      "questionAction": "match",
+      "requiredFactRelations": [
+        "entityName",
+        "defined_as"
+      ],
+      "promptTemplate": "次の条件変化に対して、{entityName}は増加・減少・不変のいずれかを選びなさい。",
+      "answerType": "single_choice",
+      "distractorStrategy": "numeric_neighbor",
+      "needsImage": false,
+      "validationRules": [
+        "unique_answer"
+      ],
+      "occurrences": [],
+      "occurrenceCount": 0,
+      "years": [],
+      "status": "deprecated",
+      "deprecatedReason": "Group D: never observed in real exam or redundant"
+    }
+  ]
+}

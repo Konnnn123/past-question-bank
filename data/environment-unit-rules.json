@@ -1,0 +1,52 @@
+{
+  "ventilation_co2": {
+    "inputs": {
+      "G": "m³/h",
+      "Ci": "ppm",
+      "Co": "ppm"
+    },
+    "output": "m³/h",
+    "conversions": [
+      "ppm → 無次元 (÷10⁶)"
+    ]
+  },
+  "thermal_transmission": {
+    "inputs": {
+      "ho": "m²·K/W",
+      "hi": "m²·K/W",
+      "d1": "m",
+      "λ1": "W/(m·K)",
+      "d2": "m",
+      "λ2": "W/(m·K)"
+    },
+    "output": "W/(m²·K)",
+    "conversions": []
+  },
+  "reverberation": {
+    "inputs": {
+      "V": "m³",
+      "A": "m²"
+    },
+    "output": "s",
+    "conversions": []
+  },
+  "illuminance_point": {
+    "inputs": {
+      "I": "cd",
+      "r": "m",
+      "θ": "°"
+    },
+    "output": "lx",
+    "conversions": [
+      "° → rad for cos (if needed)"
+    ]
+  },
+  "dynamic_pressure": {
+    "inputs": {
+      "ρ": "kg/m³",
+      "v": "m/s"
+    },
+    "output": "Pa",
+    "conversions": []
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">水セメント比の記憶図</title>
+  <desc id="desc">水セメント比が上がると流動性は上がり、強度と耐久性は下がる</desc>
+  <rect width="960" height="420" rx="36" fill="#fff7ed"/>
+  <text x="480" y="66" text-anchor="middle" font-family="sans-serif" font-size="34" font-weight="700" fill="#7c2d12">W/C ↑</text>
+  <path d="M480 92v214" stroke="#fb923c" stroke-width="12" stroke-linecap="round"/>
+  <path d="M438 274l42 48 42-48" fill="none" stroke="#fb923c" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="sans-serif" text-anchor="middle">
+    <rect x="70" y="126" width="300" height="176" rx="28" fill="#dbeafe" stroke="#60a5fa" stroke-width="5"/>
+    <text x="220" y="194" font-size="30" font-weight="700" fill="#1e3a8a">流動性 ↑</text>
+    <text x="220" y="240" font-size="22" fill="#1d4ed8">施工しやすくなる</text>
+    <rect x="590" y="126" width="300" height="176" rx="28" fill="#fee2e2" stroke="#f87171" stroke-width="5"/>
+    <text x="740" y="184" font-size="30" font-weight="700" fill="#7f1d1d">強度 ↓</text>
+    <text x="740" y="226" font-size="30" font-weight="700" fill="#7f1d1d">耐久性 ↓</text>
+    <text x="740" y="268" font-size="20" fill="#b91c1c">空隙・収縮リスク ↑</text>
+    <text x="480" y="374" font-size="24" fill="#9a3412">「水が多い＝すべて良い」ではない</text>
+  </g>
+</svg>

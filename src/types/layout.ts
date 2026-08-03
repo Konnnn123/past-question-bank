@@ -9,6 +9,10 @@ export type SidebarSlotKey =
   | "home"
   | "knowledge-map"
   | "environment-knowledge-map"
+  | "architecture-history-knowledge-map"
+  | "architecture-cards"
+  | "planning-knowledge-map"
+  | "construction-methods-knowledge-map"
   | "question-detail"
   | "empty";
 

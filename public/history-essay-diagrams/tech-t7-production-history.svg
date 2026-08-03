@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="650" viewBox="0 0 1160 650">
+  <rect width="1160" height="650" fill="#f7f4ed"/>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <text x="42" y="48" font-size="27" font-weight="700" fill="#17324d">T7 建築生産史｜誰が情報・材料・責任をつないだか</text>
+    <text x="42" y="78" font-size="16" fill="#52606d">patron → design knowledge → procurement and processing → site assembly → maintenance</text>
+    <line x1="95" y1="310" x2="1065" y2="310" stroke="#17324d" stroke-width="6" marker-end="url(#arrow)"/>
+    <g text-anchor="middle">
+      <g transform="translate(150 135)"><rect x="-105" width="210" height="125" rx="12" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><text y="35" font-size="20" font-weight="700" fill="#17324d">造営動員型</text><text y="70" font-size="17" fill="#52606d">王権・寺社</text><text y="98" font-size="17" fill="#52606d">官司・工匠・徴発</text><line y1="125" y2="175" stroke="#17324d" stroke-width="4"/></g>
+      <g transform="translate(420 135)"><rect x="-105" width="210" height="125" rx="12" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="4"/><text y="35" font-size="20" font-weight="700" fill="#17324d">棟梁・職能型</text><text y="70" font-size="17" fill="#52606d">工房・座・組</text><text y="98" font-size="17" fill="#52606d">技能・規矩・請負</text><line y1="125" y2="175" stroke="#17324d" stroke-width="4"/></g>
+      <g transform="translate(690 135)"><rect x="-105" width="210" height="125" rx="12" fill="#dcebea" stroke="#2e7d75" stroke-width="4"/><text y="35" font-size="20" font-weight="700" fill="#17324d">専門職分化型</text><text y="70" font-size="17" fill="#52606d">建築家・技師</text><text y="98" font-size="17" fill="#52606d">仕様・契約・監理</text><line y1="125" y2="175" stroke="#17324d" stroke-width="4"/></g>
+      <g transform="translate(960 135)"><rect x="-105" width="210" height="125" rx="12" fill="#f6d8d1" stroke="#b14f3b" stroke-width="4"/><text y="35" font-size="20" font-weight="700" fill="#17324d">工業・統合型</text><text y="70" font-size="17" fill="#52606d">総合建設・専門工事</text><text y="98" font-size="17" fill="#52606d">工場・規格・供給網</text><line y1="125" y2="175" stroke="#17324d" stroke-width="4"/></g>
+    </g>
+    <g font-size="18" fill="#17324d">
+      <text x="100" y="360">比較する主体</text><text x="275" y="360">発注者</text><text x="430" y="360">設計者</text><text x="580" y="360">加工者</text><text x="730" y="360">施工者</text><text x="880" y="360">管理者</text><text x="1025" y="360">利用・維持</text>
+    </g>
+    <g font-size="18" fill="#52606d" text-anchor="middle">
+      <text x="580" y="440">情報媒体：口伝・雛形 → 木割書・指図 → 図面・仕様書・契約 → データ・モデル</text>
+      <text x="580" y="490">評価軸：調達範囲／分業／工期／品質／費用／責任／労働条件／技術継承</text>
+      <text x="580" y="545" fill="#b14f3b">注意：後の型が前の型を消すのではなく、地域・建物種別ごとに併存・混成する</text>
+      <text x="580" y="590" fill="#2e7d75">答案では建築家だけでなく、材料供給・専門工・現場・維持の主体を入れる</text>
+    </g>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#17324d"/></marker></defs>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "id": "building-construction-material-properties-audit-v1",
+  "scope": {"subject":"building_construction","exam":"専門1","excluded":["structural_mechanics","buckling","second_moment_of_area"]},
+  "purpose": "Evidence gate for future grouped numeric selection. This file does not create questions.",
+  "families": [
+    {
+      "id":"youngs_modulus",
+      "unit":"N/mm²",
+      "status":"implemented_as_standalone_subset",
+      "facts":[
+        {"material":"木材（スギ）","value":"7,000","sources":["2017 専門1 建築構法 Q3","2020 専門1 建築構法 Q3"]},
+        {"material":"鋼材","value":"205,000","sources":["2017 専門1 建築構法 Q3","2020 専門1 建築構法 Q3"]},
+        {"material":"普通コンクリート（Fc=21 N/mm²）","value":"21,000","sources":["2017 専門1 建築構法 Q3","2020 専門1 建築構法 Q3"]}
+      ],
+      "poolRule":"Only these N/mm² modulus values and source-supported order-of-magnitude peers; never combine with strength values."
+    },
+    {
+      "id":"linear_thermal_expansion",
+      "unit":"/K",
+      "status":"implemented_with_2020_exam_version_scope",
+      "facts":[
+        {"material":"木材（スギ、繊維方向）","value":"5.0×10⁻⁶","sources":["2020 専門1 建築構法 Q3"]},
+        {"material":"鋼材","values_by_exam":{"2017":"1.0×10⁻⁵","2020":"1.2×10⁻⁵","2024":"1.0×10⁻⁵"},"status":"variant_requires_prompt_year"},
+        {"material":"普通コンクリート（Fc=21 N/mm²）","value":"1.0×10⁻⁵","sources":["2017 専門1 建築構法 Q3","2020 専門1 建築構法 Q3","2024 専門1 建築構法 Q3"]}
+      ],
+      "poolRule":"When implemented, each item must declare its source-year convention. Steel values from different source years must not appear as mutually exclusive distractors."
+    }
+  ],
+  "decision":"Young's modulus is implemented as a standalone material-property subset. Linear thermal expansion is implemented only with an explicit 2020 source-year convention; steel values from other source years remain excluded from its answer pool."
+}

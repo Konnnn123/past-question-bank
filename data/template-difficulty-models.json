@@ -1,0 +1,80 @@
+{
+  "dimensions": [
+    "factCount",
+    "reasoningSteps",
+    "distractorSimilarity",
+    "contextualDensity",
+    "unitConversionBurden",
+    "visualRecognitionBurden",
+    "subquestionDependency",
+    "knowledgeRarity",
+    "ambiguityManagement",
+    "responseConstructionBurden"
+  ],
+  "perTemplate": {
+    "history_image_free_recall": {
+      "minFacts": 1,
+      "difficultyControls": [
+        "image_ambiguity",
+        "building_rarity"
+      ]
+    },
+    "history_image_wordbank_matching": {
+      "minFacts": 10,
+      "difficultyControls": [
+        "cross_domain_bank_mixing",
+        "image_ambiguity"
+      ]
+    },
+    "construction_multi_blank_wordbank": {
+      "minFacts": 15,
+      "difficultyControls": [
+        "similar_abbreviations",
+        "cross_subdomain_terms"
+      ]
+    },
+    "environment_numerical_calculation": {
+      "minFacts": 1,
+      "difficultyControls": [
+        "multi_step",
+        "unit_conversion",
+        "assumption_explicit"
+      ]
+    },
+    "environment_correct_statement": {
+      "minFacts": 4,
+      "difficultyControls": [
+        "conceptual_depth",
+        "condition_sensitivity"
+      ]
+    },
+    "environment_formula_completion": {
+      "minFacts": 1,
+      "difficultyControls": [
+        "variable_relationship_understanding"
+      ]
+    },
+    "planning_contextual_numeric_select": {
+      "minFacts": 1,
+      "difficultyControls": [
+        "context_specificity",
+        "value_proximity"
+      ]
+    },
+    "planning_correct_statement": {
+      "minFacts": 4,
+      "difficultyControls": [
+        "condition_specificity",
+        "principle_boundary"
+      ]
+    },
+    "planning_scoped_short_answer": {
+      "minFacts": 1,
+      "difficultyControls": [
+        "command_verb",
+        "required_points",
+        "expected_length"
+      ]
+    }
+  }
+}

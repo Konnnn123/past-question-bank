@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">舞台各部の配置</title>
+  <desc id="desc">客席、本舞台、側舞台、後舞台、楽屋と搬入動線の模式図</desc>
+  <rect width="960" height="560" rx="36" fill="#f5f3ff"/>
+  <g stroke="#7c3aed" stroke-width="5" font-family="sans-serif" text-anchor="middle">
+    <path d="M230 500L340 356h280l110 144z" fill="#ddd6fe"/>
+    <text x="480" y="446" font-size="30" font-weight="700" fill="#4c1d95" stroke="none">客席</text>
+    <rect x="310" y="218" width="340" height="126" rx="18" fill="#a78bfa"/>
+    <text x="480" y="292" font-size="31" font-weight="700" fill="white" stroke="none">本舞台</text>
+    <rect x="78" y="218" width="210" height="126" rx="18" fill="#ede9fe"/>
+    <text x="183" y="292" font-size="27" font-weight="700" fill="#4c1d95" stroke="none">側舞台</text>
+    <rect x="672" y="218" width="210" height="126" rx="18" fill="#ede9fe"/>
+    <text x="777" y="292" font-size="27" font-weight="700" fill="#4c1d95" stroke="none">側舞台</text>
+    <rect x="310" y="60" width="340" height="126" rx="18" fill="#c4b5fd"/>
+    <text x="480" y="134" font-size="29" font-weight="700" fill="#4c1d95" stroke="none">後舞台</text>
+  </g>
+  <g font-family="sans-serif" fill="#6d28d9" font-size="22">
+    <text x="78" y="386">楽屋・控室</text>
+    <path d="M178 374h108" stroke="#8b5cf6" stroke-width="4" stroke-dasharray="9 8"/>
+    <text x="700" y="386">搬入・大道具</text>
+    <path d="M674 374h-92" stroke="#8b5cf6" stroke-width="4" stroke-dasharray="9 8"/>
+  </g>
+</svg>

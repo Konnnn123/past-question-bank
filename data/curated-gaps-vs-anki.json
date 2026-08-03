@@ -1,0 +1,545 @@
+{
+  "version": 1,
+  "ankiNoteCount": 350,
+  "rows": [
+    {
+      "termJa": "寺内町",
+      "entityKind": "urban-or-settlement",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "パラーディオ",
+      "entityKind": "person",
+      "status": "mentioned-existing-entity",
+      "exactFieldMatches": [],
+      "possibleMatches": [
+        {
+          "noteId": "1783835496151",
+          "name": "グィラ·ロトンダ",
+          "matchedField": "アンドレーア・パッラーディオ",
+          "score": 0.632
+        }
+      ],
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "match": "アンドレーア・パッラーディオ",
+      "note": "已作为建筑卡人物字段出现，但尚无独立人物卡"
+    },
+    {
+      "termJa": "フランツ・ヨーゼフ",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2017_専門2-2_建筑史_Q4.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "東三条殿",
+      "entityKind": "building",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2016_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "サン・ドニ修道院",
+      "entityKind": "building",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2016_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "ジョン・ソーン",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "吉島家住宅",
+      "entityKind": "building",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "アドルフ・ロース",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "アナトール・ド・ボド",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "アントニオ・サンテリア",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "サン・ドニ修道院教会",
+      "entityKind": "building",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "シナン",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "シャルルマーニュ",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [
+        {
+          "noteId": "1783835496071",
+          "name": "オべラ座",
+          "matchedField": "シャルル・ガルニエ",
+          "score": 0.625
+        }
+      ],
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "シュジェール",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "シンケル",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "ジャイルズ・ギルバート・スコット",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [
+        {
+          "noteId": "1783835496757",
+          "name": "セント・パンクラス駅",
+          "matchedField": "ジョージ・ギルバート・スコット",
+          "score": 0.741
+        }
+      ],
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "ジャコモ・バロッツィ・ダ・ヴィニョーラ",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "ジャック・ジェルメン・スフロ",
+      "entityKind": "person",
+      "status": "duplicate-alias",
+      "exactFieldMatches": [],
+      "possibleMatches": [
+        {
+          "noteId": "1783835496099",
+          "name": "サント·ジュヌヴィエーヴ教会堂",
+          "matchedField": "ジャック＝ジェルマン・スフロ",
+          "score": 0.917
+        }
+      ],
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "match": "ジャック＝ジェルマン・スフロ",
+      "note": "同一人物的标点与长音写法差异"
+    },
+    {
+      "termJa": "ジョン・ラスキン",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "トウーゲントハット邸",
+      "entityKind": "building",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "ドメニコ・フォンターナ",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "マルク・アントワーヌ・ロージエ",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "ヨハン・ヨアヒム・ヴィンケルマン",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "ヨン・ウッツオン",
+      "entityKind": "person",
+      "status": "duplicate-alias",
+      "exactFieldMatches": [],
+      "possibleMatches": [
+        {
+          "noteId": "1783835496591",
+          "name": "シドニーオペラハウス",
+          "matchedField": "ヨーン・ウツソン",
+          "score": 0.714
+        }
+      ],
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "match": "ヨーン・ウツソン",
+      "note": "同一人物的日文转写差异"
+    },
+    {
+      "termJa": "ラウンレンツィアーナ図書館",
+      "entityKind": "building",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "ランス大聖堂",
+      "entityKind": "building",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [
+        {
+          "noteId": "1783835496177",
+          "name": "ミラノ大聖堂",
+          "matchedField": "ミラノ大聖堂",
+          "score": 0.667
+        },
+        {
+          "noteId": "1783835496183",
+          "name": "ケルン大聖堂",
+          "matchedField": "ケルン大聖堂",
+          "score": 0.667
+        }
+      ],
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q3.md"
+      ]
+    },
+    {
+      "termJa": "ル・ランシーのノートル＝ダム聖堂",
+      "entityKind": "building",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [
+        {
+          "noteId": "1783835496197",
+          "name": "アミアンのノートル＝ダム大聖堂",
+          "matchedField": "アミアンのノートル＝ダム大聖堂",
+          "score": 0.714
+        },
+        {
+          "noteId": "1783835496189",
+          "name": "シャルトルのノートル＝ダム大聖堂",
+          "matchedField": "シャルトルのノートル＝ダム大聖堂",
+          "score": 0.69
+        },
+        {
+          "noteId": "1783835496203",
+          "name": "オルシヴァルのノートル＝ダム教会堂",
+          "matchedField": "オルシヴァルのノートル＝ダム教会堂",
+          "score": 0.667
+        }
+      ],
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "ローマン・コンクリート",
+      "entityKind": "theory-or-institution",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2014_専門2-2_建筑史_Q11.md"
+      ]
+    },
+    {
+      "termJa": "伊勢神宮内宮正殿",
+      "entityKind": "building",
+      "status": "partial-hierarchy-overlap",
+      "exactFieldMatches": [],
+      "possibleMatches": [
+        {
+          "noteId": "1783835496495",
+          "name": "伊勢神宮",
+          "matchedField": "伊勢神宮",
+          "score": 0.667
+        }
+      ],
+      "examFiles": [
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "match": "伊勢神宮",
+      "note": "单体建筑与神宫整体的层级关系"
+    },
+    {
+      "termJa": "佐野利器",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "内田祥三",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "園城寺客殿",
+      "entityKind": "building",
+      "status": "partial-hierarchy-overlap",
+      "exactFieldMatches": [],
+      "possibleMatches": [
+        {
+          "noteId": "1783835496375",
+          "name": "園城寺光浄院客殿",
+          "matchedField": "園城寺光浄院客殿",
+          "score": 0.769
+        }
+      ],
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "match": "園城寺光浄院客殿",
+      "note": "泛称与具体客殿的层级关系，需要回原题确认"
+    },
+    {
+      "termJa": "山梨文化会館",
+      "entityKind": "building",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [
+        {
+          "noteId": "1783835496571",
+          "name": "東京文化会館",
+          "matchedField": "東京文化会館",
+          "score": 0.667
+        }
+      ],
+      "examFiles": [
+        "2022_専門2-2_建筑史_Q1.md"
+      ]
+    },
+    {
+      "termJa": "後藤慶二",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "東京カテドラル聖マリア大聖堂",
+      "entityKind": "building",
+      "status": "duplicate-alias",
+      "exactFieldMatches": [],
+      "possibleMatches": [
+        {
+          "noteId": "1783835496587",
+          "name": "東京カテドラルマリア大聖堂",
+          "matchedField": "東京カテドラルマリア大聖堂",
+          "score": 0.963
+        }
+      ],
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "match": "東京カテドラルマリア大聖堂",
+      "note": "同一建筑的名称变体"
+    },
+    {
+      "termJa": "栄西",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "田中角栄",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "空海",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "芦原義信",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "藤井厚二",
+      "entityKind": "person",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "termJa": "鉄とレンガの混構造",
+      "entityKind": "theory-or-institution",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2014_専門2-2_建筑史_Q11.md"
+      ]
+    },
+    {
+      "termJa": "鉄と石の混構造",
+      "entityKind": "theory-or-institution",
+      "status": "no-overlap-found",
+      "exactFieldMatches": [],
+      "possibleMatches": [],
+      "examFiles": [
+        "2014_専門2-2_建筑史_Q11.md"
+      ]
+    }
+  ]
+}

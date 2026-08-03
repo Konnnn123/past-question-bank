@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "template": "planning_facility_fact_recall",
+  "generatedAt": "2026-07-18T10:35:49.875760",
+  "total": 12,
+  "rejected": 0,
+  "questions": [
+    {
+      "id": "plan-fac-housing-01",
+      "subject": "planning",
+      "format": "facility_fact_recall",
+      "topic": "housing",
+      "relation": "defined_as",
+      "prompt": "次の建築計画用語「老人健康村美ら寿」の説明として、最も適切なものを一つ選びなさい。",
+      "options": [
+        "A. 不良住宅地区の改善を目的とした公的長屋住宅。住戸と路地状共用空間を組み合わせ、衛生・居住条件の改善を図った。",
+        "B. 高齢者自主集住 の先駆 阪神・淡路大震災後 に 高齢者住宅 として実現",
+        "C. 居住者参加の計画手法 共用空間を重視 し、計画参加よりも 運営管理への参加を重視 居住者の 相互扶助活動 を生かして、 円滑な日常生活 が営めるように、共同の 食事室、調理室、託児室、洗濯室 などの 共用施設 を住棟内に設けた 集合住宅 。",
+        "D. 急傾斜地 に住戸を 段状に積層 し、各戸の テラス ・ 眺望 ・ 採光 と 地形への応答 を両立させた 集合住宅 。"
+      ],
+      "correctIndex": 1,
+      "correctAnswer": "高齢者自主集住 の先駆 阪神・淡路大震災後 に 高齢者住宅 として実現",
+      "sourceFactId": "fact-c2ecce3b2e77",
+      "distractorFactIds": [
+        "fact-7b89ea405911",
+        "fact-5cd724f5005b",
+        "fact-edd0b6f6a3ce"
+      ],
+      "scores": {
+        "technicalAccuracy": 5,
+        "distractorQuality": 5,
+        "examFidelity": 5
+      },
+      "explanation": "「老人健康村美ら寿」についての正しい記述。"
+    },
+    {
+      "id": "plan-fac-housing-02",
+      "subject": "planning",
+      "format": "facility_fact_recall",
+      "topic": "housing",
+      "relation": "defined_as",
+      "prompt": "次の建築計画用語「高須ボンエルフ」の説明として、最も適切なものを一つ選びなさい。",
+      "options": [
+        "A. 住宅地としての居住環境 や 商店街の利便 を高めるために、 住民が自発的に基準を定めて協定を締結できる",
+        "B. 「白い箱」型の外観をもち、内部は居間の吹抜けを中心とし複数の床レベルによって構成されたモダニズムの木造住宅である",
+        "C. ボンエルフ による 歩車共存道路 と 住宅地の外部空間構成 を示す事例。",
+        "D. フランク・ロイド・ライト プレーリーハウス の典型例とされ、 軒を深く出して水平線を強調 し、 煙突の垂直線 と対比させた住宅である"
+      ],
+      "correctIndex": 2,
+      "correctAnswer": "ボンエルフ による 歩車共存道路 と 住宅地の外部空間構成 を示す事例。",
+      "sourceFactId": "fact-0166ed82694b",
+      "distractorFactIds": [
+        "fact-6e9d0cd7d0bb",
+        "fact-5bad5e8aae2b",
+        "fact-77816304a7a2"
+      ],
+      "scores": {
+        "technicalAccuracy": 5,
+        "distractorQuality": 5,
+        "examFidelity": 5
+      },
+      "explanation": "「高須ボンエルフ」についての正しい記述。"
+    },
+    {
+      "id": "plan-fac-hospital-01",
+      "subject": "planning",
+      "format": "facility_fact_recall",
+      "topic": "hospital",
+      "relation": "defined_as",
+      "prompt": "次の建築計画用語「東京大学医学部附属病院外来部門」の説明として、最も適切なものを一つ選びなさい。",
+      "options": [
+        "A. 『病院觉え書』 「病院のそなえるべき第一の必要条件は，病院が病人に害を与えないことである」",
+        "B. 待ちや迷いによる 患者へのストレスの軽減 をはかった例である",
+        "C. 各 アルコープ を 壁で仕切って部屋にした形態 が現れた。",
+        "D. 中央材料室を含め、病院内で使う物品をすべて一元的に管理·供給するセンター"
+      ],
+      "correctIndex": 1,
+      "correctAnswer": "待ちや迷いによる 患者へのストレスの軽減 をはかった例である",
+      "sourceFactId": "fact-eee6139470e6",
+      "distractorFactIds": [
+        "fact-0d06aac74b05",
+        "fact-8cea69c47bae",
+        "fact-d82fe0e90b69"
+      ],
+      "scores": {
+        "technicalAccuracy": 5,
+        "distractorQuality": 5,
+        "examFidelity": 5
+      },
+      "explanation": "「東京大学医学部附属病院外来部門」についての正しい記述。"
+    },
+    {
+      "id": "plan-fac-hospital-02",
+      "subject": "planning",
+      "format": "facility_fact_recall",
+      "topic": "hospital",
+      "relation": "defined_as",
+      "prompt": "次の建築計画用語「中間施設」の説明として、最も適切なものを一つ選びなさい。",
+      "options": [
+        "A. B/P",
+        "B. 老人保健法の成立とともに出現した施設形態で，家庭と病院の間あるいは医療と介護の間に存在するといった意味合い",
+        "C. 病室を外に面して並べ 2本の廊下 を挟んで中央に NS ，作業室，便所などを配置したものである。当然，中央部の部屋は 機械換気 · 人工照明 を必要とする。",
+        "D. 診療科目ごとの患者特性および動線 を配慮して配置計画する 診療のための空間、待ちのための空間に対す プライバシーの配慮 も重要 救急患者の入口 は、 一般外来とは別に設ける ことが望ましい"
+      ],
+      "correctIndex": 1,
+      "correctAnswer": "老人保健法の成立とともに出現した施設形態で，家庭と病院の間あるいは医療と介護の間に存在するといった意味合い",
+      "sourceFactId": "fact-3952c86fcd4c",
+      "distractorFactIds": [
+        "fact-186bf57df100",
+        "fact-787dd2bac166",
+        "fact-97f3d2fcf422"
+      ],
+      "scores": {
+        "technicalAccuracy": 5,
+        "distractorQuality": 5,
+        "examFidelity": 5
+      },
+      "explanation": "「中間施設」についての正しい記述。"
+    },
+    {
+      "id": "plan-fac-school-01",
+      "subject": "planning",
+      "format": "facility_fact_recall",
+      "topic": "school",
+      "relation": "defined_as",
+      "prompt": "次の建築計画用語「山梨県立図書館」の説明として、最も適切なものを一つ選びなさい。",
+      "options": [
+        "A. 閲覧・交流・市民活動を受け入れる開放的な公共図書館事例。",
+        "B. 古くから 地域住民の社会教育·文化活動·健康·社会福祉增進 が目的で 市町村が設置する",
+        "C. 地域図書館（市町村の住民向け）は本館を中心に、分館や移動図書館で徒歩圏内のサービス網を形成",
+        "D. 地域の有形無形の文化財·史跡·産業遺産·自然環境などを地域住民自らによる調査研究·保存活動を通して，よりよい状態で保全し，学習の場を提供する"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "閲覧・交流・市民活動を受け入れる開放的な公共図書館事例。",
+      "sourceFactId": "fact-5d2f264d9d4e",
+      "distractorFactIds": [
+        "fact-6d3f4c674e53",
+        "fact-e03f2c3b2992",
+        "fact-9e6f2c61b693"
+      ],
+      "scores": {
+        "technicalAccuracy": 5,
+        "distractorQuality": 5,
+        "examFidelity": 5
+      },
+      "explanation": "「山梨県立図書館」についての正しい記述。"
+    },
+    {
+      "id": "plan-fac-school-02",
+      "subject": "planning",
+      "format": "facility_fact_recall",
+      "topic": "school",
+      "relation": "defined_as",
+      "prompt": "次の建築計画用語「エコスクール」の説明として、最も適切なものを一つ選びなさい。",
+      "options": [
+        "A. 地域の有形無形の文化財·史跡·産業遺産·自然環境などを地域住民自らによる調査研究·保存活動を通して，よりよい状態で保全し，学習の場を提供する",
+        "B. 建築空間自体が多様な児童の活動と 自然との共生",
+        "C. 書庫を地下に、中庭に面した閲覧室を半地下に配置することで建築物の地上部分のボリュームを抑え、景観上の調和に配慮した図書館である",
+        "D. 概ね 50冊/㎡ で概算できる"
+      ],
+      "correctIndex": 1,
+      "correctAnswer": "建築空間自体が多様な児童の活動と 自然との共生",
+      "sourceFactId": "fact-aab18cdd02c4",
+      "distractorFactIds": [
+        "fact-c93e0bd62f40",
+        "fact-71ad48a88b21",
+        "fact-6d3f4c674e53"
+      ],
+      "scores": {
+        "technicalAccuracy": 5,
+        "distractorQuality": 5,
+        "examFidelity": 5
+      },
+      "explanation": "「エコスクール」についての正しい記述。"
+    },
+    {
+      "id": "plan-fac-theater-01",
+      "subject": "planning",
+      "format": "facility_fact_recall",
+      "topic": "theater",
+      "relation": "defined_as",
+      "prompt": "次の建築計画用語「ウイーン国立歌劇場」の説明として、最も適切なものを一つ選びなさい。",
+      "options": [
+        "A. 現代の舞台装置として多用される背景パネル(書き割)の起源と考えられる",
+        "B. 固定された透視図法的舞台背景と半楕円形の観客席を持つ歴史的劇場。",
+        "C. 当時の 劇場 は 観劇の合い間 に 社交の場 を提供する役割を持って",
+        "D. 自然地形を利用した半円形客席と円形オルケストラを持つ古代ギリシャ劇場。"
+      ],
+      "correctIndex": 2,
+      "correctAnswer": "当時の 劇場 は 観劇の合い間 に 社交の場 を提供する役割を持って",
+      "sourceFactId": "fact-f428bca39595",
+      "distractorFactIds": [
+        "fact-16a7fccbed7b",
+        "fact-34b2008b71b7",
+        "fact-e653b8168a71"
+      ],
+      "scores": {
+        "technicalAccuracy": 5,
+        "distractorQuality": 5,
+        "examFidelity": 5
+      },
+      "explanation": "「ウイーン国立歌劇場」についての正しい記述。"
+    },
+    {
+      "id": "plan-fac-theater-02",
+      "subject": "planning",
+      "format": "facility_fact_recall",
+      "topic": "theater",
+      "relation": "defined_as",
+      "prompt": "次の建築計画用語「ニューヨーク近代美術館」の説明として、最も適切なものを一つ選びなさい。",
+      "options": [
+        "A. 敷地の北側と南側に 通抜けが可能なエントランスホール があり、 中庭と連続する空間 となっている",
+        "B. 発電所を美術館へ転用し、巨大なタービンホールを都市的な公共空間・展示空間として活用した。",
+        "C. 現代の舞台装置として多用される 背景パネル(書き割) の 起源 と考えられる",
+        "D. 自然地形を利用した半円形客席 と 円形オルケストラ を持つ 古代ギリシャ劇場 。"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "敷地の北側と南側に 通抜けが可能なエントランスホール があり、 中庭と連続する空間 となっている",
+      "sourceFactId": "fact-50158167b220",
+      "distractorFactIds": [
+        "fact-5fd8ff3f5509",
+        "fact-3f7696d47211",
+        "fact-1dc2dbf73932"
+      ],
+      "scores": {
+        "technicalAccuracy": 5,
+        "distractorQuality": 5,
+        "examFidelity": 5
+      },
+      "explanation": "「ニューヨーク近代美術館」についての正しい記述。"
+    },
+    {
+      "id": "plan-fac-library-01",
+      "subject": "planning",
+      "format": "facility_fact_recall",
+      "topic": "housing",
+      "relation": "defined_as",
+      "prompt": "次の建築計画用語「ネクサスワールド香椎」の説明として、最も適切なものを一つ選びなさい。",
+      "options": [
+        "A. 内藤廣",
+        "B. 就寝，全体生活(食事·団欒)，分離生活(更衣·整容·読書)，坐業，移動作業(掃除)，特殊生活(接客·病臥に分類し，日本の伝統住居の特徴もふまえて，どんなに狭い住宅においても 食べる場所と寝る場所を分離して計画すべきである",
+        "C. 急傾斜地に住戸を段状に積層し、各戸のテラス・眺望・採光と地形への応答を両立させた集合住宅。",
+        "D. 各戸に採光と通風を確保するための プライベートな中庭 が設けられた 接地型の集合住宅 である"
+      ],
+      "correctIndex": 3,
+      "correctAnswer": "各戸に採光と通風を確保するための プライベートな中庭 が設けられた 接地型の集合住宅 である",
+      "sourceFactId": "fact-c834451cfcd9",
+      "distractorFactIds": [
+        "fact-c84b3e55b0c6",
+        "fact-3543aacde965",
+        "fact-d74bb340845e"
+      ],
+      "scores": {
+        "technicalAccuracy": 5,
+        "distractorQuality": 5,
+        "examFidelity": 5
+      },
+      "explanation": "「ネクサスワールド香椎」についての正しい記述。"
+    },
+    {
+      "id": "plan-fac-library-02",
+      "subject": "planning",
+      "format": "facility_fact_recall",
+      "topic": "general",
+      "relation": "defined_as",
+      "prompt": "次の建築計画用語「集落」の説明として、最も適切なものを一つ選びなさい。",
+      "options": [
+        "A. 緑地の保全及び緑化の推進に関する事項について、協定を締結する制度。",
+        "B. 神社，墓，田，家，屋敷林，井戸",
+        "C. 緑地の保全及び緑化の推進に関する事項 について、 協定を締結する制度 。",
+        "D. 個々の病床が屋外に向かった専用の窓を持ち，個人的なスペ一スを確保できる"
+      ],
+      "correctIndex": 1,
+      "correctAnswer": "神社，墓，田，家，屋敷林，井戸",
+      "sourceFactId": "fact-01bf3cda6c54",
+      "distractorFactIds": [
+        "fact-f280b8315b03",
+        "fact-8104209fe7b9",
+        "fact-fdd4dbba497e"
+      ],
+      "scores": {
+        "technicalAccuracy": 5,
+        "distractorQuality": 5,
+        "examFidelity": 5
+      },
+      "explanation": "「集落」についての正しい記述。"
+    },
+    {
+      "id": "plan-fac-urban-01",
+      "subject": "planning",
+      "format": "facility_fact_recall",
+      "topic": "urban",
+      "relation": "defined_as",
+      "prompt": "次の建築計画用語「富山市」の説明として、最も適切なものを一つ選びなさい。",
+      "options": [
+        "A. ブラジルの首都である ブラジリア は、 ジェット機形の平面形状 をもち、機体の胴体に相当する部分を 政治的中枢地域 、翼に相当する部分を 住居地域 とする計画案に基づいている",
+        "B. 持続可能な コンパクトシティ の実現を目指し、 LRT（Light Rail Transit） を導入することで、 公共交通の活性化 、 公共交通沿線地区への居住促進 、 中心市街地の活性化 等を図っている",
+        "C. 市町村等が、個別に都市計画決定するもので、良好か都市空間の形成、保全に寄与する街区単位の計画に対して、通常の建築規制を超えて、容精率の最高限度建築の高さの最高限度、壁面の位置の制限を緩和できる制度。",
+        "D. 市町村等が、個別に 都市計画決定 するもので、 良好な都市空間の形成、保全 に寄与する 街区単位の計画 に対して、通常の建築規制を超えて、 容積率の最高限度 、 建築の高さの最高限度 、 壁面の位置の制限 を緩和できる 制度 。"
+      ],
+      "correctIndex": 1,
+      "correctAnswer": "持続可能な コンパクトシティ の実現を目指し、 LRT（Light Rail Transit） を導入することで、 公共交通の活性化 、 公共交通沿線地区への居住促進 、 中心市街地の活性化 等を図っている",
+      "sourceFactId": "fact-910ffc9c1e6c",
+      "distractorFactIds": [
+        "fact-3f57002c6f27",
+        "fact-6b8eaf6e9507",
+        "fact-2e19d0c5c74a"
+      ],
+      "scores": {
+        "technicalAccuracy": 5,
+        "distractorQuality": 5,
+        "examFidelity": 5
+      },
+      "explanation": "「富山市」についての正しい記述。"
+    },
+    {
+      "id": "plan-fac-urban-02",
+      "subject": "planning",
+      "format": "facility_fact_recall",
+      "topic": "urban",
+      "relation": "defined_as",
+      "prompt": "次の建築計画用語「セミラティス型」の説明として、最も適切なものを一つ選びなさい。",
+      "options": [
+        "A. 環境を生かした計画",
+        "B. 都市の街路・広場と建築内部の共用空間の関係を重視したオフィス建築事例。",
+        "C. 1960 プライバシーとコミュニティを交互に構成するとエラルキーとしてとらえた上で，親世代と子世代の分離を基本とし，それぞれが直接地域社会と結びつくべきであるとした",
+        "D. アレグザンダー 都市は多様 ·多義な可能性"
+      ],
+      "correctIndex": 3,
+      "correctAnswer": "アレグザンダー 都市は多様 ·多義な可能性",
+      "sourceFactId": "fact-b76b91c89eac",
+      "distractorFactIds": [
+        "fact-c146362f93f3",
+        "fact-66baf4be046d",
+        "fact-b1ca88db65e4"
+      ],
+      "scores": {
+        "technicalAccuracy": 5,
+        "distractorQuality": 5,
+        "examFidelity": 5
+      },
+      "explanation": "「セミラティス型」についての正しい記述。"
+    }
+  ]
+}

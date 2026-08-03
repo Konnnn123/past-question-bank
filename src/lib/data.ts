@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 
 export interface Question {
+  id: string;
   year: number;
   subject: string;
   category: string;
@@ -11,6 +12,11 @@ export interface Question {
   content: string;
   images: string[];
   fileName: string;
+}
+
+export function createQuestionId(fileName: string): string {
+  const stem = path.basename(fileName, path.extname(fileName));
+  return Buffer.from(stem, "utf8").toString("base64url");
 }
 
 // 从内容中提取图片路径
@@ -34,6 +40,7 @@ function parseQuestionFile(filePath: string): Question | null {
     const images = extractImages(content);
 
     return {
+      id: createQuestionId(filePath),
       year: data.year || 0,
       subject: data.subject || "其他",
       category: data.category || "其他",

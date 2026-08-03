@@ -1,0 +1,8 @@
+{
+  "id": "history-2019-q5-full-paper",
+  "subject": "history",
+  "basis_years": [2019],
+  "total_scoring_units": 50,
+  "sections": [{"id":"image_multi_wordbank","template_id":"history_image_wordbank_matching","target_count":25,"scoring_units_per_item":2,"count_basis":"2019 Specialist 1 History Q5: Fig.1–25, Group A and Group B","allowed_implementation_modes":["generator"],"required_generator_count":25,"allowed_reconstruction_count":0,"allowed_sampler_count":0,"manual_rubric_count":0,"unavailable_slots":[]}],
+  "evidence_files": ["data/processed_questions/2019_専門1_建筑史_Q5.md", "data/exam-format-catalog-v2.1.json", "data/question-blueprints.json"]
+}

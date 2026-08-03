@@ -288,7 +288,21 @@ export default function Sidebar({
           className="flex items-center gap-2 w-full px-3 py-2 rounded-lg bg-teal-600 text-white text-xs font-medium hover:bg-teal-700 transition-colors"
         >
           <span>🌡️</span>
-          <span>建築環境工学 知識地図</span>
+          <span>建築環境工学 過去問訓練</span>
+        </Link>
+        <Link
+          href="/environment-knowledge"
+          className="flex items-center gap-2 w-full px-3 py-2 rounded-lg bg-violet-600 text-white text-xs font-medium hover:bg-violet-700 transition-colors"
+        >
+          <span>🧮</span>
+          <span>建築環境工学 重点公式</span>
+        </Link>
+        <Link
+          href="/environment-memory"
+          className="flex items-center gap-2 w-full px-3 py-2 rounded-lg bg-cyan-600 text-white text-xs font-medium hover:bg-cyan-700 transition-colors"
+        >
+          <span>🧠</span>
+          <span>建築環境工学 記憶地図</span>
         </Link>
         <a
           href="https://app.notion.com/p/118e961e469080ff9a0bca950748804e"

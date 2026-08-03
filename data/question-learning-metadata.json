@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "scope": "formal-learning-entrypoints-only",
+  "entries": [
+    {
+      "id": "planning-2023-q4-s01-s20",
+      "subject": "planning",
+      "year": 2023,
+      "question_id": "専門1_問題4",
+      "subquestion_id": "s01-s20",
+      "coverage_count": 20,
+      "mode": "past_exam_reconstruction",
+      "surface_format": "20 independent indexed objective subquestions",
+      "cognitive_task": "根据每个原题小问给出的设施、案例、制度或空间条件，判断原题要求的术语、特征或正确叙述。",
+      "knowledge_relation": "题干条件与答案索引所对应的设施特征、案例属性、制度或标准之间的原题关系。",
+      "topic_tags": ["planning", "facility_or_case", "2023_q4"],
+      "answer_basis": "data/planning-exam-answers.json#2023:専門1:問題4；题干来自 data/processed_questions/2023_専門1_建筑计划_Q問題4.md。",
+      "common_error_tags": ["case-context-loss", "facility-feature-confusion", "standard-context-confusion"],
+      "confidence": "draft"
+    },
+    {
+      "id": "construction-rc-shared-wordbank",
+      "subject": "building_construction",
+      "year": 2022,
+      "question_id": "専門1_問題3",
+      "subquestion_id": "rc_shared_wordbank_01-20",
+      "coverage_count": 20,
+      "mode": "validated_generator",
+      "surface_format": "20-slot shared word-bank fill",
+      "cognitive_task": "根据 RC 躯体施工与纳まり的定义、构件作用、工序或缺陷关系，把唯一术语填入对应空位。",
+      "knowledge_relation": "RC construction statement → reviewed term, limited to the RC shared-word-bank relation pool.",
+      "topic_tags": ["building_construction", "rc_construction", "shared_word_bank", "structural_mechanics_excluded"],
+      "answer_basis": "data/building-construction-rc-shared-wordbank-facts.json；结构依据为 2022 専門1 建築構法 Q3。",
+      "common_error_tags": ["component-purpose-confusion", "construction-sequence-confusion", "defect-countermeasure-confusion"],
+      "confidence": "verified"
+    },
+    {
+      "id": "environment-ventilation-co2",
+      "subject": "environment",
+      "year": 2017,
+      "question_id": "専門1_問題4",
+      "subquestion_id": "ventilation_calculation",
+      "coverage_count": 1,
+      "mode": "validated_generator",
+      "surface_format": "numerical calculation",
+      "cognitive_task": "在定常、完全混合条件下，根据 CO₂ 发生量、室内浓度和室外浓度计算必要换气量。",
+      "knowledge_relation": "Q = G / (Ci - Co), with unit conversion from ppm to concentration fraction.",
+      "topic_tags": ["environment", "ventilation", "co2", "steady_state", "unit_conversion"],
+      "answer_basis": "data/processed_questions/2017_専門1_建筑环境工学_Q4.md；src/lib/environment-ventilation-generator.ts 的参数和单位验证。",
+      "common_error_tags": ["ppm-conversion", "indoor-outdoor-order", "steady-state-assumption", "unit-omission"],
+      "confidence": "verified"
+    },
+    {
+      "id": "history-2019-q5-image-matching",
+      "subject": "history",
+      "year": 2019,
+      "question_id": "専門1_問題5",
+      "subquestion_id": "image_01-25_building_and_architect",
+      "coverage_count": 50,
+      "mode": "validated_generator",
+      "surface_format": "image matching with two shared word banks",
+      "cognitive_task": "将已审核建筑图片分别与建筑名称和建筑师对应，且在每个语群中排除不匹配图像的术语。",
+      "knowledge_relation": "image → building and image → architect, using reviewed image assets and approved entity relations.",
+      "topic_tags": ["history", "image_identification", "building-architect-matching", "2019_q5"],
+      "answer_basis": "data/image-assets.json、data/history-text-review-status.json、data/atomic-facts.json；结构依据为 2019 専門1 建築史 Q5。",
+      "common_error_tags": ["building-name-confusion", "architect-confusion", "image-style-overgeneralization"],
+      "confidence": "verified"
+    }
+  ],
+  "past_exam_trainer_coverage": {
+    "version": 1,
+    "scope": "all readable 専門1 processed question blocks for history, planning, building_construction, and environment",
+    "level_rules": {
+      "A": "Reserved for an official answer record plus complete verified metadata and option evidence; none are asserted by this migration.",
+      "B": "A source-matched answer-index subquestion exists and is automatically graded; per-option negative evidence remains unresolved unless separately recorded.",
+      "C": "A readable original question block without a source-matched automatic answer/rubric; browse and self-evaluate only."
+    },
+    "derivation": {
+      "blocks": "data/processed_questions/*.md, subject/category filtered at runtime; each block has explicit Level C unless a source-matched answer-index subquestion is selected.",
+      "planning": "data/planning-exam-answers.json matched by fileName and indexed subquestion",
+      "building_construction": "data/construction-exam-answers.json matched by fileName and expanded source slot",
+      "environment": "src/lib/environment-review.ts ENVIRONMENT_REVIEW_RECORDS matched by fileName and segment key",
+      "history": "src/lib/history-review.ts REVIEW_ANSWERS matched by fileName; essay/source gaps remain Level C where no formal scoring source exists"
+    },
+    "required_fields": ["mode", "surface_format", "cognitive_task", "knowledge_relation", "topic_tags", "answer_basis", "common_error_tags", "confidence", "correct_answer", "option_analysis", "related_question_ids"],
+    "unresolved_option_analysis_message": "现有资料仅能确认正确答案，尚无足够证据逐项解释其他选项。"
+  }
+}

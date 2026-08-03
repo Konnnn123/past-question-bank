@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="580" viewBox="0 0 960 580">
+  <rect width="960" height="580" fill="#f7f4ed"/>
+  <text x="42" y="48" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#17324d">ルネサンス集中式｜幾何・比例・中心性</text>
+  <text x="42" y="78" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="16" fill="#52606d">circle / square / Greek cross — compare ideal geometry and actual use</text>
+  <g transform="translate(95 145)" fill="none" stroke="#17324d" stroke-width="6">
+    <circle cx="120" cy="120" r="92"/>
+    <circle cx="120" cy="120" r="48" stroke="#b14f3b"/>
+    <line x1="120" y1="28" x2="120" y2="212" stroke="#768692" stroke-width="2" stroke-dasharray="8 8"/>
+    <line x1="28" y1="120" x2="212" y2="120" stroke="#768692" stroke-width="2" stroke-dasharray="8 8"/>
+  </g>
+  <g transform="translate(365 145)" fill="none" stroke="#17324d" stroke-width="6">
+    <rect x="28" y="28" width="184" height="184"/>
+    <circle cx="120" cy="120" r="70" stroke="#b14f3b"/>
+    <line x1="120" y1="28" x2="120" y2="212" stroke="#768692" stroke-width="2" stroke-dasharray="8 8"/>
+    <line x1="28" y1="120" x2="212" y2="120" stroke="#768692" stroke-width="2" stroke-dasharray="8 8"/>
+  </g>
+  <g transform="translate(635 145)" fill="#e8dfcd" stroke="#17324d" stroke-width="6">
+    <path d="M80 0 H160 V80 H240 V160 H160 V240 H80 V160 H0 V80 H80Z"/>
+    <circle cx="120" cy="120" r="50" fill="#f7f4ed" stroke="#b14f3b"/>
+  </g>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" font-size="19" fill="#17324d">
+    <text x="215" y="425" text-anchor="middle" font-weight="700">円堂 / tholos</text>
+    <text x="485" y="425" text-anchor="middle" font-weight="700">正方形＋ドーム</text>
+    <text x="755" y="425" text-anchor="middle" font-weight="700">ギリシア十字 / Greek cross</text>
+    <text x="215" y="460" text-anchor="middle" fill="#52606d">テンピエット</text>
+    <text x="485" y="460" text-anchor="middle" fill="#52606d">ヴィラ・ロトンダ等</text>
+    <text x="755" y="460" text-anchor="middle" fill="#52606d">教会計画の理想案</text>
+    <text x="480" y="520" text-anchor="middle" fill="#2e7d75">中心・対称・比例 → 古代の再解釈 → 人文主義的秩序</text>
+    <text x="480" y="552" text-anchor="middle" fill="#b14f3b">答案では「理想幾何」と「儀礼・動線・敷地」の緊張も書く</text>
+  </g>
+</svg>

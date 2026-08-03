@@ -89,10 +89,10 @@ export default function HomeClient({
           {/* Header */}
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 tracking-tight">
-              問題一覧
+              过去问
             </h2>
             <p className="text-sm text-gray-500 mt-1">
-              全 {filteredQuestions.length} 問
+              共 {filteredQuestions.length} 题
               {filters.years.length > 0 ||
               filters.subjects.length > 0 ||
               filters.categories.length > 0 ||
@@ -105,13 +105,12 @@ export default function HomeClient({
           {/* Question Grid */}
           {filteredQuestions.length > 0 ? (
             <div className="space-y-4">
-              {filteredQuestions.map((q, i) => {
-                const originalIndex = questions.indexOf(q);
+              {filteredQuestions.map((q) => {
                 return (
                   <QuestionCard
-                    key={`${q.year}-${q.category}-${q.subject}-${q.question_number}-${i}`}
+                    key={q.id}
                     question={q}
-                    index={originalIndex}
+                    referrer="/exam/past"
                   />
                 );
               })}

@@ -1,0 +1,282 @@
+{
+  "ventilation_co2": {
+    "id": "ventilation_co2",
+    "topic": "換気·CO2濃度",
+    "examAppearances": 8,
+    "years": [
+      2013,
+      2014,
+      2016,
+      2017,
+      2018,
+      2020,
+      2025,
+      2026
+    ],
+    "formula": "Q = G / (Ci - Co)",
+    "variables": {
+      "G": {
+        "name": "CO2発生量",
+        "unit": "m³/h",
+        "range": [
+          0.01,
+          0.025
+        ],
+        "precision": 3
+      },
+      "Ci": {
+        "name": "室内許容濃度",
+        "unit": "ppm",
+        "range": [
+          800,
+          1500
+        ],
+        "precision": 0
+      },
+      "Co": {
+        "name": "外気濃度",
+        "unit": "ppm",
+        "range": [
+          300,
+          600
+        ],
+        "precision": 0
+      }
+    },
+    "target": {
+      "name": "必要換気量",
+      "symbol": "Q",
+      "unit": "m³/h"
+    },
+    "assumptions": [
+      "定常状態",
+      "完全混合",
+      "室内CO2発生のみ"
+    ],
+    "reasoningSteps": 2,
+    "unitConversions": [
+      "ppm → 無次元 (÷10⁶)"
+    ]
+  },
+  "thermal_transmission": {
+    "id": "thermal_transmission",
+    "topic": "熱貫流率",
+    "examAppearances": 5,
+    "years": [
+      2019,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "formula": "U = 1 / (1/ho + Σ(d/λ) + 1/hi)",
+    "variables": {
+      "ho": {
+        "name": "外気側熱伝達抵抗",
+        "unit": "m²·K/W",
+        "range": [
+          0.03,
+          0.06
+        ],
+        "precision": 2
+      },
+      "hi": {
+        "name": "室内側熱伝達抵抗",
+        "unit": "m²·K/W",
+        "range": [
+          0.09,
+          0.13
+        ],
+        "precision": 2
+      },
+      "d1": {
+        "name": "層1厚さ",
+        "unit": "m",
+        "range": [
+          0.05,
+          0.2
+        ],
+        "precision": 3
+      },
+      "λ1": {
+        "name": "断熱材熱伝導率",
+        "unit": "W/(m·K)",
+        "range": [
+          0.03,
+          0.06
+        ],
+        "precision": 3
+      },
+      "d2": {
+        "name": "層2厚さ",
+        "unit": "m",
+        "range": [
+          0.1,
+          0.2
+        ],
+        "precision": 3
+      },
+      "λ2": {
+        "name": "層2熱伝導率",
+        "unit": "W/(m·K)",
+        "range": [
+          0.8,
+          2.0
+        ],
+        "precision": 1
+      }
+    },
+    "target": {
+      "name": "熱貫流率",
+      "symbol": "U",
+      "unit": "W/(m²·K)"
+    },
+    "assumptions": [
+      "定常状態",
+      "一次元熱伝導",
+      "接触抵抗無視"
+    ],
+    "reasoningSteps": 3,
+    "unitConversions": []
+  },
+  "reverberation": {
+    "id": "reverberation",
+    "topic": "残響時間",
+    "examAppearances": 5,
+    "years": [
+      2013,
+      2016,
+      2017,
+      2019,
+      2026
+    ],
+    "formula": "T60 = 0.161 * V / A",
+    "variables": {
+      "V": {
+        "name": "室容積",
+        "unit": "m³",
+        "range": [
+          100,
+          2000
+        ],
+        "precision": 0
+      },
+      "A": {
+        "name": "等価吸音面積",
+        "unit": "m²",
+        "range": [
+          20,
+          500
+        ],
+        "precision": 0
+      }
+    },
+    "target": {
+      "name": "残響時間",
+      "symbol": "T60",
+      "unit": "s"
+    },
+    "assumptions": [
+      "拡散音場",
+      "Sabineの残響式適用可能"
+    ],
+    "reasoningSteps": 2,
+    "unitConversions": []
+  },
+  "illuminance_point": {
+    "id": "illuminance_point",
+    "topic": "点光源の照度",
+    "examAppearances": 5,
+    "years": [
+      2018,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "formula": "E = I * cosθ / r²",
+    "variables": {
+      "I": {
+        "name": "光度",
+        "unit": "cd",
+        "range": [
+          200,
+          2000
+        ],
+        "precision": 0
+      },
+      "r": {
+        "name": "光源からの距離",
+        "unit": "m",
+        "range": [
+          1.0,
+          5.0
+        ],
+        "precision": 1
+      },
+      "θ": {
+        "name": "入射角",
+        "unit": "°",
+        "range": [
+          0,
+          60
+        ],
+        "precision": 0
+      }
+    },
+    "target": {
+      "name": "水平面照度",
+      "symbol": "E",
+      "unit": "lx"
+    },
+    "assumptions": [
+      "点光源",
+      "直射光のみ（反射無視）"
+    ],
+    "reasoningSteps": 2,
+    "unitConversions": [
+      "° → rad for cos (if needed)"
+    ]
+  },
+  "dynamic_pressure": {
+    "id": "dynamic_pressure",
+    "topic": "動圧",
+    "examAppearances": 2,
+    "years": [
+      2022,
+      2026
+    ],
+    "formula": "q = ρ * v² / 2",
+    "variables": {
+      "ρ": {
+        "name": "空気密度",
+        "unit": "kg/m³",
+        "range": [
+          1.1,
+          1.3
+        ],
+        "precision": 1
+      },
+      "v": {
+        "name": "風速",
+        "unit": "m/s",
+        "range": [
+          2.0,
+          15.0
+        ],
+        "precision": 1
+      }
+    },
+    "target": {
+      "name": "動圧",
+      "symbol": "q",
+      "unit": "Pa"
+    },
+    "assumptions": [
+      "非圧縮性流体",
+      "定常流"
+    ],
+    "reasoningSteps": 2,
+    "unitConversions": []
+  }
+}

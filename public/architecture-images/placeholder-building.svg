@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">建築画像未登録</title><desc id="desc">画像データが未登録の建築カード用プレースホルダー</desc>
+  <rect width="640" height="400" fill="#f1f5f9"/><path d="M150 310V165l170-95 170 95v145M105 310h430M210 310V215h75v95m70 0v-95h75v95" fill="none" stroke="#94a3b8" stroke-width="18" stroke-linejoin="round"/>
+  <text x="320" y="365" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="24">画像データ未登録</text>
+</svg>

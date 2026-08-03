@@ -1,0 +1,325 @@
+{
+  "version": 1,
+  "priority": [
+    {
+      "sub_relation_id": "15.2",
+      "name": "Dimension Standard→cm/m Value",
+      "exam_year_count": 7,
+      "question_block_count": 7,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P0",
+      "score": 37
+    },
+    {
+      "sub_relation_id": "15.4",
+      "name": "Distance Standard→m Value",
+      "exam_year_count": 7,
+      "question_block_count": 7,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P0",
+      "score": 37
+    },
+    {
+      "sub_relation_id": "15.3",
+      "name": "Capacity Standard→Person Count",
+      "exam_year_count": 7,
+      "question_block_count": 7,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P0",
+      "score": 37
+    },
+    {
+      "sub_relation_id": "15.1",
+      "name": "Area Standard→m² Value",
+      "exam_year_count": 7,
+      "question_block_count": 7,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P0",
+      "score": 37
+    },
+    {
+      "sub_relation_id": "10.2",
+      "name": "Given Values→U-value",
+      "exam_year_count": 6,
+      "question_block_count": 6,
+      "data_readiness": "ready",
+      "implementation_difficulty": "low",
+      "priority_tier": "P0",
+      "score": 33
+    },
+    {
+      "sub_relation_id": "10.3",
+      "name": "Given Values→Reverberation Time",
+      "exam_year_count": 6,
+      "question_block_count": 6,
+      "data_readiness": "ready",
+      "implementation_difficulty": "low",
+      "priority_tier": "P0",
+      "score": 33
+    },
+    {
+      "sub_relation_id": "10.1",
+      "name": "Given Values→Ventilation Rate",
+      "exam_year_count": 6,
+      "question_block_count": 6,
+      "data_readiness": "ready",
+      "implementation_difficulty": "low",
+      "priority_tier": "P0",
+      "score": 33
+    },
+    {
+      "sub_relation_id": "10.5",
+      "name": "Given Values→Dynamic Pressure",
+      "exam_year_count": 6,
+      "question_block_count": 6,
+      "data_readiness": "ready",
+      "implementation_difficulty": "low",
+      "priority_tier": "P0",
+      "score": 33
+    },
+    {
+      "sub_relation_id": "10.4",
+      "name": "Given Values→Illuminance",
+      "exam_year_count": 6,
+      "question_block_count": 6,
+      "data_readiness": "ready",
+      "implementation_difficulty": "low",
+      "priority_tier": "P0",
+      "score": 33
+    },
+    {
+      "sub_relation_id": "1.2",
+      "name": "Image→Architect",
+      "exam_year_count": 5,
+      "question_block_count": 5,
+      "data_readiness": "blocked_images",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P0",
+      "score": 26
+    },
+    {
+      "sub_relation_id": "16.2",
+      "name": "Case→Description",
+      "exam_year_count": 4,
+      "question_block_count": 5,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P1",
+      "score": 24
+    },
+    {
+      "sub_relation_id": "16.6",
+      "name": "Building→Spatial Pattern",
+      "exam_year_count": 4,
+      "question_block_count": 5,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P1",
+      "score": 24
+    },
+    {
+      "sub_relation_id": "8.2",
+      "name": "Material→Strength",
+      "exam_year_count": 4,
+      "question_block_count": 4,
+      "data_readiness": "partial",
+      "implementation_difficulty": "low",
+      "priority_tier": "P1",
+      "score": 22
+    },
+    {
+      "sub_relation_id": "1.1",
+      "name": "Image→Building Name",
+      "exam_year_count": 4,
+      "question_block_count": 4,
+      "data_readiness": "blocked_images",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P1",
+      "score": 21
+    },
+    {
+      "sub_relation_id": "1.3",
+      "name": "Image→Style",
+      "exam_year_count": 3,
+      "question_block_count": 3,
+      "data_readiness": "blocked_images",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P1",
+      "score": 16
+    },
+    {
+      "sub_relation_id": "5.1",
+      "name": "Feature Description→Building Name",
+      "exam_year_count": 2,
+      "question_block_count": 3,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 14
+    },
+    {
+      "sub_relation_id": "4.3",
+      "name": "Building Name→Period",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 12
+    },
+    {
+      "sub_relation_id": "4.1",
+      "name": "Building Name→Architect",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 12
+    },
+    {
+      "sub_relation_id": "4.2",
+      "name": "Building Name→Style",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 12
+    },
+    {
+      "sub_relation_id": "7.1",
+      "name": "Definition→Term",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 12
+    },
+    {
+      "sub_relation_id": "6.2",
+      "name": "Structural Context→Structural Term",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 12
+    },
+    {
+      "sub_relation_id": "6.1",
+      "name": "Material Context→Material Name",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 12
+    },
+    {
+      "sub_relation_id": "6.3",
+      "name": "Process Context→Process Term",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 12
+    },
+    {
+      "sub_relation_id": "16.1",
+      "name": "Concept→Definition",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 12
+    },
+    {
+      "sub_relation_id": "16.4",
+      "name": "Facility→Spatial Feature",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 12
+    },
+    {
+      "sub_relation_id": "17.4",
+      "name": "Area Standard→Minimum Area",
+      "exam_year_count": 1,
+      "question_block_count": 2,
+      "data_readiness": "blocked_legal",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 8
+    },
+    {
+      "sub_relation_id": "17.1",
+      "name": "Building Code→Dimension",
+      "exam_year_count": 1,
+      "question_block_count": 2,
+      "data_readiness": "blocked_legal",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 8
+    },
+    {
+      "sub_relation_id": "14.1",
+      "name": "Principle→Correct",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 7
+    },
+    {
+      "sub_relation_id": "13.2",
+      "name": "Law/Principle→Description",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "data_readiness": "blocked_images",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 6
+    },
+    {
+      "sub_relation_id": "13.1",
+      "name": "Term→Definition",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "data_readiness": "blocked_images",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 6
+    },
+    {
+      "sub_relation_id": "12.1",
+      "name": "Formula→Quantity Name",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "data_readiness": "blocked_images",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 6
+    },
+    {
+      "sub_relation_id": "12.2",
+      "name": "Formula→Missing Exponent",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "data_readiness": "blocked_images",
+      "implementation_difficulty": "medium",
+      "priority_tier": "P2",
+      "score": 6
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "building-construction-rc-association-projections-v1",
+  "layer": "generator_input_projection",
+  "primaryDomain": "rc_construction",
+  "answerRole": "rc_construction_technical_term",
+  "sourceFactPack": "data/building-construction-rc-reviewed-facts.json",
+  "items": [
+    {"factId":"rc-01","prompt":"鉄筋コンクリート部材が温度変化を受けるとき、鉄筋とコンクリートの変形が大きく異ならないことに関わる材料特性は（　）である。","answer":"線膨張係数","novelContext":"temperature-deformation compatibility"},
+    {"factId":"rc-02","prompt":"鉄筋コンクリート梁の引張側に主筋を配置するのは、部材に生じる（　）を主に負担させるためである。","answer":"引張力","novelContext":"beam tensile-side design"},
+    {"factId":"rc-03","prompt":"荷卸し時にフレッシュコンクリートの施工しやすさを確認するため、軟らかさの指標として測定する値を（　）という。","answer":"スランプ値","novelContext":"delivery acceptance"},
+    {"factId":"rc-05","prompt":"鉄筋コンクリート柱の断面で、複数の主筋の周囲を横方向に囲む補強筋は（　）である。","answer":"帯筋","novelContext":"column cross-section identification"},
+    {"factId":"rc-06","prompt":"鉄筋コンクリート梁の断面で、主筋を横方向に囲む補強筋は（　）である。","answer":"あばら筋","novelContext":"beam cross-section identification"},
+    {"factId":"rc-07","prompt":"鉄筋を腐食や火熱から保護するため、鉄筋表面からコンクリート表面まで確保する最小距離を（　）厚さという。","answer":"かぶり","novelContext":"durability and fire protection"},
+    {"factId":"rc-08","prompt":"締固め不足などで粗骨材まわりに空隙が残り、コンクリートが十分に充填されない部分を（　）という。","answer":"豆板","novelContext":"visible placement defect"},
+    {"factId":"rc-09","prompt":"打込みを長時間中断した後に再開し、新旧コンクリートが打継ぎ面で一体化しない不良を（　）という。","answer":"コールドジョイント","novelContext":"placement interruption"},
+    {"factId":"rc-10","prompt":"側圧で型枠が開かないよう、外側から型枠を緊結する部材は（　）である。","answer":"フォームタイ","novelContext":"lateral-pressure restraint"},
+    {"factId":"rc-11","prompt":"壁厚を一定に保つため、向かい合う型枠の間隔を決める部材は（　）である。","answer":"セパレーター","novelContext":"wall-thickness control"}
+  ],
+  "validation": {"itemCount":10,"uniqueAnswers":true,"allSourceFactsReviewed":true,"singlePrimaryDomain":true,"excludesStructuralMechanics":true}
+}

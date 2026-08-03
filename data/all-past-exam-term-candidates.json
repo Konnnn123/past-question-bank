@@ -1,0 +1,4489 @@
+{
+  "source": "processed_questions",
+  "questionFileCount": 40,
+  "rows": [
+    {
+      "term": "ローマ",
+      "examCount": 11,
+      "fileCount": 8,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2017_専門1_建筑史_Q2.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2022_専門1_建筑史_Q5.md",
+        "2024_専門2-2_建筑史_Q3.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q3.md",
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "都市改造",
+      "examCount": 11,
+      "fileCount": 2,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q4.md",
+        "2026_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "パンテオン",
+      "examCount": 8,
+      "fileCount": 8,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2015_専門1_建筑史_Q3.md",
+        "2017_専門1_建筑史_Q2.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "歴史的建造",
+      "examCount": 8,
+      "fileCount": 5,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2015_専門1_建筑史_Q8.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "日本建築",
+      "examCount": 6,
+      "fileCount": 6,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2016_専門1_建筑史_Q5.md",
+        "2017_専門2-2_建筑史_Q4.md",
+        "2019_専門2-2_建筑史_Q5.md",
+        "2022_専門2-2_建筑史_Q4.md",
+        "2023_専門1_建筑史_Q問題5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "近代建築",
+      "examCount": 6,
+      "fileCount": 5,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q10.md",
+        "2017_専門2-2_建筑史_Q5.md",
+        "2020_専門2-2_建筑史_Q5.md",
+        "2022_専門1_建筑史_Q5.md",
+        "2026_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "プロジェクト",
+      "examCount": 6,
+      "fileCount": 2,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2022_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "フランス",
+      "examCount": 5,
+      "fileCount": 5,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2020_専門2-2_建筑史_Q4.md",
+        "2024_専門2-2_建筑史_Q3.md",
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ペンデンティブ",
+      "examCount": 5,
+      "fileCount": 5,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2024_専門2-2_建筑史_Q4.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "建築様式",
+      "examCount": 5,
+      "fileCount": 4,
+      "examFiles": [
+        "2017_専門2-2_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "書院造",
+      "examCount": 5,
+      "fileCount": 3,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "登録有形文化",
+      "examCount": 5,
+      "fileCount": 3,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q5.md",
+        "2022_専門2-2_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "イタリア",
+      "examCount": 4,
+      "fileCount": 4,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2024_専門2-2_建筑史_Q3.md",
+        "2025_専門2-2_建筑史_Q3.md",
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ゴシック",
+      "examCount": 4,
+      "fileCount": 4,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "寺内町",
+      "examCount": 4,
+      "fileCount": 4,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ウィーン",
+      "examCount": 4,
+      "fileCount": 3,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ロマネスク建築",
+      "examCount": 4,
+      "fileCount": 3,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q9.md",
+        "2023_専門1_建筑史_Q問題5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アーツ・アンド・クラフツ運動",
+      "examCount": 4,
+      "fileCount": 2,
+      "examFiles": [
+        "2020_専門2-2_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ゴシック様式",
+      "examCount": 4,
+      "fileCount": 2,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2020_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "混構造",
+      "examCount": 4,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門2-2_建筑史_Q11.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "重要文化",
+      "examCount": 4,
+      "fileCount": 1,
+      "examFiles": [
+        "2022_専門2-2_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "イスタンブール",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q3.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サンタ・コスタンツァ",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サンタ・マリア・デル・フィオーレ",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サン・ドニ",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2016_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "テンピエット",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ニューヨーク",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ハギア・ソフィア",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2018_専門2-2_建筑史_Q4.md",
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ハドリアヌス",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "フライング・バットレス",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "フランク・ロイド・ライト",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2022_専門2-2_建筑史_Q1.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "フランツ・ヨーゼフ",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2017_専門2-2_建筑史_Q4.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ルネサンス建築",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2023_専門1_建筑史_Q問題5.md",
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヴィラ・ロトンダ",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2018_専門2-2_建筑史_Q4.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "今井町",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "円覚寺舎利殿",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "寝殿造",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "東三条殿",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2016_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "東大寺",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2018_専門2-2_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "神明造",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "長弓寺本堂",
+      "examCount": 3,
+      "fileCount": 3,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "イギリス",
+      "examCount": 3,
+      "fileCount": 2,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2022_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ケルン",
+      "examCount": 3,
+      "fileCount": 2,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md",
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "システム",
+      "examCount": 3,
+      "fileCount": 2,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2022_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "メタボリズム",
+      "examCount": 3,
+      "fileCount": 2,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2024_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "大聖堂",
+      "examCount": 3,
+      "fileCount": 2,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md",
+        "2020_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "寺院建築",
+      "examCount": 3,
+      "fileCount": 2,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q11.md",
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "擬洋風建築",
+      "examCount": 3,
+      "fileCount": 2,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "文化財制度",
+      "examCount": 3,
+      "fileCount": 2,
+      "examFiles": [
+        "2020_専門2-2_建筑史_Q4.md",
+        "2026_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ランス",
+      "examCount": 3,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヴィッラ",
+      "examCount": 3,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "園城寺",
+      "examCount": 3,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "山梨文化",
+      "examCount": 3,
+      "fileCount": 1,
+      "examFiles": [
+        "2022_専門2-2_建筑史_Q1.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "記念建造",
+      "examCount": 3,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q8.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アミアン",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アミアン大聖堂",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アヤ・ソフィア",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アンコール・ワット",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "オットー・ワーグナー",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "オーダー",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "カサ・ミラ",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "カテドラル",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ギリシア",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ギリシア建築",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q9.md",
+        "2023_専門1_建筑史_Q問題5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "クリュニー",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "コンクリート",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2022_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サンタ・マリア・デル・フィオーレ大聖堂",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サント＝ジュヌヴィエーヴ",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サン・マルコ",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サン・マルコ大聖堂",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "シャルトル",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "シャルトル大聖堂",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ジョセフ・パクストン",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ジョン・ソーン",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ゾーニング",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ディテール",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q4.md",
+        "2022_専門2-2_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "トラス",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ドイツ",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md",
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ノートル＝ダム",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2020_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "バロック",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "バロック建築",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2023_専門1_建筑史_Q問題5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "パラーディオ",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ビザンチン",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ファグス",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "フィレンツェ",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "フランス王立図書館",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "フランチェスコ・ボッロミーニ",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ブルネレスキ",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ブルーノ・タウト",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "マニエリスム",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "リチャーズ",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ルネサンス",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ロココ",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ロマネスク",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ローマ建築",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q9.md",
+        "2023_専門1_建筑史_Q問題5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヴァルター・グロピウス",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヴィチェンツァ",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q4.md",
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "・デザイン",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md",
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "伊勢神宮",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "保存修復",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2015_専門1_建筑史_Q7.md",
+        "2015_専門1_建筑史_Q8.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "円覚寺仏殿",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "吉島家住宅",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "大社造",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "大英博物館",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "室生寺金堂",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "宿場町",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "密教本堂",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "平等院鳳凰堂",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "春日造",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "長寿寺本堂",
+      "examCount": 2,
+      "fileCount": 2,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アダプティブ・リユース",
+      "examCount": 2,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門2-2_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "オーセンティシティ",
+      "examCount": 2,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q10.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "タイプ",
+      "examCount": 2,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q11.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ドーム",
+      "examCount": 2,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヨーロッパ",
+      "examCount": 2,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q7.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "レンガ",
+      "examCount": 2,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門2-2_建筑史_Q11.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ローマン・コンクリート",
+      "examCount": 2,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門2-2_建筑史_Q11.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "奈良六大寺",
+      "examCount": 2,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "帝冠様式",
+      "examCount": 2,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門2-2_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アインシュタイン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アインシュタイン塔",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アッバース",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アテネ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アトリウム",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アドルフ・ヒトラー",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アドルフ・ロース",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アナトール・ド・ボド",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アパート",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アメリカ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アメリカ建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アルテス・ムゼウム",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アルベルティ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アントニオ・サンテリア",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アンドリュー・ボイド",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アンドレア・パラーディオ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アンドレーア・パッラーディオ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アンリ・ラブルースト",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "アールヌーボー",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "イオニア",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "イスタンブル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "イスファハーン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "エクス・ラ・シャペル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "エジプト",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "エステート",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "エスファハーン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "エティエンヌ・ルイ・ブレ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "エヌビック",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "エリエル・シーネン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "エルサレム",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "オックスフォード",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "オックスフォード自然史博物館",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "オリジナル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q8.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "カウフマン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2022_専門2-2_建筑史_Q1.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "カウフマン邸",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2022_専門2-2_建筑史_Q1.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "カプセルタワービル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "カワフマン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2022_専門2-2_建筑史_Q1.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "カワフマン邸",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2022_専門2-2_建筑史_Q1.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "キブラ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "キャンパス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ギリシャ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "クラブ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "グラバー",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "グラバー邸",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "グリッド",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "グループ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2022_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ケルン大聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "コルドバ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "コルビュジェ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "コンプレックス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ゴシック・リバイバル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ゴシック建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q9.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ゴットフリート・ゼンパー",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サマセット・ハウス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サンスーシ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サンスーシ宮殿",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サンタ・マリア・ノヴェッラ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サンティーヴォ・アッラ・サピエンツァ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サント・ジュヌヴィエーヴ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サント・ジュヌヴィエーヴ聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サント・スピリト",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サント・スピリト聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サント＝シャペル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サント＝ジュヌヴィエーヴ図書館",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サント＝ジュヌヴィエーヴ聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サント＝スピリト",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サント＝スピリト聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サン・ドニ修道院付属教会",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サン・ドニ修道院教会",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サン・ロレンツオ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サン・ロレンツオ聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サン・ヴィターレ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サン＝ジャン・ド・モンマルトル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サヴォア",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サヴォア邸",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "サーブドスペース・サーバントスペース",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ザンクト・ミヒャエル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ザンクト・ミヒャエル聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "シェナージュ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "シェル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "シカゴ・トリビューン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "シドニーオペラハウス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "シナン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "シャルルマーニュ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "シュジェール",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "シンケル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ジャイルズ・ギルバート・スコット",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ジャコモ・バロッツィ・ダ・ヴィニョーラ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ジャコモ・バロッツイ・ダ・ヴィニョーラ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ジャック・ジェルメン・スフロ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ジャック＝ジェルメン・スフロ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ジョサイア・コンドル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ジョンソン・ワックス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ジョン・ラスキン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "スカイスクレイバー",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "スカイハウス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "スカモッツィ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "スケッチ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ストックホルム",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "スポリア",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "スマーク",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "スレイマニエモスク",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "センタービル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ソニービル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ソビエトパレス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ソールズベリ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ソールズベリ大聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ゾーン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ダム大聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "テンション",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "テンピオ・マラテスティアーノ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "テンピオ・マラテスティアーノ聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "デール・エル・メディナ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "トウーゲントハット",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "トウーゲントハット邸",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "トニー・ガルニエ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "トプカプ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "トプカプ宮殿",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "トリフォリウム",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "トルコ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "トロッケン・モンタージュ・バウ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ドメニコ・フォンターナ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ドーム構造",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ニューデリー",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ノートル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ノートルダム",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ノートル＝ダム大聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ノートル＝ダム聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ハギヤ・ソフィア",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ハワード",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "バザール",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "バシリカ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "バジリカ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "バルセロナ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "バンケッティング・ハウス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "パノプティコン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "パラディオ主義",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヒッポダモス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヒンドゥー",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ビザンチン建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2023_専門1_建筑史_Q問題5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ビザンツ建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ビザンティン建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "フィリッポ・ブルネレスキ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "フィレンツェ大聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "フィンランド",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ブラマンテ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ブルネッレスキ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ブーレー",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "プラン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "プリエネ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "プロセス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ベッドフォード",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ベランダ・コロニアル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ベルリン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ベンサム",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ペンシルベニア",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ホテル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ホワイトホール",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ホームページ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q8.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ボロブドゥール",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ポストモダン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ポスト・モダニズム",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ポワッシー",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "マジョリカ・ハウス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "マリア",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "マルク・アントワーヌ・ロージエ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "マルセイユ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "マーク",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q8.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ミケランジェロ・ブオナローティ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ミレトス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "メスキータ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "メートル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "モスクワ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "モダニズム",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "モダニズム建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "モデル",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門2-2_建筑史_Q13.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "モヘンジョダロ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "モントリオール",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ユニテ・ダビタシオン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヨハン・ヨアヒム・ヴィンケルマン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヨン・ウッツオン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ラウンレンツィアーナ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ラウンレンツィアーナ図書館",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ラテン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2022_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ラファエロ・サンティ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ラブルースト",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ラングハンス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ランス大聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "リングシュトラーセ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "リヴァプール",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "リヴァプール大聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ルイス・カーン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ルサコフ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ルドウー",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ルネサンス様式",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ル・コルビュジェ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門2-2_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ル・コルビュジエ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ル・ランシー",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "レイヨナン",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "レオン・バッティスタ・アルベルティ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "レオン・バティスタ・アルベルティ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "レム・クールハウス",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ロバート・スマーク",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ロンドン・ハイドパーク",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヴィスタ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヴィラ・マダマ",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヴェネチア",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "ヴェネツィア",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "一塔三金堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "一間四面堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "不動院金堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "中世建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "中世都市",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "中門造",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "丸御殿",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "今西家住宅",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "代表的建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "伊勢神宮内宮正殿",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "光浄院客殿",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "免震構造",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "八幡造",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "净土寺净土堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "净土寺浄土堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "净土教建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "分離派建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "古代ギリシア建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q9.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "古代ローマ建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q9.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "和様寺院建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q11.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "和様建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q11.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "啓蒙時代",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "国立国会図書館",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "国立西洋美術館",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "園城寺客殿",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "城下町",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "多宝塔",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "大報恩寺本堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "宇佐神宮本殿",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "宇治上神社",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "宇治上神社本殿",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "安田講堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "密教建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "富貴大堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "対象建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門2-2_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "巨大城下町",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "平城宮朱雀門",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "平安時代",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "延暦寺",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "延暦寺根本中堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "建筑文化",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "建築保存",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q10.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "建長寺仏殿",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "当麻寺曼荼羅堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "慈照寺東求堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "数寄屋建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "日向別邸",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "日本仏教建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "旧帝国京都博物館",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "旧神奈川県立近代美術館",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "明治時代",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "明王院本堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "春日大社本殿",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "木造構造",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q11.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "本棟造",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "東京カテドラル聖マリア大聖堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "東京国立博物館",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "東大寺南大門",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "東山殿",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "東山殿東求堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "根来寺",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "根来寺大塔",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "権現造",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "歴史的記念建造",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q8.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "法隆寺",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "法隆寺五重塔",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "法隆寺伝法堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "法隆寺金堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "洗礼堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "浄土寺浄土堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "渄土寺浄土堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "滋賀県園城寺",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "産業革命",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門2-2_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "田園都市",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "當麻寺曼荼羅堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "當麻寺本堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "発表時期",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "目加田家住宅",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "相国寺",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "礼拝堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "社会改造",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "社会的活用",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q8.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "神魂神社",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "秈迦堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "空間都市",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "竣工時期",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "箱木家住宅",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "築地本願寺",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "聖墳墓",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "萬福寺大雄宝殿",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "護国寺",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "賀茂別雷神社",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "近現代建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "都市住宅",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "都市改造・図・様式",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2026_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "重要伝統的建造",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "重要伝統的建造物群保存",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q4.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "鉄筋コンクリート構造",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2022_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "鎌倉期建築",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門2-2_建筑史_Q12.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "鏤阿寺本堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "門前町",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "集中堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": false,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "集合住宅",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2022_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "飛鳥寺",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "term": "鶴林寺本堂",
+      "examCount": 1,
+      "fileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "inAnkiExact": true,
+      "reviewStatus": "needs-review"
+    }
+  ]
+}

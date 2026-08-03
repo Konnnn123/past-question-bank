@@ -1,0 +1,4943 @@
+{
+  "version": "2.1",
+  "scannedAt": "2026-07-18T09:51:15.828449",
+  "totalFiles": 134,
+  "s1_subquestions": 215,
+  "s2_subquestions": 138,
+  "manual_review_count": 16,
+  "manual_review_pct": 7.4,
+  "entries_s1": [
+    {
+      "year": 2013,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "history_wordbank_pairing_no_image",
+      "answer_mode": "wordbank_pair",
+      "has_image": false,
+      "required_fields": [
+        "building_name",
+        "architect",
+        "style",
+        "period"
+      ],
+      "file": "2013_専門1_建筑史_Q5.md",
+      "block_id": "2013_history_Q5"
+    },
+    {
+      "year": 2013,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 2,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2013_専門1_建筑史_Q5.md",
+      "block_id": "2013_history_Q5"
+    },
+    {
+      "year": 2013,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "construction_numerical",
+      "answer_mode": "calculation",
+      "calculation_required": true,
+      "required_fields": [
+        "formula",
+        "parameters"
+      ],
+      "file": "2013_専門1_建筑构法_Q2.md",
+      "block_id": "2013_construction_Q2"
+    },
+    {
+      "year": 2013,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2013_専門1_建筑环境工学_Q4.md",
+      "block_id": "2013_environment_Q4"
+    },
+    {
+      "year": 2013,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2013_専門1_建筑环境工学_Q4.md",
+      "block_id": "2013_environment_Q4"
+    },
+    {
+      "year": 2013,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2013_専門1_建筑环境工学_Q4.md",
+      "block_id": "2013_environment_Q4"
+    },
+    {
+      "year": 2013,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 4,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2013_専門1_建筑环境工学_Q4.md",
+      "block_id": "2013_environment_Q4"
+    },
+    {
+      "year": 2013,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "planning_definition_to_term",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "definition_text",
+        "term_name"
+      ],
+      "file": "2013_専門1_建筑计划_Q3.md",
+      "block_id": "2013_planning_Q3"
+    },
+    {
+      "year": 2013,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 2,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2013_専門1_建筑计划_Q3.md",
+      "block_id": "2013_planning_Q3"
+    },
+    {
+      "year": 2013,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 3,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2013_専門1_建筑计划_Q3.md",
+      "block_id": "2013_planning_Q3"
+    },
+    {
+      "year": 2014,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2014_専門1_建筑史_Q5.md",
+      "block_id": "2014_history_Q5"
+    },
+    {
+      "year": 2015,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "history_description_to_name",
+      "answer_mode": "free_recall",
+      "has_image": false,
+      "required_fields": [
+        "description_text",
+        "entity_name"
+      ],
+      "file": "2015_専門1_建筑史_Q3.md",
+      "block_id": "2015_history_Q3"
+    },
+    {
+      "year": 2015,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 2,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2015_専門1_建筑史_Q3.md",
+      "block_id": "2015_history_Q3"
+    },
+    {
+      "year": 2015,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q6",
+      "subquestion_index": 1,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2015_専門1_建筑史_Q6.md",
+      "block_id": "2015_history_Q6"
+    },
+    {
+      "year": 2015,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q6",
+      "subquestion_index": 2,
+      "template_id": "history_image_wordbank_matching",
+      "answer_mode": "wordbank_pair",
+      "has_image": true,
+      "image_count": 6,
+      "wordbank_count": 2,
+      "required_fields": [
+        "image_asset",
+        "building_name",
+        "architect",
+        "style"
+      ],
+      "file": "2015_専門1_建筑史_Q6.md",
+      "block_id": "2015_history_Q6"
+    },
+    {
+      "year": 2015,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q6",
+      "subquestion_index": 3,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2015_専門1_建筑史_Q6.md",
+      "block_id": "2015_history_Q6"
+    },
+    {
+      "year": 2015,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q6",
+      "subquestion_index": 4,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2015_専門1_建筑史_Q6.md",
+      "block_id": "2015_history_Q6"
+    },
+    {
+      "year": 2015,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q6",
+      "subquestion_index": 5,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2015_専門1_建筑史_Q6.md",
+      "block_id": "2015_history_Q6"
+    },
+    {
+      "year": 2015,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q7",
+      "subquestion_index": 1,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2015_専門1_建筑史_Q7.md",
+      "block_id": "2015_history_Q7"
+    },
+    {
+      "year": 2015,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q7",
+      "subquestion_index": 2,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2015_専門1_建筑史_Q7.md",
+      "block_id": "2015_history_Q7"
+    },
+    {
+      "year": 2015,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "construction_numerical",
+      "answer_mode": "calculation",
+      "calculation_required": true,
+      "required_fields": [
+        "formula",
+        "parameters"
+      ],
+      "file": "2015_専門1_建筑构法_Q2.md",
+      "block_id": "2015_construction_Q2"
+    },
+    {
+      "year": 2015,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "manual_review",
+      "reason": "construction_s1_unmatched",
+      "file": "2015_専門1_建筑构法_Q2.md",
+      "block_id": "2015_construction_Q2"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 4,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 5,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 6,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 7,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 8,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 9,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 10,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 11,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 12,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 13,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 14,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 15,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 16,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑环境工学_Q4.md",
+      "block_id": "2015_environment_Q4"
+    },
+    {
+      "year": 2015,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q10",
+      "subquestion_index": 1,
+      "template_id": "planning_legal_standard_fill",
+      "answer_mode": "free_recall_or_fill",
+      "required_fields": [
+        "standard_name",
+        "legal_reference"
+      ],
+      "file": "2015_専門1_建筑计划_Q10.md",
+      "block_id": "2015_planning_Q10"
+    },
+    {
+      "year": 2015,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q10",
+      "subquestion_index": 2,
+      "template_id": "planning_legal_standard_fill",
+      "answer_mode": "free_recall_or_fill",
+      "required_fields": [
+        "standard_name",
+        "legal_reference"
+      ],
+      "file": "2015_専門1_建筑计划_Q10.md",
+      "block_id": "2015_planning_Q10"
+    },
+    {
+      "year": 2015,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q10",
+      "subquestion_index": 3,
+      "template_id": "planning_numerical_calculation",
+      "answer_mode": "calculation",
+      "required_fields": [
+        "formula",
+        "parameters"
+      ],
+      "file": "2015_専門1_建筑计划_Q10.md",
+      "block_id": "2015_planning_Q10"
+    },
+    {
+      "year": 2015,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑计划_Q5.md",
+      "block_id": "2015_planning_Q5"
+    },
+    {
+      "year": 2015,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 2,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑计划_Q5.md",
+      "block_id": "2015_planning_Q5"
+    },
+    {
+      "year": 2015,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 3,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑计划_Q5.md",
+      "block_id": "2015_planning_Q5"
+    },
+    {
+      "year": 2015,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 4,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑计划_Q5.md",
+      "block_id": "2015_planning_Q5"
+    },
+    {
+      "year": 2015,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 5,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑计划_Q5.md",
+      "block_id": "2015_planning_Q5"
+    },
+    {
+      "year": 2015,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q9",
+      "subquestion_index": 1,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑计划_Q9.md",
+      "block_id": "2015_planning_Q9"
+    },
+    {
+      "year": 2015,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q9",
+      "subquestion_index": 2,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑计划_Q9.md",
+      "block_id": "2015_planning_Q9"
+    },
+    {
+      "year": 2015,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q9",
+      "subquestion_index": 3,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2015_専門1_建筑计划_Q9.md",
+      "block_id": "2015_planning_Q9"
+    },
+    {
+      "year": 2016,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2016_専門1_建筑史_Q5.md",
+      "block_id": "2016_history_Q5"
+    },
+    {
+      "year": 2016,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "construction_numerical",
+      "answer_mode": "calculation",
+      "calculation_required": true,
+      "required_fields": [
+        "formula",
+        "parameters"
+      ],
+      "file": "2016_専門1_建筑构法_Q2.md",
+      "block_id": "2016_construction_Q2"
+    },
+    {
+      "year": 2016,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "construction_numerical",
+      "answer_mode": "select_or_recall",
+      "calculation_required": false,
+      "required_fields": [
+        "material_name",
+        "property_value"
+      ],
+      "file": "2016_専門1_建筑构法_Q2.md",
+      "block_id": "2016_construction_Q2"
+    },
+    {
+      "year": 2016,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2016_専門1_建筑环境工学_Q3.md",
+      "block_id": "2016_environment_Q3"
+    },
+    {
+      "year": 2016,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 2,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2016_専門1_建筑环境工学_Q3.md",
+      "block_id": "2016_environment_Q3"
+    },
+    {
+      "year": 2016,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2016_専門1_建筑计划_Q4.md",
+      "block_id": "2016_planning_Q4"
+    },
+    {
+      "year": 2017,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2017_専門1_建筑史_Q2.md",
+      "block_id": "2017_history_Q2"
+    },
+    {
+      "year": 2017,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "construction_numerical",
+      "answer_mode": "calculation",
+      "calculation_required": true,
+      "required_fields": [
+        "formula",
+        "parameters"
+      ],
+      "file": "2017_専門1_建筑构法_Q3.md",
+      "block_id": "2017_construction_Q3"
+    },
+    {
+      "year": 2017,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "environment_numerical_calculation",
+      "answer_mode": "calculation",
+      "calculation_required": true,
+      "required_fields": [
+        "formula",
+        "variables",
+        "units"
+      ],
+      "file": "2017_専門1_建筑环境工学_Q4.md",
+      "block_id": "2017_environment_Q4"
+    },
+    {
+      "year": 2017,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q1",
+      "subquestion_index": 1,
+      "template_id": "planning_inline_numeric_select",
+      "answer_mode": "inline_select",
+      "inline_option_count": 22,
+      "required_fields": [
+        "standard_name",
+        "numeric_value",
+        "unit",
+        "building_type"
+      ],
+      "file": "2017_専門1_建筑计划_Q1.md",
+      "block_id": "2017_planning_Q1"
+    },
+    {
+      "year": 2018,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "history_wordbank_pairing_no_image",
+      "answer_mode": "wordbank_pair",
+      "has_image": false,
+      "required_fields": [
+        "building_name",
+        "architect",
+        "style",
+        "period"
+      ],
+      "file": "2018_専門1_建筑史_Q5.md",
+      "block_id": "2018_history_Q5"
+    },
+    {
+      "year": 2018,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "construction_numerical",
+      "answer_mode": "select_or_recall",
+      "calculation_required": false,
+      "required_fields": [
+        "material_name",
+        "property_value"
+      ],
+      "file": "2018_専門1_建筑构法_Q3.md",
+      "block_id": "2018_construction_Q3"
+    },
+    {
+      "year": 2018,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "environment_numerical_calculation",
+      "answer_mode": "calculation",
+      "calculation_required": true,
+      "required_fields": [
+        "formula",
+        "variables",
+        "units"
+      ],
+      "file": "2018_専門1_建筑环境工学_Q2.md",
+      "block_id": "2018_environment_Q2"
+    },
+    {
+      "year": 2018,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "planning_legal_standard_fill",
+      "answer_mode": "free_recall_or_fill",
+      "required_fields": [
+        "standard_name",
+        "legal_reference"
+      ],
+      "file": "2018_専門1_建筑计划_Q4.md",
+      "block_id": "2018_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "construction_independent_fill",
+      "answer_mode": "select",
+      "blank_count": 12,
+      "required_fields": [
+        "term_name"
+      ],
+      "file": "2019_専門1_建筑构法_Q3.md",
+      "block_id": "2019_construction_Q3"
+    },
+    {
+      "year": 2019,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 2,
+      "template_id": "construction_independent_fill",
+      "answer_mode": "select",
+      "blank_count": 2,
+      "required_fields": [
+        "term_name"
+      ],
+      "file": "2019_専門1_建筑构法_Q3.md",
+      "block_id": "2019_construction_Q3"
+    },
+    {
+      "year": 2019,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑环境工学_Q2.md",
+      "block_id": "2019_environment_Q2"
+    },
+    {
+      "year": 2019,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑环境工学_Q2.md",
+      "block_id": "2019_environment_Q2"
+    },
+    {
+      "year": 2019,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 3,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑环境工学_Q2.md",
+      "block_id": "2019_environment_Q2"
+    },
+    {
+      "year": 2019,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 4,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑环境工学_Q2.md",
+      "block_id": "2019_environment_Q2"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 4,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 5,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 6,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 7,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 8,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 9,
+      "template_id": "planning_numerical_calculation",
+      "answer_mode": "calculation",
+      "required_fields": [
+        "formula",
+        "parameters"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 10,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 11,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 12,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 13,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 14,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 15,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 16,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 17,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 18,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 19,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2019,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 20,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2019_専門1_建筑计划_Q4.md",
+      "block_id": "2019_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "construction_independent_fill",
+      "answer_mode": "select",
+      "blank_count": 4,
+      "required_fields": [
+        "term_name"
+      ],
+      "file": "2020_専門1_建筑构法_Q3.md",
+      "block_id": "2020_construction_Q3"
+    },
+    {
+      "year": 2020,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 2,
+      "template_id": "construction_independent_fill",
+      "answer_mode": "free_recall",
+      "blank_count": 10,
+      "required_fields": [
+        "term_name"
+      ],
+      "file": "2020_専門1_建筑构法_Q3.md",
+      "block_id": "2020_construction_Q3"
+    },
+    {
+      "year": 2020,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑环境工学_Q2.md",
+      "block_id": "2020_environment_Q2"
+    },
+    {
+      "year": 2020,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑环境工学_Q2.md",
+      "block_id": "2020_environment_Q2"
+    },
+    {
+      "year": 2020,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 3,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑环境工学_Q2.md",
+      "block_id": "2020_environment_Q2"
+    },
+    {
+      "year": 2020,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 4,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑环境工学_Q2.md",
+      "block_id": "2020_environment_Q2"
+    },
+    {
+      "year": 2020,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 5,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑环境工学_Q2.md",
+      "block_id": "2020_environment_Q2"
+    },
+    {
+      "year": 2020,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 6,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑环境工学_Q2.md",
+      "block_id": "2020_environment_Q2"
+    },
+    {
+      "year": 2020,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 7,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑环境工学_Q2.md",
+      "block_id": "2020_environment_Q2"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 4,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 5,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 6,
+      "template_id": "planning_legal_standard_fill",
+      "answer_mode": "free_recall_or_fill",
+      "required_fields": [
+        "standard_name",
+        "legal_reference"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 7,
+      "template_id": "planning_legal_standard_fill",
+      "answer_mode": "free_recall_or_fill",
+      "required_fields": [
+        "standard_name",
+        "legal_reference"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 8,
+      "template_id": "planning_legal_standard_fill",
+      "answer_mode": "free_recall_or_fill",
+      "required_fields": [
+        "standard_name",
+        "legal_reference"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 9,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 10,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 11,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 12,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 13,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 14,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 15,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 16,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2020_専門1_建筑计划_Q4.md",
+      "block_id": "2020_planning_Q4"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "history_image_to_name",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 2,
+      "template_id": "history_image_to_name",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 3,
+      "template_id": "history_image_to_name",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 4,
+      "template_id": "history_image_to_name",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 5,
+      "template_id": "history_image_to_name",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 6,
+      "template_id": "history_image_to_name",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 7,
+      "template_id": "history_image_to_name",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 8,
+      "template_id": "history_image_to_name",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 9,
+      "template_id": "history_image_to_name",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 10,
+      "template_id": "history_image_to_name",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 11,
+      "template_id": "history_image_to_name",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 12,
+      "template_id": "history_image_to_architect",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "architect"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 13,
+      "template_id": "history_image_to_architect",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "architect"
+      ],
+      "file": "2022_専門1_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "environment_phenomenon_wordbank",
+      "answer_mode": "wordbank_select",
+      "shared_bank": true,
+      "required_fields": [
+        "phenomenon_description",
+        "term_name"
+      ],
+      "file": "2022_専門1_建筑环境工学_Q2.md",
+      "block_id": "2022_environment_Q2"
+    },
+    {
+      "year": 2022,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "environment_formula_completion",
+      "answer_mode": "term_plus_integer",
+      "has_formula": true,
+      "required_fields": [
+        "formula",
+        "quantity_name",
+        "exponent"
+      ],
+      "file": "2022_専門1_建筑环境工学_Q2.md",
+      "block_id": "2022_environment_Q2"
+    },
+    {
+      "year": 2022,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 3,
+      "template_id": "environment_formula_completion",
+      "answer_mode": "term_plus_integer",
+      "has_formula": true,
+      "required_fields": [
+        "formula",
+        "quantity_name",
+        "exponent"
+      ],
+      "file": "2022_専門1_建筑环境工学_Q2.md",
+      "block_id": "2022_environment_Q2"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 4,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 5,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 6,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 7,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 8,
+      "template_id": "planning_numerical_calculation",
+      "answer_mode": "calculation",
+      "required_fields": [
+        "formula",
+        "parameters"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 9,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 10,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 11,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 12,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 13,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 14,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 15,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 16,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 17,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 18,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2023_専門1_建筑计划_Q問題4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2024_専門1_建筑史_Q5.md",
+      "block_id": "2024_history_Q5"
+    },
+    {
+      "year": 2024,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "environment_numerical_calculation",
+      "answer_mode": "calculation",
+      "calculation_required": true,
+      "required_fields": [
+        "formula",
+        "variables",
+        "units"
+      ],
+      "file": "2024_専門1_建筑环境工学_Q2.md",
+      "block_id": "2024_environment_Q2"
+    },
+    {
+      "year": 2024,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "environment_numerical_calculation",
+      "answer_mode": "calculation",
+      "calculation_required": true,
+      "required_fields": [
+        "formula",
+        "variables",
+        "units"
+      ],
+      "file": "2024_専門1_建筑环境工学_Q2.md",
+      "block_id": "2024_environment_Q2"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 4,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 5,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 6,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 7,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 8,
+      "template_id": "planning_legal_standard_fill",
+      "answer_mode": "free_recall_or_fill",
+      "required_fields": [
+        "standard_name",
+        "legal_reference"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 9,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 10,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 11,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 12,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 13,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 14,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 15,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 16,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 17,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 18,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 19,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 20,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2024_専門1_建筑计划_Q4.md",
+      "block_id": "2024_planning_Q4"
+    },
+    {
+      "year": 2025,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "history_image_to_name",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "file": "2025_専門1_建筑史_Q5.md",
+      "block_id": "2025_history_Q5"
+    },
+    {
+      "year": 2025,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 2,
+      "template_id": "history_image_wordbank_matching",
+      "answer_mode": "wordbank_pair",
+      "has_image": true,
+      "image_count": 41,
+      "wordbank_count": 2,
+      "required_fields": [
+        "image_asset",
+        "building_name",
+        "architect",
+        "style"
+      ],
+      "file": "2025_専門1_建筑史_Q5.md",
+      "block_id": "2025_history_Q5"
+    },
+    {
+      "year": 2025,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 3,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2025_専門1_建筑史_Q5.md",
+      "block_id": "2025_history_Q5"
+    },
+    {
+      "year": 2025,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 4,
+      "template_id": "history_image_wordbank_matching",
+      "answer_mode": "wordbank_pair",
+      "has_image": true,
+      "image_count": 41,
+      "wordbank_count": 2,
+      "required_fields": [
+        "image_asset",
+        "building_name",
+        "architect",
+        "style"
+      ],
+      "file": "2025_専門1_建筑史_Q5.md",
+      "block_id": "2025_history_Q5"
+    },
+    {
+      "year": 2025,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 5,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2025_専門1_建筑史_Q5.md",
+      "block_id": "2025_history_Q5"
+    },
+    {
+      "year": 2025,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "construction_numerical",
+      "answer_mode": "calculation",
+      "calculation_required": true,
+      "required_fields": [
+        "formula",
+        "parameters"
+      ],
+      "file": "2025_専門1_建筑构法_Q3.md",
+      "block_id": "2025_construction_Q3"
+    },
+    {
+      "year": 2025,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 2,
+      "template_id": "construction_image_to_component",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "component_name"
+      ],
+      "file": "2025_専門1_建筑构法_Q3.md",
+      "block_id": "2025_construction_Q3"
+    },
+    {
+      "year": 2025,
+      "subject": "construction",
+      "tier": "1",
+      "question_number": "Q3",
+      "subquestion_index": 3,
+      "template_id": "construction_image_to_component",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "component_name"
+      ],
+      "file": "2025_専門1_建筑构法_Q3.md",
+      "block_id": "2025_construction_Q3"
+    },
+    {
+      "year": 2025,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "environment_numerical_calculation",
+      "answer_mode": "calculation",
+      "calculation_required": true,
+      "required_fields": [
+        "formula",
+        "variables",
+        "units"
+      ],
+      "file": "2025_専門1_建筑环境工学_Q2.md",
+      "block_id": "2025_environment_Q2"
+    },
+    {
+      "year": 2025,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2025_専門1_建筑环境工学_Q2.md",
+      "block_id": "2025_environment_Q2"
+    },
+    {
+      "year": 2025,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 3,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2025_専門1_建筑环境工学_Q2.md",
+      "block_id": "2025_environment_Q2"
+    },
+    {
+      "year": 2025,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 4,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2025_専門1_建筑环境工学_Q2.md",
+      "block_id": "2025_environment_Q2"
+    },
+    {
+      "year": 2025,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 5,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2025_専門1_建筑环境工学_Q2.md",
+      "block_id": "2025_environment_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "history_image_to_architect",
+      "answer_mode": "free_recall",
+      "has_image": true,
+      "required_fields": [
+        "image_asset",
+        "architect"
+      ],
+      "file": "2026_専門1_建筑史_Q5.md",
+      "block_id": "2026_history_Q5"
+    },
+    {
+      "year": 2026,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 2,
+      "template_id": "history_image_wordbank_matching",
+      "answer_mode": "wordbank_pair",
+      "has_image": true,
+      "image_count": 37,
+      "wordbank_count": 2,
+      "required_fields": [
+        "image_asset",
+        "building_name",
+        "architect",
+        "style"
+      ],
+      "file": "2026_専門1_建筑史_Q5.md",
+      "block_id": "2026_history_Q5"
+    },
+    {
+      "year": 2026,
+      "subject": "history",
+      "tier": "1",
+      "question_number": "Q5",
+      "subquestion_index": 3,
+      "template_id": "manual_review",
+      "reason": "history_s1_unmatched",
+      "file": "2026_専門1_建筑史_Q5.md",
+      "block_id": "2026_history_Q5"
+    },
+    {
+      "year": 2026,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑环境工学_Q2.md",
+      "block_id": "2026_environment_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑环境工学_Q2.md",
+      "block_id": "2026_environment_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 3,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑环境工学_Q2.md",
+      "block_id": "2026_environment_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 4,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑环境工学_Q2.md",
+      "block_id": "2026_environment_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 5,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑环境工学_Q2.md",
+      "block_id": "2026_environment_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 6,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑环境工学_Q2.md",
+      "block_id": "2026_environment_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 7,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑环境工学_Q2.md",
+      "block_id": "2026_environment_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "environment",
+      "tier": "1",
+      "question_number": "Q2",
+      "subquestion_index": 8,
+      "template_id": "environment_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑环境工学_Q2.md",
+      "block_id": "2026_environment_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "planning_legal_standard_fill",
+      "answer_mode": "free_recall_or_fill",
+      "required_fields": [
+        "standard_name",
+        "legal_reference"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 4,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 5,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 6,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 7,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 8,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 9,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 10,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 11,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 12,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 13,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 14,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 15,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 16,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 17,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 18,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 19,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall_or_design",
+      "required_fields": [
+        "facility_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "1",
+      "question_number": "Q4",
+      "subquestion_index": 20,
+      "template_id": "planning_facility_fact_recall",
+      "answer_mode": "free_recall",
+      "required_fields": [
+        "entity_name",
+        "fact_value"
+      ],
+      "file": "2026_専門1_建筑计划_Q4.md",
+      "block_id": "2026_planning_Q4"
+    }
+  ],
+  "entries_s2": [
+    {
+      "year": 2014,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q6",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2014_専門2-2_建筑计划_Q6.md",
+      "block_id": "2014_planning_Q6"
+    },
+    {
+      "year": 2014,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q6",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2014_専門2-2_建筑计划_Q6.md",
+      "block_id": "2014_planning_Q6"
+    },
+    {
+      "year": 2014,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q7",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2014_専門2-2_建筑计划_Q7.md",
+      "block_id": "2014_planning_Q7"
+    },
+    {
+      "year": 2014,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q7",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2014_専門2-2_建筑计划_Q7.md",
+      "block_id": "2014_planning_Q7"
+    },
+    {
+      "year": 2017,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2017_専門2-2_建筑计划_Q2.md",
+      "block_id": "2017_planning_Q2"
+    },
+    {
+      "year": 2017,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2017_専門2-2_建筑计划_Q2.md",
+      "block_id": "2017_planning_Q2"
+    },
+    {
+      "year": 2018,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑史_Q5.md",
+      "block_id": "2018_history_Q5"
+    },
+    {
+      "year": 2018,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 2,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑史_Q5.md",
+      "block_id": "2018_history_Q5"
+    },
+    {
+      "year": 2018,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 3,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑史_Q5.md",
+      "block_id": "2018_history_Q5"
+    },
+    {
+      "year": 2018,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑构法_Q3.md",
+      "block_id": "2018_construction_Q3"
+    },
+    {
+      "year": 2018,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 2,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑构法_Q3.md",
+      "block_id": "2018_construction_Q3"
+    },
+    {
+      "year": 2018,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 3,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑构法_Q3.md",
+      "block_id": "2018_construction_Q3"
+    },
+    {
+      "year": 2018,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 4,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑构法_Q3.md",
+      "block_id": "2018_construction_Q3"
+    },
+    {
+      "year": 2018,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 5,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑构法_Q3.md",
+      "block_id": "2018_construction_Q3"
+    },
+    {
+      "year": 2018,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 6,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑构法_Q3.md",
+      "block_id": "2018_construction_Q3"
+    },
+    {
+      "year": 2018,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑计划_Q1.md",
+      "block_id": "2018_planning_Q1"
+    },
+    {
+      "year": 2018,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑计划_Q1.md",
+      "block_id": "2018_planning_Q1"
+    },
+    {
+      "year": 2018,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 3,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑计划_Q1.md",
+      "block_id": "2018_planning_Q1"
+    },
+    {
+      "year": 2018,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 4,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑计划_Q1.md",
+      "block_id": "2018_planning_Q1"
+    },
+    {
+      "year": 2018,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑计划_Q2.md",
+      "block_id": "2018_planning_Q2"
+    },
+    {
+      "year": 2018,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑计划_Q2.md",
+      "block_id": "2018_planning_Q2"
+    },
+    {
+      "year": 2018,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 3,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑计划_Q2.md",
+      "block_id": "2018_planning_Q2"
+    },
+    {
+      "year": 2018,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 4,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑计划_Q2.md",
+      "block_id": "2018_planning_Q2"
+    },
+    {
+      "year": 2018,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 5,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2018_専門2-2_建筑计划_Q2.md",
+      "block_id": "2018_planning_Q2"
+    },
+    {
+      "year": 2020,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2020_専門2-2_建筑史_Q4.md",
+      "block_id": "2020_history_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2020_専門2-2_建筑史_Q4.md",
+      "block_id": "2020_history_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2020_専門2-2_建筑史_Q4.md",
+      "block_id": "2020_history_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 4,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2020_専門2-2_建筑史_Q4.md",
+      "block_id": "2020_history_Q4"
+    },
+    {
+      "year": 2020,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2020_専門2-2_建筑构法_Q3.md",
+      "block_id": "2020_construction_Q3"
+    },
+    {
+      "year": 2020,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 2,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2020_専門2-2_建筑构法_Q3.md",
+      "block_id": "2020_construction_Q3"
+    },
+    {
+      "year": 2020,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 3,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2020_専門2-2_建筑构法_Q3.md",
+      "block_id": "2020_construction_Q3"
+    },
+    {
+      "year": 2020,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 4,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2020_専門2-2_建筑构法_Q3.md",
+      "block_id": "2020_construction_Q3"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2020_専門2-2_建筑计划_Q2.md",
+      "block_id": "2020_planning_Q2"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2020_専門2-2_建筑计划_Q2.md",
+      "block_id": "2020_planning_Q2"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 3,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2020_専門2-2_建筑计划_Q2.md",
+      "block_id": "2020_planning_Q2"
+    },
+    {
+      "year": 2020,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 4,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2020_専門2-2_建筑计划_Q2.md",
+      "block_id": "2020_planning_Q2"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 1,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑史_Q1.md",
+      "block_id": "2022_history_Q1"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 2,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑史_Q1.md",
+      "block_id": "2022_history_Q1"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑史_Q4.md",
+      "block_id": "2022_history_Q4"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑史_Q4.md",
+      "block_id": "2022_history_Q4"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑史_Q4.md",
+      "block_id": "2022_history_Q4"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 4,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑史_Q4.md",
+      "block_id": "2022_history_Q4"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 2,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 3,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 4,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 5,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 6,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑史_Q5.md",
+      "block_id": "2022_history_Q5"
+    },
+    {
+      "year": 2022,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑构法_Q3.md",
+      "block_id": "2022_construction_Q3"
+    },
+    {
+      "year": 2022,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 2,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑构法_Q3.md",
+      "block_id": "2022_construction_Q3"
+    },
+    {
+      "year": 2022,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 3,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑构法_Q3.md",
+      "block_id": "2022_construction_Q3"
+    },
+    {
+      "year": 2022,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 4,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑构法_Q3.md",
+      "block_id": "2022_construction_Q3"
+    },
+    {
+      "year": 2022,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑计划_Q2.md",
+      "block_id": "2022_planning_Q2"
+    },
+    {
+      "year": 2022,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑计划_Q2.md",
+      "block_id": "2022_planning_Q2"
+    },
+    {
+      "year": 2022,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 3,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑计划_Q2.md",
+      "block_id": "2022_planning_Q2"
+    },
+    {
+      "year": 2022,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 4,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑计划_Q2.md",
+      "block_id": "2022_planning_Q2"
+    },
+    {
+      "year": 2022,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 5,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑计划_Q2.md",
+      "block_id": "2022_planning_Q2"
+    },
+    {
+      "year": 2022,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 6,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑计划_Q2.md",
+      "block_id": "2022_planning_Q2"
+    },
+    {
+      "year": 2022,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 7,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2022_専門2-2_建筑计划_Q2.md",
+      "block_id": "2022_planning_Q2"
+    },
+    {
+      "year": 2023,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 1,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑史_Q1.md",
+      "block_id": "2023_history_Q1"
+    },
+    {
+      "year": 2023,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 2,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑史_Q1.md",
+      "block_id": "2023_history_Q1"
+    },
+    {
+      "year": 2023,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑构法_Q3.md",
+      "block_id": "2023_construction_Q3"
+    },
+    {
+      "year": 2023,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 2,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑构法_Q3.md",
+      "block_id": "2023_construction_Q3"
+    },
+    {
+      "year": 2023,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 3,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑构法_Q3.md",
+      "block_id": "2023_construction_Q3"
+    },
+    {
+      "year": 2023,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 4,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑构法_Q3.md",
+      "block_id": "2023_construction_Q3"
+    },
+    {
+      "year": 2023,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 5,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑构法_Q3.md",
+      "block_id": "2023_construction_Q3"
+    },
+    {
+      "year": 2023,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑构法_Q5.md",
+      "block_id": "2023_construction_Q5"
+    },
+    {
+      "year": 2023,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 2,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑构法_Q5.md",
+      "block_id": "2023_construction_Q5"
+    },
+    {
+      "year": 2023,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 3,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑构法_Q5.md",
+      "block_id": "2023_construction_Q5"
+    },
+    {
+      "year": 2023,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 4,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑构法_Q5.md",
+      "block_id": "2023_construction_Q5"
+    },
+    {
+      "year": 2023,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 5,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑构法_Q5.md",
+      "block_id": "2023_construction_Q5"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q2.md",
+      "block_id": "2023_planning_Q2"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q2.md",
+      "block_id": "2023_planning_Q2"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 3,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q2.md",
+      "block_id": "2023_planning_Q2"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 4,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q2.md",
+      "block_id": "2023_planning_Q2"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 5,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q2.md",
+      "block_id": "2023_planning_Q2"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 6,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q2.md",
+      "block_id": "2023_planning_Q2"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 7,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q2.md",
+      "block_id": "2023_planning_Q2"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 8,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q2.md",
+      "block_id": "2023_planning_Q2"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 9,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q2.md",
+      "block_id": "2023_planning_Q2"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 4,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 5,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 6,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 7,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2023,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 8,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2023_専門2-2_建筑计划_Q4.md",
+      "block_id": "2023_planning_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑史_Q3.md",
+      "block_id": "2024_history_Q3"
+    },
+    {
+      "year": 2024,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 2,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑史_Q3.md",
+      "block_id": "2024_history_Q3"
+    },
+    {
+      "year": 2024,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 3,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑史_Q3.md",
+      "block_id": "2024_history_Q3"
+    },
+    {
+      "year": 2024,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 4,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑史_Q3.md",
+      "block_id": "2024_history_Q3"
+    },
+    {
+      "year": 2024,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 5,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑史_Q3.md",
+      "block_id": "2024_history_Q3"
+    },
+    {
+      "year": 2024,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑史_Q4.md",
+      "block_id": "2024_history_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑史_Q4.md",
+      "block_id": "2024_history_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑史_Q4.md",
+      "block_id": "2024_history_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 4,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑史_Q4.md",
+      "block_id": "2024_history_Q4"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑计划_Q2.md",
+      "block_id": "2024_planning_Q2"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑计划_Q2.md",
+      "block_id": "2024_planning_Q2"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 3,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑计划_Q2.md",
+      "block_id": "2024_planning_Q2"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 4,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑计划_Q2.md",
+      "block_id": "2024_planning_Q2"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 5,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑计划_Q2.md",
+      "block_id": "2024_planning_Q2"
+    },
+    {
+      "year": 2024,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 6,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2024_専門2-2_建筑计划_Q2.md",
+      "block_id": "2024_planning_Q2"
+    },
+    {
+      "year": 2025,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑史_Q3.md",
+      "block_id": "2025_history_Q3"
+    },
+    {
+      "year": 2025,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑史_Q4.md",
+      "block_id": "2025_history_Q4"
+    },
+    {
+      "year": 2025,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑史_Q4.md",
+      "block_id": "2025_history_Q4"
+    },
+    {
+      "year": 2025,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑史_Q4.md",
+      "block_id": "2025_history_Q4"
+    },
+    {
+      "year": 2025,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 4,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑史_Q4.md",
+      "block_id": "2025_history_Q4"
+    },
+    {
+      "year": 2025,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 5,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑史_Q4.md",
+      "block_id": "2025_history_Q4"
+    },
+    {
+      "year": 2025,
+      "subject": "construction",
+      "tier": "2-2",
+      "question_number": "Q5",
+      "subquestion_index": 1,
+      "template_id": "construction_essay_s2",
+      "answer_mode": "essay_design",
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑构法_Q5.md",
+      "block_id": "2025_construction_Q5"
+    },
+    {
+      "year": 2025,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑计划_Q1.md",
+      "block_id": "2025_planning_Q1"
+    },
+    {
+      "year": 2025,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑计划_Q1.md",
+      "block_id": "2025_planning_Q1"
+    },
+    {
+      "year": 2025,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 3,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑计划_Q1.md",
+      "block_id": "2025_planning_Q1"
+    },
+    {
+      "year": 2025,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 4,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑计划_Q1.md",
+      "block_id": "2025_planning_Q1"
+    },
+    {
+      "year": 2025,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑计划_Q2.md",
+      "block_id": "2025_planning_Q2"
+    },
+    {
+      "year": 2025,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑计划_Q2.md",
+      "block_id": "2025_planning_Q2"
+    },
+    {
+      "year": 2025,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 3,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑计划_Q2.md",
+      "block_id": "2025_planning_Q2"
+    },
+    {
+      "year": 2025,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 4,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2025_専門2-2_建筑计划_Q2.md",
+      "block_id": "2025_planning_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 1,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑史_Q3.md",
+      "block_id": "2026_history_Q3"
+    },
+    {
+      "year": 2026,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 2,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑史_Q3.md",
+      "block_id": "2026_history_Q3"
+    },
+    {
+      "year": 2026,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 3,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑史_Q3.md",
+      "block_id": "2026_history_Q3"
+    },
+    {
+      "year": 2026,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 4,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑史_Q3.md",
+      "block_id": "2026_history_Q3"
+    },
+    {
+      "year": 2026,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q3",
+      "subquestion_index": 5,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": false,
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑史_Q3.md",
+      "block_id": "2026_history_Q3"
+    },
+    {
+      "year": 2026,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 1,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑史_Q4.md",
+      "block_id": "2026_history_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 2,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑史_Q4.md",
+      "block_id": "2026_history_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "history",
+      "tier": "2-2",
+      "question_number": "Q4",
+      "subquestion_index": 3,
+      "template_id": "history_essay_s2",
+      "answer_mode": "essay",
+      "has_image": true,
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑史_Q4.md",
+      "block_id": "2026_history_Q4"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑计划_Q1.md",
+      "block_id": "2026_planning_Q1"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑计划_Q1.md",
+      "block_id": "2026_planning_Q1"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 3,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑计划_Q1.md",
+      "block_id": "2026_planning_Q1"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q1",
+      "subquestion_index": 4,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑计划_Q1.md",
+      "block_id": "2026_planning_Q1"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 1,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑计划_Q2.md",
+      "block_id": "2026_planning_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 2,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑计划_Q2.md",
+      "block_id": "2026_planning_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 3,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑计划_Q2.md",
+      "block_id": "2026_planning_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 4,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑计划_Q2.md",
+      "block_id": "2026_planning_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 5,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑计划_Q2.md",
+      "block_id": "2026_planning_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 6,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑计划_Q2.md",
+      "block_id": "2026_planning_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 7,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑计划_Q2.md",
+      "block_id": "2026_planning_Q2"
+    },
+    {
+      "year": 2026,
+      "subject": "planning",
+      "tier": "2-2",
+      "question_number": "Q2",
+      "subquestion_index": 8,
+      "template_id": "planning_essay_s2",
+      "answer_mode": "essay",
+      "not_automatable": true,
+      "file": "2026_専門2-2_建筑计划_Q2.md",
+      "block_id": "2026_planning_Q2"
+    }
+  ]
+}

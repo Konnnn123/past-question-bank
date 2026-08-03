@@ -9,10 +9,10 @@ import type { Question } from "@/types/question";
 
 interface QuestionCardProps {
   question: Question;
-  index: number;
+  referrer?: string;
 }
 
-export default function QuestionCard({ question, index }: QuestionCardProps) {
+export default function QuestionCard({ question, referrer = "/exam/past" }: QuestionCardProps) {
   const previewContent =
     question.content.length > 500
       ? question.content.slice(0, 500) + "..."
@@ -20,13 +20,13 @@ export default function QuestionCard({ question, index }: QuestionCardProps) {
 
   const handleClick = () => {
     if (typeof window !== "undefined") {
-      localStorage.setItem("questionReferrer", "/");
+      localStorage.setItem("questionReferrer", referrer);
     }
   };
 
   return (
     <Link
-      href={`/question/${index}`}
+      href={`/question/${encodeURIComponent(question.id)}`}
       onClick={handleClick}
       className="group block border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg hover:border-gray-300 transition-all duration-200 bg-white"
     >

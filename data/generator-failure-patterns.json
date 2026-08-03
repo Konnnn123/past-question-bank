@@ -1,0 +1,48 @@
+{
+  "phase": 3,
+  "patterns": {
+    "History": {
+      "questionCount": 9,
+      "avgStructuralSimilarity": 3.0,
+      "rejectCount": 0,
+      "regenerateCount": 8,
+      "topFailureCauses": {
+        "single_fact_recall_not_exam_like": 17
+      },
+      "readiness": "Requires template redesign"
+    },
+    "Construction": {
+      "questionCount": 3,
+      "avgStructuralSimilarity": 2.5,
+      "rejectCount": 0,
+      "regenerateCount": 3,
+      "topFailureCauses": {
+        "copied_anki_definition": 3
+      },
+      "readiness": "Requires template redesign"
+    },
+    "Environment": {
+      "questionCount": 7,
+      "avgStructuralSimilarity": 2.4,
+      "rejectCount": 2,
+      "regenerateCount": 4,
+      "topFailureCauses": {
+        "surface_level_not_conceptual": 10,
+        "missing_context_or_scope": 3,
+        "symbol_recall_not_relationship": 2
+      },
+      "readiness": "Requires template redesign"
+    },
+    "Planning": {
+      "questionCount": 7,
+      "avgStructuralSimilarity": 1.9,
+      "rejectCount": 4,
+      "regenerateCount": 0,
+      "topFailureCauses": {
+        "surface_level_not_conceptual": 6,
+        "missing_context_or_scope": 5
+      },
+      "readiness": "Blocked by missing data"
+    }
+  }
+}

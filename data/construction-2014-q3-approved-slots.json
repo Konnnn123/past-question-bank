@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "reviewId": "BC-001",
+  "status": "approved_slot_index",
+  "source": { "file": "data/processed_questions/2014_専門1_建筑构法_Q3.md", "answerIndex": "data/construction-exam-answers.json#2014:専門1:問題3" },
+  "template": "construction_independent_term_fill_2014_Q3",
+  "relation": "construction_description_to_term",
+  "slots": [
+    {"slot":"s01","prompt":"相対変位に追従する接合部","answer":"エキスパンションジョイント","answerType":"term","sourceLocation":"2014 Q3 s01","allowedVariants":[]},
+    {"slot":"s02","prompt":"建具を鴨居と敷居にはめる方法","answer":"落とし込み","answerType":"method","sourceLocation":"2014 Q3 s02","allowedVariants":[]},
+    {"slot":"s03","prompt":"側柱→小屋梁→軒桁の架構法","answer":"京呂組","answerType":"method","sourceLocation":"2014 Q3 s03","allowedVariants":[]},
+    {"slot":"s04","prompt":"側柱→軒桁→小屋梁の架構法","answer":"折置組","answerType":"method","sourceLocation":"2014 Q3 s04","allowedVariants":[]},
+    {"slot":"s05","prompt":"段板を受ける階段桁","answer":"ささら桁","answerType":"component","sourceLocation":"2014 Q3 s05","allowedVariants":[]},
+    {"slot":"s06","prompt":"てこで軒を支持する材","answer":"跳木（はねぎ）","answerType":"component","sourceLocation":"2014 Q3 s06","allowedVariants":["跳木"]},
+    {"slot":"s07","prompt":"一頂点に集まる正方形等の屋根","answer":"方形屋根","answerType":"term","sourceLocation":"2014 Q3 s07","allowedVariants":[]},
+    {"slot":"s08","prompt":"大棟両側に流れをもつ屋根","answer":"切妻屋根","answerType":"term","sourceLocation":"2014 Q3 s08","allowedVariants":[]},
+    {"slot":"s09","prompt":"平瓦間に丸瓦をかぶせる構法","answer":"本瓦葺き","answerType":"method","sourceLocation":"2014 Q3 s09","allowedVariants":[]},
+    {"slot":"s10","prompt":"木材間をU字形金属板で葺く構法","answer":"瓦棒葺き","answerType":"method","sourceLocation":"2014 Q3 s10","allowedVariants":[]},
+    {"slot":"s11","prompt":"コンクリートの作業性","answer":"ワーカビリティ","answerType":"term","sourceLocation":"2014 Q3 s11","allowedVariants":[]},
+    {"slot":"s12","prompt":"底面の広がりで測る流動性試験","answer":"スランプフロー試験","answerType":"test","sourceLocation":"2014 Q3 s12","allowedVariants":[]},
+    {"slot":"s13","prompt":"セメントに対する水の質量比","answer":"水セメント比（W/C）","answerType":"ratio","sourceLocation":"2014 Q3 s13","allowedVariants":["水セメント比"]},
+    {"slot":"s14","prompt":"載荷板による地盤支持力試験","answer":"平板載荷試験","answerType":"test","sourceLocation":"2014 Q3 s14","allowedVariants":[]},
+    {"slot":"s15","prompt":"木材が繊維方向に裂ける現象","answer":"割裂","answerType":"failure_mode","sourceLocation":"2014 Q3 s15","allowedVariants":[]},
+    {"slot":"s16","prompt":"部分圧縮で表面がへこむ現象","answer":"めり込み","answerType":"failure_mode","sourceLocation":"2014 Q3 s16","allowedVariants":[]},
+    {"slot":"s17","prompt":"単板を平行に積層した材料","answer":"LVL（単板積層材）","answerType":"material","sourceLocation":"2014 Q3 s17","allowedVariants":["LVL","単板積層材"]},
+    {"slot":"s18","prompt":"応力一定でひずみが増す現象","answer":"降伏","answerType":"phenomenon","sourceLocation":"2014 Q3 s18","allowedVariants":[]},
+    {"slot":"s19","prompt":"加熱後急冷する熱処理","answer":"焼入れ","answerType":"method","sourceLocation":"2014 Q3 s19","allowedVariants":[]},
+    {"slot":"s20","prompt":"H形鋼の張出し板部分","answer":"フランジ","answerType":"component","sourceLocation":"2014 Q3 s20","allowedVariants":[]}
+  ]
+}

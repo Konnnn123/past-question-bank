@@ -1,0 +1,34 @@
+{
+  "id": "building-construction-s1-format-audit-v1",
+  "scope": {"subject":"building_construction","exam":"専門1","excluded":["専門2-2","structural_mechanics"]},
+  "sourceFileCount": 15,
+  "questionBlocks": [
+    {"year":2013,"question":"Q2","formats":["shared_word_bank_fill"],"structure":"20 blanks; one large reusable bank; repeated answers allowed","automation":"partial"},
+    {"year":2014,"question":"Q3","formats":["scoped_term_short_answer"],"structure":"20 independent descriptions answered by term","automation":"partial"},
+    {"year":2015,"question":"Q2","formats":["grouped_numeric_select","semantic_association_bank"],"structure":"material values/factors plus term-to-related-term bank","automation":"numeric_ready; association_needs_relation_data"},
+    {"year":2015,"question":"Q12","formats":["diagram_constrained_explanation"],"structure":"draw and explain cladding-panel seismic support principle","automation":"rubric_only"},
+    {"year":2015,"question":"Q13","formats":["diagram_constrained_explanation"],"structure":"draw and explain a waterproof glass-and-stone-panel assembly","automation":"rubric_only"},
+    {"year":2016,"question":"Q2","formats":["shared_word_bank_fill","diagram_label_word_bank"],"structure":"23 text blanks plus 7 labelled roof-frame diagram blanks","automation":"text_partial; image_asset_required"},
+    {"year":2017,"question":"Q3","formats":["semantic_association_bank","grouped_numeric_select"],"structure":"10 term-to-domain mappings plus 10 material properties","automation":"numeric_partial; association_needs_relation_data"},
+    {"year":2018,"question":"Q3","formats":["grouped_numeric_select","diagram_label_word_bank"],"structure":"9 grouped material/allowable-stress values plus labelled construction details","automation":"numeric_ready; image_asset_required"},
+    {"year":2019,"question":"Q3","formats":["shared_word_bank_fill","diagram_label_word_bank"],"structure":"10 contextual blanks plus four labelled construction-detail diagrams","automation":"text_partial; image_asset_required"},
+    {"year":2020,"question":"Q3","formats":["grouped_numeric_select","image_form_matching"],"structure":"10 material properties plus architect-to-image-and-structural-form matching","automation":"numeric_partial; image_and_relation_data_required"},
+    {"year":2022,"question":"Q3","formats":["shared_word_bank_fill"],"structure":"20 technical blanks; 27-term shared bank; 7 surplus terms","automation":"prototype_exists_needs_scale"},
+    {"year":2023,"question":"Q3","formats":["diagram_label_word_bank"],"structure":"single technical illustration; labels selected once from a homogeneous term bank","automation":"image_asset_required"},
+    {"year":2024,"question":"Q3","formats":["inline_four_choice_fill"],"structure":"20 contextual blanks, each with its own four inline choices","automation":"needs_per-domain_distractor_pools"},
+    {"year":2025,"question":"Q3","formats":["grouped_numeric_select","diagram_label_word_bank"],"structure":"six values/factors, four material-composition images, and one structural-component diagram","automation":"numeric_ready; image_asset_required"},
+    {"year":2026,"question":"Q3","formats":["diagram_comparison_explanation"],"structure":"eight paired terms; explain differences with simple annotated line drawings","automation":"rubric_only"}
+  ],
+  "formatFamilies": [
+    {"id":"shared_word_bank_fill","years":[2013,2016,2019,2022],"status":"atomic_fact_based_prototype","generatorGap":"The 27-fact RC seed pool dynamically renders a 2022-shaped prototype, but it is below the 60-fact minimum and uses complement-only surplus terms; it is not production-ready."},
+    {"id":"scoped_term_short_answer","years":[2014],"status":"production_ready","generatorGap":"2014 20-item answer-index-audited term pack and accepted-answer rules released."},
+    {"id":"grouped_numeric_select","years":[2015,2017,2018,2020,2025],"status":"production_ready_subsets","generatorGap":"Density, strength/allowable stress, Young's modulus, and 2020-scoped thermal expansion are production-ready; other source-year/property subsets still need evidence review"},
+    {"id":"semantic_association_bank","years":[2015,2017],"status":"production_ready_rc_pilot","generatorGap":"A source-audited RC-construction 2017-style bank is production-ready; additional domain packs are needed for coverage beyond RC"},
+    {"id":"diagram_label_word_bank","years":[2016,2018,2019,2023,2025],"status":"production_ready","generatorGap":"2016 source-asset-verified roof-frame subset is released; future variants need their own asset annotations."},
+    {"id":"inline_four_choice_fill","years":[2024],"status":"production_ready","generatorGap":"2024 20-item local four-choice pools released."},
+    {"id":"image_form_matching","years":[2020],"status":"production_ready","generatorGap":"2020 reviewed architect/form relation pack released with generator-owned schematic cards."},
+    {"id":"diagram_constrained_explanation","years":[2015],"status":"production_ready_human_review","generatorGap":"Released as human-reviewed drawing/explanation tasks; automatic grading is deliberately not claimed."},
+    {"id":"diagram_comparison_explanation","years":[2026],"status":"production_ready_human_review","generatorGap":"Released as human-reviewed paired drawing tasks; automatic grading is deliberately not claimed."}
+  ],
+  "conclusion": "All nine observed Specialist 1 building-construction format families now have a production release path. Numeric and selection formats are automatically scoreable; drawing/explanation formats are production-ready with explicit human-review rubrics."
+}

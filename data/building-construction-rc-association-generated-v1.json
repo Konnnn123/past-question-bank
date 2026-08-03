@@ -1,0 +1,24 @@
+{
+  "id": "generated-building-construction-rc-association-v1",
+  "layer": "generated_mock_question",
+  "status": "production_ready",
+  "prototypeId": "2017-q3-semantic-association",
+  "primaryDomain": "rc_construction",
+  "format": "shared_word_bank_fill",
+  "reuseAllowed": false,
+  "wordBank": ["コールドジョイント", "あばら筋", "線膨張係数", "フォームタイ", "かぶり", "スランプ値", "セパレーター", "引張力", "帯筋", "豆板"],
+  "items": [
+    {"id":"rc-generated-01","factId":"rc-01","prompt":"鉄筋コンクリート部材が温度変化を受けるとき、鉄筋とコンクリートの変形が大きく異ならないことに関わる材料特性は（　）である。","answer":"線膨張係数"},
+    {"id":"rc-generated-02","factId":"rc-02","prompt":"鉄筋コンクリート梁の引張側に主筋を配置するのは、部材に生じる（　）を主に負担させるためである。","answer":"引張力"},
+    {"id":"rc-generated-03","factId":"rc-03","prompt":"荷卸し時にフレッシュコンクリートの施工しやすさを確認するため、軟らかさの指標として測定する値を（　）という。","answer":"スランプ値"},
+    {"id":"rc-generated-04","factId":"rc-05","prompt":"鉄筋コンクリート柱の断面で、複数の主筋の周囲を横方向に囲む補強筋は（　）である。","answer":"帯筋"},
+    {"id":"rc-generated-05","factId":"rc-06","prompt":"鉄筋コンクリート梁の断面で、主筋を横方向に囲む補強筋は（　）である。","answer":"あばら筋"},
+    {"id":"rc-generated-06","factId":"rc-07","prompt":"鉄筋を腐食や火熱から保護するため、鉄筋表面からコンクリート表面まで確保する最小距離を（　）厚さという。","answer":"かぶり"},
+    {"id":"rc-generated-07","factId":"rc-08","prompt":"締固め不足などで粗骨材まわりに空隙が残り、コンクリートが十分に充填されない部分を（　）という。","answer":"豆板"},
+    {"id":"rc-generated-08","factId":"rc-09","prompt":"打込みを長時間中断した後に再開し、新旧コンクリートが打継ぎ面で一体化しない不良を（　）という。","answer":"コールドジョイント"},
+    {"id":"rc-generated-09","factId":"rc-10","prompt":"側圧で型枠が開かないよう、外側から型枠を緊結する部材は（　）である。","answer":"フォームタイ"},
+    {"id":"rc-generated-10","factId":"rc-11","prompt":"壁厚を一定に保つため、向かい合う型枠の間隔を決める部材は（　）である。","answer":"セパレーター"}
+  ],
+  "provenance": {"projection":"data/building-construction-rc-association-projections.json","reviewedFactPack":"data/building-construction-rc-reviewed-facts.json","generationMode":"2017 one-to-one shared bank","sourceSentenceReuse":false},
+  "validation": {"promptCount":10,"wordBankSize":10,"surplusCount":0,"answersUnique":true,"answersAllInBank":true,"allFactIdsReviewed":true,"singlePrimaryDomain":true,"structuralMechanicsExcluded":true,"prototypeRegressionPassed":true,"sourceSentenceReuse":false,"allItemsUseNovelContext":true}
+}

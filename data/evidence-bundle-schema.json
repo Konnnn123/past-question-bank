@@ -1,0 +1,25 @@
+{
+  "id": "evidence_bundle",
+  "required": [
+    "centralEntity",
+    "linkedFacts",
+    "sourceProvenance",
+    "confidence"
+  ],
+  "properties": {
+    "centralEntity": "name of the main entity (building, term, formula, standard)",
+    "linkedFacts": "array of atomic fact IDs that support this bundle",
+    "relationGraph": "how facts relate: e.g. building→architect, building→style",
+    "sourceProvenance": "anki/notion/past_exam",
+    "confidence": "high/medium",
+    "subject": "history/construction/environment/planning",
+    "topic": "specific topic within subject",
+    "units": "for numeric facts",
+    "applicableConditions": "boundary/assumption text",
+    "relatedMisconceptions": "misconception IDs",
+    "visualAssets": "image asset IDs if image template",
+    "solutionDerivation": "for numerical: worked solution",
+    "acceptableAlternatives": "aliases or equivalent answers",
+    "knownAmbiguity": "documented ambiguity risks"
+  }
+}

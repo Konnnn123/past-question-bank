@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="650" viewBox="0 0 960 650">
+  <rect width="960" height="650" fill="#f7f4ed"/>
+  <text x="42" y="48" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#17324d">近現代大スパン｜線・面・張力・網で比較する</text>
+  <text x="42" y="78" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="16" fill="#52606d">truss / shell / cable / space frame</text>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" fill="#17324d" stroke-linejoin="round">
+    <g transform="translate(65 125)">
+      <text x="175" y="0" text-anchor="middle" font-size="21" font-weight="700">トラス（truss）</text>
+      <path d="M20 150 L75 65 L130 150 L185 65 L240 150 L295 65 L330 150" fill="none" stroke="#17324d" stroke-width="6"/>
+      <line x1="20" y1="150" x2="330" y2="150" stroke="#17324d" stroke-width="6"/>
+      <text x="175" y="195" text-anchor="middle" font-size="17" fill="#52606d">部材の引張・圧縮</text>
+    </g>
+    <g transform="translate(550 125)">
+      <text x="175" y="0" text-anchor="middle" font-size="21" font-weight="700">シェル（shell）</text>
+      <path d="M20 150 Q175 -10 330 150" fill="none" stroke="#b14f3b" stroke-width="9"/>
+      <line x1="20" y1="150" x2="330" y2="150" stroke="#17324d" stroke-width="6"/>
+      <text x="175" y="195" text-anchor="middle" font-size="17" fill="#52606d">薄い曲面の面内力</text>
+    </g>
+    <g transform="translate(65 350)">
+      <text x="175" y="0" text-anchor="middle" font-size="21" font-weight="700">ケーブル（cable）</text>
+      <line x1="25" y1="45" x2="25" y2="175" stroke="#17324d" stroke-width="9"/>
+      <line x1="325" y1="45" x2="325" y2="175" stroke="#17324d" stroke-width="9"/>
+      <path d="M25 55 Q175 210 325 55" fill="none" stroke="#2e7d75" stroke-width="8"/>
+      <line x1="25" y1="175" x2="325" y2="175" stroke="#17324d" stroke-width="5"/>
+      <text x="175" y="215" text-anchor="middle" font-size="17" fill="#52606d">張力＋アンカー／塔</text>
+    </g>
+    <g transform="translate(550 350)">
+      <text x="175" y="0" text-anchor="middle" font-size="21" font-weight="700">立体網架（space frame）</text>
+      <g fill="none" stroke="#8b6b3f" stroke-width="4">
+        <path d="M20 75 L95 25 L170 75 L245 25 L330 75"/>
+        <path d="M20 155 L95 105 L170 155 L245 105 L330 155"/>
+        <line x1="20" y1="75" x2="20" y2="155"/><line x1="95" y1="25" x2="95" y2="105"/><line x1="170" y1="75" x2="170" y2="155"/><line x1="245" y1="25" x2="245" y2="105"/><line x1="330" y1="75" x2="330" y2="155"/>
+        <line x1="20" y1="75" x2="95" y2="105"/><line x1="95" y1="25" x2="170" y2="155"/><line x1="170" y1="75" x2="245" y2="105"/><line x1="245" y1="25" x2="330" y2="155"/>
+      </g>
+      <text x="175" y="215" text-anchor="middle" font-size="17" fill="#52606d">三次元ネットワーク</text>
+    </g>
+  </g>
+  <text x="480" y="625" text-anchor="middle" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" fill="#b14f3b">比較順序：主応力 → 支点・境界 → 材料 → 施工 → 空間 → 屋根形態の表現</text>
+</svg>

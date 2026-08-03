@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "status": "approved_proposition_pool",
+  "template": "environment_correct_statement_select",
+  "propositions": [
+    {"id":"env-cs-approved-001","reviewId":"EN-CS-001","domain":"thermal","relation":"thermal_transmittance_to_insulation_performance","trueProposition":"熱貫流率Uの値が小さいほど、壁体の断熱性能は高い。","falsePropositions":["熱貫流率Uが大きいほど、壁体の断熱性能は高い。","熱貫流率Uは室内外温度差に比例する。","熱貫流率Uは壁体の厚さだけで決まる。"],"sourceFile":"data/correct-statement-prototypes.json","sourceLocation":"cs-environment-01","reviewStatus":"approved","falseConstraints":["U値と断熱性能の関係を逆転させる","Uを熱流量と混同する","Uを厚さだけで決まるとする"]},
+    {"id":"env-cs-approved-002","reviewId":"EN-CS-002","domain":"ventilation","relation":"airflow_pattern_to_ventilation_effectiveness","trueProposition":"短絡流は有効換気効率を低下させる。","falsePropositions":["必要換気量は室容積だけで決まる。","第1種換気は必ず短絡流を防ぐ。","名目ACHが高ければ有効換気も必ず高い。"],"sourceFile":"data/correct-statement-prototypes.json","sourceLocation":"cs-environment-02","reviewStatus":"approved","falseConstraints":["必要換気量を室容積だけで決まるとする","第1種換気が必ず短絡流を防ぐとする","名目ACHが高ければ有効換気も必ず高いとする"]},
+    {"id":"env-cs-approved-003","reviewId":"EN-CS-003","domain":"moisture","relation":"surface_temperature_to_condensation_condition","trueProposition":"壁体表面温度が露点温度以下なら表面結露が生じる。","falsePropositions":["室温が露点以上なら全ての結露を防げる。","室内側防湿層は内部結露を完全に防ぐ。","表面温度が露点より高くても必ず結露する。"],"sourceFile":"data/correct-statement-prototypes.json","sourceLocation":"cs-environment-03","reviewStatus":"approved","falseConstraints":["室温が露点以上なら全ての結露を防げるとする","室内側防湿層が内部結露を完全に防ぐとする","表面温度が露点より高くても必ず結露するとする"]},
+    {"id":"env-cs-approved-004","reviewId":"EN-CS-004","domain":"radiation","relation":"radiative_transfer_to_absolute_temperature","trueProposition":"二面間の放射熱流は、両面の絶対温度の4乗差に比例する。","falsePropositions":["放射熱流は摂氏温度差に比例する。","放射伝熱には媒質が必要である。","放射率が小さいほど放射熱流は増加する。"],"sourceFile":"data/correct-statement-prototypes.json","sourceLocation":"cs-environment-04","reviewStatus":"approved","falseConstraints":["摂氏温度差への単純比例に置換しない","放射に媒質が必要としない","放射率と熱流の関係を逆転させない"]},
+    {"id":"env-cs-approved-005","reviewId":"EN-CS-005","domain":"acoustics","relation":"wall_mass_and_frequency_to_transmission_loss","trueProposition":"単層壁の遮音性能は質量則に従う傾向があるが、コインシデンス効果により特定周波数で透過損失が低下する。","falsePropositions":["壁体の遮音性能は面密度だけで決まり、周波数には依存しない。","二重壁の空気層を小さくすれば全周波数帯で遮音性能が向上する。","壁体質量を2倍にすると透過損失も2倍になる。"],"sourceFile":"data/correct-statement-prototypes.json","sourceLocation":"cs-environment-05","reviewStatus":"approved","falseConstraints":["面密度だけで全て決まるとしない","二重壁空気層の効果を無条件にしない","質量と透過損失を線形関係にしない"]}
+  ]
+}

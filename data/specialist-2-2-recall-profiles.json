@@ -1,0 +1,636 @@
+{
+  "version": 1,
+  "purpose": "専門2-2建築史の能動想起用監査済みプロファイル。自由入力との照合、段階的開示、Track A/Bへの受け渡しに使う。",
+  "rules": {
+    "factAuthority": "standardFactsとrelationsだけを正答照合に用い、カード外の事実を自動補完しない。",
+    "languageSeparation": "userRecall、cardSupplement、languageConversionをUI上で別表示する。",
+    "minimumRecall": "最初はminimumKeywordsのうち三つを思い出せればよく、完成答案を要求しない。",
+    "relationGate": "事実が揃った後にrelationsを一つ選び、因果または比較を一文で作る。"
+  },
+  "profiles": [
+    {
+      "id": "recall-pantheon",
+      "buildingId": "building-6e028baa8a9c",
+      "names": {
+        "ja": "パンテオン",
+        "zh": "万神殿",
+        "en": "Pantheon",
+        "original": "Pantheon"
+      },
+      "minimumKeywords": ["ローマ帝国", "ローマン・コンクリート", "円筒壁", "ドーム", "オクルス"],
+      "standardFacts": [
+        {
+          "id": "period",
+          "dimension": "period",
+          "required": true,
+          "text": { "ja": "現建物はハドリアヌス帝期の118～125年頃に再建された。", "zh": "现存建筑约在哈德良皇帝时期的118—125年重建。", "en": "The present building was reconstructed under Hadrian around 118–125 CE." },
+          "keywords": ["ハドリアヌス", "Hadrian", "118", "125", "罗马帝国"]
+        },
+        {
+          "id": "location",
+          "dimension": "location",
+          "required": true,
+          "text": { "ja": "イタリア・ローマに位置する。", "zh": "位于意大利罗马。", "en": "It is in Rome, Italy." },
+          "keywords": ["ローマ", "罗马", "Rome", "Italy", "イタリア"]
+        },
+        {
+          "id": "structure",
+          "dimension": "structure",
+          "required": true,
+          "text": { "ja": "厚さ6mを超える円筒壁が、直径約43.3mの無筋ローマン・コンクリート・ドームを支持する。", "zh": "厚度超过6米的圆筒墙支承直径约43.3米的无筋罗马混凝土穹顶。", "en": "A cylindrical wall over 6 m thick supports an unreinforced Roman-concrete dome about 43.3 m in diameter." },
+          "keywords": ["円筒壁", "ローマン・コンクリート", "无筋混凝土", "unreinforced dome", "43.3"]
+        },
+        {
+          "id": "space",
+          "dimension": "space",
+          "required": true,
+          "text": { "ja": "列柱ポルティコから円形ロトンダへ入り、直径と高さがほぼ等しい中心空間を頂部オクルスの光が分節する。", "zh": "由柱廊门廊进入圆形大厅；直径与高度近乎相等，顶部圆孔的光线组织中心空间。", "en": "A columned portico leads into a rotunda whose diameter and height are nearly equal; light from the oculus articulates the centralized interior." },
+          "keywords": ["ポルティコ", "ロトンダ", "圆形大厅", "oculus", "中心空間"]
+        },
+        {
+          "id": "significance",
+          "dimension": "significance",
+          "required": true,
+          "text": { "ja": "古典的神殿正面とローマのコンクリート大空間を統合し、後世の集中式・ドーム建築の重要な参照点となった。", "zh": "它把古典神庙正面与罗马混凝土大空间结合起来，成为后世集中式与穹顶建筑的重要参照。", "en": "It joins a classical temple front to a Roman concrete interior and became a major reference for later centralized and domed buildings." },
+          "keywords": ["古典神殿", "集中式", "後世への影響", "precedent", "dome"]
+        }
+      ],
+      "relations": [
+        {
+          "id": "material-to-space",
+          "type": "cause",
+          "prompt": { "ja": "なぜこの大きな中心空間が可能になったか。", "zh": "为什么这种巨大的中心空间能够实现？" },
+          "answerFrame": { "ja": "ローマン・コンクリートと厚い円筒壁によって荷重を連続的に地盤へ伝えられたため、巨大な無柱のロトンダが成立した。", "zh": "因为罗马混凝土与厚圆筒墙能够连续地把荷载传向地基，所以形成了巨大的无柱圆厅。" }
+        },
+        {
+          "id": "compare-hagia",
+          "type": "compare",
+          "targetBuildingId": "building-ad7b5b62435c",
+          "prompt": { "ja": "ハギア・ソフィアと比べ、ドーム荷重を何が受けるか。", "zh": "与圣索菲亚相比，穹顶荷载分别由什么承担？" },
+          "answerFrame": { "ja": "パンテオンは連続する円筒壁で支持するのに対し、ハギア・ソフィアはペンデンティブを介して四本の大ピアへ集中させる。", "zh": "万神殿由连续圆筒墙支承，而圣索菲亚通过帆拱把荷载集中到四座巨型墩柱。" }
+        }
+      ],
+      "termSupport": [
+        { "ja": "ローマン・コンクリート", "zh": "罗马混凝土", "original": "Roman concrete", "language": "en" },
+        { "ja": "オクルス", "zh": "顶部圆孔", "original": "oculus", "language": "la" },
+        { "ja": "ロトンダ", "zh": "圆形大厅", "original": "rotunda", "language": "it" },
+        { "ja": "ポルティコ", "zh": "柱廊门廊", "original": "portico", "language": "it" }
+      ],
+      "diagram": {
+        "recommendedViews": ["section", "plan"],
+        "labels": ["ポルティコ", "ロトンダ", "厚い円筒壁", "半球ドーム", "オクルス", "壁龕"]
+      },
+      "cautions": ["パリのパンテオン（サント＝ジュヌヴィエーヴ聖堂）と混同しない。", "年代は原建物ではなく現建物のハドリアヌス帝期として答える。"],
+      "sources": [
+        { "kind": "local", "locator": "src/lib/history-review.ts#2026_専門2-2_建筑史_Q3" },
+        { "kind": "official", "locator": "https://direzionemuseiroma.cultura.gov.it/en/pantheon/" },
+        { "kind": "official", "locator": "https://direzionemuseiroma.cultura.gov.it/en/pantheon/historical-background/" }
+      ],
+      "status": "audited"
+    },
+    {
+      "id": "recall-hagia-sophia",
+      "buildingId": "building-ad7b5b62435c",
+      "names": {
+        "ja": "ハギア・ソフィア",
+        "zh": "圣索菲亚大教堂",
+        "en": "Hagia Sophia",
+        "original": "Ayasofya"
+      },
+      "minimumKeywords": ["532～537年", "ユスティニアヌス1世", "ペンデンティブ", "四本の大ピア", "半ドーム"],
+      "standardFacts": [
+        {
+          "id": "period-people",
+          "dimension": "period-people",
+          "required": true,
+          "text": { "ja": "532～537年、ユスティニアヌス1世のもとでアンテミオスとイシドロスが設計した。", "zh": "532—537年，在查士丁尼一世主持下由安特米乌斯与伊西多尔设计。", "en": "It was designed in 532–537 under Justinian I by Anthemius of Tralles and Isidore of Miletus." },
+          "keywords": ["537", "ユスティニアヌス", "Justinian", "アンテミオス", "イシドロス"]
+        },
+        {
+          "id": "location",
+          "dimension": "location",
+          "required": true,
+          "text": { "ja": "トルコ・イスタンブール（旧コンスタンティノープル）に位置する。", "zh": "位于土耳其伊斯坦布尔，即旧君士坦丁堡。", "en": "It is in Istanbul, Türkiye, the former Constantinople." },
+          "keywords": ["イスタンブール", "伊斯坦布尔", "Istanbul", "Constantinople"]
+        },
+        {
+          "id": "structure",
+          "dimension": "structure",
+          "required": true,
+          "text": { "ja": "主ドームをペンデンティブで方形の四本の大ピアへ移し、東西の半ドームと外周の支持体で推力を段階的に処理する。", "zh": "主穹顶经帆拱落到方形四角的巨型墩柱，并由东西半穹顶及外围支承体逐级处理推力。", "en": "Pendentives transfer the main dome to four massive piers, while east–west semi-domes and outer supports manage thrust in stages." },
+          "keywords": ["ペンデンティブ", "帆拱", "四本の大ピア", "semi-dome", "推力"]
+        },
+        {
+          "id": "space-light",
+          "dimension": "space",
+          "required": true,
+          "text": { "ja": "バシリカの東西軸と中央ドームの集中性を重ね、ドーム基部の開口が内部の浮遊感と光の連続をつくる。", "zh": "它叠合巴西利卡的东西轴线与中央穹顶的集中性，穹顶基部开口形成漂浮感与连续光线。", "en": "It overlays a basilican east–west axis with a centralized dome; openings at the dome base create luminous continuity and an impression of suspension." },
+          "keywords": ["バシリカ", "集中式", "東西軸", "ドーム基部の窓", "光"]
+        },
+        {
+          "id": "significance",
+          "dimension": "significance",
+          "required": true,
+          "text": { "ja": "ビザンツの構造・装飾技術を示す傑作で、後代の教会とモスク双方の重要な参照点となった。", "zh": "它是体现拜占庭结构与装饰技术的杰作，并成为后世教堂与清真寺的重要参照。", "en": "A masterpiece of Byzantine structural and decorative expertise, it became a major reference for later churches and mosques." },
+          "keywords": ["ビザンツ", "拜占庭", "教会", "モスク", "影响"]
+        }
+      ],
+      "relations": [
+        {
+          "id": "square-to-dome",
+          "type": "cause",
+          "prompt": { "ja": "ペンデンティブは何を可能にしたか。", "zh": "帆拱使什么成为可能？" },
+          "answerFrame": { "ja": "ペンデンティブが円形ドームの荷重を方形平面四隅の大ピアへ移すため、長軸をもつ大聖堂に巨大な中心ドームを重ねられた。", "zh": "帆拱把圆形穹顶荷载转移到方形平面四角的巨墩，因此能够在长轴教堂上叠加巨大的中央穹顶。" }
+        }
+      ],
+      "termSupport": [
+        { "ja": "ペンデンティブ", "zh": "帆拱", "original": "pendentive", "language": "en" },
+        { "ja": "バシリカ", "zh": "巴西利卡", "original": "basilica", "language": "la" },
+        { "ja": "半ドーム", "zh": "半穹顶", "original": "semi-dome", "language": "en" },
+        { "ja": "大ピア", "zh": "巨型墩柱", "original": "massive pier", "language": "en" }
+      ],
+      "diagram": {
+        "recommendedViews": ["section", "plan"],
+        "labels": ["主ドーム", "ペンデンティブ", "大ピア", "東西半ドーム", "側廊", "ドーム基部の窓"]
+      },
+      "cautions": ["旧カードの『現在は博物館』は使用しない。2020年にモスクへ再転用され、利用・見学条件も変化している。", "構造説明では『ドームを四角に載せる』だけで終えず、大ピアと半ドームまで結ぶ。"],
+      "sources": [
+        { "kind": "local", "locator": "src/lib/history-review.ts#2025_専門2-2_建筑史_Q3" },
+        { "kind": "official", "locator": "https://whc.unesco.org/en/list/356/" },
+        { "kind": "official", "locator": "https://whc.unesco.org/document/135738" },
+        { "kind": "official", "locator": "https://whc.unesco.org/en/news/2156" }
+      ],
+      "status": "audited"
+    },
+    {
+      "id": "recall-jodoji-jododo",
+      "buildingId": "building-13b897c12c40",
+      "names": {
+        "ja": "浄土寺浄土堂（阿弥陀堂）",
+        "zh": "净土寺净土堂（阿弥陀堂）",
+        "en": "Jōdo Hall (Amida Hall), Jōdo-ji",
+        "original": "浄土寺浄土堂"
+      },
+      "minimumKeywords": ["1192年（建久3）", "重源", "大仏様", "貫", "挿肘木"],
+      "standardFacts": [
+        {
+          "id": "period-people-location",
+          "dimension": "period-people-location",
+          "required": true,
+          "text": { "ja": "文化庁の国指定文化財データでは1192年（建久3）、重源により兵庫県小野市に建立された鎌倉初期の阿弥陀堂である。", "zh": "据日本文化厅国指定文化财资料，它是重源于1192年（建久3）在兵库县小野市建立的镰仓初期阿弥陀堂。", "en": "The Agency for Cultural Affairs database dates this early Kamakura-period Amida hall to 1192 (Kenkyū 3), built under Chōgen at Ono, Hyōgo." },
+          "keywords": ["1192", "建久3", "重源", "兵庫", "小野", "鎌倉"]
+        },
+        {
+          "id": "structure",
+          "dimension": "structure",
+          "required": true,
+          "text": { "ja": "太い柱を貫で固め、挿肘木などで深い軒を支持し、化粧屋根裏を含む架構を内部に表す大仏様の構法を用いる。", "zh": "粗柱以贯材拉结，并以插肘木等支承深檐；包括显露屋架的内部体现大佛样构法。", "en": "Daibutsuyō construction ties thick columns with penetrating tie beams and supports deep eaves with inserted bracket arms, exposing the roof frame inside." },
+          "keywords": ["太い柱", "貫", "挿肘木", "深い軒", "化粧屋根裏"]
+        },
+        {
+          "id": "space",
+          "dimension": "space",
+          "required": true,
+          "text": { "ja": "正面・側面三間の単純な方形平面に阿弥陀三尊を安置し、一室的な高い内部を力強い架構が包む。", "zh": "三间见方的简洁方形平面中安置阿弥陀三尊，强劲外露的架构包围高敞的一室空间。", "en": "A simple three-by-three-bay square plan houses the Amida Triad within a tall, unified interior defined by the exposed frame." },
+          "keywords": ["方三間", "方形平面", "阿弥陀三尊", "一室空間", "高い内部"]
+        },
+        {
+          "id": "significance",
+          "dimension": "significance",
+          "required": true,
+          "text": { "ja": "東大寺再建を指揮した重源による南宋系技術の受容を示し、大仏様を伝える重要な現存建築である。", "zh": "它体现主持东大寺重建的重源对南宋系技术的吸收，是传达大佛样的重要现存建筑。", "en": "It demonstrates Chōgen's reception of Southern Song–related building techniques during the Tōdai-ji reconstruction era and is a major surviving work of Daibutsuyō." },
+          "keywords": ["東大寺再建", "南宋", "技術受容", "大仏様", "重源"]
+        }
+      ],
+      "relations": [
+        {
+          "id": "transfer-to-system",
+          "type": "cause",
+          "prompt": { "ja": "外来技術はどの部位で日本の仏堂へ定着したか。", "zh": "外来技术通过哪些构件在日本佛堂中落地？" },
+          "answerFrame": { "ja": "重源が南宋系技術を導入し、貫で柱を固め、挿肘木で深い軒を支える構法として大規模再建と阿弥陀堂へ適用した。", "zh": "重源引入南宋系技术，把它转化为贯材固柱、插肘木承深檐的构法，并应用于大规模重建与阿弥陀堂。" }
+        },
+        {
+          "id": "compare-nandaimon",
+          "type": "compare",
+          "targetBuildingId": "building-aeb9da82ed0e",
+          "prompt": { "ja": "東大寺南大門と何が同じで、何が違うか。", "zh": "它与东大寺南大门有哪些相同与不同？" },
+          "answerFrame": { "ja": "ともに貫・挿肘木を表す大仏様だが、浄土堂は阿弥陀三尊を包む方形の一室仏堂、南大門は大規模再建を示す門である。", "zh": "二者都以贯和插肘木体现大佛样，但净土堂是包围阿弥陀三尊的方形一室佛堂，南大门则是体现大规模重建的门。" }
+        }
+      ],
+      "termSupport": [
+        { "ja": "大仏様（だいぶつよう）", "zh": "大佛样", "original": "Daibutsuyō", "language": "ja-Latn" },
+        { "ja": "貫（ぬき）", "zh": "贯材", "original": "nuki", "language": "ja-Latn" },
+        { "ja": "挿肘木（さしひじき）", "zh": "插肘木", "original": "sashihijiki", "language": "ja-Latn" },
+        { "ja": "化粧屋根裏（けしょうやねうら）", "zh": "显露屋架顶棚", "original": "keshō-yaneura", "language": "ja-Latn" }
+      ],
+      "diagram": {
+        "recommendedViews": ["section", "plan", "detail"],
+        "labels": ["方三間", "阿弥陀三尊", "太い柱", "貫", "挿肘木", "深い軒", "化粧屋根裏"]
+      },
+      "cautions": ["尾道の浄土寺本堂・阿弥陀堂と混同しない。対象は兵庫県小野市の浄土寺浄土堂。", "既存答案には1194年表記があるが、文化庁の国指定文化財データは1192年（建久3）とする。自動照合では1192を標準とし、1194は資料差として警告する。", "『現存唯一の大仏様仏堂』のような強い断定は正答照合に使わない。"],
+      "sources": [
+        { "kind": "local", "locator": "src/lib/history-review.ts#2026_専門2-2_建筑史_Q3" },
+        { "kind": "local", "locator": "src/lib/history-review.ts#2014_専門2-2_建筑史_Q7" },
+        { "kind": "official", "locator": "https://online.bunka.go.jp/heritages/detail/147581" }
+      ],
+      "status": "audited"
+    },
+    {
+      "id": "recall-jisho-ji-togudo",
+      "buildingId": "building-7da3f3b68c2e",
+      "names": {
+        "ja": "慈照寺東求堂（同仁斎）",
+        "zh": "慈照寺东求堂（同仁斋）",
+        "en": "Tōgudō (Dōjinsai), Jishō-ji",
+        "original": "慈照寺東求堂（同仁斎）"
+      },
+      "minimumKeywords": ["15世紀後期", "足利義政", "持仏堂", "四畳半", "付書院・違棚"],
+      "standardFacts": [
+        {
+          "id": "period-people-location",
+          "dimension": "period-people-location",
+          "required": true,
+          "text": { "ja": "15世紀後期、足利義政の東山殿に建てられた京都の持仏堂兼書斎である。", "zh": "它是15世纪后期为足利义政的东山殿建造、位于京都的持佛堂兼书斋。", "en": "It was built in late-15th-century Kyoto as a devotional hall and study at Ashikaga Yoshimasa's Higashiyama residence." },
+          "keywords": ["15世紀", "室町", "足利義政", "京都", "東山殿"]
+        },
+        {
+          "id": "form",
+          "dimension": "form",
+          "required": true,
+          "text": { "ja": "約7m四方の入母屋造・檜皮葺で、内部は四室に分かれる。", "zh": "建筑约7米见方，入母屋造、桧皮葺，内部划分为四室。", "en": "The roughly seven-metre-square building has a hip-and-gable, cypress-bark roof and is divided into four rooms." },
+          "keywords": ["約7m四方", "入母屋造", "檜皮葺", "四室"]
+        },
+        {
+          "id": "space",
+          "dimension": "space",
+          "required": true,
+          "text": { "ja": "背面東側の同仁斎は四畳半で、付書院と違棚が小規模な書斎空間の秩序をつくる。", "zh": "后部东侧的同仁斋为四叠半，付书院与违棚组织了小尺度书斋空间。", "en": "Dōjinsai, the rear eastern room, is a four-and-a-half-mat study organized by an attached desk and staggered shelves." },
+          "keywords": ["同仁斎", "四畳半", "付書院", "違棚", "書斎"]
+        },
+        {
+          "id": "significance",
+          "dimension": "significance",
+          "required": true,
+          "text": { "ja": "同仁斎の付書院と違棚は現存最古とされ、後の書院造へつながる室内秩序の源流として位置づけられる。", "zh": "同仁斋的付书院与违棚被视为现存最古实例，是后来书院造室内秩序的重要源流。", "en": "Its attached desk and staggered shelves are regarded as the oldest surviving examples and an important source for later shoin interiors." },
+          "keywords": ["現存最古", "書院造", "源流", "座敷", "東山文化"]
+        }
+      ],
+      "relations": [
+        {
+          "id": "room-to-style",
+          "type": "cause",
+          "prompt": { "ja": "なぜ一室が住宅史上重要なのか。", "zh": "为什么其中一间房在住宅史上重要？" },
+          "answerFrame": { "ja": "四畳半の同仁斎に付書院と違棚が組み合わされ、読書・鑑賞・座の位置を建築要素で秩序化したため、後の書院造の源流となった。", "zh": "因为四叠半同仁斋把付书院与违棚组合起来，以建筑要素组织阅读、鉴赏与座位关系，所以成为后来书院造的源流。" }
+        }
+      ],
+      "termSupport": [
+        { "ja": "書院造（しょいんづくり）", "zh": "书院造", "original": "shoin-zukuri", "language": "ja-Latn" },
+        { "ja": "付書院（つけしょいん）", "zh": "付书院", "original": "tsukeshoin", "language": "ja-Latn" },
+        { "ja": "違棚（ちがいだな）", "zh": "违棚／错层棚", "original": "chigaidana", "language": "ja-Latn" },
+        { "ja": "同仁斎（どうじんさい）", "zh": "同仁斋", "original": "Dōjinsai", "language": "ja-Latn" }
+      ],
+      "diagram": {
+        "recommendedViews": ["plan", "interior-detail"],
+        "labels": ["四室", "同仁斎四畳半", "畳割", "付書院", "違棚", "庭側"]
+      },
+      "cautions": ["東求堂全体と同仁斎一室の特徴を分けて書く。", "旧カードの『茅葺』は誤り。国指定データに従い檜皮葺とする。", "資料間で1485年／1486年表記があるため、回想段階では『15世紀後期』を安全表現とする。"],
+      "sources": [
+        { "kind": "local", "locator": "src/lib/history-review.ts#2018_専門2-2_建筑史_Q4" },
+        { "kind": "official", "locator": "https://kunishitei.bunka.go.jp/heritage/detail/911/17" },
+        { "kind": "official", "locator": "https://www.mlit.go.jp/tagengo-db/R1-00459.html" }
+      ],
+      "status": "audited"
+    },
+    {
+      "id": "recall-yoyogi-national-gymnasium",
+      "buildingId": "building-614c59064a55",
+      "names": {
+        "ja": "国立代々木競技場第一体育館",
+        "zh": "国立代代木竞技场第一体育馆",
+        "en": "Yoyogi National Gymnasium, First Gymnasium",
+        "original": "国立代々木競技場第一体育館"
+      },
+      "minimumKeywords": ["1964年東京オリンピック", "丹下健三", "坪井善勝", "吊り屋根", "大スパン"],
+      "standardFacts": [
+        {
+          "id": "period-people",
+          "dimension": "period-people",
+          "required": true,
+          "text": { "ja": "1964年東京オリンピックのために建設され、意匠設計は丹下健三、構造設計は坪井善勝が担った。", "zh": "它为1964年东京奥运会建造，建筑设计为丹下健三，结构设计为坪井善胜。", "en": "Built for the 1964 Tokyo Olympics, it was architecturally designed by Kenzo Tange with structural design by Yoshikatsu Tsuboi." },
+          "keywords": ["1964", "東京オリンピック", "丹下健三", "坪井善勝", "Tokyo Olympics"]
+        },
+        {
+          "id": "location",
+          "dimension": "location",
+          "required": true,
+          "text": { "ja": "東京都渋谷区に位置する。", "zh": "位于东京都涩谷区。", "en": "It is in Shibuya, Tokyo." },
+          "keywords": ["東京", "渋谷", "Tokyo", "Shibuya"]
+        },
+        {
+          "id": "structure",
+          "dimension": "structure",
+          "required": true,
+          "text": { "ja": "二本の主柱間に主ケーブルを架け、そこから屋根面を懸垂する吊り屋根によって大スパンを覆う。ケーブルは引張を担い、主柱とアンカーへ力を伝える。", "zh": "两座主柱之间架设主缆索，并由其悬吊屋面，以悬索屋顶覆盖大跨度；缆索承受拉力并把力传向主柱与锚固端。", "en": "Main cables span between two pylons and suspend the roof over a large span; the cables work in tension and transfer forces to the pylons and anchors." },
+          "keywords": ["二本の主柱", "主ケーブル", "吊り屋根", "引張", "アンカー"]
+        },
+        {
+          "id": "space-form",
+          "dimension": "space",
+          "required": true,
+          "text": { "ja": "中央の競技空間を観客席が囲み、懸垂曲面が無柱の内部と流動的で象徴的な外観を同時につくる。", "zh": "观众席环绕中央比赛空间，悬垂曲面同时形成无柱内部与流动、象征性的外观。", "en": "Seating surrounds the central arena, while the suspended surface creates both an unobstructed interior and a flowing, emblematic exterior." },
+          "keywords": ["中央競技空間", "観客席", "無柱", "懸垂曲面", "構造と意匠"]
+        },
+        {
+          "id": "significance",
+          "dimension": "significance",
+          "required": true,
+          "text": { "ja": "戦後日本の国際大会を象徴し、意匠・構造・機能を高い水準で統合した近代建築として、2021年に重要文化財に指定された。", "zh": "它象征战后日本的国际大会，并以高度整合设计、结构与功能的现代建筑价值于2021年被指定为重要文化财。", "en": "A symbol of postwar Japan's international event and a high-level integration of design, structure, and function, it was designated an Important Cultural Property in 2021." },
+          "keywords": ["戦後日本", "重要文化財", "2021", "意匠・構造・機能", "公共記憶"]
+        }
+      ],
+      "relations": [
+        {
+          "id": "force-to-form",
+          "type": "cause",
+          "prompt": { "ja": "なぜ構造がそのまま外形になるのか。", "zh": "为什么结构会直接成为建筑外形？" },
+          "answerFrame": { "ja": "主ケーブルの懸垂曲線に沿って屋根面を吊るため、引張による力の流れが大屋根の流動的な形と無柱内部を同時に決める。", "zh": "因为屋面沿主缆索的悬垂曲线吊挂，拉力的传递同时决定了大屋顶的流动形态与无柱内部。" }
+        },
+        {
+          "id": "heritage-use",
+          "type": "cause",
+          "prompt": { "ja": "保存意義を建築史と市民社会に分けるとどうなるか。", "zh": "如何分别从建筑史与市民社会说明其保存意义？" },
+          "answerFrame": { "ja": "建築史上は戦後の構造・意匠統合を伝え、市民社会ではスポーツ、集会、都市景観の共有記憶を継続利用とともに残す。", "zh": "建筑史上它传达战后结构与设计的整合；市民社会层面则在持续使用中保存体育、集会与城市景观的共同记忆。" }
+        }
+      ],
+      "termSupport": [
+        { "ja": "吊り屋根", "zh": "悬索屋顶", "original": "suspension roof", "language": "en" },
+        { "ja": "主ケーブル", "zh": "主缆索", "original": "main cable", "language": "en" },
+        { "ja": "主柱", "zh": "主柱／主塔", "original": "main pylon", "language": "en" },
+        { "ja": "重要文化財", "zh": "重要文化财", "original": "Important Cultural Property", "language": "en" }
+      ],
+      "diagram": {
+        "recommendedViews": ["section", "plan", "force-flow"],
+        "labels": ["二本の主柱", "主ケーブル", "吊り屋根", "アンカー", "観客席", "競技空間", "荷重方向"]
+      },
+      "cautions": ["旧カード名『国立屋内総合競技場』ではなく、問題文に合わせて『国立代々木競技場第一体育館』とする。", "第一体育館と第二体育館の平面・支持形式を混同しない。"],
+      "sources": [
+        { "kind": "local", "locator": "data/processed_questions/2022_専門2-2_建筑史_Q5.md" },
+        { "kind": "local", "locator": "src/lib/history-review.ts#2022_専門2-2_建筑史_Q5" },
+        { "kind": "official", "locator": "https://www.bunka.go.jp/koho_hodo_oshirase/hodohappyo/93079501.html" },
+        { "kind": "official", "locator": "https://kunishitei.bunka.go.jp/bsys/maindetails/102/00005355" }
+      ],
+      "status": "audited"
+    },
+    {
+      "id": "recall-nakagin-capsule-tower",
+      "buildingId": "building-ab6876cdf5f3",
+      "names": {
+        "ja": "中銀カプセルタワービル",
+        "zh": "中银胶囊塔",
+        "en": "Nakagin Capsule Tower",
+        "original": "中銀カプセルタワービル"
+      },
+      "minimumKeywords": ["1972年", "黒川紀章", "メタボリズム", "二本のコア", "交換可能なカプセル"],
+      "standardFacts": [
+        {
+          "id": "period-people-location",
+          "dimension": "period-people-location",
+          "required": true,
+          "text": { "ja": "黒川紀章設計、1972年竣工の東京に建てられたメタボリズム建築である。", "zh": "它是黑川纪章设计、1972年竣工于东京的新陈代谢派建筑。", "en": "Designed by Kisho Kurokawa and completed in Tokyo in 1972, it is a key work of Metabolism." },
+          "keywords": ["黒川紀章", "1972", "東京", "メタボリズム", "Kurokawa"]
+        },
+        {
+          "id": "structure",
+          "dimension": "structure",
+          "required": true,
+          "text": { "ja": "エレベーター・階段・設備を含む二本の鉄骨鉄筋コンクリート造コアに、工場生産した鋼製カプセルを取り付ける固定部＋交換単位の構成である。", "zh": "两座包含电梯、楼梯和设备的钢骨钢筋混凝土核心筒上安装工厂生产的钢制胶囊，形成“固定部分＋可交换单元”。", "en": "Factory-made steel capsules attach to two steel-reinforced-concrete cores containing circulation and services, forming a fixed core plus replaceable-unit system." },
+          "keywords": ["二本のコア", "SRC", "工場生産", "鋼製カプセル", "固定＋交換"]
+        },
+        {
+          "id": "space",
+          "dimension": "space",
+          "required": true,
+          "text": { "ja": "最小限の一室カプセルを独立した個室単位とし、円形窓をもつ単位がコアの周囲へ反復配置された。", "zh": "最小化的一室胶囊作为独立个室单元，带圆窗的单元反复配置在核心筒周围。", "en": "Minimal one-room capsules form independent private units, repeated around the cores and marked by circular windows." },
+          "keywords": ["一室カプセル", "個室単位", "円形窓", "反復", "集合"]
+        },
+        {
+          "id": "significance",
+          "dimension": "significance",
+          "required": true,
+          "text": { "ja": "建築・都市を成長し更新する生命体とみるメタボリズムを、交換可能な住戸単位として具体化した。実際の維持更新との隔たりは保存上の論点となる。", "zh": "它把建筑与城市视作可成长更新生命体的新陈代谢思想，具体化为可交换居住单元；理念与实际维护更新的差距成为保存议题。", "en": "It materialized Metabolist ideas of growth and renewal through replaceable dwelling units; the gap between that concept and actual maintenance became a conservation issue." },
+          "keywords": ["成長", "更新", "生命体", "交換可能性", "理念と維持"]
+        },
+        {
+          "id": "afterlife",
+          "dimension": "history",
+          "required": false,
+          "text": { "ja": "建物は2022年に解体され、現在は現存しない。", "zh": "建筑于2022年拆除，现已不存。", "en": "The building was dismantled in 2022 and is no longer extant." },
+          "keywords": ["2022", "解体", "现存不再", "dismantled"]
+        }
+      ],
+      "relations": [
+        {
+          "id": "idea-to-system",
+          "type": "cause",
+          "prompt": { "ja": "メタボリズム思想はどの構法に翻訳されたか。", "zh": "新陈代谢思想被转译成了怎样的构法？" },
+          "answerFrame": { "ja": "都市を固定物でなく更新する生命体と捉えたため、長期に残るコアと交換可能な工場製カプセルを分離する構法が選ばれた。", "zh": "因为把城市视为不断更新的生命体，所以采用了把长期保留的核心筒与可交换工厂制胶囊分离的构法。" }
+        },
+        {
+          "id": "compare-yamanashi",
+          "type": "compare",
+          "targetBuildingId": "building-supplemental-yamanashi-culture-hall",
+          "prompt": { "ja": "山梨文化会館の成長機構と何が違うか。", "zh": "它与山梨文化会馆的成长机制有何不同？" },
+          "answerFrame": { "ja": "中銀は個室カプセルの交換を想定したのに対し、山梨文化会館は円筒コアを基盤に床・機能単位を増築する成長を構想した。", "zh": "中银设想交换个室胶囊，而山梨文化会馆以圆筒核心为基础，通过增建楼层与功能单元实现成长。" }
+        }
+      ],
+      "termSupport": [
+        { "ja": "メタボリズム", "zh": "新陈代谢派", "original": "Metabolism", "language": "en" },
+        { "ja": "カプセル", "zh": "胶囊单元", "original": "capsule", "language": "en" },
+        { "ja": "交換可能性", "zh": "可交换性", "original": "replaceability", "language": "en" },
+        { "ja": "鉄骨鉄筋コンクリート造", "zh": "钢骨钢筋混凝土结构", "original": "steel-reinforced concrete (SRC)", "language": "en" }
+      ],
+      "diagram": {
+        "recommendedViews": ["section", "elevation", "connection-detail"],
+        "labels": ["二本のコア", "階段・設備", "鋼製カプセル", "接合部", "円形窓", "固定部分", "交換単位"]
+      },
+      "cautions": ["『交換できるよう設計された』ことと『実際に周期的交換が実現した』ことを分ける。", "単なる奇抜な外観ではなく、固定コアと交換単位のシステムとして説明する。"],
+      "sources": [
+        { "kind": "local", "locator": "src/lib/history-review.ts#2026_専門2-2_建筑史_Q3" },
+        { "kind": "local", "locator": "src/lib/history-review.ts#2024_専門2-2_建筑史_Q4" },
+        { "kind": "official", "locator": "https://docomomojapan.com/structure/123/?lang=ja" }
+      ],
+      "status": "audited"
+    },
+    {
+      "id": "recall-reims-cathedral",
+      "buildingId": "building-supplemental-reims-cathedral",
+      "names": { "ja": "ランス大聖堂", "zh": "兰斯大教堂", "en": "Reims Cathedral", "original": "Cathédrale Notre-Dame de Reims" },
+      "minimumKeywords": ["13世紀", "盛期ゴシック", "リブ・ヴォールト", "フライング・バットレス", "フランス王戴冠式"],
+      "standardFacts": [
+        {
+          "id": "period-location",
+          "dimension": "period-location",
+          "required": true,
+          "text": { "ja": "1211年以降に建設されたフランス・ランスの盛期ゴシック大聖堂である。", "zh": "它是1211年以后建造于法国兰斯的盛期哥特式大教堂。", "en": "It is a High Gothic cathedral begun after 1211 in Reims, France." },
+          "keywords": ["1211", "13世紀", "ランス", "フランス", "盛期ゴシック"]
+        },
+        {
+          "id": "structure",
+          "dimension": "structure",
+          "required": true,
+          "text": { "ja": "尖頭アーチと交差リブ・ヴォールトが荷重を束柱へ集め、横推力をフライング・バットレスが外部で受ける。", "zh": "尖拱与交叉肋拱把荷载集中到束柱，飞扶壁在外部承受侧推力。", "en": "Pointed arches and rib vaults concentrate loads on clustered piers, while flying buttresses resist lateral thrust outside." },
+          "keywords": ["尖頭アーチ", "リブ・ヴォールト", "束柱", "フライング・バットレス", "横推力"]
+        },
+        {
+          "id": "space-light",
+          "dimension": "space",
+          "required": true,
+          "text": { "ja": "ラテン十字平面の高い身廊と大きな高窓が、祭壇への長軸と垂直性、ステンドグラスの光を強調する。", "zh": "拉丁十字平面、高耸中殿与大型高窗强化了通向祭坛的长轴、垂直性和花窗玻璃的光。", "en": "A Latin-cross plan, tall nave, and large clerestory emphasize the processional axis, verticality, and stained-glass light." },
+          "keywords": ["ラテン十字", "身廊", "高窓", "垂直性", "ステンドグラス"]
+        },
+        {
+          "id": "significance",
+          "dimension": "significance",
+          "required": true,
+          "text": { "ja": "フランス王の戴冠式の場として、ゴシックの構造・彫刻・光と王権儀礼を結びつけた。", "zh": "作为法国国王加冕场所，它把哥特式结构、雕塑和光与王权仪礼结合起来。", "en": "As the coronation church of French kings, it joined Gothic structure, sculpture, and light to royal ritual." },
+          "keywords": ["戴冠式", "王権", "彫刻", "宗教儀礼", "都市"]
+        }
+      ],
+      "relations": [
+        {
+          "id": "structure-to-light",
+          "type": "cause",
+          "prompt": { "ja": "なぜ壁を薄くして大きな窓を開けられたか。", "zh": "为什么墙体能够变薄并开设大窗？" },
+          "answerFrame": { "ja": "リブが荷重を束柱へ集め、フライング・バットレスが横推力を外部へ逃がすため、壁を支持体から開口面へ変えられた。", "zh": "因为肋拱把荷载集中到束柱、飞扶壁把侧推力导向外部，墙体得以由承重体转变为开窗界面。" }
+        }
+      ],
+      "termSupport": [
+        { "ja": "ゴシック", "zh": "哥特式", "original": "Gothic", "language": "en" },
+        { "ja": "リブ・ヴォールト", "zh": "肋拱顶", "original": "rib vault", "language": "en" },
+        { "ja": "フライング・バットレス", "zh": "飞扶壁", "original": "flying buttress", "language": "en" },
+        { "ja": "クリアストーリー", "zh": "高侧窗层", "original": "clerestory", "language": "en" }
+      ],
+      "diagram": { "recommendedViews": ["section", "plan"], "labels": ["身廊", "側廊", "リブ・ヴォールト", "束柱", "フライング・バットレス", "高窓", "荷重方向"] },
+      "cautions": ["構造要素を列挙するだけでなく、荷重集中→壁の開放→採光までつなぐ。", "ノートル＝ダム・ド・パリとは別の大聖堂である。"],
+      "sources": [
+        { "kind": "local", "locator": "src/lib/history-review.ts#2024_専門2-2_建筑史_Q3" },
+        { "kind": "local", "locator": "data/architecture-normalized-candidates.json#building-supplemental-reims-cathedral" }
+      ],
+      "status": "audited"
+    },
+    {
+      "id": "recall-villa-rotonda",
+      "buildingId": "building-core-villa-rotonda",
+      "names": { "ja": "ヴィラ・ロトンダ", "zh": "圆厅别墅", "en": "Villa Rotonda", "original": "Villa Almerico Capra, La Rotonda" },
+      "minimumKeywords": ["16世紀後期", "パッラーディオ", "中央円形広間", "四面ポルティコ", "対称性"],
+      "standardFacts": [
+        {
+          "id": "period-people-location",
+          "dimension": "period-people-location",
+          "required": true,
+          "text": { "ja": "16世紀後期、アンドレア・パッラーディオがイタリア・ヴィチェンツァ郊外に設計したヴィラである。", "zh": "它是安德烈亚·帕拉第奥于16世纪后期设计在意大利维琴察郊外的别墅。", "en": "It is a late-16th-century villa designed by Andrea Palladio outside Vicenza, Italy." },
+          "keywords": ["16世紀", "パッラーディオ", "ヴィチェンツァ", "イタリア", "villa"]
+        },
+        {
+          "id": "form-space",
+          "dimension": "space",
+          "required": true,
+          "text": { "ja": "正方形平面の中央にドーム付き円形広間を置き、四方向へ同形の神殿風ポルティコを配する。", "zh": "方形平面中央设置带穹顶圆厅，四个方向配置相同的神庙式门廊。", "en": "A domed circular hall occupies the centre of a square plan, with identical temple-front porticos on all four sides." },
+          "keywords": ["正方形", "中央円形広間", "ドーム", "四面", "ポルティコ"]
+        },
+        {
+          "id": "site",
+          "dimension": "design",
+          "required": true,
+          "text": { "ja": "中心から四方の階段とポルティコを介して異なる周辺景観へ開き、幾何学的対称性と敷地の眺望を統合する。", "zh": "建筑由中心经四向台阶和门廊朝不同景观开放，把几何对称性与场地眺望结合起来。", "en": "Four stairs and porticos open the centre toward different views, integrating geometric symmetry with the surrounding landscape." },
+          "keywords": ["四方向", "階段", "眺望", "景観", "中心性"]
+        },
+        {
+          "id": "significance",
+          "dimension": "significance",
+          "required": true,
+          "text": { "ja": "古代神殿と集中式建築の原理を郊外住宅へ再解釈し、後世のパラディアニズムに大きな影響を与えた。", "zh": "它把古代神庙与集中式建筑原理重新解释为郊外住宅，并深刻影响后世帕拉第奥主义。", "en": "It reinterpreted ancient temple and centralized-building principles for a country house and strongly influenced later Palladianism." },
+          "keywords": ["古典復興", "郊外住宅", "再解釈", "パラディアニズム", "影响"]
+        }
+      ],
+      "relations": [
+        {
+          "id": "geometry-to-site",
+          "type": "cause",
+          "prompt": { "ja": "完全対称なのに、なぜ敷地と切り離されないのか。", "zh": "平面完全对称，为什么建筑没有脱离场地？" },
+          "answerFrame": { "ja": "四面に同形のポルティコを設けながら、それぞれを異なる眺望へ開くことで、普遍的な中心幾何と具体的な丘陵景観を結んだ。", "zh": "它在四面设置相同门廊，却分别朝向不同眺望，由此连接普遍的中心几何与具体丘陵景观。" }
+        }
+      ],
+      "termSupport": [
+        { "ja": "ヴィラ", "zh": "郊外别墅", "original": "villa", "language": "it" },
+        { "ja": "ポルティコ", "zh": "柱廊门廊", "original": "portico", "language": "it" },
+        { "ja": "ロトンダ", "zh": "圆形大厅", "original": "rotonda", "language": "it" },
+        { "ja": "パラディアニズム", "zh": "帕拉第奥主义", "original": "Palladianism", "language": "en" }
+      ],
+      "diagram": { "recommendedViews": ["plan", "section"], "labels": ["正方形平面", "中央円形広間", "ドーム", "四面ポルティコ", "階段", "四方向の眺望"] },
+      "cautions": ["中央円形広間だけでなく、四面ポルティコと景観への開きを必ず結ぶ。", "パンテオンの宗教的大空間をそのまま縮小したのではなく、住宅と敷地へ再解釈した例として扱う。"],
+      "sources": [
+        { "kind": "local", "locator": "src/lib/history-review.ts#2018_専門2-2_建筑史_Q4" },
+        { "kind": "local", "locator": "data/architecture-normalized-candidates.json#building-core-villa-rotonda" }
+      ],
+      "status": "audited"
+    },
+    {
+      "id": "recall-crystal-palace",
+      "buildingId": "building-core-crystal-palace",
+      "names": { "ja": "水晶宮（クリスタル・パレス）", "zh": "水晶宫", "en": "Crystal Palace", "original": "The Crystal Palace" },
+      "minimumKeywords": ["1851年", "ジョセフ・パクストン", "鉄とガラス", "規格化部材", "万国博覧会"],
+      "standardFacts": [
+        {
+          "id": "period-people-location",
+          "dimension": "period-people-location",
+          "required": true,
+          "text": { "ja": "ジョセフ・パクストンが1851年ロンドン万国博覧会のために設計した大展示館である。", "zh": "它是约瑟夫·帕克斯顿为1851年伦敦万国博览会设计的大型展览馆。", "en": "Joseph Paxton designed it as the great exhibition hall for the 1851 London Great Exhibition." },
+          "keywords": ["1851", "パクストン", "ロンドン", "万国博覧会", "展示館"]
+        },
+        {
+          "id": "structure-production",
+          "dimension": "structure",
+          "required": true,
+          "text": { "ja": "規格化した鋳鉄柱、鉄製トラス、ガラス部材を工場生産し、反復するモジュールとして現場で組み立てた。", "zh": "标准化铸铁柱、铁桁架与玻璃构件由工厂生产，并作为重复模数在现场装配。", "en": "Standardized cast-iron columns, iron trusses, and glass components were factory-produced and assembled on site as repeating modules." },
+          "keywords": ["鋳鉄柱", "鉄製トラス", "ガラス", "工場生産", "プレファブ"]
+        },
+        {
+          "id": "space",
+          "dimension": "space",
+          "required": true,
+          "text": { "ja": "細い反復部材と透明な外皮が、巨大で明るく連続する展示空間を短期間でつくった。", "zh": "纤细的重复构件与透明外皮在短期内形成巨大、明亮、连续的展览空间。", "en": "Slender repeated members and a transparent envelope produced a vast, bright, continuous exhibition interior in a short time." },
+          "keywords": ["巨大空間", "明るい", "透明外皮", "反復", "短工期"]
+        },
+        {
+          "id": "significance",
+          "dimension": "significance",
+          "required": true,
+          "text": { "ja": "産業革命の材料・大量生産・輸送・博覧会需要を建築システムへ結び、近代の工業化建築を先導した。", "zh": "它把工业革命的材料、批量生产、运输与博览会需求连接成建筑系统，开创了近代工业化建筑。", "en": "It joined industrial materials, mass production, transport, and exhibition demand into a building system, anticipating industrialized modern architecture." },
+          "keywords": ["産業革命", "大量生産", "輸送", "博覧会", "工業化"]
+        }
+      ],
+      "relations": [
+        {
+          "id": "production-to-space",
+          "type": "cause",
+          "prompt": { "ja": "工業生産は空間をどう変えたか。", "zh": "工业生产怎样改变了空间？" },
+          "answerFrame": { "ja": "部材を規格化して大量生産・反復組立できたため、短工期で従来より軽く透明な巨大展示空間を実現した。", "zh": "因为构件能够标准化、批量生产并重复装配，所以在短工期内实现了比传统建筑更轻、更透明的巨大展览空间。" }
+        }
+      ],
+      "termSupport": [
+        { "ja": "プレファブリケーション", "zh": "预制装配", "original": "prefabrication", "language": "en" },
+        { "ja": "モジュール", "zh": "模数／模块", "original": "module", "language": "en" },
+        { "ja": "鋳鉄", "zh": "铸铁", "original": "cast iron", "language": "en" },
+        { "ja": "万国博覧会", "zh": "万国博览会", "original": "Great Exhibition", "language": "en" }
+      ],
+      "diagram": { "recommendedViews": ["section", "bay-module"], "labels": ["鋳鉄柱", "鉄製トラス", "ガラス外皮", "反復スパン", "中央トランセプト", "部材モジュール"] },
+      "cautions": ["鉄とガラスを材料名だけで終えず、規格化・大量生産・短工期・大空間の因果へつなぐ。", "様式装飾より生産と組立のシステムを優先して説明する。"],
+      "sources": [
+        { "kind": "local", "locator": "src/lib/history-review.ts#2018_専門2-2_建筑史_Q5" },
+        { "kind": "local", "locator": "data/architecture-normalized-candidates.json#building-core-crystal-palace" }
+      ],
+      "status": "audited"
+    }
+  ]
+}

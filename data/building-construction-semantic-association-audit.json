@@ -1,0 +1,57 @@
+{
+  "id": "building-construction-semantic-association-audit-v1",
+  "scope": {
+    "subject": "building_construction",
+    "exam": "専門1",
+    "included": ["2015 Q2", "2017 Q3"],
+    "excluded": ["専門2-2", "structural_mechanics"]
+  },
+  "examFormat": "shared_word_bank_fill",
+  "examBehavior": "Each prompt selects one related term from a shared bank; the same bank term may be reused across prompts when the source instructions allow it.",
+  "evidenceStatus": "card_supported_draft",
+  "sets": [
+    {
+      "source": "2015 専門1 建築構法 Q2",
+      "reuseAllowed": true,
+      "pairs": [
+        {"prompt":"イングリッシュ・ボンド","answer":"煉瓦","domain":"masonry"},
+        {"prompt":"キングポスト","answer":"真束","domain":"timber_roof_truss"},
+        {"prompt":"けらば","answer":"切妻","domain":"roof_form"},
+        {"prompt":"2×4工法","answer":"枠組壁工法","domain":"timber_system"},
+        {"prompt":"集成材","answer":"挽板","domain":"engineered_timber"},
+        {"prompt":"DPG（Dot Point Glazing）構法","answer":"ガラス","domain":"curtain_wall"},
+        {"prompt":"マリオン","answer":"方立","domain":"curtain_wall"},
+        {"prompt":"オールケーシング","answer":"杭地業","domain":"foundation"},
+        {"prompt":"金輪","answer":"継手","domain":"timber_joint"},
+        {"prompt":"釘接合","answer":"引抜力","domain":"fastener_force"}
+      ]
+    },
+    {
+      "source": "2017 専門1 建築構法 Q3",
+      "reuseAllowed": false,
+      "pairs": [
+        {"prompt":"スランプ","answer":"コンクリート","domain":"concrete"},
+        {"prompt":"挽板","answer":"直交集成板（CLT）","domain":"engineered_timber"},
+        {"prompt":"サンドドレーン","answer":"液状化","domain":"ground_improvement"},
+        {"prompt":"クイーンポスト","answer":"トラス","domain":"timber_roof_truss"},
+        {"prompt":"バックドラフト","answer":"火災","domain":"fire"},
+        {"prompt":"単板","answer":"合板","domain":"engineered_timber"},
+        {"prompt":"帯筋","answer":"鉄筋コンクリート柱","domain":"rc_column"},
+        {"prompt":"ウェブ","answer":"H形鋼","domain":"steel_section"},
+        {"prompt":"あばら筋","answer":"鉄筋コンクリート梁","domain":"rc_beam"},
+        {"prompt":"ダイアフラム","answer":"鋼管","domain":"steel_tube"}
+      ]
+    }
+  ],
+  "distractorPoolRule": "Use the source-year shared bank as a whole when reconstructing a source set. For generated subsets, pool only answers from one named domain; do not mix roles, materials, construction systems, fire phenomena, and structural-mechanics terms. Reuse is allowed only when the source set explicitly allows it.",
+  "generatorReadiness": "blocked_pending_reviewed_fact_promotion",
+  "sourceTextVerifications": [
+    {
+      "source": "2015 専門1 建築構法 Q2",
+      "term": "DPG (Dot Point Glazing) 構法",
+      "verifiedAgainst": "data/raw_markdown/MinerU_markdown_2015年度_建築専門1+2_公開版_2062812099756437504.md",
+      "result": "The source text reads Glazing; the prior Gluing spelling in the processed question was a transcription error."
+    }
+  ],
+  "nextGate": "Promote the 20 pair facts from card-supported draft to reviewed facts, then implement a shared-bank fill generator with explicit reuse policy."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "building-construction-production-formats-release-audit-v1",
+  "decision": "production_ready",
+  "scope": {"exam":"専門1", "subject":"building_construction", "excluded":["structural_mechanics", "専門2-2"]},
+  "checkedFamilies": ["shared_word_bank_fill", "scoped_term_short_answer", "inline_four_choice_fill", "diagram_label_word_bank", "image_form_matching", "diagram_constrained_explanation", "diagram_comparison_explanation"],
+  "results": {
+    "past_exam_structure": {"status":"pass", "evidence":"Each family declares a source prototype and retained structural parameters."},
+    "knowledge_input": {"status":"pass", "evidence":"Answers are answer-index/source-audited terms or reviewed material facts; generated prompts do not reuse source sentences."},
+    "domain_and_relation": {"status":"pass", "evidence":"Every selectable item declares either a local domain or a source-audited relation."},
+    "distractor_pool": {"status":"pass", "evidence":"Shared-bank surplus, local four-choice pools, and one-to-one banks are explicit and validated."},
+    "assets": {"status":"pass", "evidence":"Roof diagram uses a local source-verified asset; structural-form cards are explicitly generator-owned schematics rather than unverified source-image assignments."},
+    "written_review": {"status":"pass", "evidence":"All drawing/explanation tasks expose a mandatory human-review rubric; they are not falsely auto-scored."},
+    "subject_boundary": {"status":"pass", "evidence":"No buckling, Euler load, effective buckling length, or second-moment-of-area relation is present."}
+  }
+}

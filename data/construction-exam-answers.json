@@ -1,0 +1,277 @@
+{
+  "records": [
+    {
+      "questionId": "2013:専門1:問題2",
+      "fileName": "2013_専門1_建筑构法_Q2.md",
+      "items": [
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s01", "prompt": "許容応力度算定に使うF", "answer": "基準強度", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s02", "prompt": "短期許容応力度の長期に対する倍率", "answer": "1.5", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s03", "prompt": "鋼材の比重", "answer": "8", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s04", "prompt": "普通コンクリートの比重", "answer": "2.5", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s05", "prompt": "木材の比重", "answer": "1/2", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s06", "prompt": "鋼材強度を左右する含有成分", "answer": "炭素量", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s07", "prompt": "普通ボルト接合が伝達する力", "answer": "せん断力", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s08", "prompt": "高力ボルト接合で利用する力", "answer": "摩擦力", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s09", "prompt": "鋼材とコンクリートでほぼ等しい性質", "answer": "線膨張係数", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s10", "prompt": "RCで鉄筋が負担する力", "answer": "引張力", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s11", "prompt": "コンクリートの軟らかさを表す値", "answer": "スランプ値", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s12", "prompt": "軟らかい場合のスランプ値", "answer": "大きい", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s13", "prompt": "ブロック頂部をつなぐ部材", "answer": "臥梁", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s14", "prompt": "開口部上部の横材", "answer": "まぐさ", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s15", "prompt": "枠組壁工法の柱", "answer": "管柱", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s16", "prompt": "隅角部見えがかりの継手・仕口", "answer": "留め", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s17", "prompt": "釘接合が伝達できる力", "answer": "引抜き力", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s18", "prompt": "キングポストトラスの小屋組", "answer": "洋小屋", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s19", "prompt": "シェルが主として用いない力", "answer": "曲げモーメント", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2013_専門1_建筑构法_Q2.md#s20", "prompt": "ALC版壁が該当する非耐力外壁", "answer": "帳壁", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2026:専門1:問題3",
+      "fileName": "2026_専門1_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2026_専門1_建筑构法_Q3.md#s01", "prompt": "セパレーターとフォームタイ", "answer": "セパレーターは左右の型枠の間隔を一定に保つ部材。フォームタイは型枠を外側から締め付け、コンクリート側圧に抵抗して型枠を固定する緊結金物。", "reviewStatus": "card-supported-draft", "drawingPoints": ["型枠2枚の間にセパレーターを横向きに描く", "外側のフォームタイと端太・ばた材を矢印で示す"] },
+        { "itemId": "2026_専門1_建筑构法_Q3.md#s02", "prompt": "巾木と回り縁", "answer": "巾木は床と壁の取り合いに設け、壁下端を保護し掃除や仕上げを納める部材。回り縁は壁と天井の取り合いに設け、天井仕上げとの境目を納める見切り材。", "reviewStatus": "card-supported-draft", "drawingPoints": ["断面で床側を巾木、天井側を回り縁として描く"] },
+        { "itemId": "2026_専門1_建筑构法_Q3.md#s03", "prompt": "あり継ぎとかま継ぎ", "answer": "あり継ぎは端部を燕尾形にして、引張方向に抜けにくくする継手。かま継ぎは互いの端部をかぎ形に欠き取り、材軸方向のずれを抑える継手。", "reviewStatus": "card-supported-draft", "drawingPoints": ["あり継ぎは台形の広がりを描く", "かま継ぎはかぎ形の段欠きを描く"] },
+        { "itemId": "2026_専門1_建筑构法_Q3.md#s04", "prompt": "合わせガラスと複層ガラス", "answer": "合わせガラスは複数の板ガラスを中間膜で接着したもので、破損時にも破片が飛散しにくい。複層ガラスは複数のガラスの間に密封中空層を設け、断熱・結露防止性能を高める。", "reviewStatus": "card-supported-draft", "drawingPoints": ["中間膜と中空層を別々に明記する"] },
+        { "itemId": "2026_専門1_建筑构法_Q3.md#s05", "prompt": "いも目地と馬目地", "answer": "いも目地は上下段の目地が一直線にそろう張り方。馬目地は上段を半枚程度ずらし、目地が上下で連続しない張り方。", "reviewStatus": "card-supported-draft", "drawingPoints": ["横長タイルを2段描き、目地の位置を比較する"] },
+        { "itemId": "2026_専門1_建筑构法_Q3.md#s06", "prompt": "山留め壁と切り梁", "answer": "山留め壁は掘削周囲の土を保持して崩壊や変形を防ぐ壁。切り梁は向かい合う山留め壁の間に渡し、土圧による変形を内側から支える水平材。", "reviewStatus": "card-supported-draft", "drawingPoints": ["掘削断面の両側に山留め壁、中央に切り梁を描く"] },
+        { "itemId": "2026_専門1_建筑构法_Q3.md#s07", "prompt": "本瓦葺きと桟瓦葺き", "answer": "本瓦葺きは丸瓦と平瓦を組み合わせて葺く伝統的な工法で重量が大きい。桟瓦葺きは桟のある瓦を瓦桟に掛けて葺く工法で、施工性が高く一般的である。", "reviewStatus": "card-supported-draft", "drawingPoints": ["本瓦は丸瓦と平瓦、桟瓦は瓦桟への引掛かりを示す"] },
+        { "itemId": "2026_専門1_建筑构法_Q3.md#s08", "prompt": "CLTと集成材", "answer": "CLTはラミナの繊維方向を層ごとに直交させた面材で、壁・床・屋根のパネルに用いる。集成材はラミナの繊維方向を平行にそろえた部材で、梁・柱などの線材に用いる。", "reviewStatus": "card-supported-draft", "drawingPoints": ["CLTは層ごとの矢印を90°ずらす", "集成材は全層の矢印を同方向にする"] }
+      ]
+    },
+    {
+      "questionId": "2014:専門1:問題3",
+      "fileName": "2014_専門1_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s01", "prompt": "相対変位に追従する接合部", "answer": "エキスパンションジョイント", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s02", "prompt": "建具を鴨居と敷居にはめる方法", "answer": "落とし込み", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s03", "prompt": "側柱→小屋梁→軒桁の架構法", "answer": "京呂組", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s04", "prompt": "側柱→軒桁→小屋梁の架構法", "answer": "折置組", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s05", "prompt": "段板を受ける階段桁", "answer": "ささら桁", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s06", "prompt": "てこで軒を支持する材", "answer": "跳木（はねぎ）", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s07", "prompt": "一頂点に集まる正方形等の屋根", "answer": "方形屋根", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s08", "prompt": "大棟両側に流れをもつ屋根", "answer": "切妻屋根", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s09", "prompt": "平瓦間に丸瓦をかぶせる構法", "answer": "本瓦葺き", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s10", "prompt": "木材間をU字形金属板で葺く構法", "answer": "瓦棒葺き", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s11", "prompt": "コンクリートの作業性", "answer": "ワーカビリティ", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s12", "prompt": "底面の広がりで測る流動性試験", "answer": "スランプフロー試験", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s13", "prompt": "セメントに対する水の質量比", "answer": "水セメント比（W/C）", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s14", "prompt": "載荷板による地盤支持力試験", "answer": "平板載荷試験", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s15", "prompt": "木材が繊維方向に裂ける現象", "answer": "割裂", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s16", "prompt": "部分圧縮で表面がへこむ現象", "answer": "めり込み", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s17", "prompt": "単板を平行に積層した材料", "answer": "LVL（単板積層材）", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s18", "prompt": "応力一定でひずみが増す現象", "answer": "降伏", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s19", "prompt": "加熱後急冷する熱処理", "answer": "焼入れ", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2014_専門1_建筑构法_Q3.md#s20", "prompt": "H形鋼の張出し板部分", "answer": "フランジ", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2017:専門1:問題3",
+      "fileName": "2017_専門1_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s01", "prompt": "スランプ", "answer": "コンクリート", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s02", "prompt": "挽板", "answer": "直交集成板（CLT）", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s03", "prompt": "サンドドレーン", "answer": "液状化", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s04", "prompt": "クイーンポスト", "answer": "トラス", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s05", "prompt": "バックドラフト", "answer": "火災", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s06", "prompt": "単板", "answer": "合板", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s07", "prompt": "帯筋", "answer": "鉄筋コンクリート柱", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s08", "prompt": "ウェブ", "answer": "H形鋼", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s09", "prompt": "あばら筋", "answer": "鉄筋コンクリート梁", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s10", "prompt": "ダイアフラム", "answer": "鋼管", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s11", "prompt": "ガラスの比重", "answer": "2.5", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s12", "prompt": "スギの比重", "answer": "0.4", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s13", "prompt": "鋼材の比重", "answer": "7.8", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s14", "prompt": "アルミニウムの比重", "answer": "2.7", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s15", "prompt": "普通コンクリートの比重", "answer": "2.3", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s16", "prompt": "スギのヤング係数", "answer": "7,000 N/mm²", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s17", "prompt": "鋼材のヤング係数", "answer": "205,000 N/mm²", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s18", "prompt": "普通コンクリートのヤング係数", "answer": "21,000 N/mm²", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s19", "prompt": "鋼材の線膨張係数", "answer": "10×10⁻⁶ /K", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2017_専門1_建筑构法_Q3.md#s20", "prompt": "普通コンクリートの線膨張係数", "answer": "10×10⁻⁶ /K", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2019:専門1:問題3",
+      "fileName": "2019_専門1_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2019_専門1_建筑构法_Q3.md#s01", "prompt": "（1）空欄 a〜j", "answer": "a 押出\nb フロート\nc ロール\nd CLT\ne ロッキング\nf アンカー\ng 表（木表）\nh ハイテンション\ni コールド\nj 下", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2019_専門1_建筑构法_Q3.md#s02", "prompt": "（2）図中 k〜t", "answer": "k 野地板\nl 垂木\nm 母屋\nn フォームタイ\no セパレーター\np せき板\nq ダイアフラム\nr スカラップ\ns マリオン\nt 無目", "reviewStatus": "card-supported-draft", "drawingPoints": ["屋根は母屋→垂木→野地板の支持順で読む", "型枠は面材・間隔保持・締結の3役を分ける"] }
+      ]
+    },
+    {
+      "questionId": "2020:専門1:問題3",
+      "fileName": "2020_専門1_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2020_専門1_建筑构法_Q3.md#s01", "prompt": "1 材料の特性値（1）〜（10）", "answer": "(1) 7,000 N/mm²\n(2) 205,000 N/mm²\n(3) 21,000 N/mm²\n(4) 2.5\n(5) 2.0\n(6) 7.8\n(7) 2.4\n(8) 5.0×10⁻⁶ /K\n(9) 1.2×10⁻⁵ /K\n(10) 1.0×10⁻⁵ /K", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2020_専門1_建筑构法_Q3.md#s02", "prompt": "2 構造家と構造形式", "answer": "フラー：テンセグリティ\nネルヴィ：シェル（オルヴィエト飛行機格納庫）\nピーター・ライス：ケーブルトラス\nゲルバー：ゲルバー梁\nフライ・オットー：ケーブルネット\nキャンデラ：傘型シェル\nトロハ：シェル（サルスエラ競馬場）\nモランディ：斜張橋\nフィーレンディール：フィーレンディールトラス\nワックスマン：スペースフレーム", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2022:専門1:問題3",
+      "fileName": "2022_専門1_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2022_専門1_建筑构法_Q3.md#s01", "prompt": "空欄 A〜T", "answer": "A サウンディング\nB SSG\nC CFT\nD ALC\nE フレミッシュ\nF シース\nG フーチング\nH スランプ\nI ラス\nJ マリオン\nK 幅木\nL LCC\nM ガスケット\nN ブラケット\nO デッキプレート\nP キーストーン\nQ 継ぎ手\nR ハンチ\nS 山留\nT エクスパンションジョイント", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2024:専門1:問題3",
+      "fileName": "2024_専門1_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2024_専門1_建筑构法_Q3.md#s01", "prompt": "空欄 a〜t", "answer": "a 5000\nb 800\nc 12\nd 10⁻⁵\ne 10⁻⁵\nf 4\ng 450\nh レトロフィット\ni 透湿防水\nj 豆板\nk 留め\nl NLT\nm ウェブ\nn 逆打ち工法\no かぶり\np コールドフォーミング\nq 燃えしろ\nr 巾木\ns まわり縁\nt エッジ", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2025:専門1:問題3",
+      "fileName": "2025_専門1_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2025_専門1_建筑构法_Q3.md#s01", "prompt": "（1）材料密度・許容応力度 a〜f", "answer": "a 0.44\nb 7.8\nc 2.3\nd 2/3\ne 1\nf 2/3", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2025_専門1_建筑构法_Q3.md#s02", "prompt": "（2）（3）の図解問題", "answer": "木質材料は、繊維方向で判定する。合板＝単板を直交、LVL＝単板を平行、CLT＝ラミナを直交、集成材＝ラミナを平行、OSB＝ストランドを配向。軸組図は『基礎→土台→柱／梁→桁→小屋組→屋根』、枠組壁図は『土台→枠組壁（間柱・耐力面材）→床／天井』の順に読む。図中 g〜y の個別割当は原図位置を再確認する。", "reviewStatus": "partial-image-draft", "drawingPoints": ["木質材料は一枚の構成材の名称も同時に確認する", "軸組と枠組壁は、柱梁で支えるか面材を含む壁で支えるかを区別する"] }
+      ]
+    },
+    {
+      "questionId": "2015:専門1:問題12",
+      "fileName": "2015_専門1_建筑构法_Q12.md",
+      "items": [
+        { "itemId": "2015_専門1_建筑构法_Q12.md#s01", "prompt": "非構造壁（帳壁）の耐震支持", "answer": "帳壁は自重を確実に支持しつつ、層間変位を拘束しないように躯体へ取り付ける。上部は長穴・スライド機構などで層間変位を追従させ、下部または一方の支持点で面外荷重と自重を受ける。パネル周囲には十分なクリアランスを設け、シール材・ガスケットは変形に追従できるものとする。図では、梁・柱、固定点、可動点、層間変位矢印、周囲クリアランスを示す。", "reviewStatus": "card-supported-draft", "drawingPoints": ["固定点と可動点を分ける", "層間変位の矢印とパネル周囲のクリアランスを描く"] }
+      ]
+    },
+    {
+      "questionId": "2015:専門1:問題13",
+      "fileName": "2015_専門1_建筑构法_Q13.md",
+      "items": [
+        { "itemId": "2015_専門1_建筑构法_Q13.md#s01", "prompt": "シースルーガラス壁・石材屋根の雨仕舞", "answer": "ガラスは方立・無目にガスケットと押縁で固定し、ガラス溝の排水経路を屋外側へ連続させる。石材パネルは見え掛かりの仕上げであり、背後に防水層・水切り・通気排水層を設ける。屋根は外側へ勾配を付け、石材目地から浸入した水も防水層上で排水できる二次防水とする。異種材料の取り合いにはバックアップ材＋シーリングを用い、上端は押え金物・水切りで雨だれを外へ導く。", "reviewStatus": "card-supported-draft", "drawingPoints": ["外側から石材／通気排水層／防水層／下地の順に断面で描く", "ガラス溝・水切り・排水方向を矢印で示す"] }
+      ]
+    },
+    {
+      "questionId": "2016:専門2-2:問題12",
+      "fileName": "2016_専門2-2_建筑构法_Q12.md",
+      "items": [
+        { "itemId": "2016_専門2-2_建筑构法_Q12.md#s01", "prompt": "茅葺き屋根の雨仕舞", "answer": "茅は厚く重ねて葺かれ、雨水は表層を流下して軒先へ排出される。屋根勾配と十分な葺き厚により、水が毛細管作用で室内側まで達する前に排水される。風で吹き込んだ少量の水分は、茅の空隙による通気で乾燥する。図では、急勾配、長い雨水経路、厚い茅層、表層の流下矢印、通気・乾燥矢印を示す。", "reviewStatus": "card-supported-draft", "drawingPoints": ["雨水は表層を流れ、室内側へは達しないことを断面で示す", "通気による乾燥を併記する"] }
+      ]
+    },
+    {
+      "questionId": "2016:専門2-2:問題13",
+      "fileName": "2016_専門2-2_建筑构法_Q13.md",
+      "items": [
+        { "itemId": "2016_専門2-2_建筑构法_Q13.md#s01", "prompt": "RC住宅浴室：在来構法と工業化構法の手順", "answer": "在来構法：①躯体・開口の確認 ②墨出し ③給排水・電気の先行配管（設備工）④下地調整・防水（左官／防水工）⑤浴槽据付 ⑥壁床天井の下地・タイル等仕上げ（大工／タイル工）⑦器具取付・試運転（設備工）。工業化構法：①搬入経路・躯体寸法確認 ②ユニットバス部材または箱体を搬入 ③架台・床パン据付 ④壁・天井パネル、浴槽、建具を組立（メーカー施工者）⑤給排水・電気接続 ⑥シーリング・通水試験。工業化構法は現場湿式作業を減らし、品質と工期を安定させる。", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2017:専門2-2:問題3",
+      "fileName": "2017_専門2-2_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2017_専門2-2_建筑构法_Q3.md#s01", "prompt": "新工法 A・B・C の経済性判断", "answer": "人工費は25,000円／人工。A：2.5億円、削減額8億円、純削減5.5億円。B：5億円、削減額12億円、純削減7億円。C：7.5億円、削減額14億円、純削減6.5億円。よって、金額だけで判断すればBを採用する。実務では、品質・安全・工期短縮、技術者確保、施工リスクも確認するが、与条件ではBが最大の純削減額をもつ。", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2018:専門2-2:問題3",
+      "fileName": "2018_専門2-2_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2018_専門2-2_建筑构法_Q3.md#s01", "prompt": "扠首組と他の小屋組の比較", "answer": "扠首組は、二本の斜材（扠首）を合掌状に組み、梁上で押し合うことで屋根荷重を伝える小屋組である。中間柱を減らして大きな小屋裏空間を確保でき、民家・合掌造りなどに用いられる。長所は大スパンと空間の取りやすさ、短所は水平推力への対処と部材断面・接合の確保である。比較例として、和小屋は束・小屋梁で鉛直荷重を順に伝えるため材料を小割にしやすい。洋小屋（キングポストトラス）は引張材・圧縮材を明確にした三角形トラスで、水平推力をタイ材で処理しやすい。", "reviewStatus": "card-supported-draft", "drawingPoints": ["扠首は斜材の足元に水平推力が出ることを矢印で描く", "和小屋は梁＋束、洋小屋は合掌＋真束＋下弦材で対比する"] }
+      ]
+    },
+    {
+      "questionId": "2020:専門2-2:問題3",
+      "fileName": "2020_専門2-2_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2020_専門2-2_建筑构法_Q3.md#s01", "prompt": "スケルトン・インフィルと NEXT21", "answer": "スケルトン・インフィル住宅は、長寿命の躯体・共用設備（スケルトン）と、住戸内の内装・設備（インフィル）を分離し、ライフスタイルや家族構成の変化に応じて更新可能にする方式である。写真の建築はNEXT21で、SIの実験住宅として、可変住戸、更新しやすい設備、住民参加を含む長期居住の検証を行った。床スラブの段差は、配管・設備スペースを確保し、床を大きく壊さずに更新できるようにするためである。細かなモジュール調整は、間仕切り・設備・部品を多様に組み替え、将来の住戸改修を容易にするためである。", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2022:専門2-2:問題3",
+      "fileName": "2022_専門2-2_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2022_専門2-2_建筑构法_Q3.md#s01", "prompt": "曳家＋免震レトロフィットの施工手順", "answer": "第1段階：調査・既存躯体補強、ライフライン切離し、仮設計画。第2段階：建物周囲を掘削し、既存基礎下を補強して耐圧梁・仮受け梁を設置。第3段階：ジャッキで建物を仮受けし、既存基礎から切り離す。第4段階：移動先に新基礎・免震ピットを施工し、レールまたは滑り材を設ける。第5段階：油圧ジャッキ等で10m平行移動し、各段階で水平・沈下を管理する。第6段階：免震支承・ダンパーを所定位置に据付け、建物を新基礎へ降ろして固定。第7段階：外構・設備を復旧し、免震クリアランスと性能を確認する。", "reviewStatus": "card-supported-draft", "drawingPoints": ["各段階で『既存基礎／仮受け梁／ジャッキ／移動レール／新基礎・免震支承』を示す", "建物がどこで支持されているかを必ず描く"] }
+      ]
+    },
+    {
+      "questionId": "2015:専門1:問題2",
+      "fileName": "2015_専門1_建筑构法_Q2.md",
+      "items": [
+        { "itemId": "2015_専門1_建筑构法_Q2.md#s01", "prompt": "1（1）〜（9）材料値・許容応力度", "answer": "(1) 500 kg/m³\n(2) 7,800 kg/m³\n(3) 2,300 kg/m³\n(4) 木材 ＜ コンクリート ＜ 鋼材\n(5) N/mm²\n(6) 2/3\n(7) 1/3\n(8) 1\n(9) 2階建の2階 ＜ 1階", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2015_専門1_建筑构法_Q2.md#s02", "prompt": "2 用語の関連付け", "answer": "イングリッシュ・ボンド→煉瓦\nキングポスト→真束\nけらば→切妻\n2×4工法→枠組壁工法\n集成材→挽板\nDPG（Dot Point Glazing）構法→ガラス\nマリオン→方立\nオールケーシング→杭地業\n金輪→継手\n釘接合→引抜力", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2016:専門1:問題2",
+      "fileName": "2016_専門1_建筑构法_Q2.md",
+      "items": [
+        { "itemId": "2016_専門1_建筑构法_Q2.md#s01", "prompt": "（1）空欄 1〜23", "answer": "1 固定荷重\n2 積載荷重\n3 荷重\n4 スラブ\n5 剛心\n6 偏心\n7 外周壁\n8 間仕切壁\n9 湿式\n10 乾式\n11 耐力壁\n12 非耐力壁\n13 カーテンウォール\n14 鋼\n15 層間変位追従性\n16 せん断耐力\n17 引張耐力\n18 摩擦力\n19 mm\n20 単板\n21 直角\n22 mm\n23 挽板", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2016_専門1_建筑构法_Q2.md#s02", "prompt": "（2）木造小屋組の図中 1〜7", "answer": "1 棟木\n2 母屋\n3 垂木\n4 桁\n5 方づえ\n6 梁\n7 真束", "reviewStatus": "card-supported-draft", "drawingPoints": ["棟木・母屋・桁は高さと支持範囲で区別する", "方づえは斜材、真束は中央の鉛直材として読む"] }
+      ]
+    },
+    {
+      "questionId": "2018:専門1:問題3",
+      "fileName": "2018_専門1_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2018_専門1_建筑构法_Q3.md#s01", "prompt": "（1）a〜i の材料値", "answer": "a 0.38\nb 7.8\nc 2.4\nd 24 N/mm²\ne 240 N/mm²\nf 24 N/mm²\ng 2/3\nh 2/3\ni 1", "reviewStatus": "card-supported-draft" },
+        { "itemId": "2018_専門1_建筑构法_Q3.md#s02", "prompt": "（2）図中 j〜t", "answer": "j 室外側\nk 室内側\nl ガラス\nm アルミサッシの詳細\nn 柱\no 火打土台\np 根太\nq 大引き\nr アンカーボルト\ns 布基礎\nt 土台", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2023:専門1:問題3",
+      "fileName": "2023_専門1_建筑构法_Q問題3.md",
+      "items": [
+        { "itemId": "2023_専門1_建筑构法_Q問題3.md#s01", "prompt": "図中用語の選択", "answer": "図を『基礎・木造床／RC断面／溶接継手／トラス／階段』の5群に分けて読む。RC断面は主筋・あばら筋・かぶり厚さ、溶接は完全溶け込み溶接と隅肉溶接、階段は段板・け込み板・側板、木造床は土台・床梁・火打土台、トラスはキングポスト・フィンク・ワーレンを三角材の配置で判定する。画像書き出しが黒く、各番号への最終割当は未確定。", "reviewStatus": "image-source-unresolved", "drawingPoints": ["RCは主筋を長手方向、あばら筋を巻く方向に描く", "完全溶け込みは板厚全体、隅肉溶接は隅角の三角断面で描く"] }
+      ]
+    },
+    {
+      "questionId": "2014:専門2-2:問題10",
+      "fileName": "2014_専門2-2_建筑构法_Q10.md",
+      "items": [
+        { "itemId": "2014_専門2-2_建筑构法_Q10.md#s01", "prompt": "寄棟屋根の屋根伏せ図", "answer": "平面外周から各辺に等勾配の屋根面を立ち上げる。凸隅角からは隅棟、凹隅角からは谷樋方向の谷線を45度の基準線として引き、同じ勾配の屋根面の交線を棟として決める。補助線を残し、棟・隅棟・谷を区別して示す。", "reviewStatus": "card-supported-draft", "drawingPoints": ["外周線を写し、隅角から等勾配線を引く", "棟は高い線、谷は雨水が集まる低い線として矢印も示す"] }
+      ]
+    },
+    {
+      "questionId": "2017:専門2-2:問題6",
+      "fileName": "2017_専門2-2_建筑构法_Q6.md",
+      "items": [
+        { "itemId": "2017_専門2-2_建筑构法_Q6.md#s01", "prompt": "図示建築の構造形式・材料・特徴", "answer": "原図の建築名・全景が判読できないため、確定答案は保留。回答時は、①荷重を伝える主形式（フレーム／トラス／シェル／膜等）、②主材料、③力の流れと空間への効果、の順で4行に整理する。", "reviewStatus": "image-source-unresolved" }
+      ]
+    },
+    {
+      "questionId": "2019:専門2-2:問題3",
+      "fileName": "2019_専門2-2_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2019_専門2-2_建筑构法_Q3.md#s01", "prompt": "A〜F の構造形式・材料・特徴", "answer": "A 鳥羽市立海の博物館展示棟：木造の大断面集成材による架構・屋根。木材を反復する架構で大空間を覆い、地域材と施工の合理性を示す。\nB 豊島美術館：薄肉RCシェル。自由曲面の連続殻と開口により、柱のない洞窟状空間をつくる。\nC 東京都庁：高層の鉄骨／SRC系フレームとコアを用い、ツインタワーの剛性を確保する。\nD 東京スカイツリー：鋼管トラスの自立式塔。外周トラスと心柱制振により風・地震応答を抑える。\nE ホワイトライノII：鋼製の圧縮材とケーブルの張力材からなるテンセグリティ構造。タワー型と五角錐台型の二つの骨格が、ケーブル補強型のサスペンション膜屋根を支持する。\nF 国立代々木競技場第一体育館：RC主塔と鋼ケーブルによる吊り屋根。ケーブルの張力で大スパン屋根を薄く軽快に実現する。", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2023:専門2-2:問題3",
+      "fileName": "2023_専門2-2_建筑构法_Q3.md",
+      "items": [
+        { "itemId": "2023_専門2-2_建筑构法_Q3.md#s01", "prompt": "A〜E 建築事例の作答要点", "answer": "A パンテオン：厚い煉瓦コンクリートの円形壁と格間付きドーム、上部オクルス。下部を重く上部を軽くし、円形大空間に天光を導く。\nB サンタ・マリア・デル・フィオーレ：内外二重殻の煉瓦ドーム。肋と水平輪で施工時の安定を取り、巨大なドームをセンタリングなしで構築した。\nC 東大寺南大門：大仏様の貫構造。太い柱を貫でつなぎ、深い軒と大開口の門空間を成立させる。\nD 賀茂別雷神社本殿・権殿：流造、檜皮葺、式年遷宮による更新。正殿と権殿を交替使用して形式と技術を継承する。\nE ドミノ：RC柱・床スラブ・階段からなる自由平面の骨格。耐力壁から解放され、平面・開口・外観を自由に構成できる。", "reviewStatus": "card-supported-draft", "drawingPoints": ["各事例は断面の『力の流れ』と空間の特徴を同じ図に示す", "歴史文化の説明は構造説明と重複させない"] }
+      ]
+    },
+    {
+      "questionId": "2023:専門2-2:問題5",
+      "fileName": "2023_専門2-2_建筑构法_Q5.md",
+      "items": [
+        { "itemId": "2023_専門2-2_建筑构法_Q5.md#s01", "prompt": "PCa・PC・シドニーオペラハウス", "answer": "プレキャストコンクリート（PCa）は、部材を工場で製作して現場で建て込む工法である。現場湿式作業を減らし、職人不足下でも品質・工期を安定させやすい。プレストレストコンクリート（PC）は、シース管にPC鋼材を通して緊張・定着し、あらかじめ圧縮応力を与えて使用時の引張応力・ひび割れを抑える。シドニーオペラハウスは、当初の自由な殻形状を、同一球面から切り出せる反復可能な殻へ修正した。これによりプレキャストのリブ・パネルを標準化し、製作・施工を可能にした。", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2024:専門2-2:問題5",
+      "fileName": "2024_専門2-2_建筑构法_Q5.md",
+      "items": [
+        { "itemId": "2024_専門2-2_建筑构法_Q5.md#s01", "prompt": "図 A〜G の構造・構法的特徴", "answer": "元図のA〜Gの建築名・写真ラベルを、現在の黒い画像書き出しでは確定できない。各建築は『主構造形式／主材料／力の流れ・施工上の特徴』を3行で答える。読める原図が必要。", "reviewStatus": "image-source-unresolved" }
+      ]
+    },
+    {
+      "questionId": "2025:専門2-2:問題5",
+      "fileName": "2025_専門2-2_建筑构法_Q5.md",
+      "items": [
+        { "itemId": "2025_専門2-2_建筑构法_Q5.md#s01", "prompt": "4組の建築技術比較", "answer": "(1) お祭り広場は大屋根を支えるスペースフレーム、アメリカ館はフラーのジオデシックドーム（テンセグリティ的な三角格子）である。ともに軽量大スパンだが、前者は屋根架構、後者は自立ドームである。\n(2) セキスイハイムM1は工場生産ユニットを積層する工業化住宅、ハビタ'67はプレキャストRCモジュールを積層する集合住宅。両者ともモジュール反復だが、前者は住宅商品、後者は都市的集合住戸の多様な配置を狙う。\n(3) プラダ青山は鋼のダイアグリッドと膨らんだガラス面、メゾンエルメスはガラスブロック状外皮と鉄骨支持。両者とも透明感を扱うが、前者は構造表現、後者は均質な光の膜である。\n(4) 東京ドームは空気圧で屋根膜を支持する空気膜構造、ミュンヘン五輪競技場はケーブルネットに膜を掛ける張力構造。両者とも軽量大スパンだが、支持原理が内圧かケーブル張力かで異なる。", "reviewStatus": "card-supported-draft" }
+      ]
+    },
+    {
+      "questionId": "2026:専門2-2:問題5",
+      "fileName": "2026_専門2-2_建筑构法_Q5.md",
+      "items": [
+        { "itemId": "2026_専門2-2_建筑构法_Q5.md#s01", "prompt": "図1〜3の部材 A〜J", "answer": "図版が黒く書き出され、A〜Jの矢印先を確定できないため個別名は保留する。図1は鴨居・敷居・方立などの開口部材、図2は外壁仕上げ・通気層・胴縁・防水層・構造材、図3はカーテンウォールのマリオン・無目・スパンドレル・ガスケット等が候補。読める原図が必要。", "reviewStatus": "image-source-unresolved" }
+      ]
+    }
+  ]
+}

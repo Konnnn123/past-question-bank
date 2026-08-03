@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620">
+  <rect width="1120" height="620" fill="#f7f4ed"/>
+  <text x="42" y="48" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#17324d">神社建築｜入口・屋根・平面で類型化する</text>
+  <text x="42" y="78" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="16" fill="#52606d">Do not memorize silhouettes alone: entrance side + roof form + front addition</text>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" fill="#17324d" stroke="#17324d" stroke-linejoin="round">
+    <g transform="translate(35 125)">
+      <text x="120" y="0" text-anchor="middle" font-size="21" font-weight="700" stroke="none">神明造</text>
+      <path d="M25 140 L120 60 L215 140" fill="none" stroke-width="7"/>
+      <rect x="50" y="140" width="140" height="105" fill="#e8dfcd" stroke-width="5"/>
+      <line x1="120" y1="140" x2="120" y2="245" stroke="#b14f3b" stroke-width="6"/>
+      <line x1="55" y1="245" x2="55" y2="280" stroke-width="6"/><line x1="185" y1="245" x2="185" y2="280" stroke-width="6"/>
+      <text x="120" y="315" text-anchor="middle" font-size="17" stroke="none">平入・切妻・高床</text>
+    </g>
+    <g transform="translate(300 125)">
+      <text x="120" y="0" text-anchor="middle" font-size="21" font-weight="700" stroke="none">大社造</text>
+      <path d="M25 140 L120 60 L215 140" fill="none" stroke-width="7"/>
+      <rect x="50" y="140" width="140" height="105" fill="#e8dfcd" stroke-width="5"/>
+      <rect x="98" y="190" width="44" height="55" fill="#f7f4ed" stroke="#b14f3b" stroke-width="5"/>
+      <line x1="55" y1="245" x2="55" y2="280" stroke-width="6"/><line x1="185" y1="245" x2="185" y2="280" stroke-width="6"/>
+      <text x="120" y="315" text-anchor="middle" font-size="17" stroke="none">妻入・切妻・高床</text>
+    </g>
+    <g transform="translate(565 125)">
+      <text x="120" y="0" text-anchor="middle" font-size="21" font-weight="700" stroke="none">春日造</text>
+      <path d="M25 140 L120 70 L210 140" fill="none" stroke-width="7"/>
+      <path d="M120 70 Q178 78 220 125 Q238 145 245 170" fill="none" stroke="#8b6b3f" stroke-width="7"/>
+      <rect x="62" y="140" width="135" height="105" fill="#e8dfcd" stroke-width="5"/>
+      <path d="M197 140 L245 170 L225 245 L197 245" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="4"/>
+      <text x="130" y="315" text-anchor="middle" font-size="17" stroke="none">妻入・正面に庇</text>
+    </g>
+    <g transform="translate(830 125)">
+      <text x="120" y="0" text-anchor="middle" font-size="21" font-weight="700" stroke="none">流造</text>
+      <path d="M25 140 L110 75 L205 140" fill="none" stroke-width="7"/>
+      <path d="M110 75 Q185 85 245 165" fill="none" stroke="#8b6b3f" stroke-width="7"/>
+      <rect x="55" y="140" width="145" height="105" fill="#e8dfcd" stroke-width="5"/>
+      <path d="M200 140 L245 165 L225 245 L200 245" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="4"/>
+      <text x="130" y="315" text-anchor="middle" font-size="17" stroke="none">平入・前流れを延長</text>
+    </g>
+  </g>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" fill="#52606d">
+    <text x="560" y="510" text-anchor="middle">①入口は平側か妻側か　②屋根は切妻か前流れか　③庇・階段・床高はどう付くか</text>
+    <text x="560" y="548" text-anchor="middle" fill="#2e7d75">答案では「形」だけでなく、祭祀・遷宮・本殿への接近方法と結ぶ</text>
+    <text x="560" y="586" text-anchor="middle" fill="#b14f3b">模式図：個別社殿の細部・年代・後世の改変は別途確認する</text>
+  </g>
+</svg>

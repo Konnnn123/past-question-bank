@@ -1,0 +1,1690 @@
+{
+  "version": 1,
+  "scope": "all unresolved normalizedPersonNames after architect-card batches 1-4",
+  "summary": {
+    "total": 137,
+    "architectCardCandidates": 47,
+    "relatedPeople": 90
+  },
+  "rows": [
+    {
+      "nameJa": "A·ダービー",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-f09e9fd36d8e",
+          "buildingNameJa": "コールブルックデール橋",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "G・G・スコット",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-4677a1baf9e0",
+          "buildingNameJa": "バターシー発電所 Battersea Power Station",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "J・F・へーガー",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-89338f927e05",
+          "buildingNameJa": "チリ・ハウス",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "アッタロス2世",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-3e073d1b3860",
+          "buildingNameJa": "アッタロスのストア",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "アンドレ・ル・ノートル",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-3d611a6972a2",
+          "buildingNameJa": "ヴェルサイユ宮",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ウィトルウィウス",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-398d0904c409",
+          "buildingNameJa": "ローマのオーダー",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ウィリアム・モリス（依頼主）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-81a0ff88492d",
+          "buildingNameJa": "赤い家",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ウェスパシアヌス帝（着工）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-2b0068b43050",
+          "buildingNameJa": "コロッセウム",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ウル・ナンム（王）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-65ec8fa96c3e",
+          "buildingNameJa": "ウルのジッグラト",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "エリアス・デレハム（Elias of Dereham）",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-7160b9195147",
+          "buildingNameJa": "ソールズベリ大聖堂",
+          "pastExamCount": 1
+        }
+      ],
+      "pastExamCount": 1
+    },
+    {
+      "nameJa": "カフラー王",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-76e521d49df9",
+          "buildingNameJa": "ギザの3大ピラミッド",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "カラカラ帝",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-2704d2af1286",
+          "buildingNameJa": "カラカラ浴場",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "クセルクセス1世",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-8939ae388132",
+          "buildingNameJa": "ペルセポリス",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "クフ王",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-76e521d49df9",
+          "buildingNameJa": "ギザの3大ピラミッド",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ゲルハルト・フォン・リーレ（初代建築家）",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-bc5e47ef4b62",
+          "buildingNameJa": "ケルン大聖堂",
+          "pastExamCount": 1
+        }
+      ],
+      "pastExamCount": 1
+    },
+    {
+      "nameJa": "コンスタンティヌス大帝",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-2893a6b19010",
+          "buildingNameJa": "聖墳墓教会堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "コンスタンティヌス大帝の娘コンスタンティナ（推定）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-4a787cf0bd1b",
+          "buildingNameJa": "サンタ コスタンツァ廟堂",
+          "pastExamCount": 3
+        }
+      ],
+      "pastExamCount": 3
+    },
+    {
+      "nameJa": "コンスタンティヌス帝",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-1bf2683efc4e",
+          "buildingNameJa": "コンスタンティヌスのバシリか",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "コンラート2世（着工）・ハインリヒ4世（改築）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-81d00608e078",
+          "buildingNameJa": "シュパイヤー大聖堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "サン＝ベルナール",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-2b2cd5278913",
+          "buildingNameJa": "フォントネ修道院教会堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ジョヴァンニ・バッティスタ・アルベルティ（影響）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-a4de64654651",
+          "buildingNameJa": "パラッツォ·ルチェラ イ",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "セプティミウス・セウェルス帝",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-c579ab552c35",
+          "buildingNameJa": "セプティミウス・セウィルスの凱旋門",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "センムト（ハトシェプストの建築家）／メンチュホテプ2世（自身の葬祭殿を建設）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-569e8356ec2b",
+          "buildingNameJa": "ハトシェポスト女王葬祭神殿とメントゥホテップ2世葬祭神殿",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ダレイオス1世",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-8939ae388132",
+          "buildingNameJa": "ペルセポリス",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ティトゥス帝（完成）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-2b0068b43050",
+          "buildingNameJa": "コロッセウム",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "テオドリック大王（東ゴート王国）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-022265addeed",
+          "buildingNameJa": "サン タポリナーレ ヌオーヴォ教会堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "トラヤヌス帝／アポロドーロス・ダマスケヌス",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-8a1a1f2e5ef0",
+          "buildingNameJa": "トラヤヌス帝市場",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "トーマス・グラバー",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-553af9aa7607",
+          "buildingNameJa": "グラバー邸",
+          "pastExamCount": 1
+        }
+      ],
+      "pastExamCount": 1
+    },
+    {
+      "nameJa": "ドミティアヌス帝",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-df2d0ec71e46",
+          "buildingNameJa": "ティトゥスの凱旋門",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ドミニク・ベロー",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-1a84c81136b0",
+          "buildingNameJa": "フランス国立図書館",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ドメニコ・コンタリーニ（ドージェ）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-6d305ccaf78d",
+          "buildingNameJa": "サン マルコ大聖堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ハイメ・ファブラ（初代建築家）",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-6ffa23aebe74",
+          "buildingNameJa": "バルセロナ大聖堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ハドリアヌス帝",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-6e028baa8a9c",
+          "buildingNameJa": "パンテオン",
+          "pastExamCount": 8
+        }
+      ],
+      "pastExamCount": 8
+    },
+    {
+      "nameJa": "ピエール・ブレ",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-84baf6ad4781",
+          "buildingNameJa": "オテル·ド·スーピーズ「夏の間」",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "フィリップ・ウェブ（設計）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-81a0ff88492d",
+          "buildingNameJa": "赤い家",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "フランソワ1世",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-b4631e336fe0",
+          "buildingNameJa": "ブロワ城フランソワ1世の翼屋",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "フリードリヒ・フォン・ゲルトナー",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-74a48dc75410",
+          "buildingNameJa": "バイエルン国立図書館",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ブスケトゥス（Buscheto）／ライナルドゥス（Rainaldo）",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-debcab541f41",
+          "buildingNameJa": "ピサ大聖堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "プティジャン神父（ベルナール・プティジャン）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-52162f7e99ee",
+          "buildingNameJa": "大浦天主堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ペイディアス（彫刻監督）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-e103164c6ab5",
+          "buildingNameJa": "パルテノン神殿",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ペリクレス",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-28e43c77fb17",
+          "buildingNameJa": "アテネのアクロポリス",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ポリュクレイトス（小）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-447bf49194ae",
+          "buildingNameJa": "エピダウロスの劇場",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "メンカウラー王",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-76e521d49df9",
+          "buildingNameJa": "ギザの3大ピラミッド",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "モーリス・ド・シュリー司教",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-0260c34dc1be",
+          "buildingNameJa": "パリのナートル＝ダム大聖堂",
+          "pastExamCount": 1
+        }
+      ],
+      "pastExamCount": 1
+    },
+    {
+      "nameJa": "ヤン・ブラジェイ・サンティーニ＝アイヘル",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-5e8e9a9e1582",
+          "buildingNameJa": "ザンクト·ヨ八ネス·ネポムク教会堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ユスティニアヌス1世／アンテミオス・トラーリス",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-ad7b5b62435c",
+          "buildingNameJa": "ハギア ソフィア大聖堂",
+          "pastExamCount": 3
+        }
+      ],
+      "pastExamCount": 3
+    },
+    {
+      "nameJa": "ヨハン・ベルンハルト・フィッシャー・フォン・エルラッハ",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-16250ffdb50a",
+          "buildingNameJa": "カールス·キルヒェ",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ヨーゼフ・ホフマン",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-fcbefb6bae0c",
+          "buildingNameJa": "第２モール邸",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ヨーゼフ・マリア・オルブリッヒ",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-6d85845f1af3",
+          "buildingNameJa": "ゼツェッシオン館",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ヨーン・ウツソン",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-ae45db9b5282",
+          "buildingNameJa": "シドニーオペラハウス",
+          "pastExamCount": 1
+        }
+      ],
+      "pastExamCount": 1
+    },
+    {
+      "nameJa": "リチャード・ノーマン・ショウ",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-84cc5aacdcd7",
+          "buildingNameJa": "スタジオ・ハウス Kate Greenaway’s Home and Studio",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "リチャード・ロジャース",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-0b0fbab86d30",
+          "buildingNameJa": "ポンピドゥーセンター",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "リュイス・ドメネク・イ・ムンタネー",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-e5451e641b70",
+          "buildingNameJa": "カタルーニャ音楽堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ルイ14世",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-3d611a6972a2",
+          "buildingNameJa": "ヴェルサイユ宮",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ルイ9世",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-d9446d1ef354",
+          "buildingNameJa": "サント シャペル",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ルイ・ド・オルレアン",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-c374f5b9ad62",
+          "buildingNameJa": "ピエルフォン城",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ルイ・ル・ヴォー",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-3d611a6972a2",
+          "buildingNameJa": "ヴェルサイユ宮",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ルチアーノ・ラウラーナ（設計）",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-a4de64654651",
+          "buildingNameJa": "パラッツォ·ルチェラ イ",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ル・コルビュジェ",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-6ab4d772c730",
+          "buildingNameJa": "プラン・ヴォワザン",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "レンゾ・ピアノ",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-0b0fbab86d30",
+          "buildingNameJa": "ポンピドゥーセンター",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ロベルト・ファント・ホフ",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-8e9fefd69a12",
+          "buildingNameJa": "ヴィラ・ヘニー",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ロベール・ド・リュザルシュ（要確認）",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-13707b7e3bdb",
+          "buildingNameJa": "アミアンのノートル＝ダム大聖堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "ヴァルター・グロピウス＆アドルフ・マイヤー",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-5b915c32875a",
+          "buildingNameJa": "ケルン博モデル工場",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "三井高利",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-628e9112cd45",
+          "buildingNameJa": "三井越後屋",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "三菱地所",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-d418d1c8540b",
+          "buildingNameJa": "丸の内ビル",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "中條精一郎）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-ee63cdf5686b",
+          "buildingNameJa": "東京海上ビル",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "井伊直孝",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-418375d5792f",
+          "buildingNameJa": "彦根城天守",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "伊達政宗",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-6b76edbfea8c",
+          "buildingNameJa": "大崎八幡宮",
+          "pastExamCount": 0
+        },
+        {
+          "buildingId": "building-abfe8916bb10",
+          "buildingNameJa": "瑞巌寺庫裡",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "修道院長ゴーツベルト",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-af04d03f3adb",
+          "buildingNameJa": "ザンクト ガレン修道院",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "八条宮智仁親王",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-8ce5697c5787",
+          "buildingNameJa": "桂離宮",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "八条宮智忠親王",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-8ce5697c5787",
+          "buildingNameJa": "桂離宮",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "公慶上人",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-0348bb5ba1a8",
+          "buildingNameJa": "東大寺大仏殿",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "前田健二郎",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-722dd893ec3c",
+          "buildingNameJa": "京都市美術館",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "前田利長",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-dac67dcbaa45",
+          "buildingNameJa": "瑞龍寺仏殿",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "千利休",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-b36eb753529c",
+          "buildingNameJa": "妙喜庵待庵",
+          "pastExamCount": 1
+        },
+        {
+          "buildingId": "building-51ecc765dbfb",
+          "buildingNameJa": "大徳寺三門",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 1
+    },
+    {
+      "nameJa": "吉田鉄郎",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-9a075642b87b",
+          "buildingNameJa": "京都中央電話局上京分局庁舎",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "増沢洵",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-d787b6ef5fb1",
+          "buildingNameJa": "コアのあるH氏の住まい",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "夢窓疎石（夢窓国師）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-03bf35081e88",
+          "buildingNameJa": "永保寺開山堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "大熊喜邦",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-298d1495c77c",
+          "buildingNameJa": "帝国議会議事堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "小堀遠州",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-1f27662821aa",
+          "buildingNameJa": "龍光院密庵",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "岡田信一郎",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-a41a59e109de",
+          "buildingNameJa": "大阪市中央公会堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "岩元禄",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-ac7e459b112d",
+          "buildingNameJa": "京都中央電話局西陣分局",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "平清盛",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-ab456b8ab95b",
+          "buildingNameJa": "蓮華王院本堂",
+          "pastExamCount": 0
+        },
+        {
+          "buildingId": "building-b6dcd382bc78",
+          "buildingNameJa": "厳島神社",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "建築家不明（ペイディアスの関与説あり）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-d3a0925a13d7",
+          "buildingNameJa": "エレクテイオン",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "後水尾上皇",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-b14634b3b4c3",
+          "buildingNameJa": "修学院離宮中御茶屋客殿",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "徳川家光",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-cebade44c716",
+          "buildingNameJa": "清水寺本堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "徳川家康",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-f78ab4f94be1",
+          "buildingNameJa": "日光東照宮",
+          "pastExamCount": 0
+        },
+        {
+          "buildingId": "building-f190251f082a",
+          "buildingNameJa": "二条城二の丸御殿",
+          "pastExamCount": 1
+        }
+      ],
+      "pastExamCount": 1
+    },
+    {
+      "nameJa": "教皇ケレスティヌス1世（在任中に建立）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-ed4e5e6cf45e",
+          "buildingNameJa": "サンタ サビーナ教会堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "教皇シクストゥス3世",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-d3842d487638",
+          "buildingNameJa": "サンタ マリア マッジョーレ教会堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "日建設計",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-463dd52fce90",
+          "buildingNameJa": "パレスサイドビル",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "曾禰中條建築事務所（曾禰達蔵",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-ee63cdf5686b",
+          "buildingNameJa": "東京海上ビル",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "曾禰達蔵・中條精一郎（曾禰中條建築事務所）",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-199c1ba5f821",
+          "buildingNameJa": "慶應義塾五十周年記念図書館",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "本野精吾",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-211c1c074528",
+          "buildingNameJa": "西陣織物館",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "東孝光",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-77953d6c188f",
+          "buildingNameJa": "塔の家",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "池田綱政",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-072e20943ddb",
+          "buildingNameJa": "旧閑谷学校講堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "池田輝政",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-50e63bb375b3",
+          "buildingNameJa": "姬路城天守",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "清家清",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-ec7bed5d6412",
+          "buildingNameJa": "斎藤助教授の家",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "清水喜助",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-c19af7692d19",
+          "buildingNameJa": "第一国立银行",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "渡辺仁",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-5e9cb41dda88",
+          "buildingNameJa": "東京帝室博物館",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "片桐石州",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-c30f168f4939",
+          "buildingNameJa": "慈光院書院",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "石川康長",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-2bfeea67ec47",
+          "buildingNameJa": "松本城",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "石川数正",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-2bfeea67ec47",
+          "buildingNameJa": "松本城",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "磯崎新",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-d358b445a0a8",
+          "buildingNameJa": "つくばセンタービル",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "立石清重",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-2b8a2c2ac9ef",
+          "buildingNameJa": "旧開智学校校舎",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "紀州徳川家",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-eb725cff4f87",
+          "buildingNameJa": "臨春閣",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "緒方洪庵",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-a5e9c0d0dcaa",
+          "buildingNameJa": "旧緒方洪庵住宅",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "織田信康",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-0fc56c8797c2",
+          "buildingNameJa": "犬山城天守",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "織田有楽斎",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-9716abff0e95",
+          "buildingNameJa": "如庵",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "聖アンブロジウス",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-71abd4892575",
+          "buildingNameJa": "サン ロレンツォ マッジョーレ教会堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "聖ユーグ（クリュニー修道院長）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-27de24865579",
+          "buildingNameJa": "クリュニー第三修道院",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "聖徳太子",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-ecdbe71ecab9",
+          "buildingNameJa": "法隆寺夢殿",
+          "pastExamCount": 0
+        },
+        {
+          "buildingId": "building-e46b3040221f",
+          "buildingNameJa": "四天王寺",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "聖徳太子（信仰対象）・要確認",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-29940b058e51",
+          "buildingNameJa": "法隆寺聖霊院",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "聖徳太子（建立に関与）",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-4a300426c168",
+          "buildingNameJa": "法隆寺金堂&五重塔",
+          "pastExamCount": 2
+        }
+      ],
+      "pastExamCount": 2
+    },
+    {
+      "nameJa": "聖武天皇",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-977dda23f64f",
+          "buildingNameJa": "東大寺",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "良如上人",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-031a000eb17e",
+          "buildingNameJa": "西本願寺黒書院",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "良尚法親王",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-85cca9615eba",
+          "buildingNameJa": "曼殊院小書院",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "菅原道真",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-a8f20ccfc89c",
+          "buildingNameJa": "北野天満宮",
+          "pastExamCount": 1
+        }
+      ],
+      "pastExamCount": 1
+    },
+    {
+      "nameJa": "藤原不比等",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-7f9f0b19b0d6",
+          "buildingNameJa": "興福寺北円堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "藤原氏",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-69ac14a091f1",
+          "buildingNameJa": "春日大社本社本殿",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "藤原清衡",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-34fb1bfbaad8",
+          "buildingNameJa": "中尊寺金色堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "藤原道長",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-4f994bda4b8a",
+          "buildingNameJa": "法成寺",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "藤原頼通",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-c90fcc3d63b9",
+          "buildingNameJa": "平等院凤凰堂",
+          "pastExamCount": 2
+        }
+      ],
+      "pastExamCount": 2
+    },
+    {
+      "nameJa": "藤堂高虎",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-f78ab4f94be1",
+          "buildingNameJa": "日光東照宮",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "藪内剣仲",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-8fb71893d7f1",
+          "buildingNameJa": "藪内家燕庵",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "蘇我馬子",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-e9d903f58f2c",
+          "buildingNameJa": "飛鳥寺",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "行基",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-977dda23f64f",
+          "buildingNameJa": "東大寺",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "豊臣秀頼",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-2a578e50d429",
+          "buildingNameJa": "東寺金堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "象設計集団",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-82ed59e0006c",
+          "buildingNameJa": "名護市庁舎",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "足利義政",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-eb6c13c88e03",
+          "buildingNameJa": "慈照寺銀閣",
+          "pastExamCount": 0
+        },
+        {
+          "buildingId": "building-7da3f3b68c2e",
+          "buildingNameJa": "慈照寺東求堂",
+          "pastExamCount": 2
+        }
+      ],
+      "pastExamCount": 2
+    },
+    {
+      "nameJa": "足利義満",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-3f0cd8f82548",
+          "buildingNameJa": "鹿苑寺金閣",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "遠藤新",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-de2dcb207777",
+          "buildingNameJa": "甲子園ホテル",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "醍醐天皇",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-dbef964c43e8",
+          "buildingNameJa": "醍醐寺五重塔",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "重源",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-aeb9da82ed0e",
+          "buildingNameJa": "東大寺南大門&鐘楼",
+          "pastExamCount": 2
+        },
+        {
+          "buildingId": "building-13b897c12c40",
+          "buildingNameJa": "浄土寺浄土堂",
+          "pastExamCount": 1
+        }
+      ],
+      "pastExamCount": 3
+    },
+    {
+      "nameJa": "野口孫市",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-44a409f5a822",
+          "buildingNameJa": "大阪図書館",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "鑑真",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-aa2b036d9ced",
+          "buildingNameJa": "唐招提寺金堂",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    },
+    {
+      "nameJa": "隠元隆琦",
+      "status": "related-person",
+      "buildings": [
+        {
+          "buildingId": "building-e57f2f2374b2",
+          "buildingNameJa": "萬福寺大雄宝殿",
+          "pastExamCount": 1
+        }
+      ],
+      "pastExamCount": 1
+    },
+    {
+      "nameJa": "高橋兼吉",
+      "status": "architect-card-candidate",
+      "buildings": [
+        {
+          "buildingId": "building-59bee5939869",
+          "buildingNameJa": "西田川郡役所",
+          "pastExamCount": 0
+        }
+      ],
+      "pastExamCount": 0
+    }
+  ]
+}

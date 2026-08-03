@@ -1,0 +1,33 @@
+{
+  "id": "specialist1-mock-delivery-status-v1",
+  "scope": {"exam":"専門1","includedSubjects":["history","planning","environment","building_construction"],"excludedSubjects":["structural_mechanics","専門2-2"]},
+  "completedProductionChains": [
+    {"subject":"environment","generator":"numerical_calculation","status":"production_ready"},
+    {"subject":"planning","generator":"numeric_standard","status":"production_ready"},
+    {"subject":"building_construction","generator":"material_numeric","status":"production_ready","coverage":["density","strength/allowable stress","Young's modulus","2020 thermal expansion"]},
+    {"subject":"building_construction","generator":"rc_association_word_bank","status":"production_ready","prototype":"2017 one-to-one 10 blank bank"}
+  ],
+  "buildingConstructionFormatFamilies": {
+    "total": 9,
+    "productionReady": 9,
+    "partialOrPrototype": 0,
+    "notStarted": 0,
+    "blockedByAssets": 0,
+    "rubricOnly": 0,
+    "remainingToProduction": 0,
+    "nextPriority": "coverage_expansion_not_required_for_current_milestone"
+  },
+  "subjectBacklog": [
+    {"subject":"history","ready":0,"blockedByConfirmedImages":2,"otherPlanned":3},
+    {"subject":"planning","productionReady":1,"plannedP1Generators":3,"plannedP2Generators":3},
+    {"subject":"environment","productionReady":1,"plannedP1Generators":3,"plannedP2Generators":2},
+    {"subject":"building_construction","productionReady":9,"remainingFormatFamilies":0}
+  ],
+  "roadmapSummary": {"p0Delivered":2,"p0BlockedByImages":2,"p1Delivered":1,"p1Remaining":8,"p2Remaining":8},
+  "nextExecutionUnit": {
+    "id":"building_construction_inline_four_choice_fill",
+    "sourcePrototype":"2024 専門1 建築構法 Q3",
+    "why":"No image dependency, genuine local four-choice pools, and it directly exercises the per-blank distractor-pool rule.",
+    "completionDefinition":["reconstruction and frozen blueprint","reviewed fact projections by local domain","new generated 20-blank set","per-blank distractor validation","release audit and page"]
+  }
+}

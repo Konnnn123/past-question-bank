@@ -1,0 +1,1070 @@
+{
+  "version": 1,
+  "cards": [
+    {
+      "cardId": "architect-adolf-loos",
+      "nameJa": "アドルフ・ロース",
+      "sourceFile": "history-architect-cards-western.ts"
+    },
+    {
+      "cardId": "architect-alvar-aalto",
+      "nameJa": "アルヴァ・アアルト",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-andrea-palladio",
+      "nameJa": "アンドレーア・パッラーディオ",
+      "sourceFile": "history-architect-cards.ts"
+    },
+    {
+      "cardId": "architect-antoni-gaudi",
+      "nameJa": "アントニ・ガウディ",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-antonin-raymond",
+      "nameJa": "アントニン・レーモンド",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-antonio-da-sangallo-younger",
+      "nameJa": "アントニオ・ダ・サンガッロ・イル・ジョヴァネ",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-audit-1",
+      "nameJa": "A·ダービー",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-10",
+      "nameJa": "ピエール・ブレ",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-11",
+      "nameJa": "フリードリヒ・フォン・ゲルトナー",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-12",
+      "nameJa": "ブスケトゥス（Buscheto）／ライナルドゥス（Rainaldo）",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-13",
+      "nameJa": "ヤン・ブラジェイ・サンティーニ＝アイヘル",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-14",
+      "nameJa": "ユスティニアヌス1世／アンテミオス・トラーリス",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-15",
+      "nameJa": "ヨハン・ベルンハルト・フィッシャー・フォン・エルラッハ",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-16",
+      "nameJa": "ヨーゼフ・ホフマン",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-17",
+      "nameJa": "ヨーゼフ・マリア・オルブリッヒ",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-18",
+      "nameJa": "ヨーン・ウツソン",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-19",
+      "nameJa": "リチャード・ノーマン・ショウ",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-2",
+      "nameJa": "G・G・スコット",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-20",
+      "nameJa": "リチャード・ロジャース",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-21",
+      "nameJa": "リュイス・ドメネク・イ・ムンタネー",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-22",
+      "nameJa": "ルイ・ル・ヴォー",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-23",
+      "nameJa": "ルチアーノ・ラウラーナ（設計）",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-24",
+      "nameJa": "レンゾ・ピアノ",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-25",
+      "nameJa": "ロベルト・ファント・ホフ",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-26",
+      "nameJa": "ロベール・ド・リュザルシュ（要確認）",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-27",
+      "nameJa": "ヴァルター・グロピウス＆アドルフ・マイヤー",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-28",
+      "nameJa": "前田健二郎",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-29",
+      "nameJa": "吉田鉄郎",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-3",
+      "nameJa": "J・F・へーガー",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-30",
+      "nameJa": "増沢洵",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-31",
+      "nameJa": "大熊喜邦",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-32",
+      "nameJa": "岡田信一郎",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-33",
+      "nameJa": "岩元禄",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-34",
+      "nameJa": "日建設計",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-35",
+      "nameJa": "曾禰中條建築事務所（曾禰達蔵",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-36",
+      "nameJa": "曾禰達蔵・中條精一郎（曾禰中條建築事務所）",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-37",
+      "nameJa": "本野精吾",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-38",
+      "nameJa": "東孝光",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-39",
+      "nameJa": "清家清",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-4",
+      "nameJa": "アンドレ・ル・ノートル",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-40",
+      "nameJa": "清水喜助",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-41",
+      "nameJa": "渡辺仁",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-42",
+      "nameJa": "磯崎新",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-43",
+      "nameJa": "立石清重",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-44",
+      "nameJa": "象設計集団",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-45",
+      "nameJa": "遠藤新",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-46",
+      "nameJa": "野口孫市",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-47",
+      "nameJa": "高橋兼吉",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-5",
+      "nameJa": "ウィトルウィウス",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-6",
+      "nameJa": "エリアス・デレハム（Elias of Dereham）",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-7",
+      "nameJa": "ゲルハルト・フォン・リーレ（初代建築家）",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-8",
+      "nameJa": "ドミニク・ベロー",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-audit-9",
+      "nameJa": "ハイメ・ファブラ（初代建築家）",
+      "sourceFile": "history-architect-cards-final-audit.ts"
+    },
+    {
+      "cardId": "architect-august-endell",
+      "nameJa": "アウグスト・エンデル",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-auguste-perret",
+      "nameJa": "オーギュスト・ペレ",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-augustus-pugin",
+      "nameJa": "オーガスタス・ピュージン",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-balthasar-neumann",
+      "nameJa": "バルタザール・ノイマン",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-bruno-taut",
+      "nameJa": "ブルーノ・タウト",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-callicrates",
+      "nameJa": "カリクラテス",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-carl-gotthard-langhans",
+      "nameJa": "カール・ゴットハルト・ラングハンス",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-carlo-maderno",
+      "nameJa": "カルロ・マデルノ",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-carlo-scarpa",
+      "nameJa": "カルロ・スカルパ",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-cfa-voysey",
+      "nameJa": "C・F・A・ヴォイジー",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-charles-barry",
+      "nameJa": "チャールズ・バリー",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-charles-garnier",
+      "nameJa": "シャルル・ガルニエ",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-charles-rennie-mackintosh",
+      "nameJa": "チャールズ・レニー・マッキントッシュ",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-christopher-wren",
+      "nameJa": "クリストファー・レン",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-chuta-ito",
+      "nameJa": "伊東忠太",
+      "sourceFile": "history-architect-cards-japan.ts"
+    },
+    {
+      "cardId": "architect-claude-nicolas-ledoux",
+      "nameJa": "クロード＝ニコラ・ルドゥー",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-donato-bramante",
+      "nameJa": "ドナト・ブラマンテ",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-eero-saarinen",
+      "nameJa": "エーロ・サーリネン",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-el-lissitzky",
+      "nameJa": "エル・リシツキー",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-elias-holl",
+      "nameJa": "エリアス・ホル",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-erich-mendelsohn",
+      "nameJa": "エーリヒ・メンデルゾーン",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-etienne-louis-boullee",
+      "nameJa": "エティエンヌ＝ルイ・ブーレー",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-filippo-brunelleschi",
+      "nameJa": "style-roman",
+      "sourceFile": "history-architect-cards-western.ts"
+    },
+    {
+      "cardId": "architect-francesco-borromini",
+      "nameJa": "フランチェスコ・ボッロミーニ",
+      "sourceFile": "history-architect-cards-western.ts"
+    },
+    {
+      "cardId": "architect-francisco-de-herrera-younger",
+      "nameJa": "フランシスコ・デ・エレーラ（子）",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-francois-de-cuvillies",
+      "nameJa": "フランソワ・ド・キュヴィリエ",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-frank-gehry",
+      "nameJa": "フランク・O・ゲーリー",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-frank-lloyd-wright",
+      "nameJa": "フランク・ロイド・ライト",
+      "sourceFile": "history-architect-cards.ts"
+    },
+    {
+      "cardId": "architect-george-edmund-street",
+      "nameJa": "ジョージ・エドマンド・ストリート",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-george-gilbert-scott",
+      "nameJa": "ジョージ・ギルバート・スコット",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-gerrit-rietveld",
+      "nameJa": "ヘリット・トーマス・リートフェルト",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-gian-lorenzo-bernini",
+      "nameJa": "ジャン・ロレンツォ・ベルニーニ",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-giulio-romano",
+      "nameJa": "ジュリオ・ロマーノ",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-gottfried-semper",
+      "nameJa": "ゴットフリート・ゼンパー",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-gustave-eiffel",
+      "nameJa": "ギュスターヴ・エッフェル",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-hans-poelzig",
+      "nameJa": "ハンス・ペルツィヒ",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-hector-guimard",
+      "nameJa": "エクトール・ギマール",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-henri-labrouste",
+      "nameJa": "アンリ・ラブルースト",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-herzog-de-meuron",
+      "nameJa": "ヘルツォーク＆ド・ムーロン",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-i-m-pei",
+      "nameJa": "I・M・ペイ",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-ictinus",
+      "nameJa": "イクティノス",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-inigo-jones",
+      "nameJa": "イニゴ・ジョーンズ",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-isidore-of-miletus",
+      "nameJa": "イシドロス・ミレトス",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-ivan-leonidov",
+      "nameJa": "イワン・レオニドフ",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-jacques-germain-soufflot",
+      "nameJa": "ジャック＝ジェルマン・スフロ",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-james-gibbs",
+      "nameJa": "ジェームズ・ギブス",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-jean-francois-chalgrin",
+      "nameJa": "ジャン＝フランソワ・シャルグラン",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-jjp-oud",
+      "nameJa": "J・J・P・アウト",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-john-nash",
+      "nameJa": "ジョン・ナッシュ",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-john-soane",
+      "nameJa": "サー・ジョン・ソーン",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-john-vanbrugh",
+      "nameJa": "ジョン・ヴァンブラ",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-joseph-paxton",
+      "nameJa": "ジョセフ・パクストン",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-josiah-conder",
+      "nameJa": "ジョサイア・コンドル",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-juan-bautista-de-toledo",
+      "nameJa": "フアン・バウティスタ・デ・トレド",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-juan-de-herrera",
+      "nameJa": "フアン・デ・エレーラ",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-jules-hardouin-mansart",
+      "nameJa": "ジュール・アルドゥアン＝マンサール",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-junzo-sakakura",
+      "nameJa": "坂倉準三",
+      "sourceFile": "history-architect-cards-japan.ts"
+    },
+    {
+      "cardId": "architect-karl-friedrich-schinkel",
+      "nameJa": "カール・フリードリヒ・シンケル",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-kenzo-tange",
+      "nameJa": "丹下健三",
+      "sourceFile": "history-architect-cards.ts"
+    },
+    {
+      "cardId": "architect-kingo-tatsuno",
+      "nameJa": "辰野金吾",
+      "sourceFile": "history-architect-cards-japan.ts"
+    },
+    {
+      "cardId": "architect-kisho-kurokawa",
+      "nameJa": "黒川紀章",
+      "sourceFile": "history-architect-cards.ts"
+    },
+    {
+      "cardId": "architect-kiyonori-kikutake",
+      "nameJa": "菊竹清訓",
+      "sourceFile": "history-architect-cards.ts"
+    },
+    {
+      "cardId": "architect-koji-fujii",
+      "nameJa": "藤井厚二",
+      "sourceFile": "history-architect-cards-japan.ts"
+    },
+    {
+      "cardId": "architect-kunio-maekawa",
+      "nameJa": "前川國男",
+      "sourceFile": "history-architect-cards-japan.ts"
+    },
+    {
+      "cardId": "architect-le-corbusier",
+      "nameJa": "ancient-monumentality",
+      "sourceFile": "history-architect-cards-western.ts"
+    },
+    {
+      "cardId": "architect-leon-battista-alberti",
+      "nameJa": "レオン・バッティスタ・アルベルティ",
+      "sourceFile": "history-architect-cards-western.ts"
+    },
+    {
+      "cardId": "architect-louis-charles-boileau",
+      "nameJa": "L・H・ボワロー",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-louis-kahn",
+      "nameJa": "ルイス・カーン",
+      "sourceFile": "history-architect-cards-western.ts"
+    },
+    {
+      "cardId": "architect-mamoru-yamada",
+      "nameJa": "山田守",
+      "sourceFile": "history-architect-cards-japan.ts"
+    },
+    {
+      "cardId": "architect-mh-baillie-scott",
+      "nameJa": "M・H・ベイリー・スコット",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-michelangelo",
+      "nameJa": "ミケランジェロ",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-mies-van-der-rohe",
+      "nameJa": "ミース・ファン・デル・ローエ",
+      "sourceFile": "history-architect-cards-western.ts"
+    },
+    {
+      "cardId": "architect-mnesicles",
+      "nameJa": "ムネシクレス",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-otto-wagner",
+      "nameJa": "オットー・ワーグナー",
+      "sourceFile": "history-architect-cards-western.ts"
+    },
+    {
+      "cardId": "architect-peter-behrens",
+      "nameJa": "ペーター・ベーレンス",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-philip-webb",
+      "nameJa": "フィリップ・ウェブ",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-pierre-alexandre-vignon",
+      "nameJa": "ピエール＝アレクサンドル・ヴィニョン",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-pierre-lescot",
+      "nameJa": "ピエール・レスコー",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-robert-mallet-stevens",
+      "nameJa": "R・マレ＝ステヴァン",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-robert-smirke",
+      "nameJa": "ロバート・スメアーク",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-sakuro-tanabe",
+      "nameJa": "田邉朔郎",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-som",
+      "nameJa": "SOM（スキッドモア・オーウィングズ・アンド・メリル）",
+      "sourceFile": "history-architect-cards-batch-two.ts"
+    },
+    {
+      "cardId": "architect-tadao-ando",
+      "nameJa": "安藤忠雄",
+      "sourceFile": "history-architect-cards.ts"
+    },
+    {
+      "cardId": "architect-thomas-farnolls-pritchard",
+      "nameJa": "T・F・プリチャード",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-thomas-james-waters",
+      "nameJa": "T・J・ウォートルス",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-tokuma-katayama",
+      "nameJa": "片山東熊",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "architect-vladimir-tatlin",
+      "nameJa": "ウラジーミル・タトリン",
+      "sourceFile": "history-architect-cards-batch-four.ts"
+    },
+    {
+      "cardId": "architect-walter-gropius",
+      "nameJa": "ヴァルター・グロピウス",
+      "sourceFile": "history-architect-cards.ts"
+    },
+    {
+      "cardId": "architect-william-chambers",
+      "nameJa": "ウィリアム・チェンバーズ",
+      "sourceFile": "history-architect-cards-batch-three.ts"
+    },
+    {
+      "cardId": "architect-william-van-alen",
+      "nameJa": "ウィリアム・ヴァン・アレン",
+      "sourceFile": "history-architect-cards-core.ts"
+    },
+    {
+      "cardId": "movement-art-nouveau",
+      "nameJa": "アール・ヌーヴォー",
+      "sourceFile": "history-movement-cards.ts"
+    },
+    {
+      "cardId": "movement-arts-crafts",
+      "nameJa": "アーツ・アンド・クラフツ運動",
+      "sourceFile": "history-learning-card-examples.ts"
+    },
+    {
+      "cardId": "movement-bauhaus",
+      "nameJa": "バウハウス",
+      "sourceFile": "history-movement-cards.ts"
+    },
+    {
+      "cardId": "movement-constructivism",
+      "nameJa": "ロシア構成主義",
+      "sourceFile": "history-movement-cards.ts"
+    },
+    {
+      "cardId": "movement-critical-regionalism",
+      "nameJa": "地域主義・批判的地域主義",
+      "sourceFile": "history-movement-cards.ts"
+    },
+    {
+      "cardId": "movement-de-stijl",
+      "nameJa": "デ・ステイル",
+      "sourceFile": "history-movement-cards.ts"
+    },
+    {
+      "cardId": "movement-metabolism",
+      "nameJa": "メタボリズム",
+      "sourceFile": "history-movement-cards.ts"
+    },
+    {
+      "cardId": "movement-modernism",
+      "nameJa": "近代建築運動・モダニズム",
+      "sourceFile": "history-movement-cards.ts"
+    },
+    {
+      "cardId": "movement-postmodernism",
+      "nameJa": "ポストモダニズム",
+      "sourceFile": "history-movement-cards.ts"
+    },
+    {
+      "cardId": "movement-vienna-secession",
+      "nameJa": "ウィーン分離派",
+      "sourceFile": "history-movement-cards.ts"
+    },
+    {
+      "cardId": "style-ancient-egyptian",
+      "nameJa": "古代エジプト建築",
+      "sourceFile": "additional-history-style-cards.ts"
+    },
+    {
+      "cardId": "style-ancient-persian",
+      "nameJa": "古代ペルシア建築",
+      "sourceFile": "additional-history-style-cards.ts"
+    },
+    {
+      "cardId": "style-art-deco",
+      "nameJa": "アール・デコ",
+      "sourceFile": "supplementary-style-cards.ts"
+    },
+    {
+      "cardId": "style-asuka",
+      "nameJa": "飛鳥様式",
+      "sourceFile": "japanese-special-style-cards.ts"
+    },
+    {
+      "cardId": "style-baroque",
+      "nameJa": "バロック建築",
+      "sourceFile": "western-style-cards.ts"
+    },
+    {
+      "cardId": "style-byzantine",
+      "nameJa": "ビザンティン建築",
+      "sourceFile": "western-style-cards.ts"
+    },
+    {
+      "cardId": "style-carolingian",
+      "nameJa": "カロリング朝建築",
+      "sourceFile": "additional-history-style-cards.ts"
+    },
+    {
+      "cardId": "style-colonial",
+      "nameJa": "コロニアル建築",
+      "sourceFile": "additional-history-style-cards.ts"
+    },
+    {
+      "cardId": "style-daibutsuyo",
+      "nameJa": "大仏様",
+      "sourceFile": "history-style-cards.ts"
+    },
+    {
+      "cardId": "style-early-christian",
+      "nameJa": "初期キリスト教建築",
+      "sourceFile": "supplementary-style-cards.ts"
+    },
+    {
+      "cardId": "style-expressionism",
+      "nameJa": "表現主義建築",
+      "sourceFile": "supplementary-style-cards.ts"
+    },
+    {
+      "cardId": "style-giyofu",
+      "nameJa": "擬洋風建築",
+      "sourceFile": "history-style-cards.ts"
+    },
+    {
+      "cardId": "style-gongen",
+      "nameJa": "権現造",
+      "sourceFile": "shrine-style-cards.ts"
+    },
+    {
+      "cardId": "style-gothic",
+      "nameJa": "ゴシック建築",
+      "sourceFile": "western-style-cards.ts"
+    },
+    {
+      "cardId": "style-greek",
+      "nameJa": "古代ギリシア建築",
+      "sourceFile": "western-style-cards.ts"
+    },
+    {
+      "cardId": "style-hachiman",
+      "nameJa": "八幡造",
+      "sourceFile": "shrine-style-cards.ts"
+    },
+    {
+      "cardId": "style-hakuho",
+      "nameJa": "白鳳建築",
+      "sourceFile": "japanese-special-style-cards.ts"
+    },
+    {
+      "cardId": "style-high-tech",
+      "nameJa": "ハイテク建築",
+      "sourceFile": "supplementary-style-cards.ts"
+    },
+    {
+      "cardId": "style-historicism",
+      "nameJa": "歴史主義建築",
+      "sourceFile": "supplementary-style-cards.ts"
+    },
+    {
+      "cardId": "style-hiyoku-irimoya-zukuri",
+      "nameJa": "比翼入母屋造",
+      "sourceFile": "history-gap-cards.ts"
+    },
+    {
+      "cardId": "style-hiyoshi",
+      "nameJa": "日吉造",
+      "sourceFile": "japanese-special-style-cards.ts"
+    },
+    {
+      "cardId": "style-industrial-iron-glass",
+      "nameJa": "産業革命期の鉄とガラス建築",
+      "sourceFile": "history-gap-cards.ts"
+    },
+    {
+      "cardId": "style-international",
+      "nameJa": "インターナショナル・スタイル",
+      "sourceFile": "supplementary-style-cards.ts"
+    },
+    {
+      "cardId": "style-iri-tonbo-zukuri",
+      "nameJa": "入蜻蛉造",
+      "sourceFile": "history-gap-cards.ts"
+    },
+    {
+      "cardId": "style-islamic",
+      "nameJa": "イスラーム建築",
+      "sourceFile": "history-gap-cards.ts"
+    },
+    {
+      "cardId": "style-kasuga",
+      "nameJa": "春日造",
+      "sourceFile": "shrine-style-cards.ts"
+    },
+    {
+      "cardId": "style-mannerism",
+      "nameJa": "マニエリスム建築",
+      "sourceFile": "supplementary-style-cards.ts"
+    },
+    {
+      "cardId": "style-mesopotamian",
+      "nameJa": "メソポタミア建築",
+      "sourceFile": "additional-history-style-cards.ts"
+    },
+    {
+      "cardId": "style-momoyama",
+      "nameJa": "桃山様式",
+      "sourceFile": "japanese-special-style-cards.ts"
+    },
+    {
+      "cardId": "style-nagare",
+      "nameJa": "流造",
+      "sourceFile": "shrine-style-cards.ts"
+    },
+    {
+      "cardId": "style-neoclassical",
+      "nameJa": "新古典主義建築",
+      "sourceFile": "western-style-cards.ts"
+    },
+    {
+      "cardId": "style-obaku",
+      "nameJa": "黄檗建築",
+      "sourceFile": "history-gap-cards.ts"
+    },
+    {
+      "cardId": "style-postmodern",
+      "nameJa": "ポストモダン建築",
+      "sourceFile": "supplementary-style-cards.ts"
+    },
+    {
+      "cardId": "style-queen-anne",
+      "nameJa": "クイーン・アン様式",
+      "sourceFile": "history-gap-cards.ts"
+    },
+    {
+      "cardId": "style-renaissance",
+      "nameJa": "ルネサンス建築",
+      "sourceFile": "western-style-cards.ts"
+    },
+    {
+      "cardId": "style-rococo",
+      "nameJa": "ロココ",
+      "sourceFile": "supplementary-style-cards.ts"
+    },
+    {
+      "cardId": "style-roman",
+      "nameJa": "古代ローマ建築",
+      "sourceFile": "western-style-cards.ts"
+    },
+    {
+      "cardId": "style-romanesque",
+      "nameJa": "ロマネスク建築",
+      "sourceFile": "western-style-cards.ts"
+    },
+    {
+      "cardId": "style-ryugu-mon",
+      "nameJa": "龍宮門",
+      "sourceFile": "history-gap-cards.ts"
+    },
+    {
+      "cardId": "style-setchuyo",
+      "nameJa": "折衷様",
+      "sourceFile": "history-gap-cards.ts"
+    },
+    {
+      "cardId": "style-shinden",
+      "nameJa": "寝殿造",
+      "sourceFile": "history-style-cards.ts"
+    },
+    {
+      "cardId": "style-shinmei",
+      "nameJa": "神明造",
+      "sourceFile": "shrine-style-cards.ts"
+    },
+    {
+      "cardId": "style-shoin",
+      "nameJa": "書院造",
+      "sourceFile": "history-style-cards.ts"
+    },
+    {
+      "cardId": "style-structural-expressionism",
+      "nameJa": "構造表現主義",
+      "sourceFile": "additional-history-style-cards.ts"
+    },
+    {
+      "cardId": "style-sukiya",
+      "nameJa": "数寄屋造・数寄屋建築",
+      "sourceFile": "history-style-cards.ts"
+    },
+    {
+      "cardId": "style-sumiyoshi",
+      "nameJa": "住吉造",
+      "sourceFile": "japanese-special-style-cards.ts"
+    },
+    {
+      "cardId": "style-taisha",
+      "nameJa": "大社造",
+      "sourceFile": "shrine-style-cards.ts"
+    },
+    {
+      "cardId": "style-teikan",
+      "nameJa": "帝冠様式",
+      "sourceFile": "history-style-cards.ts"
+    },
+    {
+      "cardId": "style-wari-haiden",
+      "nameJa": "割拝殿",
+      "sourceFile": "history-gap-cards.ts"
+    },
+    {
+      "cardId": "style-wayo",
+      "nameJa": "和様",
+      "sourceFile": "history-learning-card-examples.ts"
+    },
+    {
+      "cardId": "style-wayo-secchu",
+      "nameJa": "和洋折衷建築",
+      "sourceFile": "history-gap-cards.ts"
+    },
+    {
+      "cardId": "style-zenshuyo",
+      "nameJa": "禅宗様",
+      "sourceFile": "history-style-cards.ts"
+    },
+    {
+      "cardId": "type-castle",
+      "nameJa": "城郭建築",
+      "sourceFile": "building-type-learning-cards.ts"
+    },
+    {
+      "cardId": "type-hottate-bashira",
+      "nameJa": "掘立柱建物",
+      "sourceFile": "history-gap-cards.ts"
+    },
+    {
+      "cardId": "type-jinaicho",
+      "nameJa": "寺内町",
+      "sourceFile": "history-gap-cards.ts"
+    },
+    {
+      "cardId": "type-machiya",
+      "nameJa": "町家",
+      "sourceFile": "building-type-learning-cards.ts"
+    },
+    {
+      "cardId": "type-minka",
+      "nameJa": "民家",
+      "sourceFile": "building-type-learning-cards.ts"
+    },
+    {
+      "cardId": "type-moated-settlement",
+      "nameJa": "環壕集落",
+      "sourceFile": "building-type-learning-cards.ts"
+    },
+    {
+      "cardId": "type-pit-dwelling",
+      "nameJa": "竪穴住居",
+      "sourceFile": "building-type-learning-cards.ts"
+    },
+    {
+      "cardId": "type-southeast-asian-temple",
+      "nameJa": "東南アジアのヒンドゥー・仏教寺院",
+      "sourceFile": "building-type-learning-cards.ts"
+    }
+  ]
+}

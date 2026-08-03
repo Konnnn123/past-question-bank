@@ -1,0 +1,1590 @@
+{
+  "version": 1,
+  "scope": "40 processed architecture-history questions",
+  "rows": [
+    {
+      "termJa": "寺内町",
+      "entityKind": "urban-or-settlement",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 4,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "パラーディオ",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 3,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "フランツ・ヨーゼフ",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 3,
+      "examFiles": [
+        "2017_専門2-2_建筑史_Q4.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "東三条殿",
+      "entityKind": "building",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2016_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "サン・ドニ修道院",
+      "entityKind": "building",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 2,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "ジョン・ソーン",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 2,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "吉島家住宅",
+      "entityKind": "building",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "アドルフ・ロース",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "アナトール・ド・ボド",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "アントニオ・サンテリア",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "サン・ドニ修道院教会",
+      "entityKind": "building",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "シナン",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "シャルルマーニュ",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "シュジェール",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "シンケル",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "ジャイルズ・ギルバート・スコット",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "ジャコモ・バロッツィ・ダ・ヴィニョーラ",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "ジャック・ジェルメン・スフロ",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "ジョン・ラスキン",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "トウーゲントハット邸",
+      "entityKind": "building",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "ドメニコ・フォンターナ",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "マルク・アントワーヌ・ロージエ",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "ヨハン・ヨアヒム・ヴィンケルマン",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "ヨン・ウッツオン",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "ラウンレンツィアーナ図書館",
+      "entityKind": "building",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "ランス大聖堂",
+      "entityKind": "building",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "ル・ランシーのノートル＝ダム聖堂",
+      "entityKind": "building",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "ローマン・コンクリート",
+      "entityKind": "theory-or-institution",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2014_専門2-2_建筑史_Q11.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "伊勢神宮内宮正殿",
+      "entityKind": "building",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "佐野利器",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "内田祥三",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "園城寺客殿",
+      "entityKind": "building",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "山梨文化会館",
+      "entityKind": "building",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2022_専門2-2_建筑史_Q1.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "後藤慶二",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "東京カテドラル聖マリア大聖堂",
+      "entityKind": "building",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "栄西",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "田中角栄",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "空海",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "芦原義信",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "藤井厚二",
+      "entityKind": "person",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "鉄とレンガの混構造",
+      "entityKind": "theory-or-institution",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2014_専門2-2_建筑史_Q11.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "鉄と石の混構造",
+      "entityKind": "theory-or-institution",
+      "coverage": "missing",
+      "matchedDatabaseName": "",
+      "examFileCount": 1,
+      "examFiles": [
+        "2014_専門2-2_建筑史_Q11.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "review-and-add"
+    },
+    {
+      "termJa": "保存修復",
+      "entityKind": "theory-or-institution",
+      "coverage": "alias",
+      "matchedDatabaseName": "保存・修復・活用",
+      "examFileCount": 2,
+      "examFiles": [
+        "2015_専門1_建筑史_Q7.md",
+        "2015_専門1_建筑史_Q8.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "add-alias"
+    },
+    {
+      "termJa": "建築保存",
+      "entityKind": "theory-or-institution",
+      "coverage": "alias",
+      "matchedDatabaseName": "保存・修復・活用",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q10.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "add-alias"
+    },
+    {
+      "termJa": "近代建築の5原則",
+      "entityKind": "theory-or-institution",
+      "coverage": "alias",
+      "matchedDatabaseName": "近代建築の五原則",
+      "examFileCount": 1,
+      "examFiles": [
+        "2020_専門2-2_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "add-alias"
+    },
+    {
+      "termJa": "大聖堂",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "大聖堂",
+      "examFileCount": 13,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2014_専門1_建筑史_Q5.md",
+        "2016_専門1_建筑史_Q5.md",
+        "2017_専門1_建筑史_Q2.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2020_専門2-2_建筑史_Q4.md",
+        "2024_専門1_建筑史_Q5.md",
+        "2024_専門2-2_建筑史_Q3.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md",
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "パンテオン",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "パンテオン",
+      "examFileCount": 8,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2015_専門1_建筑史_Q3.md",
+        "2017_専門1_建筑史_Q2.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "禅宗様",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "禅宗様",
+      "examFileCount": 7,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2014_専門1_建筑史_Q5.md",
+        "2014_専門2-2_建筑史_Q12.md",
+        "2016_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "大仏様",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "大仏様",
+      "examFileCount": 6,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2018_専門2-2_建筑史_Q5.md",
+        "2019_専門2-2_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ペンデンティブ",
+      "entityKind": "theory-or-institution",
+      "coverage": "exact",
+      "matchedDatabaseName": "ペンデンティブ",
+      "examFileCount": 5,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2024_専門2-2_建筑史_Q4.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "修復",
+      "entityKind": "theory-or-institution",
+      "coverage": "exact",
+      "matchedDatabaseName": "修復",
+      "examFileCount": 5,
+      "examFiles": [
+        "2015_専門1_建筑史_Q7.md",
+        "2015_専門1_建筑史_Q8.md",
+        "2016_専門2-2_建筑史_Q10.md",
+        "2020_専門2-2_建筑史_Q4.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "丹下健三",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "丹下健三",
+      "examFileCount": 4,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2016_専門1_建筑史_Q5.md",
+        "2022_専門2-2_建筑史_Q1.md",
+        "2022_専門2-2_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "建築様式",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "建築様式",
+      "examFileCount": 4,
+      "examFiles": [
+        "2017_専門2-2_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q4.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "日本建築史",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "日本建築史",
+      "examFileCount": 4,
+      "examFiles": [
+        "2017_専門2-2_建筑史_Q4.md",
+        "2019_専門2-2_建筑史_Q5.md",
+        "2022_専門2-2_建筑史_Q4.md",
+        "2023_専門1_建筑史_Q問題5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "法隆寺",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "法隆寺",
+      "examFileCount": 4,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "テンピエット",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "テンピエット",
+      "examFileCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ハギア・ソフィア",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "ハギア・ソフィア",
+      "examFileCount": 3,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2018_専門2-2_建筑史_Q4.md",
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "フランク・ロイド・ライト",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "フランク・ロイド・ライト",
+      "examFileCount": 3,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2022_専門2-2_建筑史_Q1.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "モダニズム",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "モダニズム",
+      "examFileCount": 3,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ルネサンス建築",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "ルネサンス建築",
+      "examFileCount": 3,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2023_専門1_建筑史_Q問題5.md",
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ロマネスク建築",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "ロマネスク建築",
+      "examFileCount": 3,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q9.md",
+        "2023_専門1_建筑史_Q問題5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "伊勢神宮",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "伊勢神宮",
+      "examFileCount": 3,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "円覚寺舎利殿",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "円覚寺舎利殿",
+      "examFileCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2024_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "寝殿造",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "寝殿造",
+      "examFileCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "長弓寺本堂",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "長弓寺本堂",
+      "examFileCount": 3,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "アーツ・アンド・クラフツ運動",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "アーツ・アンド・クラフツ運動",
+      "examFileCount": 2,
+      "examFiles": [
+        "2020_専門2-2_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q4.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "オットー・ワーグナー",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "オットー・ワーグナー",
+      "examFileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ギリシア建築",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "ギリシア建築",
+      "examFileCount": 2,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q9.md",
+        "2023_専門1_建筑史_Q問題5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ゴシック様式",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "ゴシック様式",
+      "examFileCount": 2,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2020_専門2-2_建筑史_Q4.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "サン・マルコ大聖堂",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "サン・マルコ大聖堂",
+      "examFileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ジョセフ・パクストン",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "ジョセフ・パクストン",
+      "examFileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "バロック建築",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "バロック建築",
+      "examFileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2023_専門1_建筑史_Q問題5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ファグス靴工場",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "ファグス靴工場",
+      "examFileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "フランチェスコ・ボッロミーニ",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "フランチェスコ・ボッロミーニ",
+      "examFileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ブルーノ・タウト",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "ブルーノ・タウト",
+      "examFileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "メタボリズム",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "メタボリズム",
+      "examFileCount": 2,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2024_専門2-2_建筑史_Q4.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ローマ建築",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "ローマ建築",
+      "examFileCount": 2,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q9.md",
+        "2023_専門1_建筑史_Q問題5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ヴァルター・グロピウス",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "ヴァルター・グロピウス",
+      "examFileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "室生寺金堂",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "室生寺金堂",
+      "examFileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "寺院建築",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "寺院建築",
+      "examFileCount": 2,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q11.md",
+        "2017_専門1_建筑史_Q2.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "山田守",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "山田守",
+      "examFileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "平等院鳳凰堂",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "平等院鳳凰堂",
+      "examFileCount": 2,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "擬洋風建築",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "擬洋風建築",
+      "examFileCount": 2,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q4.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "文化財制度",
+      "entityKind": "theory-or-institution",
+      "coverage": "exact",
+      "matchedDatabaseName": "文化財制度",
+      "examFileCount": 2,
+      "examFiles": [
+        "2020_専門2-2_建筑史_Q4.md",
+        "2026_専門2-2_建筑史_Q4.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "東京駅",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "東京駅",
+      "examFileCount": 2,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "活用",
+      "entityKind": "theory-or-institution",
+      "coverage": "exact",
+      "matchedDatabaseName": "活用",
+      "examFileCount": 2,
+      "examFiles": [
+        "2015_専門1_建筑史_Q8.md",
+        "2016_専門2-2_建筑史_Q10.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "藤原道長",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "藤原道長",
+      "examFileCount": 2,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2017_専門2-2_建筑史_Q4.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "辰野金吾",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "辰野金吾",
+      "examFileCount": 2,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "都市改造",
+      "entityKind": "urban-or-settlement",
+      "coverage": "exact",
+      "matchedDatabaseName": "都市改造",
+      "examFileCount": 2,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q4.md",
+        "2026_専門2-2_建筑史_Q4.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "重源",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "重源",
+      "examFileCount": 2,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "アダプティブ・リユース",
+      "entityKind": "theory-or-institution",
+      "coverage": "exact",
+      "matchedDatabaseName": "アダプティブ・リユース",
+      "examFileCount": 1,
+      "examFiles": [
+        "2020_専門2-2_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "アンリ・ラブルースト",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "アンリ・ラブルースト",
+      "examFileCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "オーセンティシティ",
+      "entityKind": "theory-or-institution",
+      "coverage": "exact",
+      "matchedDatabaseName": "オーセンティシティ",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q10.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ケルン大聖堂",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "ケルン大聖堂",
+      "examFileCount": 1,
+      "examFiles": [
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ゴットフリート・ゼンパー",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "ゴットフリート・ゼンパー",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ノートル＝ダム大聖堂",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "ノートル＝ダム大聖堂",
+      "examFileCount": 1,
+      "examFiles": [
+        "2020_専門2-2_建筑史_Q4.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ビザンツ建築",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "ビザンツ建築",
+      "examFileCount": 1,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "フィリッポ・ブルネレスキ",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "フィリッポ・ブルネレスキ",
+      "examFileCount": 1,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ブラマンテ",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "ブラマンテ",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ミケランジェロ・ブオナローティ",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "ミケランジェロ・ブオナローティ",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "モダニズム建築",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "モダニズム建築",
+      "examFileCount": 1,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ルイス・カーン",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "ルイス・カーン",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "ル・コルビュジエ",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "ル・コルビュジエ",
+      "examFileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "レオン・バッティスタ・アルベルティ",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "レオン・バッティスタ・アルベルティ",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "二条城二の丸御殿",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "二条城二の丸御殿",
+      "examFileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "仏教建築",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "仏教建築",
+      "examFileCount": 1,
+      "examFiles": [
+        "2025_専門2-2_建筑史_Q3.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "和様建築",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "和様建築",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q11.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "宇治上神社本殿",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "宇治上神社本殿",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "帝冠様式",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "帝冠様式",
+      "examFileCount": 1,
+      "examFiles": [
+        "2020_専門2-2_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "建築遺産",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "建築遺産",
+      "examFileCount": 1,
+      "examFiles": [
+        "2017_専門2-2_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "慈照寺東求堂",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "慈照寺東求堂",
+      "examFileCount": 1,
+      "examFiles": [
+        "2018_専門2-2_建筑史_Q4.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "新古典主義",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "新古典主義",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q9.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "東大寺南大門",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "東大寺南大門",
+      "examFileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "歴史主義",
+      "entityKind": "style-or-movement",
+      "coverage": "exact",
+      "matchedDatabaseName": "歴史主義",
+      "examFileCount": 1,
+      "examFiles": [
+        "2019_専門2-2_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "浄土寺浄土堂",
+      "entityKind": "building",
+      "coverage": "exact",
+      "matchedDatabaseName": "浄土寺浄土堂",
+      "examFileCount": 1,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "田園都市",
+      "entityKind": "urban-or-settlement",
+      "coverage": "exact",
+      "matchedDatabaseName": "田園都市",
+      "examFileCount": 1,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "織田有楽",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "織田有楽",
+      "examFileCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "聖徳太子",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "聖徳太子",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "菊竹清訓",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "菊竹清訓",
+      "examFileCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "足利義政",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "足利義政",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "足利義満",
+      "entityKind": "person",
+      "coverage": "exact",
+      "matchedDatabaseName": "足利義満",
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "近隣住区",
+      "entityKind": "urban-or-settlement",
+      "coverage": "exact",
+      "matchedDatabaseName": "近隣住区",
+      "examFileCount": 1,
+      "examFiles": [
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    },
+    {
+      "termJa": "重要伝統的建造物群保存地区",
+      "entityKind": "theory-or-institution",
+      "coverage": "exact",
+      "matchedDatabaseName": "重要伝統的建造物群保存地区",
+      "examFileCount": 1,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q4.md"
+      ],
+      "reviewStatus": "confirmed-source-term",
+      "suggestedAction": "none"
+    }
+  ]
+}

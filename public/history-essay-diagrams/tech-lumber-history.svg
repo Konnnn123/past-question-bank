@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="560" viewBox="0 0 1080 560">
+  <rect width="1080" height="560" fill="#f7f4ed"/>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <text x="42" y="48" font-size="27" font-weight="700" fill="#17324d">板製材史｜割る → 二人挽き → 一人挽き</text>
+    <text x="42" y="78" font-size="16" fill="#52606d">tool change reorganized material dimensions, yield, and specialized labor</text>
+    <g transform="translate(55 130)">
+      <text x="130" y="0" text-anchor="middle" font-size="21" font-weight="700" fill="#17324d">古代〜14世紀頃</text>
+      <circle cx="130" cy="145" r="82" fill="#e8dfcd" stroke="#17324d" stroke-width="6"/>
+      <path d="M130 63 L105 142 L130 227 L155 142 Z" fill="#f7f4ed" stroke="#b14f3b" stroke-width="5"/>
+      <path d="M104 142 L62 174 M156 142 L198 174" stroke="#b14f3b" stroke-width="5"/>
+      <text x="130" y="270" text-anchor="middle" font-size="18" fill="#17324d">楔・鑿・斧で打割</text>
+      <text x="130" y="302" text-anchor="middle" font-size="17" fill="#52606d">木理に沿う割板</text>
+    </g>
+    <path d="M315 270 H405" stroke="#2e7d75" stroke-width="6" marker-end="url(#arrow)"/>
+    <g transform="translate(410 130)">
+      <text x="130" y="0" text-anchor="middle" font-size="21" font-weight="700" fill="#17324d">15世紀頃</text>
+      <rect x="95" y="60" width="70" height="180" rx="32" fill="#e8dfcd" stroke="#17324d" stroke-width="6"/>
+      <line x1="130" y1="40" x2="130" y2="260" stroke="#b14f3b" stroke-width="7" stroke-dasharray="13 8"/>
+      <circle cx="60" cy="78" r="19" fill="#2e7d75"/><circle cx="200" cy="220" r="19" fill="#2e7d75"/>
+      <text x="130" y="270" text-anchor="middle" font-size="18" fill="#17324d">大鋸（おが）・二人挽き</text>
+      <text x="130" y="302" text-anchor="middle" font-size="17" fill="#52606d">大材を縦挽きする専門工</text>
+    </g>
+    <path d="M670 270 H760" stroke="#2e7d75" stroke-width="6" marker-end="url(#arrow)"/>
+    <g transform="translate(765 130)">
+      <text x="130" y="0" text-anchor="middle" font-size="21" font-weight="700" fill="#17324d">16世紀末頃〜近世</text>
+      <rect x="95" y="60" width="70" height="180" rx="32" fill="#e8dfcd" stroke="#17324d" stroke-width="6"/>
+      <path d="M130 35 L130 265" stroke="#b14f3b" stroke-width="10"/>
+      <path d="M130 35 L172 78 L130 120" fill="none" stroke="#b14f3b" stroke-width="7"/>
+      <circle cx="205" cy="105" r="19" fill="#2e7d75"/>
+      <text x="130" y="270" text-anchor="middle" font-size="18" fill="#17324d">前挽大鋸・一人挽き</text>
+      <text x="130" y="302" text-anchor="middle" font-size="17" fill="#52606d">挽材供給と木挽の定着</text>
+    </g>
+    <text x="540" y="492" text-anchor="middle" font-size="20" fill="#b14f3b">道具 → 加工法 → 得られる板 → 職能・供給 → 建築への影響</text>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2e7d75"/></marker></defs>
+</svg>

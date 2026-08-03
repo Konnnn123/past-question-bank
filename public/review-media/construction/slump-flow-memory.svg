@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">スランプ試験とスランプフロー試験</title>
+  <desc id="desc">沈下高さと水平の広がり径を比較する模式図</desc>
+  <rect width="960" height="420" rx="36" fill="#fff7ed"/>
+  <path d="M480 56v308" stroke="#fed7aa" stroke-width="4"/>
+  <g fill="none" stroke="#9a3412" stroke-width="10" stroke-linejoin="round">
+    <path d="M118 286h282"/>
+    <path d="M184 284l36-166h82l36 166z" fill="#fdba74" opacity=".68"/>
+    <path d="M358 124v160m-18-160h36m-36 160h36"/>
+  </g>
+  <text x="256" y="64" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#7c2d12">SLUMP</text>
+  <text x="256" y="348" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#9a3412">高さの低下量 ↓</text>
+  <g fill="none" stroke="#9a3412" stroke-width="10" stroke-linejoin="round">
+    <ellipse cx="718" cy="278" rx="164" ry="64" fill="#fdba74" opacity=".68"/>
+    <path d="M554 278h328m-328-18v36m328-36v36"/>
+  </g>
+  <text x="718" y="64" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="700" fill="#7c2d12">SLUMP FLOW</text>
+  <text x="718" y="348" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#9a3412">水平の広がり径 ↔</text>
+</svg>

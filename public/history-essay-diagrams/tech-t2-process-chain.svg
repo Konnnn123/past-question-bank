@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="650" viewBox="0 0 1160 650">
+  <rect width="1160" height="650" fill="#f7f4ed"/>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <text x="42" y="48" font-size="27" font-weight="700" fill="#17324d">T2 工程史｜道具を建築生産の連鎖へ戻す</text>
+    <text x="42" y="78" font-size="16" fill="#52606d">extraction → primary processing → precise fabrication → transport → erection → finish and inspection</text>
+    <g transform="translate(38 145)" text-anchor="middle">
+      <g transform="translate(0)"><circle cx="82" cy="82" r="78" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><text x="82" y="70" font-size="20" font-weight="700" fill="#17324d">採取</text><text x="82" y="103" font-size="16" fill="#52606d">伐採・採石・採土</text></g>
+      <g transform="translate(185)"><circle cx="82" cy="82" r="78" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="4"/><text x="82" y="70" font-size="20" font-weight="700" fill="#17324d">一次加工</text><text x="82" y="103" font-size="16" fill="#52606d">割る・挽く・焼く</text></g>
+      <g transform="translate(370)"><circle cx="82" cy="82" r="78" fill="#dcebea" stroke="#2e7d75" stroke-width="4"/><text x="82" y="70" font-size="20" font-weight="700" fill="#17324d">部材加工</text><text x="82" y="103" font-size="16" fill="#52606d">墨付・切削・成形</text></g>
+      <g transform="translate(555)"><circle cx="82" cy="82" r="78" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><text x="82" y="70" font-size="20" font-weight="700" fill="#17324d">運搬</text><text x="82" y="103" font-size="16" fill="#52606d">道路・水運・鉄道</text></g>
+      <g transform="translate(740)"><circle cx="82" cy="82" r="78" fill="#f6d8d1" stroke="#b14f3b" stroke-width="4"/><text x="82" y="70" font-size="20" font-weight="700" fill="#17324d">建方・施工</text><text x="82" y="103" font-size="16" fill="#52606d">足場・揚重・接合</text></g>
+      <g transform="translate(925)"><circle cx="82" cy="82" r="78" fill="#dcebea" stroke="#2e7d75" stroke-width="4"/><text x="82" y="70" font-size="20" font-weight="700" fill="#17324d">仕上・検査</text><text x="82" y="103" font-size="16" fill="#52606d">表面・精度・試験</text></g>
+    </g>
+    <path d="M90 340 H1070" stroke="#b14f3b" stroke-width="6" marker-end="url(#arrow)"/>
+    <g font-size="18" fill="#52606d" text-anchor="middle">
+      <text x="580" y="395">どの工程が現場から工場へ移り、誰の職能になったかを追う</text>
+      <text x="580" y="445">比較軸：道具・動力／作業姿勢／精度／歩留まり／部材寸法／人員／速度／危険</text>
+      <text x="580" y="500" fill="#b14f3b">一工程の高速化が、運搬・仮設・検査等の別工程に新しいボトルネックを生むことがある</text>
+      <text x="580" y="550" fill="#17324d">刃痕・加工痕・絵画・道具・仕様書・施工記録を、出現／使用／普及の証拠として区別する</text>
+      <text x="580" y="600" fill="#2e7d75">答案の因果：旧工程の制約 → 新道具・動力 → 工程再編 → 部材・職能 → 建築的結果</text>
+    </g>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#b14f3b"/></marker></defs>
+</svg>

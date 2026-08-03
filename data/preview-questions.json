@@ -1,0 +1,3174 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-17T21:29:43.871993",
+  "totalQuestions": 80,
+  "questions": [
+    {
+      "id": "preview-history-01",
+      "subject": "history",
+      "blueprintId": "building_to_architect",
+      "sourceFacts": [
+        "fact-d973d9318a69"
+      ],
+      "question": {
+        "prompt": "次の建築の設計者・関連人物として、最も適切なものを一つ選びなさい。\n\nサンタ·マリア·デル·ポポロ教会堂",
+        "options": [
+          "A. 菅原道真",
+          "B. ユスティニアヌス1世（皇帝）／アンテミオス・トラーリス、イシドロス・ミレトス（建築家）",
+          "C. フランク・O・ゲーリー",
+          "D. ドナト・ブラマンテ（改修設計）"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "サンタ·マリア·デル·ポポロ教会堂の設計者はドナト・ブラマンテ（改修設計）。"
+      },
+      "distractorRationale": {
+        "A": "同時代・異なる建築家",
+        "B": "同時代・異なる建築家",
+        "C": "同時代・異なる建築家"
+      },
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json → history deck",
+        "originalField": "people",
+        "extractedFacts": [
+          "(entity=サンタ·マリア·デル·ポポロ教会堂, relation=designed_by, value=ドナト・ブラマンテ（改修設計）)"
+        ],
+        "blueprint": "building_to_architect",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-02",
+      "subject": "history",
+      "blueprintId": "building_to_architect",
+      "sourceFacts": [
+        "fact-f4519a976d92"
+      ],
+      "question": {
+        "prompt": "次の建築の設計者・関連人物として、最も適切なものを一つ選びなさい。\n\n英国国会議事堂",
+        "options": [
+          "A. 菅原道真",
+          "B. フランク・O・ゲーリー",
+          "C. ユスティニアヌス1世（皇帝）／アンテミオス・トラーリス、イシドロス・ミレトス（建築家）",
+          "D. チャールズ・バリー（建築家）、オーガスタス・ピュージン（装飾設計）"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "英国国会議事堂の設計者はチャールズ・バリー（建築家）、オーガスタス・ピュージン（装飾設計）。"
+      },
+      "distractorRationale": {
+        "A": "同時代・異なる建築家",
+        "B": "同時代・異なる建築家",
+        "C": "同時代・異なる建築家"
+      },
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json → history deck",
+        "originalField": "people",
+        "extractedFacts": [
+          "(entity=英国国会議事堂, relation=designed_by, value=チャールズ・バリー（建築家）、オーガスタス・ピュージン（装飾設計）)"
+        ],
+        "blueprint": "building_to_architect",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-03",
+      "subject": "history",
+      "blueprintId": "building_to_architect",
+      "sourceFacts": [
+        "fact-64afb57a7cb6"
+      ],
+      "question": {
+        "prompt": "次の建築の設計者・関連人物として、最も適切なものを一つ選びなさい。\n\n臨春閣",
+        "options": [
+          "A. 紀州徳川家",
+          "B. フランク・O・ゲーリー",
+          "C. 菅原道真",
+          "D. ユスティニアヌス1世（皇帝）／アンテミオス・トラーリス、イシドロス・ミレトス（建築家）"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "臨春閣の設計者は紀州徳川家。"
+      },
+      "distractorRationale": {
+        "B": "同時代・異なる建築家",
+        "C": "同時代・異なる建築家",
+        "D": "同時代・異なる建築家"
+      },
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json → history deck",
+        "originalField": "people",
+        "extractedFacts": [
+          "(entity=臨春閣, relation=designed_by, value=紀州徳川家)"
+        ],
+        "blueprint": "building_to_architect",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-04",
+      "subject": "history",
+      "blueprintId": "building_to_architect",
+      "sourceFacts": [
+        "fact-69016016c5c6"
+      ],
+      "question": {
+        "prompt": "次の建築の設計者・関連人物として、最も適切なものを一つ選びなさい。\n\nブラックウェルホール Blackwell Hall",
+        "options": [
+          "A. フランク・O・ゲーリー",
+          "B. M・H・ベイリー・スコット",
+          "C. ユスティニアヌス1世（皇帝）／アンテミオス・トラーリス、イシドロス・ミレトス（建築家）",
+          "D. 菅原道真"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "ブラックウェルホール Blackwell Hallの設計者はM・H・ベイリー・スコット。"
+      },
+      "distractorRationale": {
+        "A": "同時代・異なる建築家",
+        "C": "同時代・異なる建築家",
+        "D": "同時代・異なる建築家"
+      },
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json → history deck",
+        "originalField": "people",
+        "extractedFacts": [
+          "(entity=ブラックウェルホール Blackwell Hall, relation=designed_by, value=M・H・ベイリー・スコット)"
+        ],
+        "blueprint": "building_to_architect",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-05",
+      "subject": "history",
+      "blueprintId": "building_to_architect",
+      "sourceFacts": [
+        "fact-46d03ad4ef1b"
+      ],
+      "question": {
+        "prompt": "次の建築の設計者・関連人物として、最も適切なものを一つ選びなさい。\n\nキンベル美術館",
+        "options": [
+          "A. フランク・O・ゲーリー",
+          "B. ルイス・カーン",
+          "C. ユスティニアヌス1世（皇帝）／アンテミオス・トラーリス、イシドロス・ミレトス（建築家）",
+          "D. 菅原道真"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "キンベル美術館の設計者はルイス・カーン。"
+      },
+      "distractorRationale": {
+        "A": "同時代・異なる建築家",
+        "C": "同時代・異なる建築家",
+        "D": "同時代・異なる建築家"
+      },
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json → history deck",
+        "originalField": "people",
+        "extractedFacts": [
+          "(entity=キンベル美術館, relation=designed_by, value=ルイス・カーン)"
+        ],
+        "blueprint": "building_to_architect",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-06",
+      "subject": "history",
+      "blueprintId": "building_to_architect",
+      "sourceFacts": [
+        "fact-b3b4cbc328c8"
+      ],
+      "question": {
+        "prompt": "次の建築の設計者・関連人物として、最も適切なものを一つ選びなさい。\n\nヴィラ・ヘニー",
+        "options": [
+          "A. ロベルト・ファント・ホフ",
+          "B. フランク・O・ゲーリー",
+          "C. 菅原道真",
+          "D. ユスティニアヌス1世（皇帝）／アンテミオス・トラーリス、イシドロス・ミレトス（建築家）"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "ヴィラ・ヘニーの設計者はロベルト・ファント・ホフ。"
+      },
+      "distractorRationale": {
+        "B": "同時代・異なる建築家",
+        "C": "同時代・異なる建築家",
+        "D": "同時代・異なる建築家"
+      },
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json → history deck",
+        "originalField": "people",
+        "extractedFacts": [
+          "(entity=ヴィラ・ヘニー, relation=designed_by, value=ロベルト・ファント・ホフ)"
+        ],
+        "blueprint": "building_to_architect",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-07",
+      "subject": "history",
+      "blueprintId": "building_to_period",
+      "sourceFacts": [
+        "fact-a4dcc21940d7"
+      ],
+      "question": {
+        "prompt": "次の建築の建設・成立年代として、最も適切なものを一つ選びなさい。\n\nサンタ·マリア·デル·ポポロ教会堂",
+        "options": [
+          "A. ルネサンス期",
+          "B. 鎌倉時代末期",
+          "C. バロック時代",
+          "D. 1924年（大正末期）"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "サンタ·マリア·デル·ポポロ教会堂はルネサンス期に建設された。"
+      },
+      "distractorRationale": {
+        "B": "同時代・異なる建築の時代",
+        "C": "同時代・異なる建築の時代",
+        "D": "同時代・異なる建築の時代"
+      },
+      "validation": {
+        "issues": []
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "period",
+        "extractedFacts": [
+          "(entity=サンタ·マリア·デル·ポポロ教会堂, relation=built_in, value=ルネサンス期)"
+        ],
+        "blueprint": "building_to_period",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-08",
+      "subject": "history",
+      "blueprintId": "building_to_period",
+      "sourceFacts": [
+        "fact-6f225d15862a"
+      ],
+      "question": {
+        "prompt": "次の建築の建設・成立年代として、最も適切なものを一つ選びなさい。\n\n英国国会議事堂",
+        "options": [
+          "A. 1924年（大正末期）",
+          "B. 鎌倉時代末期",
+          "C. ヴィクトリア朝",
+          "D. バロック時代"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "英国国会議事堂はヴィクトリア朝に建設された。"
+      },
+      "distractorRationale": {
+        "A": "同時代・異なる建築の時代",
+        "B": "同時代・異なる建築の時代",
+        "D": "同時代・異なる建築の時代"
+      },
+      "validation": {
+        "issues": []
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "period",
+        "extractedFacts": [
+          "(entity=英国国会議事堂, relation=built_in, value=ヴィクトリア朝)"
+        ],
+        "blueprint": "building_to_period",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-09",
+      "subject": "history",
+      "blueprintId": "building_to_period",
+      "sourceFacts": [
+        "fact-6a7e788687af"
+      ],
+      "question": {
+        "prompt": "次の建築の建設・成立年代として、最も適切なものを一つ選びなさい。\n\n臨春閣",
+        "options": [
+          "A. 鎌倉時代末期",
+          "B. 1924年（大正末期）",
+          "C. 江戸時代",
+          "D. バロック時代"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "臨春閣は江戸時代に建設された。"
+      },
+      "distractorRationale": {
+        "A": "同時代・異なる建築の時代",
+        "B": "同時代・異なる建築の時代",
+        "D": "同時代・異なる建築の時代"
+      },
+      "validation": {
+        "issues": []
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "period",
+        "extractedFacts": [
+          "(entity=臨春閣, relation=built_in, value=江戸時代)"
+        ],
+        "blueprint": "building_to_period",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-10",
+      "subject": "history",
+      "blueprintId": "building_to_period",
+      "sourceFacts": [
+        "fact-e689d7899ce0"
+      ],
+      "question": {
+        "prompt": "次の建築の建設・成立年代として、最も適切なものを一つ選びなさい。\n\nブラックウェルホール Blackwell Hall",
+        "options": [
+          "A. バロック時代",
+          "B. 鎌倉時代末期",
+          "C. 19世紀",
+          "D. 1924年（大正末期）"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "ブラックウェルホール Blackwell Hallは19世紀に建設された。"
+      },
+      "distractorRationale": {
+        "A": "同時代・異なる建築の時代",
+        "B": "同時代・異なる建築の時代",
+        "D": "同時代・異なる建築の時代"
+      },
+      "validation": {
+        "issues": []
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "period",
+        "extractedFacts": [
+          "(entity=ブラックウェルホール Blackwell Hall, relation=built_in, value=19世紀)"
+        ],
+        "blueprint": "building_to_period",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-11",
+      "subject": "history",
+      "blueprintId": "building_to_period",
+      "sourceFacts": [
+        "fact-0935b0b759eb"
+      ],
+      "question": {
+        "prompt": "次の建築の建設・成立年代として、最も適切なものを一つ選びなさい。\n\nキンベル美術館",
+        "options": [
+          "A. バロック時代",
+          "B. 20世紀",
+          "C. 1924年（大正末期）",
+          "D. 鎌倉時代末期"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "キンベル美術館は20世紀に建設された。"
+      },
+      "distractorRationale": {
+        "A": "同時代・異なる建築の時代",
+        "C": "同時代・異なる建築の時代",
+        "D": "同時代・異なる建築の時代"
+      },
+      "validation": {
+        "issues": []
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "period",
+        "extractedFacts": [
+          "(entity=キンベル美術館, relation=built_in, value=20世紀)"
+        ],
+        "blueprint": "building_to_period",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-12",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築家・人物の代表作として、最も適切なものを一つ選びなさい。\n\n曾禰中條建築事務所（曾禰達蔵、中條精一郎）",
+        "options": [
+          "A. 臨春閣",
+          "B. 東京海上ビル",
+          "C. 英国国会議事堂",
+          "D. サンタ·マリア·デル·ポポロ教会堂"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "曾禰中條建築事務所（曾禰達蔵、中條精一郎）の代表作は東京海上ビル。"
+      },
+      "distractorRationale": {
+        "A": "異なる建築家の作品",
+        "C": "異なる建築家の作品",
+        "D": "異なる建築家の作品"
+      },
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED",
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "people",
+        "extractedFacts": [
+          "(entity=曾禰中條建築事務所（曾禰達蔵、中條精一郎）, relation=designed, value=東京海上ビル)"
+        ],
+        "blueprint": "architect_to_work",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-13",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築家・人物の代表作として、最も適切なものを一つ選びなさい。\n\nロバート・スメアーク",
+        "options": [
+          "A. 大英博物館",
+          "B. サンタ·マリア·デル·ポポロ教会堂",
+          "C. 臨春閣",
+          "D. 英国国会議事堂"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "ロバート・スメアークの代表作は大英博物館。"
+      },
+      "distractorRationale": {
+        "B": "異なる建築家の作品",
+        "C": "異なる建築家の作品",
+        "D": "異なる建築家の作品"
+      },
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED",
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "people",
+        "extractedFacts": [
+          "(entity=ロバート・スメアーク, relation=designed, value=大英博物館)"
+        ],
+        "blueprint": "architect_to_work",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-14",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築家・人物の代表作として、最も適切なものを一つ選びなさい。\n\nカラカラ帝（マルクス・アウレリウス・アントニヌス）",
+        "options": [
+          "A. 英国国会議事堂",
+          "B. サンタ·マリア·デル·ポポロ教会堂",
+          "C. 臨春閣",
+          "D. カラカラ浴場"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "カラカラ帝（マルクス・アウレリウス・アントニヌス）の代表作はカラカラ浴場。"
+      },
+      "distractorRationale": {
+        "A": "異なる建築家の作品",
+        "B": "異なる建築家の作品",
+        "C": "異なる建築家の作品"
+      },
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED",
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "people",
+        "extractedFacts": [
+          "(entity=カラカラ帝（マルクス・アウレリウス・アントニヌス）, relation=designed, value=カラカラ浴場)"
+        ],
+        "blueprint": "architect_to_work",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-15",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築家・人物の代表作として、最も適切なものを一つ選びなさい。\n\nチャールズ・バリー（建築家）、オーガスタス・ピュージン（装飾設計）",
+        "options": [
+          "A. ブラックウェルホール Blackwell Hall",
+          "B. 臨春閣",
+          "C. 英国国会議事堂",
+          "D. サンタ·マリア·デル·ポポロ教会堂"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "チャールズ・バリー（建築家）、オーガスタス・ピュージン（装飾設計）の代表作は英国国会議事堂。"
+      },
+      "distractorRationale": {
+        "A": "異なる建築家の作品",
+        "B": "異なる建築家の作品",
+        "D": "異なる建築家の作品"
+      },
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED",
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "people",
+        "extractedFacts": [
+          "(entity=チャールズ・バリー（建築家）、オーガスタス・ピュージン（装飾設計）, relation=designed, value=英国国会議事堂)"
+        ],
+        "blueprint": "architect_to_work",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-16",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築家・人物の代表作として、最も適切なものを一つ選びなさい。\n\n公慶上人",
+        "options": [
+          "A. サンタ·マリア·デル·ポポロ教会堂",
+          "B. 英国国会議事堂",
+          "C. 臨春閣",
+          "D. 東大寺大仏殿"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "公慶上人の代表作は東大寺大仏殿。"
+      },
+      "distractorRationale": {
+        "A": "異なる建築家の作品",
+        "B": "異なる建築家の作品",
+        "C": "異なる建築家の作品"
+      },
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED",
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "people",
+        "extractedFacts": [
+          "(entity=公慶上人, relation=designed, value=東大寺大仏殿)"
+        ],
+        "blueprint": "architect_to_work",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-17",
+      "subject": "history",
+      "blueprintId": "building_style_pairing",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築の建築様式・類型として、最も適切なものを一つ選びなさい。\n\nサンタ·マリア·デル·ポポロ教会堂",
+        "options": [
+          "A. マニエリスム",
+          "B. ルネサンス建築",
+          "C. ドーリア式",
+          "D. ローマ建築"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "サンタ·マリア·デル·ポポロ教会堂の様式はルネサンス建築。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "style",
+        "extractedFacts": [
+          "(entity=サンタ·マリア·デル·ポポロ教会堂, relation=has_style, value=ルネサンス建築)"
+        ],
+        "blueprint": "building_style_pairing",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-18",
+      "subject": "history",
+      "blueprintId": "building_style_pairing",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築の建築様式・類型として、最も適切なものを一つ選びなさい。\n\n英国国会議事堂",
+        "options": [
+          "A. ドーリア式",
+          "B. ゴシック・リヴァイヴァル（歴史主義建築）",
+          "C. マニエリスム",
+          "D. ローマ建築"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "英国国会議事堂の様式はゴシック・リヴァイヴァル（歴史主義建築）。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED",
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "style",
+        "extractedFacts": [
+          "(entity=英国国会議事堂, relation=has_style, value=ゴシック・リヴァイヴァル（歴史主義建築）)"
+        ],
+        "blueprint": "building_style_pairing",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-19",
+      "subject": "history",
+      "blueprintId": "building_style_pairing",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築の建築様式・類型として、最も適切なものを一つ選びなさい。\n\n臨春閣",
+        "options": [
+          "A. 数寄屋風書院",
+          "B. ドーリア式",
+          "C. マニエリスム",
+          "D. ローマ建築"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "臨春閣の様式は数寄屋風書院。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "style",
+        "extractedFacts": [
+          "(entity=臨春閣, relation=has_style, value=数寄屋風書院)"
+        ],
+        "blueprint": "building_style_pairing",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-history-20",
+      "subject": "history",
+      "blueprintId": "building_style_pairing",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築の建築様式・類型として、最も適切なものを一つ選びなさい。\n\nブラックウェルホール Blackwell Hall",
+        "options": [
+          "A. ローマ建築",
+          "B. ドーリア式",
+          "C. アーツ・アンド・クラフツ様式",
+          "D. マニエリスム"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "ブラックウェルホール Blackwell Hallの様式はアーツ・アンド・クラフツ様式。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "anki-notes.json",
+        "originalField": "style",
+        "extractedFacts": [
+          "(entity=ブラックウェルホール Blackwell Hall, relation=has_style, value=アーツ・アンド・クラフツ様式)"
+        ],
+        "blueprint": "building_style_pairing",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-construction-01",
+      "subject": "construction",
+      "blueprintId": "term_to_category",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語が属する分類として、最も適切なものを一つ選びなさい。\n\n「デッキプレート」",
+        "options": [
+          "A. 组装",
+          "B. 材料",
+          "C. 构法",
+          "D. 部材"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「デッキプレート」は「部材」に分類される。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "category",
+        "extractedFacts": [
+          "(entity=デッキプレート, relation=belongs_to, value=部材)"
+        ],
+        "blueprint": "term_to_category",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-construction-02",
+      "subject": "construction",
+      "blueprintId": "term_to_category",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語が属する分類として、最も適切なものを一つ選びなさい。\n\n「スケルトン・インフィル」",
+        "options": [
+          "A. 构法",
+          "B. 材料",
+          "C. 工法",
+          "D. 组装"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「スケルトン・インフィル」は「工法」に分類される。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "category",
+        "extractedFacts": [
+          "(entity=スケルトン・インフィル, relation=belongs_to, value=工法)"
+        ],
+        "blueprint": "term_to_category",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-construction-03",
+      "subject": "construction",
+      "blueprintId": "term_to_category",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語が属する分類として、最も適切なものを一つ選びなさい。\n\n「RC造の構造原理と寿命」",
+        "options": [
+          "A. 组装",
+          "B. 工法",
+          "C. 材料",
+          "D. 构法"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「RC造の構造原理と寿命」は「构法」に分類される。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "category",
+        "extractedFacts": [
+          "(entity=RC造の構造原理と寿命, relation=belongs_to, value=构法)"
+        ],
+        "blueprint": "term_to_category",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-construction-04",
+      "subject": "construction",
+      "blueprintId": "term_to_category",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語が属する分類として、最も適切なものを一つ選びなさい。\n\n「改修・工業化工法の基本」",
+        "options": [
+          "A. 工法",
+          "B. 组装",
+          "C. 构法",
+          "D. 材料"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「改修・工業化工法の基本」は「工法」に分類される。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "category",
+        "extractedFacts": [
+          "(entity=改修・工業化工法の基本, relation=belongs_to, value=工法)"
+        ],
+        "blueprint": "term_to_category",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-construction-05",
+      "subject": "construction",
+      "blueprintId": "term_to_category",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語が属する分類として、最も適切なものを一つ選びなさい。\n\n「土台・柱・横架材」",
+        "options": [
+          "A. 组装",
+          "B. 材料",
+          "C. 部材",
+          "D. 构法"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「土台・柱・横架材」は「部材」に分類される。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "category",
+        "extractedFacts": [
+          "(entity=土台・柱・横架材, relation=belongs_to, value=部材)"
+        ],
+        "blueprint": "term_to_category",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-construction-06",
+      "subject": "construction",
+      "blueprintId": "term_to_category",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語が属する分類として、最も適切なものを一つ選びなさい。\n\n「基礎・地盤・地下工事の基本」",
+        "options": [
+          "A. 构法",
+          "B. 工法",
+          "C. 材料",
+          "D. 组装"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「基礎・地盤・地下工事の基本」は「工法」に分類される。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "category",
+        "extractedFacts": [
+          "(entity=基礎・地盤・地下工事の基本, relation=belongs_to, value=工法)"
+        ],
+        "blueprint": "term_to_category",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-construction-07",
+      "subject": "construction",
+      "blueprintId": "term_to_category",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語が属する分類として、最も適切なものを一つ選びなさい。\n\n「木造小屋組・屋根の基本」",
+        "options": [
+          "A. 材料",
+          "B. 构法",
+          "C. 组装",
+          "D. 工法"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「木造小屋組・屋根の基本」は「工法」に分類される。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "category",
+        "extractedFacts": [
+          "(entity=木造小屋組・屋根の基本, relation=belongs_to, value=工法)"
+        ],
+        "blueprint": "term_to_category",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-construction-08",
+      "subject": "construction",
+      "blueprintId": "term_to_category",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語が属する分類として、最も適切なものを一つ選びなさい。\n\n「コールドジョイント」",
+        "options": [
+          "A. 组装",
+          "B. 工法",
+          "C. 构法",
+          "D. 材料"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「コールドジョイント」は「工法」に分類される。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "category",
+        "extractedFacts": [
+          "(entity=コールドジョイント, relation=belongs_to, value=工法)"
+        ],
+        "blueprint": "term_to_category",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-construction-09",
+      "subject": "construction",
+      "blueprintId": "term_to_category",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語が属する分類として、最も適切なものを一つ選びなさい。\n\n「普通ボルト接合」",
+        "options": [
+          "A. 构法",
+          "B. 工法",
+          "C. 材料",
+          "D. 组装"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「普通ボルト接合」は「组装」に分類される。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "category",
+        "extractedFacts": [
+          "(entity=普通ボルト接合, relation=belongs_to, value=组装)"
+        ],
+        "blueprint": "term_to_category",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-construction-10",
+      "subject": "construction",
+      "blueprintId": "term_to_category",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語が属する分類として、最も適切なものを一つ選びなさい。\n\n「帯筋」",
+        "options": [
+          "A. 工法",
+          "B. 组装",
+          "C. 构法",
+          "D. 材料"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「帯筋」は「材料」に分類される。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "category",
+        "extractedFacts": [
+          "(entity=帯筋, relation=belongs_to, value=材料)"
+        ],
+        "blueprint": "term_to_category",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-construction-11",
+      "subject": "construction",
+      "blueprintId": "term_to_definition",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語「デッキプレート」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 陸屋根防水は防水層の連続と立上り、勾配屋根は材料の重ねと勾配で排水する。シーリングは目地を塞ぎ、二段階防水では一次線を越えた水を二次線と排水孔で外へ戻す。",
+          "B. マリオン（方立）は縦材、無目は横材、スパンドレルは上下階窓間の不透明部分、ファスナーは躯体への取付金物。ガスケット・シール材はガラス固定と水密に用いる。",
+          "C. まぐさは開口上部を渡す水平材、臥梁は組積壁上部を連続して固める水平補強材、キーストーンはアーチ頂部の楔形石。芋目地は縦目地が通り、馬目地は上下でずれる。",
+          "D. 波形に成形した薄鋼板で、S造の床に敷き、床型枠または床構造の一部として用いる。上にコンクリートを打つデッキプレート床では、施工の省力化と型枠削減に役立つ。"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「デッキプレート」：波形に成形した薄鋼板で、S造の床に敷き、床型枠または床構造の一部として用いる。上にコンクリートを打つデッキプレート床では、施工の省力化と型枠削減に役立つ。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "backHtml",
+        "extractedFacts": [
+          "(entity=デッキプレート, relation=defined_as, value=波形に成形した薄鋼板で、S造の床に敷き、床型枠または床構造の一部として用いる。上にコンクリートを打つデッキプレート床では、施工の省力化と型枠削減に役立つ。...)"
+        ],
+        "blueprint": "term_to_definition",
+        "blueprintOccurrences": [],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-construction-12",
+      "subject": "construction",
+      "blueprintId": "term_to_definition",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語「スケルトン・インフィル」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 建物の長く使う骨組み・共用部分（スケルトン）と、住戸内の内装・設備（インフィル）を分けて設計する考え方。間取り変更や設備更新をしやすくする。",
+          "B. イギリス積みは長手だけの段と小口だけの段を交互に積む。フランス積み（フランドル積み）は各段で長手と小口を交互に並べる。立面の模様で識別する。",
+          "C. 和小屋の主要部材。小屋梁は柱・軒桁間に架け、小屋束はその上に立って母屋・棟木を支える。雲筋かいは小屋束間に斜めに入れ、小屋組の横倒れを防ぐ。",
+          "D. 合わせガラスは中間膜で破片飛散を抑え、強化ガラスは熱処理で強度を高め破損時に粒状化する。複層ガラスは複数枚の間に中空層を設け断熱性を高める。"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「スケルトン・インフィル」：建物の長く使う骨組み・共用部分（スケルトン）と、住戸内の内装・設備（インフィル）を分けて設計する考え方。間取り変更や設備更新をしやすくする。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "backHtml",
+        "extractedFacts": [
+          "(entity=スケルトン・インフィル, relation=defined_as, value=建物の長く使う骨組み・共用部分（スケルトン）と、住戸内の内装・設備（インフィル）を分けて設計する考え方。間取り変更や設備更新をしやすくする。...)"
+        ],
+        "blueprint": "term_to_definition",
+        "blueprintOccurrences": [],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-construction-13",
+      "subject": "construction",
+      "blueprintId": "term_to_definition",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語「RC造の構造原理と寿命」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. プレテンション方式とポストテンション方式 🔧 プレテンション方式： 工場製作向け。事前に引張力を与えたPC鋼材を固定後、コンクリート打設・硬化後に緊張を解き、圧縮応力を導入。設計基準強度35N/mm2以上 🏗️ ポストテンション方式： 現場施工可能。シースを入れてコンクリート打設後、硬化後にPC鋼材",
+          "B. ①通常はひび割れの発生がなく,耐久性が優れている ②部材断面積を削減でき、自重軽減による効果とあわせて大スパン架 構が可能である。 3 ひび割れ発生荷重と破壊荷重とが接近しており,設計荷重の想定に は注意が必要である。 4 プブレストレスを与えている鋼材は,常に高応力の状悪にあり,腐食 しやすい。ま",
+          "C. 鋼材は高価なため、引張材として強度補強にのみ使用。コンクリートは安価で、圧縮強度に優れ、建築素材として適する。 ⚔️相互扶助の仕組み： コンクリートが鋼材を被覆し、火熱から保護。また、アルカリ性により鋼材の錯（錆）発生を防止。* 💡寿命の根拠： RC造の寿命は50〜100年。これは、コンクリートの中",
+          "D. 軽量化がある。構造躯体の負担を軽減することは，超高層ビルの建設にとって極めて有利である プレファブリケーションも，その主要な目的である。プレファブリケーションにより危険な高所での作業が減り，工事中に高層階へ運ぶ作業員を減らすことができる。工期が短縮されることや仮設足場が不要 品質の安定化 層間变位追"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「RC造の構造原理と寿命」：鋼材は高価なため、引張材として強度補強にのみ使用。コンクリートは安価で、圧縮強度に優れ、建築素材として適する。 ⚔️相互扶助の仕組み： コンクリートが鋼材を被覆し、火熱から保護。また、アルカリ性により鋼材の錯（錆）発生を防止。* 💡寿命の根拠： RC造の寿命は50〜100年。これは、コンクリートの中性化（中性化の速度は0.4mm/年程度である）が表面から進行し、鉄筋に達して錆防止能力を失うまでの時"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "backHtml",
+        "extractedFacts": [
+          "(entity=RC造の構造原理と寿命, relation=defined_as, value=鋼材は高価なため、引張材として強度補強にのみ使用。コンクリートは安価で、圧縮強度に優れ、建築素材として適する。 ⚔️相互扶助の仕組み： コンクリートが鋼材を被覆し、火熱から保護。また、アルカリ性により...)"
+        ],
+        "blueprint": "term_to_definition",
+        "blueprintOccurrences": [],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-construction-14",
+      "subject": "construction",
+      "blueprintId": "term_to_definition",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語「改修・工業化工法の基本」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 土台は基礎上に据えて柱を受ける水平材、柱は鉛直荷重を下へ伝える垂直材、梁・桁・胴差などの横架材は柱同士をつないで床・屋根荷重を支える。軸組図では方向と階の位置で区別する。",
+          "B. 湿式工法はモルタル・コンクリート・塗り壁など水を用い現場で硬化させる。乾式工法はボード・パネル・金属下地などを釘・ビス・金物で組み立て、工期短縮と解体・更新の容易さが特徴。",
+          "C. 小屋組は屋根荷重を柱・壁へ伝える骨組。和小屋は小屋束で母屋を支える鉛直材中心の構成、洋小屋は三角形のトラスで荷重を伝える。棟木・母屋・垂木・野地板の上下関係を図で理解する。",
+          "D. 既存建物の性能向上には耐震補強・制震・免震・レトロフィットを用い、長寿命化にはスケルトン・インフィルや部品更新を活用する。工業化工法は現場作業を工場製作・組立へ置き換える。"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「改修・工業化工法の基本」：既存建物の性能向上には耐震補強・制震・免震・レトロフィットを用い、長寿命化にはスケルトン・インフィルや部品更新を活用する。工業化工法は現場作業を工場製作・組立へ置き換える。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "backHtml",
+        "extractedFacts": [
+          "(entity=改修・工業化工法の基本, relation=defined_as, value=既存建物の性能向上には耐震補強・制震・免震・レトロフィットを用い、長寿命化にはスケルトン・インフィルや部品更新を活用する。工業化工法は現場作業を工場製作・組立へ置き換える。...)"
+        ],
+        "blueprint": "term_to_definition",
+        "blueprintOccurrences": [],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-construction-15",
+      "subject": "construction",
+      "blueprintId": "term_to_definition",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語「土台・柱・横架材」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 小屋組は屋根荷重を柱・壁へ伝える骨組。和小屋は小屋束で母屋を支える鉛直材中心の構成、洋小屋は三角形のトラスで荷重を伝える。棟木・母屋・垂木・野地板の上下関係を図で理解する。",
+          "B. シェルは薄い曲面の面内力、トラスは三角形部材の軸力、スペースフレームは立体格子、膜構造は張力で荷重を伝える。曲げに頼る梁構造との違いと、圧縮材・引張材の関係を理解する。",
+          "C. RC部材では、引張力を主に負担する主筋と、せん断補強・主筋拘束を担うあばら筋・帯筋を組み合わせる。柱・梁・床で配置が異なり、かぶり厚さは耐久性・耐火性・付着を確保する。",
+          "D. 土台は基礎上に据えて柱を受ける水平材、柱は鉛直荷重を下へ伝える垂直材、梁・桁・胴差などの横架材は柱同士をつないで床・屋根荷重を支える。軸組図では方向と階の位置で区別する。"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「土台・柱・横架材」：土台は基礎上に据えて柱を受ける水平材、柱は鉛直荷重を下へ伝える垂直材、梁・桁・胴差などの横架材は柱同士をつないで床・屋根荷重を支える。軸組図では方向と階の位置で区別する。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "backHtml",
+        "extractedFacts": [
+          "(entity=土台・柱・横架材, relation=defined_as, value=土台は基礎上に据えて柱を受ける水平材、柱は鉛直荷重を下へ伝える垂直材、梁・桁・胴差などの横架材は柱同士をつないで床・屋根荷重を支える。軸組図では方向と階の位置で区別する。...)"
+        ],
+        "blueprint": "term_to_definition",
+        "blueprintOccurrences": [],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-construction-16",
+      "subject": "construction",
+      "blueprintId": "term_to_definition",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語「基礎・地盤・地下工事の基本」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. platform construction 生産性に関しては，所要工数が少なく，大工の熟練を要しない点が特徵である。 気密性が高くそのため遮音性や断熱性の確保が容易であるといった長所",
+          "B. 建物荷重を地盤へ伝える基礎、地盤の性質を確認する地盤調査、軟弱地盤を改善する地盤改良、地下掘削を安全に行う山留めからなる。各工法が「調査・支持・改良・掘削」のどこに属するかを区別する。",
+          "C. 注意点： 階数・スパン増大で屋根面が高くなり、風圧力（特に負圧）で屋根材剥離に注意 特有の構法： 野地板を張らない折板屋根や波板屋根が工場、倉庫、展示会場など大スパン建物で広く用いられる",
+          "D. S造では柱・梁を高力ボルト接合または溶接接合で組み立て、柱脚はベースプレートとアンカーボルトで基礎に固定する。接合部では力の伝達経路と、ダイアフラムなどの補強部材の位置を理解する。"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「基礎・地盤・地下工事の基本」：建物荷重を地盤へ伝える基礎、地盤の性質を確認する地盤調査、軟弱地盤を改善する地盤改良、地下掘削を安全に行う山留めからなる。各工法が「調査・支持・改良・掘削」のどこに属するかを区別する。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "backHtml",
+        "extractedFacts": [
+          "(entity=基礎・地盤・地下工事の基本, relation=defined_as, value=建物荷重を地盤へ伝える基礎、地盤の性質を確認する地盤調査、軟弱地盤を改善する地盤改良、地下掘削を安全に行う山留めからなる。各工法が「調査・支持・改良・掘削」のどこに属するかを区別する。...)"
+        ],
+        "blueprint": "term_to_definition",
+        "blueprintOccurrences": [],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-construction-17",
+      "subject": "construction",
+      "blueprintId": "term_to_definition",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語「木造小屋組・屋根の基本」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 湿式工法はモルタル・コンクリート・塗り壁など水を用い現場で硬化させる。乾式工法はボード・パネル・金属下地などを釘・ビス・金物で組み立て、工期短縮と解体・更新の容易さが特徴。",
+          "B. 既存建物の性能向上には耐震補強・制震・免震・レトロフィットを用い、長寿命化にはスケルトン・インフィルや部品更新を活用する。工業化工法は現場作業を工場製作・組立へ置き換える。",
+          "C. 小屋組は屋根荷重を柱・壁へ伝える骨組。和小屋は小屋束で母屋を支える鉛直材中心の構成、洋小屋は三角形のトラスで荷重を伝える。棟木・母屋・垂木・野地板の上下関係を図で理解する。",
+          "D. 土台は基礎上に据えて柱を受ける水平材、柱は鉛直荷重を下へ伝える垂直材、梁・桁・胴差などの横架材は柱同士をつないで床・屋根荷重を支える。軸組図では方向と階の位置で区別する。"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「木造小屋組・屋根の基本」：小屋組は屋根荷重を柱・壁へ伝える骨組。和小屋は小屋束で母屋を支える鉛直材中心の構成、洋小屋は三角形のトラスで荷重を伝える。棟木・母屋・垂木・野地板の上下関係を図で理解する。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "backHtml",
+        "extractedFacts": [
+          "(entity=木造小屋組・屋根の基本, relation=defined_as, value=小屋組は屋根荷重を柱・壁へ伝える骨組。和小屋は小屋束で母屋を支える鉛直材中心の構成、洋小屋は三角形のトラスで荷重を伝える。棟木・母屋・垂木・野地板の上下関係を図で理解する。...)"
+        ],
+        "blueprint": "term_to_definition",
+        "blueprintOccurrences": [],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-construction-18",
+      "subject": "construction",
+      "blueprintId": "term_to_definition",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語「コールドジョイント」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 先に打ち込んだコンクリートと後打ち部分が一体化しない施工不良。",
+          "B. ひき板や小角材を繊維方向をほぼ平行にして積層接着した木質材料。",
+          "C. 45度傾けて 雨水が重なり部分に流れないように表面に波をつけた",
+          "D. ひき板を繊維方向が直交するように積層接着した木質系構造材料。"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「コールドジョイント」：先に打ち込んだコンクリートと後打ち部分が一体化しない施工不良。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "backHtml",
+        "extractedFacts": [
+          "(entity=コールドジョイント, relation=defined_as, value=先に打ち込んだコンクリートと後打ち部分が一体化しない施工不良。...)"
+        ],
+        "blueprint": "term_to_definition",
+        "blueprintOccurrences": [],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-construction-19",
+      "subject": "construction",
+      "blueprintId": "term_to_definition",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語「普通ボルト接合」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. はめ殺しは開閉しない固定窓。ガラスはガスケットやシーリングで枠に固定し、外側の水密線、内部の気密線、下枠の排水孔で浸入水を外へ戻す。",
+          "B. ボルト軸と孔の支圧・せん断で力を伝える接合。高力ボルト摩擦接合とは原理が異なり、主要構造部よりも小規模部材や二次部材の接合に用いられる。",
+          "C. 重ね長さ 引張力の最小部分-继手鉄筋径の25倍以上 上記以外の部分-継手鉄筋径の40倍以上 定着長さ 柱-定着する梁の鉄筋径の40倍以上",
+          "D. 木造の土台を鉄筋コンクリート基礎に固定するボルト。水平力による土台の移動や浮上りを防ぎ、耐力壁付近や土台継手付近などに適切に配置する。"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「普通ボルト接合」：ボルト軸と孔の支圧・せん断で力を伝える接合。高力ボルト摩擦接合とは原理が異なり、主要構造部よりも小規模部材や二次部材の接合に用いられる。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "backHtml",
+        "extractedFacts": [
+          "(entity=普通ボルト接合, relation=defined_as, value=ボルト軸と孔の支圧・せん断で力を伝える接合。高力ボルト摩擦接合とは原理が異なり、主要構造部よりも小規模部材や二次部材の接合に用いられる。...)"
+        ],
+        "blueprint": "term_to_definition",
+        "blueprintOccurrences": [],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-construction-20",
+      "subject": "construction",
+      "blueprintId": "term_to_definition",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築構法用語「帯筋」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 既存建物を解体せず、ジャッキ等で一時的に支持してレール・台車などで移動する工事。保存改修や免震化工事と組み合わせて考える。",
+          "B. 建物に免震装置を組み込み、地震動を建物に伝わりにくくする工事。既存建物では基礎部や地下階まわりに免震層を設けることが多い。",
+          "C. RC柱の主筋を囲むように水平に配置するせん断補強筋。柱のせん断破壊を抑え、主筋の座屈やコンクリートのはらみ出しを拘束する。",
+          "D. せん断による亀裂を防止する役割のほかに主筋の座屈を防ぎ，コンクリートがはらみ出すのを防ぎ，粘りを確保する役割も果たしている"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「帯筋」：せん断による亀裂を防止する役割のほかに主筋の座屈を防ぎ，コンクリートがはらみ出すのを防ぎ，粘りを確保する役割も果たしている"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "construction-anki-notes.json",
+        "originalField": "backHtml",
+        "extractedFacts": [
+          "(entity=帯筋, relation=defined_as, value=せん断による亀裂を防止する役割のほかに主筋の座屈を防ぎ，コンクリートがはらみ出すのを防ぎ，粘りを確保する役割も果たしている...)"
+        ],
+        "blueprint": "term_to_definition",
+        "blueprintOccurrences": [],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-01",
+      "subject": "planning",
+      "blueprintId": "number_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "建築計画における「多目的ホールの気積」について、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 4~6㎡/席",
+          "B. 少人数による共同生活を営むことに支障のない認知症高齢者が、5~9人程度の小規模な生活の場において、食事のス度、掃除、洗濯等を介護従業者と共同で行う居住·ケアの形態をいう。",
+          "C. 少人数による共同生活を営むことに支障のない 認知症高齢者 が、 5~9人程度 の小規模な生活の場において、 食事の支度、掃除、洗濯 等を 介護従業者と共同 で行う 居住·ケアの形態 をいう。",
+          "D. 5~8m³/席"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「多目的ホールの気積」の基準値は5~8m³/席。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED",
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "style / description",
+        "extractedFacts": [
+          "(entity=多目的ホールの気積, relation=standard_value, value=5~8m³/席)"
+        ],
+        "blueprint": "number_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2017,
+            "category": "専門1",
+            "questionNumber": "Q1",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2019,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2020,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-02",
+      "subject": "planning",
+      "blueprintId": "number_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "建築計画における「スケッチマップ 5種類のエレメント」について、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 高さ 65cm 以上の部分に設ける場合、奥行きは 10cm 以下が望ましい 階段の終始点から",
+          "B. 床材の色を変えたり、明度差を大きくする。階段の手すりの高さは、踏み面の先端から80~85cm程度とし、連続性を確保する",
+          "C. 床材の色を変えたり、明度差を大きくする。階段の手すりの高さは、踏み面の先端から 80~85cm 程度とし、連続性を確保する",
+          "D. 1 パス(paths)/道路 2 エッジ(edges)/縁,境界 3 ディストリクト(districts)/地域 4 ノード(nodes)/接合点,集中点 5 ランドマーク(landmarks)/目印"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「スケッチマップ 5種類のエレメント」の基準値は1 パス(paths)/道路 2 エッジ(edges)/縁,境界 3 ディストリクト(districts)/地域 4 ノード(nodes)/接合点,集中点 5 ランドマーク(landmarks)/目印。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "style / description",
+        "extractedFacts": [
+          "(entity=スケッチマップ 5種類のエレメント, relation=standard_value, value=1 パス(paths)/道路 2 エッジ(edges)/縁,境界 3 ディストリクト(districts)/地域 4 ノード(nodes)/接合点,集中点 5 ランドマーク(landmarks)/目印)"
+        ],
+        "blueprint": "number_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2017,
+            "category": "専門1",
+            "questionNumber": "Q1",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2019,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2020,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-03",
+      "subject": "planning",
+      "blueprintId": "number_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "建築計画における「nLDK型住宅の普及要因」について、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 1950 住まいを 社会圏 、 個人圏 、 労働圏 に分離して計画することを 提唱 した",
+          "B. 1950年の 住宅金融公庫法（持家融資制度） や 日本経済の回復 、 新たな家族像の成立 を背景に、 集合住宅 や 商品化住宅 へ波及。 nLDK型 が 中間層の住宅 として定着",
+          "C. 1950年の住宅金融公庫法（持家融資制度）や日本経済の回復、新たな家族像の成立を背景に、集合住宅や商品化住宅へ波及。nLDK型が中間層の住宅として定着",
+          "D. 1950 住まいを社会圏、個人圏、労働圏に分離して計画することを提唱した"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「nLDK型住宅の普及要因」の基準値は1950年の住宅金融公庫法（持家融資制度）や日本経済の回復、新たな家族像の成立を背景に、集合住宅や商品化住宅へ波及。nLDK型が中間層の住宅として定着。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "style / description",
+        "extractedFacts": [
+          "(entity=nLDK型住宅の普及要因, relation=standard_value, value=1950年の住宅金融公庫法（持家融資制度）や日本経済の回復、新たな家族像の成立を背景に、集合住宅や商品化住宅へ波及。nLDK型が中間層の住宅として定着)"
+        ],
+        "blueprint": "number_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2017,
+            "category": "専門1",
+            "questionNumber": "Q1",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2019,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2020,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-04",
+      "subject": "planning",
+      "blueprintId": "number_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "建築計画における「如庵」について、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 17世紀",
+          "B. 17世紀にもと 建仁寺内 に造立された、 大小五つの窓 や 躙口（にじりぐち） の配置が特徴的な 茶室 である",
+          "C. 17世紀にもと建仁寺内に造立された、大小五つの窓や躙口（にじりぐち）の配置が特徴的な茶室である",
+          "D. 1台当たりの幅: 3.5m以上"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「如庵」の基準値は17世紀にもと 建仁寺内 に造立された、 大小五つの窓 や 躙口（にじりぐち） の配置が特徴的な 茶室 である。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED",
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "style / description",
+        "extractedFacts": [
+          "(entity=如庵, relation=standard_value, value=17世紀にもと 建仁寺内 に造立された、 大小五つの窓 や 躙口（にじりぐち） の配置が特徴的な 茶室 である)"
+        ],
+        "blueprint": "number_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2017,
+            "category": "専門1",
+            "questionNumber": "Q1",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2019,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2020,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-05",
+      "subject": "planning",
+      "blueprintId": "number_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "建築計画における「対面配置の場合の対面距離」について、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 1 パス(paths)/道路 2 エッジ(edges)/縁,境界 3 ディストリクト(districts)/地域 4 ノード(nodes)/接合点,集中点 5 ランドマーク(landmarks)/目印",
+          "B. 5~8m³/席",
+          "C. 1950年の住宅金融公庫法（持家融資制度）や日本経済の回復、新たな家族像の成立を背景に、集合住宅や商品化住宅へ波及。nLDK型が中間層の住宅として定着",
+          "D. 3.5~4.5m (高低層2グループの場合は 6~8m )"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「対面配置の場合の対面距離」の基準値は3.5~4.5m (高低層2グループの場合は 6~8m )。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED",
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "style / description",
+        "extractedFacts": [
+          "(entity=対面配置の場合の対面距離, relation=standard_value, value=3.5~4.5m (高低層2グループの場合は 6~8m ))"
+        ],
+        "blueprint": "number_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2017,
+            "category": "専門1",
+            "questionNumber": "Q1",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2019,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2020,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-06",
+      "subject": "planning",
+      "blueprintId": "number_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "建築計画における「堂塔基壇型」について、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 1 パス(paths)/道路 2 エッジ(edges)/縁,境界 3 ディストリクト(districts)/地域 4 ノード(nodes)/接合点,集中点 5 ランドマーク(landmarks)/目印",
+          "B. 1950年の住宅金融公庫法（持家融資制度）や日本経済の回復、新たな家族像の成立を背景に、集合住宅や商品化住宅へ波及。nLDK型が中間層の住宅として定着",
+          "C. 病棟が入る高層部をその他の部門を広めの低層に入れて、その上に乗せたもので,それぞれに適したスパンを採用できるが,高層部の最下は病棟スパンによる制約がある",
+          "D. 5~8m³/席"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「堂塔基壇型」の基準値は病棟が入る高層部をその他の部門を広めの低層に入れて、その上に乗せたもので,それぞれに適したスパンを採用できるが,高層部の最下は病棟スパンによる制約がある。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED",
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "style / description",
+        "extractedFacts": [
+          "(entity=堂塔基壇型, relation=standard_value, value=病棟が入る高層部をその他の部門を広めの低層に入れて、その上に乗せたもので,それぞれに適したスパンを採用できるが,高層部の最下は病棟スパンによる制約がある)"
+        ],
+        "blueprint": "number_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2017,
+            "category": "専門1",
+            "questionNumber": "Q1",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2019,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2020,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-07",
+      "subject": "planning",
+      "blueprintId": "number_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "建築計画における「看護単位の病床数」について、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 12.5m以上 、 10.5m以上",
+          "B. 内科·外科で40~50床、産科·小科で30床程度",
+          "C. 内科·外科で 40~50床 、産科·小科で 30床 程度",
+          "D. 0.5~0.7㎡/席"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「看護単位の病床数」の基準値は内科·外科で40~50床、産科·小科で30床程度。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "style / description",
+        "extractedFacts": [
+          "(entity=看護単位の病床数, relation=standard_value, value=内科·外科で40~50床、産科·小科で30床程度)"
+        ],
+        "blueprint": "number_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2017,
+            "category": "専門1",
+            "questionNumber": "Q1",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2019,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2020,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-08",
+      "subject": "planning",
+      "blueprintId": "number_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "建築計画における「如庵」について、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 1台当たりの幅: 3.5m以上",
+          "B. 17世紀にもと 建仁寺内 に造立された、 大小五つの窓 や 躙口（にじりぐち） の配置が特徴的な 茶室 である",
+          "C. 17世紀",
+          "D. 17世紀にもと建仁寺内に造立された、大小五つの窓や躙口（にじりぐち）の配置が特徴的な茶室である"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「如庵」の基準値は17世紀にもと建仁寺内に造立された、大小五つの窓や躙口（にじりぐち）の配置が特徴的な茶室である。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "OPTION_LENGTH_UNBALANCED",
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "style / description",
+        "extractedFacts": [
+          "(entity=如庵, relation=standard_value, value=17世紀にもと建仁寺内に造立された、大小五つの窓や躙口（にじりぐち）の配置が特徴的な茶室である)"
+        ],
+        "blueprint": "number_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2017,
+            "category": "専門1",
+            "questionNumber": "Q1",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2019,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2020,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-09",
+      "subject": "planning",
+      "blueprintId": "number_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "建築計画における「パビリオン型」について、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 1949年の RC造校舎標準設計 は 日本建築学会 が 構造 · コスト · 空間 · 採光 · 視線 などの側面から検討",
+          "B. 1949年のRC造校舎標準設計は日本建築学会が構造·コス卜·空間·採光·視線などの側面から検討",
+          "C. 19世紀 十分な ベッド間隔 と 天井高 を持つ 30ベッド ぼどの 大部屋病棟 を提案した",
+          "D. 19世紀 十分なベッド間隔と天井高を持つ30ベッドぼどの大部屋病棟を提案した"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「パビリオン型」の基準値は19世紀 十分な ベッド間隔 と 天井高 を持つ 30ベッド ぼどの 大部屋病棟 を提案した。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "style / description",
+        "extractedFacts": [
+          "(entity=パビリオン型, relation=standard_value, value=19世紀 十分な ベッド間隔 と 天井高 を持つ 30ベッド ぼどの 大部屋病棟 を提案した)"
+        ],
+        "blueprint": "number_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2017,
+            "category": "専門1",
+            "questionNumber": "Q1",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2019,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2020,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-10",
+      "subject": "planning",
+      "blueprintId": "number_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "建築計画における「都市のLDK型住宅」について、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 1階に 和室＋LDK（多様な組み合わせ） 、北側 水まわり 、2階 私室 。小規模では1階和室が 夫婦寝室 を兼ねる",
+          "B. 1 全員が一方向に向かって並べる平行配置型 2前の人と向かい合わせに並べる対向配置型 3それぞれが反対方向の向きで横に並べるスタッグ配置型",
+          "C. 1 全員が一方向に向かって並べる平行配置型 2 前の人と向かい合わせに並べる対向配置型 3 それぞれが反対方向の向きで横に並べるスタッグ配置型",
+          "D. 1階に和室＋LDK（多様な組み合わせ）、北側水まわり、2階私室。小規模では1階和室が夫婦寝室を兼ねる"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「都市のLDK型住宅」の基準値は1階に 和室＋LDK（多様な組み合わせ） 、北側 水まわり 、2階 私室 。小規模では1階和室が 夫婦寝室 を兼ねる。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "style / description",
+        "extractedFacts": [
+          "(entity=都市のLDK型住宅, relation=standard_value, value=1階に 和室＋LDK（多様な組み合わせ） 、北側 水まわり 、2階 私室 。小規模では1階和室が 夫婦寝室 を兼ねる)"
+        ],
+        "blueprint": "number_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2017,
+            "category": "専門1",
+            "questionNumber": "Q1",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2019,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          },
+          {
+            "blueprintId": "number_four_choice",
+            "year": 2020,
+            "category": "専門1",
+            "questionNumber": "Q4",
+            "originalForm": "インライン數値選択"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-11",
+      "subject": "planning",
+      "blueprintId": "concept_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築計画用語・事例「ピサ大聖堂」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 扇形に広がる 客席 と 覆われたオーケストラピット を持ち、 舞台への視線集中 と ワーグナー作品の上演条件 を重視した劇場。",
+          "B. 書庫を地下に、中庭に面した閲覧室を半地下に配置することで建築物の地上部分のボリュームを抑え、景観上の調和に配慮した図書館である",
+          "C. 中庭や共用部に面して住戸ごとの土間やテラス等を設け、居住者同士が互いの生活を感じながら居住することができるように計画されている",
+          "D. ラテン十字形のプランをもち、会堂部は五廊式、袖廊部は三廊式、交差部に 楕円形のドーム をもつ イタリアのロマネスク建築 である"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「ピサ大聖堂」：ラテン十字形のプランをもち、会堂部は五廊式、袖廊部は三廊式、交差部に 楕円形のドーム をもつ イタリアのロマネスク建築 である"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "description / style",
+        "extractedFacts": [
+          "(entity=ピサ大聖堂, relation=defined_as, value=ラテン十字形のプランをもち、会堂部は五廊式、袖廊部は三廊式、交差部に 楕円形のドーム をもつ イタリアのロマネスク建築 である...)"
+        ],
+        "blueprint": "concept_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q6",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q7",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q8",
+            "originalForm": "概念説明"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-12",
+      "subject": "planning",
+      "blueprintId": "concept_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築計画用語・事例「ロビー邸」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 作品ごとの 独立展示室 を敷地内に分散し、 ガラス張りの通路 で結ぶ。街路・庭・展示を交互に経験する 都市開放型美術館 。",
+          "B. オープンスクール 低.高学年分離を徹底し，さまざまな課題学習が可能な 多目的なオープンスペス を 教室の前 に配置している",
+          "C. フランク・ロイド・ライト プレーリーハウスの典型例とされ、軒を深く出して水平線を強調し、煙突の垂直線と対比させた住宅である",
+          "D. 居住者参加の計画手法 基本的な外壁や設備のみを供給し、残りを住民の自力建設に委ねることで、コスト削減と個別性への対応を実現"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「ロビー邸」：フランク・ロイド・ライト プレーリーハウスの典型例とされ、軒を深く出して水平線を強調し、煙突の垂直線と対比させた住宅である"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "description / style",
+        "extractedFacts": [
+          "(entity=ロビー邸, relation=defined_as, value=フランク・ロイド・ライト プレーリーハウスの典型例とされ、軒を深く出して水平線を強調し、煙突の垂直線と対比させた住宅である...)"
+        ],
+        "blueprint": "concept_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q6",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q7",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q8",
+            "originalForm": "概念説明"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-13",
+      "subject": "planning",
+      "blueprintId": "concept_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築計画用語・事例「塔の家」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 公共図書館の平面・サービス構成を比較する選択肢として出題。",
+          "B. 住戸の専用部分から共用部分を創出するコレクティブ住宅の概念",
+          "C. オペラ上演のための舞台・客席・付属機能を組織した劇場事例。",
+          "D. 都市に住むこと を第一条件として 小さな敷地 に建てられた"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「塔の家」：都市に住むこと を第一条件として 小さな敷地 に建てられた"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "description / style",
+        "extractedFacts": [
+          "(entity=塔の家, relation=defined_as, value=都市に住むこと を第一条件として 小さな敷地 に建てられた...)"
+        ],
+        "blueprint": "concept_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q6",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q7",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q8",
+            "originalForm": "概念説明"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-14",
+      "subject": "planning",
+      "blueprintId": "concept_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築計画用語・事例「ストックホルム市立図書館」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 円形の中央閲覧室 を中心に書架と諸室を構成し、明快な 中心性 を持つ図書館。",
+          "B. テリトリー より場所と結びついた，持ち運びのできない，排他的ななわばりである",
+          "C. 中庭を囲む住棟配置と共用空間により、集合居住の共同性を強く意識した住宅団地。",
+          "D. 低層接地型 の 連続住宅 と 共用外部空間 を組み合わせた 集合住宅 事例。"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「ストックホルム市立図書館」：円形の中央閲覧室 を中心に書架と諸室を構成し、明快な 中心性 を持つ図書館。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "description / style",
+        "extractedFacts": [
+          "(entity=ストックホルム市立図書館, relation=defined_as, value=円形の中央閲覧室 を中心に書架と諸室を構成し、明快な 中心性 を持つ図書館。...)"
+        ],
+        "blueprint": "concept_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q6",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q7",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q8",
+            "originalForm": "概念説明"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-15",
+      "subject": "planning",
+      "blueprintId": "concept_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築計画用語・事例「コア・ハウジング方式（インドネシア）」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 作品ごとの 独立展示室 を敷地内に分散し、 ガラス張りの通路 で結ぶ。街路・庭・展示を交互に経験する 都市開放型美術館 。",
+          "B. オープンスクール 低.高学年分離を徹底し，さまざまな課題学習が可能な 多目的なオープンスペス を 教室の前 に配置している",
+          "C. 居住者参加の計画手法 基本的な外壁や設備のみを供給し、残りを住民の自力建設に委ねることで、コスト削減と個別性への対応を実現",
+          "D. フランク・ロイド・ライト プレーリーハウスの典型例とされ、軒を深く出して水平線を強調し、煙突の垂直線と対比させた住宅である"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「コア・ハウジング方式（インドネシア）」：居住者参加の計画手法 基本的な外壁や設備のみを供給し、残りを住民の自力建設に委ねることで、コスト削減と個別性への対応を実現"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "description / style",
+        "extractedFacts": [
+          "(entity=コア・ハウジング方式（インドネシア）, relation=defined_as, value=居住者参加の計画手法 基本的な外壁や設備のみを供給し、残りを住民の自力建設に委ねることで、コスト削減と個別性への対応を実現...)"
+        ],
+        "blueprint": "concept_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q6",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q7",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q8",
+            "originalForm": "概念説明"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-16",
+      "subject": "planning",
+      "blueprintId": "concept_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築計画用語・事例「宫前小学校」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 作品ごとの 独立展示室 を敷地内に分散し、 ガラス張りの通路 で結ぶ。街路・庭・展示を交互に経験する 都市開放型美術館 。",
+          "B. 居住者参加の計画手法 基本的な外壁や設備のみを供給し、残りを住民の自力建設に委ねることで、コスト削減と個別性への対応を実現",
+          "C. フランク・ロイド・ライト プレーリーハウスの典型例とされ、軒を深く出して水平線を強調し、煙突の垂直線と対比させた住宅である",
+          "D. オープンスクール 低.高学年分離を徹底し，さまざまな課題学習が可能な 多目的なオープンスペス を 教室の前 に配置している"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「宫前小学校」：オープンスクール 低.高学年分離を徹底し，さまざまな課題学習が可能な 多目的なオープンスペス を 教室の前 に配置している"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "description / style",
+        "extractedFacts": [
+          "(entity=宫前小学校, relation=defined_as, value=オープンスクール 低.高学年分離を徹底し，さまざまな課題学習が可能な 多目的なオープンスペス を 教室の前 に配置している...)"
+        ],
+        "blueprint": "concept_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q6",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q7",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q8",
+            "originalForm": "概念説明"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-17",
+      "subject": "planning",
+      "blueprintId": "concept_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築計画用語・事例「阿佐ヶ谷住宅」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 中庭を囲む低層集合住宅群 。地形と既存樹木を生かし、 住棟・路地・緑地 によって 親密な住環境 を形成した。",
+          "B. チャールズ＆レイ・イームズの自邸。工業化部材を用いた軽快な架構と、住居・スタジオを生活に応じて構成した住宅。",
+          "C. 不良住宅地区の改善を目的とした公的長屋住宅。住戸と路地状共用空間を組み合わせ、衛生・居住条件の改善を図った。",
+          "D. 人と人、人と自然の共生、主体性、地域参加が相互に関連 住まいの質の見直しが必要：性能追求が閉鎖性・分離を促進"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「阿佐ヶ谷住宅」：中庭を囲む低層集合住宅群 。地形と既存樹木を生かし、 住棟・路地・緑地 によって 親密な住環境 を形成した。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "description / style",
+        "extractedFacts": [
+          "(entity=阿佐ヶ谷住宅, relation=defined_as, value=中庭を囲む低層集合住宅群 。地形と既存樹木を生かし、 住棟・路地・緑地 によって 親密な住環境 を形成した。...)"
+        ],
+        "blueprint": "concept_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q6",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q7",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q8",
+            "originalForm": "概念説明"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-18",
+      "subject": "planning",
+      "blueprintId": "concept_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築計画用語・事例「レヴィット・タウン」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 円筒状のコア に 交換・増設可能な執務単位 を付加する メタボリズム の 高層建築 。",
+          "B. 古くから 地域住民の社会教育·文化活動·健康·社会福祉增進 が目的で 市町村が設置する",
+          "C. 体育館は、防暑計画上、長軸を 東西方向 に配置し、自然採光と夏期の通風·換気に配慮する",
+          "D. 大量生産方式による郊外戸建住宅地。標準化された住宅と自動車依存型の郊外開発を代表する。"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「レヴィット・タウン」：大量生産方式による郊外戸建住宅地。標準化された住宅と自動車依存型の郊外開発を代表する。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "description / style",
+        "extractedFacts": [
+          "(entity=レヴィット・タウン, relation=defined_as, value=大量生産方式による郊外戸建住宅地。標準化された住宅と自動車依存型の郊外開発を代表する。...)"
+        ],
+        "blueprint": "concept_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q6",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q7",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q8",
+            "originalForm": "概念説明"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-19",
+      "subject": "planning",
+      "blueprintId": "concept_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築計画用語・事例「りゅーとぴあ」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 複数の ホール・劇場 を立体的に組み合わせ、 円形の回遊動線 と 屋上庭園 によって各施設と都市を結ぶ 複合文化施設 。",
+          "B. 大阪ガスによる 実験集合住宅 。 スケルトン・インフィル 、 設備更新 、 可変住戸 、 環境共生 を実住戸で検証した。",
+          "C. 居住者の参加によって各住戸の設計が行われた コーポラティブハウス であり、居住者の交流等を意図して 共用空間 を配置した",
+          "D. チャールズ＆レイ・イームズの自邸。 工業化部材 を用いた 軽快な架構 と、 住居・スタジオ を生活に応じて構成した住宅。"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「りゅーとぴあ」：複数の ホール・劇場 を立体的に組み合わせ、 円形の回遊動線 と 屋上庭園 によって各施設と都市を結ぶ 複合文化施設 。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "description / style",
+        "extractedFacts": [
+          "(entity=りゅーとぴあ, relation=defined_as, value=複数の ホール・劇場 を立体的に組み合わせ、 円形の回遊動線 と 屋上庭園 によって各施設と都市を結ぶ 複合文化施設 。...)"
+        ],
+        "blueprint": "concept_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q6",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q7",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q8",
+            "originalForm": "概念説明"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-planning-20",
+      "subject": "planning",
+      "blueprintId": "concept_four_choice",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "次の建築計画用語・事例「求道学舎」の説明として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. 各階に多様な 世帯構成 を想定した各種の 住戸 を配置し、 相互扶助的 な共生を意図した コレクティブハウス である",
+          "B. 中央診療部門と 病棟・外来 等の関係を整理し、 患者、職員、物品の動線分離 と 部門間連携 を図った 病院計画例 。",
+          "C. 『匠明』 座敷飾り(トコ，タナ，ショイン)を備えるとともに，いくつもの部屋を通りぬけた奥に位置することで成立していた",
+          "D. 近代の 寄宿舎 を コーポラティブ方式 で再生した 集合住宅 。 既存躯体・外観 を保存しながら 住戸を更新 した。"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「求道学舎」：近代の 寄宿舎 を コーポラティブ方式 で再生した 集合住宅 。 既存躯体・外観 を保存しながら 住戸を更新 した。"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "planning card → building_cache.json or anki-notes.json",
+        "originalField": "description / style",
+        "extractedFacts": [
+          "(entity=求道学舎, relation=defined_as, value=近代の 寄宿舎 を コーポラティブ方式 で再生した 集合住宅 。 既存躯体・外観 を保存しながら 住戸を更新 した。...)"
+        ],
+        "blueprint": "concept_four_choice",
+        "blueprintOccurrences": [
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q6",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q7",
+            "originalForm": "概念説明"
+          },
+          {
+            "blueprintId": "concept_four_choice",
+            "year": 2014,
+            "category": "専門2-2",
+            "questionNumber": "Q8",
+            "originalForm": "概念説明"
+          }
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "preview-environment-01",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「線形化放射熱伝達率」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. Q = αA√(2Δp/ρ)",
+          "B. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "C. τₜ = τ² / (1 − ρ²)",
+          "D. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「線形化放射熱伝達率」の公式：αᵣ = εσ(T₁+T₂)(T₁²+T₂²)"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=線形化放射熱伝達率, relation=formula_text, value=αᵣ = εσ(T₁+T₂)(T₁²+T₂²))"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-02",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「複層ガラスの総合透過率」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "B. Q = αA√(2Δp/ρ)",
+          "C. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "D. τₜ = τ² / (1 − ρ²)"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「複層ガラスの総合透過率」の公式：τₜ = τ² / (1 − ρ²)"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=複層ガラスの総合透過率, relation=formula_text, value=τₜ = τ² / (1 − ρ²))"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-03",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「放射熱流」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. τₜ = τ² / (1 − ρ²)",
+          "B. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "C. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "D. Q = αA√(2Δp/ρ)"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「放射熱流」の公式：q = ε₁₂σ(T₁⁴ − T₂⁴)"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=放射熱流, relation=formula_text, value=q = ε₁₂σ(T₁⁴ − T₂⁴))"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-04",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「開口流量」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "B. Q = αA√(2Δp/ρ)",
+          "C. τₜ = τ² / (1 − ρ²)",
+          "D. q = ε₁₂σ(T₁⁴ − T₂⁴)"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「開口流量」の公式：Q = αA√(2Δp/ρ)"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=開口流量, relation=formula_text, value=Q = αA√(2Δp/ρ))"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-05",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「Kirchhoffの法則」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. ε(λ,T) = α(λ,T)",
+          "B. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "C. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "D. τₜ = τ² / (1 − ρ²)"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「Kirchhoffの法則」の公式：ε(λ,T) = α(λ,T)"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=Kirchhoffの法則, relation=formula_text, value=ε(λ,T) = α(λ,T))"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-06",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「湿り空気の比エンタルピー」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. τₜ = τ² / (1 − ρ²)",
+          "B. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "C. h ≈ 1.005θ + x(2501 + 1.86θ)",
+          "D. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「湿り空気の比エンタルピー」の公式：h ≈ 1.005θ + x(2501 + 1.86θ)"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=湿り空気の比エンタルピー, relation=formula_text, value=h ≈ 1.005θ + x(2501 + 1.86θ))"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-07",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「ダクト摩擦・局部損失」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. τₜ = τ² / (1 − ρ²)",
+          "B. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "C. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "D. Δp = λ(L/D)(ρv²/2) + ζ(ρv²/2)"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「ダクト摩擦・局部損失」の公式：Δp = λ(L/D)(ρv²/2) + ζ(ρv²/2)"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=ダクト摩擦・局部損失, relation=formula_text, value=Δp = λ(L/D)(ρv²/2) + ζ(ρv²/2))"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-08",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「光束法」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "B. τₜ = τ² / (1 − ρ²)",
+          "C. E = NFUM / A",
+          "D. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「光束法」の公式：E = NFUM / A"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=光束法, relation=formula_text, value=E = NFUM / A)"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-09",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「多層壁の熱貫流率」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. τₜ = τ² / (1 − ρ²)",
+          "B. U = 1 / (1/hᵢ + Σd/λ + 1/hₒ)",
+          "C. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "D. q = ε₁₂σ(T₁⁴ − T₂⁴)"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「多層壁の熱貫流率」の公式：U = 1 / (1/hᵢ + Σd/λ + 1/hₒ)"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=多層壁の熱貫流率, relation=formula_text, value=U = 1 / (1/hᵢ + Σd/λ + 1/hₒ))"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-10",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「換気回数」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. n = Q / V",
+          "B. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "C. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "D. τₜ = τ² / (1 − ρ²)"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「換気回数」の公式：n = Q / V"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=換気回数, relation=formula_text, value=n = Q / V)"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-11",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「Eyringの残響式」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. T₆₀ = 0.161V / [−S ln(1−ᾱ)]",
+          "B. τₜ = τ² / (1 − ρ²)",
+          "C. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "D. q = ε₁₂σ(T₁⁴ − T₂⁴)"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「Eyringの残響式」の公式：T₆₀ = 0.161V / [−S ln(1−ᾱ)]"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=Eyringの残響式, relation=formula_text, value=T₆₀ = 0.161V / [−S ln(1−ᾱ)])"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-12",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「定常温度差」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "B. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "C. τₜ = τ² / (1 − ρ²)",
+          "D. ΔT = q / (ρcₚQ)"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「定常温度差」の公式：ΔT = q / (ρcₚQ)"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=定常温度差, relation=formula_text, value=ΔT = q / (ρcₚQ))"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-13",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「室間音圧レベル差」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. τₜ = τ² / (1 − ρ²)",
+          "B. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "C. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "D. R = L₁ − L₂ + 10log₁₀(S/A₂)"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「室間音圧レベル差」の公式：R = L₁ − L₂ + 10log₁₀(S/A₂)"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=室間音圧レベル差, relation=formula_text, value=R = L₁ − L₂ + 10log₁₀(S/A₂))"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-14",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「Bernoulliの式」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. p/ρg + v²/2g + z = constant",
+          "B. τₜ = τ² / (1 − ρ²)",
+          "C. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "D. q = ε₁₂σ(T₁⁴ − T₂⁴)"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「Bernoulliの式」の公式：p/ρg + v²/2g + z = constant"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=Bernoulliの式, relation=formula_text, value=p/ρg + v²/2g + z = constant)"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-15",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「UA値」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. τₜ = τ² / (1 − ρ²)",
+          "B. UA = Σ(UᵢAᵢ + ΨⱼLⱼ) / Aₑₙᵥ",
+          "C. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "D. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「UA値」の公式：UA = Σ(UᵢAᵢ + ΨⱼLⱼ) / Aₑₙᵥ"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=UA値, relation=formula_text, value=UA = Σ(UᵢAᵢ + ΨⱼLⱼ) / Aₑₙᵥ)"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-16",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「CO₂必要換気量」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. Q = G / (Cᵢ − Cₒ)",
+          "B. τₜ = τ² / (1 − ρ²)",
+          "C. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "D. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「CO₂必要換気量」の公式：Q = G / (Cᵢ − Cₒ)"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=CO₂必要換気量, relation=formula_text, value=Q = G / (Cᵢ − Cₒ))"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-17",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「表面結露判定」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "B. τₜ = τ² / (1 − ρ²)",
+          "C. θₛᵢ < θdp → 結露",
+          "D. q = ε₁₂σ(T₁⁴ − T₂⁴)"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「表面結露判定」の公式：θₛᵢ < θdp → 結露"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=表面結露判定, relation=formula_text, value=θₛᵢ < θdp → 結露)"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-18",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「熱損失係数（旧Q値）」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. Q旧 = (貫流熱損失 + 換気熱損失) / 床面積",
+          "B. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "C. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "D. τₜ = τ² / (1 − ρ²)"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「熱損失係数（旧Q値）」の公式：Q旧 = (貫流熱損失 + 換気熱損失) / 床面積"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=熱損失係数（旧Q値）, relation=formula_text, value=Q旧 = (貫流熱損失 + 換気熱損失) / 床面積)"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-19",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「COP・APF」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "B. q = ε₁₂σ(T₁⁴ − T₂⁴)",
+          "C. COP = 能力 / 消費電力",
+          "D. τₜ = τ² / (1 − ρ²)"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「COP・APF」の公式：COP = 能力 / 消費電力"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=COP・APF, relation=formula_text, value=COP = 能力 / 消費電力)"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-environment-20",
+      "subject": "environment",
+      "blueprintId": "quantity_to_formula",
+      "sourceFacts": [],
+      "question": {
+        "prompt": "「作用温度の近似」を表す式として、最も適切なものを一つ選びなさい。",
+        "options": [
+          "A. OT ≈ (θₐ + MRT)/2",
+          "B. αᵣ = εσ(T₁+T₂)(T₁²+T₂²)",
+          "C. τₜ = τ² / (1 − ρ²)",
+          "D. q = ε₁₂σ(T₁⁴ − T₂⁴)"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「作用温度の近似」の公式：OT ≈ (θₐ + MRT)/2"
+      },
+      "distractorRationale": {},
+      "validation": {
+        "issues": [
+          "NO_SOURCE_EVIDENCE"
+        ]
+      },
+      "traceability": {
+        "originalSource": "environment-knowledge.ts → FORMULA_CARDS",
+        "originalField": "formula",
+        "extractedFacts": [
+          "(entity=作用温度の近似, relation=formula_text, value=OT ≈ (θₐ + MRT)/2)"
+        ],
+        "blueprint": "quantity_to_formula",
+        "blueprintOccurrences": [],
+        "confidence": "high"
+      }
+    }
+  ]
+}

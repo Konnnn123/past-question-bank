@@ -1,0 +1,184 @@
+{
+  "history_2022_Q5": {
+    "templateId": "history_image_free_recall",
+    "year": 2022,
+    "subject": "history",
+    "tier": "1",
+    "decomposition": {
+      "stimulusType": "image_only_20_photographs",
+      "contextualFrame": "各図について問いに答えなさい",
+      "subquestionCount": 20,
+      "factsRequired": 20,
+      "clueTypes": [
+        "visual_identity",
+        "architectural_detail",
+        "style_marker"
+      ],
+      "relationBetweenClues": "independent_items",
+      "answerFormat": "free_recall_short_text",
+      "distractorStructure": "none_pure_recall",
+      "reasoningSteps": 1,
+      "domainKnowledge": [
+        "building_recognition",
+        "architect_attribution",
+        "style_taxonomy"
+      ],
+      "difficultyFactors": [
+        "image_ambiguity",
+        "building_rarity",
+        "detail_specificity"
+      ],
+      "expectedResponseLength": "1-10 chars per item",
+      "ambiguityControls": "none_explicit",
+      "scoringLogic": "exact_match_or_equivalent",
+      "visualDependency": "absolute",
+      "subquestionDependencies": "none_independent"
+    }
+  },
+  "history_2019_Q5_wordbank": {
+    "templateId": "history_image_wordbank_matching",
+    "year": 2019,
+    "subject": "history",
+    "tier": "1",
+    "decomposition": {
+      "stimulusType": "25_images_with_wordbanks_A_and_B",
+      "contextualFrame": "各図と関係あるキーワードをGroup A, Group Bより選びなさい",
+      "subquestionCount": 25,
+      "factsRequired": 50,
+      "clueTypes": [
+        "visual_identity",
+        "wordbank_terms"
+      ],
+      "relationBetweenClues": "each_image_matches_one_term_from_A_and_one_from_B",
+      "answerFormat": "number_pair_A_B",
+      "distractorStructure": "surplus_wordbank_30pct_same_domain",
+      "reasoningSteps": 2,
+      "domainKnowledge": [
+        "building_recognition",
+        "architect_attribution",
+        "style_terminology",
+        "concept_matching"
+      ],
+      "difficultyFactors": [
+        "image_ambiguity",
+        "cross_domain_bank",
+        "dual_matching"
+      ],
+      "expectedResponseLength": "number pairs",
+      "ambiguityControls": "each_term_used_at_most_once",
+      "scoringLogic": "exact_match",
+      "visualDependency": "absolute",
+      "subquestionDependencies": "shared_wordbank_depletes"
+    }
+  },
+  "construction_2022_Q3": {
+    "templateId": "construction_multi_blank_wordbank",
+    "year": 2022,
+    "subject": "construction",
+    "tier": "1",
+    "decomposition": {
+      "stimulusType": "20_independent_technical_sentences",
+      "contextualFrame": "材料や構法、施工法について書かれた文章",
+      "subquestionCount": 20,
+      "factsRequired": 20,
+      "clueTypes": [
+        "technical_context",
+        "domain_keywords",
+        "sentence_structure"
+      ],
+      "relationBetweenClues": "independent_blanks",
+      "answerFormat": "select_from_27term_wordbank",
+      "distractorStructure": "surplus_7_from_27_35pct_same_construction_domain",
+      "reasoningSteps": 2,
+      "domainKnowledge": [
+        "material_properties",
+        "construction_terminology",
+        "structural_systems",
+        "construction_process"
+      ],
+      "difficultyFactors": [
+        "similar_abbreviations",
+        "cross_subdomain_terms",
+        "technical_precision"
+      ],
+      "expectedResponseLength": "single_term_per_blank",
+      "ambiguityControls": "only_one_term_fits_technically",
+      "scoringLogic": "exact_term_match",
+      "visualDependency": "none",
+      "subquestionDependencies": "none_independent"
+    }
+  },
+  "environment_2022_Q2": {
+    "templateId": "environment_phenomenon_wordbank_plus_formula_completion",
+    "year": 2022,
+    "subject": "environment",
+    "tier": "1",
+    "decomposition": {
+      "stimulusType": "16_phenomenon_descriptions_plus_6_formulas",
+      "contextualFrame": "各説明に関連のある語を語群から選びなさい",
+      "subquestionCount": 22,
+      "factsRequired": 22,
+      "clueTypes": [
+        "everyday_phenomenon_description",
+        "physical_formula"
+      ],
+      "relationBetweenClues": "independent_items",
+      "answerFormat": "term_selection_plus_exponent",
+      "distractorStructure": "surplus_125pct_36_for_16_mixed_all_env_domains",
+      "reasoningSteps": 2,
+      "domainKnowledge": [
+        "physics_laws",
+        "environmental_phenomena",
+        "formula_structure"
+      ],
+      "difficultyFactors": [
+        "cross_domain_bank",
+        "similar_phenomena",
+        "formula_ambiguity"
+      ],
+      "expectedResponseLength": "term_plus_integer",
+      "ambiguityControls": "each_term_used_once",
+      "scoringLogic": "exact_match",
+      "visualDependency": "none",
+      "subquestionDependencies": "none_independent"
+    }
+  },
+  "planning_2022_Q4": {
+    "templateId": "planning_contextual_inline_numeric",
+    "year": 2022,
+    "subject": "planning",
+    "tier": "1",
+    "decomposition": {
+      "stimulusType": "20_contextualized_sentences_with_inline_options",
+      "contextualFrame": "最も適切な値をひとつ選びなさい",
+      "subquestionCount": 20,
+      "factsRequired": 20,
+      "clueTypes": [
+        "building_type",
+        "spatial_context",
+        "quantity_name",
+        "unit"
+      ],
+      "relationBetweenClues": "independent_items",
+      "answerFormat": "select_from_3_4_inline_values",
+      "distractorStructure": "same_unit_close_magnitude_common_misconceptions",
+      "reasoningSteps": 2,
+      "domainKnowledge": [
+        "planning_standards",
+        "building_typology",
+        "design_guidelines",
+        "historical_facts"
+      ],
+      "difficultyFactors": [
+        "close_values",
+        "context_specificity",
+        "calculation_required"
+      ],
+      "expectedResponseLength": "single_value",
+      "ambiguityControls": "exactly_one_standard_value",
+      "scoringLogic": "exact_value_match",
+      "visualDependency": "none",
+      "subquestionDependencies": "none_independent"
+    }
+  }
+}

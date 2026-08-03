@@ -1,0 +1,1709 @@
+{
+  "version": 2,
+  "description": "Confirmed direct term evidence plus evidence propagated through confirmed building-card links",
+  "cardEvidence": {
+    "type-jinaicho": [
+      {
+        "year": 2019,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2019_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "寺内町",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2024,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2024_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "寺内町",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2025,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2025_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "寺内町",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2026,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2026_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "寺内町",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      }
+    ],
+    "architect-andrea-palladio": [
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "パラーディオ",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2018,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2018_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "パラーディオ",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2019,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2019_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "パラーディオ",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      }
+    ],
+    "style-shinden": [
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "東三条殿",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "東三条殿",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2026,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2026_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "東三条殿",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      }
+    ],
+    "style-gothic": [
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "サン・ドニ修道院",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "ソールズベリ大聖堂",
+        "originalText": "能舞台、ソールズベリ大聖堂、スカイハウス、富貴大堂、長寿寺本堂、東京駅、鶴林寺本堂、メタボリズム、東山殿会所、サン・ドニ修道院付属教会、テンピエット、パリの地下鉄駅入口、筑波センタービル、東海道新幹線、母の家、法隆寺金堂、ソニービル、安田講堂、平等院鳳凰堂、同潤会アパート、帝国大学工科大学校舎、円覚寺舎利殿、鏤阿寺本堂、ヴィラ・ロトンダ、東三条殿",
+        "confidence": "confirmed",
+        "examTerm": "ソールズベリ大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "サン・ドニ修道院",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2020,
+        "category": "専門2-2",
+        "questionNumber": "4",
+        "fileName": "2020_専門2-2_建筑史_Q4.md",
+        "relation": "related",
+        "matchedAlias": "パリのノートル＝ダム大聖堂",
+        "originalText": "2019年 4月15日，パリのノートル＝ダム大聖堂の屋根で火災が発生した",
+        "confidence": "confirmed",
+        "examTerm": "パリのナートル＝ダム大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2024,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2024_専門2-2_建筑史_Q3.md",
+        "relation": "direct",
+        "examTerm": "ランス大聖堂",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2026,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2026_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "ケルン大聖堂",
+        "originalText": "B. ケルン大聖堂（ドイツ、ケルン）",
+        "confidence": "confirmed",
+        "examTerm": "ケルン大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "type-minka": [
+      {
+        "year": 2019,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2019_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "吉島家住宅",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2024,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2024_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "箱木家住宅",
+        "originalText": "① 長寿寺本堂 ② 北野天満宮 ③ 箱木家住宅 ④ 今西家住宅 ⑤ 飛鳥寺 ⑥ 法隆寺 ⑦ 築地本願寺 ⑧ 三渓園臨春閣 ⑨ 妙喜庵待庵 ⑩ 松本城 ⑪ 姫路城 ⑫ ヴィラ・ロトンダ ⑬ サン・マルコ大聖堂 ⑭ クリュニー修道院 ⑮ サンスーシ宮殿 ⑯ ソビエトパレス ⑰ アミアン大聖堂 ⑱ サンタ・マリア・デル・フィオーレ大聖堂 ⑲ パンテオン ⑳ 300 万人のための現代都市 ㉑ ルサコフ労働者クラブ ㉒ ドイツ表現主義 ㉓ グラバー邸 ㉔ 土浦亀城 ㉕ 出島 ㉖ ミレトス ㉗ アンコール・ワット ㉘ ボロブドゥール ㉙ エスファハーン ㉚ 近隣住区",
+        "confidence": "confirmed",
+        "examTerm": "箱木家住宅",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2026,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2026_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "吉島家住宅",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      }
+    ],
+    "architect-adolf-loos": [
+      {
+        "year": 2026,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2026_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "アドルフ・ロース",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      }
+    ],
+    "movement-constructivism": [
+      {
+        "year": 2026,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2026_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "アントニオ・サンテリア",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      }
+    ],
+    "style-byzantine": [
+      {
+        "year": 2013,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2013_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "ハギア・ソフィア",
+        "originalText": "5. ギリシア芸術模倣論（Thoughts on the Imitation of Greek Works in Painting and Sculpture）、6. 曼殊院、7. マジョリカ・ハウス（Majolica House）、8. 宇治上神社本殿、9. ファグス靴工場（Fagus Factory）、10. 丸善書店、11. パンテオン（サント＝ジュヌヴィエーヴ聖堂）（Panthéon, Ste-Genevieve Church）、12. 如庵、13. 建築の4要素（Four Elements of Architecture）、14. 不動院金堂、15. 建築の5つのオーダーの規則（Ca",
+        "confidence": "confirmed",
+        "examTerm": "ハギア ソフィア大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "シナン",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2018,
+        "category": "専門2-2",
+        "questionNumber": "4",
+        "fileName": "2018_専門2-2_建筑史_Q4.md",
+        "relation": "related",
+        "matchedAlias": "ハギア・ソフィア",
+        "originalText": "1. ハギア・ソフィア（イスタンブル）",
+        "confidence": "confirmed",
+        "examTerm": "ハギア ソフィア大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2025,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2025_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "ハギア・ソフィア",
+        "originalText": "A. ハギア・ソフィア（トルコ、イスタンブール）",
+        "confidence": "confirmed",
+        "examTerm": "ハギア ソフィア大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-carolingian": [
+      {
+        "year": 2013,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2013_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "シャルルマーニュ",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      }
+    ],
+    "style-neoclassical": [
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "シンケル",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "アルテス・ムゼウム",
+        "originalText": "⑨ アルテス・ムゼウム",
+        "confidence": "confirmed",
+        "examTerm": "アルテス・ムゼウム",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2018,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2018_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "大英博物館",
+        "originalText": "（i）田園都市，（ii）鉄筋コンクリート，（iii）ポスト・モダニズム，（iv）300万人の現代都市，（v）サンタ・マリア・デル・フィオーレ，（vi）フランス王立図書館，（vii）サント＝ジュヌヴィエーヴ図書館，（viii）パノプティコン，（ix）ル・ランシーのノートル＝ダム聖堂，（x）ザンクト・ミヒャエル聖堂， （xi）分離派建築会，（xii）東大寺南大門，（xiii）二条城二の丸御殿，（xiv）室生寺金堂，（xv）伊勢神宮，（xvi）長弓寺本堂，（xvii）如庵，（xviii）宇佐神宮本殿，（xix）円覚寺舎利殿，（xx）賀茂別雷神社，（xxi）大英博物館，（xxii）サンタ・コスタンツァ",
+        "confidence": "confirmed",
+        "examTerm": "大英博物館",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2019,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2019_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "大英博物館",
+        "originalText": "16 大英博物館",
+        "confidence": "confirmed",
+        "examTerm": "大英博物館",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "movement-arts-crafts": [
+      {
+        "year": 2013,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2013_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "ジョン・ラスキン",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      }
+    ],
+    "movement-modernism": [
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "同潤会アパート",
+        "originalText": "能舞台、ソールズベリ大聖堂、スカイハウス、富貴大堂、長寿寺本堂、東京駅、鶴林寺本堂、メタボリズム、東山殿会所、サン・ドニ修道院付属教会、テンピエット、パリの地下鉄駅入口、筑波センタービル、東海道新幹線、母の家、法隆寺金堂、ソニービル、安田講堂、平等院鳳凰堂、同潤会アパート、帝国大学工科大学校舎、円覚寺舎利殿、鏤阿寺本堂、ヴィラ・ロトンダ、東三条殿",
+        "confidence": "confirmed",
+        "examTerm": "同潤会アパート",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2015,
+        "category": "専門1",
+        "questionNumber": "3",
+        "fileName": "2015_専門1_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "リチャーズ医学研究所",
+        "originalText": "3. ペンシルベニア大学リチャーズ医学研究所",
+        "confidence": "confirmed",
+        "examTerm": "リチャーズ医学研究所",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "リチャーズ研究所",
+        "originalText": "② リチャーズ研究所",
+        "confidence": "confirmed",
+        "examTerm": "リチャーズ医学研究所",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2018,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2018_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "ル・ランシーのノートル＝ダム聖堂",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2018,
+        "category": "専門2-2",
+        "questionNumber": "4",
+        "fileName": "2018_専門2-2_建筑史_Q4.md",
+        "relation": "related",
+        "matchedAlias": "ユニテ・ダビタシオン",
+        "originalText": "5. ユニテ・ダビタシオン（マルセイユ）",
+        "confidence": "confirmed",
+        "examTerm": "マルセイユのユニテ・ダビタシオン",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2020,
+        "category": "専門2-2",
+        "questionNumber": "5",
+        "fileName": "2020_専門2-2_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "近代建築の5原則",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2024,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2024_専門2-2_建筑史_Q3.md",
+        "relation": "direct",
+        "examTerm": "東京カテドラル聖マリア大聖堂",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2024,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2024_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "東京カテドラル聖マリア大聖堂",
+        "originalText": "E. 東京カテドラル聖マリア大聖堂（東京）",
+        "confidence": "confirmed",
+        "examTerm": "東京カテドラルマリア大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2025,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2025_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "トウーゲントハット邸",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2025,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2025_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "神奈川県立近代美術館",
+        "originalText": "C 旧神奈川県立近代美術館",
+        "confidence": "confirmed",
+        "examTerm": "神奈川県立近代美術館",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2025,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2025_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "サヴォア邸",
+        "originalText": "E. サヴォア邸（フランス、ポワッシー）",
+        "confidence": "confirmed",
+        "examTerm": "サヴォア邸",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-expressionism": [
+      {
+        "year": 2015,
+        "category": "専門1",
+        "questionNumber": "3",
+        "fileName": "2015_専門1_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "アインシュタイン塔",
+        "originalText": "2. アインシュタイン塔",
+        "confidence": "confirmed",
+        "examTerm": "アインシュタイン塔",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "ヨン・ウッツオン",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2019,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2019_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "東京中央電信局",
+        "originalText": "15 東京中央電信局",
+        "confidence": "confirmed",
+        "examTerm": "東京中央電信局",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-roman": [
+      {
+        "year": 2014,
+        "category": "専門2-2",
+        "questionNumber": "11",
+        "fileName": "2014_専門2-2_建筑史_Q11.md",
+        "relation": "direct",
+        "examTerm": "ローマン・コンクリート",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2026,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2026_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "パンテオン",
+        "originalText": "A. パンテオン（イタリア、ローマ）",
+        "confidence": "confirmed",
+        "examTerm": "パンテオン",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-shinmei": [
+      {
+        "year": 2018,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2018_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "伊勢神宮",
+        "originalText": "（i）田園都市，（ii）鉄筋コンクリート，（iii）ポスト・モダニズム，（iv）300万人の現代都市，（v）サンタ・マリア・デル・フィオーレ，（vi）フランス王立図書館，（vii）サント＝ジュヌヴィエーヴ図書館，（viii）パノプティコン，（ix）ル・ランシーのノートル＝ダム聖堂，（x）ザンクト・ミヒャエル聖堂， （xi）分離派建築会，（xii）東大寺南大門，（xiii）二条城二の丸御殿，（xiv）室生寺金堂，（xv）伊勢神宮，（xvi）長弓寺本堂，（xvii）如庵，（xviii）宇佐神宮本殿，（xix）円覚寺舎利殿，（xx）賀茂別雷神社，（xxi）大英博物館，（xxii）サンタ・コスタンツァ",
+        "confidence": "confirmed",
+        "examTerm": "伊勢神宮",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2025,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2025_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "伊勢神宮",
+        "originalText": "f. 姬路城 g. 彦根城 h. 犬山城 i. 住吉大社 j. 宇治上神社 k. 伊勢神宮",
+        "confidence": "confirmed",
+        "examTerm": "伊勢神宮",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2026,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2026_専門2-2_建筑史_Q3.md",
+        "relation": "direct",
+        "examTerm": "伊勢神宮内宮正殿",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2026,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2026_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "伊勢神宮",
+        "originalText": "C. 伊勢神宮内宮正殿（三重）",
+        "confidence": "confirmed",
+        "examTerm": "伊勢神宮",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-shoin": [
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "東山殿東求堂",
+        "originalText": "③ 東山殿東求堂",
+        "confidence": "confirmed",
+        "examTerm": "慈照寺東求堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2017,
+        "category": "専門1",
+        "questionNumber": "2",
+        "fileName": "2017_専門1_建筑史_Q2.md",
+        "relation": "direct",
+        "examTerm": "園城寺客殿",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2018,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2018_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "二条城二の丸御殿",
+        "originalText": "（i）田園都市，（ii）鉄筋コンクリート，（iii）ポスト・モダニズム，（iv）300万人の現代都市，（v）サンタ・マリア・デル・フィオーレ，（vi）フランス王立図書館，（vii）サント＝ジュヌヴィエーヴ図書館，（viii）パノプティコン，（ix）ル・ランシーのノートル＝ダム聖堂，（x）ザンクト・ミヒャエル聖堂， （xi）分離派建築会，（xii）東大寺南大門，（xiii）二条城二の丸御殿，（xiv）室生寺金堂，（xv）伊勢神宮，（xvi）長弓寺本堂，（xvii）如庵，（xviii）宇佐神宮本殿，（xix）円覚寺舎利殿，（xx）賀茂別雷神社，（xxi）大英博物館，（xxii）サンタ・コスタンツァ",
+        "confidence": "confirmed",
+        "examTerm": "二条城二の丸御殿",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2018,
+        "category": "専門2-2",
+        "questionNumber": "4",
+        "fileName": "2018_専門2-2_建筑史_Q4.md",
+        "relation": "related",
+        "matchedAlias": "慈照寺東求堂（同仁斎）",
+        "originalText": "4. 慈照寺東求堂（同仁斎）（京都）",
+        "confidence": "confirmed",
+        "examTerm": "慈照寺東求堂",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "movement-metabolism": [
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "田中角栄",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "スカイハウス",
+        "originalText": "能舞台、ソールズベリ大聖堂、スカイハウス、富貴大堂、長寿寺本堂、東京駅、鶴林寺本堂、メタボリズム、東山殿会所、サン・ドニ修道院付属教会、テンピエット、パリの地下鉄駅入口、筑波センタービル、東海道新幹線、母の家、法隆寺金堂、ソニービル、安田講堂、平等院鳳凰堂、同潤会アパート、帝国大学工科大学校舎、円覚寺舎利殿、鏤阿寺本堂、ヴィラ・ロトンダ、東三条殿",
+        "confidence": "confirmed",
+        "examTerm": "スカイハウス",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2022,
+        "category": "専門2-2",
+        "questionNumber": "1",
+        "fileName": "2022_専門2-2_建筑史_Q1.md",
+        "relation": "direct",
+        "examTerm": "山梨文化会館",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2026,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2026_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "中銀カプセルタワービル",
+        "originalText": "E. 中銀カプセルタワービル（東京）",
+        "confidence": "confirmed",
+        "examTerm": "中銀カプセルタワー",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-zenshuyo": [
+      {
+        "year": 2013,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2013_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "不動院金堂",
+        "originalText": "5. ギリシア芸術模倣論（Thoughts on the Imitation of Greek Works in Painting and Sculpture）、6. 曼殊院、7. マジョリカ・ハウス（Majolica House）、8. 宇治上神社本殿、9. ファグス靴工場（Fagus Factory）、10. 丸善書店、11. パンテオン（サント＝ジュヌヴィエーヴ聖堂）（Panthéon, Ste-Genevieve Church）、12. 如庵、13. 建築の4要素（Four Elements of Architecture）、14. 不動院金堂、15. 建築の5つのオーダーの規則（Ca",
+        "confidence": "confirmed",
+        "examTerm": "不動院金堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "円覚寺舎利殿",
+        "originalText": "能舞台、ソールズベリ大聖堂、スカイハウス、富貴大堂、長寿寺本堂、東京駅、鶴林寺本堂、メタボリズム、東山殿会所、サン・ドニ修道院付属教会、テンピエット、パリの地下鉄駅入口、筑波センタービル、東海道新幹線、母の家、法隆寺金堂、ソニービル、安田講堂、平等院鳳凰堂、同潤会アパート、帝国大学工科大学校舎、円覚寺舎利殿、鏤阿寺本堂、ヴィラ・ロトンダ、東三条殿",
+        "confidence": "confirmed",
+        "examTerm": "円覚寺舎利殿",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "栄西",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2018,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2018_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "円覚寺舎利殿",
+        "originalText": "（i）田園都市，（ii）鉄筋コンクリート，（iii）ポスト・モダニズム，（iv）300万人の現代都市，（v）サンタ・マリア・デル・フィオーレ，（vi）フランス王立図書館，（vii）サント＝ジュヌヴィエーヴ図書館，（viii）パノプティコン，（ix）ル・ランシーのノートル＝ダム聖堂，（x）ザンクト・ミヒャエル聖堂， （xi）分離派建築会，（xii）東大寺南大門，（xiii）二条城二の丸御殿，（xiv）室生寺金堂，（xv）伊勢神宮，（xvi）長弓寺本堂，（xvii）如庵，（xviii）宇佐神宮本殿，（xix）円覚寺舎利殿，（xx）賀茂別雷神社，（xxi）大英博物館，（xxii）サンタ・コスタンツァ",
+        "confidence": "confirmed",
+        "examTerm": "円覚寺舎利殿",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2019,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2019_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "円覚寺仏殿",
+        "originalText": "18 円覚寺仏殿",
+        "confidence": "confirmed",
+        "examTerm": "円覚寺仏殿",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2024,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2024_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "円覚寺舎利殿",
+        "originalText": "D. 円覚寺舎利殿（神奈川）",
+        "confidence": "confirmed",
+        "examTerm": "円覚寺舎利殿",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2026,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2026_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "円覚寺仏殿",
+        "originalText": "n. 城下町 o. 円覚寺仏殿 p. 根来寺 q. 延暦寺 r. 當麻寺曼荼羅堂 s. 東大寺",
+        "confidence": "confirmed",
+        "examTerm": "円覚寺仏殿",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-wayo": [
+      {
+        "year": 2013,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2013_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "大報恩寺本堂",
+        "originalText": "5. ギリシア芸術模倣論（Thoughts on the Imitation of Greek Works in Painting and Sculpture）、6. 曼殊院、7. マジョリカ・ハウス（Majolica House）、8. 宇治上神社本殿、9. ファグス靴工場（Fagus Factory）、10. 丸善書店、11. パンテオン（サント＝ジュヌヴィエーヴ聖堂）（Panthéon, Ste-Genevieve Church）、12. 如庵、13. 建築の4要素（Four Elements of Architecture）、14. 不動院金堂、15. 建築の5つのオーダーの規則（Ca",
+        "confidence": "confirmed",
+        "examTerm": "大報恩寺本堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2013,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2013_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "室生寺金堂",
+        "originalText": "5. ギリシア芸術模倣論（Thoughts on the Imitation of Greek Works in Painting and Sculpture）、6. 曼殊院、7. マジョリカ・ハウス（Majolica House）、8. 宇治上神社本殿、9. ファグス靴工場（Fagus Factory）、10. 丸善書店、11. パンテオン（サント＝ジュヌヴィエーヴ聖堂）（Panthéon, Ste-Genevieve Church）、12. 如庵、13. 建築の4要素（Four Elements of Architecture）、14. 不動院金堂、15. 建築の5つのオーダーの規則（Ca",
+        "confidence": "confirmed",
+        "examTerm": "室生寺金堂&五重塔",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "長寿寺本堂",
+        "originalText": "能舞台、ソールズベリ大聖堂、スカイハウス、富貴大堂、長寿寺本堂、東京駅、鶴林寺本堂、メタボリズム、東山殿会所、サン・ドニ修道院付属教会、テンピエット、パリの地下鉄駅入口、筑波センタービル、東海道新幹線、母の家、法隆寺金堂、ソニービル、安田講堂、平等院鳳凰堂、同潤会アパート、帝国大学工科大学校舎、円覚寺舎利殿、鏤阿寺本堂、ヴィラ・ロトンダ、東三条殿",
+        "confidence": "confirmed",
+        "examTerm": "長寿寺本堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "平等院鳳凰堂",
+        "originalText": "能舞台、ソールズベリ大聖堂、スカイハウス、富貴大堂、長寿寺本堂、東京駅、鶴林寺本堂、メタボリズム、東山殿会所、サン・ドニ修道院付属教会、テンピエット、パリの地下鉄駅入口、筑波センタービル、東海道新幹線、母の家、法隆寺金堂、ソニービル、安田講堂、平等院鳳凰堂、同潤会アパート、帝国大学工科大学校舎、円覚寺舎利殿、鏤阿寺本堂、ヴィラ・ロトンダ、東三条殿",
+        "confidence": "confirmed",
+        "examTerm": "平等院凤凰堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "法隆寺金堂",
+        "originalText": "能舞台、ソールズベリ大聖堂、スカイハウス、富貴大堂、長寿寺本堂、東京駅、鶴林寺本堂、メタボリズム、東山殿会所、サン・ドニ修道院付属教会、テンピエット、パリの地下鉄駅入口、筑波センタービル、東海道新幹線、母の家、法隆寺金堂、ソニービル、安田講堂、平等院鳳凰堂、同潤会アパート、帝国大学工科大学校舎、円覚寺舎利殿、鏤阿寺本堂、ヴィラ・ロトンダ、東三条殿",
+        "confidence": "confirmed",
+        "examTerm": "法隆寺金堂&五重塔",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "空海",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2018,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2018_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "長弓寺本堂",
+        "originalText": "（i）田園都市，（ii）鉄筋コンクリート，（iii）ポスト・モダニズム，（iv）300万人の現代都市，（v）サンタ・マリア・デル・フィオーレ，（vi）フランス王立図書館，（vii）サント＝ジュヌヴィエーヴ図書館，（viii）パノプティコン，（ix）ル・ランシーのノートル＝ダム聖堂，（x）ザンクト・ミヒャエル聖堂， （xi）分離派建築会，（xii）東大寺南大門，（xiii）二条城二の丸御殿，（xiv）室生寺金堂，（xv）伊勢神宮，（xvi）長弓寺本堂，（xvii）如庵，（xviii）宇佐神宮本殿，（xix）円覚寺舎利殿，（xx）賀茂別雷神社，（xxi）大英博物館，（xxii）サンタ・コスタンツァ",
+        "confidence": "confirmed",
+        "examTerm": "長弓寺本堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2018,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2018_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "室生寺金堂",
+        "originalText": "（i）田園都市，（ii）鉄筋コンクリート，（iii）ポスト・モダニズム，（iv）300万人の現代都市，（v）サンタ・マリア・デル・フィオーレ，（vi）フランス王立図書館，（vii）サント＝ジュヌヴィエーヴ図書館，（viii）パノプティコン，（ix）ル・ランシーのノートル＝ダム聖堂，（x）ザンクト・ミヒャエル聖堂， （xi）分離派建築会，（xii）東大寺南大門，（xiii）二条城二の丸御殿，（xiv）室生寺金堂，（xv）伊勢神宮，（xvi）長弓寺本堂，（xvii）如庵，（xviii）宇佐神宮本殿，（xix）円覚寺舎利殿，（xx）賀茂別雷神社，（xxi）大英博物館，（xxii）サンタ・コスタンツァ",
+        "confidence": "confirmed",
+        "examTerm": "室生寺金堂&五重塔",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2019,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2019_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "長弓寺本堂",
+        "originalText": "19 長弓寺本堂",
+        "confidence": "confirmed",
+        "examTerm": "長弓寺本堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2020,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2020_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "平等院鳳凰堂",
+        "originalText": "⑮カサ・ミラ ⑯平等院鳳凰堂 ⑰トニー・ガルニエ",
+        "confidence": "confirmed",
+        "examTerm": "平等院凤凰堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2024,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2024_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "長寿寺本堂",
+        "originalText": "① 長寿寺本堂 ② 北野天満宮 ③ 箱木家住宅 ④ 今西家住宅 ⑤ 飛鳥寺 ⑥ 法隆寺 ⑦ 築地本願寺 ⑧ 三渓園臨春閣 ⑨ 妙喜庵待庵 ⑩ 松本城 ⑪ 姫路城 ⑫ ヴィラ・ロトンダ ⑬ サン・マルコ大聖堂 ⑭ クリュニー修道院 ⑮ サンスーシ宮殿 ⑯ ソビエトパレス ⑰ アミアン大聖堂 ⑱ サンタ・マリア・デル・フィオーレ大聖堂 ⑲ パンテオン ⑳ 300 万人のための現代都市 ㉑ ルサコフ労働者クラブ ㉒ ドイツ表現主義 ㉓ グラバー邸 ㉔ 土浦亀城 ㉕ 出島 ㉖ ミレトス ㉗ アンコール・ワット ㉘ ボロブドゥール ㉙ エスファハーン ㉚ 近隣住区",
+        "confidence": "confirmed",
+        "examTerm": "長寿寺本堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2025,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2025_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "長弓寺本堂",
+        "originalText": "a. 長弓寺本堂 b. 當麻寺本堂 c. 建長寺仏殿 d. 明王院本堂 e. 净土寺浄土堂",
+        "confidence": "confirmed",
+        "examTerm": "長弓寺本堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2025,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2025_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "法隆寺五重塔",
+        "originalText": "D. 法隆寺五重塔（奈良）",
+        "confidence": "confirmed",
+        "examTerm": "法隆寺金堂&五重塔",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "architect-koji-fujii": [
+      {
+        "year": 2013,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2013_専門1_建筑史_Q5.md",
+        "relation": "direct",
+        "examTerm": "藤井厚二",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      }
+    ],
+    "style-industrial-iron-glass": [
+      {
+        "year": 2014,
+        "category": "専門2-2",
+        "questionNumber": "11",
+        "fileName": "2014_専門2-2_建筑史_Q11.md",
+        "relation": "direct",
+        "examTerm": "鉄とレンガの混構造",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      }
+    ],
+    "style-historicism": [
+      {
+        "year": 2015,
+        "category": "専門1",
+        "questionNumber": "7",
+        "fileName": "2015_専門1_建筑史_Q7.md",
+        "relation": "direct",
+        "examTerm": "保存修復",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2015,
+        "category": "専門1",
+        "questionNumber": "8",
+        "fileName": "2015_専門1_建筑史_Q8.md",
+        "relation": "direct",
+        "examTerm": "保存修復",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      },
+      {
+        "year": 2016,
+        "category": "専門2-2",
+        "questionNumber": "10",
+        "fileName": "2016_専門2-2_建筑史_Q10.md",
+        "relation": "direct",
+        "examTerm": "建築保存",
+        "confidence": "confirmed",
+        "evidenceBasis": "direct-term-curation"
+      }
+    ],
+    "style-renaissance": [
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "テンピエット",
+        "originalText": "能舞台、ソールズベリ大聖堂、スカイハウス、富貴大堂、長寿寺本堂、東京駅、鶴林寺本堂、メタボリズム、東山殿会所、サン・ドニ修道院付属教会、テンピエット、パリの地下鉄駅入口、筑波センタービル、東海道新幹線、母の家、法隆寺金堂、ソニービル、安田講堂、平等院鳳凰堂、同潤会アパート、帝国大学工科大学校舎、円覚寺舎利殿、鏤阿寺本堂、ヴィラ・ロトンダ、東三条殿",
+        "confidence": "confirmed",
+        "examTerm": "テンピエット",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "フィレンツェ大聖堂",
+        "originalText": "⑧ フィレンツェ大聖堂",
+        "confidence": "confirmed",
+        "examTerm": "サンタ·マリア·デル·フィオー レ大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2020,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2020_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "サンタ・マリア・デル・フィオーレ大聖堂",
+        "originalText": "⑳サンタ・マリア・デル・フィオーレ大聖堂",
+        "confidence": "confirmed",
+        "examTerm": "サンタ·マリア·デル·フィオー レ大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2024,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2024_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "サンタ・マリア・デル・フィオーレ大聖堂",
+        "originalText": "① 長寿寺本堂 ② 北野天満宮 ③ 箱木家住宅 ④ 今西家住宅 ⑤ 飛鳥寺 ⑥ 法隆寺 ⑦ 築地本願寺 ⑧ 三渓園臨春閣 ⑨ 妙喜庵待庵 ⑩ 松本城 ⑪ 姫路城 ⑫ ヴィラ・ロトンダ ⑬ サン・マルコ大聖堂 ⑭ クリュニー修道院 ⑮ サンスーシ宮殿 ⑯ ソビエトパレス ⑰ アミアン大聖堂 ⑱ サンタ・マリア・デル・フィオーレ大聖堂 ⑲ パンテオン ⑳ 300 万人のための現代都市 ㉑ ルサコフ労働者クラブ ㉒ ドイツ表現主義 ㉓ グラバー邸 ㉔ 土浦亀城 ㉕ 出島 ㉖ ミレトス ㉗ アンコール・ワット ㉘ ボロブドゥール ㉙ エスファハーン ㉚ 近隣住区",
+        "confidence": "confirmed",
+        "examTerm": "サンタ·マリア·デル·フィオー レ大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2025,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2025_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "テンピエット",
+        "originalText": "1. ジョン・ソーン 2. サン・ドニ 3. テンピエット 4. パンテオン 5. 図書館",
+        "confidence": "confirmed",
+        "examTerm": "テンピエット",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2025,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2025_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "テンピエット",
+        "originalText": "B. テンピエット（イタリア、ローマ）",
+        "confidence": "confirmed",
+        "examTerm": "テンピエット",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "architect-filippo-brunelleschi": [
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "フィレンツェ大聖堂",
+        "originalText": "⑧ フィレンツェ大聖堂",
+        "confidence": "confirmed",
+        "examTerm": "サンタ·マリア·デル·フィオー レ大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2020,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2020_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "サンタ・マリア・デル・フィオーレ大聖堂",
+        "originalText": "⑳サンタ・マリア・デル・フィオーレ大聖堂",
+        "confidence": "confirmed",
+        "examTerm": "サンタ·マリア·デル·フィオー レ大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2024,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2024_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "サンタ・マリア・デル・フィオーレ大聖堂",
+        "originalText": "① 長寿寺本堂 ② 北野天満宮 ③ 箱木家住宅 ④ 今西家住宅 ⑤ 飛鳥寺 ⑥ 法隆寺 ⑦ 築地本願寺 ⑧ 三渓園臨春閣 ⑨ 妙喜庵待庵 ⑩ 松本城 ⑪ 姫路城 ⑫ ヴィラ・ロトンダ ⑬ サン・マルコ大聖堂 ⑭ クリュニー修道院 ⑮ サンスーシ宮殿 ⑯ ソビエトパレス ⑰ アミアン大聖堂 ⑱ サンタ・マリア・デル・フィオーレ大聖堂 ⑲ パンテオン ⑳ 300 万人のための現代都市 ㉑ ルサコフ労働者クラブ ㉒ ドイツ表現主義 ㉓ グラバー邸 ㉔ 土浦亀城 ㉕ 出島 ㉖ ミレトス ㉗ アンコール・ワット ㉘ ボロブドゥール ㉙ エスファハーン ㉚ 近隣住区",
+        "confidence": "confirmed",
+        "examTerm": "サンタ·マリア·デル·フィオー レ大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-early-christian": [
+      {
+        "year": 2018,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2018_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "サンタ・コスタンツァ",
+        "originalText": "（i）田園都市，（ii）鉄筋コンクリート，（iii）ポスト・モダニズム，（iv）300万人の現代都市，（v）サンタ・マリア・デル・フィオーレ，（vi）フランス王立図書館，（vii）サント＝ジュヌヴィエーヴ図書館，（viii）パノプティコン，（ix）ル・ランシーのノートル＝ダム聖堂，（x）ザンクト・ミヒャエル聖堂， （xi）分離派建築会，（xii）東大寺南大門，（xiii）二条城二の丸御殿，（xiv）室生寺金堂，（xv）伊勢神宮，（xvi）長弓寺本堂，（xvii）如庵，（xviii）宇佐神宮本殿，（xix）円覚寺舎利殿，（xx）賀茂別雷神社，（xxi）大英博物館，（xxii）サンタ・コスタンツァ",
+        "confidence": "confirmed",
+        "examTerm": "サンタ コスタンツァ廟堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2019,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2019_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "サンタ・コスタンツァ",
+        "originalText": "3サンタ・コスタンツァ",
+        "confidence": "confirmed",
+        "examTerm": "サンタ コスタンツァ廟堂",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2024,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2024_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "サンタ・コスタンツァ",
+        "originalText": "A. サンタ・コスタンツァ（イタリア、ローマ）",
+        "confidence": "confirmed",
+        "examTerm": "サンタ コスタンツァ廟堂",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-gongen": [
+      {
+        "year": 2024,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2024_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "北野天満宮",
+        "originalText": "① 長寿寺本堂 ② 北野天満宮 ③ 箱木家住宅 ④ 今西家住宅 ⑤ 飛鳥寺 ⑥ 法隆寺 ⑦ 築地本願寺 ⑧ 三渓園臨春閣 ⑨ 妙喜庵待庵 ⑩ 松本城 ⑪ 姫路城 ⑫ ヴィラ・ロトンダ ⑬ サン・マルコ大聖堂 ⑭ クリュニー修道院 ⑮ サンスーシ宮殿 ⑯ ソビエトパレス ⑰ アミアン大聖堂 ⑱ サンタ・マリア・デル・フィオーレ大聖堂 ⑲ パンテオン ⑳ 300 万人のための現代都市 ㉑ ルサコフ労働者クラブ ㉒ ドイツ表現主義 ㉓ グラバー邸 ㉔ 土浦亀城 ㉕ 出島 ㉖ ミレトス ㉗ アンコール・ワット ㉘ ボロブドゥール ㉙ エスファハーン ㉚ 近隣住区",
+        "confidence": "confirmed",
+        "examTerm": "北野天満宮",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-obaku": [
+      {
+        "year": 2020,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2020_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "萬福寺大雄宝殿",
+        "originalText": "⑤萬福寺大雄宝殿 ⑥富岡製糸場 ⑦出雲大社",
+        "confidence": "confirmed",
+        "examTerm": "萬福寺大雄宝殿",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-sukiya": [
+      {
+        "year": 2024,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2024_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "妙喜庵待庵",
+        "originalText": "① 長寿寺本堂 ② 北野天満宮 ③ 箱木家住宅 ④ 今西家住宅 ⑤ 飛鳥寺 ⑥ 法隆寺 ⑦ 築地本願寺 ⑧ 三渓園臨春閣 ⑨ 妙喜庵待庵 ⑩ 松本城 ⑪ 姫路城 ⑫ ヴィラ・ロトンダ ⑬ サン・マルコ大聖堂 ⑭ クリュニー修道院 ⑮ サンスーシ宮殿 ⑯ ソビエトパレス ⑰ アミアン大聖堂 ⑱ サンタ・マリア・デル・フィオーレ大聖堂 ⑲ パンテオン ⑳ 300 万人のための現代都市 ㉑ ルサコフ労働者クラブ ㉒ ドイツ表現主義 ㉓ グラバー邸 ㉔ 土浦亀城 ㉕ 出島 ㉖ ミレトス ㉗ アンコール・ワット ㉘ ボロブドゥール ㉙ エスファハーン ㉚ 近隣住区",
+        "confidence": "confirmed",
+        "examTerm": "妙喜庵待庵",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-setchuyo": [
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "鶴林寺本堂",
+        "originalText": "能舞台、ソールズベリ大聖堂、スカイハウス、富貴大堂、長寿寺本堂、東京駅、鶴林寺本堂、メタボリズム、東山殿会所、サン・ドニ修道院付属教会、テンピエット、パリの地下鉄駅入口、筑波センタービル、東海道新幹線、母の家、法隆寺金堂、ソニービル、安田講堂、平等院鳳凰堂、同潤会アパート、帝国大学工科大学校舎、円覚寺舎利殿、鏤阿寺本堂、ヴィラ・ロトンダ、東三条殿",
+        "confidence": "confirmed",
+        "examTerm": "鶴林寺本堂",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-daibutsuyo": [
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "東大寺鐘楼",
+        "originalText": "⑦ 東大寺鐘楼",
+        "confidence": "confirmed",
+        "examTerm": "東大寺南大門&鐘楼",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2018,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2018_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "東大寺南大門",
+        "originalText": "（i）田園都市，（ii）鉄筋コンクリート，（iii）ポスト・モダニズム，（iv）300万人の現代都市，（v）サンタ・マリア・デル・フィオーレ，（vi）フランス王立図書館，（vii）サント＝ジュヌヴィエーヴ図書館，（viii）パノプティコン，（ix）ル・ランシーのノートル＝ダム聖堂，（x）ザンクト・ミヒャエル聖堂， （xi）分離派建築会，（xii）東大寺南大門，（xiii）二条城二の丸御殿，（xiv）室生寺金堂，（xv）伊勢神宮，（xvi）長弓寺本堂，（xvii）如庵，（xviii）宇佐神宮本殿，（xix）円覚寺舎利殿，（xx）賀茂別雷神社，（xxi）大英博物館，（xxii）サンタ・コスタンツァ",
+        "confidence": "confirmed",
+        "examTerm": "東大寺南大門&鐘楼",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2020,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2020_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "浄土寺浄土堂",
+        "originalText": "⑪御土居 ⑫今井町 ⑬アヤ・ソフィア ⑭浄土寺浄土堂",
+        "confidence": "confirmed",
+        "examTerm": "浄土寺浄土堂",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-asuka": [
+      {
+        "year": 2020,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2020_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "平城宮朱雀門",
+        "originalText": "⑧築地ホテル館 ⑨シャルトル大聖堂 ⑩平城宮朱雀門",
+        "confidence": "confirmed",
+        "examTerm": "平城宮朱雀門",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-nagare": [
+      {
+        "year": 2013,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2013_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "宇治上神社本殿",
+        "originalText": "5. ギリシア芸術模倣論（Thoughts on the Imitation of Greek Works in Painting and Sculpture）、6. 曼殊院、7. マジョリカ・ハウス（Majolica House）、8. 宇治上神社本殿、9. ファグス靴工場（Fagus Factory）、10. 丸善書店、11. パンテオン（サント＝ジュヌヴィエーヴ聖堂）（Panthéon, Ste-Genevieve Church）、12. 如庵、13. 建築の4要素（Four Elements of Architecture）、14. 不動院金堂、15. 建築の5つのオーダーの規則（Ca",
+        "confidence": "confirmed",
+        "examTerm": "宇治上神社本殿",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2018,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2018_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "賀茂別雷神社",
+        "originalText": "（i）田園都市，（ii）鉄筋コンクリート，（iii）ポスト・モダニズム，（iv）300万人の現代都市，（v）サンタ・マリア・デル・フィオーレ，（vi）フランス王立図書館，（vii）サント＝ジュヌヴィエーヴ図書館，（viii）パノプティコン，（ix）ル・ランシーのノートル＝ダム聖堂，（x）ザンクト・ミヒャエル聖堂， （xi）分離派建築会，（xii）東大寺南大門，（xiii）二条城二の丸御殿，（xiv）室生寺金堂，（xv）伊勢神宮，（xvi）長弓寺本堂，（xvii）如庵，（xviii）宇佐神宮本殿，（xix）円覚寺舎利殿，（xx）賀茂別雷神社，（xxi）大英博物館，（xxii）サンタ・コスタンツァ",
+        "confidence": "confirmed",
+        "examTerm": "賀茂別雷神社",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "architect-kiyonori-kikutake": [
+      {
+        "year": 2014,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2014_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "スカイハウス",
+        "originalText": "能舞台、ソールズベリ大聖堂、スカイハウス、富貴大堂、長寿寺本堂、東京駅、鶴林寺本堂、メタボリズム、東山殿会所、サン・ドニ修道院付属教会、テンピエット、パリの地下鉄駅入口、筑波センタービル、東海道新幹線、母の家、法隆寺金堂、ソニービル、安田講堂、平等院鳳凰堂、同潤会アパート、帝国大学工科大学校舎、円覚寺舎利殿、鏤阿寺本堂、ヴィラ・ロトンダ、東三条殿",
+        "confidence": "confirmed",
+        "examTerm": "スカイハウス",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "architect-kisho-kurokawa": [
+      {
+        "year": 2026,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2026_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "中銀カプセルタワービル",
+        "originalText": "E. 中銀カプセルタワービル（東京）",
+        "confidence": "confirmed",
+        "examTerm": "中銀カプセルタワー",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "architect-junzo-sakakura": [
+      {
+        "year": 2025,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2025_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "神奈川県立近代美術館",
+        "originalText": "C 旧神奈川県立近代美術館",
+        "confidence": "confirmed",
+        "examTerm": "神奈川県立近代美術館",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "architect-louis-kahn": [
+      {
+        "year": 2015,
+        "category": "専門1",
+        "questionNumber": "3",
+        "fileName": "2015_専門1_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "リチャーズ医学研究所",
+        "originalText": "3. ペンシルベニア大学リチャーズ医学研究所",
+        "confidence": "confirmed",
+        "examTerm": "リチャーズ医学研究所",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "リチャーズ研究所",
+        "originalText": "② リチャーズ研究所",
+        "confidence": "confirmed",
+        "examTerm": "リチャーズ医学研究所",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "architect-kenzo-tange": [
+      {
+        "year": 2024,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2024_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "東京カテドラル聖マリア大聖堂",
+        "originalText": "E. 東京カテドラル聖マリア大聖堂（東京）",
+        "confidence": "confirmed",
+        "examTerm": "東京カテドラルマリア大聖堂",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-structural-expressionism": [
+      {
+        "year": 2016,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2016_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "シドニーオペラハウス",
+        "originalText": "⑥ シドニーオペラハウス",
+        "confidence": "confirmed",
+        "examTerm": "シドニーオペラハウス",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "architect-mamoru-yamada": [
+      {
+        "year": 2019,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2019_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "東京中央電信局",
+        "originalText": "15 東京中央電信局",
+        "confidence": "confirmed",
+        "examTerm": "東京中央電信局",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "style-wayo-secchu": [
+      {
+        "year": 2024,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2024_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "グラバー邸",
+        "originalText": "① 長寿寺本堂 ② 北野天満宮 ③ 箱木家住宅 ④ 今西家住宅 ⑤ 飛鳥寺 ⑥ 法隆寺 ⑦ 築地本願寺 ⑧ 三渓園臨春閣 ⑨ 妙喜庵待庵 ⑩ 松本城 ⑪ 姫路城 ⑫ ヴィラ・ロトンダ ⑬ サン・マルコ大聖堂 ⑭ クリュニー修道院 ⑮ サンスーシ宮殿 ⑯ ソビエトパレス ⑰ アミアン大聖堂 ⑱ サンタ・マリア・デル・フィオーレ大聖堂 ⑲ パンテオン ⑳ 300 万人のための現代都市 ㉑ ルサコフ労働者クラブ ㉒ ドイツ表現主義 ㉓ グラバー邸 ㉔ 土浦亀城 ㉕ 出島 ㉖ ミレトス ㉗ アンコール・ワット ㉘ ボロブドゥール ㉙ エスファハーン ㉚ 近隣住区",
+        "confidence": "confirmed",
+        "examTerm": "グラバー邸",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "architect-le-corbusier": [
+      {
+        "year": 2018,
+        "category": "専門2-2",
+        "questionNumber": "4",
+        "fileName": "2018_専門2-2_建筑史_Q4.md",
+        "relation": "related",
+        "matchedAlias": "ユニテ・ダビタシオン",
+        "originalText": "5. ユニテ・ダビタシオン（マルセイユ）",
+        "confidence": "confirmed",
+        "examTerm": "マルセイユのユニテ・ダビタシオン",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2025,
+        "category": "専門2-2",
+        "questionNumber": "3",
+        "fileName": "2025_専門2-2_建筑史_Q3.md",
+        "relation": "related",
+        "matchedAlias": "サヴォア邸",
+        "originalText": "E. サヴォア邸（フランス、ポワッシー）",
+        "confidence": "confirmed",
+        "examTerm": "サヴォア邸",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ],
+    "architect-walter-gropius": [
+      {
+        "year": 2013,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2013_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "ファグス靴工場",
+        "originalText": "5. ギリシア芸術模倣論（Thoughts on the Imitation of Greek Works in Painting and Sculpture）、6. 曼殊院、7. マジョリカ・ハウス（Majolica House）、8. 宇治上神社本殿、9. ファグス靴工場（Fagus Factory）、10. 丸善書店、11. パンテオン（サント＝ジュヌヴィエーヴ聖堂）（Panthéon, Ste-Genevieve Church）、12. 如庵、13. 建築の4要素（Four Elements of Architecture）、14. 不動院金堂、15. 建築の5つのオーダーの規則（Ca",
+        "confidence": "confirmed",
+        "examTerm": "ファグス靴工場 fagus",
+        "evidenceBasis": "confirmed-building-link"
+      },
+      {
+        "year": 2019,
+        "category": "専門1",
+        "questionNumber": "5",
+        "fileName": "2019_専門1_建筑史_Q5.md",
+        "relation": "related",
+        "matchedAlias": "ファグス靴工場",
+        "originalText": "8ファグス靴工場",
+        "confidence": "confirmed",
+        "examTerm": "ファグス靴工場 fagus",
+        "evidenceBasis": "confirmed-building-link"
+      }
+    ]
+  },
+  "personReferences": {
+    "フランツ・ヨーゼフ": {
+      "ja": "フランツ・ヨーゼフ1世",
+      "zh": "弗朗茨·约瑟夫一世",
+      "note_ja": "オーストリア皇帝。ウィーン環状道路建設を推進し、歴史主義建築の大規模都市計画を実現した。",
+      "note_zh": "奥地利皇帝。推动维也纳环城大道建设，实现了历史主义建筑的大规模城市规划。"
+    },
+    "ジョン・ソーン": {
+      "ja": "ジョン・ソーン",
+      "zh": "约翰·索恩",
+      "note_ja": "イギリスの新古典主義建築家。イングランド銀行や自邸（ソーン美術館）で知られる。",
+      "note_zh": "英国新古典主义建筑师。以英格兰银行和自宅（索恩美术馆）闻名。"
+    },
+    "アナトール・ド・ボド": {
+      "ja": "アナトール・ド・ボド",
+      "zh": "阿纳托尔·德·博多",
+      "note_ja": "フランスの建築家。鉄筋コンクリート教会サン・ジャン・ド・モンマルトルを設計。",
+      "note_zh": "法国建筑师。设计了钢筋混凝土教堂圣让德蒙马特。"
+    },
+    "ジャイルズ・ギルバート・スコット": {
+      "ja": "ジャイルズ・ギルバート・スコット",
+      "zh": "贾尔斯·吉尔伯特·斯科特",
+      "note_ja": "イギリスの建築家。リヴァプール大聖堂やバタシー発電所の設計で知られるゴシック・リヴァイヴァル建築家。",
+      "note_zh": "英国建筑师。以利物浦大教堂和巴特西发电站设计闻名的哥特复兴建筑师。"
+    },
+    "ジャコモ・バロッツィ・ダ・ヴィニョーラ": {
+      "ja": "ジャコモ・バロッツィ・ダ・ヴィニョーラ",
+      "zh": "贾科莫·巴罗齐·达·维尼奥拉",
+      "note_ja": "イタリアのマニエリスム建築家。イル・ジェズ教会を設計し、『建築の五オーダー』を著した。",
+      "note_zh": "意大利手法主义建筑师。设计了耶稣教堂，著有《建筑的五种柱式》。"
+    },
+    "ジャック・ジェルメン・スフロ": {
+      "ja": "ジャック・ジェルメン・スフロ",
+      "zh": "雅克·热尔曼·苏夫洛",
+      "note_ja": "フランスの新古典主義建築家。パリのパンテオン（サント・ジュヌヴィエーヴ教会）を設計。",
+      "note_zh": "法国新古典主义建筑师。设计了巴黎先贤祠（圣热纳维耶芙教堂）。"
+    },
+    "ドメニコ・フォンターナ": {
+      "ja": "ドメニコ・フォンターナ",
+      "zh": "多梅尼科·丰塔纳",
+      "note_ja": "イタリアのバロック建築家。シクストゥス5世のもとローマ都市計画を推進。",
+      "note_zh": "意大利巴洛克建筑师。在西克斯图斯五世治下推进罗马城市规划。"
+    },
+    "マルク・アントワーヌ・ロージエ": {
+      "ja": "マルク・アントワーヌ・ロージエ",
+      "zh": "马克·安托万·洛吉耶",
+      "note_ja": "フランスの建築理論家。『建築試論』で原始の小屋を建築の本質とし、新古典主義の理論的基礎を築いた。",
+      "note_zh": "法国建筑理论家。在《建筑试论》中以原始小屋为建筑本质，奠定了新古典主义的理论基础。"
+    },
+    "ヨハン・ヨアヒム・ヴィンケルマン": {
+      "ja": "ヨハン・ヨアヒム・ヴィンケルマン",
+      "zh": "约翰·约阿希姆·温克尔曼",
+      "note_ja": "ドイツの美術史家。古代ギリシア美術を理想とし、新古典主義の理論的基盤を形成した。",
+      "note_zh": "德国美术史家。以古希腊美术为理想，形成新古典主义的理论基础。"
+    },
+    "佐野利器": {
+      "ja": "佐野利器",
+      "zh": "佐野利器",
+      "note_ja": "日本の建築家・構造家。耐震構造学の先駆者で、東京帝国大学教授。",
+      "note_zh": "日本建筑师、结构学家。抗震结构学先驱，东京帝国大学教授。"
+    },
+    "内田祥三": {
+      "ja": "内田祥三",
+      "zh": "内田祥三",
+      "note_ja": "日本の建築家。東京帝国大学の復興計画や安田講堂を設計。",
+      "note_zh": "日本建筑师。设计了东京帝国大学复兴计划和安田讲堂。"
+    },
+    "後藤慶二": {
+      "ja": "後藤慶二",
+      "zh": "后藤庆二",
+      "note_ja": "日本の建築家。表現主義的傾向をもつ建築を設計。",
+      "note_zh": "日本建筑师。设计具有表现主义倾向的建筑。"
+    },
+    "フランチェスコ・ボッロミーニ": {
+      "ja": "フランチェスコ・ボッロミーニ",
+      "zh": "弗朗切斯科·博罗米尼",
+      "note_ja": "イタリアのバロック建築家。サン・カルロ・アッレ・クワトロ・フォンターネ聖堂で知られる。",
+      "note_zh": "意大利巴洛克建筑师。以四泉圣卡洛教堂闻名。"
+    },
+    "アンリ・ラブルースト": {
+      "ja": "アンリ・ラブルースト",
+      "zh": "亨利·拉布鲁斯特",
+      "note_ja": "フランスの建築家。パリのサント・ジュヌヴィエーヴ図書館や国立図書館で鉄骨構造を革新的に用いた。",
+      "note_zh": "法国建筑师。在巴黎圣热纳维耶芙图书馆和国家图书馆中创新性地使用铁骨结构。"
+    },
+    "ジョセフ・パクストン": {
+      "ja": "ジョセフ・パクストン",
+      "zh": "约瑟夫·帕克斯顿",
+      "note_ja": "イギリスの庭師・建築家。水晶宮（クリスタル・パレス）を設計し、鉄とガラスの建築の先駆けとなった。",
+      "note_zh": "英国园艺师、建筑师。设计了水晶宫，成为铁与玻璃建筑的先驱。"
+    }
+  },
+  "newConceptCards": [
+    {
+      "id": "concept-jinaicho",
+      "kind": "theory-or-institution",
+      "name_ja": "寺内町",
+      "name_zh": "寺内町",
+      "summary_ja": "中世末期、浄土真宗寺院を中心に形成された環濠をもつ宗教都市・自治集落。",
+      "summary_zh": "中世末期以净土真宗寺院为中心形成的带环壕的宗教城市与自治聚落。",
+      "aliases": [
+        "じないちょう",
+        "寺内町"
+      ],
+      "period_ja": "戦国時代〜江戸初期",
+      "period_zh": "战国时代至江户初期",
+      "regions": [
+        "japan"
+      ],
+      "keywords_ja": [
+        "寺内町",
+        "環濠",
+        "一向宗",
+        "自治都市",
+        "大阪"
+      ],
+      "keywords_zh": [
+        "寺内町",
+        "环壕",
+        "一向宗",
+        "自治城市",
+        "大阪"
+      ],
+      "exam_count": 4
+    },
+    {
+      "id": "concept-roman-concrete",
+      "kind": "theory-or-institution",
+      "name_ja": "ローマン・コンクリート",
+      "name_zh": "罗马混凝土",
+      "summary_ja": "古代ローマで発達した、火山灰（ポッツォラーナ）・石灰・骨材を混合した建築材料。",
+      "summary_zh": "古罗马发展起来的以火山灰、石灰和骨材混合的建筑材料。",
+      "aliases": [
+        "ローマンコンクリート",
+        "opus caementicium"
+      ],
+      "period_ja": "古代ローマ",
+      "period_zh": "古罗马",
+      "regions": [
+        "western"
+      ],
+      "keywords_ja": [
+        "ローマン・コンクリート",
+        "ポッツォラーナ",
+        "アーチ",
+        "ヴォールト",
+        "ドーム"
+      ],
+      "keywords_zh": [
+        "罗马混凝土",
+        "火山灰",
+        "拱券",
+        "拱顶",
+        "穹顶"
+      ],
+      "exam_count": 1
+    }
+  ],
+  "unmatchedTerms": [
+    {
+      "term": "フランツ・ヨーゼフ",
+      "kind": "person",
+      "examCount": 3,
+      "examFiles": [
+        "2017_専門2-2_建筑史_Q4.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "term": "ジョン・ソーン",
+      "kind": "person",
+      "examCount": 2,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "term": "アナトール・ド・ボド",
+      "kind": "person",
+      "examCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "term": "ジャイルズ・ギルバート・スコット",
+      "kind": "person",
+      "examCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "term": "ジャコモ・バロッツィ・ダ・ヴィニョーラ",
+      "kind": "person",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "term": "ジャック・ジェルメン・スフロ",
+      "kind": "person",
+      "examCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "term": "ドメニコ・フォンターナ",
+      "kind": "person",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "term": "マルク・アントワーヌ・ロージエ",
+      "kind": "person",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "term": "ヨハン・ヨアヒム・ヴィンケルマン",
+      "kind": "person",
+      "examCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "term": "ラウンレンツィアーナ図書館",
+      "kind": "building",
+      "examCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "term": "佐野利器",
+      "kind": "person",
+      "examCount": 1,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "term": "内田祥三",
+      "kind": "person",
+      "examCount": 1,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md"
+      ]
+    },
+    {
+      "term": "後藤慶二",
+      "kind": "person",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ]
+    }
+  ]
+}

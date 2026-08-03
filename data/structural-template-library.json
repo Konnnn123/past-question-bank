@@ -1,0 +1,355 @@
+{
+  "history_image_free_recall": {
+    "id": "history_image_free_recall",
+    "subject": "history",
+    "type": "image_identification",
+    "examEvidence": "2022 Q5: 20 photographs → write name/style/architect",
+    "minFacts": 1,
+    "requiredFactCategories": [
+      "building_entity",
+      "image_asset"
+    ],
+    "relationTypes": [
+      "has_image"
+    ],
+    "contextRequired": false,
+    "subquestions": "1_per_image",
+    "answerFormat": "free_recall",
+    "distractorRule": "none_pure_recall",
+    "difficultyControls": [
+      "image_ambiguity",
+      "building_rarity"
+    ],
+    "ambiguityControls": [
+      "accepted_aliases"
+    ],
+    "blockedIf": "no_image_asset",
+    "prohibitedShortcuts": [
+      "do_not_convert_to_mcq",
+      "do_not_add_fake_options"
+    ],
+    "note": "Only for 2022-style pure recall (no word bank). Earlier years (2014-2020) use word banks."
+  },
+  "construction_multi_blank_wordbank": {
+    "id": "construction_multi_blank_wordbank",
+    "subject": "construction",
+    "type": "fill_blank_word_bank",
+    "examEvidence": "2022 Q3: 20 blanks, 27-term bank, 35% surplus",
+    "minFacts": 15,
+    "requiredFactCategories": [
+      "term_entity",
+      "technical_definition"
+    ],
+    "relationTypes": [
+      "defined_as",
+      "belongs_to"
+    ],
+    "contextRequired": true,
+    "contextType": "technical_sentence_newly_composed",
+    "subquestions": "10-20_blanks_share_one_wordbank",
+    "answerFormat": "select_term_from_bank",
+    "distractorRule": "surplus_30_50pct_all_construction_domain_similar_abbrev_plausible",
+    "difficultyControls": [
+      "similar_abbreviations",
+      "cross_subdomain_terms"
+    ],
+    "ambiguityControls": [
+      "only_one_term_fits_technically",
+      "no_grammar_only_hint"
+    ],
+    "blockedIf": "fewer_than_15_terms_in_domain",
+    "prohibitedShortcuts": [
+      "do_not_copy_anki_definition",
+      "do_not_single_term_mcq"
+    ]
+  },
+  "environment_numerical_calculation": {
+    "id": "environment_numerical_calculation",
+    "subject": "environment",
+    "type": "numerical_calculation",
+    "examEvidence": "13/13 years 専門1 環境 have numerical calculation",
+    "minFacts": 1,
+    "requiredFactCategories": [
+      "formula",
+      "variables",
+      "units",
+      "value_ranges"
+    ],
+    "relationTypes": [
+      "formula_text",
+      "computes"
+    ],
+    "contextRequired": true,
+    "contextType": "physical_scenario",
+    "subquestions": "1",
+    "answerFormat": "numeric_with_unit",
+    "distractorRule": "none_calculation",
+    "difficultyControls": [
+      "multi_step",
+      "unit_conversion",
+      "assumption_explicit"
+    ],
+    "ambiguityControls": [
+      "deterministic_answer",
+      "tolerance_defined",
+      "dimensional_check"
+    ],
+    "blockedIf": "no_worked_solution_or_no_variable_ranges",
+    "prohibitedShortcuts": [
+      "direct_substitution_only",
+      "no_assumptions_stated"
+    ]
+  },
+  "environment_correct_statement": {
+    "id": "environment_correct_statement",
+    "subject": "environment",
+    "type": "correct_statement_select",
+    "examEvidence": "5/13 years 専門1 環境 have correct-statement items",
+    "minFacts": 4,
+    "requiredFactCategories": [
+      "principle",
+      "condition",
+      "boundary"
+    ],
+    "relationTypes": [
+      "defined_as",
+      "formula_text"
+    ],
+    "contextRequired": true,
+    "contextType": "same_topic_comparable_scope",
+    "subquestions": "1",
+    "answerFormat": "single_choice_A_B_C_D",
+    "distractorRule": "misconception_based_false_statements_prohibit_mechanical_inversion",
+    "difficultyControls": [
+      "conceptual_depth",
+      "condition_sensitivity"
+    ],
+    "ambiguityControls": [
+      "exactly_one_defensible",
+      "all_same_topic"
+    ],
+    "blockedIf": "no_misconception_library_for_topic",
+    "prohibitedShortcuts": [
+      "increase_to_decrease",
+      "add_not",
+      "swap_numbers_arbitrarily"
+    ]
+  },
+  "environment_formula_completion": {
+    "id": "environment_formula_completion",
+    "subject": "environment",
+    "type": "formula_completion",
+    "examEvidence": "2022 Q2 Part 2: formula → quantity name X + exponent Y",
+    "minFacts": 1,
+    "requiredFactCategories": [
+      "formula",
+      "variable_names",
+      "exponents"
+    ],
+    "relationTypes": [
+      "formula_text"
+    ],
+    "contextRequired": false,
+    "subquestions": "1",
+    "answerFormat": "term_plus_integer_or_symbol",
+    "distractorRule": "dimensionally_plausible_terms",
+    "difficultyControls": [
+      "variable_relationship_understanding"
+    ],
+    "ambiguityControls": [
+      "unique_solution",
+      "dimensional_consistency"
+    ],
+    "blockedIf": "formula_has_no_meaningful_internal_blank",
+    "prohibitedShortcuts": [
+      "name_to_formula_recall",
+      "recognize_not_understand"
+    ]
+  },
+  "planning_contextual_numeric_select": {
+    "id": "planning_contextual_numeric_select",
+    "subject": "planning",
+    "type": "inline_numeric_select",
+    "examEvidence": "2022 Q4: 20 blanks, inline 3-4 numeric options, context-heavy",
+    "minFacts": 1,
+    "requiredFactCategories": [
+      "standard_value",
+      "unit",
+      "building_type",
+      "condition"
+    ],
+    "relationTypes": [
+      "standard_value"
+    ],
+    "contextRequired": true,
+    "contextType": "building_use_scenario",
+    "subquestions": "1",
+    "answerFormat": "select_value_from_inline_options",
+    "distractorRule": "same_unit_close_values_adjacent_standards",
+    "difficultyControls": [
+      "context_specificity",
+      "value_proximity"
+    ],
+    "ambiguityControls": [
+      "single_standard_applies",
+      "code_edition_specified"
+    ],
+    "blockedIf": "no_building_type_context_or_no_peer_values",
+    "prohibitedShortcuts": [
+      "bare_fact_without_context",
+      "cross_useType_distractors"
+    ]
+  },
+  "planning_correct_statement": {
+    "id": "planning_correct_statement",
+    "subject": "planning",
+    "type": "correct_statement_select",
+    "examEvidence": "5/7 years 専門1 計画 have correct-statement items",
+    "minFacts": 4,
+    "requiredFactCategories": [
+      "planning_principle",
+      "building_type",
+      "condition"
+    ],
+    "relationTypes": [
+      "defined_as",
+      "standard_value",
+      "has_feature"
+    ],
+    "contextRequired": true,
+    "contextType": "comparable_scope_same_useType",
+    "subquestions": "1",
+    "answerFormat": "single_choice",
+    "distractorRule": "misconception_based_same_useType",
+    "difficultyControls": [
+      "condition_specificity",
+      "principle_boundary"
+    ],
+    "ambiguityControls": [
+      "exactly_one_correct"
+    ],
+    "blockedIf": "no_misconception_library",
+    "prohibitedShortcuts": [
+      "mechanical_inversion",
+      "cross_useType_confusion_as_distractor"
+    ]
+  },
+  "planning_scoped_short_answer": {
+    "id": "planning_scoped_short_answer",
+    "subject": "planning",
+    "type": "short_answer",
+    "examEvidence": "専門1 short answer items across subjects",
+    "minFacts": 1,
+    "requiredFactCategories": [
+      "pattern_entity",
+      "feature_description"
+    ],
+    "relationTypes": [
+      "has_feature",
+      "has_layout"
+    ],
+    "contextRequired": true,
+    "contextType": "command_verb_scope_rubric",
+    "subquestions": "1",
+    "answerFormat": "free_text_scoped",
+    "distractorRule": "none",
+    "difficultyControls": [
+      "command_verb",
+      "required_points",
+      "expected_length"
+    ],
+    "ambiguityControls": [
+      "rubric_defined",
+      "alternative_formulations_accepted"
+    ],
+    "blockedIf": "no_rubric_or_no_model_answer",
+    "prohibitedShortcuts": [
+      "bare_explain_X",
+      "no_response_boundary"
+    ]
+  },
+  "history_image_multi_wordbank_matching": {
+    "id": "history_image_multi_wordbank_matching",
+    "subject": "history",
+    "type": "multi_wordbank_matching",
+    "examEvidence": "2019 Q5: 25 images, Group A (people/styles) + Group B (concepts), independently shuffled. 2014-2020 all Q5 use word banks.",
+    "coreStructure": {
+      "imageCount": "4-10 verified building images",
+      "wordBankCount": "2 or more independently shuffled word banks",
+      "answerPerImage": "one from each applicable word bank",
+      "imageOrder": "unrelated to word-bank order",
+      "surplusRatio": "0-50% per observed past-exam structure",
+      "noTextClueBesideImage": true,
+      "noCoherentThemeRequired": true,
+      "heterogeneityAllowed": true
+    },
+    "wordBankRules": {
+      "semanticHomogeneity": "every word bank contains ONE semantic field only",
+      "validFields": [
+        "building_name",
+        "architect",
+        "period",
+        "country_or_city",
+        "style_or_movement",
+        "structural_system",
+        "historical_keyword"
+      ],
+      "invalidMixing": "architects + styles + cities + structural systems in one bank",
+      "independentShuffle": "each bank shuffled independently of images",
+      "noDuplicate": "unless deliberately supported by exam pattern",
+      "surplusNoSecondAnswer": "surplus options must not create a second valid answer for any image"
+    },
+    "requiredEvidencePerImage": [
+      "verified image-to-building identity",
+      "one verified value for every word-bank field used",
+      "provenance for each value",
+      "ambiguity notes",
+      "alternate names where relevant"
+    ],
+    "validationRules": [
+      "all images are verified",
+      "every word bank contains one semantic field only",
+      "word-bank order is randomized independently of image order",
+      "no duplicate candidate unless deliberately supported",
+      "every image has exactly one defensible answer per word bank",
+      "surplus options do not create a second valid answer",
+      "no answer revealed by filename, caption, or asset metadata",
+      "image set heterogeneity is allowed — do not reject cross-region/cross-period sets"
+    ],
+    "minFacts": 8,
+    "requiredFactCategories": [
+      "building_entity",
+      "image_asset",
+      "architect",
+      "style",
+      "period"
+    ],
+    "relationTypes": [
+      "has_image",
+      "designed_by_architect",
+      "has_architectural_style",
+      "built_in"
+    ],
+    "contextRequired": false,
+    "answerFormat": "term_selection_from_independent_banks",
+    "distractorRule": "surplus_0_50pct_same_semantic_field_per_bank",
+    "difficultyControls": [
+      "image_ambiguity",
+      "cross_period_region_mixing",
+      "bank_independence"
+    ],
+    "ambiguityControls": [
+      "exactly_one_answer_per_image_per_bank",
+      "alternate_names_accepted"
+    ],
+    "blockedIf": "fewer_than_4_verified_images_or_missing_wordbank_field_values",
+    "prohibitedShortcuts": [
+      "do_not_require_coherent_image_theme",
+      "do_not_group_images_by_period_or_region",
+      "do_not_mix_semantic_fields_in_one_bank",
+      "do_not_display_text_clues_beside_images",
+      "do_not_use_text_only_prompts_as_image_substitute",
+      "do_not_convert_to_single_fact_mcq"
+    ]
+  }
+}

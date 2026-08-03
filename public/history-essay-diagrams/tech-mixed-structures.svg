@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="610" viewBox="0 0 1120 610">
+  <rect width="1120" height="610" fill="#f7f4ed"/>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <text x="42" y="48" font-size="27" font-weight="700" fill="#17324d">材料の役割分担｜ローマン・コンクリート／鉄＋石／鉄＋煉瓦</text>
+    <text x="42" y="78" font-size="16" fill="#52606d">do not call every combination a modern composite member</text>
+    <g transform="translate(45 130)">
+      <text x="155" y="0" text-anchor="middle" font-size="21" font-weight="700" fill="#17324d">ローマン・コンクリート</text>
+      <path d="M25 245 A130 130 0 0 1 285 245" fill="none" stroke="#b14f3b" stroke-width="42"/>
+      <path d="M25 245 A130 130 0 0 1 285 245" fill="none" stroke="#d4ad6a" stroke-width="5" stroke-dasharray="10 8"/>
+      <rect x="10" y="245" width="290" height="45" fill="#e8dfcd" stroke="#17324d" stroke-width="5"/>
+      <text x="155" y="330" text-anchor="middle" font-size="17" fill="#52606d">型枠・煉瓦表層＋充填壁体</text>
+      <text x="155" y="360" text-anchor="middle" font-size="17" fill="#17324d">ヴォールト／ドーム</text>
+    </g>
+    <g transform="translate(405 130)">
+      <text x="155" y="0" text-anchor="middle" font-size="21" font-weight="700" fill="#17324d">鉄＋石</text>
+      <rect x="15" y="70" width="280" height="250" fill="#e8dfcd" stroke="#8b6b3f" stroke-width="14"/>
+      <g stroke="#17324d" stroke-width="8" fill="none"><line x1="75" y1="285" x2="75" y2="100"/><line x1="235" y1="285" x2="235" y2="100"/><path d="M75 110 Q155 45 235 110"/></g>
+      <text x="155" y="350" text-anchor="middle" font-size="17" fill="#52606d">組積外皮＋鉄の柱・梁・屋根</text>
+      <text x="155" y="380" text-anchor="middle" font-size="17" fill="#17324d">記念性＋細い内部支持</text>
+    </g>
+    <g transform="translate(765 130)">
+      <text x="155" y="0" text-anchor="middle" font-size="21" font-weight="700" fill="#17324d">鉄＋煉瓦</text>
+      <rect x="15" y="70" width="280" height="250" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="8"/>
+      <g stroke="#17324d" stroke-width="9" fill="none"><line x1="70" y1="320" x2="70" y2="80"/><line x1="240" y1="320" x2="240" y2="80"/><line x1="70" y1="150" x2="240" y2="150"/><line x1="70" y1="250" x2="240" y2="250"/></g>
+      <path d="M70 150 Q155 90 240 150 M70 250 Q155 190 240 250" fill="none" stroke="#b14f3b" stroke-width="8"/>
+      <text x="155" y="350" text-anchor="middle" font-size="17" fill="#52606d">鉄骨架構＋煉瓦アーチ床・壁</text>
+      <text x="155" y="380" text-anchor="middle" font-size="17" fill="#17324d">木を減らし耐火化</text>
+    </g>
+    <text x="560" y="565" text-anchor="middle" font-size="19" fill="#b14f3b">材料 → 各材料の役割 → 接合・施工 → 空間 → 歴史的課題</text>
+  </g>
+</svg>

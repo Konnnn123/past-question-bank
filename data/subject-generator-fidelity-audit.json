@@ -1,0 +1,612 @@
+{
+  "phase": 3,
+  "auditedAt": "2026-07-17T23:41:12.966176",
+  "totalQuestions": 26,
+  "audits": [
+    {
+      "id": "hist-wb-公慶上人",
+      "subject": "history",
+      "format": "word_bank_matching",
+      "structuralSimilarity": 2.9,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.32,
+      "failures": [
+        "multi_clue: Item requires combining multiple clues (image+context)",
+        "beyond_single_recall: Answer cannot be obtained by single-fact recall alone",
+        "matches_exam_structure: Resembles 語群A/B matching structure"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "multi_clue": 0,
+        "homogeneous_bank": 1,
+        "plausible_distractors": 1,
+        "beyond_single_recall": 0,
+        "reusable_bank": 1,
+        "surplus_terms": 1,
+        "matches_exam_structure": 0
+      }
+    },
+    {
+      "id": "hist-wb-緒方洪庵",
+      "subject": "history",
+      "format": "word_bank_matching",
+      "structuralSimilarity": 2.9,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.32,
+      "failures": [
+        "multi_clue: Item requires combining multiple clues (image+context)",
+        "beyond_single_recall: Answer cannot be obtained by single-fact recall alone",
+        "matches_exam_structure: Resembles 語群A/B matching structure"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "multi_clue": 0,
+        "homogeneous_bank": 1,
+        "plausible_distractors": 1,
+        "beyond_single_recall": 0,
+        "reusable_bank": 1,
+        "surplus_terms": 1,
+        "matches_exam_structure": 0
+      }
+    },
+    {
+      "id": "hist-wb-カルロ・スカルパ",
+      "subject": "history",
+      "format": "word_bank_matching",
+      "structuralSimilarity": 2.9,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.32,
+      "failures": [
+        "multi_clue: Item requires combining multiple clues (image+context)",
+        "beyond_single_recall: Answer cannot be obtained by single-fact recall alone",
+        "matches_exam_structure: Resembles 語群A/B matching structure"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "multi_clue": 0,
+        "homogeneous_bank": 1,
+        "plausible_distractors": 1,
+        "beyond_single_recall": 0,
+        "reusable_bank": 1,
+        "surplus_terms": 1,
+        "matches_exam_structure": 0
+      }
+    },
+    {
+      "id": "hist-wb-日光東照宮",
+      "subject": "history",
+      "format": "word_bank_matching",
+      "structuralSimilarity": 2.9,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.32,
+      "failures": [
+        "multi_clue: Item requires combining multiple clues (image+context)",
+        "beyond_single_recall: Answer cannot be obtained by single-fact recall alone",
+        "matches_exam_structure: Resembles 語群A/B matching structure"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "multi_clue": 0,
+        "homogeneous_bank": 1,
+        "plausible_distractors": 1,
+        "beyond_single_recall": 0,
+        "reusable_bank": 1,
+        "surplus_terms": 1,
+        "matches_exam_structure": 0
+      }
+    },
+    {
+      "id": "hist-wb-サンタ コスタンツァ廟堂",
+      "subject": "history",
+      "format": "word_bank_matching",
+      "structuralSimilarity": 2.9,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.32,
+      "failures": [
+        "multi_clue: Item requires combining multiple clues (image+context)",
+        "beyond_single_recall: Answer cannot be obtained by single-fact recall alone",
+        "matches_exam_structure: Resembles 語群A/B matching structure"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "multi_clue": 0,
+        "homogeneous_bank": 1,
+        "plausible_distractors": 1,
+        "beyond_single_recall": 0,
+        "reusable_bank": 1,
+        "surplus_terms": 1,
+        "matches_exam_structure": 0
+      }
+    },
+    {
+      "id": "hist-wb-バングラディッシュ国会議場",
+      "subject": "history",
+      "format": "word_bank_matching",
+      "structuralSimilarity": 2.9,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.32,
+      "failures": [
+        "multi_clue: Item requires combining multiple clues (image+context)",
+        "beyond_single_recall: Answer cannot be obtained by single-fact recall alone",
+        "matches_exam_structure: Resembles 語群A/B matching structure"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "multi_clue": 0,
+        "homogeneous_bank": 1,
+        "plausible_distractors": 1,
+        "beyond_single_recall": 0,
+        "reusable_bank": 1,
+        "surplus_terms": 1,
+        "matches_exam_structure": 0
+      }
+    },
+    {
+      "id": "hist-wb-ウィンズロー邸 Winslow Hous",
+      "subject": "history",
+      "format": "word_bank_matching",
+      "structuralSimilarity": 3.6,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.8800000000000003,
+      "failures": [
+        "beyond_single_recall: Answer cannot be obtained by single-fact recall alone",
+        "matches_exam_structure: Resembles 語群A/B matching structure"
+      ],
+      "action": "keep",
+      "rubricScores": {
+        "multi_clue": 1,
+        "homogeneous_bank": 1,
+        "plausible_distractors": 1,
+        "beyond_single_recall": 0,
+        "reusable_bank": 1,
+        "surplus_terms": 1,
+        "matches_exam_structure": 0
+      }
+    },
+    {
+      "id": "hist-wb-ニュートン記念堂設計案",
+      "subject": "history",
+      "format": "word_bank_matching",
+      "structuralSimilarity": 2.9,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.32,
+      "failures": [
+        "multi_clue: Item requires combining multiple clues (image+context)",
+        "beyond_single_recall: Answer cannot be obtained by single-fact recall alone",
+        "matches_exam_structure: Resembles 語群A/B matching structure"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "multi_clue": 0,
+        "homogeneous_bank": 1,
+        "plausible_distractors": 1,
+        "beyond_single_recall": 0,
+        "reusable_bank": 1,
+        "surplus_terms": 1,
+        "matches_exam_structure": 0
+      }
+    },
+    {
+      "id": "hist-wb-安楽寺三重塔",
+      "subject": "history",
+      "format": "word_bank_matching",
+      "structuralSimilarity": 2.9,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.32,
+      "failures": [
+        "multi_clue: Item requires combining multiple clues (image+context)",
+        "beyond_single_recall: Answer cannot be obtained by single-fact recall alone",
+        "matches_exam_structure: Resembles 語群A/B matching structure"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "multi_clue": 0,
+        "homogeneous_bank": 1,
+        "plausible_distractors": 1,
+        "beyond_single_recall": 0,
+        "reusable_bank": 1,
+        "surplus_terms": 1,
+        "matches_exam_structure": 0
+      }
+    },
+    {
+      "id": "const-fb-サンドドレーン",
+      "subject": "construction",
+      "format": "fill_blank_word_bank",
+      "structuralSimilarity": 2.5,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 2.5,
+      "difficultySimilarity": 2.0,
+      "failures": [
+        "same_domain_terms: All terms from the same construction domain",
+        "not_copied_definition: Question is NOT merely a copied Anki definition",
+        "matches_2022Q3: Resembles 2022 Q3 20-blank 27-term format"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "technical_context": 1,
+        "same_domain_terms": 0,
+        "plausible_in_context": 1,
+        "not_copied_definition": 0,
+        "surplus_terms": 1,
+        "matches_2022Q3": 0
+      }
+    },
+    {
+      "id": "const-fb-カーテンウォールの支持方式",
+      "subject": "construction",
+      "format": "fill_blank_word_bank",
+      "structuralSimilarity": 2.5,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 2.5,
+      "difficultySimilarity": 2.0,
+      "failures": [
+        "same_domain_terms: All terms from the same construction domain",
+        "not_copied_definition: Question is NOT merely a copied Anki definition",
+        "matches_2022Q3: Resembles 2022 Q3 20-blank 27-term format"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "technical_context": 1,
+        "same_domain_terms": 0,
+        "plausible_in_context": 1,
+        "not_copied_definition": 0,
+        "surplus_terms": 1,
+        "matches_2022Q3": 0
+      }
+    },
+    {
+      "id": "const-fb-免震化工事",
+      "subject": "construction",
+      "format": "fill_blank_word_bank",
+      "structuralSimilarity": 2.5,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 2.5,
+      "difficultySimilarity": 2.0,
+      "failures": [
+        "same_domain_terms: All terms from the same construction domain",
+        "not_copied_definition: Question is NOT merely a copied Anki definition",
+        "matches_2022Q3: Resembles 2022 Q3 20-blank 27-term format"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "technical_context": 1,
+        "same_domain_terms": 0,
+        "plausible_in_context": 1,
+        "not_copied_definition": 0,
+        "surplus_terms": 1,
+        "matches_2022Q3": 0
+      }
+    },
+    {
+      "id": "env-calc-CO2必要換気量",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "structuralSimilarity": 3.6,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.8800000000000003,
+      "failures": [
+        "contextual_info: Contains contextual information (not just plug-and-chug)",
+        "explicit_assumptions: Assumptions are stated explicitly"
+      ],
+      "action": "keep",
+      "rubricScores": {
+        "model_identification": 1,
+        "multi_step": 1,
+        "realistic_units": 1,
+        "contextual_info": 0,
+        "explicit_assumptions": 0,
+        "physically_plausible": 1,
+        "beyond_direct_substitution": 1
+      }
+    },
+    {
+      "id": "env-calc-点光源の照度",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "structuralSimilarity": 2.9,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.32,
+      "failures": [
+        "contextual_info: Contains contextual information (not just plug-and-chug)",
+        "explicit_assumptions: Assumptions are stated explicitly",
+        "beyond_direct_substitution: More than direct substitution into one formula"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "model_identification": 1,
+        "multi_step": 1,
+        "realistic_units": 1,
+        "contextual_info": 0,
+        "explicit_assumptions": 0,
+        "physically_plausible": 1,
+        "beyond_direct_substitution": 0
+      }
+    },
+    {
+      "id": "env-calc-残響時間",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "structuralSimilarity": 2.9,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.32,
+      "failures": [
+        "contextual_info: Contains contextual information (not just plug-and-chug)",
+        "explicit_assumptions: Assumptions are stated explicitly",
+        "beyond_direct_substitution: More than direct substitution into one formula"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "model_identification": 1,
+        "multi_step": 1,
+        "realistic_units": 1,
+        "contextual_info": 0,
+        "explicit_assumptions": 0,
+        "physically_plausible": 1,
+        "beyond_direct_substitution": 0
+      }
+    },
+    {
+      "id": "env-cs-自由音場の距離減衰",
+      "subject": "environment",
+      "format": "correct_statement_select",
+      "structuralSimilarity": 1.7,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 2.5,
+      "difficultySimilarity": 1.36,
+      "failures": [
+        "plausible_false: Incorrect statements are conceptually plausible",
+        "conceptual_error: Error is conceptual, not merely typographical",
+        "requires_understanding: Answer requires understanding, not keyword matching",
+        "matches_planning_format: Resembles planning 専門1 正誤判断"
+      ],
+      "action": "reject",
+      "rubricScores": {
+        "same_topic": 1,
+        "plausible_false": 0,
+        "conceptual_error": 0,
+        "requires_understanding": 0,
+        "single_defensible": 1,
+        "matches_planning_format": 0
+      }
+    },
+    {
+      "id": "env-cs-質量則",
+      "subject": "environment",
+      "format": "correct_statement_select",
+      "structuralSimilarity": 1.7,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 2.5,
+      "difficultySimilarity": 1.36,
+      "failures": [
+        "plausible_false: Incorrect statements are conceptually plausible",
+        "conceptual_error: Error is conceptual, not merely typographical",
+        "requires_understanding: Answer requires understanding, not keyword matching",
+        "matches_planning_format: Resembles planning 専門1 正誤判断"
+      ],
+      "action": "reject",
+      "rubricScores": {
+        "same_topic": 1,
+        "plausible_false": 0,
+        "conceptual_error": 0,
+        "requires_understanding": 0,
+        "single_defensible": 1,
+        "matches_planning_format": 0
+      }
+    },
+    {
+      "id": "env-fc-昼光率",
+      "subject": "environment",
+      "format": "formula_completion",
+      "structuralSimilarity": 2.0,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 0.0,
+      "difficultySimilarity": 1.6,
+      "failures": [
+        "meaningful_blank: Missing term is meaningful (tests relationship, not symbol recall)",
+        "variable_understanding: Tests variable relationships, not symbol memorization",
+        "beyond_recognition: Cannot be filled without understanding the formula"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "meaningful_blank": 0,
+        "variable_understanding": 0,
+        "symbols_defined": 1,
+        "exam_relevant_formula": 1,
+        "beyond_recognition": 0
+      }
+    },
+    {
+      "id": "env-fc-黒体放射",
+      "subject": "environment",
+      "format": "formula_completion",
+      "structuralSimilarity": 2.0,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 0.0,
+      "difficultySimilarity": 1.6,
+      "failures": [
+        "meaningful_blank: Missing term is meaningful (tests relationship, not symbol recall)",
+        "variable_understanding: Tests variable relationships, not symbol memorization",
+        "beyond_recognition: Cannot be filled without understanding the formula"
+      ],
+      "action": "regenerate",
+      "rubricScores": {
+        "meaningful_blank": 0,
+        "variable_understanding": 0,
+        "symbols_defined": 1,
+        "exam_relevant_formula": 1,
+        "beyond_recognition": 0
+      }
+    },
+    {
+      "id": "plan-ns-視覚障害通路の床に段差がある場合",
+      "subject": "planning",
+      "format": "inline_numeric_select",
+      "structuralSimilarity": 3.3,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.64,
+      "failures": [
+        "contextualized: Prompt contextualized by building use/type",
+        "real_standards: Values from actual standards, not arbitrary mutations"
+      ],
+      "action": "revise",
+      "rubricScores": {
+        "same_unit": 1,
+        "close_values": 1,
+        "exam_domain": 1,
+        "contextualized": 0,
+        "real_standards": 0,
+        "unique_answer": 1
+      }
+    },
+    {
+      "id": "plan-ns-51C型",
+      "subject": "planning",
+      "format": "inline_numeric_select",
+      "structuralSimilarity": 3.3,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.64,
+      "failures": [
+        "contextualized: Prompt contextualized by building use/type",
+        "real_standards: Values from actual standards, not arbitrary mutations"
+      ],
+      "action": "revise",
+      "rubricScores": {
+        "same_unit": 1,
+        "close_values": 1,
+        "exam_domain": 1,
+        "contextualized": 0,
+        "real_standards": 0,
+        "unique_answer": 1
+      }
+    },
+    {
+      "id": "plan-ns-基準階の面積に対するその階の収益部分の床",
+      "subject": "planning",
+      "format": "inline_numeric_select",
+      "structuralSimilarity": 3.3,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 5.0,
+      "difficultySimilarity": 2.64,
+      "failures": [
+        "contextualized: Prompt contextualized by building use/type",
+        "real_standards: Values from actual standards, not arbitrary mutations"
+      ],
+      "action": "revise",
+      "rubricScores": {
+        "same_unit": 1,
+        "close_values": 1,
+        "exam_domain": 1,
+        "contextualized": 0,
+        "real_standards": 0,
+        "unique_answer": 1
+      }
+    },
+    {
+      "id": "plan-cs-若葉台小学校",
+      "subject": "planning",
+      "format": "correct_statement_select",
+      "structuralSimilarity": 1.7,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 2.5,
+      "difficultySimilarity": 1.36,
+      "failures": [
+        "plausible_false: Incorrect statements are conceptually plausible",
+        "conceptual_error: Error is conceptual, not merely typographical",
+        "requires_understanding: Answer requires understanding, not keyword matching",
+        "matches_planning_format: Resembles planning 専門1 正誤判断"
+      ],
+      "action": "reject",
+      "rubricScores": {
+        "same_topic": 1,
+        "plausible_false": 0,
+        "conceptual_error": 0,
+        "requires_understanding": 0,
+        "single_defensible": 1,
+        "matches_planning_format": 0
+      }
+    },
+    {
+      "id": "plan-cs-動作域",
+      "subject": "planning",
+      "format": "correct_statement_select",
+      "structuralSimilarity": 1.7,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 2.5,
+      "difficultySimilarity": 1.36,
+      "failures": [
+        "plausible_false: Incorrect statements are conceptually plausible",
+        "conceptual_error: Error is conceptual, not merely typographical",
+        "requires_understanding: Answer requires understanding, not keyword matching",
+        "matches_planning_format: Resembles planning 専門1 正誤判断"
+      ],
+      "action": "reject",
+      "rubricScores": {
+        "same_topic": 1,
+        "plausible_false": 0,
+        "conceptual_error": 0,
+        "requires_understanding": 0,
+        "single_defensible": 1,
+        "matches_planning_format": 0
+      }
+    },
+    {
+      "id": "plan-sa-中廊下型",
+      "subject": "planning",
+      "format": "short_answer",
+      "structuralSimilarity": 0.0,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 0.0,
+      "difficultySimilarity": 0.0,
+      "failures": [
+        "scope_defined: Expected response scope is defined",
+        "beyond_copying: Answer requires more than copying one stored definition",
+        "application_required: Requires comparison/explanation/causal reasoning/application",
+        "comparable_length: Expected answer length comparable to past exam"
+      ],
+      "action": "reject",
+      "rubricScores": {
+        "scope_defined": 0,
+        "beyond_copying": 0,
+        "application_required": 0,
+        "comparable_length": 0
+      }
+    },
+    {
+      "id": "plan-sa-片廊下型",
+      "subject": "planning",
+      "format": "short_answer",
+      "structuralSimilarity": 0.0,
+      "knowledgeValidity": 4.0,
+      "distractorScore": 0.0,
+      "difficultySimilarity": 0.0,
+      "failures": [
+        "scope_defined: Expected response scope is defined",
+        "beyond_copying: Answer requires more than copying one stored definition",
+        "application_required: Requires comparison/explanation/causal reasoning/application",
+        "comparable_length: Expected answer length comparable to past exam"
+      ],
+      "action": "reject",
+      "rubricScores": {
+        "scope_defined": 0,
+        "beyond_copying": 0,
+        "application_required": 0,
+        "comparable_length": 0
+      }
+    }
+  ]
+}

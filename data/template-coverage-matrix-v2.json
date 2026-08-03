@@ -1,0 +1,467 @@
+{
+  "version": 2,
+  "templates": [
+    {
+      "template_id": "generic_short_answer",
+      "subject": "mixed",
+      "frequency": 487,
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "exam_refs": [
+        "2013_専門1_建筑史_Q5.md",
+        "2013_専門1_建筑史_Q5.md",
+        "2013_専門1_建筑史_Q5.md"
+      ],
+      "required_fields": [
+        "entity_name",
+        "value"
+      ],
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority": "critical"
+    },
+    {
+      "template_id": "unknown",
+      "subject": "mixed",
+      "frequency": 79,
+      "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "exam_refs": [
+        "2013_専門1_建筑环境工学_Q4.md",
+        "2013_専門1_建筑环境工学_Q4.md",
+        "2013_専門1_建筑环境工学_Q4.md"
+      ],
+      "required_fields": [],
+      "data_readiness": "needs_review",
+      "implementation_difficulty": "medium",
+      "priority": "critical"
+    },
+    {
+      "template_id": "planning_inline_numeric_select",
+      "subject": "planning",
+      "frequency": 62,
+      "years": [
+        2017,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2026
+      ],
+      "exam_refs": [
+        "2017_専門1_建筑计划_Q1.md",
+        "2017_専門1_建筑计划_Q1.md",
+        "2017_専門1_建筑计划_Q1.md"
+      ],
+      "required_fields": [
+        "standard_name",
+        "numeric_value",
+        "unit",
+        "building_type"
+      ],
+      "data_readiness": "partial",
+      "implementation_difficulty": "low",
+      "priority": "critical"
+    },
+    {
+      "template_id": "planning_essay",
+      "subject": "planning",
+      "frequency": 37,
+      "years": [
+        2014,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "exam_refs": [
+        "2014_専門2-2_建筑计划_Q6.md",
+        "2014_専門2-2_建筑计划_Q6.md",
+        "2014_専門2-2_建筑计划_Q7.md"
+      ],
+      "required_fields": [
+        "planning_knowledge"
+      ],
+      "data_readiness": "not_automatable",
+      "implementation_difficulty": "high",
+      "priority": "critical"
+    },
+    {
+      "template_id": "history_essay",
+      "subject": "history",
+      "frequency": 25,
+      "years": [
+        2014,
+        2016,
+        2017,
+        2018,
+        2020,
+        2022,
+        2024,
+        2025,
+        2026
+      ],
+      "exam_refs": [
+        "2014_専門2-2_建筑史_Q11.md",
+        "2014_専門2-2_建筑史_Q12.md",
+        "2014_専門2-2_建筑史_Q13.md"
+      ],
+      "required_fields": [
+        "history_text",
+        "style_info"
+      ],
+      "data_readiness": "not_automatable",
+      "implementation_difficulty": "high",
+      "priority": "critical"
+    },
+    {
+      "template_id": "construction_essay_design",
+      "subject": "construction",
+      "frequency": 21,
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "exam_refs": [
+        "2016_専門2-2_建筑构法_Q12.md",
+        "2016_専門2-2_建筑构法_Q13.md",
+        "2017_専門2-2_建筑构法_Q3.md"
+      ],
+      "required_fields": [
+        "method_description"
+      ],
+      "data_readiness": "not_automatable",
+      "implementation_difficulty": "high",
+      "priority": "critical"
+    },
+    {
+      "template_id": "construction_numerical",
+      "subject": "construction",
+      "frequency": 17,
+      "years": [
+        2015,
+        2017,
+        2018,
+        2020,
+        2025,
+        2026
+      ],
+      "exam_refs": [
+        "2015_専門1_建筑构法_Q2.md",
+        "2015_専門1_建筑构法_Q2.md",
+        "2017_専門1_建筑构法_Q3.md"
+      ],
+      "required_fields": [
+        "formula",
+        "parameters"
+      ],
+      "data_readiness": "partial",
+      "implementation_difficulty": "low",
+      "priority": "critical"
+    },
+    {
+      "template_id": "history_essay_with_diagram",
+      "subject": "history",
+      "frequency": 12,
+      "years": [
+        2016,
+        2018,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "exam_refs": [
+        "2016_専門2-2_建筑史_Q8.md",
+        "2018_専門2-2_建筑史_Q5.md",
+        "2022_専門2-2_建筑史_Q4.md"
+      ],
+      "required_fields": [
+        "building_name",
+        "image_asset",
+        "history_text"
+      ],
+      "data_readiness": "not_automatable",
+      "implementation_difficulty": "high",
+      "priority": "critical"
+    },
+    {
+      "template_id": "history_image_to_name",
+      "subject": "history",
+      "frequency": 12,
+      "years": [
+        2022,
+        2025
+      ],
+      "exam_refs": [
+        "2022_専門1_建筑史_Q5.md",
+        "2022_専門1_建筑史_Q5.md",
+        "2022_専門1_建筑史_Q5.md"
+      ],
+      "required_fields": [
+        "image_asset",
+        "building_name"
+      ],
+      "data_readiness": "blocked_images",
+      "implementation_difficulty": "medium",
+      "priority": "critical"
+    },
+    {
+      "template_id": "history_image_wordbank_matching",
+      "subject": "history",
+      "frequency": 9,
+      "years": [
+        2015,
+        2019,
+        2020,
+        2024,
+        2025,
+        2026
+      ],
+      "exam_refs": [
+        "2015_専門1_建筑史_Q6.md",
+        "2015_専門1_建筑史_Q6.md",
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "required_fields": [
+        "image_asset",
+        "building_name",
+        "architect",
+        "style"
+      ],
+      "data_readiness": "blocked_images",
+      "implementation_difficulty": "medium",
+      "priority": "high"
+    },
+    {
+      "template_id": "environment_numerical_calculation",
+      "subject": "environment",
+      "frequency": 7,
+      "years": [
+        2017,
+        2018,
+        2023,
+        2024,
+        2025
+      ],
+      "exam_refs": [
+        "2017_専門1_建筑环境工学_Q4.md",
+        "2017_専門1_建筑环境工学_Q4.md",
+        "2018_専門1_建筑环境工学_Q2.md"
+      ],
+      "required_fields": [
+        "formula",
+        "variables",
+        "units"
+      ],
+      "data_readiness": "ready",
+      "implementation_difficulty": "low",
+      "priority": "high"
+    },
+    {
+      "template_id": "construction_independent_fill",
+      "subject": "construction",
+      "frequency": 6,
+      "years": [
+        2016,
+        2019,
+        2020,
+        2024
+      ],
+      "exam_refs": [
+        "2016_専門1_建筑构法_Q2.md",
+        "2019_専門1_建筑构法_Q3.md",
+        "2019_専門1_建筑构法_Q3.md"
+      ],
+      "required_fields": [
+        "term_name"
+      ],
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority": "high"
+    },
+    {
+      "template_id": "history_image_to_architect",
+      "subject": "history",
+      "frequency": 6,
+      "years": [
+        2022,
+        2025,
+        2026
+      ],
+      "exam_refs": [
+        "2022_専門1_建筑史_Q5.md",
+        "2022_専門1_建筑史_Q5.md",
+        "2022_専門1_建筑史_Q5.md"
+      ],
+      "required_fields": [
+        "image_asset",
+        "architect"
+      ],
+      "data_readiness": "blocked_images",
+      "implementation_difficulty": "medium",
+      "priority": "high"
+    },
+    {
+      "template_id": "planning_numerical_calculation",
+      "subject": "planning",
+      "frequency": 4,
+      "years": [
+        2013,
+        2015,
+        2019,
+        2023
+      ],
+      "exam_refs": [
+        "2013_専門1_建筑计划_Q3.md",
+        "2015_専門1_建筑计划_Q10.md",
+        "2019_専門1_建筑计划_Q4.md"
+      ],
+      "required_fields": [
+        "formula",
+        "parameters"
+      ],
+      "data_readiness": "partial",
+      "implementation_difficulty": "low",
+      "priority": "medium"
+    },
+    {
+      "template_id": "history_wordbank_pairing_no_image",
+      "subject": "history",
+      "frequency": 3,
+      "years": [
+        2013,
+        2018
+      ],
+      "exam_refs": [
+        "2013_専門1_建筑史_Q5.md",
+        "2013_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "required_fields": [
+        "building_name",
+        "architect",
+        "style"
+      ],
+      "data_readiness": "blocked_images",
+      "implementation_difficulty": "medium",
+      "priority": "medium"
+    },
+    {
+      "template_id": "environment_phenomenon_wordbank",
+      "subject": "environment",
+      "frequency": 3,
+      "years": [
+        2022
+      ],
+      "exam_refs": [
+        "2022_専門1_建筑环境工学_Q2.md",
+        "2022_専門1_建筑环境工学_Q2.md",
+        "2022_専門1_建筑环境工学_Q2.md"
+      ],
+      "required_fields": [
+        "phenomenon_description",
+        "term_name"
+      ],
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority": "medium"
+    },
+    {
+      "template_id": "environment_correct_statement",
+      "subject": "environment",
+      "frequency": 1,
+      "years": [
+        2019
+      ],
+      "exam_refs": [
+        "2019_専門1_建筑环境工学_Q2.md"
+      ],
+      "required_fields": [
+        "principle_statement",
+        "false_statement"
+      ],
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority": "low"
+    },
+    {
+      "template_id": "construction_shared_wordbank_fill",
+      "subject": "construction",
+      "frequency": 1,
+      "years": [
+        2022
+      ],
+      "exam_refs": [
+        "2022_専門1_建筑构法_Q3.md"
+      ],
+      "required_fields": [
+        "term_name",
+        "technical_definition"
+      ],
+      "data_readiness": "partial",
+      "implementation_difficulty": "medium",
+      "priority": "low"
+    },
+    {
+      "template_id": "environment_calculation_select",
+      "subject": "environment",
+      "frequency": 1,
+      "years": [
+        2025
+      ],
+      "exam_refs": [
+        "2025_専門1_建筑环境工学_Q2.md"
+      ],
+      "required_fields": [
+        "formula",
+        "variables"
+      ],
+      "data_readiness": "ready",
+      "implementation_difficulty": "low",
+      "priority": "low"
+    }
+  ]
+}

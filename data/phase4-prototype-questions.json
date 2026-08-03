@@ -1,0 +1,216 @@
+{
+  "phase": 4,
+  "total": 10,
+  "prototypes": [
+    {
+      "id": "proto-hist-01",
+      "templateId": "history_image_free_recall",
+      "status": "blocked_no_confirmed_images",
+      "reason": "890 image assets exist but 0 humanConfirmed. Requires image pipeline.",
+      "closestExamRef": "2022 Q5 専門1 建築史"
+    },
+    {
+      "id": "proto-hist-02",
+      "templateId": "history_image_wordbank_matching",
+      "status": "blocked_no_confirmed_images",
+      "reason": "Requires ≥10 entities with confirmed images + architect + style + period facts.",
+      "closestExamRef": "2019 Q5 専門1 建築史"
+    },
+    {
+      "id": "proto-env-01",
+      "templateId": "environment_numerical_calculation",
+      "status": "prototype",
+      "format": "numerical_calculation",
+      "subject": "environment",
+      "prompt": "【前提】G=0.015 m³/h, Ci=1000 ppm, Co=500 ppm。\n\n「CO2必要換気量」を求めなさい。途中の計算過程も示すこと。",
+      "correctAnswer": "Q = 0.015/(0.001-0.0005) = 30 m³/h",
+      "reasoningSteps": 2,
+      "assumptions": [
+        "定常状態",
+        "一様拡散"
+      ],
+      "closestExamRef": "2022 Q2 専門1 環境 (13/13年)",
+      "validation": {
+        "workedSolutionExists": true,
+        "assumptionsStated": true,
+        "multiStep": true
+      },
+      "fidelityRisks": []
+    },
+    {
+      "id": "proto-env-02",
+      "templateId": "environment_numerical_calculation",
+      "status": "prototype",
+      "format": "numerical_calculation",
+      "subject": "environment",
+      "prompt": "【前提】外壁: ho=0.04, hi=0.11, 断熱材 d=0.1m λ=0.04, RC d=0.15m λ=1.6。\n\n「熱貫流率」を求めなさい。途中の計算過程も示すこと。",
+      "correctAnswer": "R=0.04+2.5+0.094+0.11=2.744, U=1/2.744=0.36 W/m²·K",
+      "reasoningSteps": 3,
+      "assumptions": [
+        "定常状態",
+        "一次元定常熱伝導"
+      ],
+      "closestExamRef": "2022 Q2 専門1 環境 (13/13年)",
+      "validation": {
+        "workedSolutionExists": true,
+        "assumptionsStated": true,
+        "multiStep": true
+      },
+      "fidelityRisks": []
+    },
+    {
+      "id": "proto-env-cs-01",
+      "templateId": "environment_correct_statement",
+      "status": "prototype",
+      "format": "correct_statement_select",
+      "subject": "environment",
+      "prompt": "「heat_transfer」に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "誤：残響時間は室容積に反比例する",
+        "誤：必要換気量は室容積に比例する",
+        "誤：放射熱流は温度差に比例する",
+        "正：U値が小さいほど断熱性能が高い。Uは熱の通りやすさを表す。"
+      ],
+      "correctIndex": 3,
+      "correctAnswer": "U値が小さいほど断熱性能が高い。Uは熱の通りやすさを表す。",
+      "misconceptionBased": true,
+      "falseFromMisconceptionLib": true,
+      "closestExamRef": "5/13年 専門1 環境 正誤判断",
+      "validation": {
+        "allSameTopic": true,
+        "noMechanicalInversion": true,
+        "conceptualErrors": true
+      },
+      "fidelityRisks": [
+        "misconception_library_only_5_entries_environment"
+      ]
+    },
+    {
+      "id": "proto-env-cs-02",
+      "templateId": "environment_correct_statement",
+      "status": "prototype",
+      "format": "correct_statement_select",
+      "subject": "environment",
+      "prompt": "「ventilation」に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "誤：放射熱流は温度差に比例する",
+        "誤：残響時間は室容積に反比例する",
+        "正：必要換気量は汚染物質発生量と許容濃度差で決まり、室容積とは独立。",
+        "誤：熱貫流率Uが大きいほど断熱性能が高い"
+      ],
+      "correctIndex": 2,
+      "correctAnswer": "必要換気量は汚染物質発生量と許容濃度差で決まり、室容積とは独立。",
+      "misconceptionBased": true,
+      "falseFromMisconceptionLib": true,
+      "closestExamRef": "5/13年 専門1 環境 正誤判断",
+      "validation": {
+        "allSameTopic": true,
+        "noMechanicalInversion": true,
+        "conceptualErrors": true
+      },
+      "fidelityRisks": [
+        "misconception_library_only_5_entries_environment"
+      ]
+    },
+    {
+      "id": "proto-plan-ns-01",
+      "templateId": "planning_contextual_numeric_select",
+      "status": "prototype",
+      "format": "inline_numeric_select",
+      "subject": "planning",
+      "prompt": "【general】「事務室面積」の基準値として最も適切なものを選びなさい。\n\n(5~12m² 有効延べ床面積では1人当たり 10~20m² が目 ／ 1988年 ／ 走行幅: 80~90cm 、寸れ違う場合: 180cm以上 ／ 3.5~4.5m (高低層2グループの場合は 6~8m ))",
+      "options": [
+        "5~12m² 有効延べ床面積では1人当たり 10~20m² が目",
+        "1988年",
+        "走行幅: 80~90cm 、寸れ違う場合: 180cm以上",
+        "3.5~4.5m (高低層2グループの場合は 6~8m )"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "5~12m² 有効延べ床面積では1人当たり 10~20m² が目",
+      "contextualized": true,
+      "buildingUseContext": "general",
+      "closestExamRef": "2022 Q4 専門1 建築計画",
+      "validation": {
+        "sameUnit": true,
+        "contextProvided": true
+      },
+      "fidelityRisks": [
+        "values_from_planning_cache_not_verified_standards"
+      ]
+    },
+    {
+      "id": "proto-plan-ns-02",
+      "templateId": "planning_contextual_numeric_select",
+      "status": "prototype",
+      "format": "inline_numeric_select",
+      "subject": "planning",
+      "prompt": "【school】「ロック·プレーリー小学校」の基準値として最も適切なものを選びなさい。\n\n(5~12m² 有効延べ床面積では1人当たり 10~20m² が目 ／ 3.5~4.5m (高低層2グループの場合は 6~8m ) ／ 走行幅: 80~90cm 、寸れ違う場合: 180cm以上 ／ 1988年)",
+      "options": [
+        "5~12m² 有効延べ床面積では1人当たり 10~20m² が目",
+        "3.5~4.5m (高低層2グループの場合は 6~8m )",
+        "走行幅: 80~90cm 、寸れ違う場合: 180cm以上",
+        "1988年"
+      ],
+      "correctIndex": 3,
+      "correctAnswer": "1988年",
+      "contextualized": true,
+      "buildingUseContext": "school",
+      "closestExamRef": "2022 Q4 専門1 建築計画",
+      "validation": {
+        "sameUnit": true,
+        "contextProvided": true
+      },
+      "fidelityRisks": [
+        "values_from_planning_cache_not_verified_standards"
+      ]
+    },
+    {
+      "id": "proto-plan-cs-01",
+      "templateId": "planning_correct_statement",
+      "status": "prototype",
+      "format": "correct_statement_select",
+      "subject": "planning",
+      "prompt": "「hospital」の計画に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "正：一般病棟と療養病棟で異なる。また個室と多床室でも異なる。",
+        "誤：教室の必要面積は生徒数にのみ比例する",
+        "誤：階段室型はすべての住戸で2方向避難が確保できる"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "一般病棟と療養病棟で異なる。また個室と多床室でも異なる。",
+      "misconceptionBased": true,
+      "closestExamRef": "5/7年 専門1 計画 正誤判断",
+      "validation": {
+        "allSameUseType": true,
+        "noMechanicalInversion": true
+      },
+      "fidelityRisks": [
+        "misconception_library_only_3_entries_planning"
+      ]
+    },
+    {
+      "id": "proto-plan-cs-02",
+      "templateId": "planning_correct_statement",
+      "status": "prototype",
+      "format": "correct_statement_select",
+      "subject": "planning",
+      "prompt": "「school」の計画に関する次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "正：教育方法（一斉/グループ/個別）と教室運用率も影響する。",
+        "誤：病室の面積基準は全病棟で同一である",
+        "誤：階段室型はすべての住戸で2方向避難が確保できる"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "教育方法（一斉/グループ/個別）と教室運用率も影響する。",
+      "misconceptionBased": true,
+      "closestExamRef": "5/7年 専門1 計画 正誤判断",
+      "validation": {
+        "allSameUseType": true,
+        "noMechanicalInversion": true
+      },
+      "fidelityRisks": [
+        "misconception_library_only_3_entries_planning"
+      ]
+    }
+  ]
+}

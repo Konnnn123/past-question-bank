@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "purpose": "専門2-2建築史の能動想起候補。過去問適格性、歴史鎖上の役割、既存資料の準備度だけを定義し、未監査の事実本文は持たない。",
+  "selectionPolicy": {
+    "eligibility": [
+      "専門2-2で単体建築として直接出題された",
+      "専門2-2の様式・技術・保存テーマで代表例として必要",
+      "既出例を比較するために一つの差分を明確にできる"
+    ],
+    "roles": {
+      "anchor": "歴史鎖の主要節点。単体で構造・空間・歴史を想起する対象。",
+      "satellite": "アンカーとの比較時だけ呼び出す補助例。最初の無作為抽出には入れない。"
+    },
+    "profileStatus": {
+      "runtime-ready": "現行の正規化建築データに時代・場所・構造・空間・歴史・画像が揃い、verifiedである。",
+      "framework-merge-required": "過去問・既存フレーム資料には安全な内容があるが、実行時建築カードへ統合した想起プロファイルが未作成。",
+      "source-review-required": "候補として重要だが、正規化データにsource-needs-reviewが残る。事実カード作成前に再確認が必要。"
+    },
+    "recallProfile": {
+      "ready": "specialist-2-2-recall-profiles.jsonに監査済みの段階開示プロファイルがある。",
+      "missingDefault": "recallProfileフィールドがない場合は未作成として扱い、初回無作為抽出から除外する。"
+    }
+  },
+  "cases": [
+    {
+      "id": "building-6e028baa8a9c",
+      "role": "anchor",
+      "name": { "ja": "パンテオン", "zh": "万神殿", "en": "Pantheon" },
+      "eraGroup": "western-ancient-rome",
+      "styleThemes": ["古代ローマ", "ローマン・コンクリート", "集中式", "ドーム"],
+      "examRefs": [{ "year": 2026, "question": "Q3", "relation": "direct" }, { "year": 2014, "question": "Q6", "relation": "technology-example" }],
+      "chainIds": ["dome-centralized", "material-to-space"],
+      "profileStatus": "framework-merge-required",
+      "recallProfile": { "id": "recall-pantheon", "status": "ready" },
+      "profileSources": ["architecture-normalized-candidates", "history-style-cards", "technology-direct-countermeasures"],
+      "nextAction": "所在地と用語対訳を補い、ローマン・コンクリートの技術カードと統合する。"
+    },
+    {
+      "id": "building-ad7b5b62435c",
+      "role": "anchor",
+      "name": { "ja": "ハギア・ソフィア大聖堂", "zh": "圣索菲亚大教堂", "en": "Hagia Sophia" },
+      "eraGroup": "western-byzantine",
+      "styleThemes": ["ビザンツ", "ペンデンティブ", "集中式と長軸", "宗教空間"],
+      "examRefs": [{ "year": 2018, "question": "Q4", "relation": "direct" }, { "year": 2025, "question": "Q3", "relation": "direct" }],
+      "chainIds": ["dome-centralized", "sacred-structure-light"],
+      "profileStatus": "framework-merge-required",
+      "recallProfile": { "id": "recall-hagia-sophia", "status": "ready" },
+      "profileSources": ["architecture-normalized-candidates", "vertical-sample", "history-style-cards"],
+      "nextAction": "所在地、構造語、図示ラベルを縦断サンプルから統合する。"
+    },
+    {
+      "id": "building-supplemental-reims-cathedral",
+      "role": "anchor",
+      "name": { "ja": "ランス大聖堂", "zh": "兰斯大教堂", "en": "Reims Cathedral" },
+      "eraGroup": "western-gothic",
+      "styleThemes": ["ゴシック", "リブ・ヴォールト", "フライング・バットレス", "王権儀礼"],
+      "examRefs": [{ "year": 2024, "question": "Q3", "relation": "direct" }],
+      "chainIds": ["sacred-structure-light", "heritage-authenticity"],
+      "profileStatus": "runtime-ready",
+      "recallProfile": { "id": "recall-reims-cathedral", "status": "ready" },
+      "profileSources": ["architecture-normalized-candidates", "gothic-case-family"],
+      "nextAction": "30秒断面図と三つの想起必須語だけを抽出する。"
+    },
+    {
+      "id": "building-core-villa-rotonda",
+      "role": "anchor",
+      "name": { "ja": "ヴィラ・ロトンダ", "zh": "圆厅别墅", "en": "Villa Rotonda" },
+      "eraGroup": "western-renaissance",
+      "styleThemes": ["ルネサンス", "集中式", "比例", "敷地と幾何"],
+      "examRefs": [{ "year": 2018, "question": "Q4", "relation": "direct" }],
+      "chainIds": ["dome-centralized", "classical-order-reinterpretation"],
+      "profileStatus": "runtime-ready",
+      "recallProfile": { "id": "recall-villa-rotonda", "status": "ready" },
+      "profileSources": ["architecture-normalized-candidates", "renaissance-case-family"],
+      "nextAction": "中央円形広間、四面ポルティコ、眺望の三点へ圧縮する。"
+    },
+    {
+      "id": "building-core-crystal-palace",
+      "role": "anchor",
+      "name": { "ja": "水晶宮（クリスタル・パレス）", "zh": "水晶宫", "en": "Crystal Palace" },
+      "eraGroup": "western-industrial-revolution",
+      "styleThemes": ["鉄とガラス", "プレファブリケーション", "万国博覧会", "工業生産"],
+      "examRefs": [{ "year": 2018, "question": "Q5", "relation": "direct-theme" }],
+      "chainIds": ["material-to-space", "industrial-to-modern"],
+      "profileStatus": "runtime-ready",
+      "recallProfile": { "id": "recall-crystal-palace", "status": "ready" },
+      "profileSources": ["architecture-normalized-candidates", "modern-long-span-case-family", "technology-direct-countermeasures"],
+      "nextAction": "部材反復、短工期、大展示空間の因果へ圧縮する。"
+    },
+    {
+      "id": "building-8b870f1608b2",
+      "role": "anchor",
+      "name": { "ja": "サヴォア邸", "zh": "萨伏伊别墅", "en": "Villa Savoye" },
+      "eraGroup": "western-modernism",
+      "styleThemes": ["近代建築の五原則", "自由平面", "建築的プロムナード", "機械時代"],
+      "examRefs": [{ "year": 2025, "question": "Q3", "relation": "direct" }, { "year": 2020, "question": "Q5", "relation": "five-points-theme" }, { "year": 2026, "question": "Q4", "relation": "five-points-theme" }],
+      "chainIds": ["industrial-to-modern", "modernism-contrasts"],
+      "profileStatus": "framework-merge-required",
+      "profileSources": ["architecture-data", "history-movement-cards", "single-building-safe-table"],
+      "nextAction": "正規化カードに構造・空間がないため、五原則カードと建築カードを統合する。"
+    },
+    {
+      "id": "building-4a300426c168",
+      "role": "anchor",
+      "name": { "ja": "法隆寺五重塔", "zh": "法隆寺五重塔", "en": "Five-story Pagoda of Hōryū-ji" },
+      "eraGroup": "japan-asuka",
+      "styleThemes": ["飛鳥建築", "仏教伝来", "木造塔", "大陸技術の受容"],
+      "examRefs": [{ "year": 2025, "question": "Q3", "relation": "direct" }],
+      "chainIds": ["japan-cultural-transfer", "japan-timber-systems"],
+      "profileStatus": "framework-merge-required",
+      "profileSources": ["architecture-normalized-candidates", "history-style-cards"],
+      "nextAction": "金堂との複合カードから五重塔だけの想起項目を分離する。"
+    },
+    {
+      "id": "building-09c88b57e4c8",
+      "role": "anchor",
+      "name": { "ja": "伊勢神宮内宮正殿", "zh": "伊势神宫内宫正殿", "en": "Inner Shrine of Ise Jingū" },
+      "eraGroup": "japan-shrine-archetype",
+      "styleThemes": ["神明造", "式年遷宮", "高床", "技術と祭祀の継承"],
+      "examRefs": [{ "year": 2026, "question": "Q3", "relation": "direct" }],
+      "chainIds": ["japan-timber-systems", "heritage-authenticity"],
+      "profileStatus": "source-review-required",
+      "profileSources": ["architecture-normalized-candidates", "shrine-case-family", "shrine-style-cards"],
+      "nextAction": "source-needs-reviewを解消し、現存社殿年代と形式起源を分ける。"
+    },
+    {
+      "id": "building-13b897c12c40",
+      "role": "anchor",
+      "name": { "ja": "浄土寺浄土堂", "zh": "净土寺净土堂", "en": "Jōdo-ji Jōdodō" },
+      "eraGroup": "japan-kamakura-daibutsuyo",
+      "styleThemes": ["大仏様", "重源", "貫と挿肘木", "宋代技術の受容"],
+      "examRefs": [{ "year": 2026, "question": "Q3", "relation": "direct" }, { "year": 2014, "question": "Q7", "relation": "safe-choice" }],
+      "chainIds": ["japan-cultural-transfer", "japan-timber-systems"],
+      "profileStatus": "framework-merge-required",
+      "recallProfile": { "id": "recall-jodoji-jododo", "status": "ready" },
+      "profileSources": ["architecture-normalized-candidates", "vertical-sample", "japanese-temple-case-family"],
+      "nextAction": "縦断サンプルの構造・空間・歴史を正規化想起プロファイルへ統合する。"
+    },
+    {
+      "id": "building-62de22f13d90",
+      "role": "anchor",
+      "name": { "ja": "円覚寺舎利殿", "zh": "圆觉寺舍利殿", "en": "Shariden of Engaku-ji" },
+      "eraGroup": "japan-kamakura-zenshuyo",
+      "styleThemes": ["禅宗様", "詰組", "扇垂木", "禅宗文化の受容"],
+      "examRefs": [{ "year": 2024, "question": "Q3", "relation": "direct" }, { "year": 2014, "question": "Q7", "relation": "safe-choice" }],
+      "chainIds": ["japan-cultural-transfer", "japan-timber-systems"],
+      "profileStatus": "source-review-required",
+      "profileSources": ["architecture-normalized-candidates", "japanese-temple-case-family", "history-style-cards"],
+      "nextAction": "source-needs-reviewを解消し、大仏様との差分を同じ比較軸で固定する。"
+    },
+    {
+      "id": "building-7da3f3b68c2e",
+      "role": "anchor",
+      "name": { "ja": "慈照寺東求堂（同仁斎）", "zh": "慈照寺东求堂（同仁斋）", "en": "Tōgudō at Jishō-ji (Dōjinsai)" },
+      "eraGroup": "japan-muromachi-shoin",
+      "styleThemes": ["書院造", "東山文化", "座敷", "室内秩序"],
+      "examRefs": [{ "year": 2018, "question": "Q4", "relation": "direct" }, { "year": 2025, "question": "Q4", "relation": "shoin-theme" }],
+      "chainIds": ["japan-domestic-space"],
+      "profileStatus": "framework-merge-required",
+      "recallProfile": { "id": "recall-jisho-ji-togudo", "status": "ready" },
+      "profileSources": ["architecture-normalized-candidates", "history-style-cards", "style-evolution-data"],
+      "nextAction": "建物全体と同仁斎の室内要素を混同しない想起項目に分ける。"
+    },
+    {
+      "id": "building-2b8a2c2ac9ef",
+      "role": "anchor",
+      "name": { "ja": "旧開智学校校舎", "zh": "旧开智学校校舍", "en": "Former Kaichi School" },
+      "eraGroup": "japan-early-meiji-giyofu",
+      "styleThemes": ["擬洋風", "在来木造", "文明開化", "文化翻訳"],
+      "examRefs": [{ "year": 2018, "question": "Q5", "relation": "giyofu-example" }, { "year": 2025, "question": "Q4", "relation": "giyofu-example" }],
+      "chainIds": ["japan-cultural-transfer", "heritage-authenticity"],
+      "profileStatus": "framework-merge-required",
+      "profileSources": ["architecture-data", "history-style-cards", "six-theme-judgment-cards"],
+      "nextAction": "正規化カードに構造・空間がないため、擬洋風テーマの検証済み内容を統合する。"
+    },
+    {
+      "id": "building-614c59064a55",
+      "role": "anchor",
+      "name": { "ja": "国立代々木競技場", "zh": "国立代代木竞技场", "en": "Yoyogi National Gymnasium" },
+      "eraGroup": "japan-postwar-structural-expression",
+      "styleThemes": ["吊屋根", "大スパン", "丹下健三", "近代建築保存"],
+      "examRefs": [{ "year": 2022, "question": "Q5", "relation": "direct" }],
+      "chainIds": ["industrial-to-modern", "heritage-authenticity"],
+      "profileStatus": "framework-merge-required",
+      "recallProfile": { "id": "recall-yoyogi-national-gymnasium", "status": "ready" },
+      "profileSources": ["architecture-data", "modern-long-span-case-family", "past-question-audit"],
+      "nextAction": "国立屋内総合競技場という旧データ名を正規表示名へ統一し、構造・空間を補う。"
+    },
+    {
+      "id": "building-ab6876cdf5f3",
+      "role": "anchor",
+      "name": { "ja": "中銀カプセルタワービル", "zh": "中银胶囊塔", "en": "Nakagin Capsule Tower" },
+      "eraGroup": "japan-metabolism",
+      "styleThemes": ["メタボリズム", "固定コア", "交換単位", "保存と解体"],
+      "examRefs": [{ "year": 2026, "question": "Q3", "relation": "direct" }, { "year": 2024, "question": "Q4", "relation": "metabolism-term" }],
+      "chainIds": ["metabolism-systems", "heritage-authenticity"],
+      "profileStatus": "framework-merge-required",
+      "recallProfile": { "id": "recall-nakagin-capsule-tower", "status": "ready" },
+      "profileSources": ["architecture-data", "vertical-sample", "style-evolution-data"],
+      "nextAction": "縦断サンプルを統合し、設計上の交換可能性と実際の更新実績を区別する。"
+    },
+    {
+      "id": "building-2704d2af1286",
+      "role": "satellite",
+      "name": { "ja": "カラカラ浴場", "zh": "卡拉卡拉浴场", "en": "Baths of Caracalla" },
+      "eraGroup": "western-ancient-rome",
+      "styleThemes": ["ローマン・コンクリート", "ヴォールト", "公共施設"],
+      "examRefs": [{ "year": 2014, "question": "Q6", "relation": "technology-example" }],
+      "chainIds": ["material-to-space"],
+      "profileStatus": "framework-merge-required",
+      "profileSources": ["architecture-data", "technology-direct-countermeasures"],
+      "nextAction": "パンテオンとの差分だけを三点に限定する。"
+    },
+    {
+      "id": "building-4a787cf0bd1b",
+      "role": "satellite",
+      "name": { "ja": "サンタ・コスタンツァ廟堂", "zh": "圣康斯坦察陵堂", "en": "Santa Costanza" },
+      "eraGroup": "western-early-christian",
+      "styleThemes": ["集中式", "周歩廊", "初期キリスト教"],
+      "examRefs": [{ "year": 2024, "question": "Q3", "relation": "direct" }],
+      "chainIds": ["dome-centralized"],
+      "profileStatus": "framework-merge-required",
+      "profileSources": ["architecture-normalized-candidates", "history-style-cards"],
+      "nextAction": "パンテオンからキリスト教集中堂への転用関係を一問化する。"
+    },
+    {
+      "id": "building-0260c34dc1be",
+      "role": "satellite",
+      "name": { "ja": "パリのノートル＝ダム大聖堂", "zh": "巴黎圣母院", "en": "Notre-Dame de Paris" },
+      "eraGroup": "western-gothic",
+      "styleThemes": ["ゴシック", "19世紀修復", "2019年火災", "真正性"],
+      "examRefs": [{ "year": 2020, "question": "Q4", "relation": "direct" }],
+      "chainIds": ["sacred-structure-light", "heritage-authenticity"],
+      "profileStatus": "framework-merge-required",
+      "profileSources": ["architecture-data", "gothic-case-family", "six-theme-judgment-cards"],
+      "nextAction": "ランスの構造カードに対する保存・修復衛星として整える。"
+    },
+    {
+      "id": "building-d788e3555873",
+      "role": "satellite",
+      "name": { "ja": "落水荘", "zh": "流水别墅", "en": "Fallingwater" },
+      "eraGroup": "western-modernism-organic",
+      "styleThemes": ["有機的建築", "片持床", "場所と材料"],
+      "examRefs": [{ "year": 2022, "question": "Q1", "relation": "direct" }],
+      "chainIds": ["modernism-contrasts"],
+      "profileStatus": "framework-merge-required",
+      "profileSources": ["architecture-data", "single-building-safe-table"],
+      "nextAction": "サヴォア邸との比較に必要な場所・構造・動線の三点だけを抽出する。"
+    },
+    {
+      "id": "building-0b0fbab86d30",
+      "role": "satellite",
+      "name": { "ja": "ポンピドゥー・センター", "zh": "蓬皮杜中心", "en": "Centre Pompidou" },
+      "eraGroup": "western-high-tech",
+      "styleThemes": ["外部構造", "設備可視化", "自由な大床", "都市動線"],
+      "examRefs": [{ "year": 2016, "question": "Q3", "relation": "direct-identification" }],
+      "chainIds": ["industrial-to-modern"],
+      "profileStatus": "framework-merge-required",
+      "profileSources": ["architecture-data", "single-building-safe-table", "history-style-cards"],
+      "nextAction": "断面根拠三点をそのまま想起プロファイルへ移す。"
+    },
+    {
+      "id": "building-aeb9da82ed0e",
+      "role": "satellite",
+      "name": { "ja": "東大寺南大門", "zh": "东大寺南大门", "en": "Great South Gate of Tōdai-ji" },
+      "eraGroup": "japan-kamakura-daibutsuyo",
+      "styleThemes": ["大仏様", "東大寺再建", "貫", "挿肘木"],
+      "examRefs": [{ "year": 2014, "question": "Q7", "relation": "safe-choice" }],
+      "chainIds": ["japan-cultural-transfer", "japan-timber-systems"],
+      "profileStatus": "framework-merge-required",
+      "profileSources": ["architecture-normalized-candidates", "japanese-temple-case-family", "single-building-safe-table"],
+      "nextAction": "鐘楼との複合カードから南大門だけを分離し、浄土堂との差分を固定する。"
+    },
+    {
+      "id": "building-supplemental-yamanashi-culture-hall",
+      "role": "satellite",
+      "name": { "ja": "山梨文化会館", "zh": "山梨文化会馆", "en": "Yamanashi Press and Broadcasting Center" },
+      "eraGroup": "japan-metabolism",
+      "styleThemes": ["メタボリズム", "円筒コア", "成長可能性", "増築"],
+      "examRefs": [{ "year": 2022, "question": "Q1", "relation": "direct" }],
+      "chainIds": ["metabolism-systems"],
+      "profileStatus": "runtime-ready",
+      "profileSources": ["architecture-normalized-candidates", "single-building-safe-table"],
+      "nextAction": "中銀との比較衛星として固定部分・可変部分・実際の増築を抽出する。"
+    }
+  ],
+  "chains": [
+    {
+      "id": "dome-centralized",
+      "name": { "ja": "ドームと集中式空間", "zh": "穹顶与集中式空间", "en": "Domes and centralized space" },
+      "caseIds": ["building-6e028baa8a9c", "building-4a787cf0bd1b", "building-ad7b5b62435c", "building-core-villa-rotonda"],
+      "bridgeQuestion": "壁体支持、周歩廊、ペンデンティブ、比例幾何は、中心空間の意味と使い方をどう変えたか。"
+    },
+    {
+      "id": "sacred-structure-light",
+      "name": { "ja": "宗教建築の構造と光", "zh": "宗教建筑的结构与光", "en": "Structure and light in sacred architecture" },
+      "caseIds": ["building-ad7b5b62435c", "building-supplemental-reims-cathedral", "building-0260c34dc1be"],
+      "bridgeQuestion": "ドーム系とゴシック骨架は、それぞれ支持と採光をどう統合したか。"
+    },
+    {
+      "id": "material-to-space",
+      "name": { "ja": "材料・生産から空間へ", "zh": "从材料与生产到空间", "en": "From material and production to space" },
+      "caseIds": ["building-6e028baa8a9c", "building-2704d2af1286", "building-core-crystal-palace", "building-614c59064a55"],
+      "bridgeQuestion": "材料、部材生産、主応力の変化は、どのような大空間を可能にしたか。"
+    },
+    {
+      "id": "classical-order-reinterpretation",
+      "name": { "ja": "古典秩序の再解釈", "zh": "古典秩序的再解释", "en": "Reinterpreting classical order" },
+      "caseIds": ["building-6e028baa8a9c", "building-core-villa-rotonda"],
+      "bridgeQuestion": "古代ローマの構築とルネサンスの比例理念は、同じ集中式をどう異なる意味にしたか。"
+    },
+    {
+      "id": "japan-cultural-transfer",
+      "name": { "ja": "日本建築と外来文化の受容", "zh": "日本建筑与外来文化的吸收", "en": "Cultural transfer in Japanese architecture" },
+      "caseIds": ["building-4a300426c168", "building-13b897c12c40", "building-62de22f13d90", "building-2b8a2c2ac9ef"],
+      "bridgeQuestion": "外来形式は、誰を媒介に、どの部位で、在来技術へ翻訳されたか。"
+    },
+    {
+      "id": "japan-timber-systems",
+      "name": { "ja": "日本木造の形式・構法・継承", "zh": "日本木构的形式、构法与传承", "en": "Japanese timber systems and transmission" },
+      "caseIds": ["building-4a300426c168", "building-09c88b57e4c8", "building-13b897c12c40", "building-aeb9da82ed0e", "building-62de22f13d90"],
+      "bridgeQuestion": "塔・神社本殿・仏堂で、構法と更新制度はどのように異なるか。"
+    },
+    {
+      "id": "japan-domestic-space",
+      "name": { "ja": "日本住宅・座敷空間の固定化", "zh": "日本住宅与座敷空间的固定化", "en": "Formation of Japanese domestic interiors" },
+      "caseIds": ["building-7da3f3b68c2e"],
+      "relatedCardIds": ["style-shinden", "style-shoin", "style-sukiya"],
+      "bridgeQuestion": "寝殿造から書院造、数寄屋へ、室内の分節・座次・材料表現はどう変化したか。"
+    },
+    {
+      "id": "industrial-to-modern",
+      "name": { "ja": "工業化から現代建築システムへ", "zh": "从工业化到现代建筑系统", "en": "From industrialization to modern systems" },
+      "caseIds": ["building-core-crystal-palace", "building-8b870f1608b2", "building-614c59064a55", "building-0b0fbab86d30", "building-ab6876cdf5f3"],
+      "bridgeQuestion": "標準化、構造分離、設備、交換単位は、建築の自由度をどう変えたか。"
+    },
+    {
+      "id": "modernism-contrasts",
+      "name": { "ja": "二つの近代建築観", "zh": "两种现代建筑观", "en": "Contrasting modernisms" },
+      "caseIds": ["building-8b870f1608b2", "building-d788e3555873"],
+      "bridgeQuestion": "普遍的原則と場所への統合は、構造・動線・外皮にどう現れたか。"
+    },
+    {
+      "id": "metabolism-systems",
+      "name": { "ja": "メタボリズムの二つの成長機構", "zh": "新陈代谢派的两种成长机制", "en": "Two growth mechanisms in Metabolism" },
+      "caseIds": ["building-supplemental-yamanashi-culture-hall", "building-ab6876cdf5f3"],
+      "bridgeQuestion": "増床とカプセル交換は、固定部分と可変部分をどう分け、実際には何が実現したか。"
+    },
+    {
+      "id": "heritage-authenticity",
+      "name": { "ja": "保存・更新・真正性", "zh": "保存、更新与真实性", "en": "Conservation, renewal, and authenticity" },
+      "caseIds": ["building-09c88b57e4c8", "building-0260c34dc1be", "building-614c59064a55", "building-ab6876cdf5f3"],
+      "bridgeQuestion": "材料、形式、技術、使用、制度のうち、各事例では何を継承すべきか。"
+    }
+  ]
+}

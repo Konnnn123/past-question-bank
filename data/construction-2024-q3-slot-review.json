@@ -1,0 +1,27 @@
+{
+  "reviewId": "BC-002",
+  "status": "approved_slot_index",
+  "source": { "question": "data/processed_questions/2024_専門1_建筑构法_Q3.md", "answerIndex": "data/construction-exam-answers.json#2024:専門1:問題3:s01" },
+  "slots": [
+    {"slot":"a","expectedAnswer":"5000","answerType":"number","allowedVariants":["5,000"],"sourceLocation":"2024 Q3 paragraph 1"},
+    {"slot":"b","expectedAnswer":"800","answerType":"number","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 1"},
+    {"slot":"c","expectedAnswer":"12","answerType":"number","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 2"},
+    {"slot":"d","expectedAnswer":"10⁻⁵","answerType":"number","allowedVariants":["10^-5","1.0×10⁻⁵"],"sourceLocation":"2024 Q3 paragraph 3"},
+    {"slot":"e","expectedAnswer":"10⁻⁵","answerType":"number","allowedVariants":["10^-5","1.0×10⁻⁵"],"sourceLocation":"2024 Q3 paragraph 3"},
+    {"slot":"f","expectedAnswer":"4","answerType":"number","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 4"},
+    {"slot":"g","expectedAnswer":"450","answerType":"number","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 5"},
+    {"slot":"h","expectedAnswer":"レトロフィット","answerType":"term","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 6"},
+    {"slot":"i","expectedAnswer":"透湿防水","answerType":"material_or_method","allowedVariants":["透湿防水シート"],"sourceLocation":"2024 Q3 paragraph 7"},
+    {"slot":"j","expectedAnswer":"豆板","answerType":"defect","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 8"},
+    {"slot":"k","expectedAnswer":"留め","answerType":"method","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 9"},
+    {"slot":"l","expectedAnswer":"NLT","answerType":"material","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 10"},
+    {"slot":"m","expectedAnswer":"フランジ","answerType":"component","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 11"},
+    {"slot":"n","expectedAnswer":"逆打ち工法","answerType":"method","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 12"},
+    {"slot":"o","expectedAnswer":"かぶり","answerType":"detail","allowedVariants":["かぶり厚さ"],"sourceLocation":"2024 Q3 paragraph 13"},
+    {"slot":"p","expectedAnswer":"コールドフォーミング","answerType":"method","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 14"},
+    {"slot":"q","expectedAnswer":"燃えしろ","answerType":"detail","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 15"},
+    {"slot":"r","expectedAnswer":"巾木","answerType":"component","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 16"},
+    {"slot":"s","expectedAnswer":"まわり縁","answerType":"component","allowedVariants":["回り縁"],"sourceLocation":"2024 Q3 paragraph 16"},
+    {"slot":"t","expectedAnswer":"エッジ","answerType":"detail","allowedVariants":[],"sourceLocation":"2024 Q3 paragraph 17"}
+  ]
+}

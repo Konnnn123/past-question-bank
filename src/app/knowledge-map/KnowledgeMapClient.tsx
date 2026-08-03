@@ -9,6 +9,7 @@ import rehypeKatex from "rehype-katex";
 import { SidebarLayout, TocPanel } from "@/components/layout";
 import type { Question } from "@/types/question";
 import type { TocNode } from "@/types/layout";
+import { PracticeControls, PracticeFilterToggle, needsPractice, useStudyRecords } from "@/components/practice/PracticeControls";
 
 interface Props {
   content: string;
@@ -164,12 +165,17 @@ function RelatedQuestions({
   allQuestions: Question[];
 }) {
   const [openMap, setOpenMap] = useState<Record<string, boolean>>({});
+  const [onlyNeedsPractice, setOnlyNeedsPractice] = useState(false);
+  const studyRecords = useStudyRecords();
   const years = KP_YEAR_MAP[kpName] || [];
-  const related = allQuestions.filter(
+  const allRelated = allQuestions.filter(
     (q) => q.subject === "结构力学" && years.includes(q.year)
   );
+  const related = allRelated.filter(
+    (q) => !onlyNeedsPractice || needsPractice(q.id, studyRecords)
+  );
 
-  if (related.length === 0) return null;
+  if (allRelated.length === 0) return null;
 
   return (
     <div className="mt-3 ml-4">
@@ -177,6 +183,7 @@ function RelatedQuestions({
         <span className="text-xs font-semibold text-blue-700 bg-blue-50 px-2 py-1 rounded-md">
           📝 関連過去問 ({related.length}問)
         </span>
+        <PracticeFilterToggle active={onlyNeedsPractice} onChange={setOnlyNeedsPractice} count={related.length} />
       </div>
       <div className="space-y-2">
         {related.map((q) => {
@@ -226,7 +233,7 @@ function RelatedQuestions({
                 </div>
                 <div className="mt-2 pt-2 border-t border-gray-100 flex justify-end">
                   <Link
-                    href={`/question/${allQuestions.indexOf(q)}`}
+                    href={`/question/${q.id}`}
                     onClick={() =>
                       localStorage.setItem("questionReferrer", "/knowledge-map")
                     }
@@ -235,6 +242,7 @@ function RelatedQuestions({
                     全文を見る →
                   </Link>
                 </div>
+                <PracticeControls questionId={q.id} compact />
               </div>
             </details>
           );
@@ -244,10 +252,69 @@ function RelatedQuestions({
   );
 }
 
+// === 年度別過去問パネル ===
+
+function YearQuestionsPanel({
+  year,
+  allQuestions,
+}: {
+  year: number;
+  allQuestions: Question[];
+}) {
+  const related = allQuestions.filter(
+    (q) => q.subject === "结构力学" && q.year === year
+  );
+
+  if (related.length === 0) {
+    return (
+      <div className="p-4 text-xs text-gray-400">
+        {year}年の構造力学の問題は見つかりませんでした
+      </div>
+    );
+  }
+
+  return (
+    <div className="p-3">
+      <div className="flex items-center gap-2 mb-3">
+        <span className="text-xs font-semibold text-blue-700 bg-blue-50 px-2 py-1 rounded-md">
+          📝 {year}年 · 構造力学 ({related.length}問)
+        </span>
+      </div>
+      <div className="space-y-2">
+        {related.map((q, i) => (
+          <Link
+            key={`${q.year}-${q.question_number}-${i}`}
+            href={`/question/${q.id}`}
+            onClick={() =>
+              localStorage.setItem("questionReferrer", "/knowledge-map")
+            }
+            className="block border border-gray-200 rounded-lg overflow-hidden hover:border-blue-300 hover:shadow-sm transition-all"
+          >
+            <div className="px-3 py-2 bg-gray-50 flex items-center gap-2">
+              <span className="inline-flex items-center justify-center w-5 h-5 rounded bg-gray-900 text-white text-[9px] font-bold">
+                {q.question_number}
+              </span>
+              <span className="text-xs text-gray-500">{q.year}</span>
+              <span className="px-1.5 py-0.5 rounded bg-indigo-50 text-indigo-600 text-[10px] font-medium">
+                {q.category}
+              </span>
+            </div>
+            <div className="px-3 py-2 text-xs text-gray-600 leading-relaxed line-clamp-3">
+              {q.content.length > 150 ? q.content.slice(0, 150) + "..." : q.content}
+            </div>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 // === メインコンポーネント ===
 
 export default function KnowledgeMapClient({ content, questions }: Props) {
   const [activeId, setActiveId] = useState("");
+  const [selectedYear, setSelectedYear] = useState<number | null>(null);
+  const [sidebarTab, setSidebarTab] = useState<"toc" | "year">("toc");
 
   // TOC構築（TocPanel に渡す TocNode[]）
   const tocTree = useMemo(() => {
@@ -341,9 +408,31 @@ export default function KnowledgeMapClient({ content, questions }: Props) {
       th: ({ ...props }: React.HTMLAttributes<HTMLTableCellElement>) => (
         <th {...props} className="px-3 py-2 text-left text-xs font-semibold text-gray-700 border-b border-gray-200" />
       ),
-      td: ({ ...props }: React.HTMLAttributes<HTMLTableCellElement>) => (
-        <td {...props} className="px-3 py-2 border-b border-gray-100 text-sm" />
-      ),
+      td: ({ children, ...props }: React.HTMLAttributes<HTMLTableCellElement>) => {
+        const text = extractText(children);
+        const isYearCell = /^\d{4}$/.test(text.trim()) && parseInt(text.trim()) >= 2010;
+        if (isYearCell) {
+          const year = parseInt(text.trim());
+          return (
+            <td {...props} className="px-3 py-2 border-b border-gray-100 text-sm">
+              <button
+                onClick={() => {
+                  setSelectedYear(year);
+                  setSidebarTab("year");
+                }}
+                className="inline-flex items-center px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 text-xs font-medium hover:bg-blue-100 hover:text-blue-900 transition-colors cursor-pointer"
+              >
+                {year}年 ▸
+              </button>
+            </td>
+          );
+        }
+        return (
+          <td {...props} className="px-3 py-2 border-b border-gray-100 text-sm">
+            {children}
+          </td>
+        );
+      },
       pre: ({ ...props }: React.HTMLAttributes<HTMLPreElement>) => (
         <pre {...props} className="bg-gray-100 p-4 rounded-lg overflow-x-auto mb-3 text-sm" />
       ),
@@ -361,15 +450,54 @@ export default function KnowledgeMapClient({ content, questions }: Props) {
     [questions]
   );
 
-  // 将 TocPanel 注入到侧边栏
-  const sidebarSlot = <TocPanel tree={tocTree} activeId={activeId} />;
+  // サイドバーに TocPanel または YearQuestionsPanel を注入
+  const sidebarSlot = (
+    <div className="flex flex-col h-full">
+      {/* タブ切り替え */}
+      <div className="flex border-b border-gray-200 shrink-0">
+        <button
+          onClick={() => setSidebarTab("toc")}
+          className={`flex-1 px-3 py-2 text-xs font-medium transition-colors ${
+            sidebarTab === "toc"
+              ? "text-blue-700 border-b-2 border-blue-600 bg-blue-50/50"
+              : "text-gray-500 hover:text-gray-700 hover:bg-gray-50"
+          }`}
+        >
+          📋 目次
+        </button>
+        <button
+          onClick={() => setSidebarTab("year")}
+          className={`flex-1 px-3 py-2 text-xs font-medium transition-colors ${
+            sidebarTab === "year"
+              ? "text-blue-700 border-b-2 border-blue-600 bg-blue-50/50"
+              : "text-gray-500 hover:text-gray-700 hover:bg-gray-50"
+          }`}
+        >
+          📝 年度別
+        </button>
+      </div>
+      {/* パネル切替 */}
+      <div className="flex-1 overflow-y-auto">
+        {sidebarTab === "toc" ? (
+          <TocPanel tree={tocTree} activeId={activeId} />
+        ) : selectedYear ? (
+          <YearQuestionsPanel year={selectedYear} allQuestions={questions} />
+        ) : (
+          <div className="p-4 text-xs text-gray-400 text-center mt-8">
+            <div className="text-2xl mb-2">📅</div>
+            本文中の年度をクリックすると<br />該当する過去問が表示されます
+          </div>
+        )}
+      </div>
+    </div>
+  );
 
   return (
     <SidebarLayout slot={sidebarSlot}>
       <div>
         <header className="border-b border-gray-200 px-6 py-3 flex items-center justify-between sticky top-0 bg-white/80 backdrop-blur-sm z-20">
-          <Link href="/" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">
-            ← 問題一覧に戻る
+          <Link href="/practice" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">
+            ← 练习に戻る
           </Link>
           <span className="text-sm text-gray-500">構造力学 · 知識地図</span>
         </header>

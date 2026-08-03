@@ -1,0 +1,118 @@
+{
+  "stats": {
+    "S": 8,
+    "A": 10,
+    "B": 27,
+    "normal": 304
+  },
+  "coreBuildings": [
+    {
+      "id": "building-983cf5798337",
+      "nameJa": "大英博物館",
+      "priority": "A",
+      "reason": "過去問で2回確認された建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-ba42283edcef",
+      "nameJa": "テンピエット",
+      "priority": "S",
+      "reason": "過去問で3回確認された高頻度建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-08193cc0dffa",
+      "nameJa": "サンタ·マリア·デル·フィオー レ大聖堂",
+      "priority": "S",
+      "reason": "過去問で3回確認された高頻度建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-ad7b5b62435c",
+      "nameJa": "ハギア ソフィア大聖堂",
+      "priority": "S",
+      "reason": "過去問で3回確認された高頻度建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-4a787cf0bd1b",
+      "nameJa": "サンタ コスタンツァ廟堂",
+      "priority": "S",
+      "reason": "過去問で3回確認された高頻度建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-6e028baa8a9c",
+      "nameJa": "パンテオン",
+      "priority": "S",
+      "reason": "過去問で8回確認された高頻度建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-7da3f3b68c2e",
+      "nameJa": "慈照寺東求堂",
+      "priority": "A",
+      "reason": "過去問で2回確認された建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-fcca980cbbdc",
+      "nameJa": "円覚寺仏殿",
+      "priority": "A",
+      "reason": "過去問で2回確認された建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-5b0f2abb6fd1",
+      "nameJa": "長弓寺本堂",
+      "priority": "S",
+      "reason": "過去問で3回確認された高頻度建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-6368bca602fe",
+      "nameJa": "長寿寺本堂",
+      "priority": "A",
+      "reason": "過去問で2回確認された建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-62de22f13d90",
+      "nameJa": "円覚寺舎利殿",
+      "priority": "S",
+      "reason": "過去問で3回確認された高頻度建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-aeb9da82ed0e",
+      "nameJa": "東大寺南大門&鐘楼",
+      "priority": "A",
+      "reason": "過去問で2回確認された建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-09c88b57e4c8",
+      "nameJa": "伊勢神宮",
+      "priority": "S",
+      "reason": "過去問で3回確認された高頻度建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-c90fcc3d63b9",
+      "nameJa": "平等院凤凰堂",
+      "priority": "A",
+      "reason": "過去問で2回確認された建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-50b4a1f5a92c",
+      "nameJa": "室生寺金堂&五重塔",
+      "priority": "A",
+      "reason": "過去問で2回確認された建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-4a300426c168",
+      "nameJa": "法隆寺金堂&五重塔",
+      "priority": "A",
+      "reason": "過去問で2回確認された建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-b20352982a51",
+      "nameJa": "リチャーズ医学研究所",
+      "priority": "A",
+      "reason": "過去問で2回確認された建築。構造・空間・識別点を重点整理"
+    },
+    {
+      "id": "building-e005da0846ca",
+      "nameJa": "ファグス靴工場 fagus",
+      "priority": "A",
+      "reason": "過去問で2回確認された建築。構造・空間・識別点を重点整理"
+    }
+  ]
+}

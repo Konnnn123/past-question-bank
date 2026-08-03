@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640">
+  <rect width="1120" height="640" fill="#f7f4ed"/>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <text x="42" y="48" font-size="27" font-weight="700" fill="#17324d">T5 架構史｜形ではなく主応力と境界で分類する</text>
+    <text x="42" y="78" font-size="16" fill="#52606d">compression / bending / surface action / tension + construction sequence</text>
+    <g transform="translate(50 130)">
+      <text x="120" y="0" text-anchor="middle" font-size="21" font-weight="700" fill="#17324d">圧縮・組積</text>
+      <path d="M20 180 A100 100 0 0 1 220 180" fill="none" stroke="#b14f3b" stroke-width="28"/>
+      <path d="M30 178 L5 260 M210 178 L235 260" stroke="#17324d" stroke-width="24"/>
+      <path d="M120 72 L70 150 M120 72 L170 150" stroke="#2e7d75" stroke-width="5" marker-end="url(#arrow)"/>
+      <text x="120" y="310" text-anchor="middle" font-size="18" fill="#17324d">アーチ・ヴォールト・ドーム</text>
+      <text x="120" y="340" text-anchor="middle" font-size="16" fill="#52606d">推力＋厚い支持／控壁</text>
+    </g>
+    <g transform="translate(320 130)">
+      <text x="120" y="0" text-anchor="middle" font-size="21" font-weight="700" fill="#17324d">曲げ・軸力</text>
+      <line x1="10" y1="245" x2="230" y2="245" stroke="#17324d" stroke-width="9"/>
+      <path d="M10 245 L65 145 L120 245 L175 145 L230 245" fill="none" stroke="#17324d" stroke-width="8"/>
+      <path d="M120 75 V135" stroke="#2e7d75" stroke-width="5" marker-end="url(#arrow)"/>
+      <text x="120" y="310" text-anchor="middle" font-size="18" fill="#17324d">梁・トラス・ラーメン</text>
+      <text x="120" y="340" text-anchor="middle" font-size="16" fill="#52606d">曲げ／棒材の引張・圧縮</text>
+    </g>
+    <g transform="translate(590 130)">
+      <text x="120" y="0" text-anchor="middle" font-size="21" font-weight="700" fill="#17324d">面内力・曲面</text>
+      <path d="M15 245 Q120 65 225 245" fill="none" stroke="#b14f3b" stroke-width="13"/>
+      <line x1="10" y1="250" x2="230" y2="250" stroke="#17324d" stroke-width="7"/>
+      <path d="M120 72 L82 155 M120 72 L158 155" stroke="#2e7d75" stroke-width="5" marker-end="url(#arrow)"/>
+      <text x="120" y="310" text-anchor="middle" font-size="18" fill="#17324d">シェル・折板・網架</text>
+      <text x="120" y="340" text-anchor="middle" font-size="16" fill="#52606d">面として分散＋縁・支点</text>
+    </g>
+    <g transform="translate(860 130)">
+      <text x="120" y="0" text-anchor="middle" font-size="21" font-weight="700" fill="#17324d">張力・軽量</text>
+      <line x1="15" y1="110" x2="15" y2="250" stroke="#17324d" stroke-width="10"/><line x1="225" y1="110" x2="225" y2="250" stroke="#17324d" stroke-width="10"/>
+      <path d="M15 120 Q120 260 225 120" fill="none" stroke="#2e7d75" stroke-width="10"/>
+      <path d="M15 250 H225" stroke="#17324d" stroke-width="7"/>
+      <text x="120" y="310" text-anchor="middle" font-size="18" fill="#17324d">ケーブル・膜</text>
+      <text x="120" y="340" text-anchor="middle" font-size="16" fill="#52606d">張力＋アンカー／マスト</text>
+    </g>
+    <g font-size="18" fill="#52606d" text-anchor="middle">
+      <text x="560" y="520">共通比較軸：荷重 → 主応力 → 支点・境界 → 材料 → 接合 → 施工時安定 → 空間</text>
+      <text x="560" y="560" fill="#b14f3b">歴史化：新形式は材料だけでなく、計算・試験・工事組織と同時に成立する</text>
+      <text x="560" y="600" fill="#2e7d75">注意：実在建築は複数機構を併用し、形状名と構造挙動が一致しない場合がある</text>
+    </g>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2e7d75"/></marker></defs>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="650" viewBox="0 0 1160 650">
+  <rect width="1160" height="650" fill="#f7f4ed"/>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <text x="42" y="48" font-size="27" font-weight="700" fill="#17324d">T8 技術知識史｜知識媒体と検証可能性で分類する</text>
+    <text x="42" y="78" font-size="16" fill="#52606d">transmission / representation / calculation / testing / rules / material evidence</text>
+    <g transform="translate(45 140)" text-anchor="middle">
+      <g transform="translate(0 0)"><rect width="165" height="115" rx="12" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><text x="82" y="38" font-size="20" font-weight="700" fill="#17324d">伝承</text><text x="82" y="72" font-size="17" fill="#52606d">口伝・身体技能</text><text x="82" y="96" font-size="17" fill="#52606d">雛形</text></g>
+      <g transform="translate(185 0)"><rect width="165" height="115" rx="12" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="4"/><text x="82" y="38" font-size="20" font-weight="700" fill="#17324d">表現</text><text x="82" y="72" font-size="17" fill="#52606d">指図・実測図</text><text x="82" y="96" font-size="17" fill="#52606d">建築書・仕様</text></g>
+      <g transform="translate(370 0)"><rect width="165" height="115" rx="12" fill="#dcebea" stroke="#2e7d75" stroke-width="4"/><text x="82" y="38" font-size="20" font-weight="700" fill="#17324d">計算</text><text x="82" y="72" font-size="17" fill="#52606d">幾何・静力学</text><text x="82" y="96" font-size="17" fill="#52606d">荷重・性能予測</text></g>
+      <g transform="translate(555 0)"><rect width="165" height="115" rx="12" fill="#dcebea" stroke="#2e7d75" stroke-width="4"/><text x="82" y="38" font-size="20" font-weight="700" fill="#17324d">試験</text><text x="82" y="72" font-size="17" fill="#52606d">模型・材料試験</text><text x="82" y="96" font-size="17" fill="#52606d">実測・モニタリング</text></g>
+      <g transform="translate(740 0)"><rect width="165" height="115" rx="12" fill="#f6d8d1" stroke="#b14f3b" stroke-width="4"/><text x="82" y="38" font-size="20" font-weight="700" fill="#17324d">制度化</text><text x="82" y="72" font-size="17" fill="#52606d">規格・法規</text><text x="82" y="96" font-size="17" fill="#52606d">資格・責任</text></g>
+      <g transform="translate(925 0)"><rect width="165" height="115" rx="12" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><text x="82" y="38" font-size="20" font-weight="700" fill="#17324d">物証</text><text x="82" y="72" font-size="17" fill="#52606d">発掘・加工痕</text><text x="82" y="96" font-size="17" fill="#52606d">解体修理</text></g>
+    </g>
+    <path d="M85 330 H1075" stroke="#2e7d75" stroke-width="6" marker-end="url(#arrow)"/>
+    <text x="580" y="365" text-anchor="middle" font-size="18" fill="#2e7d75">知識の共有範囲と再現性は増えるが、経験知が不要になるわけではない</text>
+    <g font-size="18" fill="#52606d" text-anchor="middle">
+      <text x="580" y="435">設計史の鎖：経験則 → 図面化 → 計算可能化 → 試験による較正 → 規則化 → 事故・調査による改訂</text>
+      <text x="580" y="485">研究史の鎖：旧説 → 物証 → 確定範囲 → 比較復原 → 解釈更新 → 不確実性</text>
+      <text x="580" y="540" fill="#b14f3b">法規は技術進歩の終点ではなく、災害・市場・専門職・社会的許容を反映する</text>
+      <text x="580" y="585" fill="#17324d">答案では「何が分かったか」と「どの証拠なら何を言えるか」を分ける</text>
+    </g>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2e7d75"/></marker></defs>
+</svg>

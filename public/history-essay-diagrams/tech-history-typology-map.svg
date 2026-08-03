@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f7f4ed"/>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <text x="42" y="48" font-size="28" font-weight="700" fill="#17324d">建築技術史｜未知の対象を三軸で分類する</text>
+    <text x="42" y="80" font-size="17" fill="#52606d">choose 1–2 object types × 2–4 change mechanisms × 1 question operation</text>
+    <g transform="translate(40 125)">
+      <text x="160" y="0" text-anchor="middle" font-size="23" font-weight="700" fill="#17324d">T｜何が変わったか</text>
+      <g font-size="18" fill="#17324d">
+        <g transform="translate(0 25)"><rect width="320" height="52" rx="9" fill="#e8dfcd" stroke="#17324d" stroke-width="3"/><text x="18" y="33">T1　材料・資源</text></g>
+        <g transform="translate(0 84)"><rect width="320" height="52" rx="9" fill="#e8dfcd" stroke="#17324d" stroke-width="3"/><text x="18" y="33">T2　道具・加工・施工</text></g>
+        <g transform="translate(0 143)"><rect width="320" height="52" rx="9" fill="#e8dfcd" stroke="#17324d" stroke-width="3"/><text x="18" y="33">T3　部材・接合・支持点</text></g>
+        <g transform="translate(0 202)"><rect width="320" height="52" rx="9" fill="#e8dfcd" stroke="#17324d" stroke-width="3"/><text x="18" y="33">T4　寸法・モジュール・規格</text></g>
+        <g transform="translate(0 261)"><rect width="320" height="52" rx="9" fill="#e8dfcd" stroke="#17324d" stroke-width="3"/><text x="18" y="33">T5　架構・大スパン・空間</text></g>
+        <g transform="translate(0 320)"><rect width="320" height="52" rx="9" fill="#e8dfcd" stroke="#17324d" stroke-width="3"/><text x="18" y="33">T6　外皮・環境・安全</text></g>
+        <g transform="translate(0 379)"><rect width="320" height="52" rx="9" fill="#e8dfcd" stroke="#17324d" stroke-width="3"/><text x="18" y="33">T7　生産・職能・工業化</text></g>
+        <g transform="translate(0 438)"><rect width="320" height="52" rx="9" fill="#e8dfcd" stroke="#17324d" stroke-width="3"/><text x="18" y="33">T8　知識・検証・継承</text></g>
+      </g>
+    </g>
+    <g transform="translate(440 125)">
+      <text x="160" y="0" text-anchor="middle" font-size="23" font-weight="700" fill="#17324d">M｜なぜ変わったか</text>
+      <g font-size="17" fill="#17324d">
+        <g transform="translate(0 25)"><rect width="150" height="70" rx="9" fill="#dcebea" stroke="#2e7d75" stroke-width="3"/><text x="75" y="30" text-anchor="middle">M1 資源</text><text x="75" y="54" text-anchor="middle">供給</text></g>
+        <g transform="translate(170 25)"><rect width="150" height="70" rx="9" fill="#dcebea" stroke="#2e7d75" stroke-width="3"/><text x="75" y="30" text-anchor="middle">M2 道具</text><text x="75" y="54" text-anchor="middle">動力</text></g>
+        <g transform="translate(0 112)"><rect width="150" height="70" rx="9" fill="#dcebea" stroke="#2e7d75" stroke-width="3"/><text x="75" y="30" text-anchor="middle">M3 性能</text><text x="75" y="54" text-anchor="middle">災害</text></g>
+        <g transform="translate(170 112)"><rect width="150" height="70" rx="9" fill="#dcebea" stroke="#2e7d75" stroke-width="3"/><text x="75" y="30" text-anchor="middle">M4 規模</text><text x="75" y="54" text-anchor="middle">用途</text></g>
+        <g transform="translate(0 199)"><rect width="150" height="70" rx="9" fill="#dcebea" stroke="#2e7d75" stroke-width="3"/><text x="75" y="30" text-anchor="middle">M5 精度</text><text x="75" y="54" text-anchor="middle">標準化</text></g>
+        <g transform="translate(170 199)"><rect width="150" height="70" rx="9" fill="#dcebea" stroke="#2e7d75" stroke-width="3"/><text x="75" y="30" text-anchor="middle">M6 労働</text><text x="75" y="54" text-anchor="middle">組織</text></g>
+        <g transform="translate(0 286)"><rect width="150" height="70" rx="9" fill="#dcebea" stroke="#2e7d75" stroke-width="3"/><text x="75" y="30" text-anchor="middle">M7 移転</text><text x="75" y="54" text-anchor="middle">在地化</text></g>
+        <g transform="translate(170 286)"><rect width="150" height="70" rx="9" fill="#dcebea" stroke="#2e7d75" stroke-width="3"/><text x="75" y="30" text-anchor="middle">M8 表現</text><text x="75" y="54" text-anchor="middle">科学化</text></g>
+        <g transform="translate(0 373)"><rect width="150" height="70" rx="9" fill="#dcebea" stroke="#2e7d75" stroke-width="3"/><text x="75" y="30" text-anchor="middle">M9 市場</text><text x="75" y="54" text-anchor="middle">制度</text></g>
+        <g transform="translate(170 373)"><rect width="150" height="70" rx="9" fill="#dcebea" stroke="#2e7d75" stroke-width="3"/><text x="75" y="30" text-anchor="middle">M10 維持</text><text x="75" y="54" text-anchor="middle">保存</text></g>
+      </g>
+    </g>
+    <g transform="translate(840 125)">
+      <text x="160" y="0" text-anchor="middle" font-size="23" font-weight="700" fill="#17324d">O｜何を答えるか</text>
+      <g font-size="18" fill="#17324d">
+        <g transform="translate(0 25)"><rect width="320" height="62" rx="9" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="3"/><text x="20" y="38">O1　定義・特徴</text></g>
+        <g transform="translate(0 99)"><rect width="320" height="62" rx="9" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="3"/><text x="20" y="38">O2　歴史的変遷</text></g>
+        <g transform="translate(0 173)"><rect width="320" height="62" rx="9" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="3"/><text x="20" y="38">O3　比較</text></g>
+        <g transform="translate(0 247)"><rect width="320" height="62" rx="9" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="3"/><text x="20" y="38">O4　具体例による説明</text></g>
+        <g transform="translate(0 321)"><rect width="320" height="62" rx="9" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="3"/><text x="20" y="38">O5　証拠・研究史・評価</text></g>
+      </g>
+    </g>
+    <g stroke="#b14f3b" stroke-width="6" fill="none" marker-end="url(#arrow)"><path d="M365 670 H495"/><path d="M705 670 H835"/></g>
+    <text x="430" y="700" text-anchor="middle" font-size="18" fill="#b14f3b">1〜2類型</text>
+    <text x="770" y="700" text-anchor="middle" font-size="18" fill="#b14f3b">2〜4機制＋1操作</text>
+    <rect x="860" y="625" width="300" height="90" rx="14" fill="#f6d8d1" stroke="#b14f3b" stroke-width="4"/>
+    <text x="1010" y="660" text-anchor="middle" font-size="20" font-weight="700" fill="#17324d">因果答案</text>
+    <text x="1010" y="692" text-anchor="middle" font-size="17" fill="#52606d">条件→工程→システム→空間→限界</text>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#b14f3b"/></marker></defs>
+</svg>

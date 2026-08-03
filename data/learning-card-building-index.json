@@ -1,0 +1,1951 @@
+{
+  "version": 1,
+  "cards": {
+    "architect-andrea-palladio": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-a5ca1382dda6",
+          "buildingNameJa": "グィラ·ロトンダ"
+        }
+      ]
+    },
+    "architect-filippo-brunelleschi": {
+      "buildingCount": 4,
+      "buildings": [
+        {
+          "buildingId": "building-55bcad84815d",
+          "buildingNameJa": "サント·スピリト教会堂"
+        },
+        {
+          "buildingId": "building-04eee685030b",
+          "buildingNameJa": "孤児養育院"
+        },
+        {
+          "buildingId": "building-08193cc0dffa",
+          "buildingNameJa": "サンタ·マリア·デル·フィオー レ大聖堂"
+        },
+        {
+          "buildingId": "building-8cd277d72323",
+          "buildingNameJa": "フィレンツェのサンタ マリア デル フォオーレ大聖堂"
+        }
+      ]
+    },
+    "architect-francesco-borromini": {
+      "buildingCount": 3,
+      "buildings": [
+        {
+          "buildingId": "building-946ced19980b",
+          "buildingNameJa": "サン·カルロ·アッレ·ファット 口.ファンタ一ネ教会堂"
+        },
+        {
+          "buildingId": "building-52ebd62073e4",
+          "buildingNameJa": "サン.アンドレア·アル·クリナー レ教会堂"
+        },
+        {
+          "buildingId": "building-267f9240a144",
+          "buildingNameJa": "サン·カルロ·アッレ·ファット 口.ファンタ一ネ教会堂ド一ム"
+        }
+      ]
+    },
+    "architect-frank-lloyd-wright": {
+      "buildingCount": 6,
+      "buildings": [
+        {
+          "buildingId": "building-d6e67c9cd2e7",
+          "buildingNameJa": "東京帝国ホテル"
+        },
+        {
+          "buildingId": "building-d788e3555873",
+          "buildingNameJa": "落水荘・カウフマン邸"
+        },
+        {
+          "buildingId": "building-047bc7812a81",
+          "buildingNameJa": "ジョンソン・ワックス本社"
+        },
+        {
+          "buildingId": "building-9b933083f1e3",
+          "buildingNameJa": "グッゲンハイム美術館"
+        },
+        {
+          "buildingId": "building-6d209bbc01ae",
+          "buildingNameJa": "ウィンズロー邸 Winslow House"
+        },
+        {
+          "buildingId": "building-a52ed69b1219",
+          "buildingNameJa": "ロビー邸 Robie House"
+        }
+      ]
+    },
+    "architect-junzo-sakakura": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-de72e509407f",
+          "buildingNameJa": "神奈川県立近代美術館"
+        }
+      ]
+    },
+    "architect-kenzo-tange": {
+      "buildingCount": 4,
+      "buildings": [
+        {
+          "buildingId": "building-614c59064a55",
+          "buildingNameJa": "国立屋内総合競技場"
+        },
+        {
+          "buildingId": "building-e5f6e16d3076",
+          "buildingNameJa": "香川県庁舎"
+        },
+        {
+          "buildingId": "building-d5155f2d13f8",
+          "buildingNameJa": "広島平和会館"
+        },
+        {
+          "buildingId": "building-be29f430720e",
+          "buildingNameJa": "東京カテドラルマリア大聖堂"
+        }
+      ]
+    },
+    "architect-kingo-tatsuno": {
+      "buildingCount": 2,
+      "buildings": [
+        {
+          "buildingId": "building-59cdcfa88bbc",
+          "buildingNameJa": "日本銀行本店"
+        },
+        {
+          "buildingId": "building-cdd8ab01e640",
+          "buildingNameJa": "東京駅"
+        }
+      ]
+    },
+    "architect-kisho-kurokawa": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-ab6876cdf5f3",
+          "buildingNameJa": "中銀カプセルタワー"
+        }
+      ]
+    },
+    "architect-kiyonori-kikutake": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-198dc478b561",
+          "buildingNameJa": "スカイハウス"
+        }
+      ]
+    },
+    "architect-kunio-maekawa": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-fcadd9d8aed8",
+          "buildingNameJa": "東京文化会館"
+        }
+      ]
+    },
+    "architect-le-corbusier": {
+      "buildingCount": 7,
+      "buildings": [
+        {
+          "buildingId": "building-22e4a0161d72",
+          "buildingNameJa": "ニュートン記念堂設計案"
+        },
+        {
+          "buildingId": "building-a87e4710b857",
+          "buildingNameJa": "ラ・トゥーレットの修道院"
+        },
+        {
+          "buildingId": "building-10afb84fced6",
+          "buildingNameJa": "マルセイユのユニテ・ダビタシオン"
+        },
+        {
+          "buildingId": "building-c4025dd6fe21",
+          "buildingNameJa": "ロンシャンのノートル＝ダム・デュ・オー巡礼堂"
+        },
+        {
+          "buildingId": "building-c9f3dda9bb2a",
+          "buildingNameJa": "ドミノ・システム"
+        },
+        {
+          "buildingId": "building-8b870f1608b2",
+          "buildingNameJa": "サヴォア邸"
+        },
+        {
+          "buildingId": "building-4e6d87387c78",
+          "buildingNameJa": "エスプリ・ヌーヴォー館"
+        }
+      ]
+    },
+    "architect-leon-battista-alberti": {
+      "buildingCount": 3,
+      "buildings": [
+        {
+          "buildingId": "building-0ee81d61f938",
+          "buildingNameJa": "サン·ビ工卜口大聖堂計画案"
+        },
+        {
+          "buildingId": "building-325055375598",
+          "buildingNameJa": "サンタ·マリア·人ヴェッラ教会堂ファサード"
+        },
+        {
+          "buildingId": "building-7ba7c0bac3ad",
+          "buildingNameJa": "サンタンドレア教会堂"
+        }
+      ]
+    },
+    "architect-louis-kahn": {
+      "buildingCount": 3,
+      "buildings": [
+        {
+          "buildingId": "building-fe81538dbd32",
+          "buildingNameJa": "バングラディッシュ国会議場"
+        },
+        {
+          "buildingId": "building-b20352982a51",
+          "buildingNameJa": "リチャーズ医学研究所"
+        },
+        {
+          "buildingId": "building-326fc2a00827",
+          "buildingNameJa": "キンベル美術館"
+        }
+      ]
+    },
+    "architect-mamoru-yamada": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-e0c362fd2907",
+          "buildingNameJa": "東京中央電信局"
+        }
+      ]
+    },
+    "architect-mies-van-der-rohe": {
+      "buildingCount": 3,
+      "buildings": [
+        {
+          "buildingId": "building-ff0355f2b000",
+          "buildingNameJa": "バルセロナ・パビリオン Barcelona Pavilion"
+        },
+        {
+          "buildingId": "building-cf8992f029d5",
+          "buildingNameJa": "レイクショア・ドライブ・アパートメント Lake Shore Drive Apartment"
+        },
+        {
+          "buildingId": "building-ac1e0095c0b3",
+          "buildingNameJa": "ファンズワース邸 farnsworth house"
+        }
+      ]
+    },
+    "architect-otto-wagner": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-d2b6fd972d66",
+          "buildingNameJa": "カールスプラッツ駅舎"
+        }
+      ]
+    },
+    "architect-tadao-ando": {
+      "buildingCount": 2,
+      "buildings": [
+        {
+          "buildingId": "building-8fbd694e8705",
+          "buildingNameJa": "直島コンテンポラリーアートミュージアム"
+        },
+        {
+          "buildingId": "building-24e6845bdc15",
+          "buildingNameJa": "住吉の長屋"
+        }
+      ]
+    },
+    "architect-walter-gropius": {
+      "buildingCount": 2,
+      "buildings": [
+        {
+          "buildingId": "building-e77b587cf8db",
+          "buildingNameJa": "バウハウス校舎"
+        },
+        {
+          "buildingId": "building-e005da0846ca",
+          "buildingNameJa": "ファグス靴工場 fagus"
+        }
+      ]
+    },
+    "movement-art-nouveau": {
+      "buildingCount": 5,
+      "buildings": [
+        {
+          "buildingId": "building-e5451e641b70",
+          "buildingNameJa": "カタルーニャ音楽堂"
+        },
+        {
+          "buildingId": "building-f5c5481351e8",
+          "buildingNameJa": "ベーレンス自邸"
+        },
+        {
+          "buildingId": "building-60680a538837",
+          "buildingNameJa": "サグラダ・ファミリア"
+        },
+        {
+          "buildingId": "building-64593260cffe",
+          "buildingNameJa": "エルヴィラ写真工房"
+        },
+        {
+          "buildingId": "building-2030ac61e27f",
+          "buildingNameJa": "カステル・ベランジュ Castel Béranger"
+        }
+      ]
+    },
+    "movement-arts-crafts": {
+      "buildingCount": 4,
+      "buildings": [
+        {
+          "buildingId": "building-4cdd0314017d",
+          "buildingNameJa": "ムーア・クラッグ Moor Crag"
+        },
+        {
+          "buildingId": "building-5a0d1344f6ae",
+          "buildingNameJa": "ブラックウェルホール Blackwell Hall"
+        },
+        {
+          "buildingId": "building-2655faa28b18",
+          "buildingNameJa": "スタンデン Standen"
+        },
+        {
+          "buildingId": "building-81a0ff88492d",
+          "buildingNameJa": "赤い家"
+        }
+      ]
+    },
+    "movement-constructivism": {
+      "buildingCount": 5,
+      "buildings": [
+        {
+          "buildingId": "building-ab51368ef548",
+          "buildingNameJa": "カフェ・デ・ユニ"
+        },
+        {
+          "buildingId": "building-8e9fefd69a12",
+          "buildingNameJa": "ヴィラ・ヘニー"
+        },
+        {
+          "buildingId": "building-1258b29b9ae4",
+          "buildingNameJa": "レーニン研究所計画案"
+        },
+        {
+          "buildingId": "building-8e7427eb86b1",
+          "buildingNameJa": "第三インターナショナル記念塔計画案"
+        },
+        {
+          "buildingId": "building-50be283146d2",
+          "buildingNameJa": "雲の鐙"
+        }
+      ]
+    },
+    "movement-critical-regionalism": {
+      "buildingCount": 3,
+      "buildings": [
+        {
+          "buildingId": "building-326fc2a00827",
+          "buildingNameJa": "キンベル美術館"
+        },
+        {
+          "buildingId": "building-82ed59e0006c",
+          "buildingNameJa": "名護市庁舎"
+        },
+        {
+          "buildingId": "building-33ee6654afec",
+          "buildingNameJa": "セイナッツァロ村役場"
+        }
+      ]
+    },
+    "movement-de-stijl": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-da66ceebcc71",
+          "buildingNameJa": "シュレーダー邸"
+        }
+      ]
+    },
+    "movement-metabolism": {
+      "buildingCount": 2,
+      "buildings": [
+        {
+          "buildingId": "building-198dc478b561",
+          "buildingNameJa": "スカイハウス"
+        },
+        {
+          "buildingId": "building-ab6876cdf5f3",
+          "buildingNameJa": "中銀カプセルタワー"
+        }
+      ]
+    },
+    "movement-modernism": {
+      "buildingCount": 32,
+      "buildings": [
+        {
+          "buildingId": "building-24e6845bdc15",
+          "buildingNameJa": "住吉の長屋"
+        },
+        {
+          "buildingId": "building-77953d6c188f",
+          "buildingNameJa": "塔の家"
+        },
+        {
+          "buildingId": "building-ec7bed5d6412",
+          "buildingNameJa": "斎藤助教授の家"
+        },
+        {
+          "buildingId": "building-d787b6ef5fb1",
+          "buildingNameJa": "コアのあるH氏の住まい"
+        },
+        {
+          "buildingId": "building-614c59064a55",
+          "buildingNameJa": "国立屋内総合競技場"
+        },
+        {
+          "buildingId": "building-e5f6e16d3076",
+          "buildingNameJa": "香川県庁舎"
+        },
+        {
+          "buildingId": "building-de72e509407f",
+          "buildingNameJa": "神奈川県立近代美術館"
+        },
+        {
+          "buildingId": "building-fcadd9d8aed8",
+          "buildingNameJa": "東京文化会館"
+        },
+        {
+          "buildingId": "building-d5155f2d13f8",
+          "buildingNameJa": "広島平和会館"
+        },
+        {
+          "buildingId": "building-b20352982a51",
+          "buildingNameJa": "リチャーズ医学研究所"
+        },
+        {
+          "buildingId": "building-eb9edb68e1c5",
+          "buildingNameJa": "カステルヴェッキオ美術館"
+        },
+        {
+          "buildingId": "building-be29f430720e",
+          "buildingNameJa": "東京カテドラルマリア大聖堂"
+        },
+        {
+          "buildingId": "building-d1fbe34c55dd",
+          "buildingNameJa": "リーダーズダイジェスト東京支社"
+        },
+        {
+          "buildingId": "building-463dd52fce90",
+          "buildingNameJa": "パレスサイドビル"
+        },
+        {
+          "buildingId": "building-a6f56a900576",
+          "buildingNameJa": "レヴァーハウス"
+        },
+        {
+          "buildingId": "building-de2dcb207777",
+          "buildingNameJa": "甲子園ホテル"
+        },
+        {
+          "buildingId": "building-58e99c003436",
+          "buildingNameJa": "同潤会アパート"
+        },
+        {
+          "buildingId": "building-d418d1c8540b",
+          "buildingNameJa": "丸の内ビル"
+        },
+        {
+          "buildingId": "building-ff0355f2b000",
+          "buildingNameJa": "バルセロナ・パビリオン Barcelona Pavilion"
+        },
+        {
+          "buildingId": "building-ac1e0095c0b3",
+          "buildingNameJa": "ファンズワース邸 farnsworth house"
+        },
+        {
+          "buildingId": "building-a87e4710b857",
+          "buildingNameJa": "ラ・トゥーレットの修道院"
+        },
+        {
+          "buildingId": "building-6ab4d772c730",
+          "buildingNameJa": "プラン・ヴォワザン"
+        },
+        {
+          "buildingId": "building-10afb84fced6",
+          "buildingNameJa": "マルセイユのユニテ・ダビタシオン"
+        },
+        {
+          "buildingId": "building-c4025dd6fe21",
+          "buildingNameJa": "ロンシャンのノートル＝ダム・デュ・オー巡礼堂"
+        },
+        {
+          "buildingId": "building-c9f3dda9bb2a",
+          "buildingNameJa": "ドミノ・システム"
+        },
+        {
+          "buildingId": "building-8b870f1608b2",
+          "buildingNameJa": "サヴォア邸"
+        },
+        {
+          "buildingId": "building-e77b587cf8db",
+          "buildingNameJa": "バウハウス校舎"
+        },
+        {
+          "buildingId": "building-56d521bb3c75",
+          "buildingNameJa": "AEGタービン工場"
+        },
+        {
+          "buildingId": "building-5b915c32875a",
+          "buildingNameJa": "ケルン博モデル工場"
+        },
+        {
+          "buildingId": "building-047bc7812a81",
+          "buildingNameJa": "ジョンソン・ワックス本社"
+        },
+        {
+          "buildingId": "building-9b933083f1e3",
+          "buildingNameJa": "グッゲンハイム美術館"
+        },
+        {
+          "buildingId": "building-6d209bbc01ae",
+          "buildingNameJa": "ウィンズロー邸 Winslow House"
+        }
+      ]
+    },
+    "movement-postmodernism": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-2321465d2631",
+          "buildingNameJa": "ルーブル美術館"
+        }
+      ]
+    },
+    "movement-vienna-secession": {
+      "buildingCount": 2,
+      "buildings": [
+        {
+          "buildingId": "building-fcbefb6bae0c",
+          "buildingNameJa": "第２モール邸"
+        },
+        {
+          "buildingId": "building-6d85845f1af3",
+          "buildingNameJa": "ゼツェッシオン館"
+        }
+      ]
+    },
+    "style-ancient-egyptian": {
+      "buildingCount": 4,
+      "buildings": [
+        {
+          "buildingId": "building-be2c7ebc699e",
+          "buildingNameJa": "コンス神殿"
+        },
+        {
+          "buildingId": "building-569e8356ec2b",
+          "buildingNameJa": "ハトシェポスト女王葬祭神殿とメントゥホテップ2世葬祭神殿"
+        },
+        {
+          "buildingId": "building-76e521d49df9",
+          "buildingNameJa": "ギザの3大ピラミッド"
+        },
+        {
+          "buildingId": "building-e5fb076c8006",
+          "buildingNameJa": "ギザのマスタバ"
+        }
+      ]
+    },
+    "style-ancient-persian": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-8939ae388132",
+          "buildingNameJa": "ペルセポリス"
+        }
+      ]
+    },
+    "style-art-deco": {
+      "buildingCount": 7,
+      "buildings": [
+        {
+          "buildingId": "building-298d1495c77c",
+          "buildingNameJa": "帝国議会議事堂"
+        },
+        {
+          "buildingId": "building-68669d3b1704",
+          "buildingNameJa": "クライスラー・ビル"
+        },
+        {
+          "buildingId": "building-4677a1baf9e0",
+          "buildingNameJa": "バターシー発電所 Battersea Power Station"
+        },
+        {
+          "buildingId": "building-6e3ed8658b21",
+          "buildingNameJa": "クライスラー・ビルのエントランス・ホーム"
+        },
+        {
+          "buildingId": "building-e9b78591ea33",
+          "buildingNameJa": "マレ＝ステヴァンの住宅"
+        },
+        {
+          "buildingId": "building-4e6d87387c78",
+          "buildingNameJa": "エスプリ・ヌーヴォー館"
+        },
+        {
+          "buildingId": "building-4dc6e693a30b",
+          "buildingNameJa": "ボン・マルシェ百貨店館 Le Bon Marché"
+        }
+      ]
+    },
+    "style-asuka": {
+      "buildingCount": 2,
+      "buildings": [
+        {
+          "buildingId": "building-7c92cf7e3284",
+          "buildingNameJa": "平城宮朱雀門"
+        },
+        {
+          "buildingId": "building-e9d903f58f2c",
+          "buildingNameJa": "飛鳥寺"
+        }
+      ]
+    },
+    "style-baroque": {
+      "buildingCount": 16,
+      "buildings": [
+        {
+          "buildingId": "building-946ced19980b",
+          "buildingNameJa": "サン·カルロ·アッレ·ファット 口.ファンタ一ネ教会堂"
+        },
+        {
+          "buildingId": "building-9b71f0328835",
+          "buildingNameJa": "サン·フェルナンド施療院正面"
+        },
+        {
+          "buildingId": "building-5e8e9a9e1582",
+          "buildingNameJa": "ザンクト·ヨ八ネス·ネポムク教会堂"
+        },
+        {
+          "buildingId": "building-16250ffdb50a",
+          "buildingNameJa": "カールス·キルヒェ"
+        },
+        {
+          "buildingId": "building-e6a60a9bd70a",
+          "buildingNameJa": "フィアツェーンハイリゲン巡礼教会堂"
+        },
+        {
+          "buildingId": "building-955f9da228d5",
+          "buildingNameJa": "アマリーエンブルク「鏡の間」"
+        },
+        {
+          "buildingId": "building-e2b55d17d7c5",
+          "buildingNameJa": "ヴェルサイユ宮扎拝堂"
+        },
+        {
+          "buildingId": "building-84baf6ad4781",
+          "buildingNameJa": "オテル·ド·スーピーズ「夏の間」"
+        },
+        {
+          "buildingId": "building-602705adaa8d",
+          "buildingNameJa": "ブレニム宫"
+        },
+        {
+          "buildingId": "building-18161ddc56bc",
+          "buildingNameJa": "セント·マーティン=インザ=フィールズ救会堂"
+        },
+        {
+          "buildingId": "building-cdd2b38f5e21",
+          "buildingNameJa": "セント·ポール大聖堂"
+        },
+        {
+          "buildingId": "building-3d611a6972a2",
+          "buildingNameJa": "ヴェルサイユ宮"
+        },
+        {
+          "buildingId": "building-52ebd62073e4",
+          "buildingNameJa": "サン.アンドレア·アル·クリナー レ教会堂"
+        },
+        {
+          "buildingId": "building-267f9240a144",
+          "buildingNameJa": "サン·カルロ·アッレ·ファット 口.ファンタ一ネ教会堂ド一ム"
+        },
+        {
+          "buildingId": "building-3b0bd854f756",
+          "buildingNameJa": "サン·ピエトロ大聖堂"
+        },
+        {
+          "buildingId": "building-77cabbab5add",
+          "buildingNameJa": "赤坂離宮"
+        }
+      ]
+    },
+    "style-byzantine": {
+      "buildingCount": 8,
+      "buildings": [
+        {
+          "buildingId": "building-231d00d53353",
+          "buildingNameJa": "オシオス ルカス修道院"
+        },
+        {
+          "buildingId": "building-f13903fd9d85",
+          "buildingNameJa": "カレンデルハネ ジャミイ"
+        },
+        {
+          "buildingId": "building-372fdfca6bd0",
+          "buildingNameJa": "ダフニ修道院"
+        },
+        {
+          "buildingId": "building-6d305ccaf78d",
+          "buildingNameJa": "サン マルコ大聖堂"
+        },
+        {
+          "buildingId": "building-6fb83e2008c9",
+          "buildingNameJa": "サン ヴィターレ教会堂"
+        },
+        {
+          "buildingId": "building-022265addeed",
+          "buildingNameJa": "サン タポリナーレ ヌオーヴォ教会堂"
+        },
+        {
+          "buildingId": "building-ad7b5b62435c",
+          "buildingNameJa": "ハギア ソフィア大聖堂"
+        },
+        {
+          "buildingId": "building-cca8ea209149",
+          "buildingNameJa": "ニコライ堂"
+        }
+      ]
+    },
+    "style-carolingian": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-af04d03f3adb",
+          "buildingNameJa": "ザンクト ガレン修道院"
+        }
+      ]
+    },
+    "style-colonial": {
+      "buildingCount": 3,
+      "buildings": [
+        {
+          "buildingId": "building-175c47d31146",
+          "buildingNameJa": "泉布観"
+        },
+        {
+          "buildingId": "building-66f01ab788d4",
+          "buildingNameJa": "神戸居留地15番館"
+        },
+        {
+          "buildingId": "building-e81528e4bebc",
+          "buildingNameJa": "長崎居留地25番館"
+        }
+      ]
+    },
+    "style-daibutsuyo": {
+      "buildingCount": 2,
+      "buildings": [
+        {
+          "buildingId": "building-aeb9da82ed0e",
+          "buildingNameJa": "東大寺南大門&鐘楼"
+        },
+        {
+          "buildingId": "building-13b897c12c40",
+          "buildingNameJa": "浄土寺浄土堂"
+        }
+      ]
+    },
+    "style-early-christian": {
+      "buildingCount": 5,
+      "buildings": [
+        {
+          "buildingId": "building-71abd4892575",
+          "buildingNameJa": "サン ロレンツォ マッジョーレ教会堂"
+        },
+        {
+          "buildingId": "building-2893a6b19010",
+          "buildingNameJa": "聖墳墓教会堂"
+        },
+        {
+          "buildingId": "building-d3842d487638",
+          "buildingNameJa": "サンタ マリア マッジョーレ教会堂"
+        },
+        {
+          "buildingId": "building-4a787cf0bd1b",
+          "buildingNameJa": "サンタ コスタンツァ廟堂"
+        },
+        {
+          "buildingId": "building-ed4e5e6cf45e",
+          "buildingNameJa": "サンタ サビーナ教会堂"
+        }
+      ]
+    },
+    "style-expressionism": {
+      "buildingCount": 9,
+      "buildings": [
+        {
+          "buildingId": "building-9a075642b87b",
+          "buildingNameJa": "京都中央電話局上京分局庁舎"
+        },
+        {
+          "buildingId": "building-211c1c074528",
+          "buildingNameJa": "西陣織物館"
+        },
+        {
+          "buildingId": "building-ac7e459b112d",
+          "buildingNameJa": "京都中央電話局西陣分局"
+        },
+        {
+          "buildingId": "building-44a409f5a822",
+          "buildingNameJa": "大阪図書館"
+        },
+        {
+          "buildingId": "building-e0c362fd2907",
+          "buildingNameJa": "東京中央電信局"
+        },
+        {
+          "buildingId": "building-567a9fd73321",
+          "buildingNameJa": "ベルリン大劇場"
+        },
+        {
+          "buildingId": "building-79933ef41720",
+          "buildingNameJa": "アインシュタイン塔"
+        },
+        {
+          "buildingId": "building-89338f927e05",
+          "buildingNameJa": "チリ・ハウス"
+        },
+        {
+          "buildingId": "building-217da880d8e4",
+          "buildingNameJa": "ガラスの家 Glaspavillon"
+        }
+      ]
+    },
+    "style-giyofu": {
+      "buildingCount": 5,
+      "buildings": [
+        {
+          "buildingId": "building-29692e316552",
+          "buildingNameJa": "琵琶湖疏水運河橋"
+        },
+        {
+          "buildingId": "building-59bee5939869",
+          "buildingNameJa": "西田川郡役所"
+        },
+        {
+          "buildingId": "building-2b8a2c2ac9ef",
+          "buildingNameJa": "旧開智学校校舎"
+        },
+        {
+          "buildingId": "building-ebc81b20ef22",
+          "buildingNameJa": "旧済生館本館"
+        },
+        {
+          "buildingId": "building-c19af7692d19",
+          "buildingNameJa": "第一国立银行"
+        }
+      ]
+    },
+    "style-gongen": {
+      "buildingCount": 6,
+      "buildings": [
+        {
+          "buildingId": "building-cce59920effa",
+          "buildingNameJa": "泉穴師神社本殿"
+        },
+        {
+          "buildingId": "building-6b76edbfea8c",
+          "buildingNameJa": "大崎八幡宮"
+        },
+        {
+          "buildingId": "building-a8f20ccfc89c",
+          "buildingNameJa": "北野天満宮"
+        },
+        {
+          "buildingId": "building-f78ab4f94be1",
+          "buildingNameJa": "日光東照宮"
+        },
+        {
+          "buildingId": "building-6c0fae423ffc",
+          "buildingNameJa": "建水分神社本殿"
+        },
+        {
+          "buildingId": "building-90bcdc8fcb09",
+          "buildingNameJa": "錦織神社本殿"
+        }
+      ]
+    },
+    "style-gothic": {
+      "buildingCount": 13,
+      "buildings": [
+        {
+          "buildingId": "building-8cd277d72323",
+          "buildingNameJa": "フィレンツェのサンタ マリア デル フォオーレ大聖堂"
+        },
+        {
+          "buildingId": "building-6ffa23aebe74",
+          "buildingNameJa": "バルセロナ大聖堂"
+        },
+        {
+          "buildingId": "building-83d00fdd1e3a",
+          "buildingNameJa": "ミラノ大聖堂"
+        },
+        {
+          "buildingId": "building-0f5144d82ae7",
+          "buildingNameJa": "ウィーンのシュテファン大聖堂"
+        },
+        {
+          "buildingId": "building-dfbf951bc2a6",
+          "buildingNameJa": "ウルム大聖堂"
+        },
+        {
+          "buildingId": "building-bc5e47ef4b62",
+          "buildingNameJa": "ケルン大聖堂"
+        },
+        {
+          "buildingId": "building-7160b9195147",
+          "buildingNameJa": "ソールズベリ大聖堂"
+        },
+        {
+          "buildingId": "building-84ef734da543",
+          "buildingNameJa": "ルアンのサン＝マクルー教会堂"
+        },
+        {
+          "buildingId": "building-0430a57bbb97",
+          "buildingNameJa": "シャルトルのノートル＝ダム大聖堂"
+        },
+        {
+          "buildingId": "building-d9446d1ef354",
+          "buildingNameJa": "サント シャペル"
+        },
+        {
+          "buildingId": "building-c374f5b9ad62",
+          "buildingNameJa": "ピエルフォン城"
+        },
+        {
+          "buildingId": "building-0260c34dc1be",
+          "buildingNameJa": "パリのナートル＝ダム大聖堂"
+        },
+        {
+          "buildingId": "building-13707b7e3bdb",
+          "buildingNameJa": "アミアンのノートル＝ダム大聖堂"
+        }
+      ]
+    },
+    "style-greek": {
+      "buildingCount": 7,
+      "buildings": [
+        {
+          "buildingId": "building-e74caa523a93",
+          "buildingNameJa": "アゴラ"
+        },
+        {
+          "buildingId": "building-3e073d1b3860",
+          "buildingNameJa": "アッタロスのストア"
+        },
+        {
+          "buildingId": "building-447bf49194ae",
+          "buildingNameJa": "エピダウロスの劇場"
+        },
+        {
+          "buildingId": "building-28e43c77fb17",
+          "buildingNameJa": "アテネのアクロポリス"
+        },
+        {
+          "buildingId": "building-28369e885450",
+          "buildingNameJa": "プロピュライア"
+        },
+        {
+          "buildingId": "building-d3a0925a13d7",
+          "buildingNameJa": "エレクテイオン"
+        },
+        {
+          "buildingId": "building-e103164c6ab5",
+          "buildingNameJa": "パルテノン神殿"
+        }
+      ]
+    },
+    "style-hachiman": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-b546e1ce422c",
+          "buildingNameJa": "宇佐神宫本殿"
+        }
+      ]
+    },
+    "style-hakuho": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-8837236fe047",
+          "buildingNameJa": "薬師寺東塔"
+        }
+      ]
+    },
+    "style-high-tech": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-0b0fbab86d30",
+          "buildingNameJa": "ポンピドゥーセンター"
+        }
+      ]
+    },
+    "style-historicism": {
+      "buildingCount": 17,
+      "buildings": [
+        {
+          "buildingId": "building-74a48dc75410",
+          "buildingNameJa": "バイエルン国立図書館"
+        },
+        {
+          "buildingId": "building-1a84c81136b0",
+          "buildingNameJa": "フランス国立図書館"
+        },
+        {
+          "buildingId": "building-da08295af934",
+          "buildingNameJa": "ウィーン王立劇場ブルク劇場"
+        },
+        {
+          "buildingId": "building-e528f8fbec52",
+          "buildingNameJa": "オべラ座"
+        },
+        {
+          "buildingId": "building-0371180b1200",
+          "buildingNameJa": "サン·ドニ·ド·レストレ教会堂"
+        },
+        {
+          "buildingId": "building-8d513d2d5203",
+          "buildingNameJa": "王立裁判所"
+        },
+        {
+          "buildingId": "building-39901e377630",
+          "buildingNameJa": "英国国会議事堂"
+        },
+        {
+          "buildingId": "building-3f4d6bd24de7",
+          "buildingNameJa": "ロイヤル·パヴィリオン"
+        },
+        {
+          "buildingId": "building-533259ee99a7",
+          "buildingNameJa": "ストロウペリ·ヒル"
+        },
+        {
+          "buildingId": "building-a41a59e109de",
+          "buildingNameJa": "大阪市中央公会堂"
+        },
+        {
+          "buildingId": "building-ee63cdf5686b",
+          "buildingNameJa": "東京海上ビル"
+        },
+        {
+          "buildingId": "building-6bd3666d6dae",
+          "buildingNameJa": "水路閣"
+        },
+        {
+          "buildingId": "building-199c1ba5f821",
+          "buildingNameJa": "慶應義塾五十周年記念図書館"
+        },
+        {
+          "buildingId": "building-80800e6fc2c4",
+          "buildingNameJa": "京都帝室博物館"
+        },
+        {
+          "buildingId": "building-502b2e0291ba",
+          "buildingNameJa": "大阪造幣寮鋳造所正面玄関"
+        },
+        {
+          "buildingId": "building-52162f7e99ee",
+          "buildingNameJa": "大浦天主堂"
+        },
+        {
+          "buildingId": "building-a9672f12096b",
+          "buildingNameJa": "セント・パンクラス駅"
+        }
+      ]
+    },
+    "style-hiyoku-irimoya-zukuri": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-1dcab5a3e0d9",
+          "buildingNameJa": "吉備津神社"
+        }
+      ]
+    },
+    "style-hiyoshi": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-a1e52609d3d0",
+          "buildingNameJa": "日吉大社本殿"
+        }
+      ]
+    },
+    "style-industrial-iron-glass": {
+      "buildingCount": 3,
+      "buildings": [
+        {
+          "buildingId": "building-b7685f6d8bea",
+          "buildingNameJa": "水晶宫"
+        },
+        {
+          "buildingId": "building-a2ebd9afe093",
+          "buildingNameJa": "エッフェル塔"
+        },
+        {
+          "buildingId": "building-f09e9fd36d8e",
+          "buildingNameJa": "コールブルックデール橋"
+        }
+      ]
+    },
+    "style-iri-tonbo-zukuri": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-4be3b9942263",
+          "buildingNameJa": "土佐神社社殿"
+        }
+      ]
+    },
+    "style-kasuga": {
+      "buildingCount": 2,
+      "buildings": [
+        {
+          "buildingId": "building-69ac14a091f1",
+          "buildingNameJa": "春日大社本社本殿"
+        },
+        {
+          "buildingId": "building-0fe4be2984e3",
+          "buildingNameJa": "円成寺春日堂・白山堂"
+        }
+      ]
+    },
+    "style-mannerism": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-0b466f1d7e9f",
+          "buildingNameJa": "パラッツォ・デル・テ"
+        }
+      ]
+    },
+    "style-mesopotamian": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-65ec8fa96c3e",
+          "buildingNameJa": "ウルのジッグラト"
+        }
+      ]
+    },
+    "style-momoyama": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-df7edbe64de4",
+          "buildingNameJa": "宝厳寺唐門"
+        }
+      ]
+    },
+    "style-nagare": {
+      "buildingCount": 6,
+      "buildings": [
+        {
+          "buildingId": "building-63fa2823ec88",
+          "buildingNameJa": "住吉神社本殿"
+        },
+        {
+          "buildingId": "building-cd1bc4c1fafe",
+          "buildingNameJa": "大笹原神社"
+        },
+        {
+          "buildingId": "building-28885825184d",
+          "buildingNameJa": "苗村神社西本殿"
+        },
+        {
+          "buildingId": "building-465a94fade6c",
+          "buildingNameJa": "賀茂別雷神社"
+        },
+        {
+          "buildingId": "building-40cbd0ebfdee",
+          "buildingNameJa": "宇治上神社本殿"
+        },
+        {
+          "buildingId": "building-0df75cf488cb",
+          "buildingNameJa": "賀茂御祖神社本殿"
+        }
+      ]
+    },
+    "style-neoclassical": {
+      "buildingCount": 11,
+      "buildings": [
+        {
+          "buildingId": "building-7cd159c61134",
+          "buildingNameJa": "ソーン自邸"
+        },
+        {
+          "buildingId": "building-b679fd510ab7",
+          "buildingNameJa": "ショ一の王立製塩所監督官館"
+        },
+        {
+          "buildingId": "building-22e4a0161d72",
+          "buildingNameJa": "ニュートン記念堂設計案"
+        },
+        {
+          "buildingId": "building-6096c419e800",
+          "buildingNameJa": "アルテス·ムゼウム"
+        },
+        {
+          "buildingId": "building-983cf5798337",
+          "buildingNameJa": "大英博物館"
+        },
+        {
+          "buildingId": "building-cac929072731",
+          "buildingNameJa": "ブランデンブルク門"
+        },
+        {
+          "buildingId": "building-965ddbdcdb3f",
+          "buildingNameJa": "エトワ一ル凱旋門"
+        },
+        {
+          "buildingId": "building-c33aa1f04ae0",
+          "buildingNameJa": "ラ·マドレーヌ教会"
+        },
+        {
+          "buildingId": "building-35a018aea663",
+          "buildingNameJa": "サント·ジュヌヴィエーヴ教会堂"
+        },
+        {
+          "buildingId": "building-5fc0fd11794f",
+          "buildingNameJa": "チズウィック·ハウス"
+        },
+        {
+          "buildingId": "building-3b4c451b89ca",
+          "buildingNameJa": "古代ギリシャ建築三種のオーダー"
+        }
+      ]
+    },
+    "style-obaku": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-e57f2f2374b2",
+          "buildingNameJa": "萬福寺大雄宝殿"
+        }
+      ]
+    },
+    "style-postmodern": {
+      "buildingCount": 5,
+      "buildings": [
+        {
+          "buildingId": "building-1a84c81136b0",
+          "buildingNameJa": "フランス国立図書館"
+        },
+        {
+          "buildingId": "building-7d68f935b2b0",
+          "buildingNameJa": "テート・モダン"
+        },
+        {
+          "buildingId": "building-8fbd694e8705",
+          "buildingNameJa": "直島コンテンポラリーアートミュージアム"
+        },
+        {
+          "buildingId": "building-53cc2036fcbb",
+          "buildingNameJa": "グーリー自邸"
+        },
+        {
+          "buildingId": "building-d358b445a0a8",
+          "buildingNameJa": "つくばセンタービル"
+        }
+      ]
+    },
+    "style-queen-anne": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-84cc5aacdcd7",
+          "buildingNameJa": "スタジオ・ハウス Kate Greenaway’s Home and Studio"
+        }
+      ]
+    },
+    "style-renaissance": {
+      "buildingCount": 19,
+      "buildings": [
+        {
+          "buildingId": "building-1943de51af0c",
+          "buildingNameJa": "アウグスブルク市庁舎"
+        },
+        {
+          "buildingId": "building-5d5e175cdf7c",
+          "buildingNameJa": "エル·エスコリアル"
+        },
+        {
+          "buildingId": "building-69590e2c29ee",
+          "buildingNameJa": "サラマン力大学図書館正面"
+        },
+        {
+          "buildingId": "building-3878df2a1801",
+          "buildingNameJa": "アネの城館主屋中央入口"
+        },
+        {
+          "buildingId": "building-1696048b2333",
+          "buildingNameJa": "バンケッティング·ハウス"
+        },
+        {
+          "buildingId": "building-b4631e336fe0",
+          "buildingNameJa": "ブロワ城フランソワ1世の翼屋"
+        },
+        {
+          "buildingId": "building-de19b3495e1d",
+          "buildingNameJa": "ルーヴル宫方形中庭西南隅"
+        },
+        {
+          "buildingId": "building-3a15d708c526",
+          "buildingNameJa": "カンピドリオ広場"
+        },
+        {
+          "buildingId": "building-a5ca1382dda6",
+          "buildingNameJa": "グィラ·ロトンダ"
+        },
+        {
+          "buildingId": "building-471497368549",
+          "buildingNameJa": "パラッツォ·ファルネーゼ"
+        },
+        {
+          "buildingId": "building-0ee81d61f938",
+          "buildingNameJa": "サン·ビ工卜口大聖堂計画案"
+        },
+        {
+          "buildingId": "building-6b635fa0c07e",
+          "buildingNameJa": "サンタ·マリア·デル·ポポロ教会堂"
+        },
+        {
+          "buildingId": "building-ba42283edcef",
+          "buildingNameJa": "テンピエット"
+        },
+        {
+          "buildingId": "building-325055375598",
+          "buildingNameJa": "サンタ·マリア·人ヴェッラ教会堂ファサード"
+        },
+        {
+          "buildingId": "building-a4de64654651",
+          "buildingNameJa": "パラッツォ·ルチェラ イ"
+        },
+        {
+          "buildingId": "building-7ba7c0bac3ad",
+          "buildingNameJa": "サンタンドレア教会堂"
+        },
+        {
+          "buildingId": "building-55bcad84815d",
+          "buildingNameJa": "サント·スピリト教会堂"
+        },
+        {
+          "buildingId": "building-04eee685030b",
+          "buildingNameJa": "孤児養育院"
+        },
+        {
+          "buildingId": "building-08193cc0dffa",
+          "buildingNameJa": "サンタ·マリア·デル·フィオー レ大聖堂"
+        }
+      ]
+    },
+    "style-roman": {
+      "buildingCount": 10,
+      "buildings": [
+        {
+          "buildingId": "building-8a1a1f2e5ef0",
+          "buildingNameJa": "トラヤヌス帝市場"
+        },
+        {
+          "buildingId": "building-7c91aa5dd384",
+          "buildingNameJa": "マルケルス劇場"
+        },
+        {
+          "buildingId": "building-1bf2683efc4e",
+          "buildingNameJa": "コンスタンティヌスのバシリか"
+        },
+        {
+          "buildingId": "building-2704d2af1286",
+          "buildingNameJa": "カラカラ浴場"
+        },
+        {
+          "buildingId": "building-2b0068b43050",
+          "buildingNameJa": "コロッセウム"
+        },
+        {
+          "buildingId": "building-eb272d5df097",
+          "buildingNameJa": "トタヤヌスの記念円柱"
+        },
+        {
+          "buildingId": "building-c579ab552c35",
+          "buildingNameJa": "セプティミウス・セウィルスの凱旋門"
+        },
+        {
+          "buildingId": "building-df2d0ec71e46",
+          "buildingNameJa": "ティトゥスの凱旋門"
+        },
+        {
+          "buildingId": "building-398d0904c409",
+          "buildingNameJa": "ローマのオーダー"
+        },
+        {
+          "buildingId": "building-6e028baa8a9c",
+          "buildingNameJa": "パンテオン"
+        }
+      ]
+    },
+    "style-romanesque": {
+      "buildingCount": 14,
+      "buildings": [
+        {
+          "buildingId": "building-debcab541f41",
+          "buildingNameJa": "ピサ大聖堂"
+        },
+        {
+          "buildingId": "building-154fc79548ac",
+          "buildingNameJa": "フィレンツェのサン ミニアート アル モンテ教会堂"
+        },
+        {
+          "buildingId": "building-f283e4be6bc2",
+          "buildingNameJa": "オルシヴァルのノートル＝ダム教会堂"
+        },
+        {
+          "buildingId": "building-e1a84701b22f",
+          "buildingNameJa": "カルドナのサン ヴィセンス参事会教会堂"
+        },
+        {
+          "buildingId": "building-b5fac4515648",
+          "buildingNameJa": "スイヤックのサント＝マリー教会堂"
+        },
+        {
+          "buildingId": "building-81d00608e078",
+          "buildingNameJa": "シュパイヤー大聖堂"
+        },
+        {
+          "buildingId": "building-27de24865579",
+          "buildingNameJa": "クリュニー第三修道院"
+        },
+        {
+          "buildingId": "building-2b2cd5278913",
+          "buildingNameJa": "フォントネ修道院教会堂"
+        },
+        {
+          "buildingId": "building-8fe0c0d61b5b",
+          "buildingNameJa": "ル トロネ修道院"
+        },
+        {
+          "buildingId": "building-66460c014a68",
+          "buildingNameJa": "ヴェズレのラ マドレーヌ教会堂"
+        },
+        {
+          "buildingId": "building-ead5addcaaeb",
+          "buildingNameJa": "モンマジュール修道会教会堂"
+        },
+        {
+          "buildingId": "building-fa5293588199",
+          "buildingNameJa": "ポワティエのノートル＝ダム＝ラ＝グランド教会堂"
+        },
+        {
+          "buildingId": "building-95c7b73edfa8",
+          "buildingNameJa": "カンのサン=テチエンヌ男子修道院教会堂"
+        },
+        {
+          "buildingId": "building-553f29888132",
+          "buildingNameJa": "コンクのサント＝フォワ修道院教会堂"
+        }
+      ]
+    },
+    "style-ryugu-mon": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-e66d6c36d41d",
+          "buildingNameJa": "崇福寺三門"
+        }
+      ]
+    },
+    "style-setchuyo": {
+      "buildingCount": 3,
+      "buildings": [
+        {
+          "buildingId": "building-ec6c0fbfcfd5",
+          "buildingNameJa": "鑁阿寺本堂"
+        },
+        {
+          "buildingId": "building-9cefacddc896",
+          "buildingNameJa": "観心寺金堂"
+        },
+        {
+          "buildingId": "building-0be93e8070c5",
+          "buildingNameJa": "鶴林寺本堂"
+        }
+      ]
+    },
+    "style-shinden": {
+      "buildingCount": 2,
+      "buildings": [
+        {
+          "buildingId": "building-3f0cd8f82548",
+          "buildingNameJa": "鹿苑寺金閣"
+        },
+        {
+          "buildingId": "building-2076f44d29fe",
+          "buildingNameJa": "蒼龍楼"
+        }
+      ]
+    },
+    "style-shinmei": {
+      "buildingCount": 2,
+      "buildings": [
+        {
+          "buildingId": "building-4c6ed4856f63",
+          "buildingNameJa": "大嘗宮正殿"
+        },
+        {
+          "buildingId": "building-09c88b57e4c8",
+          "buildingNameJa": "伊勢神宮"
+        }
+      ]
+    },
+    "style-shoin": {
+      "buildingCount": 7,
+      "buildings": [
+        {
+          "buildingId": "building-cc68e48b6b3d",
+          "buildingNameJa": "円満院宸殿"
+        },
+        {
+          "buildingId": "building-2ecc3bd4f47b",
+          "buildingNameJa": "本願寺書院対面所"
+        },
+        {
+          "buildingId": "building-f190251f082a",
+          "buildingNameJa": "二条城二の丸御殿"
+        },
+        {
+          "buildingId": "building-cc8e9c640ccd",
+          "buildingNameJa": "園城寺光浄院客殿"
+        },
+        {
+          "buildingId": "building-eb6c13c88e03",
+          "buildingNameJa": "慈照寺銀閣"
+        },
+        {
+          "buildingId": "building-39c129537043",
+          "buildingNameJa": "龍吟庵方丈"
+        },
+        {
+          "buildingId": "building-7da3f3b68c2e",
+          "buildingNameJa": "慈照寺東求堂"
+        }
+      ]
+    },
+    "style-structural-expressionism": {
+      "buildingCount": 2,
+      "buildings": [
+        {
+          "buildingId": "building-fec1dfa16358",
+          "buildingNameJa": "クレディ空港twaターミナルビル"
+        },
+        {
+          "buildingId": "building-ae45db9b5282",
+          "buildingNameJa": "シドニーオペラハウス"
+        }
+      ]
+    },
+    "style-sukiya": {
+      "buildingCount": 12,
+      "buildings": [
+        {
+          "buildingId": "building-0d62944007df",
+          "buildingNameJa": "角屋"
+        },
+        {
+          "buildingId": "building-c30f168f4939",
+          "buildingNameJa": "慈光院書院"
+        },
+        {
+          "buildingId": "building-eb725cff4f87",
+          "buildingNameJa": "臨春閣"
+        },
+        {
+          "buildingId": "building-85cca9615eba",
+          "buildingNameJa": "曼殊院小書院"
+        },
+        {
+          "buildingId": "building-8560f070e8da",
+          "buildingNameJa": "西本願寺飛雲閣"
+        },
+        {
+          "buildingId": "building-b14634b3b4c3",
+          "buildingNameJa": "修学院離宮中御茶屋客殿"
+        },
+        {
+          "buildingId": "building-031a000eb17e",
+          "buildingNameJa": "西本願寺黒書院"
+        },
+        {
+          "buildingId": "building-8ce5697c5787",
+          "buildingNameJa": "桂離宮"
+        },
+        {
+          "buildingId": "building-1f27662821aa",
+          "buildingNameJa": "龍光院密庵"
+        },
+        {
+          "buildingId": "building-9716abff0e95",
+          "buildingNameJa": "如庵"
+        },
+        {
+          "buildingId": "building-8fb71893d7f1",
+          "buildingNameJa": "藪内家燕庵"
+        },
+        {
+          "buildingId": "building-b36eb753529c",
+          "buildingNameJa": "妙喜庵待庵"
+        }
+      ]
+    },
+    "style-sumiyoshi": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-3f893284c5ea",
+          "buildingNameJa": "住吉大社本殿"
+        }
+      ]
+    },
+    "style-taisha": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-41b44683821c",
+          "buildingNameJa": "出雲大社本殿"
+        }
+      ]
+    },
+    "style-teikan": {
+      "buildingCount": 2,
+      "buildings": [
+        {
+          "buildingId": "building-722dd893ec3c",
+          "buildingNameJa": "京都市美術館"
+        },
+        {
+          "buildingId": "building-5e9cb41dda88",
+          "buildingNameJa": "東京帝室博物館"
+        }
+      ]
+    },
+    "style-wari-haiden": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-f0cdf0370b19",
+          "buildingNameJa": "石上神社摂社出雲建雄神社拝殿"
+        }
+      ]
+    },
+    "style-wayo": {
+      "buildingCount": 32,
+      "buildings": [
+        {
+          "buildingId": "building-072e20943ddb",
+          "buildingNameJa": "旧閑谷学校講堂"
+        },
+        {
+          "buildingId": "building-3d735f3616d6",
+          "buildingNameJa": "善光寺本堂"
+        },
+        {
+          "buildingId": "building-14e29b19c721",
+          "buildingNameJa": "新勝寺三重塔"
+        },
+        {
+          "buildingId": "building-0348bb5ba1a8",
+          "buildingNameJa": "東大寺大仏殿"
+        },
+        {
+          "buildingId": "building-2a578e50d429",
+          "buildingNameJa": "東寺金堂"
+        },
+        {
+          "buildingId": "building-cebade44c716",
+          "buildingNameJa": "清水寺本堂"
+        },
+        {
+          "buildingId": "building-5b0f2abb6fd1",
+          "buildingNameJa": "長弓寺本堂"
+        },
+        {
+          "buildingId": "building-6368bca602fe",
+          "buildingNameJa": "長寿寺本堂"
+        },
+        {
+          "buildingId": "building-29940b058e51",
+          "buildingNameJa": "法隆寺聖霊院"
+        },
+        {
+          "buildingId": "building-7cb0c711b8d7",
+          "buildingNameJa": "唐招提寺鼓楼"
+        },
+        {
+          "buildingId": "building-ab456b8ab95b",
+          "buildingNameJa": "蓮華王院本堂"
+        },
+        {
+          "buildingId": "building-c8a8fccf6096",
+          "buildingNameJa": "大善寺本堂"
+        },
+        {
+          "buildingId": "building-657d15441dc4",
+          "buildingNameJa": "金剛峯寺不動堂"
+        },
+        {
+          "buildingId": "building-95ced25318a0",
+          "buildingNameJa": "大報恩寺本堂"
+        },
+        {
+          "buildingId": "building-7f9f0b19b0d6",
+          "buildingNameJa": "興福寺北円堂"
+        },
+        {
+          "buildingId": "building-a11d8e6f392f",
+          "buildingNameJa": "太極殿"
+        },
+        {
+          "buildingId": "building-4921f6514c42",
+          "buildingNameJa": "京都御所紫宸殿"
+        },
+        {
+          "buildingId": "building-b6dcd382bc78",
+          "buildingNameJa": "厳島神社"
+        },
+        {
+          "buildingId": "building-34fb1bfbaad8",
+          "buildingNameJa": "中尊寺金色堂"
+        },
+        {
+          "buildingId": "building-4f994bda4b8a",
+          "buildingNameJa": "法成寺"
+        },
+        {
+          "buildingId": "building-e1ffe5340a3f",
+          "buildingNameJa": "浄瑠璃寺本堂"
+        },
+        {
+          "buildingId": "building-c90fcc3d63b9",
+          "buildingNameJa": "平等院凤凰堂"
+        },
+        {
+          "buildingId": "building-f55063dff62a",
+          "buildingNameJa": "三佛寺投入堂"
+        },
+        {
+          "buildingId": "building-dbef964c43e8",
+          "buildingNameJa": "醍醐寺五重塔"
+        },
+        {
+          "buildingId": "building-7072d784e794",
+          "buildingNameJa": "石山寺多宝塔"
+        },
+        {
+          "buildingId": "building-50b4a1f5a92c",
+          "buildingNameJa": "室生寺金堂&五重塔"
+        },
+        {
+          "buildingId": "building-605c0863e4e1",
+          "buildingNameJa": "栄山寺八角堂"
+        },
+        {
+          "buildingId": "building-ecdbe71ecab9",
+          "buildingNameJa": "法隆寺夢殿"
+        },
+        {
+          "buildingId": "building-977dda23f64f",
+          "buildingNameJa": "東大寺"
+        },
+        {
+          "buildingId": "building-aa2b036d9ced",
+          "buildingNameJa": "唐招提寺金堂"
+        },
+        {
+          "buildingId": "building-e46b3040221f",
+          "buildingNameJa": "四天王寺"
+        },
+        {
+          "buildingId": "building-4a300426c168",
+          "buildingNameJa": "法隆寺金堂&五重塔"
+        }
+      ]
+    },
+    "style-wayo-secchu": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-553af9aa7607",
+          "buildingNameJa": "グラバー邸"
+        }
+      ]
+    },
+    "style-zenshuyo": {
+      "buildingCount": 12,
+      "buildings": [
+        {
+          "buildingId": "building-fcca980cbbdc",
+          "buildingNameJa": "円覚寺仏殿"
+        },
+        {
+          "buildingId": "building-752f9a856be3",
+          "buildingNameJa": "不動院金堂"
+        },
+        {
+          "buildingId": "building-abfe8916bb10",
+          "buildingNameJa": "瑞巌寺庫裡"
+        },
+        {
+          "buildingId": "building-dac67dcbaa45",
+          "buildingNameJa": "瑞龍寺仏殿"
+        },
+        {
+          "buildingId": "building-51ecc765dbfb",
+          "buildingNameJa": "大徳寺三門"
+        },
+        {
+          "buildingId": "building-0d3057cf48f5",
+          "buildingNameJa": "安楽寺三重塔"
+        },
+        {
+          "buildingId": "building-2914c643604a",
+          "buildingNameJa": "善福院釈迦堂"
+        },
+        {
+          "buildingId": "building-ef5b6a6165aa",
+          "buildingNameJa": "酬恩庵本堂"
+        },
+        {
+          "buildingId": "building-721f3a5d8688",
+          "buildingNameJa": "東福寺三門"
+        },
+        {
+          "buildingId": "building-9bb925429472",
+          "buildingNameJa": "永保寺観音堂"
+        },
+        {
+          "buildingId": "building-03bf35081e88",
+          "buildingNameJa": "永保寺開山堂"
+        },
+        {
+          "buildingId": "building-62de22f13d90",
+          "buildingNameJa": "円覚寺舎利殿"
+        }
+      ]
+    },
+    "type-castle": {
+      "buildingCount": 4,
+      "buildings": [
+        {
+          "buildingId": "building-418375d5792f",
+          "buildingNameJa": "彦根城天守"
+        },
+        {
+          "buildingId": "building-2bfeea67ec47",
+          "buildingNameJa": "松本城"
+        },
+        {
+          "buildingId": "building-0fc56c8797c2",
+          "buildingNameJa": "犬山城天守"
+        },
+        {
+          "buildingId": "building-50e63bb375b3",
+          "buildingNameJa": "姬路城天守"
+        }
+      ]
+    },
+    "type-hottate-bashira": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-28264369db88",
+          "buildingNameJa": "松野遺跡"
+        }
+      ]
+    },
+    "type-machiya": {
+      "buildingCount": 4,
+      "buildings": [
+        {
+          "buildingId": "building-628e9112cd45",
+          "buildingNameJa": "三井越後屋"
+        },
+        {
+          "buildingId": "building-a5e9c0d0dcaa",
+          "buildingNameJa": "旧緒方洪庵住宅"
+        },
+        {
+          "buildingId": "building-31dd12a9af7a",
+          "buildingNameJa": "町家"
+        },
+        {
+          "buildingId": "building-f7a2d5187dc7",
+          "buildingNameJa": "土蔵造の民家"
+        }
+      ]
+    },
+    "type-minka": {
+      "buildingCount": 6,
+      "buildings": [
+        {
+          "buildingId": "building-f94aad28dc0f",
+          "buildingNameJa": "曲屋の民家"
+        },
+        {
+          "buildingId": "building-041c2bacb9e1",
+          "buildingNameJa": "大和棟の民家"
+        },
+        {
+          "buildingId": "building-ff43c4157e6e",
+          "buildingNameJa": "本棟造りの民家"
+        },
+        {
+          "buildingId": "building-78f8d6520fd3",
+          "buildingNameJa": "村上家住宅"
+        },
+        {
+          "buildingId": "building-6b9d0e1c313f",
+          "buildingNameJa": "古井家住宅"
+        },
+        {
+          "buildingId": "building-33a65bf2748e",
+          "buildingNameJa": "箱木家住宅"
+        }
+      ]
+    },
+    "type-moated-settlement": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-2b783a82e2f9",
+          "buildingNameJa": "吉野ヶ里遺跡"
+        }
+      ]
+    },
+    "type-pit-dwelling": {
+      "buildingCount": 1,
+      "buildings": [
+        {
+          "buildingId": "building-db665061135f",
+          "buildingNameJa": "三内丸山遺跡"
+        }
+      ]
+    }
+  }
+}

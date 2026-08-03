@@ -1,0 +1,8 @@
+{
+  "id": "building-construction-2024-q3-full-paper",
+  "subject": "building_construction",
+  "basis_years": [2022, 2024],
+  "total_scoring_units": 20,
+  "sections": [{"id":"rc_shared_word_bank","template_id":"construction_shared_word_bank","target_count":20,"count_basis":"2022 Specialist 1 Building Construction Q3 uses a 20-answer, 27-term common word-bank structure","allowed_implementation_modes":["generator"],"required_generator_count":20,"allowed_reconstruction_count":0,"allowed_sampler_count":0,"manual_rubric_count":0,"unavailable_slots":[]},{"id":"inline_four_choice_fill_fallback","template_id":"construction_independent_fill","target_count":0,"count_basis":"2024 Specialist 1 Building Construction Q3 a–t indexed reconstruction retained only if the RC Generator pool is unavailable","allowed_implementation_modes":["reconstruction"],"required_generator_count":0,"allowed_reconstruction_count":0,"allowed_sampler_count":0,"manual_rubric_count":0,"unavailable_slots":[]}],
+  "evidence_files": ["data/processed_questions/2024_専門1_建筑构法_Q3.md", "data/construction-2024-q3-slot-review.json", "data/exam-format-catalog-v2.1.json"]
+}

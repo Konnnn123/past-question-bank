@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 4,
+  "updatedAt": "2026-07-19",
+  "overallStatus": "FOUR_SECTION_LEARNING_SYSTEM_PASS",
+  "releaseTarget": "FOUR_SECTION_LEARNING_SYSTEM_PASS",
+  "scope": ["history", "planning", "environment", "building_construction"],
+  "excluded": ["structural_mechanics", "specialist_2_2"],
+  "sectionReleaseGates": {
+    "history": "learning_entry_verified",
+    "planning": "past_exam_reconstruction_verified",
+    "building_construction": "validated_rc_practice_verified",
+    "environment": "validated_formula_practice_verified"
+  },
+  "formalEntryPoints": {
+    "history": { "route": "/exam/mock/history-mwb", "mode": "validated_generator", "generator": "image_to_building_and_architect_matching" },
+    "planning": { "route": "/exam/mock/planning-full", "mode": "past_exam_reconstruction", "coverage": "2023 Q4, 20 indexed units" },
+    "building_construction": { "route": "/exam/mock/building-construction-full", "mode": "validated_generator", "generator": "rc_shared_wordbank_only", "fallback": "2024 Q3 past_exam_reconstruction" },
+    "environment": { "route": "/exam/mock/env-calc", "mode": "validated_generator", "generator": "co2_ventilation_formula_calculation" }
+  },
+  "deprecatedPrototypes": [
+    "planning-numeric-choice-generator",
+    "planning-facility-choice-generator"
+  ],
+  "nonGeneratorPractice": [
+    "environment-formula-choice",
+    "environment-phenomenon-wordbank",
+    "environment-correct-statement-packs",
+    "pre-generated construction JSON formats"
+  ],
+  "pastExamTrainer": {
+    "entry": null,
+    "mode": "deprecated",
+    "levels": { "A": 0, "B": 489, "C": 60 },
+    "coverage": { "history": { "years": 13, "blocks": 16, "scorableUnits": 25 }, "planning": { "years": 13, "blocks": 16, "scorableUnits": 120 }, "building_construction": { "years": 13, "blocks": 15, "scorableUnits": 140 }, "environment": { "years": 13, "blocks": 13, "scorableUnits": 204 } },
+    "browserClosure": "pass"
+  },
+  "reliableOriginalAnswerGrading": {
+    "status": "frozen_verified",
+    "allowlistFile": "data/reliable-original-answer-allowlist.json",
+    "policy": "Automatic grading requires an exact allowlist match; all other items are self-assessment.",
+    "totals": { "environmentTrueFalse": 84, "buildingConstruction2024Q3": 19, "total": 103 },
+    "explicitExclusions": ["2024_専門1_建筑构法_Q3.md:m (unresolved_self_assessment)"]
+  },
+  "metadata": {
+    "file": "data/question-learning-metadata.json",
+    "coverage": { "history": 50, "planning": 20, "building_construction": 20, "environment": 1 }
+  },
+  "knownLimitations": [
+    "HR-001 and HR-002 remain missing_source_material and reconstruction-only.",
+    "Planning facility safe negative-evidence whitelist is empty.",
+    "RC shared-word-bank pool diversity is limited.",
+    "Environment phenomenon surplus lacks a reviewed per-description confusion matrix."
+  ],
+  "verification": {
+    "typescript": "pass",
+    "eslint": "pass",
+    "productionBuild": "pass",
+    "focusedValidators": "pass",
+    "browserFormalEntries": "pending_recheck_after_reliable_answer_allowlist_freeze",
+    "finalAudit": "reports/learning-system-final-audit.md"
+  }
+}

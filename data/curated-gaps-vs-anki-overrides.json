@@ -1,0 +1,32 @@
+{
+  "ジャック・ジェルメン・スフロ": {
+    "status": "duplicate-alias",
+    "match": "ジャック＝ジェルマン・スフロ",
+    "note": "同一人物的标点与长音写法差异"
+  },
+  "東京カテドラル聖マリア大聖堂": {
+    "status": "duplicate-alias",
+    "match": "東京カテドラルマリア大聖堂",
+    "note": "同一建筑的名称变体"
+  },
+  "パラーディオ": {
+    "status": "mentioned-existing-entity",
+    "match": "アンドレーア・パッラーディオ",
+    "note": "已作为建筑卡人物字段出现，但尚无独立人物卡"
+  },
+  "ヨン・ウッツオン": {
+    "status": "duplicate-alias",
+    "match": "ヨーン・ウツソン",
+    "note": "同一人物的日文转写差异"
+  },
+  "園城寺客殿": {
+    "status": "partial-hierarchy-overlap",
+    "match": "園城寺光浄院客殿",
+    "note": "泛称与具体客殿的层级关系，需要回原题确认"
+  },
+  "伊勢神宮内宮正殿": {
+    "status": "partial-hierarchy-overlap",
+    "match": "伊勢神宮",
+    "note": "单体建筑与神宫整体的层级关系"
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "files": 40,
+  "rows": [
+    {
+      "group": "語群I",
+      "term": "アンリ・ラブルースト",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群I",
+      "term": "フランチェスコ・ボッロミーニ",
+      "examCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群I",
+      "term": "ドメニコ・フォンターナ",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "ブルーノ・タウト",
+      "examCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群I",
+      "term": "ジョセフ・パクストン",
+      "examCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群I",
+      "term": "アドルフ・ロース",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "アントニオ・サンテリア",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "ジャコモ・バロッツィ・ダ・ヴィニョーラ",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "マルク・アントワーヌ・ロージエ",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "後藤慶二",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "山田守",
+      "examCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群I",
+      "term": "宿場町",
+      "examCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "寺内町",
+      "examCount": 4,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "城下町",
+      "examCount": 2,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群I",
+      "term": "円覚寺仏殿",
+      "examCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群I",
+      "term": "根来寺",
+      "examCount": 2,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q3.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "延暦寺",
+      "examCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群I",
+      "term": "當麻寺曼荼羅堂",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "東大寺",
+      "examCount": 4,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2018_専門2-2_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群I",
+      "term": "東三条殿",
+      "examCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2016_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "吉島家住宅",
+      "examCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "スポリア",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "デール・エル・メディナ",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "シェナージュ",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群I",
+      "term": "ペンデンティブ",
+      "examCount": 5,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2024_専門2-2_建筑史_Q4.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群I",
+      "term": "聖墳墓",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "監獄",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群II",
+      "term": "市場",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "図書館",
+      "examCount": 7,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2018_専門2-2_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "万博",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群II",
+      "term": "神明造",
+      "examCount": 3,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "多宝塔",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "密教本堂",
+      "examCount": 2,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群II",
+      "term": "禅宗様",
+      "examCount": 7,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2014_専門1_建筑史_Q5.md",
+        "2014_専門2-2_建筑史_Q12.md",
+        "2016_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "春日造",
+      "examCount": 2,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "大仏様",
+      "examCount": 7,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md",
+        "2018_専門2-2_建筑史_Q5.md",
+        "2019_専門2-2_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "寝殿造",
+      "examCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "今井町",
+      "examCount": 3,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群II",
+      "term": "飛騨高山",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群II",
+      "term": "奈良井",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群II",
+      "term": "啓蒙時代",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群II",
+      "term": "エルサレム",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "エジプト",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "ウィーン",
+      "examCount": 4,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "イスタンブール",
+      "examCount": 3,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q3.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true
+    },
+    {
+      "group": "語群II",
+      "term": "ケルン",
+      "examCount": 3,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md",
+        "2026_専門2-2_建筑史_Q3.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "マニエリスム",
+      "examCount": 2,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "バロック",
+      "examCount": 4,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2023_専門1_建筑史_Q問題5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    },
+    {
+      "group": "語群II",
+      "term": "ゴシック",
+      "examCount": 10,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2015_専門1_建筑史_Q3.md",
+        "2016_専門2-2_建筑史_Q9.md",
+        "2017_専門1_建筑史_Q2.md",
+        "2019_専門1_建筑史_Q5.md",
+        "2020_専門2-2_建筑史_Q4.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": true,
+      "gap": false
+    }
+  ]
+}

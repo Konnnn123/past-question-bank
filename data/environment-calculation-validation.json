@@ -1,0 +1,62 @@
+[
+  {
+    "id": "env-calc-ventilation_co2-01",
+    "passed": true,
+    "issues": []
+  },
+  {
+    "id": "env-calc-ventilation_co2-02",
+    "passed": true,
+    "issues": []
+  },
+  {
+    "id": "env-calc-ventilation_co2-03",
+    "passed": true,
+    "issues": []
+  },
+  {
+    "id": "env-calc-thermal_transmission-01",
+    "passed": true,
+    "issues": []
+  },
+  {
+    "id": "env-calc-thermal_transmission-02",
+    "passed": true,
+    "issues": []
+  },
+  {
+    "id": "env-calc-thermal_transmission-03",
+    "passed": true,
+    "issues": []
+  },
+  {
+    "id": "env-calc-reverberation-01",
+    "passed": true,
+    "issues": []
+  },
+  {
+    "id": "env-calc-reverberation-02",
+    "passed": true,
+    "issues": []
+  },
+  {
+    "id": "env-calc-illuminance_point-01",
+    "passed": true,
+    "issues": []
+  },
+  {
+    "id": "env-calc-illuminance_point-02",
+    "passed": true,
+    "issues": []
+  },
+  {
+    "id": "env-calc-dynamic_pressure-01",
+    "passed": true,
+    "issues": []
+  },
+  {
+    "id": "env-calc-dynamic_pressure-02",
+    "passed": true,
+    "issues": []
+  }
+]

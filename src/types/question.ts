@@ -1,4 +1,5 @@
 export interface Question {
+  id: string;
   year: number;
   subject: string;
   category: string;

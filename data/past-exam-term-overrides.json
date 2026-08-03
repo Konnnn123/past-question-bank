@@ -1,0 +1,41 @@
+{
+  "description": "Human-reviewed past-exam term normalizations. These are applied only when the named entity is genuinely the same; generic places and rejected fuzzy candidates remain separate.",
+  "confirmedBuildingMatches": {
+    "サンタ・コスタンツァ": "building-4a787cf0bd1b",
+    "シャルトル大聖堂": "building-0430a57bbb97",
+    "ヴィラ・ロトンダ": "building-a5ca1382dda6",
+    "アミアン大聖堂": "building-13707b7e3bdb",
+    "クリュニー修道院": "building-27de24865579",
+    "クリュニー大修道院": "building-27de24865579",
+    "サンタ・マリア・ノヴェッラ": "building-325055375598",
+    "サント＝シャペル": "building-d9446d1ef354",
+    "サント＝スピリト聖堂": "building-55bcad84815d",
+    "サン・ヴィターレ": "building-6fb83e2008c9",
+    "ハギヤ・ソフィア": "building-ad7b5b62435c",
+    "三渓園臨春閣": "building-eb725cff4f87",
+    "住吉大社": "building-3f893284c5ea",
+    "光浄院客殿": "building-cc8e9c640ccd",
+    "净土寺浄土堂": "building-13b897c12c40",
+    "渄土寺浄土堂": "building-13b897c12c40",
+    "出雲大社": "building-41b44683821c",
+    "宇治上神社": "building-40cbd0ebfdee",
+    "室生寺金堂": "building-50b4a1f5a92c",
+    "平等院鳳凰堂": "building-c90fcc3d63b9"
+  },
+  "classificationOverrides": {
+    "バルセロナ": "place-or-settlement",
+    "ベルリン": "place-or-settlement",
+    "フランス王立図書館": "theory-or-technology",
+    "根来寺": "place-or-settlement",
+    "一塔三金堂式": "theory-or-technology",
+    "中門造": "theory-or-technology",
+    "土浦亀城": "person-or-title",
+    "密教本堂": "theory-or-technology",
+    "寺町通り": "place-or-settlement",
+    "層塔型": "theory-or-technology",
+    "門前町": "place-or-settlement"
+  },
+  "rejectedFuzzyMatches": {
+    "明王院本堂": "蓮華王院本堂とは別建築のため自動統合しない"
+  }
+}

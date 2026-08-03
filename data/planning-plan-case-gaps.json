@@ -1,0 +1,763 @@
+{
+  "scope": "Past-exam named building and urban-planning cases used for plan/image recognition or precedent discussion",
+  "cardCount": 337,
+  "caseCount": 57,
+  "counts": {
+    "independent-card": 17,
+    "mentioned-only": 2,
+    "missing": 38
+  },
+  "rows": [
+    {
+      "exam": "2015 Q9",
+      "domain": "建筑",
+      "name": "旧丸ビル",
+      "aliases": [
+        "旧丸ノ内ビルヂング",
+        "丸ビル"
+      ],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "旧丸ビル",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2015 Q9",
+      "domain": "建筑",
+      "name": "新宿三井ビル",
+      "aliases": [],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "新宿三井ビル",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2015 Q11",
+      "domain": "建筑",
+      "name": "阿佐ヶ谷住宅",
+      "aliases": [
+        "阿佐谷住宅"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2015 Q11 / 2017 Q1 / 2023 Q4 / 2026 2-2",
+      "domain": "建筑",
+      "name": "晴海高層アパート",
+      "aliases": [
+        "晴海高層アパートメント",
+        "晴海高層パート"
+      ],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "晴海高層パ一卜",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2015 Q11",
+      "domain": "规划",
+      "name": "坂出人工土地",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2015 Q11",
+      "domain": "建筑",
+      "name": "広島基町高層住宅",
+      "aliases": [
+        "基町高層住宅",
+        "広島市基町高層アパート"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2017 Q1",
+      "domain": "规划",
+      "name": "レッチワース",
+      "aliases": [
+        "Letchworth"
+      ],
+      "status": "mentioned-only",
+      "independentMatches": [],
+      "mentionedMatches": [
+        {
+          "name": "アンウィン",
+          "tags": [
+            "人物"
+          ],
+          "hasImage": true
+        }
+      ]
+    },
+    {
+      "exam": "2017 Q1",
+      "domain": "建筑",
+      "name": "シュレーダー邸",
+      "aliases": [],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "シュレーダー邸",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2017 Q1",
+      "domain": "建筑",
+      "name": "ルイジアナ近代美術館",
+      "aliases": [
+        "ルイジアナ美術館"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2017 Q1",
+      "domain": "规划",
+      "name": "ラドバーン",
+      "aliases": [
+        "Radburn"
+      ],
+      "status": "mentioned-only",
+      "independentMatches": [],
+      "mentionedMatches": [
+        {
+          "name": "ラ ドバーンシステム",
+          "tags": [
+            "概念"
+          ],
+          "hasImage": false
+        }
+      ]
+    },
+    {
+      "exam": "2019 Q4",
+      "domain": "规划",
+      "name": "ブラジリア",
+      "aliases": [
+        "Brasília"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2019 Q4",
+      "domain": "规划",
+      "name": "NEXT21",
+      "aliases": [
+        "NEXT 21"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2019 Q4",
+      "domain": "建筑",
+      "name": "求道学舎",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2019 Q4",
+      "domain": "建筑",
+      "name": "東京臨海病院",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2019 Q4",
+      "domain": "建筑",
+      "name": "フォドレア小学校",
+      "aliases": [
+        "フォードレア小学校"
+      ],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "フォドレア小学校",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": false
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2019 Q4",
+      "domain": "建筑",
+      "name": "笠原小学校",
+      "aliases": [],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "笠原小学校",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2019 Q4 / 2026 2-2",
+      "domain": "建筑",
+      "name": "日野市立中央図書館",
+      "aliases": [
+        "日野市立図書館"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2019 Q4",
+      "domain": "建筑",
+      "name": "武蔵野プレイス",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2019 Q4 / 2025 2-2",
+      "domain": "建筑",
+      "name": "十和田市現代美術館",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2019 Q4",
+      "domain": "建筑",
+      "name": "バイロイト祝祭劇場",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2020 2-2",
+      "domain": "建筑",
+      "name": "こもれびの家",
+      "aliases": [
+        "認知症高齢者グループホームこもれびの家"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2020 2-2",
+      "domain": "建筑",
+      "name": "旧宮前小学校",
+      "aliases": [
+        "宮前小学校",
+        "(旧)宮前小学校",
+        "(旧)官前小学校",
+        "宫前小学校"
+      ],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "宫前小学校",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        },
+        {
+          "name": "(旧)官前小学校",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2020 Q4",
+      "domain": "规划",
+      "name": "チャンディガール",
+      "aliases": [
+        "Chandigarh"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2023 Q4",
+      "domain": "建筑",
+      "name": "コモンシティ星田",
+      "aliases": [],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "コモンシティ星田",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2023 Q4",
+      "domain": "建筑",
+      "name": "真野ふれあい住宅",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2023 Q4",
+      "domain": "建筑",
+      "name": "神戸市立西神戸医療センター",
+      "aliases": [
+        "西神戸医療センター"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2023 Q4",
+      "domain": "建筑",
+      "name": "西戸山小学校",
+      "aliases": [],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "西戸山小学校",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2023 Q4",
+      "domain": "建筑",
+      "name": "キンベル美術館",
+      "aliases": [
+        "キンベル美術館"
+      ],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "キンベル美術館",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2023 Q4",
+      "domain": "建筑",
+      "name": "霞ヶ関ビル",
+      "aliases": [
+        "霞が関ビル"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2024 Q4",
+      "domain": "建筑",
+      "name": "スカイハウス",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2024 Q4",
+      "domain": "建筑",
+      "name": "東雲キャナルコート",
+      "aliases": [
+        "東雲キャナルコートCODAN"
+      ],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "東雲キャナルコート",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2024 Q4",
+      "domain": "建筑",
+      "name": "せんねん村",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2024 Q4",
+      "domain": "建筑",
+      "name": "テアトロ・ファルネーゼ",
+      "aliases": [
+        "テアトロファルネーゼ",
+        "テアトロ·ファルネ一ゼ"
+      ],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "テアトロ·ファルネ一ゼ",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2024 Q4",
+      "domain": "建筑",
+      "name": "りゅーとぴあ",
+      "aliases": [
+        "新潟市民芸術文化会館"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2024 Q4",
+      "domain": "建筑",
+      "name": "宮城県図書館",
+      "aliases": [
+        "宮城県立図書館",
+        "宫城県立図書館"
+      ],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "宫城県立図書館",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 2-2",
+      "domain": "建筑",
+      "name": "ベルコリーヌ南大沢",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 2-2",
+      "domain": "建筑",
+      "name": "山崎邸",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 2-2",
+      "domain": "建筑",
+      "name": "正面のない家（N氏邸）",
+      "aliases": [
+        "正面のない家",
+        "正面のない家(N氏邸)"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 2-2",
+      "domain": "建筑",
+      "name": "住吉の長屋",
+      "aliases": [],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "住吉の長屋",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2022 Q4 / 2025 2-2",
+      "domain": "建筑",
+      "name": "公営住宅標準設計51C型",
+      "aliases": [
+        "51C型",
+        "公営住宅標準設計51Ｃ型"
+      ],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "51C型",
+          "tags": [
+            "建筑形式"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2026 Q4",
+      "domain": "建筑",
+      "name": "六甲の集合住宅",
+      "aliases": [
+        "六甲集合住宅"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2026 Q4",
+      "domain": "建筑",
+      "name": "パレスサイドビル",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2026 Q4",
+      "domain": "建筑",
+      "name": "グッゲンハイム美術館",
+      "aliases": [
+        "ソロモン・R・グッゲンハイム美術館"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2026 Q4",
+      "domain": "建筑",
+      "name": "ポンピドゥー・センター",
+      "aliases": [
+        "ポンピドーセンター",
+        "ポンビドーセンター"
+      ],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "ポンビドーセンター",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2026 2-2",
+      "domain": "建筑",
+      "name": "イブリン・ロウ小学校",
+      "aliases": [
+        "イブリンロウ小学校"
+      ],
+      "status": "independent-card",
+      "independentMatches": [
+        {
+          "name": "イブリン·ロウ小学校",
+          "tags": [
+            "案例"
+          ],
+          "hasImage": true
+        }
+      ],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 Q4",
+      "domain": "规划",
+      "name": "高蔵寺ニュータウン",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 Q4",
+      "domain": "规划",
+      "name": "シーサイド",
+      "aliases": [
+        "Seaside"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 Q4",
+      "domain": "建筑",
+      "name": "池田室町",
+      "aliases": [
+        "池田室町住宅地"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 Q4",
+      "domain": "建筑",
+      "name": "同潤会代官山アパート",
+      "aliases": [
+        "代官山アパート"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 Q4",
+      "domain": "建筑",
+      "name": "本郷館",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 Q4",
+      "domain": "建筑",
+      "name": "軍艦島30号棟",
+      "aliases": [
+        "端島30号棟"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 Q4",
+      "domain": "建筑",
+      "name": "大島四丁目団地",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 Q4",
+      "domain": "建筑",
+      "name": "御茶ノ水文化住宅",
+      "aliases": [
+        "御茶ノ水文化アパート"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 Q4",
+      "domain": "建筑",
+      "name": "玉姫公設長屋",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 Q4",
+      "domain": "建筑",
+      "name": "桜台コートビレッジ",
+      "aliases": [],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 Q4",
+      "domain": "建筑",
+      "name": "猿江裏町",
+      "aliases": [
+        "猿江裏町共同住宅"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    },
+    {
+      "exam": "2025 Q4",
+      "domain": "建筑",
+      "name": "ユーコート",
+      "aliases": [
+        "Uコート"
+      ],
+      "status": "missing",
+      "independentMatches": [],
+      "mentionedMatches": []
+    }
+  ]
+}

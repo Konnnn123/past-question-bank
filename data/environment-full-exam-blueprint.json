@@ -1,0 +1,8 @@
+{
+  "id": "environment-2017-q4-full-paper",
+  "subject": "environment",
+  "basis_years": [2017],
+  "total_scoring_units": 1,
+  "sections": [{"id":"ventilation_calculation","template_id":"environment_numerical_calculation","target_count":1,"count_basis":"2017 Specialist 1 Environment Q4 has one scored numerical-calculation unit","allowed_implementation_modes":["parameterized_generator","reconstruction"],"required_generator_count":1,"allowed_reconstruction_count":0,"allowed_sampler_count":0,"manual_rubric_count":0,"unavailable_slots":[]}],
+  "evidence_files": ["data/processed_questions/2017_専門1_建筑环境工学_Q4.md", "data/exam-format-catalog-v2.1.json", "src/lib/environment-ventilation-generator.ts"]
+}

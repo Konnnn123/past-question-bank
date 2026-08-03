@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "updated": [
+    {
+      "id": "building-b20352982a51",
+      "nameJa": "リチャーズ医学研究所",
+      "typeIds": [
+        "type-civic-cultural"
+      ],
+      "styleIds": [
+        "style-international"
+      ],
+      "movementIds": [
+        "movement-modernism"
+      ]
+    },
+    {
+      "id": "building-de2dcb207777",
+      "nameJa": "甲子園ホテル",
+      "typeIds": [
+        "type-civic-cultural"
+      ],
+      "movementIds": [
+        "movement-modernism"
+      ]
+    },
+    {
+      "id": "building-e005da0846ca",
+      "nameJa": "ファグス靴工場 fagus",
+      "styleIds": [
+        "style-industrial-iron-glass"
+      ],
+      "movementIds": [
+        "movement-modernism"
+      ]
+    }
+  ]
+}

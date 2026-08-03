@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "frozenAt": "2026-07-19",
+  "policy": "Automatic grading is permitted only when subject, sourceFile, and subquestionId exactly match an approved entry. All other original-past-exam items are self-assessment only.",
+  "membershipKey": "subject:sourceFile:subquestionId",
+  "entries": [
+    {"id":"environment-2014-q2-true-false","subject":"environment","surfaceFormat":"true_false","sourceFile":"2014_専門1_建筑环境工学_Q2.md","subquestionIds":["s01","s02","s03","s04","s05","s06","s07","s08","s09","s10","s11","s12","s13","s14","s15","s16","s17","s18","s19","s20","s21","s22","s23","s24","s25","s26","s27","s28","s29","s30"],"answerSource":"src/lib/environment-review.ts","status":"approved"},
+    {"id":"environment-2016-q3-true-false","subject":"environment","surfaceFormat":"true_false","sourceFile":"2016_専門1_建筑环境工学_Q3.md","subquestionIds":["s11","s12","s13","s14","s15","s16","s17","s18","s19","s20"],"answerSource":"src/lib/environment-review.ts","status":"approved"},
+    {"id":"environment-2019-q2-true-false","subject":"environment","surfaceFormat":"true_false","sourceFile":"2019_専門1_建筑环境工学_Q2.md","subquestionIds":["s01","s02","s03","s04","s05","s06","s07","s08","s09","s10"],"answerSource":"src/lib/environment-review.ts","status":"approved"},
+    {"id":"environment-2020-q2-true-false","subject":"environment","surfaceFormat":"true_false","sourceFile":"2020_専門1_建筑环境工学_Q2.md","subquestionIds":["s01","s02","s03","s04","s05","s06","s07","s08","s09","s10","s11","s12","s13","s14","s15","s16","s17","s18","s19","s20"],"answerSource":"src/lib/environment-review.ts","status":"approved"},
+    {"id":"environment-2024-q2-true-false","subject":"environment","surfaceFormat":"true_false","sourceFile":"2024_専門1_建筑环境工学_Q2.md","subquestionIds":["s08","s09","s10","s11","s12","s13","s14","s15","s16","s17","s18","s19","s20","s21"],"answerSource":"src/lib/environment-review.ts","status":"approved"},
+    {"id":"building-construction-2024-q3-approved-slots","subject":"building_construction","surfaceFormat":"local_four_choice","sourceFile":"2024_専門1_建筑构法_Q3.md","subquestionIds":["a","b","c","d","e","f","g","h","i","j","k","l","n","o","p","q","r","s","t"],"answerSource":"data/construction-2024-q3-slot-review.json · BC-002","status":"approved"}
+  ],
+  "exclusions": [
+    {"id":"building-construction-2024-q3-m","subject":"building_construction","surfaceFormat":"local_four_choice","sourceFile":"2024_専門1_建筑构法_Q3.md","subquestionId":"m","status":"unresolved_self_assessment","reason":"The approved index conflicts with the original-question wording; it must not be automatically graded."}
+  ],
+  "totals": {"environmentTrueFalse":84,"buildingConstruction2024Q3":19,"total":103}
+}

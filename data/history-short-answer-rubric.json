@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "reviewId": "HR-003",
+  "status": "approved",
+  "template": "history_explanatory_writing_Q7",
+  "source": { "file": "data/processed_questions/2015_専門1_建筑史_Q7.md", "location": "Q7 prompt" },
+  "scoring": [
+    { "id": "object_identification", "points": 1, "criterion": "Identifies the requested building, movement, event, or historical object without substituting a related one." },
+    { "id": "source_grounded_relation", "points": 1, "criterion": "States the relation requested by the prompt and grounds it in a reviewed source fact." },
+    { "id": "historical_qualification", "points": 1, "criterion": "Includes the required period, condition, or causal qualification; unsupported absolute claims do not earn this point." }
+  ],
+  "manualScoringRequired": true
+}

@@ -1,0 +1,402 @@
+{
+  "version": 1,
+  "total_s1_files": 60,
+  "manual_review": 12,
+  "sub_relations": [
+    {
+      "sub_relation_id": "15.2",
+      "name": "Dimension Standard→cm/m Value",
+      "subject": "planning",
+      "exam_year_count": 7,
+      "question_block_count": 7,
+      "subitem_count": 7,
+      "representative_refs": [
+        "2017 planning Q1",
+        "2019 planning Q4",
+        "2020 planning Q4"
+      ]
+    },
+    {
+      "sub_relation_id": "15.4",
+      "name": "Distance Standard→m Value",
+      "subject": "planning",
+      "exam_year_count": 7,
+      "question_block_count": 7,
+      "subitem_count": 7,
+      "representative_refs": [
+        "2017 planning Q1",
+        "2019 planning Q4",
+        "2020 planning Q4"
+      ]
+    },
+    {
+      "sub_relation_id": "15.3",
+      "name": "Capacity Standard→Person Count",
+      "subject": "planning",
+      "exam_year_count": 7,
+      "question_block_count": 7,
+      "subitem_count": 7,
+      "representative_refs": [
+        "2017 planning Q1",
+        "2019 planning Q4",
+        "2020 planning Q4"
+      ]
+    },
+    {
+      "sub_relation_id": "15.1",
+      "name": "Area Standard→m² Value",
+      "subject": "planning",
+      "exam_year_count": 7,
+      "question_block_count": 7,
+      "subitem_count": 7,
+      "representative_refs": [
+        "2017 planning Q1",
+        "2019 planning Q4",
+        "2020 planning Q4"
+      ]
+    },
+    {
+      "sub_relation_id": "10.2",
+      "name": "Given Values→U-value",
+      "subject": "environment",
+      "exam_year_count": 6,
+      "question_block_count": 6,
+      "subitem_count": 6,
+      "representative_refs": [
+        "2015 environment Q4",
+        "2017 environment Q4",
+        "2018 environment Q2"
+      ]
+    },
+    {
+      "sub_relation_id": "10.3",
+      "name": "Given Values→Reverberation Time",
+      "subject": "environment",
+      "exam_year_count": 6,
+      "question_block_count": 6,
+      "subitem_count": 6,
+      "representative_refs": [
+        "2015 environment Q4",
+        "2017 environment Q4",
+        "2018 environment Q2"
+      ]
+    },
+    {
+      "sub_relation_id": "10.1",
+      "name": "Given Values→Ventilation Rate",
+      "subject": "environment",
+      "exam_year_count": 6,
+      "question_block_count": 6,
+      "subitem_count": 6,
+      "representative_refs": [
+        "2015 environment Q4",
+        "2017 environment Q4",
+        "2018 environment Q2"
+      ]
+    },
+    {
+      "sub_relation_id": "10.5",
+      "name": "Given Values→Dynamic Pressure",
+      "subject": "environment",
+      "exam_year_count": 6,
+      "question_block_count": 6,
+      "subitem_count": 6,
+      "representative_refs": [
+        "2015 environment Q4",
+        "2017 environment Q4",
+        "2018 environment Q2"
+      ]
+    },
+    {
+      "sub_relation_id": "10.4",
+      "name": "Given Values→Illuminance",
+      "subject": "environment",
+      "exam_year_count": 6,
+      "question_block_count": 6,
+      "subitem_count": 6,
+      "representative_refs": [
+        "2015 environment Q4",
+        "2017 environment Q4",
+        "2018 environment Q2"
+      ]
+    },
+    {
+      "sub_relation_id": "1.2",
+      "name": "Image→Architect",
+      "subject": "history",
+      "exam_year_count": 5,
+      "question_block_count": 5,
+      "subitem_count": 5,
+      "representative_refs": [
+        "2019 history Q5",
+        "2020 history Q5",
+        "2024 history Q5"
+      ]
+    },
+    {
+      "sub_relation_id": "16.2",
+      "name": "Case→Description",
+      "subject": "planning",
+      "exam_year_count": 4,
+      "question_block_count": 5,
+      "subitem_count": 5,
+      "representative_refs": [
+        "2013 planning Q3",
+        "2014 planning Q4",
+        "2015 planning Q11"
+      ]
+    },
+    {
+      "sub_relation_id": "16.6",
+      "name": "Building→Spatial Pattern",
+      "subject": "planning",
+      "exam_year_count": 4,
+      "question_block_count": 5,
+      "subitem_count": 5,
+      "representative_refs": [
+        "2013 planning Q3",
+        "2014 planning Q4",
+        "2015 planning Q11"
+      ]
+    },
+    {
+      "sub_relation_id": "8.2",
+      "name": "Material→Strength",
+      "subject": "building_construction",
+      "exam_year_count": 4,
+      "question_block_count": 4,
+      "subitem_count": 4,
+      "representative_refs": [
+        "2017 building_construction Q3",
+        "2018 building_construction Q3",
+        "2020 building_construction Q3"
+      ]
+    },
+    {
+      "sub_relation_id": "1.1",
+      "name": "Image→Building Name",
+      "subject": "history",
+      "exam_year_count": 4,
+      "question_block_count": 4,
+      "subitem_count": 4,
+      "representative_refs": [
+        "2020 history Q5",
+        "2022 history Q5",
+        "2025 history Q5"
+      ]
+    },
+    {
+      "sub_relation_id": "1.3",
+      "name": "Image→Style",
+      "subject": "history",
+      "exam_year_count": 3,
+      "question_block_count": 3,
+      "subitem_count": 3,
+      "representative_refs": [
+        "2020 history Q5",
+        "2025 history Q5",
+        "2026 history Q5"
+      ]
+    },
+    {
+      "sub_relation_id": "4.3",
+      "name": "Building Name→Period",
+      "subject": "history",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 2,
+      "representative_refs": [
+        "2013 history Q5",
+        "2018 history Q5"
+      ]
+    },
+    {
+      "sub_relation_id": "4.1",
+      "name": "Building Name→Architect",
+      "subject": "history",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 2,
+      "representative_refs": [
+        "2013 history Q5",
+        "2018 history Q5"
+      ]
+    },
+    {
+      "sub_relation_id": "4.2",
+      "name": "Building Name→Style",
+      "subject": "history",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 2,
+      "representative_refs": [
+        "2013 history Q5",
+        "2018 history Q5"
+      ]
+    },
+    {
+      "sub_relation_id": "7.1",
+      "name": "Definition→Term",
+      "subject": "building_construction",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 2,
+      "representative_refs": [
+        "2014 building_construction Q3",
+        "2025 building_construction Q3"
+      ]
+    },
+    {
+      "sub_relation_id": "5.1",
+      "name": "Feature Description→Building Name",
+      "subject": "history",
+      "exam_year_count": 2,
+      "question_block_count": 3,
+      "subitem_count": 3,
+      "representative_refs": [
+        "2015 history Q3",
+        "2015 history Q7",
+        "2017 history Q2"
+      ]
+    },
+    {
+      "sub_relation_id": "6.2",
+      "name": "Structural Context→Structural Term",
+      "subject": "building_construction",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 2,
+      "representative_refs": [
+        "2015 building_construction Q2",
+        "2022 building_construction Q3"
+      ]
+    },
+    {
+      "sub_relation_id": "6.1",
+      "name": "Material Context→Material Name",
+      "subject": "building_construction",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 2,
+      "representative_refs": [
+        "2015 building_construction Q2",
+        "2022 building_construction Q3"
+      ]
+    },
+    {
+      "sub_relation_id": "6.3",
+      "name": "Process Context→Process Term",
+      "subject": "building_construction",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 2,
+      "representative_refs": [
+        "2015 building_construction Q2",
+        "2022 building_construction Q3"
+      ]
+    },
+    {
+      "sub_relation_id": "16.1",
+      "name": "Concept→Definition",
+      "subject": "planning",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 2,
+      "representative_refs": [
+        "2016 planning Q4",
+        "2025 planning Q4"
+      ]
+    },
+    {
+      "sub_relation_id": "16.4",
+      "name": "Facility→Spatial Feature",
+      "subject": "planning",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 2,
+      "representative_refs": [
+        "2016 planning Q4",
+        "2025 planning Q4"
+      ]
+    },
+    {
+      "sub_relation_id": "13.2",
+      "name": "Law/Principle→Description",
+      "subject": "environment",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "subitem_count": 1,
+      "representative_refs": [
+        "2013 environment Q4"
+      ]
+    },
+    {
+      "sub_relation_id": "13.1",
+      "name": "Term→Definition",
+      "subject": "environment",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "subitem_count": 1,
+      "representative_refs": [
+        "2013 environment Q4"
+      ]
+    },
+    {
+      "sub_relation_id": "17.4",
+      "name": "Area Standard→Minimum Area",
+      "subject": "planning",
+      "exam_year_count": 1,
+      "question_block_count": 2,
+      "subitem_count": 2,
+      "representative_refs": [
+        "2015 planning Q10",
+        "2015 planning Q9"
+      ]
+    },
+    {
+      "sub_relation_id": "17.1",
+      "name": "Building Code→Dimension",
+      "subject": "planning",
+      "exam_year_count": 1,
+      "question_block_count": 2,
+      "subitem_count": 2,
+      "representative_refs": [
+        "2015 planning Q10",
+        "2015 planning Q9"
+      ]
+    },
+    {
+      "sub_relation_id": "14.1",
+      "name": "Principle→Correct",
+      "subject": "environment",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "subitem_count": 1,
+      "representative_refs": [
+        "2019 environment Q2"
+      ]
+    },
+    {
+      "sub_relation_id": "12.1",
+      "name": "Formula→Quantity Name",
+      "subject": "environment",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "subitem_count": 1,
+      "representative_refs": [
+        "2022 environment Q2"
+      ]
+    },
+    {
+      "sub_relation_id": "12.2",
+      "name": "Formula→Missing Exponent",
+      "subject": "environment",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "subitem_count": 1,
+      "representative_refs": [
+        "2022 environment Q2"
+      ]
+    }
+  ]
+}

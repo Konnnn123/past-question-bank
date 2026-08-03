@@ -1,0 +1,425 @@
+{
+  "version": 1,
+  "round": "3B",
+  "contractDataCompletion": true,
+  "totalQuestions": 12,
+  "questions": [
+    {
+      "id": "r3b-arch-01",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "question": {
+        "prompt": "次の建築家の代表作として最も適切なものを選びなさい。\n\nハンス・ペルツィヒ",
+        "options": [
+          "A. ベルリン大劇場",
+          "B. ガラスの家 Glaspavillon",
+          "C. アインシュタイン塔",
+          "D. ウィーン王立劇場ブルク劇場"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "ハンス・ペルツィヒ → ベルリン大劇場"
+      },
+      "contract": {
+        "answerField": "value",
+        "answerSemanticType": "building_name",
+        "distractorPeerScores": {
+          "アインシュタイン塔": {
+            "score": 5,
+            "breakdown": [
+              "region:europe",
+              "style_overlap:{'ドイツ表現主義'}",
+              "period_close:20世紀初頭~20世紀初頭"
+            ]
+          },
+          "ガラスの家 Glaspavillon": {
+            "score": 5,
+            "breakdown": [
+              "region:europe",
+              "style_overlap:{'ドイツ表現主義'}",
+              "period_close:20世紀初頭~20世紀初頭"
+            ]
+          },
+          "ウィーン王立劇場ブルク劇場": {
+            "score": 4,
+            "breakdown": [
+              "region:europe",
+              "period_close:20世紀初頭~19世紀後半",
+              "use:{'劇場'}"
+            ]
+          }
+        }
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r3b-arch-02",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "question": {
+        "prompt": "次の建築家の代表作として最も適切なものを選びなさい。\n\nル・コルビュジエ",
+        "options": [
+          "A. 琵琶湖疏水運河橋",
+          "B. ニュートン記念堂設計案",
+          "C. ソーン自邸",
+          "D. マルケルス劇場"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "ル・コルビュジエ → ニュートン記念堂設計案"
+      },
+      "contract": {
+        "answerField": "value",
+        "answerSemanticType": "building_name",
+        "distractorPeerScores": {
+          "ソーン自邸": {
+            "score": 4,
+            "breakdown": [
+              "region:japan",
+              "style_overlap:{'新古典主義建築'}"
+            ]
+          },
+          "琵琶湖疏水運河橋": {
+            "score": 2,
+            "breakdown": [
+              "region:japan"
+            ]
+          },
+          "マルケルス劇場": {
+            "score": 2,
+            "breakdown": [
+              "region:japan"
+            ]
+          }
+        }
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r3b-arch-03",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "question": {
+        "prompt": "次の建築家の代表作として最も適切なものを選びなさい。\n\nサン＝ベルナール（クレルヴォーのベルナール）",
+        "options": [
+          "A. モンマジュール修道会教会堂",
+          "B. オルシヴァルのノートル＝ダム教会堂",
+          "C. カルドナのサン ヴィセンス参事会教会堂",
+          "D. フォントネ修道院教会堂"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "サン＝ベルナール（クレルヴォーのベルナール） → フォントネ修道院教会堂"
+      },
+      "contract": {
+        "answerField": "value",
+        "answerSemanticType": "building_name",
+        "distractorPeerScores": {
+          "オルシヴァルのノートル＝ダム教会堂": {
+            "score": 5,
+            "breakdown": [
+              "region:europe",
+              "style_overlap:{'ロマネスク建築'}",
+              "use:{'教会'}"
+            ]
+          },
+          "モンマジュール修道会教会堂": {
+            "score": 5,
+            "breakdown": [
+              "region:europe",
+              "style_overlap:{'ロマネスク建築'}",
+              "use:{'教会'}"
+            ]
+          },
+          "カルドナのサン ヴィセンス参事会教会堂": {
+            "score": 5,
+            "breakdown": [
+              "region:europe",
+              "style_overlap:{'ロマネスク建築'}",
+              "use:{'教会'}"
+            ]
+          }
+        }
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r3b-comp-01",
+      "subject": "construction",
+      "blueprintId": "component_to_function",
+      "question": {
+        "prompt": "次の建築構法部材の主な機能として最も適切なものを選びなさい。\n\nアンカーボルト（S造柱脚）",
+        "options": [
+          "A. 普通ボルト接合より剛性・耐力が高く、S造の主要構造部に用いる",
+          "B. 鉄骨柱脚のベースプレートを鉄筋コンクリート基礎に固定するボルト",
+          "C. ボルト軸と孔の支圧・せん断で力を伝える接合",
+          "D. 高力ボルトを強く締め付けて接合材同士を圧着し、主に接触面の摩擦力で力を伝える接合"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "アンカーボルト（S造柱脚）の機能：鉄骨柱脚のベースプレートを鉄筋コンクリート基礎に固定するボルト"
+      },
+      "contract": {
+        "answerField": "value",
+        "answerSemanticType": "function_description",
+        "distractorPeerScores": {
+          "高力ボルト接合": {
+            "score": 3,
+            "breakdown": [
+              "granularity:component",
+              "material:{'ボルト'}"
+            ]
+          },
+          "普通ボルト接合": {
+            "score": 3,
+            "breakdown": [
+              "granularity:component",
+              "material:{'ボルト'}"
+            ]
+          }
+        }
+      },
+      "technicalQuality": 92,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r3b-comp-02",
+      "subject": "construction",
+      "blueprintId": "component_to_function",
+      "question": {
+        "prompt": "次の建築構法部材の主な機能として最も適切なものを選びなさい。\n\n平板載荷試験",
+        "options": [
+          "A. せん断による亀裂を防止する役割のほかに主筋の座屈を防ぎ，コンクリートがはらみ出すのを防ぎ，粘りを確保する役割も果たしている",
+          "B. 地盤の支持力や沈下特性を確認する",
+          "C. コンクリート外壁の保護やれんが壁風の意匠を得る 目的で多用されている構法である",
+          "D. 事前に引張力を与えたPC鋼材を固定後、コンクリート打設・硬化後に緊張を解き、圧縮応力を導入"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "平板載荷試験の機能：地盤の支持力や沈下特性を確認する"
+      },
+      "contract": {
+        "answerField": "value",
+        "answerSemanticType": "function_description",
+        "distractorPeerScores": {
+          "Pcaの方式": {
+            "score": 2,
+            "breakdown": [
+              "granularity:component"
+            ]
+          },
+          "タイル張り": {
+            "score": 2,
+            "breakdown": [
+              "granularity:component"
+            ]
+          },
+          "帯筋": {
+            "score": 2,
+            "breakdown": [
+              "granularity:component"
+            ]
+          }
+        }
+      },
+      "technicalQuality": 92,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r3b-comp-03",
+      "subject": "construction",
+      "blueprintId": "component_to_function",
+      "question": {
+        "prompt": "次の建築構法部材の主な機能として最も適切なものを選びなさい。\n\nセパレーター",
+        "options": [
+          "A. せん断による亀裂を防止する役割のほかに主筋の座屈を防ぎ，コンクリートがはらみ出すのを防ぎ，粘りを確保する役割も果たしている",
+          "B. コンクリート外壁の保護やれんが壁風の意匠を得る 目的で多用されている構法である",
+          "C. 事前に引張力を与えたPC鋼材を固定後、コンクリート打設・硬化後に緊張を解き、圧縮応力を導入",
+          "D. 向かい合う型枠の間隔を一定に保ち、コンクリート壁の厚さを確保する"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "セパレーターの機能：向かい合う型枠の間隔を一定に保ち、コンクリート壁の厚さを確保する"
+      },
+      "contract": {
+        "answerField": "value",
+        "answerSemanticType": "function_description",
+        "distractorPeerScores": {
+          "Pcaの方式": {
+            "score": 2,
+            "breakdown": [
+              "granularity:component"
+            ]
+          },
+          "タイル張り": {
+            "score": 2,
+            "breakdown": [
+              "granularity:component"
+            ]
+          },
+          "帯筋": {
+            "score": 2,
+            "breakdown": [
+              "granularity:component"
+            ]
+          }
+        }
+      },
+      "technicalQuality": 92,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r3b-plan-01",
+      "subject": "planning",
+      "blueprintId": "description_to_pattern",
+      "question": {
+        "prompt": "次の空間的特徴に該当するパターンを選びなさい。\n\nオイルショック後の価値観見直しを背景に、地域性を生かした公共住宅計画を目指した。 地域ごとの需要に応じた住宅供給策定計画として画期的。 具体例：続き間、開放的な土間玄関、バルコニーアクセス、通風配慮、積雪地のサンルームや雁木など。 景観形成：建築高、形態、材料、工法、色彩のコントロールで、周辺地域と連続的な景観や伝統的町並みを形成。",
+        "options": [
+          "A. 高蔵寺ニュータウン",
+          "B. ユーコート",
+          "C. リビングアクセス",
+          "D. HOPE計画"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "説明は「HOPE計画」に該当。"
+      },
+      "contract": {
+        "answerField": "entityName",
+        "answerSemanticType": "pattern_name",
+        "distractorPeerBasis": "shared useType=housing, conceptLevel=spatial_pattern"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r3b-plan-02",
+      "subject": "planning",
+      "blueprintId": "description_to_pattern",
+      "question": {
+        "prompt": "次の空間的特徴に該当するパターンを選びなさい。\n\nニュー・アーバニズム を代表する 計画都市 。 歩行圏 、 混合用途 、 街路と広場 、 伝統的な街区・建築コード を重視する。",
+        "options": [
+          "A. 神戸市立西神戸医療センター",
+          "B. 代官山ヒルサイドテラス",
+          "C. 型計画",
+          "D. シーサイド"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "説明は「シーサイド」に該当。"
+      },
+      "contract": {
+        "answerField": "entityName",
+        "answerSemanticType": "pattern_name",
+        "distractorPeerBasis": "shared useType=urban, conceptLevel=spatial_pattern"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r3b-plan-03",
+      "subject": "planning",
+      "blueprintId": "description_to_pattern",
+      "question": {
+        "prompt": "次の空間的特徴に該当するパターンを選びなさい。\n\n廊下の長さを短くするために べッドの向きを斜めにしてある",
+        "options": [
+          "A. 三角形型病棟",
+          "B. 屋内運動場(体育館)防暑計画",
+          "C. 町家",
+          "D. 片廊下型"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "説明は「三角形型病棟」に該当。"
+      },
+      "contract": {
+        "answerField": "entityName",
+        "answerSemanticType": "pattern_name",
+        "distractorPeerBasis": "shared useType=hospital, conceptLevel=spatial_pattern"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r3b-env-01",
+      "subject": "environment",
+      "blueprintId": "quantity_to_calculation_formula",
+      "question": {
+        "prompt": "「等価吸音面積」を計算する式として最も適切なものを選びなさい。",
+        "options": [
+          "A. A = ΣαᵢSᵢ + ΣAⱼ",
+          "B. A = ΣαᵢSᵢ  - ΣAⱼ",
+          "C. f₂ = 2ⁿf₁",
+          "D. R = L₁ − L₂ + 10log₁₀(S/A₂)"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「等価吸音面積」の計算式。"
+      },
+      "contract": {
+        "answerField": "value",
+        "answerSemanticType": "formula_string",
+        "distractorSources": {
+          "A": "correct",
+          "B": "verified_peer:室間音圧レベル差",
+          "C": "mutated:sign_flip",
+          "D": "verified_peer"
+        },
+        "mutatedFormulaType": "sign_flip"
+      },
+      "technicalQuality": 93,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r3b-env-02",
+      "subject": "environment",
+      "blueprintId": "quantity_to_calculation_formula",
+      "question": {
+        "prompt": "「直列開口の有効開口面積」を計算する式として最も適切なものを選びなさい。",
+        "options": [
+          "A. Δp = (Cₚ₁ − Cₚ₂)ρv² / 2",
+          "B. n = Q / V",
+          "C. 1/(αA)² = Σ1/(αᵢAᵢ)²",
+          "D. 1/(αA) = Σ1/(αᵢAᵢ) (without exponent)"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「直列開口の有効開口面積」の計算式。"
+      },
+      "contract": {
+        "answerField": "value",
+        "answerSemanticType": "formula_string",
+        "distractorSources": {
+          "A": "correct",
+          "B": "verified_peer:風圧差",
+          "C": "mutated:square_root",
+          "D": "verified_peer"
+        },
+        "mutatedFormulaType": "square_root"
+      },
+      "technicalQuality": 93,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r3b-env-03",
+      "subject": "environment",
+      "blueprintId": "quantity_to_calculation_formula",
+      "question": {
+        "prompt": "「相当外気温度」を計算する式として最も適切なものを選びなさい。",
+        "options": [
+          "A. SAT = θₒ + (aI − εRₙ)/αₒ",
+          "B. q = σT⁴",
+          "C. OT ≈ (θₐ + MRT)/2",
+          "D. SAT = θₒ  - (aI − εRₙ)/αₒ"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「相当外気温度」の計算式。"
+      },
+      "contract": {
+        "answerField": "value",
+        "answerSemanticType": "formula_string",
+        "distractorSources": {
+          "A": "correct",
+          "B": "verified_peer:黒体放射",
+          "C": "mutated:sign_flip",
+          "D": "verified_peer"
+        },
+        "mutatedFormulaType": "sign_flip"
+      },
+      "technicalQuality": 93,
+      "pedagogicalQuality": 88
+    }
+  ]
+}

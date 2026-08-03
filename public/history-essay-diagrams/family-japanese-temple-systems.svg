@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620">
+  <rect width="960" height="620" fill="#f7f4ed"/>
+  <text x="42" y="48" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#17324d">日本仏堂｜和様・大仏様・禅宗様の比較軸</text>
+  <text x="42" y="78" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="16" fill="#52606d">Compare member treatment, lateral tying, brackets, rafters, and spatial effect</text>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" fill="#17324d" stroke-linejoin="round">
+    <g transform="translate(55 125)">
+      <text x="140" y="0" text-anchor="middle" font-size="22" font-weight="700">和様</text>
+      <line x1="60" y1="105" x2="220" y2="105" stroke="#17324d" stroke-width="9"/>
+      <line x1="95" y1="105" x2="95" y2="310" stroke="#17324d" stroke-width="10"/>
+      <line x1="185" y1="105" x2="185" y2="310" stroke="#17324d" stroke-width="10"/>
+      <g fill="#d9b980" stroke="#8b6b3f" stroke-width="3"><rect x="75" y="70" width="40" height="35"/><rect x="165" y="70" width="40" height="35"/></g>
+      <path d="M20 105 L140 35 L260 105" fill="none" stroke="#17324d" stroke-width="7"/>
+      <text x="140" y="355" text-anchor="middle" font-size="17">穏やかな軒・整然とした柱間</text>
+      <text x="140" y="382" text-anchor="middle" font-size="16" fill="#52606d">伝統の連続性</text>
+    </g>
+    <g transform="translate(340 125)">
+      <text x="140" y="0" text-anchor="middle" font-size="22" font-weight="700">大仏様</text>
+      <line x1="60" y1="105" x2="220" y2="105" stroke="#17324d" stroke-width="9"/>
+      <line x1="95" y1="105" x2="95" y2="310" stroke="#17324d" stroke-width="12"/>
+      <line x1="185" y1="105" x2="185" y2="310" stroke="#17324d" stroke-width="12"/>
+      <line x1="95" y1="170" x2="185" y2="170" stroke="#2e7d75" stroke-width="8"/>
+      <line x1="95" y1="235" x2="185" y2="235" stroke="#2e7d75" stroke-width="8"/>
+      <path d="M95 120 L155 82 L215 120" fill="none" stroke="#b14f3b" stroke-width="8"/>
+      <path d="M10 105 L140 30 L270 105" fill="none" stroke="#17324d" stroke-width="7"/>
+      <text x="140" y="355" text-anchor="middle" font-size="17">貫＋挿肘木・構造の可視化</text>
+      <text x="140" y="382" text-anchor="middle" font-size="16" fill="#52606d">大材・大空間・力強さ</text>
+    </g>
+    <g transform="translate(625 125)">
+      <text x="140" y="0" text-anchor="middle" font-size="22" font-weight="700">禅宗様</text>
+      <line x1="60" y1="105" x2="220" y2="105" stroke="#17324d" stroke-width="9"/>
+      <line x1="95" y1="105" x2="95" y2="310" stroke="#17324d" stroke-width="9"/>
+      <line x1="185" y1="105" x2="185" y2="310" stroke="#17324d" stroke-width="9"/>
+      <g fill="#d9b980" stroke="#8b6b3f" stroke-width="3"><rect x="65" y="65" width="35" height="40"/><rect x="105" y="65" width="35" height="40"/><rect x="145" y="65" width="35" height="40"/><rect x="185" y="65" width="35" height="40"/></g>
+      <g stroke="#2e7d75" stroke-width="3"><line x1="35" y1="105" x2="140" y2="30"/><line x1="65" y1="105" x2="155" y2="30"/><line x1="95" y1="105" x2="170" y2="30"/><line x1="125" y1="105" x2="185" y2="30"/><line x1="155" y1="105" x2="200" y2="30"/><line x1="185" y1="105" x2="215" y2="30"/><line x1="215" y1="105" x2="230" y2="30"/></g>
+      <text x="140" y="355" text-anchor="middle" font-size="17">詰組・扇垂木・細密な部材</text>
+      <text x="140" y="382" text-anchor="middle" font-size="16" fill="#52606d">垂直性・内部の統一</text>
+    </g>
+  </g>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" fill="#17324d">
+    <text x="480" y="535" text-anchor="middle">比較順序：柱・貫 → 組物 → 垂木・軒 → 開口 → 内部空間 → 伝播背景</text>
+    <text x="480" y="574" text-anchor="middle" fill="#b14f3b">模式図：個別建築には混用・後世改変があるため、様式名だけで断定しない</text>
+  </g>
+</svg>

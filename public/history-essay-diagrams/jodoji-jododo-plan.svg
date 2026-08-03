@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <rect width="960" height="560" fill="#f7f4ed"/>
+  <text x="42" y="48" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#17324d">浄土寺浄土堂｜方三間と西日</text>
+  <text x="42" y="78" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="16" fill="#52606d">Jōdo-ji Jōdodō — plan concept</text>
+  <defs>
+    <marker id="sunArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d1842f"/></marker>
+  </defs>
+  <g transform="translate(235 115)" fill="none" stroke="#17324d" stroke-width="5">
+    <rect x="0" y="0" width="360" height="330"/>
+    <line x1="120" y1="0" x2="120" y2="330" stroke="#768692" stroke-width="2" stroke-dasharray="8 8"/>
+    <line x1="240" y1="0" x2="240" y2="330" stroke="#768692" stroke-width="2" stroke-dasharray="8 8"/>
+    <line x1="0" y1="110" x2="360" y2="110" stroke="#768692" stroke-width="2" stroke-dasharray="8 8"/>
+    <line x1="0" y1="220" x2="360" y2="220" stroke="#768692" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="#17324d">
+      <circle cx="0" cy="0" r="7"/><circle cx="120" cy="0" r="7"/><circle cx="240" cy="0" r="7"/><circle cx="360" cy="0" r="7"/>
+      <circle cx="0" cy="110" r="7"/><circle cx="120" cy="110" r="7"/><circle cx="240" cy="110" r="7"/><circle cx="360" cy="110" r="7"/>
+      <circle cx="0" cy="220" r="7"/><circle cx="120" cy="220" r="7"/><circle cx="240" cy="220" r="7"/><circle cx="360" cy="220" r="7"/>
+      <circle cx="0" cy="330" r="7"/><circle cx="120" cy="330" r="7"/><circle cx="240" cy="330" r="7"/><circle cx="360" cy="330" r="7"/>
+    </g>
+    <circle cx="180" cy="165" r="64" fill="#e3c9a3" stroke="#8b6b3f" stroke-width="5"/>
+    <g stroke="#d1842f" stroke-width="5" marker-end="url(#sunArrow)">
+      <line x1="-150" y1="95" x2="95" y2="145"/>
+      <line x1="-150" y1="165" x2="95" y2="165"/>
+      <line x1="-150" y1="235" x2="95" y2="185"/>
+    </g>
+    <g stroke="#b14f3b" stroke-width="6">
+      <line x1="0" y1="60" x2="0" y2="95"/><line x1="0" y1="125" x2="0" y2="160"/>
+      <line x1="0" y1="190" x2="0" y2="225"/><line x1="0" y1="255" x2="0" y2="290"/>
+    </g>
+  </g>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" fill="#17324d">
+    <text x="415" y="306" text-anchor="middle" font-weight="700">円形仏壇＋阿弥陀三尊</text>
+    <text x="415" y="475" text-anchor="middle">方三間 / 3 × 3 bays</text>
+    <text x="180" y="280" text-anchor="end" fill="#d1842f">西日</text>
+    <text x="180" y="305" text-anchor="end" fill="#d1842f">westering sun →</text>
+    <text x="210" y="145" text-anchor="end" fill="#b14f3b">西背面の蔀戸</text>
+    <text x="692" y="300">東</text>
+    <text x="195" y="115">西</text>
+    <text x="415" y="520" text-anchor="middle" fill="#52606d">柱グリッド＋中心仏壇＋西からの光だけを描けばよい</text>
+  </g>
+</svg>

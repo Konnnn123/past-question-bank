@@ -1,0 +1,400 @@
+{
+  "version": "2.1",
+  "s1_template_count": 17,
+  "templates": [
+    {
+      "template_id": "planning_facility_fact_recall",
+      "subject": "planning",
+      "exam_year_count": 8,
+      "question_block_count": 9,
+      "subitem_count": 98,
+      "blank_count": 98,
+      "representative_refs": [
+        "2013 1 planning Q3",
+        "2015 1 planning Q5",
+        "2016 1 planning Q4"
+      ],
+      "all_refs": [
+        "2013 1 planning Q3",
+        "2015 1 planning Q5",
+        "2015 1 planning Q9",
+        "2016 1 planning Q4",
+        "2019 1 planning Q4",
+        "2020 1 planning Q4",
+        "2023 1 planning Q4",
+        "2024 1 planning Q4",
+        "2026 1 planning Q4"
+      ],
+      "data_readiness": "partial",
+      "readiness_reason": "has facts but needs distractor pools",
+      "priority": "critical",
+      "priority_score": 8.4
+    },
+    {
+      "template_id": "environment_fact_recall",
+      "subject": "environment",
+      "exam_year_count": 7,
+      "question_block_count": 7,
+      "subitem_count": 45,
+      "blank_count": 45,
+      "representative_refs": [
+        "2013 1 environment Q4",
+        "2015 1 environment Q4",
+        "2016 1 environment Q3"
+      ],
+      "all_refs": [
+        "2013 1 environment Q4",
+        "2015 1 environment Q4",
+        "2016 1 environment Q3",
+        "2019 1 environment Q2",
+        "2020 1 environment Q2",
+        "2025 1 environment Q2",
+        "2026 1 environment Q2"
+      ],
+      "data_readiness": "partial",
+      "readiness_reason": "has facts but needs distractor pools",
+      "priority": "high",
+      "priority_score": 7.0
+    },
+    {
+      "template_id": "building_construction_numerical",
+      "subject": "building_construction",
+      "exam_year_count": 6,
+      "question_block_count": 6,
+      "subitem_count": 7,
+      "blank_count": 7,
+      "representative_refs": [
+        "2013 1 building_construction Q2",
+        "2015 1 building_construction Q2",
+        "2016 1 building_construction Q2"
+      ],
+      "all_refs": [
+        "2013 1 building_construction Q2",
+        "2015 1 building_construction Q2",
+        "2016 1 building_construction Q2",
+        "2017 1 building_construction Q3",
+        "2018 1 building_construction Q3",
+        "2025 1 building_construction Q3"
+      ],
+      "data_readiness": "partial",
+      "readiness_reason": "needs evaluation",
+      "priority": "high",
+      "priority_score": 6.0
+    },
+    {
+      "template_id": "environment_numerical_calculation",
+      "subject": "environment",
+      "exam_year_count": 4,
+      "question_block_count": 4,
+      "subitem_count": 5,
+      "blank_count": 5,
+      "representative_refs": [
+        "2017 1 environment Q4",
+        "2018 1 environment Q2",
+        "2024 1 environment Q2"
+      ],
+      "all_refs": [
+        "2017 1 environment Q4",
+        "2018 1 environment Q2",
+        "2024 1 environment Q2",
+        "2025 1 environment Q2"
+      ],
+      "data_readiness": "ready",
+      "readiness_reason": "production ready",
+      "priority": "high",
+      "priority_score": 6.0
+    },
+    {
+      "template_id": "planning_legal_standard_fill",
+      "subject": "planning",
+      "exam_year_count": 5,
+      "question_block_count": 5,
+      "subitem_count": 8,
+      "blank_count": 8,
+      "representative_refs": [
+        "2015 1 planning Q10",
+        "2018 1 planning Q4",
+        "2020 1 planning Q4"
+      ],
+      "all_refs": [
+        "2015 1 planning Q10",
+        "2018 1 planning Q4",
+        "2020 1 planning Q4",
+        "2024 1 planning Q4",
+        "2026 1 planning Q4"
+      ],
+      "data_readiness": "partial",
+      "readiness_reason": "has terms but needs domain grouping",
+      "priority": "high",
+      "priority_score": 5.0
+    },
+    {
+      "template_id": "history_image_wordbank_matching",
+      "subject": "history",
+      "exam_year_count": 3,
+      "question_block_count": 3,
+      "subitem_count": 4,
+      "blank_count": 4,
+      "representative_refs": [
+        "2015 1 history Q6",
+        "2025 1 history Q5",
+        "2026 1 history Q5"
+      ],
+      "all_refs": [
+        "2015 1 history Q6",
+        "2025 1 history Q5",
+        "2026 1 history Q5"
+      ],
+      "data_readiness": "blocked_images",
+      "readiness_reason": "only 0 confirmed images",
+      "priority": "medium",
+      "priority_score": 3.0
+    },
+    {
+      "template_id": "planning_numerical_calculation",
+      "subject": "planning",
+      "exam_year_count": 3,
+      "question_block_count": 3,
+      "subitem_count": 3,
+      "blank_count": 3,
+      "representative_refs": [
+        "2015 1 planning Q10",
+        "2019 1 planning Q4",
+        "2023 1 planning Q4"
+      ],
+      "all_refs": [
+        "2015 1 planning Q10",
+        "2019 1 planning Q4",
+        "2023 1 planning Q4"
+      ],
+      "data_readiness": "partial",
+      "readiness_reason": "needs parameter ranges",
+      "priority": "medium",
+      "priority_score": 3.0
+    },
+    {
+      "template_id": "history_wordbank_pairing_no_image",
+      "subject": "history",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 2,
+      "blank_count": 2,
+      "representative_refs": [
+        "2013 1 history Q5",
+        "2018 1 history Q5"
+      ],
+      "all_refs": [
+        "2013 1 history Q5",
+        "2018 1 history Q5"
+      ],
+      "data_readiness": "blocked_images",
+      "readiness_reason": "only 0 confirmed images",
+      "priority": "medium",
+      "priority_score": 2.0
+    },
+    {
+      "template_id": "building_construction_independent_fill",
+      "subject": "building_construction",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 4,
+      "blank_count": 28,
+      "representative_refs": [
+        "2019 1 building_construction Q3",
+        "2020 1 building_construction Q3"
+      ],
+      "all_refs": [
+        "2019 1 building_construction Q3",
+        "2020 1 building_construction Q3"
+      ],
+      "data_readiness": "partial",
+      "readiness_reason": "has terms but needs domain grouping",
+      "priority": "medium",
+      "priority_score": 2.0
+    },
+    {
+      "template_id": "history_image_to_name",
+      "subject": "history",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 12,
+      "blank_count": 12,
+      "representative_refs": [
+        "2022 1 history Q5",
+        "2025 1 history Q5"
+      ],
+      "all_refs": [
+        "2022 1 history Q5",
+        "2025 1 history Q5"
+      ],
+      "data_readiness": "blocked_images",
+      "readiness_reason": "only 0 confirmed images",
+      "priority": "medium",
+      "priority_score": 2.0
+    },
+    {
+      "template_id": "history_image_to_architect",
+      "subject": "history",
+      "exam_year_count": 2,
+      "question_block_count": 2,
+      "subitem_count": 3,
+      "blank_count": 3,
+      "representative_refs": [
+        "2022 1 history Q5",
+        "2026 1 history Q5"
+      ],
+      "all_refs": [
+        "2022 1 history Q5",
+        "2026 1 history Q5"
+      ],
+      "data_readiness": "blocked_images",
+      "readiness_reason": "only 0 confirmed images",
+      "priority": "medium",
+      "priority_score": 2.0
+    },
+    {
+      "template_id": "planning_definition_to_term",
+      "subject": "planning",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "subitem_count": 1,
+      "blank_count": 1,
+      "representative_refs": [
+        "2013 1 planning Q3"
+      ],
+      "all_refs": [
+        "2013 1 planning Q3"
+      ],
+      "data_readiness": "partial",
+      "readiness_reason": "has facts but needs distractor pools",
+      "priority": "low",
+      "priority_score": 1.0
+    },
+    {
+      "template_id": "history_description_to_name",
+      "subject": "history",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "subitem_count": 1,
+      "blank_count": 1,
+      "representative_refs": [
+        "2015 1 history Q3"
+      ],
+      "all_refs": [
+        "2015 1 history Q3"
+      ],
+      "data_readiness": "partial",
+      "readiness_reason": "has facts but needs distractor pools",
+      "priority": "low",
+      "priority_score": 1.0
+    },
+    {
+      "template_id": "planning_inline_numeric_select",
+      "subject": "planning",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "subitem_count": 1,
+      "blank_count": 1,
+      "representative_refs": [
+        "2017 1 planning Q1"
+      ],
+      "all_refs": [
+        "2017 1 planning Q1"
+      ],
+      "data_readiness": "partial",
+      "readiness_reason": "values need standards verification",
+      "priority": "low",
+      "priority_score": 1.0
+    },
+    {
+      "template_id": "environment_phenomenon_wordbank",
+      "subject": "environment",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "subitem_count": 1,
+      "blank_count": 1,
+      "representative_refs": [
+        "2022 1 environment Q2"
+      ],
+      "all_refs": [
+        "2022 1 environment Q2"
+      ],
+      "data_readiness": "partial",
+      "readiness_reason": "has terms but needs domain grouping",
+      "priority": "low",
+      "priority_score": 1.0
+    },
+    {
+      "template_id": "environment_formula_completion",
+      "subject": "environment",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "subitem_count": 2,
+      "blank_count": 2,
+      "representative_refs": [
+        "2022 1 environment Q2"
+      ],
+      "all_refs": [
+        "2022 1 environment Q2"
+      ],
+      "data_readiness": "partial",
+      "readiness_reason": "needs evaluation",
+      "priority": "low",
+      "priority_score": 1.0
+    },
+    {
+      "template_id": "building_construction_image_to_component",
+      "subject": "building_construction",
+      "exam_year_count": 1,
+      "question_block_count": 1,
+      "subitem_count": 2,
+      "blank_count": 2,
+      "representative_refs": [
+        "2025 1 building_construction Q3"
+      ],
+      "all_refs": [
+        "2025 1 building_construction Q3"
+      ],
+      "data_readiness": "blocked_images",
+      "readiness_reason": "only 0 confirmed images",
+      "priority": "low",
+      "priority_score": 1.0
+    }
+  ],
+  "required_format_check": {
+    "planning": {
+      "definition_to_term_mcq": true,
+      "project_to_planner_mcq": false,
+      "image_name_matching": false,
+      "facility_fact_mcq": false,
+      "inline_numeric_select": true,
+      "numerical_calculation": true,
+      "legal_standard_select": true
+    },
+    "building_construction": {
+      "shared_wordbank_fill": false,
+      "independent_fill": true,
+      "diagram_component_identification": true,
+      "material_joint_relation": true,
+      "building_construction_sequence": false,
+      "numerical": false,
+      "true_false_or_statement_select": false
+    },
+    "environment": {
+      "fact_value_select": true,
+      "numeric_candidate_fill": false,
+      "true_false_batch": true,
+      "correct_statement_select": false,
+      "numerical_calculation": true,
+      "calculation_select": false,
+      "phenomenon_wordbank": true
+    },
+    "history": {
+      "image_multi_wordbank_matching": true,
+      "image_to_name": true,
+      "image_to_architect": true,
+      "non_image_wordbank_pairing": true,
+      "definition_or_description_to_name": true
+    }
+  }
+}

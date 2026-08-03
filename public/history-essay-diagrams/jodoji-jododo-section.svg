@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <rect width="960" height="560" fill="#f7f4ed"/>
+  <text x="42" y="48" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#17324d">浄土寺浄土堂｜露出架構の断面</text>
+  <text x="42" y="78" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="16" fill="#52606d">roof → rafters + purlin → bracket arms → round posts</text>
+  <defs>
+    <marker id="loadArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#b14f3b"/></marker>
+  </defs>
+  <g transform="translate(110 105)" fill="none" stroke-linejoin="round">
+    <path d="M40 210 L370 25 L700 210" stroke="#17324d" stroke-width="8"/>
+    <path d="M85 205 L370 55 L655 205" stroke="#8b6b3f" stroke-width="4"/>
+    <line x1="110" y1="205" x2="630" y2="205" stroke="#17324d" stroke-width="8"/>
+    <line x1="150" y1="205" x2="150" y2="415" stroke="#17324d" stroke-width="11"/>
+    <line x1="590" y1="205" x2="590" y2="415" stroke="#17324d" stroke-width="11"/>
+    <path d="M150 238 L230 195 L300 238" stroke="#2e7d75" stroke-width="8"/>
+    <path d="M590 238 L510 195 L440 238" stroke="#2e7d75" stroke-width="8"/>
+    <path d="M225 245 Q370 170 515 245" stroke="#8b6b3f" stroke-width="9"/>
+    <line x1="370" y1="205" x2="370" y2="245" stroke="#8b6b3f" stroke-width="9"/>
+    <line x1="80" y1="415" x2="660" y2="415" stroke="#17324d" stroke-width="5"/>
+    <g stroke="#b14f3b" stroke-width="4" marker-end="url(#loadArrow)">
+      <line x1="275" y1="95" x2="175" y2="190"/>
+      <line x1="465" y1="95" x2="565" y2="190"/>
+      <line x1="150" y1="250" x2="150" y2="390"/>
+      <line x1="590" y1="250" x2="590" y2="390"/>
+    </g>
+  </g>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" fill="#17324d">
+    <text x="480" y="112" text-anchor="middle" font-weight="700">宝形屋根</text>
+    <text x="480" y="238" text-anchor="middle" fill="#52606d">天井を張らない＝化粧屋根裏</text>
+    <text x="290" y="325" text-anchor="end" fill="#2e7d75">挿肘木</text>
+    <text x="670" y="325" fill="#2e7d75">挿肘木</text>
+    <text x="480" y="385" text-anchor="middle" fill="#8b6b3f">虹梁＋大瓶束</text>
+    <text x="240" y="510" text-anchor="middle">太い円柱</text>
+    <text x="720" y="510" text-anchor="middle">太い円柱</text>
+    <text x="480" y="542" text-anchor="middle" fill="#b14f3b">赤矢印＝屋根荷重の概念</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <rect width="960" height="560" fill="#f7f4ed"/>
+  <text x="42" y="48" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#17324d">ゴシック教会堂｜断面で覚える一つのシステム</text>
+  <text x="42" y="78" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="16" fill="#52606d">rib vault → clustered pier / flying buttress → outer buttress</text>
+  <defs><marker id="gArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#b14f3b"/></marker></defs>
+  <g transform="translate(110 105)" fill="none" stroke-linejoin="round">
+    <path d="M245 185 Q370 20 495 185" stroke="#17324d" stroke-width="7"/>
+    <path d="M245 185 L245 420 M495 185 L495 420" stroke="#17324d" stroke-width="10"/>
+    <path d="M245 245 Q165 195 105 285" stroke="#2e7d75" stroke-width="8"/>
+    <path d="M495 245 Q575 195 635 285" stroke="#2e7d75" stroke-width="8"/>
+    <path d="M105 285 L75 420 M635 285 L665 420" stroke="#8b6b3f" stroke-width="12"/>
+    <path d="M105 300 Q60 245 25 320 M635 300 Q680 245 715 320" stroke="#768692" stroke-width="5"/>
+    <line x1="25" y1="420" x2="715" y2="420" stroke="#17324d" stroke-width="5"/>
+    <g stroke="#b14f3b" stroke-width="4" marker-end="url(#gArrow)">
+      <line x1="310" y1="115" x2="255" y2="210"/><line x1="430" y1="115" x2="485" y2="210"/>
+      <line x1="220" y1="220" x2="100" y2="280"/><line x1="520" y1="220" x2="640" y2="280"/>
+    </g>
+    <rect x="275" y="205" width="190" height="90" fill="#dce7ea" stroke="#2e7d75" stroke-width="3"/>
+  </g>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" fill="#17324d">
+    <text x="480" y="133" text-anchor="middle" font-weight="700">リブ・ヴォールト（rib vault）</text>
+    <text x="480" y="350" text-anchor="middle" fill="#2e7d75">高窓 / clerestory</text>
+    <text x="215" y="340" text-anchor="end" fill="#2e7d75">飛梁</text>
+    <text x="745" y="340" fill="#2e7d75">flying buttress</text>
+    <text x="150" y="510" text-anchor="middle" fill="#8b6b3f">控壁</text>
+    <text x="810" y="510" text-anchor="middle" fill="#8b6b3f">buttress</text>
+    <text x="480" y="535" text-anchor="middle" fill="#b14f3b">荷重を点と外部支持へ集める → 壁を開き、高く明るい身廊をつくる</text>
+  </g>
+</svg>

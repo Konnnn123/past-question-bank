@@ -27,6 +27,7 @@ body {
 
 /* 日本語テキストの最適化 */
 :lang(ja) {
+  font-family: "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   line-break: strict;
   word-break: keep-all;
   overflow-wrap: break-word;

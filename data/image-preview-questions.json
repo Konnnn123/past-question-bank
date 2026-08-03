@@ -1,0 +1,506 @@
+{
+  "version": 1,
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": "preview-img-01",
+      "blueprintId": "image_to_building",
+      "imageAssetId": "img-0247",
+      "fileName": "2bbe961e46908092bc53e067058898c9.png",
+      "question": {
+        "prompt": "次の写真の建築名称を答えなさい。",
+        "options": [
+          "A. 法隆寺聖霊院",
+          "B. 長崎居留地25番館",
+          "C. アミアンのノートル＝ダム大聖堂",
+          "D. コアのあるH氏の住まい"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "写真は法隆寺聖霊院。和様、聖徳太子（信仰対象）・要確認。"
+      },
+      "visibleFeatures": "建筑外观",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046564",
+        "originalField": "image",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-02",
+      "blueprintId": "image_to_building",
+      "imageAssetId": "img-0130",
+      "fileName": "11ae961e4690804282add075fd4d31cc.png",
+      "question": {
+        "prompt": "次の写真の建築名称を答えなさい。",
+        "options": [
+          "A. 長崎居留地25番館",
+          "B. コアのあるH氏の住まい",
+          "C. アミアンのノートル＝ダム大聖堂",
+          "D. ハトシェポスト女王葬祭神殿とメントゥホテップ2世葬祭神殿"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "写真はハトシェポスト女王葬祭神殿とメントゥホテップ2世葬祭神殿。エジプト建築（岩窟墓と葬祭殿の複合様式）、センムト（ハトシェプストの建築家）／メンチュホテプ2世（自身の葬祭殿を建設）。"
+      },
+      "visibleFeatures": "建筑外观",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046362",
+        "originalField": "image",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-03",
+      "blueprintId": "image_to_building",
+      "imageAssetId": "img-0419",
+      "fileName": "2e2e961e46908014adfafe087a7fd831.png",
+      "question": {
+        "prompt": "次の写真の建築名称を答えなさい。",
+        "options": [
+          "A. コアのあるH氏の住まい",
+          "B. 長崎居留地25番館",
+          "C. クライスラー・ビルのエントランス・ホーム",
+          "D. アミアンのノートル＝ダム大聖堂"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "写真はクライスラー・ビルのエントランス・ホーム。アール・デコ、ウィリアム・ヴァン・アレン。"
+      },
+      "visibleFeatures": "建筑外观",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046844",
+        "originalField": "image",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-04",
+      "blueprintId": "image_to_building",
+      "imageAssetId": "img-0314",
+      "fileName": "2b9e961e4690802b90bad70c7ba4ed69_0.png",
+      "question": {
+        "prompt": "次の写真の建築名称を答えなさい。",
+        "options": [
+          "A. アミアンのノートル＝ダム大聖堂",
+          "B. 長崎居留地25番館",
+          "C. コアのあるH氏の住まい",
+          "D. 法隆寺金堂&五重塔"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "写真は法隆寺金堂&五重塔。和様（仏教建築）、聖徳太子（建立に関与）。"
+      },
+      "visibleFeatures": "建筑外观",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046668",
+        "originalField": "image",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-05",
+      "blueprintId": "image_to_building",
+      "imageAssetId": "img-0398",
+      "fileName": "2e2e961e4690802eb4e5e87175d273da.png",
+      "question": {
+        "prompt": "次の写真の建築名称を答えなさい。",
+        "options": [
+          "A. コアのあるH氏の住まい",
+          "B. プラン・ヴォワザン",
+          "C. 長崎居留地25番館",
+          "D. アミアンのノートル＝ダム大聖堂"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "写真はプラン・ヴォワザン。モダニズム、ル・コルビュジェ。"
+      },
+      "visibleFeatures": "建筑外观",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046812",
+        "originalField": "image",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-06",
+      "blueprintId": "image_to_building",
+      "imageAssetId": "img-0424",
+      "fileName": "2e1e961e469080fe9bd7e6faefd94cbd.png",
+      "question": {
+        "prompt": "次の写真の建築名称を答えなさい。",
+        "options": [
+          "A. コアのあるH氏の住まい",
+          "B. ヴィラ・ヘニー",
+          "C. 長崎居留地25番館",
+          "D. アミアンのノートル＝ダム大聖堂"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "写真はヴィラ・ヘニー。ロシア構成主義、ロベルト・ファント・ホフ。"
+      },
+      "visibleFeatures": "建筑外观",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046854",
+        "originalField": "image",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-07",
+      "blueprintId": "image_to_building",
+      "imageAssetId": "img-0258",
+      "fileName": "2bbe961e46908095a63ec2c9d4345273.png",
+      "question": {
+        "prompt": "次の写真の建築名称を答えなさい。",
+        "options": [
+          "A. コアのあるH氏の住まい",
+          "B. アミアンのノートル＝ダム大聖堂",
+          "C. 長崎居留地25番館",
+          "D. 大徳寺三門"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "写真は大徳寺三門。禅宗様、千利休。"
+      },
+      "visibleFeatures": "建筑外观",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046584",
+        "originalField": "image",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-08",
+      "blueprintId": "image_to_building",
+      "imageAssetId": "img-0200",
+      "fileName": "2e0e961e469080e597c1c36c52c6fa68.png",
+      "question": {
+        "prompt": "次の写真の建築名称を答えなさい。",
+        "options": [
+          "A. アミアンのノートル＝ダム大聖堂",
+          "B. 長崎居留地25番館",
+          "C. 西本願寺飛雲閣",
+          "D. コアのあるH氏の住まい"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "写真は西本願寺飛雲閣。数寄屋風書院、。"
+      },
+      "visibleFeatures": "建筑外观",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046494",
+        "originalField": "image",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-09",
+      "blueprintId": "image_to_building",
+      "imageAssetId": "img-0072",
+      "fileName": "124e961e469080a58644cb21ba132d3d.png",
+      "question": {
+        "prompt": "次の写真の建築名称を答えなさい。",
+        "options": [
+          "A. 長崎居留地25番館",
+          "B. アミアンのノートル＝ダム大聖堂",
+          "C. プラン・ヴォワザン",
+          "D. コアのあるH氏の住まい"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "写真はアミアンのノートル＝ダム大聖堂。ゴシック建築、ロベール・ド・リュザルシュ（要確認）。"
+      },
+      "visibleFeatures": "建筑外观",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046268",
+        "originalField": "image",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-10",
+      "blueprintId": "image_to_building",
+      "imageAssetId": "img-0123",
+      "fileName": "11ae961e469080098efcded7220db19c.png",
+      "question": {
+        "prompt": "次の写真の建築名称を答えなさい。",
+        "options": [
+          "A. アミアンのノートル＝ダム大聖堂",
+          "B. 長崎居留地25番館",
+          "C. エピダウロスの劇場",
+          "D. コアのあるH氏の住まい"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "写真はエピダウロスの劇場。ギリシア建築、ポリュクレイトス（小）。"
+      },
+      "visibleFeatures": "建筑外观",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046348",
+        "originalField": "image",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-image_to_style-01",
+      "blueprintId": "image_to_style",
+      "imageAssetId": "img-0247",
+      "fileName": "2bbe961e46908092bc53e067058898c9.png",
+      "question": {
+        "prompt": "次の写真の建築の様式を答えなさい。",
+        "options": [
+          "A. 中国風宮殿建築",
+          "B. 和様",
+          "C. 流造",
+          "D. 機能主義"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "写真は法隆寺聖霊院。様式は和様。"
+      },
+      "visibleFeatures": "建筑外观, 样式特征",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046564",
+        "originalField": "image + style/people",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-image_to_style-02",
+      "blueprintId": "image_to_style",
+      "imageAssetId": "img-0130",
+      "fileName": "11ae961e4690804282add075fd4d31cc.png",
+      "question": {
+        "prompt": "次の写真の建築の様式を答えなさい。",
+        "options": [
+          "A. エジプト建築（岩窟墓と葬祭殿の複合様式）",
+          "B. 機能主義",
+          "C. 流造",
+          "D. 中国風宮殿建築"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "写真はハトシェポスト女王葬祭神殿とメントゥホテップ2世葬祭神殿。様式はエジプト建築（岩窟墓と葬祭殿の複合様式）。"
+      },
+      "visibleFeatures": "建筑外观, 样式特征",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046362",
+        "originalField": "image + style/people",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-image_to_style-03",
+      "blueprintId": "image_to_style",
+      "imageAssetId": "img-0419",
+      "fileName": "2e2e961e46908014adfafe087a7fd831.png",
+      "question": {
+        "prompt": "次の写真の建築の様式を答えなさい。",
+        "options": [
+          "A. アール・デコ",
+          "B. 流造",
+          "C. 中国風宮殿建築",
+          "D. 機能主義"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "写真はクライスラー・ビルのエントランス・ホーム。様式はアール・デコ。"
+      },
+      "visibleFeatures": "建筑外观, 样式特征",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046844",
+        "originalField": "image + style/people",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-image_to_style-04",
+      "blueprintId": "image_to_style",
+      "imageAssetId": "img-0314",
+      "fileName": "2b9e961e4690802b90bad70c7ba4ed69_0.png",
+      "question": {
+        "prompt": "次の写真の建築の様式を答えなさい。",
+        "options": [
+          "A. 和様（仏教建築）",
+          "B. 中国風宮殿建築",
+          "C. 機能主義",
+          "D. 流造"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "写真は法隆寺金堂&五重塔。様式は和様（仏教建築）。"
+      },
+      "visibleFeatures": "建筑外观, 样式特征",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046668",
+        "originalField": "image + style/people",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-image_to_style-05",
+      "blueprintId": "image_to_style",
+      "imageAssetId": "img-0398",
+      "fileName": "2e2e961e4690802eb4e5e87175d273da.png",
+      "question": {
+        "prompt": "次の写真の建築の様式を答えなさい。",
+        "options": [
+          "A. モダニズム",
+          "B. 流造",
+          "C. 中国風宮殿建築",
+          "D. 機能主義"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "写真はプラン・ヴォワザン。様式はモダニズム。"
+      },
+      "visibleFeatures": "建筑外观, 样式特征",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046812",
+        "originalField": "image + style/people",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-image_to_architect-01",
+      "blueprintId": "image_to_architect",
+      "imageAssetId": "img-0247",
+      "fileName": "2bbe961e46908092bc53e067058898c9.png",
+      "question": {
+        "prompt": "次の写真の建築の建築家を答えなさい。",
+        "options": [
+          "A. I・M・ペイ",
+          "B. 聖徳太子（信仰対象）・要確認",
+          "C. エーロ・サーリネン",
+          "D. レオン・バッティスタ・アルベルティ（設計）／シジスモンド・パンドルフォ・マラテスタ（依頼主）"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "写真は法隆寺聖霊院。建築家は聖徳太子（信仰対象）・要確認。"
+      },
+      "visibleFeatures": "建筑外观, 样式特征",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046564",
+        "originalField": "image + style/people",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-image_to_architect-02",
+      "blueprintId": "image_to_architect",
+      "imageAssetId": "img-0130",
+      "fileName": "11ae961e4690804282add075fd4d31cc.png",
+      "question": {
+        "prompt": "次の写真の建築の建築家を答えなさい。",
+        "options": [
+          "A. センムト（ハトシェプストの建築家）／メンチュホテプ2世（自身の葬祭殿を建設）",
+          "B. レオン・バッティスタ・アルベルティ（設計）／シジスモンド・パンドルフォ・マラテスタ（依頼主）",
+          "C. I・M・ペイ",
+          "D. エーロ・サーリネン"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "写真はハトシェポスト女王葬祭神殿とメントゥホテップ2世葬祭神殿。建築家はセンムト（ハトシェプストの建築家）／メンチュホテプ2世（自身の葬祭殿を建設）。"
+      },
+      "visibleFeatures": "建筑外观, 样式特征",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046362",
+        "originalField": "image + style/people",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-image_to_architect-03",
+      "blueprintId": "image_to_architect",
+      "imageAssetId": "img-0419",
+      "fileName": "2e2e961e46908014adfafe087a7fd831.png",
+      "question": {
+        "prompt": "次の写真の建築の建築家を答えなさい。",
+        "options": [
+          "A. エーロ・サーリネン",
+          "B. I・M・ペイ",
+          "C. レオン・バッティスタ・アルベルティ（設計）／シジスモンド・パンドルフォ・マラテスタ（依頼主）",
+          "D. ウィリアム・ヴァン・アレン"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "写真はクライスラー・ビルのエントランス・ホーム。建築家はウィリアム・ヴァン・アレン。"
+      },
+      "visibleFeatures": "建筑外观, 样式特征",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046844",
+        "originalField": "image + style/people",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-image_to_architect-04",
+      "blueprintId": "image_to_architect",
+      "imageAssetId": "img-0314",
+      "fileName": "2b9e961e4690802b90bad70c7ba4ed69_0.png",
+      "question": {
+        "prompt": "次の写真の建築の建築家を答えなさい。",
+        "options": [
+          "A. 聖徳太子（建立に関与）",
+          "B. I・M・ペイ",
+          "C. エーロ・サーリネン",
+          "D. レオン・バッティスタ・アルベルティ（設計）／シジスモンド・パンドルフォ・マラテスタ（依頼主）"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "写真は法隆寺金堂&五重塔。建築家は聖徳太子（建立に関与）。"
+      },
+      "visibleFeatures": "建筑外观, 样式特征",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046668",
+        "originalField": "image + style/people",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "preview-img-image_to_architect-05",
+      "blueprintId": "image_to_architect",
+      "imageAssetId": "img-0398",
+      "fileName": "2e2e961e4690802eb4e5e87175d273da.png",
+      "question": {
+        "prompt": "次の写真の建築の建築家を答えなさい。",
+        "options": [
+          "A. ル・コルビュジェ",
+          "B. エーロ・サーリネン",
+          "C. I・M・ペイ",
+          "D. レオン・バッティスタ・アルベルティ（設計）／シジスモンド・パンドルフォ・マラテスタ（依頼主）"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "写真はプラン・ヴォワザン。建築家はル・コルビュジェ。"
+      },
+      "visibleFeatures": "建筑外观, 样式特征",
+      "ambiguity": "none",
+      "humanConfirmed": false,
+      "traceability": {
+        "originalSource": "anki-notes.json → 1784292046812",
+        "originalField": "image + style/people",
+        "confidence": "high"
+      }
+    }
+  ]
+}

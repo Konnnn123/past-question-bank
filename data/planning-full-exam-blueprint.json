@@ -1,0 +1,25 @@
+{
+  "id": "planning-2023-q4-past-exam-practice",
+  "subject": "planning",
+  "basis_years": [2023],
+  "total_scoring_units": 20,
+  "sections": [
+    {
+      "id": "planning_q4_reconstruction",
+      "template_id": "planning_indexed_objective",
+      "target_count": 20,
+      "count_basis": "All 20 indexed subquestions from 2023 Specialist 1 Planning Q4 are preserved as past-exam reconstruction; no generic numeric drill replaces a source slot.",
+      "allowed_implementation_modes": ["reconstruction"],
+      "required_generator_count": 0,
+      "allowed_reconstruction_count": 20,
+      "allowed_sampler_count": 0,
+      "manual_rubric_count": 0,
+      "unavailable_slots": []
+    }
+  ],
+  "evidence_files": [
+    "data/processed_questions/2023_専門1_建筑计划_Q問題4.md",
+    "data/planning-exam-answers.json",
+    "data/exam-format-catalog-v2.1.json"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id":"generated-building-construction-shared-wordbank-v1",
+  "status":"production_ready",
+  "prototype":{"source":"2022 専門1 建築構法 Q3","blankCount":20,"bankSize":27,"surplusCount":7,"reuseAllowed":true},
+  "primaryDomain":"building_construction_integrated",
+  "wordBank":["サウンディング","SSG","CFT","ALC","フレミッシュ","シース","フーチング","スランプ","ラス","マリオン","幅木","LCC","ガスケット","ブラケット","デッキプレート","キーストーン","継ぎ手","ハンチ","山留","エクスパンションジョイント","胴縁","CLT","MPG","ウェルポイント","スパンドレル","ダイアフラム","スカラップ"],
+  "items":[
+    {"id":"swb-01","prompt":"戸建住宅の地盤条件を簡易に確認する調査として、スウェーデン式（　）試験を行う。","answer":"サウンディング","domain":"foundation"},
+    {"id":"swb-02","prompt":"ガラスを構造シーラントで支持材に接着するサッシレス構法を（　）構法という。","answer":"SSG","domain":"facade_openings"},
+    {"id":"swb-03","prompt":"鋼管の内部へコンクリートを充填した合成柱を（　）構造という。","answer":"CFT","domain":"steel_concrete_composite"},
+    {"id":"swb-04","prompt":"多数の気泡を含み、防火壁にも用いられる軽量コンクリートを（　）という。","answer":"ALC","domain":"wall_material"},
+    {"id":"swb-05","prompt":"長手と小口が一段の中で交互に現れる煉瓦積みは（　）積みである。","answer":"フレミッシュ","domain":"masonry"},
+    {"id":"swb-06","prompt":"プレストレスを導入する緊張材のためにコンクリート内へ設ける管を（　）管という。","answer":"シース","domain":"prestressed_concrete"},
+    {"id":"swb-07","prompt":"布基礎の底部を広げて荷重を地盤へ伝える部分を（　）という。","answer":"フーチング","domain":"foundation"},
+    {"id":"swb-08","prompt":"生コンクリートの軟らかさを試験で表す指標は（　）である。","answer":"スランプ","domain":"concrete"},
+    {"id":"swb-09","prompt":"塗り壁の下地として壁面へ取り付ける網状材料を（　）という。","answer":"ラス","domain":"finish"},
+    {"id":"swb-10","prompt":"カーテンウォールでガラス面を縦方向に区切る部材は（　）である。","answer":"マリオン","domain":"facade_openings"},
+    {"id":"swb-11","prompt":"壁と床の取り合いで壁下端を保護する見切り材を（　）という。","answer":"幅木","domain":"interior_finish"},
+    {"id":"swb-12","prompt":"建物の新築から維持管理、解体までを通じて把握する費用を（　）という。","answer":"LCC","domain":"life_cycle"},
+    {"id":"swb-13","prompt":"ガラスを保持し、気密・水密を確保する弾性部材を（　）という。","answer":"ガスケット","domain":"facade_openings"},
+    {"id":"swb-14","prompt":"鉄骨柱へ先付けして柱梁接合に用いる短い持出し部材は（　）である。","answer":"ブラケット","domain":"steel_construction"},
+    {"id":"swb-15","prompt":"配筋とコンクリート打設の下地にもなる波形鋼板の床材を（　）という。","answer":"デッキプレート","domain":"steel_construction"},
+    {"id":"swb-16","prompt":"石積みアーチの頂部で左右の石を締める中心石を（　）という。","answer":"キーストーン","domain":"masonry"},
+    {"id":"swb-17","prompt":"木材を長さ方向に連結する接続部を（　）という。","answer":"継ぎ手","domain":"timber_system"},
+    {"id":"swb-18","prompt":"柱梁接合部などで局部的に剛性を高める三角形の補強部を（　）という。","answer":"ハンチ","domain":"steel_construction"},
+    {"id":"swb-19","prompt":"地下掘削で周囲の土の崩壊を防ぐために設ける壁を（　）壁という。","answer":"山留","domain":"foundation"},
+    {"id":"swb-20","prompt":"地震時の変形を分散させるため、建物を構造的に分離する目地を（　）という。","answer":"エクスパンションジョイント","domain":"seismic_detail"}
+  ],
+  "provenance":{"reviewedSource":"2022 専門1 建築構法 Q3","sourceSentenceReuse":false,"factStatus":"source_audited"},
+  "validation":{"answersInBank":true,"answerCount":20,"uniqueAnswers":true,"bankSize":27,"surplusCount":7,"integratedPrototypeDeclared":true,"structuralMechanicsExcluded":true}
+}

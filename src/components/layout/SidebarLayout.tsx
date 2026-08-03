@@ -2,6 +2,7 @@
 
 import { useState, type ReactNode } from "react";
 import GlobalNav from "./GlobalNav";
+import ExploreLanguageSwitch from "../ExploreLanguageSwitch";
 
 // ============================================================
 // SidebarLayout — 统一侧边栏布局
@@ -40,14 +41,14 @@ export default function SidebarLayout({ slot, children }: SidebarLayoutProps) {
       {/* ====== 左侧边栏 ====== */}
       <aside
         className={`${
-          sidebarOpen ? "w-72" : "w-0"
-        } shrink-0 border-r border-gray-200 bg-gray-50/50 h-screen overflow-hidden transition-all duration-300 hidden lg:block`}
+          sidebarOpen ? "w-80" : "w-0"
+        } relative shrink-0 border-r border-gray-200 bg-gray-50/50 h-screen overflow-hidden transition-all duration-300 hidden lg:block`}
       >
-        <div className="flex flex-col h-full w-72">
+        <div className="flex h-full w-full min-w-0 flex-col">
           {/* ---- 上半部：全局导航（固定在顶部，不滚动） ---- */}
-          <div className="shrink-0 p-4 pb-0">
+          <div className="shrink-0 p-4 pb-0 min-w-0">
             <div className="flex items-center justify-between mb-3">
-              <h2 className="text-sm font-bold text-gray-900">建築学 過去問</h2>
+              <h2 className="text-sm font-bold text-gray-900">建筑考试学习中心</h2>
               <button
                 onClick={() => setSidebarOpen(false)}
                 className="text-gray-400 hover:text-gray-600 text-xs"
@@ -82,6 +83,7 @@ export default function SidebarLayout({ slot, children }: SidebarLayoutProps) {
 
       {/* ====== 主内容区 ====== */}
       <main className="flex-1 min-w-0 h-screen overflow-y-auto">
+        <ExploreLanguageSwitch />
         {children}
       </main>
     </div>

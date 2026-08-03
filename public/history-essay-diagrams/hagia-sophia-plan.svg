@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+  <rect width="960" height="560" fill="#f7f4ed"/>
+  <text x="42" y="48" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="26" font-weight="700" fill="#17324d">ハギア・ソフィア｜平面の骨格</text>
+  <text x="42" y="78" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="16" fill="#52606d">Hagia Sophia — exam sketch, not measured drawing</text>
+  <g transform="translate(120 118)" stroke="#17324d" stroke-width="5" fill="none" stroke-linejoin="round">
+    <rect x="80" y="30" width="560" height="320" rx="4"/>
+    <rect x="0" y="105" width="80" height="170"/>
+    <path d="M640 70 Q735 190 640 310"/>
+    <rect x="175" y="70" width="370" height="240" stroke="#8b6b3f"/>
+    <circle cx="360" cy="190" r="105" stroke="#b14f3b" stroke-width="7"/>
+    <path d="M255 190 Q300 110 360 85 Q420 110 465 190 Q420 270 360 295 Q300 270 255 190Z" stroke="#b14f3b" stroke-dasharray="10 8"/>
+    <line x1="175" y1="70" x2="175" y2="310" stroke="#768692"/>
+    <line x1="545" y1="70" x2="545" y2="310" stroke="#768692"/>
+    <line x1="80" y1="120" x2="640" y2="120" stroke="#768692" stroke-width="3"/>
+    <line x1="80" y1="260" x2="640" y2="260" stroke="#768692" stroke-width="3"/>
+    <line x1="25" y1="190" x2="700" y2="190" stroke="#2e7d75" stroke-width="4" marker-end="url(#arrow)"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2e7d75"/></marker>
+  </defs>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif" font-size="18" fill="#17324d">
+    <text x="425" y="300" text-anchor="middle" font-weight="700" fill="#b14f3b">主ドーム / main dome</text>
+    <text x="425" y="445" text-anchor="middle">中央正方形＋円形ドーム</text>
+    <text x="425" y="472" text-anchor="middle" fill="#2e7d75">東西軸 / longitudinal axis →</text>
+    <text x="118" y="342" text-anchor="end">入口</text>
+    <text x="832" y="342">アプス</text>
+    <text x="425" y="118" text-anchor="middle" fill="#52606d">側廊 / aisle</text>
+    <text x="425" y="410" text-anchor="middle" fill="#52606d">側廊 / aisle</text>
+  </g>
+</svg>

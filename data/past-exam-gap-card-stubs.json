@@ -1,0 +1,677 @@
+{
+  "version": 1,
+  "source": "processed_questions",
+  "cards": [
+    {
+      "id": "gap-building-寺内町",
+      "kind": "building",
+      "name": {
+        "ja": "寺内町",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2019_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        },
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2024_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        },
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2025_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        },
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 4,
+      "priority": 3,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-building-今井町",
+      "kind": "building",
+      "name": {
+        "ja": "今井町",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2019_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        },
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2020_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        },
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 3,
+      "priority": 3,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-building-東三条殿",
+      "kind": "building",
+      "name": {
+        "ja": "東三条殿",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2014_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        },
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2016_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        },
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 3,
+      "priority": 3,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-building-吉島家住宅",
+      "kind": "building",
+      "name": {
+        "ja": "吉島家住宅",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2019_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        },
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 2,
+      "priority": 2,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-building-宿場町",
+      "kind": "building",
+      "name": {
+        "ja": "宿場町",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2019_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        },
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 2,
+      "priority": 2,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-concept-or-type-密教本堂",
+      "kind": "concept-or-type",
+      "name": {
+        "ja": "密教本堂",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2017_専門1_建筑史_Q2.md",
+          "relation": "exact-text"
+        },
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 2,
+      "priority": 2,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-building-根来寺",
+      "kind": "building",
+      "name": {
+        "ja": "根来寺",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2024_専門2-2_建筑史_Q3.md",
+          "relation": "exact-text"
+        },
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 2,
+      "priority": 2,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-person-アドルフ・ロース",
+      "kind": "person",
+      "name": {
+        "ja": "アドルフ・ロース",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 1,
+      "priority": 1,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-person-アントニオ・サンテリア",
+      "kind": "person",
+      "name": {
+        "ja": "アントニオ・サンテリア",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 1,
+      "priority": 1,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-person-ジャコモ・バロッツィ・ダ・ヴィニョーラ",
+      "kind": "person",
+      "name": {
+        "ja": "ジャコモ・バロッツィ・ダ・ヴィニョーラ",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 1,
+      "priority": 1,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-concept-or-type-スポリア",
+      "kind": "concept-or-type",
+      "name": {
+        "ja": "スポリア",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 1,
+      "priority": 1,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-person-ドメニコ・フォンターナ",
+      "kind": "person",
+      "name": {
+        "ja": "ドメニコ・フォンターナ",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 1,
+      "priority": 1,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-person-マルク・アントワーヌ・ロージエ",
+      "kind": "person",
+      "name": {
+        "ja": "マルク・アントワーヌ・ロージエ",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 1,
+      "priority": 1,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-building-奈良井",
+      "kind": "building",
+      "name": {
+        "ja": "奈良井",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 1,
+      "priority": 1,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-person-後藤慶二",
+      "kind": "person",
+      "name": {
+        "ja": "後藤慶二",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 1,
+      "priority": 1,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-building-當麻寺曼荼羅堂",
+      "kind": "building",
+      "name": {
+        "ja": "當麻寺曼荼羅堂",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 1,
+      "priority": 1,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-concept-or-type-監獄",
+      "kind": "concept-or-type",
+      "name": {
+        "ja": "監獄",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 1,
+      "priority": 1,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "gap-building-飛騨高山",
+      "kind": "building",
+      "name": {
+        "ja": "飛騨高山",
+        "zh": ""
+      },
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "examEvidence": [
+        {
+          "year": null,
+          "category": "processed_questions",
+          "questionNumber": "",
+          "fileName": "2026_専門1_建筑史_Q5.md",
+          "relation": "exact-text"
+        }
+      ],
+      "examFrequencyLowerBound": 1,
+      "priority": 1,
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    }
+  ]
+}

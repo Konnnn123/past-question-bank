@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="从真实考试出发，但不把学习限制在考试之中的建筑学习系统" />
+  <title>建筑考试学习系统｜功能与学习逻辑</title>
+  <style>
+    :root {
+      --ink: #12211f;
+      --muted: #5f6f6a;
+      --paper: #f4f0e7;
+      --paper-2: #ebe5d8;
+      --card: #fffdf8;
+      --line: rgba(18, 33, 31, 0.14);
+      --green: #123f38;
+      --green-2: #1f5c50;
+      --amber: #d89a3d;
+      --orange: #dd6b3d;
+      --blue: #8cc9c0;
+      --shadow: 0 28px 70px rgba(18, 33, 31, 0.1);
+      --radius: 26px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(rgba(18, 33, 31, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(18, 33, 31, 0.035) 1px, transparent 1px),
+        var(--paper);
+      background-size: 32px 32px;
+      font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+      line-height: 1.6;
+    }
+
+    a { color: inherit; }
+    button { font: inherit; }
+    .shell { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(255,255,255,.12);
+      background: rgba(18, 33, 31, .92);
+      color: white;
+      backdrop-filter: blur(16px);
+    }
+    .topbar-inner { min-height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; font-weight: 750; }
+    .brand-mark { display: grid; width: 34px; height: 34px; place-items: center; border: 1px solid rgba(255,255,255,.42); border-radius: 50%; font-family: Georgia, serif; }
+    .nav { display: flex; align-items: center; gap: 22px; font-size: 13px; }
+    .nav a { color: rgba(255,255,255,.68); text-decoration: none; transition: color .2s; }
+    .nav a:hover, .nav a.active { color: white; }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      min-height: 700px;
+      padding: 100px 0 90px;
+      color: white;
+      background: var(--green);
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: -20% -5% auto auto;
+      width: 620px;
+      height: 620px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 50%;
+      box-shadow: 0 0 0 84px rgba(255,255,255,.025), 0 0 0 168px rgba(255,255,255,.018);
+    }
+    .hero::after {
+      content: "過去問";
+      position: absolute;
+      right: 4vw;
+      bottom: -42px;
+      color: rgba(255,255,255,.035);
+      font: 800 clamp(110px, 18vw, 270px)/1 Georgia, serif;
+      white-space: nowrap;
+    }
+    .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1.15fr .85fr; gap: 74px; align-items: end; }
+    .eyebrow { display: flex; align-items: center; gap: 12px; margin: 0 0 22px; color: var(--amber); font-size: 12px; font-weight: 800; letter-spacing: .22em; text-transform: uppercase; }
+    .eyebrow::before { content: ""; width: 36px; height: 2px; background: currentColor; }
+    h1 { max-width: 760px; margin: 0; font-family: Georgia, "Noto Serif SC", serif; font-size: clamp(48px, 5vw, 62px); font-weight: 500; letter-spacing: -.045em; line-height: 1.04; }
+    .hero-lead { max-width: 670px; margin: 30px 0 0; color: rgba(255,255,255,.72); font-size: clamp(17px, 2vw, 21px); line-height: 1.85; }
+    .hero-lead strong { color: white; font-weight: 700; }
+    .hero-note { border-left: 1px solid rgba(255,255,255,.24); padding: 12px 0 12px 30px; }
+    .hero-note .no { color: var(--amber); font: 500 54px/1 Georgia, serif; }
+    .hero-note p { margin: 15px 0 0; color: rgba(255,255,255,.7); font-size: 14px; }
+    .hero-note b { display: block; margin-top: 5px; color: white; font-size: 19px; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
+    .button { display: inline-flex; align-items: center; gap: 10px; padding: 13px 18px; border: 1px solid rgba(255,255,255,.24); border-radius: 999px; color: white; text-decoration: none; font-size: 14px; font-weight: 700; transition: .2s ease; }
+    .button.primary { color: var(--ink); border-color: var(--amber); background: var(--amber); }
+    .button:hover { transform: translateY(-2px); }
+
+    .stat-strip { position: relative; z-index: 2; margin-top: -44px; }
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); box-shadow: var(--shadow); }
+    .stat { min-height: 146px; padding: 28px; border-right: 1px solid var(--line); }
+    .stat:last-child { border-right: 0; }
+    .stat-value { font: 500 38px/1.1 Georgia, serif; }
+    .stat-label { margin-top: 10px; color: var(--muted); font-size: 13px; }
+    .stat small { display: block; margin-top: 4px; color: #87938f; }
+
+    section { scroll-margin-top: 86px; }
+    .section { padding: 110px 0; }
+    .section.alt { border-block: 1px solid var(--line); background: rgba(255,255,255,.38); }
+    .section-head { display: grid; grid-template-columns: .72fr 1.28fr; gap: 64px; align-items: end; margin-bottom: 56px; }
+    .section-kicker { color: var(--orange); font: 700 12px/1.3 system-ui, sans-serif; letter-spacing: .18em; text-transform: uppercase; }
+    h2 { margin: 10px 0 0; font-family: Georgia, "Noto Serif SC", serif; font-size: clamp(34px, 4vw, 55px); font-weight: 500; letter-spacing: -.035em; line-height: 1.12; }
+    .section-intro { max-width: 640px; margin: 0; color: var(--muted); font-size: 17px; line-height: 1.9; }
+
+    .positioning { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .position-card { position: relative; min-height: 270px; padding: 30px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); }
+    .position-card.focus { color: white; border-color: var(--green); background: var(--green); box-shadow: var(--shadow); }
+    .position-card .index { color: var(--amber); font: 500 34px/1 Georgia, serif; }
+    .position-card h3 { margin: 48px 0 10px; font-size: 21px; }
+    .position-card p { margin: 0; color: var(--muted); font-size: 14px; }
+    .position-card.focus p { color: rgba(255,255,255,.65); }
+    .position-card .role { position: absolute; right: 20px; top: 18px; color: rgba(18,33,31,.07); font: 700 58px/1 Georgia, serif; }
+    .position-card.focus .role { color: rgba(255,255,255,.06); }
+
+    .formation-timeline { position: relative; max-width: 1000px; margin: 0 auto; }
+    .formation-timeline::before { content: ""; position: absolute; left: 36px; top: 35px; bottom: 70px; width: 1px; background: linear-gradient(var(--orange), var(--green-2)); }
+    .formation-step { position: relative; display: grid; grid-template-columns: 74px 1fr; gap: 26px; margin-bottom: 20px; }
+    .formation-marker { position: relative; z-index: 1; display: grid; width: 74px; height: 74px; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--orange); background: var(--paper); font: 500 22px/1 Georgia, serif; }
+    .formation-card { padding: 30px; border: 1px solid var(--line); border-radius: 24px; background: var(--card); box-shadow: 0 12px 36px rgba(18,33,31,.045); }
+    .formation-card .step-label { color: var(--orange); font-size: 10px; font-weight: 850; letter-spacing: .16em; text-transform: uppercase; }
+    .formation-card h3 { margin: 8px 0 12px; font: 500 26px/1.25 Georgia, "Noto Serif SC", serif; }
+    .formation-card > p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.85; }
+    .formation-shift { display: grid; grid-template-columns: 1fr auto 1fr; gap: 14px; align-items: center; margin-top: 22px; }
+    .formation-shift div { padding: 14px 16px; border-radius: 14px; color: var(--muted); background: var(--paper); font-size: 13px; }
+    .formation-shift b { display: block; margin-bottom: 3px; color: var(--ink); font-size: 12px; }
+    .formation-shift > span { color: var(--orange); }
+    .formation-truth { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 22px; }
+    .truth-block { padding: 18px; border-radius: 15px; background: #e4efe9; }
+    .truth-block.limit { background: #f5e5c8; }
+    .truth-block span { color: var(--green-2); font-size: 10px; font-weight: 850; letter-spacing: .12em; }
+    .truth-block.limit span { color: #8a5f18; }
+    .truth-block b { display: block; margin-top: 8px; font-size: 14px; line-height: 1.65; }
+    .content-states { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+    .content-state { padding: 8px 11px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); background: white; font-size: 12px; }
+    .content-state.verified { color: white; border-color: var(--green-2); background: var(--green-2); }
+    .tool-roles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 22px; }
+    .tool-role { padding: 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); }
+    .tool-role b { display: block; font-size: 13px; }
+    .tool-role span { display: block; margin-top: 3px; color: var(--muted); font-size: 12px; }
+    .reflection-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+    .reflection-list span { padding: 8px 11px; border-radius: 10px; color: #31534d; background: #e4efe9; font-size: 12px; }
+    .reflection-list span.low { color: #74521d; background: #f5e5c8; }
+    .formation-summary { margin-left: 100px; padding: 34px; border-radius: 26px; color: white; background: var(--green); box-shadow: var(--shadow); }
+    .formation-summary p { margin: 0; color: var(--amber); font-size: 11px; font-weight: 850; letter-spacing: .15em; text-transform: uppercase; }
+    .formation-summary strong { display: block; margin-top: 12px; font: 500 29px/1.4 Georgia, "Noto Serif SC", serif; }
+    .formation-summary span { display: block; margin-top: 15px; color: rgba(255,255,255,.62); font-size: 14px; }
+
+    .profile-layout { display: grid; grid-template-columns: .92fr 1.08fr; gap: 26px; align-items: stretch; }
+    .radar-card { display: flex; min-height: 590px; flex-direction: column; padding: 28px; border: 1px solid var(--line); border-radius: 30px; background: var(--green); color: white; box-shadow: var(--shadow); }
+    .radar-card .profile-label { color: var(--amber); font-size: 10px; font-weight: 850; letter-spacing: .16em; text-transform: uppercase; }
+    .radar-card h3 { margin: 8px 0 0; font: 500 25px/1.3 Georgia, "Noto Serif SC", serif; }
+    .radar-chart { width: 100%; height: auto; margin: auto 0; overflow: visible; }
+    .radar-grid { fill: none; stroke: rgba(255,255,255,.15); stroke-width: 1; }
+    .radar-axis { stroke: rgba(255,255,255,.18); stroke-width: 1; }
+    .radar-shape { fill: rgba(216,154,61,.33); stroke: #e4ab54; stroke-width: 2.5; }
+    .radar-dot { fill: #f0ba68; stroke: var(--green); stroke-width: 3; }
+    .radar-text { fill: rgba(255,255,255,.76); font-size: 12px; font-weight: 650; }
+    .radar-score { fill: #f0ba68; font-size: 11px; font-weight: 800; }
+    .radar-note { margin: 0; color: rgba(255,255,255,.55); font-size: 11px; line-height: 1.7; }
+    .radar-legend { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 14px; }
+    .radar-legend span { padding: 5px 8px; border: 1px solid rgba(255,255,255,.13); border-radius: 999px; color: rgba(255,255,255,.65); font-size: 10px; }
+    .profile-model { display: grid; gap: 12px; }
+    .profile-driver { display: grid; grid-template-columns: 34px 1fr; gap: 14px; padding: 19px; border: 1px solid var(--line); border-radius: 17px; background: var(--card); }
+    .profile-driver .driver-no { color: var(--orange); font: 500 19px/1 Georgia, serif; }
+    .profile-driver b { display: block; font-size: 14px; }
+    .profile-driver p { margin: 4px 0 0; color: var(--muted); font-size: 12px; line-height: 1.65; }
+    .profile-tension { margin-top: 4px; padding: 22px; border-left: 4px solid var(--amber); border-radius: 0 18px 18px 0; color: #68491b; background: #f5e5c8; font-size: 13px; }
+    .profile-tension strong { color: #4e3511; }
+    .cause-map { margin-top: 24px; overflow: hidden; border: 1px solid var(--line); border-radius: 24px; background: var(--card); }
+    .cause-row { display: grid; grid-template-columns: 1fr 34px 1fr 34px 1fr; gap: 10px; align-items: center; min-height: 82px; padding: 15px 22px; border-bottom: 1px solid var(--line); }
+    .cause-row:last-child { border-bottom: 0; }
+    .cause-row > span { color: var(--orange); text-align: center; }
+    .cause-cell small { display: block; color: #929d99; font-size: 10px; }
+    .cause-cell b { display: block; margin-top: 3px; font-size: 13px; }
+    .profile-disclaimer { margin-top: 16px; color: #7d8985; font-size: 11px; line-height: 1.7; }
+
+    .judgement-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .judgement-card { position: relative; min-height: 245px; padding: 30px; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); }
+    .judgement-card::after { content: attr(data-mark); position: absolute; right: 18px; top: 8px; color: rgba(18,33,31,.055); font: 700 80px/1 Georgia, serif; }
+    .judgement-card .signal { display: inline-flex; padding: 6px 10px; border-radius: 999px; color: var(--green-2); background: #e1eee9; font-size: 11px; font-weight: 800; letter-spacing: .08em; }
+    .judgement-card h3 { margin: 45px 0 10px; font: 500 24px/1.25 Georgia, "Noto Serif SC", serif; }
+    .judgement-card p { margin: 0; color: var(--muted); font-size: 14px; }
+    .judgement-card .decision { display: block; margin-top: 20px; color: var(--orange); font-size: 13px; font-weight: 800; }
+    .judgement-card.low .signal { color: #79571d; background: #f5e5c8; }
+
+    .path-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .path-card { min-height: 470px; padding: 34px; border: 1px solid var(--line); border-radius: 30px; background: var(--card); }
+    .path-card.dark { color: white; border-color: var(--green); background: var(--green); box-shadow: var(--shadow); }
+    .path-type { color: var(--orange); font-size: 11px; font-weight: 850; letter-spacing: .16em; text-transform: uppercase; }
+    .path-card.dark .path-type { color: var(--amber); }
+    .path-card h3 { margin: 12px 0 10px; font: 500 31px/1.2 Georgia, "Noto Serif SC", serif; }
+    .path-card > p { min-height: 54px; margin: 0; color: var(--muted); font-size: 14px; }
+    .path-card.dark > p { color: rgba(255,255,255,.65); }
+    .path-steps { display: grid; gap: 9px; margin-top: 30px; }
+    .path-step { display: grid; grid-template-columns: 35px 1fr 24px; gap: 10px; align-items: center; min-height: 54px; padding: 10px 13px; border: 1px solid var(--line); border-radius: 14px; background: rgba(255,255,255,.45); }
+    .path-card.dark .path-step { border-color: rgba(255,255,255,.12); background: rgba(255,255,255,.055); }
+    .path-step span:first-child { color: var(--orange); font: 500 15px/1 Georgia, serif; }
+    .path-card.dark .path-step span:first-child { color: var(--amber); }
+    .path-step b { font-size: 13px; }
+    .path-step span:last-child { color: #98a49f; }
+    .path-principle { display: grid; grid-template-columns: auto 1fr; gap: 18px; align-items: center; margin-top: 18px; padding: 22px 26px; border: 1px solid #e8c78d; border-radius: 18px; color: #664717; background: #f5e5c8; }
+    .path-principle strong { font: 500 20px/1.3 Georgia, "Noto Serif SC", serif; }
+    .path-principle p { margin: 0; font-size: 13px; }
+
+    .entry-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .entry-card { display: flex; min-height: 310px; flex-direction: column; padding: 27px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); text-decoration: none; transition: transform .25s, box-shadow .25s, border-color .25s; }
+    .entry-card:hover { transform: translateY(-6px); border-color: rgba(18,63,56,.4); box-shadow: 0 20px 50px rgba(18,33,31,.11); }
+    .entry-icon { display: grid; width: 48px; height: 48px; place-items: center; border-radius: 15px; background: var(--paper-2); font-size: 23px; }
+    .entry-type { margin-top: 38px; color: var(--orange); font-size: 11px; font-weight: 800; letter-spacing: .13em; }
+    .entry-card h3 { margin: 8px 0 10px; font: 500 27px/1.2 Georgia, "Noto Serif SC", serif; }
+    .entry-card p { margin: 0; color: var(--muted); font-size: 14px; }
+    .entry-link { margin-top: auto; padding-top: 28px; color: var(--green-2); font-size: 13px; font-weight: 800; }
+
+    .subject-layout { display: grid; grid-template-columns: .7fr 1.3fr; gap: 26px; }
+    .subject-nav { display: flex; flex-direction: column; gap: 8px; }
+    .subject-btn { display: flex; align-items: center; justify-content: space-between; min-height: 72px; padding: 16px 20px; border: 1px solid var(--line); border-radius: 16px; color: var(--muted); background: rgba(255,255,255,.55); cursor: pointer; text-align: left; }
+    .subject-btn.active { color: white; border-color: var(--green); background: var(--green); }
+    .subject-btn b { color: inherit; font-size: 16px; }
+    .subject-panel { position: relative; min-height: 470px; padding: 42px; overflow: hidden; border-radius: 30px; color: white; background: var(--green); }
+    .subject-panel::after { content: attr(data-code); position: absolute; right: -8px; bottom: -42px; color: rgba(255,255,255,.04); font: 700 170px/1 Georgia, serif; }
+    .subject-panel .tag { color: var(--amber); font-size: 12px; font-weight: 800; letter-spacing: .16em; }
+    .subject-panel h3 { margin: 12px 0; font: 500 36px/1.2 Georgia, "Noto Serif SC", serif; }
+    .subject-panel > p { max-width: 650px; margin: 0; color: rgba(255,255,255,.68); }
+    .subject-facts { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 34px; }
+    .subject-fact { padding: 18px; border: 1px solid rgba(255,255,255,.12); border-radius: 15px; background: rgba(255,255,255,.06); }
+    .subject-fact span { color: rgba(255,255,255,.48); font-size: 11px; }
+    .subject-fact b { display: block; margin-top: 4px; font-size: 14px; }
+    .subject-scope-note { margin-top: 18px; padding: 20px 24px; border: 1px solid var(--line); border-radius: 18px; color: var(--muted); background: rgba(255,255,255,.5); font-size: 13px; }
+    .subject-scope-note strong { color: var(--ink); }
+
+    .layers { position: relative; display: grid; gap: 10px; max-width: 920px; margin: auto; }
+    .layer { display: grid; grid-template-columns: 120px 1fr 1fr; gap: 24px; align-items: center; min-height: 92px; padding: 18px 25px; border: 1px solid var(--line); border-radius: 18px; background: var(--card); }
+    .layer-no { color: var(--orange); font: 500 24px/1 Georgia, serif; }
+    .layer b { font-size: 16px; }
+    .layer p { margin: 0; color: var(--muted); font-size: 13px; }
+
+    .udl-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-top: 26px; }
+    .udl-card { padding: 25px; border: 1px solid var(--line); border-radius: 20px; background: var(--card); }
+    .udl-card span { color: var(--orange); font: 500 22px/1 Georgia, serif; }
+    .udl-card h3 { margin: 24px 0 8px; font-size: 17px; }
+    .udl-card p { margin: 0; color: var(--muted); font-size: 13px; }
+    .udl-boundary { margin-top: 16px; padding: 24px; border-left: 4px solid var(--orange); border-radius: 0 18px 18px 0; color: rgba(255,255,255,.76); background: var(--green); }
+    .udl-boundary strong { color: white; }
+
+    .boundary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .boundary { padding: 32px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); }
+    .boundary.good { border-top: 5px solid var(--green-2); }
+    .boundary.careful { border-top: 5px solid var(--amber); }
+    .boundary h3 { margin: 0 0 22px; font-size: 21px; }
+    .boundary ul { display: grid; gap: 13px; margin: 0; padding: 0; list-style: none; }
+    .boundary li { position: relative; padding-left: 24px; color: var(--muted); font-size: 14px; }
+    .boundary li::before { position: absolute; left: 0; color: var(--green-2); content: "●"; font-size: 8px; top: 7px; }
+    .boundary.careful li::before { color: var(--amber); content: "△"; font-size: 13px; top: 1px; }
+    .local-note { display: flex; gap: 18px; align-items: flex-start; margin-top: 20px; padding: 22px; border-radius: 18px; color: #6e521f; background: #f5e5c8; }
+    .local-note strong { display: block; color: #583b13; }
+    .local-note p { margin: 3px 0 0; font-size: 13px; }
+
+    .closing { padding: 105px 0; color: white; background: var(--green); }
+    .closing-grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: 70px; align-items: end; }
+    .closing h2 { max-width: 720px; }
+    .closing p { max-width: 660px; color: rgba(255,255,255,.64); }
+    .quote { padding-left: 25px; border-left: 2px solid var(--amber); color: rgba(255,255,255,.7); font: italic 20px/1.7 Georgia, "Noto Serif SC", serif; }
+    footer { padding: 24px 0; color: #9cadA8; background: #0d1c1a; font-size: 12px; }
+    footer .shell { display: flex; justify-content: space-between; gap: 20px; }
+
+    .fade { opacity: 0; transform: translateY(18px); transition: opacity .65s ease, transform .65s ease; }
+    .fade.visible { opacity: 1; transform: none; }
+
+    @media (max-width: 900px) {
+      .nav { display: none; }
+      .hero { min-height: auto; padding: 80px 0 110px; }
+      .hero-grid, .section-head, .subject-layout, .closing-grid, .profile-layout { grid-template-columns: 1fr; gap: 34px; }
+      .stats, .entry-grid { grid-template-columns: 1fr 1fr; }
+      .stat:nth-child(2) { border-right: 0; }
+      .stat:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+      .positioning, .udl-grid { grid-template-columns: 1fr; }
+      .path-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 620px) {
+      .shell { width: min(100% - 24px, 1180px); }
+      .hero { padding-top: 62px; }
+      h1 { font-size: 32px; letter-spacing: -.02em; }
+      h2 { font-size: 30px; letter-spacing: -.025em; }
+      .section-intro { font-size: 15px; line-height: 1.8; }
+      .eyebrow { gap: 8px; font-size: 9px; letter-spacing: .12em; }
+      .eyebrow::before { width: 24px; }
+      .hero-lead { font-size: 15px; line-height: 1.75; }
+      .hero-actions { display: grid; grid-template-columns: 1fr; gap: 8px; }
+      .button { justify-content: center; padding: 12px 9px; font-size: 13px; }
+      .hero-note { display: none; }
+      .stats, .entry-grid, .boundary-grid, .subject-facts, .judgement-grid { grid-template-columns: 1fr; }
+      .stat { min-height: 115px; border-right: 0; border-bottom: 1px solid var(--line); }
+      .stat:last-child { border-bottom: 0; }
+      .section { padding: 78px 0; }
+      .layer { grid-template-columns: 55px 1fr; gap: 10px; }
+      .layer p { grid-column: 2; }
+      .subject-panel { padding: 28px; }
+      .path-principle { grid-template-columns: 1fr; }
+      .formation-timeline::before { left: 22px; }
+      .formation-step { grid-template-columns: 46px 1fr; gap: 12px; }
+      .formation-marker { width: 46px; height: 46px; font-size: 16px; }
+      .formation-card { padding: 22px; }
+      .formation-card h3 { font-size: 22px; }
+      .formation-shift, .formation-truth, .tool-roles { grid-template-columns: 1fr; }
+      .formation-shift > span { transform: rotate(90deg); text-align: center; }
+      .formation-summary { margin-left: 58px; padding: 24px; }
+      .formation-summary strong { font-size: 24px; }
+      .radar-card { min-height: auto; padding: 20px; }
+      .cause-row { grid-template-columns: 1fr; gap: 5px; padding: 18px; }
+      .cause-row > span { transform: rotate(90deg); }
+      footer .shell { flex-direction: column; }
+    }
+    @media print {
+      .topbar { position: static; }
+      .hero { min-height: 0; padding: 60px 0; }
+      .section { padding: 55px 0; break-inside: avoid; }
+      .fade { opacity: 1; transform: none; }
+      .entry-card:hover { transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="brand" href="#top"><span class="brand-mark">PQ</span><span>建筑考试学习系统</span></a>
+      <nav class="nav" aria-label="页面导航">
+        <a href="#position">系统定位</a><a href="#formation">形成过程</a><a href="#profile">系统响应</a><a href="#judgement">任务判断</a><a href="#subjects">考试结构</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div>
+          <p class="eyebrow">Beyond exam preparation · 2026</p>
+          <h1>在必须考试的时候，<br />不让学习只剩下应试。</h1>
+          <p class="hero-lead">这是一个<strong>从真实考试出发、但不把学习限制在考试之中</strong>的学习系统。它先分析整套考试想识别和塑造什么能力，再看各科与各类任务如何承担这个目标、与知识和实践有何关系，最后决定采用深入理解、有限应试、复盘巩固或自由探索。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#judgement">看任务如何判断 <span>↓</span></a>
+            <a class="button" href="/" target="_blank">进入当前系统 <span>↗</span></a>
+          </div>
+        </div>
+        <aside class="hero-note">
+          <div class="no">01</div>
+          <p>系统不是</p>
+          <b>把学习者塑造成考试需要的形状，<br />而是把试题重新翻译为可以进入的知识路径。</b>
+        </aside>
+      </div>
+    </section>
+
+    <div class="stat-strip">
+      <div class="shell stats fade">
+        <div class="stat"><div class="stat-value">134</div><div class="stat-label">道已处理真实过去问<small>先看考试实际上要求什么</small></div></div>
+        <div class="stat"><div class="stat-value">5</div><div class="stat-label">个学科观察窗口<small>从科目结构理解整体考试目标</small></div></div>
+        <div class="stat"><div class="stat-value">4</div><div class="stat-label">类任务价值判断<small>深入 · 有限应试 · 探索 · 暂缓</small></div></div>
+        <div class="stat"><div class="stat-value">2</div><div class="stat-label">条并行学习路径<small>复盘闭环 + 自由探索</small></div></div>
+      </div>
+    </div>
+
+    <section class="section" id="position">
+      <div class="shell">
+        <div class="section-head fade">
+          <div><div class="section-kicker">01 · Premise</div><h2>考试和学习，并不天然一致</h2></div>
+          <p class="section-intro">考试有时能检查有意义的知识与能力，有时只是要求应试者适应特定形式。系统既不反对所有考试，也不无条件帮助学习者适应所有考试；第一步永远是理解任务本身。</p>
+        </div>
+        <div class="positioning">
+          <article class="position-card fade"><div class="role">E</div><div class="index">01</div><h3>先识别整场考试的目标</h3><p>它想选出怎样的人、塑造怎样的专业能力，又隐含了怎样的职业与教育观？</p></article>
+          <article class="position-card focus fade"><div class="role">↔</div><div class="index">02</div><h3>再分析科目与题型的分工</h3><p>各科和各类任务分别代表了整体目标的哪一部分？哪些能力被真正测到，哪些只是被题型近似替代？</p></article>
+          <article class="position-card fade"><div class="role">D</div><div class="index">03</div><h3>最后决定学习投入</h3><p>把考试要求与学科知识、实践价值和个人需要比较，再选择理解、应试、探索或暂缓。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="formation">
+      <div class="shell">
+        <div class="section-head fade">
+          <div><div class="section-kicker">02 · How it grew</div><h2>系统不是先被设计出来的，<br />而是在学习中逐渐长出来的。</h2></div>
+          <p class="section-intro">它不是完成产品设计后再投入测试的工具。学习、设计、使用和反思从一开始就在同时发生：每一个功能都来自真实障碍，每一次使用又改变了下一步要做的东西。</p>
+        </div>
+
+        <div class="formation-timeline">
+          <article class="formation-step fade">
+            <div class="formation-marker">01</div>
+            <div class="formation-card">
+              <span class="step-label">The beginning · 起点</span><h3>从真实试题开始</h3>
+              <p>最初并不是为了开发平台，而是面对范围庞大的建筑考试，不知道应该从哪里开始。学习课本、查找资料和订正原题时，开始记录每道题究竟在考什么，以及自己为什么不会。</p>
+              <div class="formation-shift"><div><b>真实障碍</b>范围太大，题目与教材难以对应</div><span>→</span><div><b>最初动作</b>记录题目要求、卡点和订正理由</div></div>
+            </div>
+          </article>
+
+          <article class="formation-step fade">
+            <div class="formation-marker">02</div>
+            <div class="formation-card">
+              <span class="step-label">Traceability · 可追溯</span><h3>保存散落的解释</h3>
+              <p>随着学习深入，公式、图片、教材说明、个人解释和订正记录散落在原卷、Notion 与其他工具中。为了避免每次遇到同类问题都从零检索，开始建立能够返回原始资料的入口。</p>
+              <div class="formation-shift"><div><b>真实障碍</b>知道自己看过，却找不到解释在哪里</div><span>→</span><div><b>形成的工具</b>来源链接、图片索引与可返回的资料入口</div></div>
+            </div>
+          </article>
+
+          <article class="formation-step fade">
+            <div class="formation-marker">03</div>
+            <div class="formation-card">
+              <span class="step-label">From notes to relations · 从笔记到关系</span><h3>从答案转向知识关系</h3>
+              <p>孤立笔记能够解释一道题，却无法说明不同题目为什么相似、概念怎样迁移。系统因而逐渐出现原子事实、建筑实体、图片索引、时间轴、关系网络，以及各科知识地图。</p>
+              <div class="formation-shift"><div><b>真实障碍</b>答案越来越多，知识却仍然彼此孤立</div><span>→</span><div><b>形成的工具</b>可以跨题目行走、比较和继续生长的知识结构</div></div>
+            </div>
+          </article>
+
+          <article class="formation-step fade">
+            <div class="formation-marker">04</div>
+            <div class="formation-card">
+              <span class="step-label">Exam reconstruction · 考试拆解</span><h3>拆解考试结构，并尝试重构练习</h3>
+              <p>在知识结构已经能够实际使用之后，系统进一步分析题型、认知任务、干扰项与可变化参数，并尝试让练习不再局限于重复原题。但实践结果必须如实区分“已经做成”与“尚未达到”。</p>
+              <div class="formation-truth">
+                <div class="truth-block"><span>已经成立</span><b>学习网站及其知识结构已经完成，并能在真实学习中检索、探索、练习和回溯。</b></div>
+                <div class="truth-block limit"><span>没有达到原定目标</span><b>完整动态 Generator 未能稳定实现；不能把局部成功描述成通用生成系统。</b></div>
+              </div>
+              <div class="formation-truth">
+                <div class="truth-block"><span>相对稳定的有限题型</span><b>建筑史图片 matching、环境计算、构法词汇，以及部分建筑计划练习。</b></div>
+                <div class="truth-block limit"><span>需要保留的边界</span><b>题型覆盖、变化质量、难度控制与自动评分能力仍然有限。</b></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="formation-step fade">
+            <div class="formation-marker">05</div>
+            <div class="formation-card">
+              <span class="step-label">Trust before volume · 可信先于数量</span><h3>从生成数量转向内容可信</h3>
+              <p>Generator 实践暴露了事实幻觉、干扰项质量、难度控制和评分依据等问题。系统不再把“能生成”直接等同于“能用于学习”，而是建立内容身份与成熟度的明确边界。</p>
+              <div class="content-states"><span class="content-state verified">真实过去问</span><span class="content-state verified">已验证正式练习</span><span class="content-state">真题重建</span><span class="content-state">候选题</span><span class="content-state">草稿与待审核内容</span></div>
+              <div class="formation-shift"><div><b>每项内容需要说明</b>它属于哪一种身份</div><span>+</span><div><b>同时保留</b>来源、答案依据、置信度与审核状态</div></div>
+            </div>
+          </article>
+
+          <article class="formation-step fade">
+            <div class="formation-marker">06</div>
+            <div class="formation-card">
+              <span class="step-label">Division of work · 重新分工</span><h3>在实际学习中，让不同工具各做一件事</h3>
+              <p>持续使用后发现，把全部内容塞进同一个工具只会增加负担。系统逐渐形成一套由真实学习行为决定、而不是由产品边界决定的分工。</p>
+              <div class="tool-roles"><div class="tool-role"><b>纸面／原卷</b><span>完成真实作答，保留考试情境</span></div><div class="tool-role"><b>Notion</b><span>保存长解释与原始资料</span></div><div class="tool-role"><b>网站</b><span>检索、知识关系、有限练习与错题回溯</span></div><div class="tool-role"><b>Anki</b><span>长期记忆最小知识单元</span></div></div>
+            </div>
+          </article>
+
+          <article class="formation-step fade">
+            <div class="formation-marker">07</div>
+            <div class="formation-card">
+              <span class="step-label">Reflection · 方法反思</span><h3>从备考工具走向对学习方法的反思</h3>
+              <p>持续学习与使用之后，问题不再只是“怎样更高效地通过考试”，而变成“哪些投入真正接近知识、哪些只是在适应形式”。系统开始同时记录学习结果与学习者逐渐找到方法的过程。</p>
+              <div class="reflection-list"><span>深入理解</span><span>有限应试</span><span>自由探索</span><span class="low">主动放弃低收益内容</span><span>形成能力的重复</span><span>生成理解的重复</span><span class="low">只造成消耗的机械重复</span></div>
+            </div>
+          </article>
+
+          <div class="formation-summary fade"><p>Current understanding · 当前理解</p><strong>在必须考试的时候，<br />不让学习只剩下应试。</strong><span>这是一个通过学习来设计、又通过设计继续学习的系统。</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="profile">
+      <div class="shell">
+        <div class="section-head fade">
+          <div><div class="section-kicker">03 · Friction to response</div><h2>从学习摩擦，<br />到系统响应。</h2></div>
+          <p class="section-intro">这里不判断学习者“是什么样的人”，而是观察：当资料散乱、工作记忆有限、单一材料难以进入、探索动力需要被保护时，系统为何长出这些结构。</p>
+        </div>
+
+        <div class="profile-layout">
+          <article class="radar-card fade">
+            <span class="profile-label">System support · 系统支持重点</span><h3>当前响应状态</h3>
+            <svg class="radar-chart" viewBox="0 0 560 440" role="img" aria-labelledby="radar-title radar-desc">
+              <title id="radar-title">系统支持重点雷达图</title><desc id="radar-desc">信息外置、关系可视化与工作记忆减负为核心；任务拆解、探索延展与来源边界较稳定；阶段收束仍待补足。</desc>
+              <polygon class="radar-grid" points="280,185 307.36,198.18 314.12,227.79 295.19,251.53 264.81,251.53 245.88,227.79 252.64,198.18" />
+              <polygon class="radar-grid" points="280,150 334.73,176.36 348.24,235.58 310.37,283.07 249.63,283.07 211.76,235.58 225.27,176.36" />
+              <polygon class="radar-grid" points="280,115 362.09,154.53 382.37,243.36 325.56,314.60 234.44,314.60 177.63,243.36 197.91,154.53" />
+              <polygon class="radar-grid" points="280,80 389.46,132.71 416.49,251.15 340.74,346.14 219.26,346.14 143.51,251.15 170.54,132.71" />
+              <line class="radar-axis" x1="280" y1="220" x2="280" y2="80" /><line class="radar-axis" x1="280" y1="220" x2="389.46" y2="132.71" /><line class="radar-axis" x1="280" y1="220" x2="416.49" y2="251.15" /><line class="radar-axis" x1="280" y1="220" x2="340.74" y2="346.14" /><line class="radar-axis" x1="280" y1="220" x2="219.26" y2="346.14" /><line class="radar-axis" x1="280" y1="220" x2="143.51" y2="251.15" /><line class="radar-axis" x1="280" y1="220" x2="170.54" y2="132.71" />
+              <polygon class="radar-shape" points="280,80 389.46,132.71 416.49,251.15 325.56,314.60 234.44,314.60 177.63,243.36 252.64,198.18" />
+              <circle class="radar-dot" cx="280" cy="80" r="5" /><circle class="radar-dot" cx="389.46" cy="132.71" r="5" /><circle class="radar-dot" cx="416.49" cy="251.15" r="5" /><circle class="radar-dot" cx="325.56" cy="314.60" r="5" /><circle class="radar-dot" cx="234.44" cy="314.60" r="5" /><circle class="radar-dot" cx="177.63" cy="243.36" r="5" /><circle class="radar-dot" cx="252.64" cy="198.18" r="5" />
+              <text class="radar-text" x="280" y="36" text-anchor="middle">信息外置与可回找</text><text class="radar-score" x="280" y="53" text-anchor="middle">核心</text>
+              <text class="radar-text" x="404" y="94">关系可视化与系统化</text><text class="radar-score" x="404" y="111">核心</text>
+              <text class="radar-text" x="436" y="253">工作记忆减负</text><text class="radar-score" x="436" y="270">核心</text>
+              <text class="radar-text" x="362" y="377">任务拆解与下一步</text><text class="radar-score" x="362" y="394">稳定</text>
+              <text class="radar-text" x="198" y="377" text-anchor="end">兴趣与探索延展</text><text class="radar-score" x="198" y="394" text-anchor="end">稳定</text>
+              <text class="radar-text" x="124" y="253" text-anchor="end">来源可信与边界</text><text class="radar-score" x="124" y="270" text-anchor="end">稳定</text>
+              <text class="radar-text" x="156" y="94" text-anchor="end">阶段收束与负担控制</text><text class="radar-score" x="156" y="111" text-anchor="end">待补足</text>
+            </svg>
+            <div class="radar-legend"><span>核心</span><span>稳定</span><span>发展中</span><span>待补足</span></div>
+            <p class="radar-note">雷达只概括系统支持成熟度，不测量人格或能力；主要证据仍是下方“摩擦—需要—响应”关系。</p>
+          </article>
+
+          <div class="profile-model fade">
+            <div class="profile-driver"><span class="driver-no">01</span><div><b>关系必须可见，而不只提供答案</b><p>时间轴、实体连接、公式链和知识地图负责呈现结构。</p></div></div>
+            <div class="profile-driver"><span class="driver-no">02</span><div><b>信息需要被外置、回找并继续使用</b><p>来源入口、索引、状态与上下文减少重复检索和记忆负担。</p></div></div>
+            <div class="profile-driver"><span class="driver-no">03</span><div><b>理解必须能支持下一步行动</b><p>解释之后接续练习、错题回流、再次作答与复习安排。</p></div></div>
+            <div class="profile-driver"><span class="driver-no">04</span><div><b>同一知识需要多个入口</b><p>图片、案例、时间、公式、关系图与轻量练习提供不同进入方式。</p></div></div>
+            <div class="profile-driver"><span class="driver-no">05</span><div><b>复盘与探索必须同时存在</b><p>系统既能返回考试任务，也允许沿新问题进入知识与实践。</p></div></div>
+            <div class="profile-driver"><span class="driver-no">06</span><div><b>信任来自边界清楚</b><p>真题、重建题、生成内容和待审核内容保持身份区分。</p></div></div>
+            <div class="profile-tension"><strong>当前主要缺口：阶段性收束。</strong>下一阶段需要更清楚地规定停止条件、单次复盘范围，以及哪些低收益内容可以不进入系统。</div>
+          </div>
+        </div>
+
+        <div class="cause-map fade" aria-label="功能增长原因图">
+          <div class="cause-row"><div class="cause-cell"><small>学习摩擦</small><b>资料散落，找过仍会丢失</b></div><span>→</span><div class="cause-cell"><small>系统需要</small><b>外置记忆与可回找</b></div><span>→</span><div class="cause-cell"><small>设计响应</small><b>来源、索引、搜索与状态</b></div></div>
+          <div class="cause-row"><div class="cause-cell"><small>学习摩擦</small><b>文字与答案彼此孤立</b></div><span>→</span><div class="cause-cell"><small>系统需要</small><b>关系可见、入口多样</b></div><span>→</span><div class="cause-cell"><small>设计响应</small><b>地图、网络、图片与案例</b></div></div>
+          <div class="cause-row"><div class="cause-cell"><small>学习摩擦</small><b>来源、状态和下一步同时挤在脑中</b></div><span>→</span><div class="cause-cell"><small>系统需要</small><b>工作记忆减负</b></div><span>→</span><div class="cause-cell"><small>设计响应</small><b>拆小任务、保留上下文与下一步</b></div></div>
+          <div class="cause-row"><div class="cause-cell"><small>学习摩擦</small><b>看懂了，却不能重新作答</b></div><span>→</span><div class="cause-cell"><small>系统需要</small><b>理解转为行动</b></div><span>→</span><div class="cause-cell"><small>设计响应</small><b>练习、复盘与错题回流</b></div></div>
+          <div class="cause-row"><div class="cause-cell"><small>学习摩擦</small><b>生成内容可能误导学习</b></div><span>→</span><div class="cause-cell"><small>系统需要</small><b>来源可信、身份清楚</b></div><span>→</span><div class="cause-cell"><small>设计响应</small><b>依据、置信度与审核分层</b></div></div>
+          <div class="cause-row"><div class="cause-cell"><small>学习摩擦</small><b>应试挤压兴趣与探索</b></div><span>→</span><div class="cause-cell"><small>系统需要</small><b>保留自主路径</b></div><span>→</span><div class="cause-cell"><small>设计响应</small><b>任务判断与探索路径</b></div></div>
+        </div>
+        <p class="profile-disclaimer fade">可迁移的不是某一套建筑学数据库，而是这条方法：识别学习摩擦 → 判断系统需要 → 设计结构承担它 → 回到实际使用中检验是否减轻负担。</p>
+      </div>
+    </section>
+
+    <section class="section alt" id="judgement">
+      <div class="shell">
+        <div class="section-head fade">
+          <div><div class="section-kicker">04 · Task judgement</div><h2>不是考试要求的每一部分，都值得同样地学习</h2></div>
+          <p class="section-intro">判断从整场考试开始，再逐层进入科目、题型与单题。系统把“做不做、学多深”也视为学习的一部分，依据是考试目标、学科与实践价值、必要性和个人需要，而不只是频率或难度。</p>
+        </div>
+        <div class="judgement-grid">
+          <article class="judgement-card fade" data-mark="01"><span class="signal">高关联 · 高价值</span><h3>与学科基础和实践相关</h3><p>题目触及可迁移的概念、判断或方法，值得超越标准答案，理解它为何成立、还能用到哪里。</p><span class="decision">选择：深入理解与迁移 →</span></article>
+          <article class="judgement-card low fade" data-mark="02"><span class="signal">考试必要 · 收益有限</span><h3>必须通过，但不值得无限投入</h3><p>承认考试约束，保留最小答案、识别规则和时间边界，以最低成本完成必要应试。</p><span class="decision">选择：有限应试 →</span></article>
+          <article class="judgement-card fade" data-mark="03"><span class="signal">低频 · 有兴趣</span><h3>可能有趣，但不是考试主线</h3><p>不因低频就删除它，也不假装它是高频重点。把它保留为可主动进入的知识支线。</p><span class="decision">选择：自主探索 →</span></article>
+          <article class="judgement-card low fade" data-mark="04"><span class="signal">低关联 · 低收益</span><h3>冷门、偶发，且缺少学习价值</h3><p>学习时间有限。明确标注后可以暂缓、跳过或放弃，不让沉没成本冒充学习责任。</p><span class="decision">选择：允许暂缓或放弃 →</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="entries">
+      <div class="shell">
+        <div class="section-head fade">
+          <div><div class="section-kicker">05 · Four entrances</div><h2>判断之后，再选择行动入口</h2></div>
+          <p class="section-intro">首页的四个入口不是四套孤立系统，而是四种行动：理解关系、校准考试、形成输出，以及把需要巩固的内容带入下一轮。</p>
+        </div>
+        <div class="entry-grid">
+          <a class="entry-card fade" href="/explore" target="_blank"><span class="entry-icon">⌁</span><span class="entry-type">UNDERSTAND</span><h3>探索</h3><p>沿时间、人物、案例、物理量和专题关系自由移动，让试题成为知识入口而非边界。</p><span class="entry-link">进入知识关系与案例 →</span></a>
+          <a class="entry-card fade" href="/exam/past" target="_blank"><span class="entry-icon">問</span><span class="entry-type">ANALYZE</span><h3>真题库</h3><p>按年份、科目与题型查看真实过去问，分析考试任务，而不是预设所有题都值得服从。</p><span class="entry-link">查看考试实际如何发问 →</span></a>
+          <a class="entry-card fade" href="/practice" target="_blank"><span class="entry-icon">✎</span><span class="entry-type">PRACTICE</span><h3>练习</h3><p>在值得训练的范围内形成输出；对收益有限的任务，则保留清楚、有限的应试边界。</p><span class="entry-link">按任务价值选择训练 →</span></a>
+          <a class="entry-card fade" href="/review" target="_blank"><span class="entry-icon">↺</span><span class="entry-type">RETRIEVE</span><h3>复习</h3><p>收拢错题与不稳定知识，以闭卷提取、自评和到期提醒观察这一轮新增了什么。</p><span class="entry-link">进入复盘与再次验证 →</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="paths">
+      <div class="shell">
+        <div class="section-head fade">
+          <div><div class="section-kicker">06 · Two paths</div><h2>试题之后，不只有“再做一遍”</h2></div>
+          <p class="section-intro">同一道题可以进入复盘，也可以成为探索的起点。前者检验知识是否转化为作答能力，后者追踪知识从哪里来、与什么相连，以及还能产生什么问题。</p>
+        </div>
+        <div class="path-grid">
+          <article class="path-card dark fade">
+            <span class="path-type">Review loop · 复盘闭环</span><h3>让一次错误转化为新的能力</h3><p>适合需要稳定作答、检查掌握与安排下一轮复习的任务。</p>
+            <div class="path-steps"><div class="path-step"><span>01</span><b>作答</b><span>→</span></div><div class="path-step"><span>02</span><b>发现缺口</b><span>→</span></div><div class="path-step"><span>03</span><b>连接知识</b><span>→</span></div><div class="path-step"><span>04</span><b>练习</b><span>→</span></div><div class="path-step"><span>05</span><b>再次作答</b><span>↺</span></div></div>
+          </article>
+          <article class="path-card fade">
+            <span class="path-type">Exploration path · 探索路径</span><h3>让一道题打开比答案更大的世界</h3><p>适合高价值、有兴趣或能连接真实案例与实践的任务。</p>
+            <div class="path-steps"><div class="path-step"><span>01</span><b>试题</b><span>→</span></div><div class="path-step"><span>02</span><b>知识关系</b><span>→</span></div><div class="path-step"><span>03</span><b>来源与案例</b><span>→</span></div><div class="path-step"><span>04</span><b>产生新问题</b><span>→</span></div><div class="path-step"><span>05</span><b>自由探索或实践</b><span>⌁</span></div></div>
+          </article>
+        </div>
+        <div class="path-principle fade"><strong>让重复产生理解，而不是只产生消耗。</strong><p>这是重要的学习方法原则，但不是系统的最高定位。重复之前，仍要先问：这个任务值不值得重复？重复带来了什么新的关系、判断或能力？</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="subjects">
+      <div class="shell">
+        <div class="section-head fade">
+          <div><div class="section-kicker">07 · Exam architecture</div><h2>先识别每一科在整体考试中代表什么能力</h2></div>
+          <p class="section-intro">这里讨论的不是当前页面用了识图、词库还是公式，而是整科考试试图观察哪一部分专业能力、用哪些任务去近似它，以及这些要求与学科知识和实践究竟有多大关系。</p>
+        </div>
+        <div class="subject-layout fade">
+          <div class="subject-nav" role="tablist" aria-label="学科学习路径">
+            <button class="subject-btn active" data-subject="history"><b>建筑史</b><span>时间 · 文化 · 建造 ↗</span></button>
+            <button class="subject-btn" data-subject="planning"><b>建筑计划</b><span>使用 · 行为 · 空间 ↗</span></button>
+            <button class="subject-btn" data-subject="construction"><b>建筑构法</b><span>材料 · 部件 · 实现 ↗</span></button>
+            <button class="subject-btn" data-subject="environment"><b>环境工学</b><span>环境 · 性能 · 人 ↗</span></button>
+            <button class="subject-btn" data-subject="mechanics"><b>建筑力学</b><span>作用 · 变形 · 系统 ↗</span></button>
+          </div>
+          <article class="subject-panel" data-code="H" id="subject-panel">
+            <span class="tag" id="subject-tag">HISTORY · EXAM INTENT</span>
+            <h3 id="subject-title">能否把建筑放回时间、文化与建造语境</h3>
+            <p id="subject-copy">建筑史考试整体上试图观察学习者是否能定位、比较并解释历史对象。识图、人物、年代和样式只是取样方式；更有价值的部分，是理解建筑如何回应社会、思想、技术与地域。</p>
+            <div class="subject-facts">
+              <div class="subject-fact"><span>整体考试目标</span><b id="subject-test">对历史对象进行定位、比较与解释</b></div>
+              <div class="subject-fact"><span>主要任务样本</span><b id="subject-entry">识图、人物作品、年代样式与论述</b></div>
+              <div class="subject-fact"><span>学科与实践价值</span><b id="subject-path">先例阅读、文化判断与技术演变</b></div>
+              <div class="subject-fact"><span>学习策略</span><b id="subject-principle">深入关系与语境；冷门名词有限应试</b></div>
+            </div>
+          </article>
+        </div>
+        <div class="subject-scope-note fade"><strong>阅读方式：</strong>具体页面、题型和现有练习只说明“系统目前从哪里进入”，不能代表整科目标。判断顺序应当始终是：整体考试目标 → 科目承担的能力 → 题型如何取样 → 单题与页面如何支持学习。</div>
+      </div>
+    </section>
+
+    <section class="section alt" id="presentation">
+      <div class="shell">
+        <div class="section-head fade">
+          <div><div class="section-kicker">08 · UDL & personalization</div><h2>改变呈现方式，也要先判断任务本身</h2></div>
+          <p class="section-intro">UDL 和个性化呈现很重要：同一知识可以通过图片、时间关系、原题、模型、公式流、案例或双语答案进入。但“更容易接触”不等于任务自动变得合理。</p>
+        </div>
+        <div class="udl-grid">
+          <article class="udl-card fade"><span>01</span><h3>多种进入方式</h3><p>允许从文字、图片、图面、时间轴、关系网络、物理量图或具体案例开始。</p></article>
+          <article class="udl-card fade"><span>02</span><h3>多种理解与表达</h3><p>把同一任务转为逐问解析、模型、公式链、口头解释、最小答案或双语表达。</p></article>
+          <article class="udl-card fade"><span>03</span><h3>不同投入深度</h3><p>根据任务价值与学习者需要，选择深入、最低成本通过、自由探索或暂缓。</p></article>
+        </div>
+        <div class="udl-boundary fade"><strong>UDL 与个性化不能自动解决考试和学习的冲突。</strong> 系统在改变字体、媒介、语言或练习节奏之前，仍必须判断：任务是否合理、是否必要、是否具有值得迁移的学习价值。</div>
+      </div>
+    </section>
+
+    <section class="section" id="structure">
+      <div class="shell">
+        <div class="section-head fade">
+          <div><div class="section-kicker">09 · Information logic</div><h2>从真实试题出发，但不止步于标准答案</h2></div>
+          <p class="section-intro">系统把真实考试作为观察对象，把知识关系与实践作为延伸空间，把个人状态作为下一步依据。技术层次被隐藏，学习者看到的是可以选择、返回和继续的路径。</p>
+        </div>
+        <div class="layers fade">
+          <div class="layer"><span class="layer-no">05</span><b>学习者选择</b><p>深入、有限应试、复盘、探索、暂缓；保留对学习投入的自主权</p></div>
+          <div class="layer"><span class="layer-no">04</span><b>行动与呈现</b><p>探索、真题、练习、复习，以及图片、图面、模型和双语答案</p></div>
+          <div class="layer"><span class="layer-no">03</span><b>考试目标分析</b><p>整场考试目标 → 科目承担的能力 → 题型如何取样 → 单题实际要求</p></div>
+          <div class="layer"><span class="layer-no">02</span><b>学科与实践关系</b><p>哪些要求接近知识与专业实践，哪些主要来自题型和制度约束</p></div>
+          <div class="layer"><span class="layer-no">01</span><b>真实来源</b><p>历年试卷、教材与 Notion 笔记、原始图面、图片和已核对资料</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="boundary">
+      <div class="shell">
+        <div class="section-head fade">
+          <div><div class="section-kicker">10 · Honest boundary</div><h2>系统提供判断支持，不替学习者作价值决定</h2></div>
+          <p class="section-intro">它可以显示来源、关系、频率、答案依据与不同呈现方式，但不会宣称存在一条对所有人都正确的自动学习路线。</p>
+        </div>
+        <div class="boundary-grid">
+          <article class="boundary good fade"><h3>系统可以帮助</h3><ul><li>看清整场考试的目标、结构与隐含能力模型</li><li>连接科目任务、学科知识、来源、案例与实践</li><li>区分正式主干、补充探索与低收益内容</li><li>用复盘闭环检验是否形成新的作答能力</li><li>用多种呈现方式降低不必要的进入障碍</li></ul></article>
+          <article class="boundary careful fade"><h3>系统不会假装</h3><ul><li>所有考试任务都合理且值得深入学习</li><li>做题次数可以直接代表知识或能力</li><li>个性化呈现能消除考试本身的问题</li><li>一次答对等于永久掌握或真正理解</li><li>自动推荐可以取代学习者的兴趣与判断</li></ul></article>
+        </div>
+        <div class="local-note fade"><span>⌂</span><div><strong>关于学习记录</strong><p>当前进度保存在本机浏览器中，适合支持当下的复盘与选择，但不应被当作长期档案，更不应被解释成对学习者能力的完整评价。</p></div></div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="shell closing-grid">
+        <div><div class="section-kicker" style="color:var(--amber)">The final question</div><h2>这一轮学习，比上一轮新增了什么？</h2><p>系统最终追问的不是做了多少题、重复了多少次，而是：它有没有新增一种理解、一条关系、一个判断、一种表达或一次真正的迁移？它有没有让人更接近知识本身？</p></div>
+        <div class="quote">从真实考试出发，不是为了把世界缩成一张试卷；而是为了在无法绕开考试时，仍然保留进入知识、提出问题和自由探索的可能。</div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="shell"><span>建筑考试学习系统 · 功能与逻辑介绍</span><span>基于当前仓库实际功能整理 · 2026.07</span></div></footer>
+
+  <script>
+    const subjectData = {
+      history: { code: "H", tag: "HISTORY · EXAM INTENT", title: "能否把建筑放回时间、文化与建造语境", copy: "建筑史考试整体上试图观察学习者是否能定位、比较并解释历史对象。识图、人物、年代和样式只是取样方式；更有价值的部分，是理解建筑如何回应社会、思想、技术与地域。", test: "对历史对象进行定位、比较与解释", entry: "识图、人物作品、年代样式与论述", path: "先例阅读、文化判断与技术演变", principle: "深入关系与语境；冷门名词有限应试" },
+      planning: { code: "P", tag: "PLANNING · EXAM INTENT", title: "能否理解使用、行为、功能与空间组织的关系", copy: "建筑计划考试整体上试图观察学习者能否从人的活动、设施目的与条件出发，判断空间如何被组织。案例、平面类型、尺寸与短文作答都是取样方式，不应被误认为学科本身。", test: "根据使用与条件形成空间判断", entry: "平面阅读、类型、案例、尺度标准与论述", path: "需求分析、空间推理、先例迁移与设计判断", principle: "深入空间为何如此；孤立数值设置应试边界" },
+      construction: { code: "C", tag: "CONSTRUCTION · EXAM INTENT", title: "能否理解建筑如何由材料、部件与工序实现", copy: "建筑构法考试整体上试图观察学习者是否理解建筑作为建造系统的组成、连接与实现过程。词库、材料性质和构件辨认只是对这种能力的局部取样。", test: "解释材料、部件、节点与施工之间的关系", entry: "术语、材料性能、构件关系、细部与工序", path: "可建造性、细部逻辑、性能与跨专业协调", principle: "深入因果与组装逻辑；低频术语有限应试" },
+      environment: { code: "E", tag: "ENVIRONMENT · EXAM INTENT", title: "能否解释并量化人、建筑与物理环境的互动", copy: "环境工学考试整体上试图观察学习者能否理解热、光、声、空气等环境现象，并据此判断建筑性能与人的感受。公式和计算只是模型化表达，不是学科目标本身。", test: "由物理现象形成性能分析与环境判断", entry: "现象解释、条件辨认、单位、计算与正误判断", path: "模型假设、建筑性能、舒适健康与设计选择", principle: "深入现象与模型；避免把套公式当作理解" },
+      mechanics: { code: "M", tag: "MECHANICS · EXAM INTENT", title: "能否把真实结构抽象为可推理、可检验的模型", copy: "建筑力学考试整体上试图观察学习者能否从荷载、材料、几何与边界条件出发，推理内力、应力、变形和系统响应。计算与公式是推理载体，三道现有页面只是当前观察窗口。", test: "建立模型并判断作用到响应的传递关系", entry: "图示建模、计算推导、边界条件、极限与自检", path: "结构直觉、尺度转换、变形协调与安全判断", principle: "深入模型与物理关系；固定推导有限应试" }
+    };
+
+    document.querySelectorAll('.subject-btn').forEach((button) => {
+      button.addEventListener('click', () => {
+        document.querySelectorAll('.subject-btn').forEach((item) => item.classList.remove('active'));
+        button.classList.add('active');
+        const item = subjectData[button.dataset.subject];
+        const panel = document.getElementById('subject-panel');
+        panel.dataset.code = item.code;
+        ['tag','title','copy','test','entry','path','principle'].forEach((key) => {
+          document.getElementById(`subject-${key}`).textContent = item[key];
+        });
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, { threshold: .12 });
+    document.querySelectorAll('.fade').forEach((element) => observer.observe(element));
+
+    const sections = [...document.querySelectorAll('main section[id]')];
+    const navLinks = [...document.querySelectorAll('.nav a')];
+    window.addEventListener('scroll', () => {
+      const current = sections.filter((section) => section.getBoundingClientRect().top < 140).at(-1);
+      navLinks.forEach((link) => link.classList.toggle('active', current && link.getAttribute('href') === `#${current.id}`));
+    }, { passive: true });
+  </script>
+</body>
+</html>

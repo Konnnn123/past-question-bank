@@ -1,0 +1,4149 @@
+{
+  "count": 518,
+  "rows": [
+    {
+      "year": 2015,
+      "question": 3,
+      "kind": "option",
+      "label": "A",
+      "value": "前室 Anteroom,",
+      "fileName": "2015_専門1_建筑计划_Q10.md"
+    },
+    {
+      "year": 2015,
+      "question": 3,
+      "kind": "option",
+      "label": "B",
+      "value": "寝室 Bedroom,",
+      "fileName": "2015_専門1_建筑计划_Q10.md"
+    },
+    {
+      "year": 2015,
+      "question": 3,
+      "kind": "option",
+      "label": "C",
+      "value": "廊下 Corridor,",
+      "fileName": "2015_専門1_建筑计划_Q10.md"
+    },
+    {
+      "year": 2017,
+      "question": 1,
+      "kind": "option",
+      "label": "A",
+      "value": "近隣住区論",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 1,
+      "kind": "option",
+      "label": "B",
+      "value": "田園都市",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 1,
+      "kind": "option",
+      "label": "C",
+      "value": "ニューアーバニズム",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 1,
+      "kind": "option",
+      "label": "D",
+      "value": "都市美運動",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 2,
+      "kind": "option",
+      "label": "A",
+      "value": "工業化住宅",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 2,
+      "kind": "option",
+      "label": "B",
+      "value": "仮設住宅",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 2,
+      "kind": "option",
+      "label": "C",
+      "value": "コアハウジング",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 2,
+      "kind": "option",
+      "label": "D",
+      "value": "シェルタードハウジング",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 3,
+      "kind": "option",
+      "label": "A",
+      "value": "オープンプラン",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 3,
+      "kind": "option",
+      "label": "B",
+      "value": "デュアルリビング",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 3,
+      "kind": "option",
+      "label": "C",
+      "value": "コモンリビング",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 3,
+      "kind": "option",
+      "label": "D",
+      "value": "リビングアクセス",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 4,
+      "kind": "option",
+      "label": "A",
+      "value": "コーポラティブハウジング",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 4,
+      "kind": "option",
+      "label": "B",
+      "value": "コレクティブハウジング",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 4,
+      "kind": "option",
+      "label": "C",
+      "value": "グループリビング",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 4,
+      "kind": "option",
+      "label": "D",
+      "value": "スケルトン・インフィル住宅",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 5,
+      "kind": "option",
+      "label": "A",
+      "value": "イームズ自邸",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 5,
+      "kind": "option",
+      "label": "B",
+      "value": "ファンズワース邸",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 5,
+      "kind": "option",
+      "label": "C",
+      "value": "フィッシャー邸",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 5,
+      "kind": "option",
+      "label": "D",
+      "value": "シュレーダー邸",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 6,
+      "kind": "option",
+      "label": "A",
+      "value": "同潤会江戸川アパート",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 6,
+      "kind": "option",
+      "label": "B",
+      "value": "晴海高層アパート",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 6,
+      "kind": "option",
+      "label": "C",
+      "value": "広島市営基町団地",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 6,
+      "kind": "option",
+      "label": "D",
+      "value": "コモンシティ星田",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 7,
+      "kind": "option",
+      "label": "A",
+      "value": "3",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 7,
+      "kind": "option",
+      "label": "B",
+      "value": "5",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 7,
+      "kind": "option",
+      "label": "C",
+      "value": "7",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 7,
+      "kind": "option",
+      "label": "D",
+      "value": "9",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 8,
+      "kind": "option",
+      "label": "A",
+      "value": "ロザリンド・エルシー・フランクリン",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 8,
+      "kind": "option",
+      "label": "B",
+      "value": "アン・サリヴァン",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 8,
+      "kind": "option",
+      "label": "C",
+      "value": "フローレンス・ナイチンゲール",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 8,
+      "kind": "option",
+      "label": "D",
+      "value": "マリ・キュリー",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 9,
+      "kind": "option",
+      "label": "A",
+      "value": "5",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 9,
+      "kind": "option",
+      "label": "B",
+      "value": "10",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 9,
+      "kind": "option",
+      "label": "C",
+      "value": "15",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 9,
+      "kind": "option",
+      "label": "D",
+      "value": "20",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 10,
+      "kind": "option",
+      "label": "A",
+      "value": "介護老人保健施設",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 10,
+      "kind": "option",
+      "label": "B",
+      "value": "介護療養型医療施設",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 10,
+      "kind": "option",
+      "label": "C",
+      "value": "ケアハウス",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 10,
+      "kind": "option",
+      "label": "D",
+      "value": "小規模多機能型居宅介護拠点",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 11,
+      "kind": "option",
+      "label": "A",
+      "value": "アクティブ・ラーニング",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 11,
+      "kind": "option",
+      "label": "B",
+      "value": "フリースクール",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 11,
+      "kind": "option",
+      "label": "C",
+      "value": "オープンスクール",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 11,
+      "kind": "option",
+      "label": "D",
+      "value": "チャータースクール",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 12,
+      "kind": "option",
+      "label": "A",
+      "value": "12",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 12,
+      "kind": "option",
+      "label": "B",
+      "value": "18",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 12,
+      "kind": "option",
+      "label": "C",
+      "value": "24",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 12,
+      "kind": "option",
+      "label": "D",
+      "value": "30",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 13,
+      "kind": "option",
+      "label": "A",
+      "value": "スカンセン野外博物館",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 13,
+      "kind": "option",
+      "label": "B",
+      "value": "ポンピドウー・センター",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 13,
+      "kind": "option",
+      "label": "C",
+      "value": "キンベル美術館",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 13,
+      "kind": "option",
+      "label": "D",
+      "value": "ルイジアナ近代美術館",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 14,
+      "kind": "option",
+      "label": "A",
+      "value": "シューボックス型",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 14,
+      "kind": "option",
+      "label": "B",
+      "value": "ワインヤード型",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 14,
+      "kind": "option",
+      "label": "C",
+      "value": "プロセニアム型",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 14,
+      "kind": "option",
+      "label": "D",
+      "value": "アリーナ型",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 15,
+      "kind": "option",
+      "label": "A",
+      "value": "フリーアドレス",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 15,
+      "kind": "option",
+      "label": "B",
+      "value": "インテリジェントオフィス",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 15,
+      "kind": "option",
+      "label": "C",
+      "value": "オフィスランドスケープ",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 16,
+      "kind": "option",
+      "label": "A",
+      "value": "テリトリー",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 16,
+      "kind": "option",
+      "label": "B",
+      "value": "ボディバッファーゾーン",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 16,
+      "kind": "option",
+      "label": "C",
+      "value": "ソシオペタルスペース",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 16,
+      "kind": "option",
+      "label": "D",
+      "value": "パーソナルスペース",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 17,
+      "kind": "option",
+      "label": "A",
+      "value": "利用方法の統一",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 17,
+      "kind": "option",
+      "label": "B",
+      "value": "少ない身体的な努力",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 17,
+      "kind": "option",
+      "label": "C",
+      "value": "ユーザー別に分けられた空間",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 17,
+      "kind": "option",
+      "label": "D",
+      "value": "単純で慣習的な利用",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 18,
+      "kind": "option",
+      "label": "A",
+      "value": "ロバート・ヴェンチューリ",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 18,
+      "kind": "option",
+      "label": "B",
+      "value": "ケヴィン・リンチ",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 18,
+      "kind": "option",
+      "label": "C",
+      "value": "クリストファー・アレクザンダー",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 18,
+      "kind": "option",
+      "label": "D",
+      "value": "ジェイン・ジェイコブス",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 19,
+      "kind": "option",
+      "label": "A",
+      "value": "ボンエルフ",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 19,
+      "kind": "option",
+      "label": "B",
+      "value": "ペデストリアンデッキ",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 19,
+      "kind": "option",
+      "label": "C",
+      "value": "ラドバーン",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 19,
+      "kind": "option",
+      "label": "D",
+      "value": "タウンモビリティ",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 20,
+      "kind": "option",
+      "label": "A",
+      "value": "主婦と子ども",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 20,
+      "kind": "option",
+      "label": "B",
+      "value": "学生",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 20,
+      "kind": "option",
+      "label": "C",
+      "value": "成人男性",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2017,
+      "question": 20,
+      "kind": "option",
+      "label": "D",
+      "value": "高齢者",
+      "fileName": "2017_専門1_建筑计划_Q1.md"
+    },
+    {
+      "year": 2019,
+      "question": 1,
+      "kind": "option",
+      "label": "A",
+      "value": "ヴァルター・グロピウス",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 1,
+      "kind": "option",
+      "label": "B",
+      "value": "ミース・ファン・デル・ローエ",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 1,
+      "kind": "option",
+      "label": "C",
+      "value": "ル・コルビュジエ",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 1,
+      "kind": "option",
+      "label": "D",
+      "value": "ルシオ・コスタ",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 2,
+      "kind": "option",
+      "label": "A",
+      "value": "レッチワース",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 2,
+      "kind": "option",
+      "label": "B",
+      "value": "ラドバーン",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 2,
+      "kind": "option",
+      "label": "C",
+      "value": "ハーロウ",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 2,
+      "kind": "option",
+      "label": "D",
+      "value": "レヴィット・タウン",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 3,
+      "kind": "option",
+      "label": "A",
+      "value": "HOPE 計画",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 3,
+      "kind": "option",
+      "label": "B",
+      "value": "ルネッサンス計画",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 3,
+      "kind": "option",
+      "label": "C",
+      "value": "住生活基本計画",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 3,
+      "kind": "option",
+      "label": "D",
+      "value": "地区まちづくり計画",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 4,
+      "kind": "option",
+      "label": "A",
+      "value": "タウンハウス永山",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 4,
+      "kind": "option",
+      "label": "B",
+      "value": "茨城県営松代アパート",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 4,
+      "kind": "option",
+      "label": "C",
+      "value": "NEXT 21",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 4,
+      "kind": "option",
+      "label": "D",
+      "value": "ユーコート",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 5,
+      "kind": "option",
+      "label": "A",
+      "value": "図書館",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 5,
+      "kind": "option",
+      "label": "B",
+      "value": "郵便局",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 5,
+      "kind": "option",
+      "label": "C",
+      "value": "高齢者向けデイサービス",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 5,
+      "kind": "option",
+      "label": "D",
+      "value": "警察署",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 6,
+      "kind": "option",
+      "label": "A",
+      "value": "コレクティブハウス かんかん森",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 6,
+      "kind": "option",
+      "label": "B",
+      "value": "SHARE yaraicho",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 6,
+      "kind": "option",
+      "label": "C",
+      "value": "求道学舎",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 6,
+      "kind": "option",
+      "label": "D",
+      "value": "M ポート",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 7,
+      "kind": "option",
+      "label": "A",
+      "value": "10",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 7,
+      "kind": "option",
+      "label": "B",
+      "value": "50",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 7,
+      "kind": "option",
+      "label": "C",
+      "value": "100",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 7,
+      "kind": "option",
+      "label": "D",
+      "value": "150",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 8,
+      "kind": "option",
+      "label": "A",
+      "value": "東京大学医学部付属病院",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 8,
+      "kind": "option",
+      "label": "B",
+      "value": "東京臨海病院",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 8,
+      "kind": "option",
+      "label": "C",
+      "value": "足利赤十字病院",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 8,
+      "kind": "option",
+      "label": "D",
+      "value": "西神戸医療センター",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 9,
+      "kind": "option",
+      "label": "A",
+      "value": "10",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 9,
+      "kind": "option",
+      "label": "B",
+      "value": "25",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 9,
+      "kind": "option",
+      "label": "C",
+      "value": "50",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 9,
+      "kind": "option",
+      "label": "D",
+      "value": "75",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 10,
+      "kind": "option",
+      "label": "A",
+      "value": "小規模多機能型居宅介護",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 10,
+      "kind": "option",
+      "label": "B",
+      "value": "通所リハビリテーション",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 10,
+      "kind": "option",
+      "label": "C",
+      "value": "短期入所生活介護",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 10,
+      "kind": "option",
+      "label": "D",
+      "value": "訪問介護",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 11,
+      "kind": "option",
+      "label": "A",
+      "value": "生活介護",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 11,
+      "kind": "option",
+      "label": "B",
+      "value": "施設入所支援",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 11,
+      "kind": "option",
+      "label": "C",
+      "value": "療養介護",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 11,
+      "kind": "option",
+      "label": "D",
+      "value": "自立訓練",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 12,
+      "kind": "option",
+      "label": "A",
+      "value": "イブリン・ロウ小学校",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 12,
+      "kind": "option",
+      "label": "B",
+      "value": "フォドレア小学校",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 12,
+      "kind": "option",
+      "label": "C",
+      "value": "ロック・プレーリー小学校",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 12,
+      "kind": "option",
+      "label": "D",
+      "value": "バレー・クロッシング小学校",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 13,
+      "kind": "option",
+      "label": "A",
+      "value": "若葉台小学校",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 13,
+      "kind": "option",
+      "label": "B",
+      "value": "西戸山小学校",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 13,
+      "kind": "option",
+      "label": "C",
+      "value": "笠原小学校",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 13,
+      "kind": "option",
+      "label": "D",
+      "value": "宮前小学校",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 14,
+      "kind": "option",
+      "label": "A",
+      "value": "町田市立図書館",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 14,
+      "kind": "option",
+      "label": "B",
+      "value": "浦安市立図書館",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 14,
+      "kind": "option",
+      "label": "C",
+      "value": "日野市立図書館",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 14,
+      "kind": "option",
+      "label": "D",
+      "value": "府中市立図書館",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 15,
+      "kind": "option",
+      "label": "A",
+      "value": "武蔵野プレイス",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 15,
+      "kind": "option",
+      "label": "B",
+      "value": "金沢海みらい図書館",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 15,
+      "kind": "option",
+      "label": "C",
+      "value": "武雄市図書館",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 15,
+      "kind": "option",
+      "label": "D",
+      "value": "山梨県立図書館",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 16,
+      "kind": "option",
+      "label": "A",
+      "value": "横須賀美術館",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 16,
+      "kind": "option",
+      "label": "B",
+      "value": "青森県立美術館",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 16,
+      "kind": "option",
+      "label": "C",
+      "value": "十和田市現代美術館",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 16,
+      "kind": "option",
+      "label": "D",
+      "value": "豊田市美術館",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 17,
+      "kind": "option",
+      "label": "A",
+      "value": "テアトロ・オリンピコ",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 17,
+      "kind": "option",
+      "label": "B",
+      "value": "テアトロ・ファルネーゼ",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 17,
+      "kind": "option",
+      "label": "C",
+      "value": "ウィーン国立歌劇場",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 17,
+      "kind": "option",
+      "label": "D",
+      "value": "バイロイト祝祭劇場",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 18,
+      "kind": "option",
+      "label": "A",
+      "value": "クラウディング",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 18,
+      "kind": "option",
+      "label": "B",
+      "value": "パーソナルスペース",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 18,
+      "kind": "option",
+      "label": "C",
+      "value": "場所愛着",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 18,
+      "kind": "option",
+      "label": "D",
+      "value": "守りやすい空間",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 19,
+      "kind": "option",
+      "label": "A",
+      "value": "ケヴィン・リンチ",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 19,
+      "kind": "option",
+      "label": "B",
+      "value": "ディビッド・カンター",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 19,
+      "kind": "option",
+      "label": "C",
+      "value": "ロバート・ソマー",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 19,
+      "kind": "option",
+      "label": "D",
+      "value": "エイモス・ラポポート",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 20,
+      "kind": "option",
+      "label": "A",
+      "value": "5",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 20,
+      "kind": "option",
+      "label": "B",
+      "value": "10",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 20,
+      "kind": "option",
+      "label": "C",
+      "value": "50",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2019,
+      "question": 20,
+      "kind": "option",
+      "label": "D",
+      "value": "100",
+      "fileName": "2019_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 1,
+      "kind": "option",
+      "label": "A",
+      "value": "レッチワース",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 1,
+      "kind": "option",
+      "label": "B",
+      "value": "ミルトン・ケインズ",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 1,
+      "kind": "option",
+      "label": "C",
+      "value": "チャンディガール",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 1,
+      "kind": "option",
+      "label": "D",
+      "value": "ウェリン",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 2,
+      "kind": "option",
+      "label": "A",
+      "value": "トランジットモール",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 2,
+      "kind": "option",
+      "label": "B",
+      "value": "オープンモール",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 2,
+      "kind": "option",
+      "label": "C",
+      "value": "タウンモビリティ",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 2,
+      "kind": "option",
+      "label": "D",
+      "value": "フルモール",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 3,
+      "kind": "option",
+      "label": "A",
+      "value": "約 3,000～4,000 人",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 3,
+      "kind": "option",
+      "label": "B",
+      "value": "約 8,000～10,000 人",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 3,
+      "kind": "option",
+      "label": "C",
+      "value": "約 20,000～22,000 人",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 3,
+      "kind": "option",
+      "label": "D",
+      "value": "約 30,000～35,000 人",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 4,
+      "kind": "option",
+      "label": "A",
+      "value": "カウンシル・ハウジング",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 4,
+      "kind": "option",
+      "label": "B",
+      "value": "シュラムビューネン",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 4,
+      "kind": "option",
+      "label": "C",
+      "value": "コホーティング",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 4,
+      "kind": "option",
+      "label": "D",
+      "value": "ユビキタス・ホーム",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 5,
+      "kind": "option",
+      "label": "A",
+      "value": "千葉北事件判決",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 5,
+      "kind": "option",
+      "label": "B",
+      "value": "泉佐野市民会館事件判決",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 5,
+      "kind": "option",
+      "label": "C",
+      "value": "大阪南港事件判決",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 5,
+      "kind": "option",
+      "label": "D",
+      "value": "新宿西口事件判決",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 6,
+      "kind": "option",
+      "label": "A",
+      "value": "第一種住居地域",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 6,
+      "kind": "option",
+      "label": "B",
+      "value": "第二種住居地域",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 6,
+      "kind": "option",
+      "label": "C",
+      "value": "準工業地域",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 6,
+      "kind": "option",
+      "label": "D",
+      "value": "工業専用地域",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 7,
+      "kind": "option",
+      "label": "A",
+      "value": "建蔽率",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 7,
+      "kind": "option",
+      "label": "B",
+      "value": "容積率",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 7,
+      "kind": "option",
+      "label": "C",
+      "value": "高さ制限",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 7,
+      "kind": "option",
+      "label": "D",
+      "value": "斜線制限",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 8,
+      "kind": "option",
+      "label": "A",
+      "value": "500m²",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 8,
+      "kind": "option",
+      "label": "B",
+      "value": "1,000m²",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 8,
+      "kind": "option",
+      "label": "C",
+      "value": "2,000m²",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 8,
+      "kind": "option",
+      "label": "D",
+      "value": "3,000m²",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 9,
+      "kind": "option",
+      "label": "A",
+      "value": "1:1.25",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 9,
+      "kind": "option",
+      "label": "B",
+      "value": "1:1.5",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 9,
+      "kind": "option",
+      "label": "C",
+      "value": "1:2.0",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 9,
+      "kind": "option",
+      "label": "D",
+      "value": "1:2.5",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 10,
+      "kind": "option",
+      "label": "A",
+      "value": "全階",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 10,
+      "kind": "option",
+      "label": "B",
+      "value": "地階を除く全階",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 10,
+      "kind": "option",
+      "label": "C",
+      "value": "3階以上の各階",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 10,
+      "kind": "option",
+      "label": "D",
+      "value": "4階以上の各階",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 11,
+      "kind": "option",
+      "label": "A",
+      "value": "準住居地域",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 11,
+      "kind": "option",
+      "label": "B",
+      "value": "工業地域",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 11,
+      "kind": "option",
+      "label": "C",
+      "value": "工業専用地域",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 11,
+      "kind": "option",
+      "label": "D",
+      "value": "全部の用途地域",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 12,
+      "kind": "option",
+      "label": "A",
+      "value": "都市計画",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 12,
+      "kind": "option",
+      "label": "B",
+      "value": "都市計画決定",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 12,
+      "kind": "option",
+      "label": "C",
+      "value": "地区計画",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 12,
+      "kind": "option",
+      "label": "D",
+      "value": "再開発地区計画",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 13,
+      "kind": "option",
+      "label": "A",
+      "value": "市街化区域",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 13,
+      "kind": "option",
+      "label": "B",
+      "value": "市街化調整区域",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 13,
+      "kind": "option",
+      "label": "C",
+      "value": "線引区域",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 13,
+      "kind": "option",
+      "label": "D",
+      "value": "区域区分が定められていない区域",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 14,
+      "kind": "option",
+      "label": "A",
+      "value": "建築確認",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 14,
+      "kind": "option",
+      "label": "B",
+      "value": "建築許可",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 14,
+      "kind": "option",
+      "label": "C",
+      "value": "変更許可",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 14,
+      "kind": "option",
+      "label": "D",
+      "value": "区域内建築確認",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 15,
+      "kind": "option",
+      "label": "A",
+      "value": "第36条",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 15,
+      "kind": "option",
+      "label": "B",
+      "value": "第37条",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 15,
+      "kind": "option",
+      "label": "C",
+      "value": "第38条",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 15,
+      "kind": "option",
+      "label": "D",
+      "value": "第39条",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 16,
+      "kind": "option",
+      "label": "A",
+      "value": "第36条",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 16,
+      "kind": "option",
+      "label": "B",
+      "value": "第37条",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 16,
+      "kind": "option",
+      "label": "C",
+      "value": "第38条",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 16,
+      "kind": "option",
+      "label": "D",
+      "value": "第39条",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 17,
+      "kind": "option",
+      "label": "A",
+      "value": "第36条",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 17,
+      "kind": "option",
+      "label": "B",
+      "value": "第37条",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 17,
+      "kind": "option",
+      "label": "C",
+      "value": "第38条",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 17,
+      "kind": "option",
+      "label": "D",
+      "value": "第39条",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 18,
+      "kind": "option",
+      "label": "A",
+      "value": "建築確認申請",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 18,
+      "kind": "option",
+      "label": "B",
+      "value": "能源消費計画届出",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 18,
+      "kind": "option",
+      "label": "C",
+      "value": "省エネルギー計画届出",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 18,
+      "kind": "option",
+      "label": "D",
+      "value": "建築物エネルギー消費性能計画届出",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 19,
+      "kind": "option",
+      "label": "A",
+      "value": "建築確認",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 19,
+      "kind": "option",
+      "label": "B",
+      "value": "エネルギー消費性能認定",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 19,
+      "kind": "option",
+      "label": "C",
+      "value": "省エネルギー認定",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 19,
+      "kind": "option",
+      "label": "D",
+      "value": "建築物エネルギー消費性能認定",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 20,
+      "kind": "option",
+      "label": "A",
+      "value": "建築確認",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 20,
+      "kind": "option",
+      "label": "B",
+      "value": "エネルギー消費性能審査",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 20,
+      "kind": "option",
+      "label": "C",
+      "value": "省エネルギー審査",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2020,
+      "question": 20,
+      "kind": "option",
+      "label": "D",
+      "value": "建築物エネルギー消費性能審査",
+      "fileName": "2020_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2023,
+      "question": 1,
+      "kind": "option",
+      "label": "A",
+      "value": "芦原義信",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 1,
+      "kind": "option",
+      "label": "B",
+      "value": "鈴木成文",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 1,
+      "kind": "option",
+      "label": "C",
+      "value": "西山夘三",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 1,
+      "kind": "option",
+      "label": "D",
+      "value": "吉武泰水",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 2,
+      "kind": "option",
+      "label": "A",
+      "value": "広島市営基町団地",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 2,
+      "kind": "option",
+      "label": "B",
+      "value": "清新北ハイツ",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 2,
+      "kind": "option",
+      "label": "C",
+      "value": "NEXT 21",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 2,
+      "kind": "option",
+      "label": "D",
+      "value": "晴海高層アパート",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 3,
+      "kind": "option",
+      "label": "A",
+      "value": "コモンシティ星田",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 3,
+      "kind": "option",
+      "label": "B",
+      "value": "高須ボンエルフ",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 3,
+      "kind": "option",
+      "label": "C",
+      "value": "水戸六番池住宅",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 3,
+      "kind": "option",
+      "label": "D",
+      "value": "茨城県営松代アパート",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 4,
+      "kind": "option",
+      "label": "A",
+      "value": "ユーコート",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 4,
+      "kind": "option",
+      "label": "B",
+      "value": "真野ふれあい住宅",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 4,
+      "kind": "option",
+      "label": "C",
+      "value": "コレクティブハウス・かんかん森",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 4,
+      "kind": "option",
+      "label": "D",
+      "value": "M ポート",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 5,
+      "kind": "option",
+      "label": "A",
+      "value": "20",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 5,
+      "kind": "option",
+      "label": "B",
+      "value": "30",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 5,
+      "kind": "option",
+      "label": "C",
+      "value": "40",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 5,
+      "kind": "option",
+      "label": "D",
+      "value": "50",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 6,
+      "kind": "option",
+      "label": "A",
+      "value": "0.5m",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 6,
+      "kind": "option",
+      "label": "B",
+      "value": "1.0m",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 6,
+      "kind": "option",
+      "label": "C",
+      "value": "1.5m",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 6,
+      "kind": "option",
+      "label": "D",
+      "value": "2.0m",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 7,
+      "kind": "option",
+      "label": "A",
+      "value": "聖路加国際病院",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 7,
+      "kind": "option",
+      "label": "B",
+      "value": "諏訪中央病院",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 7,
+      "kind": "option",
+      "label": "C",
+      "value": "神戸市立西神戸医療センター",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 7,
+      "kind": "option",
+      "label": "D",
+      "value": "東京大学医学部附属病院",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 8,
+      "kind": "option",
+      "label": "A",
+      "value": "介護老人保健施設",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 8,
+      "kind": "option",
+      "label": "B",
+      "value": "認知症高齢者グループホーム",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 8,
+      "kind": "option",
+      "label": "C",
+      "value": "特別養護老人ホーム",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 8,
+      "kind": "option",
+      "label": "D",
+      "value": "小規模多機能型居宅介護拠点",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 9,
+      "kind": "option",
+      "label": "A",
+      "value": "15",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 9,
+      "kind": "option",
+      "label": "B",
+      "value": "20",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 9,
+      "kind": "option",
+      "label": "C",
+      "value": "25",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 9,
+      "kind": "option",
+      "label": "D",
+      "value": "30",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 10,
+      "kind": "option",
+      "label": "A",
+      "value": "3.0",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 10,
+      "kind": "option",
+      "label": "B",
+      "value": "3.5",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 10,
+      "kind": "option",
+      "label": "C",
+      "value": "4.0",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 10,
+      "kind": "option",
+      "label": "D",
+      "value": "4.5",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 11,
+      "kind": "option",
+      "label": "A",
+      "value": "90",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 11,
+      "kind": "option",
+      "label": "B",
+      "value": "120",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 11,
+      "kind": "option",
+      "label": "C",
+      "value": "150",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 11,
+      "kind": "option",
+      "label": "D",
+      "value": "180",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 12,
+      "kind": "option",
+      "label": "A",
+      "value": "エドワード・ホール",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 12,
+      "kind": "option",
+      "label": "B",
+      "value": "ロナルド・メイス",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 12,
+      "kind": "option",
+      "label": "C",
+      "value": "ロメディ・パッシーニ",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 12,
+      "kind": "option",
+      "label": "D",
+      "value": "ロバート・ソマー",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 13,
+      "kind": "option",
+      "label": "A",
+      "value": "西戸山小学校",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 13,
+      "kind": "option",
+      "label": "B",
+      "value": "唐津小学校",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 13,
+      "kind": "option",
+      "label": "C",
+      "value": "緒川小学校",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 13,
+      "kind": "option",
+      "label": "D",
+      "value": "小平西高等学校",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 14,
+      "kind": "option",
+      "label": "A",
+      "value": "笠原小学校",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 14,
+      "kind": "option",
+      "label": "B",
+      "value": "サレジオ小・中学校",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 14,
+      "kind": "option",
+      "label": "C",
+      "value": "打瀬小学校",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 14,
+      "kind": "option",
+      "label": "D",
+      "value": "博多小学校",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 15,
+      "kind": "option",
+      "label": "A",
+      "value": "BM",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 15,
+      "kind": "option",
+      "label": "B",
+      "value": "LAN",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 15,
+      "kind": "option",
+      "label": "C",
+      "value": "PBX",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 15,
+      "kind": "option",
+      "label": "D",
+      "value": "BDS",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 16,
+      "kind": "option",
+      "label": "A",
+      "value": "オルケストラ",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 16,
+      "kind": "option",
+      "label": "B",
+      "value": "バルコニー",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 16,
+      "kind": "option",
+      "label": "C",
+      "value": "スケーネ",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 16,
+      "kind": "option",
+      "label": "D",
+      "value": "ホワイエ",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 17,
+      "kind": "option",
+      "label": "A",
+      "value": "ワインヤード型",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 17,
+      "kind": "option",
+      "label": "B",
+      "value": "シューボックス型",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 17,
+      "kind": "option",
+      "label": "C",
+      "value": "プロセニアム型",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 17,
+      "kind": "option",
+      "label": "D",
+      "value": "アリーナ型",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 18,
+      "kind": "option",
+      "label": "A",
+      "value": "ホイットニー美術館",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 18,
+      "kind": "option",
+      "label": "B",
+      "value": "カリフォルニア・オークランド美術館",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 18,
+      "kind": "option",
+      "label": "C",
+      "value": "オルセー美術館",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 18,
+      "kind": "option",
+      "label": "D",
+      "value": "キンベル美術館",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 19,
+      "kind": "option",
+      "label": "A",
+      "value": "霞ヶ関ビル",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 19,
+      "kind": "option",
+      "label": "B",
+      "value": "新宿住友ビル",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 19,
+      "kind": "option",
+      "label": "C",
+      "value": "新宿三井ビル",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 19,
+      "kind": "option",
+      "label": "D",
+      "value": "サンシャイン 60",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 20,
+      "kind": "option",
+      "label": "A",
+      "value": "片寄せ型",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 20,
+      "kind": "option",
+      "label": "B",
+      "value": "独立型",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 20,
+      "kind": "option",
+      "label": "C",
+      "value": "中央型",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2023,
+      "question": 20,
+      "kind": "option",
+      "label": "D",
+      "value": "両端型",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md"
+    },
+    {
+      "year": 2024,
+      "question": 1,
+      "kind": "option",
+      "label": "A",
+      "value": "ハーロウ・ニュータウン",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 1,
+      "kind": "option",
+      "label": "B",
+      "value": "ミルトン・ケインズ",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 1,
+      "kind": "option",
+      "label": "C",
+      "value": "レッチワース",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 1,
+      "kind": "option",
+      "label": "D",
+      "value": "チャンディガール",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 2,
+      "kind": "option",
+      "label": "A",
+      "value": "ハンプ",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 2,
+      "kind": "option",
+      "label": "B",
+      "value": "クルドサック",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 2,
+      "kind": "option",
+      "label": "C",
+      "value": "ラドバーン",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 2,
+      "kind": "option",
+      "label": "D",
+      "value": "トランジットモール",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 3,
+      "kind": "option",
+      "label": "A",
+      "value": "250m",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 3,
+      "kind": "option",
+      "label": "B",
+      "value": "500m",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 3,
+      "kind": "option",
+      "label": "C",
+      "value": "1km",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 3,
+      "kind": "option",
+      "label": "D",
+      "value": "2km",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 4,
+      "kind": "option",
+      "label": "A",
+      "value": "コーポラティブハウス",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 4,
+      "kind": "option",
+      "label": "B",
+      "value": "コートハウス",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 4,
+      "kind": "option",
+      "label": "C",
+      "value": "コレクティブハウス",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 4,
+      "kind": "option",
+      "label": "D",
+      "value": "タウンハウス",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 5,
+      "kind": "option",
+      "label": "A",
+      "value": "軽井沢の山荘",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 5,
+      "kind": "option",
+      "label": "B",
+      "value": "東光園",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 5,
+      "kind": "option",
+      "label": "C",
+      "value": "スカイハウス",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 5,
+      "kind": "option",
+      "label": "D",
+      "value": "塔の家",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 6,
+      "kind": "option",
+      "label": "A",
+      "value": "広島市営基町団地",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 6,
+      "kind": "option",
+      "label": "B",
+      "value": "ユーコート",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 6,
+      "kind": "option",
+      "label": "C",
+      "value": "ベルコリーヌ南大沢",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 6,
+      "kind": "option",
+      "label": "D",
+      "value": "東雲キャナルコート",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 7,
+      "kind": "option",
+      "label": "A",
+      "value": "片寄せ型",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 7,
+      "kind": "option",
+      "label": "B",
+      "value": "独立型",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 7,
+      "kind": "option",
+      "label": "C",
+      "value": "中央型",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 7,
+      "kind": "option",
+      "label": "D",
+      "value": "両端型",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 8,
+      "kind": "option",
+      "label": "A",
+      "value": "認知症高齢者グループホーム",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 8,
+      "kind": "option",
+      "label": "B",
+      "value": "特別養護老人ホーム",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 8,
+      "kind": "option",
+      "label": "C",
+      "value": "介護老人保健施設",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 8,
+      "kind": "option",
+      "label": "D",
+      "value": "ケアハウス",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 9,
+      "kind": "option",
+      "label": "A",
+      "value": "コレクティブハウス かんかん森",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 9,
+      "kind": "option",
+      "label": "B",
+      "value": "せんねん村",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 9,
+      "kind": "option",
+      "label": "C",
+      "value": "求道学舎",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 9,
+      "kind": "option",
+      "label": "D",
+      "value": "M ポート",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 10,
+      "kind": "option",
+      "label": "A",
+      "value": "$4.8 \\mathrm { m } ^ { 2 }$",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 10,
+      "kind": "option",
+      "label": "B",
+      "value": "$5.6 \\mathrm { m } ^ { 2 }$",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 10,
+      "kind": "option",
+      "label": "C",
+      "value": "$6.4 \\mathrm { m } ^ { 2 }$",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 10,
+      "kind": "option",
+      "label": "D",
+      "value": "$7.9 \\mathrm { m } ^ { 2 }$",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 11,
+      "kind": "option",
+      "label": "A",
+      "value": "複廊型",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 11,
+      "kind": "option",
+      "label": "B",
+      "value": "三角型",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 11,
+      "kind": "option",
+      "label": "C",
+      "value": "片廊下型",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 11,
+      "kind": "option",
+      "label": "D",
+      "value": "中廊下型",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 12,
+      "kind": "option",
+      "label": "A",
+      "value": "北側廊下南側教室",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 12,
+      "kind": "option",
+      "label": "B",
+      "value": "南側廊下北側教室",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 12,
+      "kind": "option",
+      "label": "C",
+      "value": "東側廊下西側教室",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 12,
+      "kind": "option",
+      "label": "D",
+      "value": "西側廊下東側教室",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 13,
+      "kind": "option",
+      "label": "A",
+      "value": "テアトロ・ファルネーゼ",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 13,
+      "kind": "option",
+      "label": "B",
+      "value": "バイロイト祝祭劇場",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 13,
+      "kind": "option",
+      "label": "C",
+      "value": "ケルン市立オペラハウス",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 13,
+      "kind": "option",
+      "label": "D",
+      "value": "エピダウロス神殿",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 14,
+      "kind": "option",
+      "label": "A",
+      "value": "15 m",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 14,
+      "kind": "option",
+      "label": "B",
+      "value": "18 m",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 14,
+      "kind": "option",
+      "label": "C",
+      "value": "22 m",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 14,
+      "kind": "option",
+      "label": "D",
+      "value": "25 m",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 15,
+      "kind": "option",
+      "label": "A",
+      "value": "郡山市立美術館",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 15,
+      "kind": "option",
+      "label": "B",
+      "value": "水戸芸術館",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 15,
+      "kind": "option",
+      "label": "C",
+      "value": "丸亀市猪熊弦一郎現代美術館",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 15,
+      "kind": "option",
+      "label": "D",
+      "value": "新潟市民芸術文化会館「りゅーとぴあ」",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 16,
+      "kind": "option",
+      "label": "A",
+      "value": "前川國男",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 16,
+      "kind": "option",
+      "label": "B",
+      "value": "坂倉準三",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 16,
+      "kind": "option",
+      "label": "C",
+      "value": "吉田鉄郎",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 16,
+      "kind": "option",
+      "label": "D",
+      "value": "吉阪隆正",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 17,
+      "kind": "option",
+      "label": "A",
+      "value": "浦安市立図書館",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 17,
+      "kind": "option",
+      "label": "B",
+      "value": "ストックホルム市立図書館",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 17,
+      "kind": "option",
+      "label": "C",
+      "value": "フランス国立図書館",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 17,
+      "kind": "option",
+      "label": "D",
+      "value": "宮城県図書館",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 18,
+      "kind": "option",
+      "label": "A",
+      "value": "1／1",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 18,
+      "kind": "option",
+      "label": "B",
+      "value": "2／1",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 18,
+      "kind": "option",
+      "label": "C",
+      "value": "3／1",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 18,
+      "kind": "option",
+      "label": "D",
+      "value": "4／1",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 19,
+      "kind": "option",
+      "label": "A",
+      "value": "クリストファー・アレグザンダー",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 19,
+      "kind": "option",
+      "label": "B",
+      "value": "ケヴィン・リンチ",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 19,
+      "kind": "option",
+      "label": "C",
+      "value": "ジェイン・ジェイコブズ",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 19,
+      "kind": "option",
+      "label": "D",
+      "value": "レム・コールハース",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 20,
+      "kind": "option",
+      "label": "A",
+      "value": "1：1.536",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 20,
+      "kind": "option",
+      "label": "B",
+      "value": "1：1.568",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 20,
+      "kind": "option",
+      "label": "C",
+      "value": "1：1.618",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2024,
+      "question": 20,
+      "kind": "option",
+      "label": "D",
+      "value": "1：1.694",
+      "fileName": "2024_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "a",
+      "value": "コモンシティ星田",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "b",
+      "value": "田園都市",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "c",
+      "value": "工業都市",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "d",
+      "value": "住宅営団",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "e",
+      "value": "近隣住区",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "f",
+      "value": "コミュニティケア型仮設住宅",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "g",
+      "value": "ラドバーン",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "h",
+      "value": "高蔵寺ニュータウン",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "i",
+      "value": "シーサイド",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "j",
+      "value": "池田室町",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "k",
+      "value": "阿佐ヶ谷住宅",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "l",
+      "value": "同潤会代官山アパート",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "m",
+      "value": "本郷館",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "n",
+      "value": "軍艦島30号棟",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "o",
+      "value": "大島四丁目団地",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "p",
+      "value": "御茶ノ水文化住宅",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "q",
+      "value": "玉姫公設長屋",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "r",
+      "value": "桜台コートビレッジ",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "s",
+      "value": "猿江裏町",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-1",
+      "label": "t",
+      "value": "ユーコート",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "a",
+      "value": "ボンエルフ",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "b",
+      "value": "歩車分離",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "c",
+      "value": "土地区画整理事業",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "d",
+      "value": "東日本大震災",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "e",
+      "value": "ワンセンター方式",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "f",
+      "value": "ニュー・アーバニズム",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "g",
+      "value": "E. ハワード",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "h",
+      "value": "C. A. ペリー",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "i",
+      "value": "トニー・ガルニエ",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "j",
+      "value": "阪急電鉄",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "k",
+      "value": "津端修一",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "l",
+      "value": "高等下宿",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "m",
+      "value": "不良住宅地区改良事業",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "n",
+      "value": "W. M. ヴォーリズ",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "o",
+      "value": "コーポラティブ・ハウス",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "p",
+      "value": "関東大震災",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "q",
+      "value": "面開発市街地住宅",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "r",
+      "value": "内井昭蔵",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "s",
+      "value": "炭鉱住宅",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2025,
+      "question": 4,
+      "kind": "word-pool-2",
+      "label": "t",
+      "value": "浅草大火",
+      "fileName": "2025_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 1,
+      "kind": "option",
+      "label": "A",
+      "value": "他の人が立ち入るべきではない、個人の身体の周囲にある目に見えない領域",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 1,
+      "kind": "option",
+      "label": "B",
+      "value": "個人が強い愛着を抱く、感情的に特別な場所",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 1,
+      "kind": "option",
+      "label": "C",
+      "value": "文化や社会的地位などによって変化する、一人あたり最低限必要な生活空間",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 1,
+      "kind": "option",
+      "label": "D",
+      "value": "自分の所有物として認識される、身体の周囲に正円形に広がる空間",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 2,
+      "kind": "option",
+      "label": "A",
+      "value": "住宅の階段の幅員を 65 cm とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 2,
+      "kind": "option",
+      "label": "B",
+      "value": "高齢者用の階段の蹴上を 15 cm、踏面を 30 cm とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 2,
+      "kind": "option",
+      "label": "C",
+      "value": "階段の手すりの高さを、握りやすさを考慮して、110 cm とした。",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 2,
+      "kind": "option",
+      "label": "D",
+      "value": "階段の手すりの太さを、握りやすさを考慮して、直径8cmとした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 3,
+      "kind": "option",
+      "label": "A",
+      "value": "約 1/6 の勾配",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 3,
+      "kind": "option",
+      "label": "B",
+      "value": "約 1/12 の勾配",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 3,
+      "kind": "option",
+      "label": "C",
+      "value": "約 1/18 の勾配",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 3,
+      "kind": "option",
+      "label": "D",
+      "value": "約 1/24 の勾配",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 4,
+      "kind": "option",
+      "label": "A",
+      "value": "普通車用駐車スペースの幅を 2.0 m、車椅子用駐車スペースの幅を 2.5 m とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 4,
+      "kind": "option",
+      "label": "B",
+      "value": "普通車用駐車スペースの幅を 2.0 m、車椅子用駐車スペースの幅を 3.0 m とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 4,
+      "kind": "option",
+      "label": "C",
+      "value": "普通車用駐車スペースの幅を 2.5 m、車椅子用駐車スペースの幅を 3.5 m とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 4,
+      "kind": "option",
+      "label": "D",
+      "value": "普通車用駐車スペースの幅を 3.0 m、車椅子用駐車スペースの幅を 4.0 m とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 5,
+      "kind": "option",
+      "label": "A",
+      "value": "テラスハウス",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 5,
+      "kind": "option",
+      "label": "B",
+      "value": "コートハウス",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 5,
+      "kind": "option",
+      "label": "C",
+      "value": "コレクティブハウス",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 5,
+      "kind": "option",
+      "label": "D",
+      "value": "コーポラティブハウス",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 6,
+      "kind": "option",
+      "label": "A",
+      "value": "片廊下型",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 6,
+      "kind": "option",
+      "label": "B",
+      "value": "中廊下型",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 6,
+      "kind": "option",
+      "label": "C",
+      "value": "階段室型",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 6,
+      "kind": "option",
+      "label": "D",
+      "value": "ツインコリドール型",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 7,
+      "kind": "option",
+      "label": "A",
+      "value": "山本理顕が設計した熊本県営保田窪第一団地",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 7,
+      "kind": "option",
+      "label": "B",
+      "value": "槇文彦が設計した代官山ヒルサイドテラス",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 7,
+      "kind": "option",
+      "label": "C",
+      "value": "安藤忠雄が設計した六甲の集合住宅",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 7,
+      "kind": "option",
+      "label": "D",
+      "value": "妹島和世が設計した岐阜県営住宅ハイタウン北方",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 8,
+      "kind": "option",
+      "label": "A",
+      "value": "特別教室と低学年教室を近接させて配置した",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 8,
+      "kind": "option",
+      "label": "B",
+      "value": "普通教室の床面積を $70 \\, m^{2}$ とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 8,
+      "kind": "option",
+      "label": "C",
+      "value": "教室前に 1.2 m 幅の廊下を設けた",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 8,
+      "kind": "option",
+      "label": "D",
+      "value": "低学年用の下足箱の最上段の高さを 120 cm とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 9,
+      "kind": "option",
+      "label": "A",
+      "value": "児童間の交流を促進する傾向がある",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 9,
+      "kind": "option",
+      "label": "B",
+      "value": "静寂な個別学習の空間を提供する傾向がある",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 9,
+      "kind": "option",
+      "label": "C",
+      "value": "教師の集中管理が容易になる傾向がある",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 9,
+      "kind": "option",
+      "label": "D",
+      "value": "廊下面積を最小化し、建設費を抑える傾向がある",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 10,
+      "kind": "option",
+      "label": "A",
+      "value": "明快な二方向避難を確保するため、中央コア型の平面構成を採用した",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 10,
+      "kind": "option",
+      "label": "B",
+      "value": "基準階のレンタブル比を 80% に設定した",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 10,
+      "kind": "option",
+      "label": "C",
+      "value": "階高を低く抑えるため、フリーアクセスフロアを導入した",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 10,
+      "kind": "option",
+      "label": "D",
+      "value": "事務室の天井高を 2.2 m に設定した",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 11,
+      "kind": "option",
+      "label": "A",
+      "value": "丹下健三が設計した静岡新聞・静岡放送ビル",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 11,
+      "kind": "option",
+      "label": "B",
+      "value": "谷口吉生が設計したフォーラムビルディング",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 11,
+      "kind": "option",
+      "label": "C",
+      "value": "原広司が設計した梅田スカイビル",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 11,
+      "kind": "option",
+      "label": "D",
+      "value": "日建設計が設計したパレスサイドビル",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 12,
+      "kind": "option",
+      "label": "A",
+      "value": "診療部門を、外来部門と病棟部門の間に配置した",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 12,
+      "kind": "option",
+      "label": "B",
+      "value": "X線撮影室を、診察室および処置室から離して配置した",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 12,
+      "kind": "option",
+      "label": "C",
+      "value": "標準的な4床病室の床面積を $15 \\, m^{2}$ とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 12,
+      "kind": "option",
+      "label": "D",
+      "value": "病室の出入口の幅を、ストレッチャーの出入りを考慮して 90 cm とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 13,
+      "kind": "option",
+      "label": "A",
+      "value": "座席の幅を 40 cm、前後間隔を 60 cm とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 13,
+      "kind": "option",
+      "label": "B",
+      "value": "座席の幅を 40 cm、前後間隔を 120 cm とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 13,
+      "kind": "option",
+      "label": "C",
+      "value": "座席の幅を 50 cm、前後間隔を 100 cm とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 13,
+      "kind": "option",
+      "label": "D",
+      "value": "座席の幅を 70 cm、前後間隔を 130 cm とした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 14,
+      "kind": "option",
+      "label": "A",
+      "value": "SANAA が設計した金沢 21 世紀美術館",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 14,
+      "kind": "option",
+      "label": "B",
+      "value": "青木淳が設計した青森県立美術館",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 14,
+      "kind": "option",
+      "label": "C",
+      "value": "ルイス・カーンが設計したキンベル美術館",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 14,
+      "kind": "option",
+      "label": "D",
+      "value": "フランク・ロイド・ライトが設計したグッゲンハイム美術館",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 15,
+      "kind": "option",
+      "label": "B",
+      "value": "ノーマン・フォスターが設計した大英博物館グレート・コート",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 15,
+      "kind": "option",
+      "label": "D",
+      "value": "フランク・ゲーリーが設計したヴィトラ・デザイン・ミュージアム",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 16,
+      "kind": "option",
+      "label": "C",
+      "value": "各階を貫くチューブ状の構造コアが、動線にもなり、自然光も取り入れている",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 16,
+      "kind": "option",
+      "label": "D",
+      "value": "ガラスブロックによって、視線と明暗の操作を行っている",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 17,
+      "kind": "option",
+      "label": "A",
+      "value": "「利用者の経験、知識、言語能力、集中力に関わらず、使い方が簡単に分かる。」",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 17,
+      "kind": "option",
+      "label": "B",
+      "value": "「意図しない行動による危険や悪影響を最小限に抑える。」",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 17,
+      "kind": "option",
+      "label": "C",
+      "value": "「効率的で快適に使え、疲労が最小限で済む。」",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 17,
+      "kind": "option",
+      "label": "D",
+      "value": "「障害者が十分に利用できるよう、その特有のニーズに合わせた専用の機能を備えている。」",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 18,
+      "kind": "option",
+      "label": "A",
+      "value": "人と車椅子使用者がすれ违えるように、廊下幅を150cm以上確保した",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 18,
+      "kind": "option",
+      "label": "B",
+      "value": "車椅子が回転できるように、直径 120 cm の円形スペースを確保した",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 18,
+      "kind": "option",
+      "label": "C",
+      "value": "車椅子使用者が使いやすいように、カウンターの机上面高さを 110 cm にした",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 18,
+      "kind": "option",
+      "label": "D",
+      "value": "車椅子が円滑に通過できるように、床の段差を 5 cm 以内に抑えた",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 19,
+      "kind": "option",
+      "label": "A",
+      "value": "都市と農村の長所を兼ね備えた地区計画",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 19,
+      "kind": "option",
+      "label": "B",
+      "value": "小学校を核にした徒歩圏の生活単位の形成",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 19,
+      "kind": "option",
+      "label": "C",
+      "value": "オフィス街と住宅街を統合した職住近接型の地域開発",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 19,
+      "kind": "option",
+      "label": "D",
+      "value": "鉄道駅を中心に集約されたコンパクトな市街地形成",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 20,
+      "kind": "option",
+      "label": "A",
+      "value": "「パス」",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 20,
+      "kind": "option",
+      "label": "B",
+      "value": "「エッジ」",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 20,
+      "kind": "option",
+      "label": "C",
+      "value": "「スカイライン」",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    },
+    {
+      "year": 2026,
+      "question": 20,
+      "kind": "option",
+      "label": "D",
+      "value": "「ランドマーク」",
+      "fileName": "2026_専門1_建筑计划_Q4.md"
+    }
+  ]
+}

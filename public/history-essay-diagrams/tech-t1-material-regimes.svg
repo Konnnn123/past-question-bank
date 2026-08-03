@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="680" viewBox="0 0 1160 680">
+  <rect width="1160" height="680" fill="#f7f4ed"/>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <text x="42" y="48" font-size="27" font-weight="700" fill="#17324d">T1 材料史｜物質名ではなく変換過程と供給体制で分類する</text>
+    <text x="42" y="78" font-size="16" fill="#52606d">resource → processing energy → material property → component → building system → maintenance</text>
+    <g transform="translate(45 130)" text-anchor="middle">
+      <g transform="translate(0)"><rect width="190" height="190" rx="14" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><text x="95" y="38" font-size="20" font-weight="700" fill="#17324d">採取・選別</text><text x="95" y="78" font-size="17" fill="#52606d">木・石・土・茅</text><text x="95" y="110" font-size="17" fill="#52606d">伐採・採石・乾燥</text><text x="95" y="145" font-size="17" fill="#b14f3b">天然材</text></g>
+      <g transform="translate(220)"><rect width="190" height="190" rx="14" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="4"/><text x="95" y="38" font-size="20" font-weight="700" fill="#17324d">焼成・溶融</text><text x="95" y="78" font-size="17" fill="#52606d">煉瓦・瓦・石灰</text><text x="95" y="110" font-size="17" fill="#52606d">ガラス・金属</text><text x="95" y="145" font-size="17" fill="#b14f3b">燃料＋炉・窯</text></g>
+      <g transform="translate(440)"><rect width="190" height="190" rx="14" fill="#dcebea" stroke="#2e7d75" stroke-width="4"/><text x="95" y="38" font-size="20" font-weight="700" fill="#17324d">粉砕・反応</text><text x="95" y="78" font-size="17" fill="#52606d">モルタル</text><text x="95" y="110" font-size="17" fill="#52606d">セメント・コンクリート</text><text x="95" y="145" font-size="17" fill="#b14f3b">水硬性・結合</text></g>
+      <g transform="translate(660)"><rect width="190" height="190" rx="14" fill="#f6d8d1" stroke="#b14f3b" stroke-width="4"/><text x="95" y="38" font-size="20" font-weight="700" fill="#17324d">成形・規格</text><text x="95" y="78" font-size="17" fill="#52606d">圧延材・板ガラス</text><text x="95" y="110" font-size="17" fill="#52606d">合板・集成材</text><text x="95" y="145" font-size="17" fill="#b14f3b">均質化・量産</text></g>
+      <g transform="translate(880)"><rect width="190" height="190" rx="14" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><text x="95" y="38" font-size="20" font-weight="700" fill="#17324d">複合・性能化</text><text x="95" y="78" font-size="17" fill="#52606d">RC・PC・複層ガラス</text><text x="95" y="110" font-size="17" fill="#52606d">被覆・積層・複合材</text><text x="95" y="145" font-size="17" fill="#b14f3b">役割分担</text></g>
+    </g>
+    <path d="M90 365 H1070" stroke="#2e7d75" stroke-width="6" marker-end="url(#arrow)"/>
+    <text x="580" y="402" text-anchor="middle" font-size="18" fill="#2e7d75">変換の強度と供給範囲は増えうるが、前段階の材料は消えず、組合せて使われる</text>
+    <g font-size="18" fill="#52606d" text-anchor="middle">
+      <text x="580" y="475">共通比較軸：原料・産地 → 燃料・水・動力 → 製造 → 規格 → 運搬 → 施工 → 劣化・再利用</text>
+      <text x="580" y="525" fill="#b14f3b">材料特性だけでなく、誰がどこでどれだけ安定して供給できたかを書く</text>
+      <text x="580" y="575" fill="#17324d">「新材料＝旧材料の置換」ではなく、支持・被覆・防火・仕上げ等の役割分担を見る</text>
+      <text x="580" y="620" fill="#2e7d75">答案の因果：資源 → 変換工程 → 性質 → 部材 → 空間 → 普及条件 → 劣化・限界</text>
+    </g>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2e7d75"/></marker></defs>
+</svg>

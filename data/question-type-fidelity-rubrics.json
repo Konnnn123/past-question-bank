@@ -1,0 +1,245 @@
+{
+  "phase": 3,
+  "rubrics": {
+    "word_bank_matching": {
+      "criteria": [
+        [
+          "multi_clue",
+          "Item requires combining multiple clues (image+context)",
+          1
+        ],
+        [
+          "homogeneous_bank",
+          "Word bank entries are homogeneous in grammatical/semantic type",
+          1
+        ],
+        [
+          "plausible_distractors",
+          "Distractors are historically/technically plausible",
+          1
+        ],
+        [
+          "beyond_single_recall",
+          "Answer cannot be obtained by single-fact recall alone",
+          1
+        ],
+        [
+          "reusable_bank",
+          "Word bank is reusable across multiple subquestions",
+          1
+        ],
+        [
+          "surplus_terms",
+          "Bank has more terms than prompts (surplus ≥ 30%)",
+          1
+        ],
+        [
+          "matches_exam_structure",
+          "Resembles 語群A/B matching structure",
+          1
+        ]
+      ],
+      "past_exam_ref": "2022 Q5, 2019 Q5, 2018 Q5 (all 専門1 建築史)"
+    },
+    "fill_blank_word_bank": {
+      "criteria": [
+        [
+          "technical_context",
+          "Blank occurs inside a technically meaningful description",
+          1
+        ],
+        [
+          "same_domain_terms",
+          "All terms from the same construction domain",
+          1
+        ],
+        [
+          "plausible_in_context",
+          "Distractors are plausible in the same sentence context",
+          1
+        ],
+        [
+          "not_copied_definition",
+          "Question is NOT merely a copied Anki definition",
+          1
+        ],
+        [
+          "surplus_terms",
+          "Bank has more terms than blanks (surplus ≥ 30%)",
+          1
+        ],
+        [
+          "matches_2022Q3",
+          "Resembles 2022 Q3 20-blank 27-term format",
+          1
+        ]
+      ],
+      "past_exam_ref": "2022 Q3 専門1 建築構法 (20 blanks, 27 terms)"
+    },
+    "numerical_calculation": {
+      "criteria": [
+        [
+          "model_identification",
+          "Requires identifying the correct physical model/formula",
+          1
+        ],
+        [
+          "multi_step",
+          "Requires ≥2 reasoning or calculation steps",
+          1
+        ],
+        [
+          "realistic_units",
+          "Units are given and require consistent conversion",
+          1
+        ],
+        [
+          "contextual_info",
+          "Contains contextual information (not just plug-and-chug)",
+          1
+        ],
+        [
+          "explicit_assumptions",
+          "Assumptions are stated explicitly",
+          1
+        ],
+        [
+          "physically_plausible",
+          "Numerical result is physically plausible",
+          1
+        ],
+        [
+          "beyond_direct_substitution",
+          "More than direct substitution into one formula",
+          1
+        ]
+      ],
+      "past_exam_ref": "2022 Q2 専門1 環境 (13/13 years have calculation)"
+    },
+    "correct_statement_select": {
+      "criteria": [
+        [
+          "same_topic",
+          "All statements from the same topic and comparable scope",
+          1
+        ],
+        [
+          "plausible_false",
+          "Incorrect statements are conceptually plausible",
+          1
+        ],
+        [
+          "conceptual_error",
+          "Error is conceptual, not merely typographical",
+          1
+        ],
+        [
+          "requires_understanding",
+          "Answer requires understanding, not keyword matching",
+          1
+        ],
+        [
+          "single_defensible",
+          "Exactly one defensible answer",
+          1
+        ],
+        [
+          "matches_planning_format",
+          "Resembles planning 専門1 正誤判断",
+          1
+        ]
+      ],
+      "past_exam_ref": "Planning 専門1 5/7 years, Environment 5/13 years"
+    },
+    "formula_completion": {
+      "criteria": [
+        [
+          "meaningful_blank",
+          "Missing term is meaningful (tests relationship, not symbol recall)",
+          1
+        ],
+        [
+          "variable_understanding",
+          "Tests variable relationships, not symbol memorization",
+          1
+        ],
+        [
+          "symbols_defined",
+          "Symbols and units are defined or inferable",
+          1
+        ],
+        [
+          "exam_relevant_formula",
+          "Formula appears in past exams or their syllabus",
+          1
+        ],
+        [
+          "beyond_recognition",
+          "Cannot be filled without understanding the formula",
+          1
+        ]
+      ],
+      "past_exam_ref": "2022 Q2 Part 2 専門1 環境 (formula→quantity name+exponent)"
+    },
+    "inline_numeric_select": {
+      "criteria": [
+        [
+          "same_unit",
+          "All choices expressed in the same unit",
+          1
+        ],
+        [
+          "close_values",
+          "Values are close enough to require real knowledge",
+          1
+        ],
+        [
+          "exam_domain",
+          "Tested standard appears in real past-exam domains",
+          1
+        ],
+        [
+          "contextualized",
+          "Prompt contextualized by building use/type",
+          1
+        ],
+        [
+          "real_standards",
+          "Values from actual standards, not arbitrary mutations",
+          1
+        ],
+        [
+          "unique_answer",
+          "Only one defensible value (no code/edition ambiguity)",
+          1
+        ]
+      ],
+      "past_exam_ref": "2022 Q4 専門1 建築計画 (20 blanks, inline options)"
+    },
+    "short_answer": {
+      "criteria": [
+        [
+          "scope_defined",
+          "Expected response scope is defined",
+          1
+        ],
+        [
+          "beyond_copying",
+          "Answer requires more than copying one stored definition",
+          1
+        ],
+        [
+          "application_required",
+          "Requires comparison/explanation/causal reasoning/application",
+          1
+        ],
+        [
+          "comparable_length",
+          "Expected answer length comparable to past exam",
+          1
+        ]
+      ],
+      "past_exam_ref": "専門1 short answer items across all subjects"
+    }
+  }
+}

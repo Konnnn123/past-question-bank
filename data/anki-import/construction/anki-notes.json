@@ -1,0 +1,5958 @@
+{
+  "sourceFile": "..\\structure card\\建築構法図鑑.apkg",
+  "noteCount": 198,
+  "mediaCount": 140,
+  "deckCounts": {
+    "建築構法::CFT造": 2,
+    "建築構法::PC造": 5,
+    "建築構法::RC造": 40,
+    "建築構法::SRC造": 1,
+    "建築構法::S造": 39,
+    "建築構法::共通構法": 59,
+    "建築構法::木造": 44,
+    "建築構法::構造比較": 2,
+    "建築構法::組積造": 6
+  },
+  "duplicateNames": {
+    "ガラスの固定方法": 2,
+    "集成材": 2,
+    "まぐさ": 2
+  },
+  "records": [
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565104",
+        "deck": "建築構法::CFT造"
+      },
+      "name": "ハイブリッド造",
+      "fields": {
+        "knowledgePoint": "ハイブリッド造",
+        "category": "概念",
+        "frontHtml": "ハイブリッド造 概念",
+        "backHtml": "📝 简介 広義には複数の材料を組み合わせて主たる構造部を構成する構造のこと 📋 考试出现形式 用语填空、案例分析 📖 过去问相关 2020専門1Q3・2025専門2-2Q5。構造形式の用語として、CFT造やSRC造などと合わせて出題。 🏷 标签 概念 · CFT造",
+        "examForm": "用语填空、案例分析",
+        "pastQuestion": "2020専門1Q3・2025専門2-2Q5。構造形式の用語として、CFT造やSRC造などと合わせて出題。",
+        "sourceUrl": "https://app.notion.com/p/38be961e469080ca9c91cca6faa2f722",
+        "originalTags": "概念、CFT造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "概念",
+        "CFT造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565106",
+        "deck": "建築構法::CFT造"
+      },
+      "name": "CFT造の柱の例",
+      "fields": {
+        "knowledgePoint": "CFT造の柱の例",
+        "category": "未分類",
+        "frontHtml": "CFT造の柱の例 柱",
+        "backHtml": "📋 考试出现形式 图解识别、用语填空 📖 过去问相关 2017専門1Q3・2022専門1Q3。CFT造や鋼管柱の構法・部材名として出題。 🏷 标签 CFT造 · 柱",
+        "examForm": "图解识别、用语填空",
+        "pastQuestion": "2017専門1Q3・2022専門1Q3。CFT造や鋼管柱の構法・部材名として出題。",
+        "sourceUrl": "https://app.notion.com/p/38be961e469080d78d33f3c49ecc6b67",
+        "originalTags": "CFT造、柱"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "CFT造",
+        "柱",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565108",
+        "deck": "建築構法::PC造"
+      },
+      "name": "PC鋼材",
+      "fields": {
+        "knowledgePoint": "PC鋼材",
+        "category": "材料",
+        "frontHtml": "PC鋼材 材料",
+        "backHtml": "📝 简介 PC鋼棒 PC線、PC鋼 📋 考试出现形式 用语填空、部材名称 📖 过去问相关 PC造・PCa構法の基本部材として、プレストレス導入やPC鋼棒・定着具と合わせて確認。 🏷 标签 PC造 · 材料",
+        "examForm": "用语填空、部材名称",
+        "pastQuestion": "PC造・PCa構法の基本部材として、プレストレス導入やPC鋼棒・定着具と合わせて確認。",
+        "sourceUrl": "https://app.notion.com/p/38be961e46908014b73fd82cab577022",
+        "originalTags": "PC造、材料"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "PC造",
+        "材料",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565110",
+        "deck": "建築構法::PC造"
+      },
+      "name": "Pcaの方式",
+      "fields": {
+        "knowledgePoint": "Pcaの方式",
+        "category": "构法",
+        "frontHtml": "Pcaの方式 构法",
+        "backHtml": "📝 简介 プレテンション方式とポストテンション方式 🔧 プレテンション方式： 工場製作向け。事前に引張力を与えたPC鋼材を固定後、コンクリート打設・硬化後に緊張を解き、圧縮応力を導入。設計基準強度35N/mm2以上 🏗️ ポストテンション方式： 現場施工可能。シースを入れてコンクリート打設後、硬化後にPC鋼材に引張力を与え、圧縮応力を生じさせる。設計基準強度30N/mm2以上 📋 考试出现形式 用语填空、论述 📖 过去问相关 2023専門2-2Q5。PCaとRCの定義・違い、PCa部材や構法の説明として出題。 🏷 标签 PC造 · 构法",
+        "examForm": "用语填空、论述",
+        "pastQuestion": "2023専門2-2Q5。PCaとRCの定義・違い、PCa部材や構法の説明として出題。",
+        "sourceUrl": "https://app.notion.com/p/38be961e4690802886ceedcef3bdc614",
+        "originalTags": "PC造、构法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "PC造",
+        "构法",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565112",
+        "deck": "建築構法::PC造"
+      },
+      "name": "PC造の特徴",
+      "fields": {
+        "knowledgePoint": "PC造の特徴",
+        "category": "构法",
+        "frontHtml": "PC造の特徴 构法",
+        "backHtml": "📝 简介 ①通常はひび割れの発生がなく,耐久性が優れている ②部材断面積を削減でき、自重軽減による効果とあわせて大スパン架 構が可能である。 3 ひび割れ発生荷重と破壊荷重とが接近しており,設計荷重の想定に は注意が必要である。 4 プブレストレスを与えている鋼材は,常に高応力の状悪にあり,腐食 しやすい。また,火熱により大きな損傷を受けやすい。 5 高強度のコンクリートや鋼材を使用するため,材料費が高く,生産 にも手間がかかる。 📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2023専門2-2Q5。PC造・PCa構法の特徴、現場打ちRCとの違いとして出題。 🏷 标签 PC造 · 构法",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2023専門2-2Q5。PC造・PCa構法の特徴、現場打ちRCとの違いとして出題。",
+        "sourceUrl": "https://app.notion.com/p/38be961e469080b9978ad35a7c42bb50",
+        "originalTags": "PC造、构法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "PC造",
+        "构法",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565114",
+        "deck": "建築構法::PC造"
+      },
+      "name": "PC鋼材をコンクリートに定着させる定着具",
+      "fields": {
+        "knowledgePoint": "PC鋼材をコンクリートに定着させる定着具",
+        "category": "组装",
+        "frontHtml": "PC鋼材をコンクリートに定着させる定着具 组装",
+        "backHtml": "🏷 标签 PC造 · 组装",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/38be961e469080c39259fc7e591d25f2",
+        "originalTags": "PC造、组装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "PC造",
+        "组装",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565116",
+        "deck": "建築構法::PC造"
+      },
+      "name": "PCaとPCの違い",
+      "fields": {
+        "knowledgePoint": "PCaとPCの違い",
+        "category": "工法",
+        "frontHtml": "PCaとPCの違い 工法",
+        "backHtml": "📝 简介 PCa（プレキャスト）は製作場所の区分で、工場等で成形したコンクリート部材を現場で組み立てる。PC（プレストレスト）は力学的区分で、鋼材を緊張してコンクリートへ圧縮力を導入する。 📋 考试出现形式 用语填空、比较说明、论述 📖 过去问相关 2023専門2-2Q5。PCa・PCの定義と、プレキャスト部材による形状実現の関係を説明。 🏷 标签 PC造 · 工法",
+        "examForm": "用语填空、比较说明、论述",
+        "pastQuestion": "2023専門2-2Q5。PCa・PCの定義と、プレキャスト部材による形状実現の関係を説明。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690810ebb1cc28653ec57e6",
+        "originalTags": "PC造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "PC造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565118",
+        "deck": "建築構法::RC造"
+      },
+      "name": "コールドジョイント",
+      "fields": {
+        "knowledgePoint": "コールドジョイント",
+        "category": "工法",
+        "frontHtml": "コールドジョイント 工法",
+        "backHtml": "📝 简介 先に打ち込んだコンクリートと後打ち部分が一体化しない施工不良。 📋 考试出现形式 用语填空、施工手顺 📖 过去问相关 2019専門1Q3・2024専門1Q3。RC打込み不良・打放し構法の関連用語として出題。 🏷 标签 RC造 · 工法",
+        "examForm": "用语填空、施工手顺",
+        "pastQuestion": "2019専門1Q3・2024専門1Q3。RC打込み不良・打放し構法の関連用語として出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081cf8d21c51afe530535",
+        "originalTags": "RC造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "工法",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565120",
+        "deck": "建築構法::RC造"
+      },
+      "name": "豆板（ジャンカ）",
+      "fields": {
+        "knowledgePoint": "豆板（ジャンカ）",
+        "category": "工法",
+        "frontHtml": "豆板（ジャンカ） 工法",
+        "backHtml": "📝 简介 コンクリート中のモルタル不足などで粗骨材が露出した充填不良。 📋 考试出现形式 用语填空、施工手顺 📖 过去问相关 2024専門1Q3。コンクリート打込み不良の用語として、コールドジョイント等と合わせて確認。 🏷 标签 RC造 · 工法",
+        "examForm": "用语填空、施工手顺",
+        "pastQuestion": "2024専門1Q3。コンクリート打込み不良の用語として、コールドジョイント等と合わせて確認。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081f6ac03d02b862d4e3b",
+        "originalTags": "RC造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "工法",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565122",
+        "deck": "建築構法::RC造"
+      },
+      "name": "ワーカビリティ",
+      "fields": {
+        "knowledgePoint": "ワーカビリティ",
+        "category": "概念",
+        "frontHtml": "ワーカビリティ 概念",
+        "backHtml": "📝 简介 コンクリートの打込み・締固め・仕上げのしやすさ。 📋 考试出现形式 用语填空 📖 过去问相关 2014専門1Q3。スランプやフレッシュコンクリートの性質と合わせて出題。 🏷 标签 RC造 · 概念",
+        "examForm": "用语填空",
+        "pastQuestion": "2014専門1Q3。スランプやフレッシュコンクリートの性質と合わせて出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081fc9eb7f8caef177f27",
+        "originalTags": "RC造、概念"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "概念",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565124",
+        "deck": "建築構法::RC造"
+      },
+      "name": "タイル張り",
+      "fields": {
+        "knowledgePoint": "タイル張り",
+        "category": "构法",
+        "frontHtml": "タイル張り 构法",
+        "backHtml": "📝 简介 コンクリート外壁の保護やれんが壁風の意匠を得る 目的で多用されている構法である 📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2024専門1Q3。外壁仕上げや湿式工法の一種として、石張り・吹付け仕上げなどと関連して出題。 🏷 标签 RC造 · 构法",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2024専門1Q3。外壁仕上げや湿式工法の一種として、石張り・吹付け仕上げなどと関連して出題。",
+        "sourceUrl": "https://app.notion.com/p/387e961e4690803e8297c937be21ce30",
+        "originalTags": "RC造、构法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "构法",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565126",
+        "deck": "建築構法::RC造"
+      },
+      "name": "コンクリート打放しの構法",
+      "fields": {
+        "knowledgePoint": "コンクリート打放しの構法",
+        "category": "构法",
+        "frontHtml": "コンクリート打放しの構法 构法",
+        "backHtml": "📝 简介 コンクリートの素地を生かした仕上げとして,素材感や鋭角的な表現などが好まれ,よく使われるが,構造体が露出していることになるため,耐久性上十分な配慮が必要となる。耐水性·耐久性を向上させるために,表面を特殊コーティングす る方法がある。 📋 考试出现形式 用语填空、论述 📖 过去问相关 2019専門1Q3・2024専門1Q3。打放し面、コールドジョイント、豆板などRC施工不良・仕上げと関連して出題。 🏷 标签 RC造 · 构法",
+        "examForm": "用语填空、论述",
+        "pastQuestion": "2019専門1Q3・2024専門1Q3。打放し面、コールドジョイント、豆板などRC施工不良・仕上げと関連して出題。",
+        "sourceUrl": "https://app.notion.com/p/387e961e469080d8a5dfeca365c7cf72",
+        "originalTags": "RC造、构法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "构法",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565128",
+        "deck": "建築構法::RC造"
+      },
+      "name": "プレキャストコンクリート組立床構造",
+      "fields": {
+        "knowledgePoint": "プレキャストコンクリート組立床構造",
+        "category": "构法",
+        "frontHtml": "プレキャストコンクリート組立床構造 构法",
+        "backHtml": "📝 简介 現場で必要な配筋をし，コンクリートを打つことでスラブとして完成させ，あわせて周辺の梁などと一体化を図るものである。 📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2023専門2-2Q5。PCa部材を組み立てる床構造・プレキャスト部材の説明として出題。 🏷 标签 RC造 · 构法",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2023専門2-2Q5。PCa部材を組み立てる床構造・プレキャスト部材の説明として出題。",
+        "sourceUrl": "https://app.notion.com/p/387e961e469080ff8191dd4a7abd2f29",
+        "originalTags": "RC造、构法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "构法",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565130",
+        "deck": "建築構法::RC造"
+      },
+      "name": "PCa工法の製造・施工プロセスの要点",
+      "fields": {
+        "knowledgePoint": "PCa工法の製造・施工プロセスの要点",
+        "category": "工法",
+        "frontHtml": "PCa工法の製造・施工プロセスの要点 工法",
+        "backHtml": "📝 简介 🚚運搬課題と対応： トラック運搬が主流だが、重量が大きく困難。大規模現場では敷地内に仮設工場（サイトプレファブ）を設置する場合あり。 🏋️吊り上げと設計注意点： PCa版の吊り上げにはクレーン使用。吊り上げ時・運搬時に最大応力が生じやすいため、版設計で十分な検討が必要。 📋 考试出现形式 施工手顺、论述 📖 过去问相关 2016専門2-2Q13・2023専門2-2Q5。PCa工法の製造・組立・現場施工の流れやRCとの違いを説明する形で出題。 🏷 标签 RC造 · 工法",
+        "examForm": "施工手顺、论述",
+        "pastQuestion": "2016専門2-2Q13・2023専門2-2Q5。PCa工法の製造・組立・現場施工の流れやRCとの違いを説明する形で出題。",
+        "sourceUrl": "https://app.notion.com/p/387e961e4690809e939edf8e664e36e0",
+        "originalTags": "RC造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "工法",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565132",
+        "deck": "建築構法::RC造"
+      },
+      "name": "PCa造の利点",
+      "fields": {
+        "knowledgePoint": "PCa造の利点",
+        "category": "构法",
+        "frontHtml": "PCa造の利点 构法",
+        "backHtml": "📝 简介 天候に左右されない生産，現場作業の機械化，品質の安定，労務量の削減 📋 考试出现形式 论述、比较说明 📖 过去问相关 2023専門2-2Q5。PCaとRCの定義や構法上の違い、部材を工場製作する利点として出題。 🏷 标签 RC造 · 构法",
+        "examForm": "论述、比较说明",
+        "pastQuestion": "2023専門2-2Q5。PCaとRCの定義や構法上の違い、部材を工場製作する利点として出題。",
+        "sourceUrl": "https://app.notion.com/p/387e961e46908008af65e614da93e09e",
+        "originalTags": "RC造、构法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "构法",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565134",
+        "deck": "建築構法::RC造"
+      },
+      "name": "RC造の壁厚",
+      "fields": {
+        "knowledgePoint": "RC造の壁厚",
+        "category": "数值",
+        "frontHtml": "RC造の壁厚 数值",
+        "backHtml": "📝 简介 外壁は内壁より厚く、標準は約10cm。ひび割れや経年疲労対策として、壁厚を厚くする方向。 🏷 标签 数值 · RC造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/386e961e4690809fb8f9fa9dd8e9e5d5",
+        "originalTags": "数值、RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "数值",
+        "RC造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565136",
+        "deck": "建築構法::RC造"
+      },
+      "name": "帯筋",
+      "fields": {
+        "knowledgePoint": "帯筋",
+        "category": "材料",
+        "frontHtml": "帯筋 材料",
+        "backHtml": "📝 简介 せん断による亀裂を防止する役割のほかに主筋の座屈を防ぎ，コンクリートがはらみ出すのを防ぎ，粘りを確保する役割も果たしている 📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2013専門1Q2・2017専門1Q3・2023専門1Q3。RC柱のせん断補強筋として、あばら筋・主筋と合わせて図解で出題。 🏷 标签 材料 · RC造",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2013専門1Q2・2017専門1Q3・2023専門1Q3。RC柱のせん断補強筋として、あばら筋・主筋と合わせて図解で出題。",
+        "sourceUrl": "https://app.notion.com/p/386e961e4690801bad7cf76dce94ea50",
+        "originalTags": "材料、RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "材料",
+        "RC造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565138",
+        "deck": "建築構法::RC造"
+      },
+      "name": "せん断補強筋（あばら筋）の必要性",
+      "fields": {
+        "knowledgePoint": "せん断補強筋（あばら筋）の必要性",
+        "category": "材料",
+        "frontHtml": "せん断補強筋（あばら筋）の必要性 材料",
+        "backHtml": "📝 简介 梁にはせん断応力が発生し、正方形断面ABCDにひし形変形をもたらす応力が生じる 圧縮弱い部材：曲げ座屈による破壊（例：薄肉ウェブの鉄骨造）が生じやすい 引張弱い部材：斜め引張り破壊（例：RC造）が生じやすく、あばら筋（スターラップ）で補強する 📋 考试出现形式 用语填空、部材名称 📖 过去问相关 2013専門1Q2・2017専門1Q3・2023専門1Q3。RC梁・柱のせん断補強筋として、主筋・帯筋と合わせて出題。 🏷 标签 材料 · RC造",
+        "examForm": "用语填空、部材名称",
+        "pastQuestion": "2013専門1Q2・2017専門1Q3・2023専門1Q3。RC梁・柱のせん断補強筋として、主筋・帯筋と合わせて出題。",
+        "sourceUrl": "https://app.notion.com/p/386e961e4690808883b3f6b1f2a77d2a",
+        "originalTags": "材料、RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "材料",
+        "RC造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565140",
+        "deck": "建築構法::RC造"
+      },
+      "name": "スランプ",
+      "fields": {
+        "knowledgePoint": "スランプ",
+        "category": "概念",
+        "frontHtml": "スランプ 概念",
+        "backHtml": "📝 简介 コンクリートの軟らかさ cm 📋 考试出现形式 用语填空 📖 过去问相关 2013専門1Q2・2014専門1Q3・2022専門1Q3。フレッシュコンクリートの軟らかさを示す指標として出題。 🏷 标签 概念 · RC造",
+        "examForm": "用语填空",
+        "pastQuestion": "2013専門1Q2・2014専門1Q3・2022専門1Q3。フレッシュコンクリートの軟らかさを示す指標として出題。",
+        "sourceUrl": "https://app.notion.com/p/386e961e46908039b949f1b27efc213b",
+        "originalTags": "概念、RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "概念",
+        "RC造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565142",
+        "deck": "建築構法::RC造"
+      },
+      "name": "かぶり",
+      "fields": {
+        "knowledgePoint": "かぶり",
+        "category": "材料",
+        "frontHtml": "かぶり 材料",
+        "backHtml": "📝 简介 コンクリートの表面から，最も外側に近い鉄筋の表而までの被覆 鉄筋コンクリート選の耐火性·耐久性を決める重要な要素で かぶり厚さ 非耐力壁，床 2以上 耐力壁，柱，梁 3以上 土に接する壁，柱，床，梁 4以上 布基礎立ち上がり部分 4以上 基礎 6以上 📋 考试出现形式 用语填空、数值判断、图解识别 📖 过去问相关 2023専門1Q3・2024専門1Q3など。RC断面図や鉄筋まわりの用語として、かぶり厚さの意味・最小寸法を問う。 🏷 标签 RC造 · 材料",
+        "examForm": "用语填空、数值判断、图解识别",
+        "pastQuestion": "2023専門1Q3・2024専門1Q3など。RC断面図や鉄筋まわりの用語として、かぶり厚さの意味・最小寸法を問う。",
+        "sourceUrl": "https://app.notion.com/p/386e961e469080f2adf5d1b3281d469a",
+        "originalTags": "RC造、材料"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "材料",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565144",
+        "deck": "建築構法::RC造"
+      },
+      "name": "継手の重ねさと梁筋の定着長さ",
+      "fields": {
+        "knowledgePoint": "継手の重ねさと梁筋の定着長さ",
+        "category": "数值",
+        "frontHtml": "継手の重ねさと梁筋の定着長さ 数值",
+        "backHtml": "📝 简介 重ね長さ 引張力の最小部分-继手鉄筋径の25倍以上 上記以外の部分-継手鉄筋径の40倍以上 定着長さ 柱-定着する梁の鉄筋径の40倍以上 📋 考试出现形式 数值判断、用语填空 📖 过去问相关 RC梁筋の定着・継手長さに関する数値系知識として、配筋図解や施工用語と関連。 🏷 标签 数值 · RC造",
+        "examForm": "数值判断、用语填空",
+        "pastQuestion": "RC梁筋の定着・継手長さに関する数値系知識として、配筋図解や施工用語と関連。",
+        "sourceUrl": "https://app.notion.com/p/386e961e469080c2b106ed59b6cbea9e",
+        "originalTags": "数值、RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "数值",
+        "RC造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565146",
+        "deck": "建築構法::RC造"
+      },
+      "name": "RC造の標準的な施工手順",
+      "fields": {
+        "knowledgePoint": "RC造の標準的な施工手順",
+        "category": "工法",
+        "frontHtml": "RC造の標準的な施工手順 工法",
+        "backHtml": "📝 简介 配筋-型枠組立-コンクリート打設-脱型 📋 考试出现形式 施工手顺、论述 📖 过去问相关 2016専門2-2Q13。RC浴室の在来工法と工業化工法の施工手順を比較する形で出題。 🏷 标签 工法 · RC造",
+        "examForm": "施工手顺、论述",
+        "pastQuestion": "2016専門2-2Q13。RC浴室の在来工法と工業化工法の施工手順を比較する形で出題。",
+        "sourceUrl": "https://app.notion.com/p/386e961e469080bca877d7aa340c1114",
+        "originalTags": "工法、RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "工法",
+        "RC造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565148",
+        "deck": "建築構法::RC造"
+      },
+      "name": "RC造の分類",
+      "fields": {
+        "knowledgePoint": "RC造の分類",
+        "category": "材料",
+        "frontHtml": "RC造の分類 材料",
+        "backHtml": "📝 简介 場所打ちコンクリート プレキャストコンクリート（Pca） 📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2013専門1Q2・2016専門1Q2・2017専門1Q3。RC造の部材・鉄筋・コンクリートの基本用語として出題。 🏷 标签 材料 · RC造",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2013専門1Q2・2016専門1Q2・2017専門1Q3。RC造の部材・鉄筋・コンクリートの基本用語として出題。",
+        "sourceUrl": "https://app.notion.com/p/386e961e469080658cacf49af823aed1",
+        "originalTags": "材料、RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "材料",
+        "RC造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565150",
+        "deck": "建築構法::RC造"
+      },
+      "name": "コンクリートの性質",
+      "fields": {
+        "knowledgePoint": "コンクリートの性質",
+        "category": "材料",
+        "frontHtml": "コンクリートの性質 材料",
+        "backHtml": "📝 简介 弾性限度が明確でない 降伏点と思われる箇所から破壊するまでの応力差が小さい 水和反応で硬化するが，固まるに従って徐々に収縮 し，表面にひび割れの生じることがある。 コンクリート強度は材齢4週のものを基準とする 📋 考试出现形式 数值判断、用语填空 📖 过去问相关 2013専門1Q2・2014専門1Q3・2015専門1Q2。比重、ヤング係数、スランプ、水セメント比などの性質として出題。 🏷 标签 材料 · RC造",
+        "examForm": "数值判断、用语填空",
+        "pastQuestion": "2013専門1Q2・2014専門1Q3・2015専門1Q2。比重、ヤング係数、スランプ、水セメント比などの性質として出題。",
+        "sourceUrl": "https://app.notion.com/p/386e961e4690805e8bcbf7ffae887163",
+        "originalTags": "材料、RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "材料",
+        "RC造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565152",
+        "deck": "建築構法::RC造"
+      },
+      "name": "RC造の構造原理と寿命",
+      "fields": {
+        "knowledgePoint": "RC造の構造原理と寿命",
+        "category": "构法",
+        "frontHtml": "RC造の構造原理と寿命 构法",
+        "backHtml": "📝 简介 鋼材は高価なため、引張材として強度補強にのみ使用。コンクリートは安価で、圧縮強度に優れ、建築素材として適する。 ⚔️相互扶助の仕組み： コンクリートが鋼材を被覆し、火熱から保護。また、アルカリ性により鋼材の錯（錆）発生を防止。* 💡寿命の根拠： RC造の寿命は50〜100年。これは、コンクリートの中性化（中性化の速度は0.4mm/年程度である）が表面から進行し、鉄筋に達して錆防止能力を失うまでの時間に基づく。 鋼材とコンクリートはよく付着し，線膨張係数)もほぼ等しいので，構造体としての一体性はきわめて高い。（補強の役割） コンクリートは一種の座屈防止の役割がある 📋 考试出现形式 用语填空、论述 📖 过去问相关 2013専門1Q2・2020専門1Q3。鉄筋とコンクリートが付着して一体化する原理、耐久性や構造原理として出題。 🏷 标签 RC造 · 构法",
+        "examForm": "用语填空、论述",
+        "pastQuestion": "2013専門1Q2・2020専門1Q3。鉄筋とコンクリートが付着して一体化する原理、耐久性や構造原理として出題。",
+        "sourceUrl": "https://app.notion.com/p/386e961e46908093a975ce9331bdf287",
+        "originalTags": "RC造、构法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "构法",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565154",
+        "deck": "建築構法::RC造"
+      },
+      "name": "あばら筋（スターラップ）",
+      "fields": {
+        "knowledgePoint": "あばら筋（スターラップ）",
+        "category": "部材",
+        "frontHtml": "あばら筋（スターラップ） 部材",
+        "backHtml": "📝 简介 RC梁の主筋を囲むように配置するせん断補強筋。梁の斜めひび割れやせん断破壊を抑え、主筋の位置も保持する。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2013専門1Q2・2017専門1Q3・2023専門1Q3。梁の配筋部材として出題。柱の帯筋との使用位置の違いが重要。 🏷 标签 RC造 · 部材",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2013専門1Q2・2017専門1Q3・2023専門1Q3。梁の配筋部材として出題。柱の帯筋との使用位置の違いが重要。",
+        "sourceUrl": "https://app.notion.com/p/399e961e46908167b6cbddffd0ec8e5b",
+        "originalTags": "RC造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565156",
+        "deck": "建築構法::RC造"
+      },
+      "name": "主筋（RC）",
+      "fields": {
+        "knowledgePoint": "主筋（RC）",
+        "category": "部材",
+        "frontHtml": "主筋（RC） 部材",
+        "backHtml": "📝 简介 柱・梁・壁・床の軸方向や主要方向に配置し、部材に生じる引張力や曲げを主に負担する鉄筋。梁では上下、柱では軸方向に配置される。 📋 考试出现形式 用语填空、图解识别、部材名称 📖 过去问相关 2013専門1Q2・2017専門1Q3・2023専門1Q3。RC配筋図で主要な鉄筋の名称と役割を問う。 🏷 标签 RC造 · 部材",
+        "examForm": "用语填空、图解识别、部材名称",
+        "pastQuestion": "2013専門1Q2・2017専門1Q3・2023専門1Q3。RC配筋図で主要な鉄筋の名称と役割を問う。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690816bad56d1294063bd02",
+        "originalTags": "RC造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565158",
+        "deck": "建築構法::RC造"
+      },
+      "name": "帯筋（フープ）",
+      "fields": {
+        "knowledgePoint": "帯筋（フープ）",
+        "category": "部材",
+        "frontHtml": "帯筋（フープ） 部材",
+        "backHtml": "📝 简介 RC柱の主筋を囲むように水平に配置するせん断補強筋。柱のせん断破壊を抑え、主筋の座屈やコンクリートのはらみ出しを拘束する。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2013専門1Q2・2017専門1Q3。柱の配筋部材として出題。梁に用いるあばら筋との使われる部位の違いが基本。 🏷 标签 RC造 · 部材",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2013専門1Q2・2017専門1Q3。柱の配筋部材として出題。梁に用いるあばら筋との使われる部位の違いが基本。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081ee8e74ed718c44966f",
+        "originalTags": "RC造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565160",
+        "deck": "建築構法::RC造"
+      },
+      "name": "フォームタイ",
+      "fields": {
+        "knowledgePoint": "フォームタイ",
+        "category": "部材",
+        "frontHtml": "フォームタイ 部材",
+        "backHtml": "📝 简介 型枠の外側でセパレーター端部と緊結する締付け金物。コンクリートの側圧で型枠が開くのを防ぐ。セパレーターは壁厚保持、フォームタイは外側からの締付けを担う。 📋 考试出现形式 部材名称、图解识别、用语填空、比较说明 📖 过去问相关 2019専門1Q3・2026専門1Q3。RC型枠の図中部材として出題。セパレーターとの区別が基本。 🏷 标签 RC造 · 部材",
+        "examForm": "部材名称、图解识别、用语填空、比较说明",
+        "pastQuestion": "2019専門1Q3・2026専門1Q3。RC型枠の図中部材として出題。セパレーターとの区別が基本。",
+        "sourceUrl": "https://app.notion.com/p/399e961e46908171816aceebecc0f746",
+        "originalTags": "RC造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565162",
+        "deck": "建築構法::RC造"
+      },
+      "name": "セパレーター",
+      "fields": {
+        "knowledgePoint": "セパレーター",
+        "category": "部材",
+        "frontHtml": "セパレーター 部材",
+        "backHtml": "📝 简介 墙体型枠内侧的间隔保持部材。向かい合う型枠の間隔を一定に保ち、コンクリート壁の厚さを確保する。両端でフォームタイに接続する。 📋 考试出现形式 部材名称、图解识别、用语填空 📖 过去问相关 2019専門1Q3・2026専門1Q3。RC型枠の図から名称を答える形式。フォームタイとの位置・機能の違いが重要。 🏷 标签 RC造 · 部材",
+        "examForm": "部材名称、图解识别、用语填空",
+        "pastQuestion": "2019専門1Q3・2026専門1Q3。RC型枠の図から名称を答える形式。フォームタイとの位置・機能の違いが重要。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081b28ef1c074860b749a",
+        "originalTags": "RC造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565164",
+        "deck": "建築構法::RC造"
+      },
+      "name": "大型パネル",
+      "fields": {
+        "knowledgePoint": "大型パネル",
+        "category": "组装",
+        "frontHtml": "大型パネル 组装",
+        "backHtml": "🏷 标签 RC造 · 组装",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/387e961e4690806e8689ce7e198c31b3",
+        "originalTags": "RC造、组装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "组装",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565166",
+        "deck": "建築構法::RC造"
+      },
+      "name": "アルミ型枠·プラスチック型枠",
+      "fields": {
+        "knowledgePoint": "アルミ型枠·プラスチック型枠",
+        "category": "未分類",
+        "frontHtml": "アルミ型枠·プラスチック型枠",
+        "backHtml": "📝 简介 鋼製に比べ軽量で組立容易だが、特徴は類似。 🏷 标签 RC造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/386e961e469080af82a5e54ab44ab51b",
+        "originalTags": "RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565168",
+        "deck": "建築構法::RC造"
+      },
+      "name": "合板型枠",
+      "fields": {
+        "knowledgePoint": "合板型枠",
+        "category": "未分類",
+        "frontHtml": "合板型枠",
+        "backHtml": "📝 简介 建築で最も頻繁に使用。軽量で現場加工が容易、自由な形状に対応可能。 🏷 标签 RC造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/386e961e4690800fa8adcaa94a1a2263",
+        "originalTags": "RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565170",
+        "deck": "建築構法::RC造"
+      },
+      "name": "型枠",
+      "fields": {
+        "knowledgePoint": "型枠",
+        "category": "组装",
+        "frontHtml": "型枠 组装",
+        "backHtml": "📝 简介 コンクリートを打ち込むとき、所定の形状・寸法に成形するための仮設の枠。硬化するまでコンクリートの側圧を受け、セパレーターやフォームタイ、支保工と組み合わせて使用する。 📋 考试出现形式 用语填空、施工手顺、图解识别 📖 过去问相关 2019専門1Q3・2023専門1Q3・2026専門1Q3。RC施工・型枠部材・セパレーター等の用語と関連して出題。 🏷 标签 RC造 · 组装",
+        "examForm": "用语填空、施工手顺、图解识别",
+        "pastQuestion": "2019専門1Q3・2023専門1Q3・2026専門1Q3。RC施工・型枠部材・セパレーター等の用語と関連して出題。",
+        "sourceUrl": "https://app.notion.com/p/386e961e469080ecbf71d4a17fa08403",
+        "originalTags": "RC造、组装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "组装",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565172",
+        "deck": "建築構法::RC造"
+      },
+      "name": "鉄筋のかぶり厚さ",
+      "fields": {
+        "knowledgePoint": "鉄筋のかぶり厚さ",
+        "category": "未分類",
+        "frontHtml": "鉄筋のかぶり厚さ",
+        "backHtml": "📝 简介 鉄筋表面からコンクリート表面までの最短距離。鉄筋の防錆、耐火性、コンクリートとの付着を確保する。部位や屋内外、土に接するかどうかで必要寸法が変わる。 📋 考试出现形式 用语填空、数值判断、图解识别 📖 过去问相关 2023専門1Q3・2024専門1Q3。定義、図中の位置、部位別の必要寸法に関する判断として出題。 🏷 标签 RC造",
+        "examForm": "用语填空、数值判断、图解识别",
+        "pastQuestion": "2023専門1Q3・2024専門1Q3。定義、図中の位置、部位別の必要寸法に関する判断として出題。",
+        "sourceUrl": "https://app.notion.com/p/386e961e469080478996c9f90b84635a",
+        "originalTags": "RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565174",
+        "deck": "建築構法::RC造"
+      },
+      "name": "溶接継手",
+      "fields": {
+        "knowledgePoint": "溶接継手",
+        "category": "组装",
+        "frontHtml": "溶接継手 组装",
+        "backHtml": "🏷 标签 RC造 · 组装",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/386e961e469080e3befdddee0bc1249b",
+        "originalTags": "RC造、组装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "组装",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565176",
+        "deck": "建築構法::RC造"
+      },
+      "name": "フレッシュコンクリートと打設",
+      "fields": {
+        "knowledgePoint": "フレッシュコンクリートと打設",
+        "category": "工法",
+        "frontHtml": "フレッシュコンクリートと打設 工法",
+        "backHtml": "📝 简介 まだ固まらないコンクリートをフレッシュコンクリートという。スランプは軟らかさ・流動性の指標、ワーカビリティは分離せず運搬・打込み・締固め・仕上げができる作業性を表す。打設後は締固めと養生を行う。 📋 考试出现形式 用语填空、选择题、比较说明、施工手顺 📖 过去问相关 2013専門1Q2・2014専門1Q3・2022専門1Q3。スランプ、ワーカビリティ、打込み・締固め・養生の用語と関係を問う。 🏷 标签 RC造 · 工法",
+        "examForm": "用语填空、选择题、比较说明、施工手顺",
+        "pastQuestion": "2013専門1Q2・2014専門1Q3・2022専門1Q3。スランプ、ワーカビリティ、打込み・締固め・養生の用語と関係を問う。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081229a38e970f3d1d66a",
+        "originalTags": "RC造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565178",
+        "deck": "建築構法::RC造"
+      },
+      "name": "コンクリート施工不良",
+      "fields": {
+        "knowledgePoint": "コンクリート施工不良",
+        "category": "工法",
+        "frontHtml": "コンクリート施工不良 工法",
+        "backHtml": "📝 简介 打重ね時間が長く新旧コンクリートが一体化しないものをコールドジョイント、モルタル不足や締固め不良で粗骨材が露出した空隙を豆板（ジャンカ）という。原因と見た目を区別する。 📋 考试出现形式 用语填空、选择题、比较说明、图解识别 📖 过去问相关 2019専門1Q3・2024専門1Q3。コールドジョイントと豆板の名称、発生原因、状態の違いを問う。 🏷 标签 RC造 · 工法",
+        "examForm": "用语填空、选择题、比较说明、图解识别",
+        "pastQuestion": "2019専門1Q3・2024専門1Q3。コールドジョイントと豆板の名称、発生原因、状態の違いを問う。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081f7bbbfc4412344037f",
+        "originalTags": "RC造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565180",
+        "deck": "建築構法::RC造"
+      },
+      "name": "RC配筋の基本",
+      "fields": {
+        "knowledgePoint": "RC配筋の基本",
+        "category": "工法",
+        "frontHtml": "RC配筋の基本 工法",
+        "backHtml": "📝 简介 RC部材では、引張力を主に負担する主筋と、せん断補強・主筋拘束を担うあばら筋・帯筋を組み合わせる。柱・梁・床で配置が異なり、かぶり厚さは耐久性・耐火性・付着を確保する。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2013専門1Q2・2017専門1Q3・2023専門1Q3・2024専門1Q3。主筋・あばら筋・帯筋・かぶり厚さの名称、位置、役割を問う。 🏷 标签 RC造 · 工法",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2013専門1Q2・2017専門1Q3・2023専門1Q3・2024専門1Q3。主筋・あばら筋・帯筋・かぶり厚さの名称、位置、役割を問う。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081fabf9bfddac7f75e29",
+        "originalTags": "RC造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565182",
+        "deck": "建築構法::RC造"
+      },
+      "name": "床の配筋例",
+      "fields": {
+        "knowledgePoint": "床の配筋例",
+        "category": "工法",
+        "frontHtml": "床の配筋例 工法",
+        "backHtml": "🏷 标签 RC造 · 工法",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/387e961e469080828fd7c30e9669de91",
+        "originalTags": "RC造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565184",
+        "deck": "建築構法::RC造"
+      },
+      "name": "柱の配筋例",
+      "fields": {
+        "knowledgePoint": "柱の配筋例",
+        "category": "工法",
+        "frontHtml": "柱の配筋例 工法",
+        "backHtml": "📝 简介 RC柱における主筋と帯筋の配置を確認する図解ページ。主筋は軸方向、帯筋は周囲を囲んでせん断補強と拘束を担う。 🏷 标签 RC造 · 工法",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/387e961e4690805ebf8df6840288d34f",
+        "originalTags": "RC造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565186",
+        "deck": "建築構法::RC造"
+      },
+      "name": "型枠・型枠支保工の構成",
+      "fields": {
+        "knowledgePoint": "型枠・型枠支保工の構成",
+        "category": "工法",
+        "frontHtml": "型枠・型枠支保工の構成 工法",
+        "backHtml": "📝 简介 コンクリートを所定の形に成形する型枠と、打設時の荷重を下から支える支保工からなる仮設システム。型枠、セパレーター、フォームタイ、パイプサポートの位置と役割を一つの図で理解する。 📋 考试出现形式 图解识别、部材名称 📖 过去问相关 2019専門1Q3・2026専門1Q3。型枠、セパレーター、フォームタイなどRC施工図解の名称として出題。 🏷 标签 RC造 · 工法",
+        "examForm": "图解识别、部材名称",
+        "pastQuestion": "2019専門1Q3・2026専門1Q3。型枠、セパレーター、フォームタイなどRC施工図解の名称として出題。",
+        "sourceUrl": "https://app.notion.com/p/387e961e469080d593f6fd1e9bb69fa7",
+        "originalTags": "RC造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565188",
+        "deck": "建築構法::RC造"
+      },
+      "name": "壁式RC造",
+      "fields": {
+        "knowledgePoint": "壁式RC造",
+        "category": "未分類",
+        "frontHtml": "壁式RC造 躯体",
+        "backHtml": "📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2017専門1Q3・2024専門1Q3。RC構造形式、壁厚・耐震壁・配筋などの用語と合わせて出題。 🏷 标签 RC造 · 躯体",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2017専門1Q3・2024専門1Q3。RC構造形式、壁厚・耐震壁・配筋などの用語と合わせて出題。",
+        "sourceUrl": "https://app.notion.com/p/387e961e46908065b4e9f1f6295b0a5f",
+        "originalTags": "RC造、躯体"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "躯体",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565190",
+        "deck": "建築構法::RC造"
+      },
+      "name": "シェル構造",
+      "fields": {
+        "knowledgePoint": "シェル構造",
+        "category": "未分類",
+        "frontHtml": "シェル構造",
+        "backHtml": "📝 简介 屋根や壁を3次元の折版・曲面版とし、面外剛性を得る構造 面内応力で処理 薄肉構造のため、ひび割れ→錆発生→ひび割れ拡大のサイクルで大惨事のリスクあり 📋 考试出现形式 用语填空、案例分析 📖 过去问相关 2013専門1Q2・2020専門1Q3・2025専門2-2Q5。構造形式や著名建築の構法分析で出題。 🏷 标签 RC造",
+        "examForm": "用语填空、案例分析",
+        "pastQuestion": "2013専門1Q2・2020専門1Q3・2025専門2-2Q5。構造形式や著名建築の構法分析で出題。",
+        "sourceUrl": "https://app.notion.com/p/386e961e4690801c82aefdadfee850f8",
+        "originalTags": "RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565192",
+        "deck": "建築構法::RC造"
+      },
+      "name": "フラットスラブ構造",
+      "fields": {
+        "knowledgePoint": "フラットスラブ構造",
+        "category": "未分類",
+        "frontHtml": "フラットスラブ構造",
+        "backHtml": "📝 简介 無梁版構造 欧米では多用されている 配管ダクトなどの設置が容易，階高を低くすることが可能，型枠·鉄筋工事が容易 🏷 标签 RC造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/386e961e46908008989ed3aa4b9f8629",
+        "originalTags": "RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565194",
+        "deck": "建築構法::RC造"
+      },
+      "name": "スラブの配筋",
+      "fields": {
+        "knowledgePoint": "スラブの配筋",
+        "category": "工法",
+        "frontHtml": "スラブの配筋 工法",
+        "backHtml": "🏷 标签 RC造 · 工法",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/386e961e469080d1bbdadd89bb6e7f57",
+        "originalTags": "RC造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "RC造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565196",
+        "deck": "建築構法::RC造"
+      },
+      "name": "ラーメン構法",
+      "fields": {
+        "knowledgePoint": "ラーメン構法",
+        "category": "未分類",
+        "frontHtml": "ラーメン構法 躯体",
+        "backHtml": "🏷 标签 躯体 · RC造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/386e961e4690809d9ec7d20545e9351e",
+        "originalTags": "躯体、RC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "躯体",
+        "RC造",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565198",
+        "deck": "建築構法::SRC造"
+      },
+      "name": "SRC造鉄骨の柱·梁接合方式",
+      "fields": {
+        "knowledgePoint": "SRC造鉄骨の柱·梁接合方式",
+        "category": "组装",
+        "frontHtml": "SRC造鉄骨の柱·梁接合方式 组装",
+        "backHtml": "📝 简介 水平スチフナ形式と梁フランジ貫通形式は，応力の伝達には優れているが，コンクリートの充填性は劣る。 逆に，鉛直スチフナ形式はコンクリートの充損性が優れているが，応力の流れには注意を要する。 三角水平スチフナ形式は，スチフナを小さくして，応力の伝達を若干犠牲にし，コンクリートの充損性をよくしようとしたものである。 🏷 标签 组装 · SRC造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/38be961e4690808b8393f85e8925d62c",
+        "originalTags": "组装、SRC造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "组装",
+        "SRC造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565200",
+        "deck": "建築構法::S造"
+      },
+      "name": "勾配屋根の構法",
+      "fields": {
+        "knowledgePoint": "勾配屋根の構法",
+        "category": "工法",
+        "frontHtml": "勾配屋根の構法 工法",
+        "backHtml": "📝 简介 注意点： 階数・スパン増大で屋根面が高くなり、風圧力（特に負圧）で屋根材剥離に注意 特有の構法： 野地板を張らない折板屋根や波板屋根が工場、倉庫、展示会場など大スパン建物で広く用いられる 📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2014専門2-2Q10・2016専門2-2Q12。屋根構法、葺材、雨仕舞、勾配の対応として出題。 🏷 标签 工法 · S造",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2014専門2-2Q10・2016専門2-2Q12。屋根構法、葺材、雨仕舞、勾配の対応として出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690805bac45feb78f9db3a0",
+        "originalTags": "工法、S造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "工法",
+        "S造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565202",
+        "deck": "建築構法::S造"
+      },
+      "name": "普通ポル卜接合",
+      "fields": {
+        "knowledgePoint": "普通ポル卜接合",
+        "category": "工法",
+        "frontHtml": "普通ポル卜接合 工法",
+        "backHtml": "📝 简介 メリット：施工·解体が容易で，騒音が少ないなど 欠点：長期間の使用によってボルトがゆるむおそれのあること，孔径とボルトの軸径の差だけ初期変形しやすいことなど 軒高9m以上，スパン13m以上の鉄骨造における構造耐力上主要な部分には使用できない 📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2013専門1Q2・2016専門1Q2・2019専門1Q3。ボルト軸のせん断耐力で接合するものとして、高力ボルト接合と対比される。 🏷 标签 工法 · S造",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2013専門1Q2・2016専門1Q2・2019専門1Q3。ボルト軸のせん断耐力で接合するものとして、高力ボルト接合と対比される。",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690803095bbd9a4d7d1075d",
+        "originalTags": "工法、S造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "工法",
+        "S造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565204",
+        "deck": "建築構法::S造"
+      },
+      "name": "鋼材",
+      "fields": {
+        "knowledgePoint": "鋼材",
+        "category": "材料",
+        "frontHtml": "鋼材 材料",
+        "backHtml": "📝 简介 不燃材 メリット：品質が安定、価格的にも比較的低廉 配慮：火災の熱と錆（酸化） 一般的な鋼材の許容压縮応力度は許容引張応力度に等しい 🏷 标签 材料 · S造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690801993a4ce257b26483e",
+        "originalTags": "材料、S造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "材料",
+        "S造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565206",
+        "deck": "建築構法::S造"
+      },
+      "name": "スタッド",
+      "fields": {
+        "knowledgePoint": "スタッド",
+        "category": "部材",
+        "frontHtml": "スタッド 部材",
+        "backHtml": "📝 简介 Stud 縦方向の柱材 🏷 标签 S造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/383e961e4690806d896edb897a75b420",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565208",
+        "deck": "建築構法::S造"
+      },
+      "name": "カーテンウォール構成方式",
+      "fields": {
+        "knowledgePoint": "カーテンウォール構成方式",
+        "category": "组装",
+        "frontHtml": "カーテンウォール構成方式 组装",
+        "backHtml": "📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2015専門1Q12・2019専門1Q3。カーテンウォールの構成方式、ファスナー・方立・無目などと合わせて出題。 🏷 标签 S造 · 组装",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2015専門1Q12・2019専門1Q3。カーテンウォールの構成方式、ファスナー・方立・無目などと合わせて出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690805d95d2fad67408def8",
+        "originalTags": "S造、组装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "组装",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565210",
+        "deck": "建築構法::S造"
+      },
+      "name": "カーテンウォール",
+      "fields": {
+        "knowledgePoint": "カーテンウォール",
+        "category": "未分類",
+        "frontHtml": "カーテンウォール 壁",
+        "backHtml": "📝 简介 建物の荷重を直接負担しない、取り外し可能な「非耐力壁」の外壁 1872年完成のムニエのチョコレート工場では、鉄骨躯体の間に煉瓦が装飾的に積まれた外壁。 📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2015専門1Q12・2019専門1Q3・2022専門1Q3・2026専門2-2Q5。カーテンウォールや外壁まわりの部材として問われる。 🏷 标签 S造 · 壁",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2015専門1Q12・2019専門1Q3・2022専門1Q3・2026専門2-2Q5。カーテンウォールや外壁まわりの部材として問われる。",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690808da51feb5b2575255d",
+        "originalTags": "S造、壁"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "壁",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565212",
+        "deck": "建築構法::S造"
+      },
+      "name": "折板屋根",
+      "fields": {
+        "knowledgePoint": "折板屋根",
+        "category": "部材",
+        "frontHtml": "折板屋根 部材",
+        "backHtml": "📝 简介 屋根荷重を小さくできるなどの長所があるため，大スパンの建物に適し，工場や倉庫などでは最も一般的な屋根構法である。 📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2014専門1Q3・2024専門1Q3。鉄骨造屋根・折板屋根の部材名称として出題。 🏷 标签 S造 · 部材",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2014専門1Q3・2024専門1Q3。鉄骨造屋根・折板屋根の部材名称として出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690800bb5b6c83bb9fee319",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565214",
+        "deck": "建築構法::S造"
+      },
+      "name": "ブレース",
+      "fields": {
+        "knowledgePoint": "ブレース",
+        "category": "部材",
+        "frontHtml": "ブレース 部材",
+        "backHtml": "🏷 标签 S造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e469080aba5eef7df3a093bb5",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565216",
+        "deck": "建築構法::S造"
+      },
+      "name": "デッキプレート",
+      "fields": {
+        "knowledgePoint": "デッキプレート",
+        "category": "部材",
+        "frontHtml": "デッキプレート 部材",
+        "backHtml": "📝 简介 波形に成形した薄鋼板で、S造の床に敷き、床型枠または床構造の一部として用いる。上にコンクリートを打つデッキプレート床では、施工の省力化と型枠削減に役立つ。 📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2019専門1Q3・2022専門1Q3。床構法・鋼構造部材名として、デッキプレート床などで出題。 🏷 标签 S造 · 部材",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2019専門1Q3・2022専門1Q3。床構法・鋼構造部材名として、デッキプレート床などで出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e46908004b486c32c8b87cc91",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565218",
+        "deck": "建築構法::S造"
+      },
+      "name": "梁の継手",
+      "fields": {
+        "knowledgePoint": "梁の継手",
+        "category": "部材",
+        "frontHtml": "梁の継手 部材",
+        "backHtml": "🏷 标签 S造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690808b9c6dc152caeee080",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565220",
+        "deck": "建築構法::S造"
+      },
+      "name": "柱の継手",
+      "fields": {
+        "knowledgePoint": "柱の継手",
+        "category": "组装",
+        "frontHtml": "柱の継手 组装",
+        "backHtml": "🏷 标签 S造 · 组装",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690806f8ec1db3bc273e958",
+        "originalTags": "S造、组装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "组装",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565222",
+        "deck": "建築構法::S造"
+      },
+      "name": "アンカーフレ一ム",
+      "fields": {
+        "knowledgePoint": "アンカーフレ一ム",
+        "category": "部材",
+        "frontHtml": "アンカーフレ一ム 部材",
+        "backHtml": "📝 简介 アンカーボルトを正確な位置に固定するための鋼製の架台 🏷 标签 S造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690806c9b84ff360eb24e76",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565224",
+        "deck": "建築構法::S造"
+      },
+      "name": "アンカーボルト（S造柱脚）",
+      "fields": {
+        "knowledgePoint": "アンカーボルト（S造柱脚）",
+        "category": "部材",
+        "frontHtml": "アンカーボルト（S造柱脚） 部材",
+        "backHtml": "📝 简介 鉄骨柱脚のベースプレートを鉄筋コンクリート基礎に固定するボルト。柱脚に生じる引張力・せん断力を基礎へ伝え、建方時には柱位置の固定にも用いる。 📋 考试出现形式 用语填空、图解识别、部材名称 📖 过去问相关 2018専門1Q3・2019専門1Q3・2025専門1Q3。S造柱脚図でベースプレートと基礎を固定する部材として出題。 🏷 标签 S造 · 部材",
+        "examForm": "用语填空、图解识别、部材名称",
+        "pastQuestion": "2018専門1Q3・2019専門1Q3・2025専門1Q3。S造柱脚図でベースプレートと基礎を固定する部材として出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e46908053b8b5c1e4a09898d6",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565226",
+        "deck": "建築構法::S造"
+      },
+      "name": "ベースプレート",
+      "fields": {
+        "knowledgePoint": "ベースプレート",
+        "category": "部材",
+        "frontHtml": "ベースプレート 部材",
+        "backHtml": "📝 简介 鉄骨の柱の最下部に溶接される平らな鋼板 🏷 标签 S造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e46908097a650f11f1b31db4d",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565228",
+        "deck": "建築構法::S造"
+      },
+      "name": "角形鋼管",
+      "fields": {
+        "knowledgePoint": "角形鋼管",
+        "category": "部材",
+        "frontHtml": "角形鋼管 部材",
+        "backHtml": "📝 简介 断面が正方形または長方形の閉断面鋼材で、主にS造の柱に用いる。二方向の曲げに対して剛性を得やすく、内部にコンクリートを充填するとCFT柱となる。 📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2017専門1Q3・2022専門1Q3。鋼管の断面形状、柱・柱脚まわりの図解名称として出題。 🏷 标签 S造 · 部材",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2017専門1Q3・2022専門1Q3。鋼管の断面形状、柱・柱脚まわりの図解名称として出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e46908019907ffbb7d563a001",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565230",
+        "deck": "建築構法::S造"
+      },
+      "name": "H形鋼",
+      "fields": {
+        "knowledgePoint": "H形鋼",
+        "category": "部材",
+        "frontHtml": "H形鋼 部材",
+        "backHtml": "📝 简介 断面がH形の圧延鋼材で、主に柱・梁に用いる。上下のフランジは主に曲げ応力、中央のウェブは主にせん断力を負担する。断面図ではフランジとウェブの位置を識別する。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2017専門1Q3・2019専門1Q3・2024専門1Q3・2026専門1Q3。H形鋼のウェブ・フランジなど断面部位や鋼構造部材名として出題。 🏷 标签 S造 · 部材",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2017専門1Q3・2019専門1Q3・2024専門1Q3・2026専門1Q3。H形鋼のウェブ・フランジなど断面部位や鋼構造部材名として出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e469080a58a2deb224fd88799",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565232",
+        "deck": "建築構法::S造"
+      },
+      "name": "スタッドコネクタ",
+      "fields": {
+        "knowledgePoint": "スタッドコネクタ",
+        "category": "部材",
+        "frontHtml": "スタッドコネクタ 部材",
+        "backHtml": "📝 简介 鉄骨梁とコンクリートを緊結し、両者の間に生じるせん断力を伝えるための鋼製の突起部材 🏷 标签 S造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690809eba0afd00c17287ae",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565234",
+        "deck": "建築構法::S造"
+      },
+      "name": "ダイアフラム",
+      "fields": {
+        "knowledgePoint": "ダイアフラム",
+        "category": "部材",
+        "frontHtml": "ダイアフラム 部材",
+        "backHtml": "📝 简介 鋼管柱などの柱梁接合部に設ける補強鋼板。梁フランジから柱へ曲げ応力を伝え、柱断面の局部変形を抑える。内ダイアフラム・通しダイアフラム・外ダイアフラムがある。 📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2019専門1Q3・2022専門1Q3・2024専門1Q3。H形鋼の柱梁接合部で、ウェブ・フランジ周辺の補強部材として出題。 🏷 标签 S造 · 部材",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2019専門1Q3・2022専門1Q3・2024専門1Q3。H形鋼の柱梁接合部で、ウェブ・フランジ周辺の補強部材として出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e46908024841ee37efb96178c",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565236",
+        "deck": "建築構法::S造"
+      },
+      "name": "ボルトbolt",
+      "fields": {
+        "knowledgePoint": "ボルトbolt",
+        "category": "部材",
+        "frontHtml": "ボルトbolt 部材",
+        "backHtml": "🏷 标签 S造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e469080c48875ce744100678a",
+        "originalTags": "S造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565238",
+        "deck": "建築構法::S造"
+      },
+      "name": "高力ボルト接合",
+      "fields": {
+        "knowledgePoint": "高力ボルト接合",
+        "category": "组装",
+        "frontHtml": "高力ボルト接合 组装",
+        "backHtml": "📝 简介 高力ボルトを強く締め付けて接合材同士を圧着し、主に接触面の摩擦力で力を伝える接合。普通ボルト接合より剛性・耐力が高く、S造の主要構造部に用いる。 📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2013専門1Q2・2016専門1Q2・2019専門1Q3。普通ボルト接合との違い、摩擦接合の原理として出題。 🏷 标签 S造 · 组装",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2013専門1Q2・2016専門1Q2・2019専門1Q3。普通ボルト接合との違い、摩擦接合の原理として出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e46908065baa9f3088ae3b817",
+        "originalTags": "S造、组装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "组装",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565240",
+        "deck": "建築構法::S造"
+      },
+      "name": "普通ボルト接合",
+      "fields": {
+        "knowledgePoint": "普通ボルト接合",
+        "category": "组装",
+        "frontHtml": "普通ボルト接合 组装",
+        "backHtml": "📝 简介 ボルト軸と孔の支圧・せん断で力を伝える接合。高力ボルト摩擦接合とは原理が異なり、主要構造部よりも小規模部材や二次部材の接合に用いられる。 📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2013専門1Q2・2016専門1Q2・2019専門1Q3。せん断耐力で接合するものとして、高力ボルト接合と対比される。 🏷 标签 S造 · 组装",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2013専門1Q2・2016専門1Q2・2019専門1Q3。せん断耐力で接合するものとして、高力ボルト接合と対比される。",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690805db77dc3d862e85143",
+        "originalTags": "S造、组装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "组装",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565242",
+        "deck": "建築構法::S造"
+      },
+      "name": "溶接継目と継手",
+      "fields": {
+        "knowledgePoint": "溶接継目と継手",
+        "category": "组装",
+        "frontHtml": "溶接継目と継手 组装",
+        "backHtml": "📝 简介 鋼材を溶融・一体化して接合する方法。突合せ溶接は材端を同一面で接合し、隅肉溶接は重ね部や直交部の隅を三角形状に溶接する。図では開先と溶接位置を区別する。 📋 考试出现形式 用语填空、图解识别、比较说明 📖 过去问相关 2014専門1Q3・2023専門1Q3。溶接継手・突合せ溶接・隅肉溶接など接合形式として出題。 🏷 标签 S造 · 组装",
+        "examForm": "用语填空、图解识别、比较说明",
+        "pastQuestion": "2014専門1Q3・2023専門1Q3。溶接継手・突合せ溶接・隅肉溶接など接合形式として出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690802d9fb1fb14ccd3beea",
+        "originalTags": "S造、组装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "组装",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565244",
+        "deck": "建築構法::S造"
+      },
+      "name": "カーテンウォールの支持方式",
+      "fields": {
+        "knowledgePoint": "カーテンウォールの支持方式",
+        "category": "工法",
+        "frontHtml": "カーテンウォールの支持方式 工法 外壁",
+        "backHtml": "📝 简介 ファスナーで躯体に取り付け、自重を支持しながら層間変形に追従させる。ロッキング方式はパネルを回転させて変形を逃がし、スライド方式は取付部の滑りで変位を吸収する。 📋 考试出现形式 用语填空、图解识别、比较说明 📖 过去问相关 2015専門1Q12・2019専門1Q3・2026専門1Q3。非構造外壁の耐震支持とロッキング方式を出題。 🏷 标签 外壁 · S造 · 工法",
+        "examForm": "用语填空、图解识别、比较说明",
+        "pastQuestion": "2015専門1Q12・2019専門1Q3・2026専門1Q3。非構造外壁の耐震支持とロッキング方式を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e46908132bfc1e91dcba5a1d1",
+        "originalTags": "外壁、S造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "外壁",
+        "S造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565246",
+        "deck": "建築構法::S造"
+      },
+      "name": "カーテンウォールの構成部材",
+      "fields": {
+        "knowledgePoint": "カーテンウォールの構成部材",
+        "category": "工法",
+        "frontHtml": "カーテンウォールの構成部材 工法 外壁",
+        "backHtml": "📝 简介 マリオン（方立）は縦材、無目は横材、スパンドレルは上下階窓間の不透明部分、ファスナーは躯体への取付金物。ガスケット・シール材はガラス固定と水密に用いる。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2022専門1Q3・2026専門1Q3。マリオン、無目、スパンドレル、ガスケット等の名称・機能を出題。 🏷 标签 外壁 · S造 · 工法",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2022専門1Q3・2026専門1Q3。マリオン、無目、スパンドレル、ガスケット等の名称・機能を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081afbe5bdaff52e126f4",
+        "originalTags": "外壁、S造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "外壁",
+        "S造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565248",
+        "deck": "建築構法::S造"
+      },
+      "name": "カーテンウォール・外壁支持の基本",
+      "fields": {
+        "knowledgePoint": "カーテンウォール・外壁支持の基本",
+        "category": "工法",
+        "frontHtml": "カーテンウォール・外壁支持の基本 工法 外壁",
+        "backHtml": "📝 简介 カーテンウォールは自重と風圧などを負担する非耐力外壁で、建物の鉛直荷重を支持しない。方立・無目・スパンドレル・ファスナー等で構成し、層間変形に追従できる支持方式と雨仕舞が重要。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明、论述 📖 过去问相关 2013・2015・2016・2019・2022・2026専門1。耐力壁との違い、支持方式、マリオン・スパンドレル等を出題。 🏷 标签 外壁 · S造 · 工法",
+        "examForm": "用语填空、图解识别、部材名称、比较说明、论述",
+        "pastQuestion": "2013・2015・2016・2019・2022・2026専門1。耐力壁との違い、支持方式、マリオン・スパンドレル等を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081099331ec9b401de56d",
+        "originalTags": "外壁、S造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "外壁",
+        "S造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565250",
+        "deck": "建築構法::S造"
+      },
+      "name": "S造鋼材断面の基本",
+      "fields": {
+        "knowledgePoint": "S造鋼材断面の基本",
+        "category": "工法",
+        "frontHtml": "S造鋼材断面の基本 工法 躯体",
+        "backHtml": "📝 简介 S造では用途に応じてH形鋼、角形鋼管、円形鋼管などを柱・梁に用いる。H形鋼のフランジは主に曲げ、ウェブは主にせん断を負担し、鋼管は閉断面のため二方向の剛性を得やすい。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2017専門1Q3・2019専門1Q3・2022専門1Q3・2024専門1Q3・2026専門1Q3。H形鋼のウェブ・フランジ、鋼管断面、鋼製床部材を識別する。 🏷 标签 S造 · 躯体 · 工法",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2017専門1Q3・2019専門1Q3・2022専門1Q3・2024専門1Q3・2026専門1Q3。H形鋼のウェブ・フランジ、鋼管断面、鋼製床部材を識別する。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081efacaeda620217f5a1",
+        "originalTags": "S造、躯体、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "躯体",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565252",
+        "deck": "建築構法::S造"
+      },
+      "name": "DPG構法",
+      "fields": {
+        "knowledgePoint": "DPG構法",
+        "category": "未分類",
+        "frontHtml": "DPG構法 开口",
+        "backHtml": "📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2022専門1Q3・2026専門2-2Q5。大型ガラスや開口部の支持方式として、SSG・MPGと合わせて問われる。 🏷 标签 S造 · 开口",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2022専門1Q3・2026専門2-2Q5。大型ガラスや開口部の支持方式として、SSG・MPGと合わせて問われる。",
+        "sourceUrl": "https://app.notion.com/p/382e961e46908083b4d7c2c37800007c",
+        "originalTags": "S造、开口"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "开口",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565254",
+        "deck": "建築構法::S造"
+      },
+      "name": "SSG構法",
+      "fields": {
+        "knowledgePoint": "SSG構法",
+        "category": "未分類",
+        "frontHtml": "SSG構法 开口",
+        "backHtml": "📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2022専門1Q3。カーテンウォールのガラス支持方式の一つとして、MPG・DPGなどと比較して出題。 🏷 标签 S造 · 开口",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2022専門1Q3。カーテンウォールのガラス支持方式の一つとして、MPG・DPGなどと比較して出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e46908056b789c1a035a928df",
+        "originalTags": "S造、开口"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "开口",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565256",
+        "deck": "建築構法::S造"
+      },
+      "name": "ガラスの固定方法",
+      "fields": {
+        "knowledgePoint": "ガラスの固定方法",
+        "category": "未分類",
+        "frontHtml": "ガラスの固定方法 开口",
+        "backHtml": "🏷 标签 S造 · 开口",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e469080c58a62d77b739d001c",
+        "originalTags": "S造、开口"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "开口",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference",
+        "duplicate-name"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565258",
+        "deck": "建築構法::S造"
+      },
+      "name": "オープンジョイント",
+      "fields": {
+        "knowledgePoint": "オープンジョイント",
+        "category": "未分類",
+        "frontHtml": "オープンジョイント 外壁",
+        "backHtml": "📝 简介 雨水が吹き込みにくく、浸入しても外部へ流出。メンテナンスがほぼ不要 高層ビル・超高層ビルで多用 📋 考试出现形式 用语填空、论述 📖 过去问相关 2022専門1Q3・2026専門2-2Q5。外壁目地の雨仕舞・水密性の考え方として出題。 🏷 标签 S造 · 防水 · 外壁",
+        "examForm": "用语填空、论述",
+        "pastQuestion": "2022専門1Q3・2026専門2-2Q5。外壁目地の雨仕舞・水密性の考え方として出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690803ea284dc8c43bd7c6f",
+        "originalTags": "S造、防水、外壁"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "防水",
+        "外壁",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565260",
+        "deck": "建築構法::S造"
+      },
+      "name": "カーテンウォールのファスナー例",
+      "fields": {
+        "knowledgePoint": "カーテンウォールのファスナー例",
+        "category": "工法",
+        "frontHtml": "カーテンウォールのファスナー例 工法",
+        "backHtml": "📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2015専門1Q12・2019専門1Q3。カーテンウォールのファスナー例、支持部材の図解名称として出題。 🏷 标签 S造 · 工法",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2015専門1Q12・2019専門1Q3。カーテンウォールのファスナー例、支持部材の図解名称として出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e469080de94e9cb81a0fe289f",
+        "originalTags": "S造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565262",
+        "deck": "建築構法::S造"
+      },
+      "name": "波板茸きの構法",
+      "fields": {
+        "knowledgePoint": "波板茸きの構法",
+        "category": "未分類",
+        "frontHtml": "波板茸きの構法 屋顶",
+        "backHtml": "📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2014専門1Q3・2024専門1Q3。波板葺き・折板葺きなど鉄骨造屋根の構法として出題。 🏷 标签 S造 · 屋顶",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2014専門1Q3・2024専門1Q3。波板葺き・折板葺きなど鉄骨造屋根の構法として出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e46908017ac77d377d54e5648",
+        "originalTags": "S造、屋顶"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "屋顶",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565264",
+        "deck": "建築構法::S造"
+      },
+      "name": "張弦梁構造の例(東京国際空港)",
+      "fields": {
+        "knowledgePoint": "張弦梁構造の例(東京国際空港)",
+        "category": "未分類",
+        "frontHtml": "張弦梁構造の例(東京国際空港) 躯体",
+        "backHtml": "📋 考试出现形式 案例分析、用语填空 📖 过去问相关 2020専門1Q3・2025専門2-2Q5。構造家・大空間構造・事例分析で、張弦梁や膜構造と関連して出題。 🏷 标签 S造 · 躯体",
+        "examForm": "案例分析、用语填空",
+        "pastQuestion": "2020専門1Q3・2025専門2-2Q5。構造家・大空間構造・事例分析で、張弦梁や膜構造と関連して出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690808da3c4d49ba7e34e4d",
+        "originalTags": "S造、躯体"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "躯体",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565266",
+        "deck": "建築構法::S造"
+      },
+      "name": "一方向ラーメン·一方向ブレース構造",
+      "fields": {
+        "knowledgePoint": "一方向ラーメン·一方向ブレース構造",
+        "category": "未分類",
+        "frontHtml": "一方向ラーメン·一方向ブレース構造 躯体",
+        "backHtml": "🏷 标签 S造 · 躯体",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e469080139960dba25a617227",
+        "originalTags": "S造、躯体"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "躯体",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565268",
+        "deck": "建築構法::S造"
+      },
+      "name": "ピン節点",
+      "fields": {
+        "knowledgePoint": "ピン節点",
+        "category": "工法",
+        "frontHtml": "ピン節点 工法",
+        "backHtml": "🏷 标签 S造 · 工法",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e46908002b850e13fe566a4fa",
+        "originalTags": "S造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565270",
+        "deck": "建築構法::S造"
+      },
+      "name": "ビン接合の仕口(ウェブの接合)",
+      "fields": {
+        "knowledgePoint": "ビン接合の仕口(ウェブの接合)",
+        "category": "工法",
+        "frontHtml": "ビン接合の仕口(ウェブの接合) 工法",
+        "backHtml": "🏷 标签 S造 · 工法",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e46908022a960ddba31c8eac6",
+        "originalTags": "S造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565272",
+        "deck": "建築構法::S造"
+      },
+      "name": "柱脚の形式",
+      "fields": {
+        "knowledgePoint": "柱脚の形式",
+        "category": "未分類",
+        "frontHtml": "柱脚の形式 柱",
+        "backHtml": "🏷 标签 S造 · 柱",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e469080e4bf16cf8b1cfb54a4",
+        "originalTags": "S造、柱"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "柱",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565274",
+        "deck": "建築構法::S造"
+      },
+      "name": "山形ラ一メン構法",
+      "fields": {
+        "knowledgePoint": "山形ラ一メン構法",
+        "category": "未分類",
+        "frontHtml": "山形ラ一メン構法 躯体",
+        "backHtml": "📝 简介 体育館や工場などに多用されている 🏷 标签 S造 · 躯体",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/382e961e4690808fa36fc681c1c64463",
+        "originalTags": "S造、躯体"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "躯体",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565276",
+        "deck": "建築構法::S造"
+      },
+      "name": "鉄骨軸組構法",
+      "fields": {
+        "knowledgePoint": "鉄骨軸組構法",
+        "category": "未分類",
+        "frontHtml": "鉄骨軸組構法 躯体",
+        "backHtml": "📝 简介 S造では柱・梁を高力ボルト接合または溶接接合で組み立て、柱脚はベースプレートとアンカーボルトで基礎に固定する。接合部では力の伝達経路と、ダイアフラムなどの補強部材の位置を理解する。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2013専門1Q2・2019専門1Q3。鋼材・接合部・柱脚など、S造の基本構法として出題。 🏷 标签 S造 · 躯体",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2013専門1Q2・2019専門1Q3。鋼材・接合部・柱脚など、S造の基本構法として出題。",
+        "sourceUrl": "https://app.notion.com/p/382e961e469080ecab64f93359d6f3a3",
+        "originalTags": "S造、躯体"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "S造",
+        "躯体",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565278",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "LCC（ライフサイクルコスト）",
+      "fields": {
+        "knowledgePoint": "LCC（ライフサイクルコスト）",
+        "category": "概念、工法",
+        "frontHtml": "LCC（ライフサイクルコスト） 概念 · 工法",
+        "backHtml": "📝 简介 建物の企画・建設から維持管理・修繕・解体までの総費用。 📋 考试出现形式 论述、用语填空 📖 过去问相关 2022専門1Q3。改修・維持管理・長期修繕計画の考え方として出題。 🏷 标签 概念 · 工法",
+        "examForm": "论述、用语填空",
+        "pastQuestion": "2022専門1Q3。改修・維持管理・長期修繕計画の考え方として出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081ef96e1e8dff852c8c2",
+        "originalTags": "概念、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "概念",
+        "工法",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565280",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "カーテンウォールを用いる目的",
+      "fields": {
+        "knowledgePoint": "カーテンウォールを用いる目的",
+        "category": "未分類",
+        "frontHtml": "カーテンウォールを用いる目的 壁",
+        "backHtml": "📝 简介 軽量化がある。構造躯体の負担を軽減することは，超高層ビルの建設にとって極めて有利である プレファブリケーションも，その主要な目的である。プレファブリケーションにより危険な高所での作業が減り，工事中に高層階へ運ぶ作業員を減らすことができる。工期が短縮されることや仮設足場が不要 品質の安定化 層間变位追随性のあるカ一テンウォールを採用し，耐震性能を高めることが不可欠である。 📋 考试出现形式 用语填空、图解识别、部材名称 📖 过去问相关 2013専門1Q2・2015専門1Q12・2019専門1Q3・2022専門1Q3・2026専門2-2Q5。帳壁・非耐力壁・ファスナー・追従方式と絡めて出題。 🏷 标签 壁",
+        "examForm": "用语填空、图解识别、部材名称",
+        "pastQuestion": "2013専門1Q2・2015専門1Q12・2019専門1Q3・2022専門1Q3・2026専門2-2Q5。帳壁・非耐力壁・ファスナー・追従方式と絡めて出題。",
+        "sourceUrl": "https://app.notion.com/p/397e961e4690801584caf53e881e6fd6",
+        "originalTags": "壁"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "壁",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565282",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "毛細管現象",
+      "fields": {
+        "knowledgePoint": "毛細管現象",
+        "category": "概念",
+        "frontHtml": "毛細管現象 概念 屋顶",
+        "backHtml": "📝 简介 い管や隙間に液体が重力に逆らって自発的に吸い上げられる現象 住宅や建築においては雨漏りなどのトラブルの原因 📋 考试出现形式 用语填空、论述 📖 过去问相关 2016専門2-2Q12・2015専門1Q13。雨漏りや雨仕舞の原理として、屋根・開口部の水処理と関連して出題。 🏷 标签 屋顶 · 概念",
+        "examForm": "用语填空、论述",
+        "pastQuestion": "2016専門2-2Q12・2015専門1Q13。雨漏りや雨仕舞の原理として、屋根・開口部の水処理と関連して出題。",
+        "sourceUrl": "https://app.notion.com/p/396e961e469080349b9ed19b65a59d86",
+        "originalTags": "屋顶、概念"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "屋顶",
+        "概念",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565284",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "瓦茸",
+      "fields": {
+        "knowledgePoint": "瓦茸",
+        "category": "材料",
+        "frontHtml": "瓦茸 材料 屋顶",
+        "backHtml": "📝 简介 防火有利 耐震上は不利である 耐風対策上も釘や銅線などで緊結するのがよい 暴風雨のときなどに弱点となる 📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2014専門1Q3・2024専門1Q3・2026専門1Q3。本瓦葺き・桟瓦葺きなど屋根葺材の名称や違いとして出題。 🏷 标签 屋顶 · 材料",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2014専門1Q3・2024専門1Q3・2026専門1Q3。本瓦葺き・桟瓦葺きなど屋根葺材の名称や違いとして出題。",
+        "sourceUrl": "https://app.notion.com/p/396e961e469080b9ae28e7fc4a38eeb8",
+        "originalTags": "屋顶、材料"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "屋顶",
+        "材料",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565286",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "コンクリート杭",
+      "fields": {
+        "knowledgePoint": "コンクリート杭",
+        "category": "材料",
+        "frontHtml": "コンクリート杭 材料 基礎",
+        "backHtml": "📝 简介 硬質の地盤まで達して先端抵抗を利用する支持杭と，接触する側面の土との摩擦力を利用する摩擦杭とに分けられる。 品質が安定 地下水位の深い場合にも腐食の心配がない 欠点：騒音を発する 📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2022専門1Q3・2025専門1Q3。基礎・杭地業の用語として、木杭・鋼杭などと合わせて出題。 🏷 标签 基礎 · 材料",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2022専門1Q3・2025専門1Q3。基礎・杭地業の用語として、木杭・鋼杭などと合わせて出題。",
+        "sourceUrl": "https://app.notion.com/p/396e961e46908063a89ffe82619578d5",
+        "originalTags": "基礎、材料"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "材料",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565288",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "杭地業",
+      "fields": {
+        "knowledgePoint": "杭地業",
+        "category": "概念",
+        "frontHtml": "杭地業 概念 基礎",
+        "backHtml": "📝 简介 基礎の接する地盤面だけでは必要な地耐力が得られない場合に，杭地業が行われる。 杭は材料によって木杭 ·鋼杭·コンクリート杭に分類することができる。 📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2022専門1Q3・2025専門1Q3。基礎形式、杭、地業に関する用語として出題。 🏷 标签 基礎 · 概念",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2022専門1Q3・2025専門1Q3。基礎形式、杭、地業に関する用語として出題。",
+        "sourceUrl": "https://app.notion.com/p/396e961e469080f18de2fa8a4872ae2d",
+        "originalTags": "基礎、概念"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "概念",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565290",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "割〈り地業",
+      "fields": {
+        "knowledgePoint": "割〈り地業",
+        "category": "概念",
+        "frontHtml": "割〈り地業 概念 基礎",
+        "backHtml": "📝 简介 10~20cm程度の割ぐり石を縦に並べて地盤面を突き固める工法を割ぐり地業という。 📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2022専門1Q3・2025専門1Q3。基礎工事・地業の種類として、杭地業や版築と合わせて出題。 🏷 标签 基礎 · 概念",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2022専門1Q3・2025専門1Q3。基礎工事・地業の種類として、杭地業や版築と合わせて出題。",
+        "sourceUrl": "https://app.notion.com/p/396e961e46908006b0d1cec2e3a6c64c",
+        "originalTags": "基礎、概念"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "概念",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565292",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "地盤調查",
+      "fields": {
+        "knowledgePoint": "地盤調查",
+        "category": "概念",
+        "frontHtml": "地盤調查 概念 基礎",
+        "backHtml": "📝 简介 ボーリングによって地盤に深い穴をあけ，試料を採取して地層の構成を調べる。 規格で定められた形状の採取器を一定のおもりで打擊し，30cm貫入させるのに要する打擊回数(N值)を記録することが多い 細·中砂＜砂質、粘土＜細砂 適用できる深さは最大10mで，砂質土，硬質土の試験にはむかない。 📋 考试出现形式 用语填空 📖 过去问相关 2022専門1Q3・2024専門1Q3・2026専門1Q3。基礎・地盤・山留め周辺の総合用語として出題。 🏷 标签 基礎 · 概念",
+        "examForm": "用语填空",
+        "pastQuestion": "2022専門1Q3・2024専門1Q3・2026専門1Q3。基礎・地盤・山留め周辺の総合用語として出題。",
+        "sourceUrl": "https://app.notion.com/p/396e961e4690803291aedbb2704d5eaf",
+        "originalTags": "基礎、概念"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "概念",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565294",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "屋根き材と勾配",
+      "fields": {
+        "knowledgePoint": "屋根き材と勾配",
+        "category": "数值",
+        "frontHtml": "屋根き材と勾配 数值 屋顶",
+        "backHtml": "📝 简介 長尺金属板瓦棒茸 1/10~ 金属板一文字茸 2.5/10~ 成形セメン卜板葺 3/10~ 波形スレート葺 3.5/10~ 栈瓦茸 4/10~ 📋 考试出现形式 数值判断、用语填空 📖 过去问相关 屋根材と必要勾配の対応として出題されやすい。瓦・金属板・シングルなどの葺材とセットで確認。 🏷 标签 屋顶 · 数值",
+        "examForm": "数值判断、用语填空",
+        "pastQuestion": "屋根材と必要勾配の対応として出題されやすい。瓦・金属板・シングルなどの葺材とセットで確認。",
+        "sourceUrl": "https://app.notion.com/p/396e961e4690800298f7c5d5fb27f206",
+        "originalTags": "屋顶、数值"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "屋顶",
+        "数值",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565296",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "帳壁",
+      "fields": {
+        "knowledgePoint": "帳壁",
+        "category": "概念",
+        "frontHtml": "帳壁 概念 壁",
+        "backHtml": "📝 简介 自重以外の面内方向の荷重は加わらないので，大きな耐力は必要としないが，地震時や強風時の倒壊や落下防止のために規模の制限や壁厚に関する規準がある 🏷 标签 壁 · 概念",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/38ae961e4690809f8acad37e97aaccbf",
+        "originalTags": "壁、概念"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "壁",
+        "概念",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565298",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "馬目地·芋目地",
+      "fields": {
+        "knowledgePoint": "馬目地·芋目地",
+        "category": "工艺",
+        "frontHtml": "馬目地·芋目地 工艺",
+        "backHtml": "🏷 标签 工艺",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/39ae961e469080b0aaa8f77e5d74c3f3",
+        "originalTags": "工艺"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "工艺",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565300",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "ガラスの固定方法",
+      "fields": {
+        "knowledgePoint": "ガラスの固定方法",
+        "category": "未分類",
+        "frontHtml": "ガラスの固定方法 开口部",
+        "backHtml": "📋 考试出现形式 图解识别、部材名称 📖 过去问相关 2015専門1Q13・2022専門1Q3・2026専門2-2Q5。ガラス壁・開口部で、固定方法や雨水侵入防止とセットで出題。 🏷 标签 开口部",
+        "examForm": "图解识别、部材名称",
+        "pastQuestion": "2015専門1Q13・2022専門1Q3・2026専門2-2Q5。ガラス壁・開口部で、固定方法や雨水侵入防止とセットで出題。",
+        "sourceUrl": "https://app.notion.com/p/397e961e46908011b532f41ef86907fe",
+        "originalTags": "开口部"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "开口部",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference",
+        "duplicate-name"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565302",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "敷居·鴨居の取付方法",
+      "fields": {
+        "knowledgePoint": "敷居·鴨居の取付方法",
+        "category": "未分類",
+        "frontHtml": "敷居·鴨居の取付方法 开口部",
+        "backHtml": "🏷 标签 开口部",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/397e961e4690809c873df8253b463e6a",
+        "originalTags": "开口部"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "开口部",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565304",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "枠の取付方法",
+      "fields": {
+        "knowledgePoint": "枠の取付方法",
+        "category": "未分類",
+        "frontHtml": "枠の取付方法 开口部",
+        "backHtml": "🏷 标签 开口部",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/397e961e469080d19ff0dfb8d52c40f1",
+        "originalTags": "开口部"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "开口部",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565306",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "開口部の各部の名称",
+      "fields": {
+        "knowledgePoint": "開口部の各部の名称",
+        "category": "部材",
+        "frontHtml": "開口部の各部の名称 部材 开口部",
+        "backHtml": "📋 考试出现形式 图解识别、部材名称 📖 过去问相关 2026専門2-2Q5。伝統的開口部の各部名称、鴨居・敷居・方立などと合わせて出題。 🏷 标签 部材 · 开口部",
+        "examForm": "图解识别、部材名称",
+        "pastQuestion": "2026専門2-2Q5。伝統的開口部の各部名称、鴨居・敷居・方立などと合わせて出題。",
+        "sourceUrl": "https://app.notion.com/p/397e961e46908087aab6e3b956fdb828",
+        "originalTags": "部材、开口部"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "部材",
+        "开口部",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565308",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "ガラスプロックによる壁",
+      "fields": {
+        "knowledgePoint": "ガラスプロックによる壁",
+        "category": "未分類",
+        "frontHtml": "ガラスプロックによる壁 壁",
+        "backHtml": "📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2013専門1Q2・2015専門1Q13。ガラスブロックによる壁、開口部・外壁の構法用語として出題。 🏷 标签 壁",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2013専門1Q2・2015専門1Q13。ガラスブロックによる壁、開口部・外壁の構法用語として出題。",
+        "sourceUrl": "https://app.notion.com/p/397e961e46908047b344d0fd6e890c9e",
+        "originalTags": "壁"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "壁",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565310",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "ALC版の壁体",
+      "fields": {
+        "knowledgePoint": "ALC版の壁体",
+        "category": "部材",
+        "frontHtml": "ALC版の壁体 部材 壁",
+        "backHtml": "📋 考试出现形式 用语填空、部材名称 📖 过去问相关 2013専門1Q2・2022専門1Q3。ALC版による壁体・非耐力外壁の部材名として出題。 🏷 标签 壁 · 部材",
+        "examForm": "用语填空、部材名称",
+        "pastQuestion": "2013専門1Q2・2022専門1Q3。ALC版による壁体・非耐力外壁の部材名として出題。",
+        "sourceUrl": "https://app.notion.com/p/397e961e469080bf9402fa6af968c13a",
+        "originalTags": "壁、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "壁",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565312",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "瓦棒茸·立はぜ茸",
+      "fields": {
+        "knowledgePoint": "瓦棒茸·立はぜ茸",
+        "category": "组装",
+        "frontHtml": "瓦棒茸·立はぜ茸 组装 屋顶",
+        "backHtml": "📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2014専門1Q3・2024専門1Q3・2026専門1Q3。金属板屋根の葺き方・固定方法として出題。 🏷 标签 屋顶 · 组装",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2014専門1Q3・2024専門1Q3・2026専門1Q3。金属板屋根の葺き方・固定方法として出題。",
+        "sourceUrl": "https://app.notion.com/p/396e961e469080e4ae18ef426126c517",
+        "originalTags": "屋顶、组装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "屋顶",
+        "组装",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565314",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "栈瓦茸の考え方",
+      "fields": {
+        "knowledgePoint": "栈瓦茸の考え方",
+        "category": "组装",
+        "frontHtml": "栈瓦茸の考え方 组装 屋顶",
+        "backHtml": "📝 简介 45度傾けて 雨水が重なり部分に流れないように表面に波をつけた 🏷 标签 屋顶 · 组装",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/396e961e4690807e8b8fc79144669106",
+        "originalTags": "屋顶、组装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "屋顶",
+        "组装",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565316",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "棟木・母屋・垂木・野地板",
+      "fields": {
+        "knowledgePoint": "棟木・母屋・垂木・野地板",
+        "category": "部材",
+        "frontHtml": "棟木・母屋・垂木・野地板 部材 屋顶",
+        "backHtml": "📝 简介 棟木は屋根頂部、母屋は棟木と平行に垂木を支え、垂木は軒から棟へ流れ、野地板は垂木上で屋根仕上げの下地となる。隅木は寄棟屋根の隅に斜めに入る。 📋 考试出现形式 图解识别、部材名称 📖 过去问相关 2014専門2-2Q10・2016専門2-2Q12・2019専門1Q3・2026専門1Q3。屋根図解で棟木・母屋・垂木・野地板などの名称を問う。 🏷 标签 屋顶 · 部材",
+        "examForm": "图解识别、部材名称",
+        "pastQuestion": "2014専門2-2Q10・2016専門2-2Q12・2019専門1Q3・2026専門1Q3。屋根図解で棟木・母屋・垂木・野地板などの名称を問う。",
+        "sourceUrl": "https://app.notion.com/p/396e961e469080539df5de06be8734a3",
+        "originalTags": "屋顶、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "屋顶",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565318",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "独立フーチング基礎",
+      "fields": {
+        "knowledgePoint": "独立フーチング基礎",
+        "category": "未分類",
+        "frontHtml": "独立フーチング基礎 基礎",
+        "backHtml": "📝 简介 柱の下に設けられるもので，正方形もしくは長方形の底面とすることが多い 📋 考试出现形式 图解识别、用语填空 📖 过去问相关 2018専門1Q3・2022専門1Q3。布基礎・べた基礎との比較、基礎形式の名称として出題。 🏷 标签 基礎",
+        "examForm": "图解识别、用语填空",
+        "pastQuestion": "2018専門1Q3・2022専門1Q3。布基礎・べた基礎との比較、基礎形式の名称として出題。",
+        "sourceUrl": "https://app.notion.com/p/396e961e469080d4b8a3cd5b5610ae9d",
+        "originalTags": "基礎"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565320",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "割ぐり地業",
+      "fields": {
+        "knowledgePoint": "割ぐり地業",
+        "category": "未分類",
+        "frontHtml": "割ぐり地業 基礎",
+        "backHtml": "🏷 标签 基礎",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/396e961e469080fb9d16f8e3cf83a01d",
+        "originalTags": "基礎"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565322",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "布基礎",
+      "fields": {
+        "knowledgePoint": "布基礎",
+        "category": "未分類",
+        "frontHtml": "布基礎 基礎",
+        "backHtml": "📝 简介 壁や柱の下に逆T字型のコンクリートを流し込む工法のことです。布のように細長い基礎を使用することから、布基礎と呼ばれるようになったと言われています。 📋 考试出现形式 图解识别、部材名称 📖 过去问相关 2018専門1Q3・2022専門1Q3・2025専門1Q3。独立基礎・べた基礎・アンカーボルトと合わせて出題。 🏷 标签 基礎",
+        "examForm": "图解识别、部材名称",
+        "pastQuestion": "2018専門1Q3・2022専門1Q3・2025専門1Q3。独立基礎・べた基礎・アンカーボルトと合わせて出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080d1a24cf9588384592b",
+        "originalTags": "基礎"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565324",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "ウェルポイント",
+      "fields": {
+        "knowledgePoint": "ウェルポイント",
+        "category": "工法",
+        "frontHtml": "ウェルポイント 工法 基礎",
+        "backHtml": "📝 简介 掘削区域の周囲に吸水管を設置し、地下水を強制的に排水して地下水位を低下させる工法。 📋 考试出现形式 用语填空、施工手顺 📖 过去问相关 2022専門1Q3の地盤・地下工事関連用語として確認。 🏷 标签 基礎 · 工法",
+        "examForm": "用语填空、施工手顺",
+        "pastQuestion": "2022専門1Q3の地盤・地下工事関連用語として確認。",
+        "sourceUrl": "https://app.notion.com/p/39ae961e4690810aaf78ea0e80df79ca",
+        "originalTags": "基礎、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565326",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "根切り",
+      "fields": {
+        "knowledgePoint": "根切り",
+        "category": "工法",
+        "frontHtml": "根切り 工法 基礎",
+        "backHtml": "📝 简介 基礎や地下構造物を施工するために地盤を掘削する工事。掘削深さや地盤条件に応じて山留め、地下水処理、残土処理を計画する。 📋 考试出现形式 用语填空、施工手顺 📖 过去问相关 2022・2024・2026専門1。地下工事、山留め、逆打ち工法と関連して出題。 🏷 标签 基礎 · 工法",
+        "examForm": "用语填空、施工手顺",
+        "pastQuestion": "2022・2024・2026専門1。地下工事、山留め、逆打ち工法と関連して出題。",
+        "sourceUrl": "https://app.notion.com/p/39ae961e469081199b04ea0f34ec90a0",
+        "originalTags": "基礎、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565328",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "山留め壁と切り梁",
+      "fields": {
+        "knowledgePoint": "山留め壁と切り梁",
+        "category": "工法",
+        "frontHtml": "山留め壁と切り梁 工法 基礎",
+        "backHtml": "📝 简介 山留め壁は根切り側面の土圧・水圧を受ける壁。切り梁は対向する山留め壁の間に設け、壁の変形や倒れを抑える水平支保材。 📋 考试出现形式 图解识别、部材名称、比较说明 📖 过去问相关 2026専門1Q3。地下工事の山留め壁と切り梁を、簡単な図で示して違いを説明する形式。 🏷 标签 基礎 · 工法",
+        "examForm": "图解识别、部材名称、比较说明",
+        "pastQuestion": "2026専門1Q3。地下工事の山留め壁と切り梁を、簡単な図で示して違いを説明する形式。",
+        "sourceUrl": "https://app.notion.com/p/39ae961e46908152af62c56255c919d7",
+        "originalTags": "基礎、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565330",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "逆打ち工法",
+      "fields": {
+        "knowledgePoint": "逆打ち工法",
+        "category": "工法",
+        "frontHtml": "逆打ち工法 工法 基礎",
+        "backHtml": "📝 简介 地下工事において、地上階の躯体を先に施工し、上階から下階へ向かって地下部分を施工する工法。 📋 考试出现形式 用语填空、施工手顺 📖 过去问相关 2024専門1Q3。地下部を上階から下階へ施工する工法として出題。 🏷 标签 基礎 · 工法",
+        "examForm": "用语填空、施工手顺",
+        "pastQuestion": "2024専門1Q3。地下部を上階から下階へ施工する工法として出題。",
+        "sourceUrl": "https://app.notion.com/p/39ae961e46908156a499e76b29eee3dc",
+        "originalTags": "基礎、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565332",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "平板載荷試験",
+      "fields": {
+        "knowledgePoint": "平板載荷試験",
+        "category": "工法",
+        "frontHtml": "平板載荷試験 工法 基礎",
+        "backHtml": "📝 简介 基礎底面の地盤に載荷板を設置し、実際の建物荷重に相当する荷重を加えて沈下量を測定する地盤試験。地盤の支持力や沈下特性を確認する。 📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2014専門1Q3。基礎深さまで掘削し、載荷板に荷重を加えて沈下量を測定する試験の説明として出題。 🏷 标签 基礎 · 工法",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2014専門1Q3。基礎深さまで掘削し、載荷板に荷重を加えて沈下量を測定する試験の説明として出題。",
+        "sourceUrl": "https://app.notion.com/p/39ae961e469081ac89c3cfb1798606c9",
+        "originalTags": "基礎、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565334",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "サンドドレーン",
+      "fields": {
+        "knowledgePoint": "サンドドレーン",
+        "category": "工法",
+        "frontHtml": "サンドドレーン 工法 基礎",
+        "backHtml": "📝 简介 軟弱地盤中に砂の柱を設け、地盤中の水を排出して圧密を促進する地盤改良工法。 📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2017専門1Q3。液状化と関連する地盤改良方法として出題。 🏷 标签 基礎 · 工法",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2017専門1Q3。液状化と関連する地盤改良方法として出題。",
+        "sourceUrl": "https://app.notion.com/p/39ae961e469081dda561f36f80cf91f4",
+        "originalTags": "基礎、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565336",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "液状化",
+      "fields": {
+        "knowledgePoint": "液状化",
+        "category": "未分類",
+        "frontHtml": "液状化 基礎",
+        "backHtml": "📝 简介 地震による繰返しせん断によって飽和砂質地盤の間隙水圧が上昇し、地盤が一時的に支持力を失う現象。 📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2017専門1Q3。サンドドレーンと関連する地盤の現象として出題。 🏷 标签 基礎 · 耐震",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2017専門1Q3。サンドドレーンと関連する地盤の現象として出題。",
+        "sourceUrl": "https://app.notion.com/p/39ae961e469081fe8d3dc53bf96eb9ef",
+        "originalTags": "基礎、耐震"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "耐震",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565338",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "耐震・制震・免震の違い",
+      "fields": {
+        "knowledgePoint": "耐震・制震・免震の違い",
+        "category": "工法",
+        "frontHtml": "耐震・制震・免震の違い 工法",
+        "backHtml": "📝 简介 耐震は構造体の強度・靱性で地震力に耐え、制震はダンパー等で振動エネルギーを吸収し、免震は基礎等に免震層を設けて地震動が上部へ伝わりにくくする。 📋 考试出现形式 用语填空、比较说明、图解识别 📖 过去问相关 2022・2024専門1/2-2。免震化工事、免震レトロフィット等と関連して出題。 🏷 标签 耐震 · 工法",
+        "examForm": "用语填空、比较说明、图解识别",
+        "pastQuestion": "2022・2024専門1/2-2。免震化工事、免震レトロフィット等と関連して出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690810189b6d08187ee8a98",
+        "originalTags": "耐震、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "耐震",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565340",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "床組・壁下地・天井下地",
+      "fields": {
+        "knowledgePoint": "床組・壁下地・天井下地",
+        "category": "工法",
+        "frontHtml": "床組・壁下地・天井下地 工法 地板 · 天花板 · 内装",
+        "backHtml": "📝 简介 木造床組は大引・根太等で床荷重を支持する。壁下地は間柱や軽量鉄骨下地にボードを固定し、吊り天井は吊りボルト・野縁受け・野縁で仕上げ面を支持する。 📋 考试出现形式 用语填空、图解识别、部材名称 📖 过去问相关 2019・2025・2026専門1/2-2。床組、鋼製壁下地、天井下地部材の名称・機能として確認。 🏷 标签 地板 · 天花板 · 内装 · 工法",
+        "examForm": "用语填空、图解识别、部材名称",
+        "pastQuestion": "2019・2025・2026専門1/2-2。床組、鋼製壁下地、天井下地部材の名称・機能として確認。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081049a2dc80aed50e355",
+        "originalTags": "地板、天花板、内装、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "地板",
+        "天花板",
+        "内装",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565342",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "シェル・トラス・スペースフレーム",
+      "fields": {
+        "knowledgePoint": "シェル・トラス・スペースフレーム",
+        "category": "工法",
+        "frontHtml": "シェル・トラス・スペースフレーム 工法 躯体",
+        "backHtml": "📝 简介 シェルは曲面全体の面内力、平面トラスは三角形部材の軸力、スペースフレームは立体的な三角格子で荷重を分散する。形状、荷重伝達、適する大空間を区別する。 📋 考试出现形式 用语填空、图解识别、比较说明 📖 过去问相关 2013・2020専門1。シェル定義、構造家と構造形式、スペースフレーム等として出題。 🏷 标签 躯体 · 工法",
+        "examForm": "用语填空、图解识别、比较说明",
+        "pastQuestion": "2013・2020専門1。シェル定義、構造家と構造形式、スペースフレーム等として出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690816ba74ef204a45eb0cb",
+        "originalTags": "躯体、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "躯体",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565344",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "スケルトン・インフィルと工業化",
+      "fields": {
+        "knowledgePoint": "スケルトン・インフィルと工業化",
+        "category": "工法",
+        "frontHtml": "スケルトン・インフィルと工業化 工法 内装",
+        "backHtml": "📝 简介 SIは長寿命の躯体・共用部分と更新可能な内装・設備を分離する。工業化工法は標準化した部品を工場生産し現場組立てを減らす。どちらも更新性・省力化に有利だが目的は異なる。 📋 考试出现形式 用语填空、比较说明、论述、计算/经济性判断 📖 过去问相关 2016・2017・2020・2022専門2-2。在来/工業化、経済性、SI住宅、LCCの考え方として出題。 🏷 标签 工法 · 内装",
+        "examForm": "用语填空、比较说明、论述、计算/经济性判断",
+        "pastQuestion": "2016・2017・2020・2022専門2-2。在来/工業化、経済性、SI住宅、LCCの考え方として出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081b29a41f487074fe840",
+        "originalTags": "工法、内装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "工法",
+        "内装",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565346",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "膜構造・空気膜構造・テンセグリティ",
+      "fields": {
+        "knowledgePoint": "膜構造・空気膜構造・テンセグリティ",
+        "category": "工法",
+        "frontHtml": "膜構造・空気膜構造・テンセグリティ 工法 躯体",
+        "backHtml": "📝 简介 膜構造は膜材の張力とケーブル等で形を保つ。空気膜構造は内外圧差で膜を支持する。テンセグリティは連続しない圧縮材と連続する引張材が自己釣合いをつくる構造。 📋 考试出现形式 用语填空、图解识别、比较说明、论述 📖 过去问相关 2020専門1Q3・2025専門2-2Q5。テンセグリティ、膜・空気膜構造の名称と原理を出題。 🏷 标签 躯体 · 工法",
+        "examForm": "用语填空、图解识别、比较说明、论述",
+        "pastQuestion": "2020専門1Q3・2025専門2-2Q5。テンセグリティ、膜・空気膜構造の名称と原理を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081b89d87d7acc443d54f",
+        "originalTags": "躯体、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "躯体",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565348",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "湿式工法と乾式工法",
+      "fields": {
+        "knowledgePoint": "湿式工法と乾式工法",
+        "category": "工法",
+        "frontHtml": "湿式工法と乾式工法 工法 内装",
+        "backHtml": "📝 简介 湿式工法はモルタル・コンクリート・塗り壁など水を用い現場で硬化させる。乾式工法はボード・パネル・金属下地などを釘・ビス・金物で組み立て、工期短縮と解体・更新の容易さが特徴。 📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2016専門1Q2。湿式/乾式、在来/工業化工法の分類として出題。 🏷 标签 内装 · 工法",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2016専門1Q2。湿式/乾式、在来/工業化工法の分類として出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081d99dcaf6cb4ff022ab",
+        "originalTags": "内装、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "内装",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565350",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "屋根防水・シーリング・雨仕舞",
+      "fields": {
+        "knowledgePoint": "屋根防水・シーリング・雨仕舞",
+        "category": "工法",
+        "frontHtml": "屋根防水・シーリング・雨仕舞 工法 屋顶",
+        "backHtml": "📝 简介 陸屋根防水は防水層の連続と立上り、勾配屋根は材料の重ねと勾配で排水する。シーリングは目地を塞ぎ、二段階防水では一次線を越えた水を二次線と排水孔で外へ戻す。 📋 考试出现形式 用语填空、图解识别、比较说明、论述 📖 过去问相关 2015専門1Q13・2016専門2-2Q12・2024専門1Q3。防水立上り、重ね、二次排水の説明として出題。 🏷 标签 防水 · 屋顶 · 工法",
+        "examForm": "用语填空、图解识别、比较说明、论述",
+        "pastQuestion": "2015専門1Q13・2016専門2-2Q12・2024専門1Q3。防水立上り、重ね、二次排水の説明として出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690810da1e8e34b8f4b6724",
+        "originalTags": "防水、屋顶、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "防水",
+        "屋顶",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565352",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "地盤調査・地盤改良・山留め",
+      "fields": {
+        "knowledgePoint": "地盤調査・地盤改良・山留め",
+        "category": "工法",
+        "frontHtml": "地盤調査・地盤改良・山留め 工法 基礎",
+        "backHtml": "📝 简介 地盤調査は支持力や地層を確認し、地盤改良は軟弱地盤の性質を改善する。山留めは地下掘削時の土圧・地下水を支える仮設。調査、改良、掘削支持を混同しない。 📋 考试出现形式 用语填空、图解识别、比较说明、施工手顺 📖 过去问相关 2014・2017・2022・2024・2026専門1。載荷試験、サンドドレーン、逆打ち、山留め壁・切梁等を出題。 🏷 标签 基礎 · 工法",
+        "examForm": "用语填空、图解识别、比较说明、施工手顺",
+        "pastQuestion": "2014・2017・2022・2024・2026専門1。載荷試験、サンドドレーン、逆打ち、山留め壁・切梁等を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081248f35e8390bd8a296",
+        "originalTags": "基礎、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565354",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "合わせガラス・強化ガラス・複層ガラス",
+      "fields": {
+        "knowledgePoint": "合わせガラス・強化ガラス・複層ガラス",
+        "category": "工法",
+        "frontHtml": "合わせガラス・強化ガラス・複層ガラス 工法 开口",
+        "backHtml": "📝 简介 合わせガラスは中間膜で破片飛散を抑え、強化ガラスは熱処理で強度を高め破損時に粒状化する。複層ガラスは複数枚の間に中空層を設け断熱性を高める。 📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2026専門1Q3。ガラス種類と性能の対応として出題。 🏷 标签 开口 · 工法",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2026専門1Q3。ガラス種類と性能の対応として出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690817eb7e3f902131c2c87",
+        "originalTags": "开口、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "开口",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565356",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "建具の開閉・ガラス固定・排水",
+      "fields": {
+        "knowledgePoint": "建具の開閉・ガラス固定・排水",
+        "category": "工法",
+        "frontHtml": "建具の開閉・ガラス固定・排水 工法 开口",
+        "backHtml": "📝 简介 はめ殺しは開閉しない固定窓。ガラスはガスケットやシーリングで枠に固定し、外側の水密線、内部の気密線、下枠の排水孔で浸入水を外へ戻す。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2014・2015・2022・2026専門1/2-2。建て込み、開閉形式、ガラス壁面の雨水排出を出題。 🏷 标签 开口 · 工法",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2014・2015・2022・2026専門1/2-2。建て込み、開閉形式、ガラス壁面の雨水排出を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081bfb926c970876f0fa4",
+        "originalTags": "开口、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "开口",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565358",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "独立基礎・布基礎・べた基礎",
+      "fields": {
+        "knowledgePoint": "独立基礎・布基礎・べた基礎",
+        "category": "工法",
+        "frontHtml": "独立基礎・布基礎・べた基礎 工法 基礎",
+        "backHtml": "📝 简介 独立基礎は各柱を個別に支持、布基礎は壁や柱列下を連続支持、べた基礎は建物底面全体で支持する。フーチングは基礎底部を広げ、地盤への接地圧を小さくする部分。 📋 考试出现形式 用语填空、图解识别、比较说明 📖 过去问相关 2018専門1Q3・2022専門1Q3。基礎形式とフーチングの名称・形状を出題。 🏷 标签 基礎 · 工法",
+        "examForm": "用语填空、图解识别、比较说明",
+        "pastQuestion": "2018専門1Q3・2022専門1Q3。基礎形式とフーチングの名称・形状を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081f5ac45c3f8dff14c7f",
+        "originalTags": "基礎、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565360",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "外壁・防水・雨仕舞の基本",
+      "fields": {
+        "knowledgePoint": "外壁・防水・雨仕舞の基本",
+        "category": "工法",
+        "frontHtml": "外壁・防水・雨仕舞の基本 工法 外壁 · 屋顶",
+        "backHtml": "📝 简介 防水・雨仕舞は水を止めるだけでなく、侵入した水を外へ排出し、湿気を乾燥させる考え方を含む。屋根勾配、重ね、立上り、シール、通気層、排水口の位置を連続して理解する。 📋 考试出现形式 用语填空、图解识别、比较说明、论述 📖 过去问相关 2015専門1Q13・2016専門2-2Q12・2024専門1Q3。ガラス壁面、茅葺、外壁通気構法等の雨水処理を出題。 🏷 标签 外壁 · 防水 · 屋顶 · 工法",
+        "examForm": "用语填空、图解识别、比较说明、论述",
+        "pastQuestion": "2015専門1Q13・2016専門2-2Q12・2024専門1Q3。ガラス壁面、茅葺、外壁通気構法等の雨水処理を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081209aa8d36cafd48ce7",
+        "originalTags": "外壁、防水、屋顶、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "外壁",
+        "防水",
+        "屋顶",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565362",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "改修・工業化工法の基本",
+      "fields": {
+        "knowledgePoint": "改修・工業化工法の基本",
+        "category": "工法",
+        "frontHtml": "改修・工業化工法の基本 工法",
+        "backHtml": "📝 简介 既存建物の性能向上には耐震補強・制震・免震・レトロフィットを用い、長寿命化にはスケルトン・インフィルや部品更新を活用する。工業化工法は現場作業を工場製作・組立へ置き換える。 📋 考试出现形式 用语填空、比较说明、施工手顺、论述、计算/经济性判断 📖 过去问相关 2016・2017・2020・2022・2024専門1/2-2。在来/工業化、SI、曳家・免震化、免震レトロフィット等を出題。 🏷 标签 耐震 · 工法",
+        "examForm": "用语填空、比较说明、施工手顺、论述、计算/经济性判断",
+        "pastQuestion": "2016・2017・2020・2022・2024専門1/2-2。在来/工業化、SI、曳家・免震化、免震レトロフィット等を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690814d9545ef28481d6f19",
+        "originalTags": "耐震、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "耐震",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565364",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "シェル・トラス・膜構造の基本",
+      "fields": {
+        "knowledgePoint": "シェル・トラス・膜構造の基本",
+        "category": "工法",
+        "frontHtml": "シェル・トラス・膜構造の基本 工法 躯体",
+        "backHtml": "📝 简介 シェルは薄い曲面の面内力、トラスは三角形部材の軸力、スペースフレームは立体格子、膜構造は張力で荷重を伝える。曲げに頼る梁構造との違いと、圧縮材・引張材の関係を理解する。 📋 考试出现形式 用语填空、图解识别、比较说明、论述 📖 过去问相关 2013・2020・2025専門1/2-2。シェル定義、テンセグリティ、膜・空気膜構造等を出題。 🏷 标签 躯体 · 工法",
+        "examForm": "用语填空、图解识别、比较说明、论述",
+        "pastQuestion": "2013・2020・2025専門1/2-2。シェル定義、テンセグリティ、膜・空気膜構造等を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690815e96fdf1eb7b8d3ccb",
+        "originalTags": "躯体、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "躯体",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565366",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "基礎・地盤・地下工事の基本",
+      "fields": {
+        "knowledgePoint": "基礎・地盤・地下工事の基本",
+        "category": "工法",
+        "frontHtml": "基礎・地盤・地下工事の基本 工法 基礎",
+        "backHtml": "📝 简介 建物荷重を地盤へ伝える基礎、地盤の性質を確認する地盤調査、軟弱地盤を改善する地盤改良、地下掘削を安全に行う山留めからなる。各工法が「調査・支持・改良・掘削」のどこに属するかを区別する。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2014・2017・2018・2022・2024・2026専門1。平板載荷試験、サンドドレーン、基礎形式、逆打ち、山留め等を出題。 🏷 标签 基礎 · 工法",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2014・2017・2018・2022・2024・2026専門1。平板載荷試験、サンドドレーン、基礎形式、逆打ち、山留め等を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690818a9185df05dd23f1a2",
+        "originalTags": "基礎、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565368",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "床・天井・内装下地の基本",
+      "fields": {
+        "knowledgePoint": "床・天井・内装下地の基本",
+        "category": "工法",
+        "frontHtml": "床・天井・内装下地の基本 工法 地板 · 天花板 · 内装",
+        "backHtml": "📝 简介 床・壁・天井は仕上げ材だけでなく、下地材、支持材、固定金物から構成される。床組は荷重支持、天井下地は吊り支持、壁下地は仕上げ面形成を担い、湿式と乾式を区別する。 📋 考试出现形式 用语填空、图解识别、部材名称 📖 过去问相关 2016専門1Q2・2019専門1Q3・2025/2026専門1/2-2。乾式工法、床・壁・天井下地部材の識別として確認。 🏷 标签 地板 · 天花板 · 内装 · 工法",
+        "examForm": "用语填空、图解识别、部材名称",
+        "pastQuestion": "2016専門1Q2・2019専門1Q3・2025/2026専門1/2-2。乾式工法、床・壁・天井下地部材の識別として確認。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081c6bc13eb4df306852f",
+        "originalTags": "地板、天花板、内装、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "地板",
+        "天花板",
+        "内装",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565370",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "開口部・ガラスの基本",
+      "fields": {
+        "knowledgePoint": "開口部・ガラスの基本",
+        "category": "工法",
+        "frontHtml": "開口部・ガラスの基本 工法 开口",
+        "backHtml": "📝 简介 開口部は枠・建具・ガラス・シール材で構成し、採光・通風・出入りと同時に雨水、風、熱、音を制御する。ガラス種類、固定方法、建具の開閉方式と排水経路を関連づける。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2014・2015・2019・2022・2026専門1/2-2。フロート法、建て込み、合わせ/複層ガラス、雨水浸入防止を出題。 🏷 标签 开口 · 工法",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2014・2015・2019・2022・2026専門1/2-2。フロート法、建て込み、合わせ/複層ガラス、雨水浸入防止を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081fe8f3dc1f4eb3c29d2",
+        "originalTags": "开口、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "开口",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565372",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "曳家工事",
+      "fields": {
+        "knowledgePoint": "曳家工事",
+        "category": "工法",
+        "frontHtml": "曳家工事 工法 基礎",
+        "backHtml": "📝 简介 既存建物を解体せず、ジャッキ等で一時的に支持してレール・台車などで移動する工事。保存改修や免震化工事と組み合わせて考える。 📋 考试出现形式 施工手顺、图解识别、论述 📖 过去问相关 2022専門2-2Q3。既存RC建物を約10m曳家し、免震構造化して保存する施工手順を断面図・平面図で説明する問題。 🏷 标签 工法 · 基礎",
+        "examForm": "施工手顺、图解识别、论述",
+        "pastQuestion": "2022専門2-2Q3。既存RC建物を約10m曳家し、免震構造化して保存する施工手順を断面図・平面図で説明する問題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690810c9dd8c962443ae730",
+        "originalTags": "工法、基礎"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "工法",
+        "基礎",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565374",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "住宅ストック",
+      "fields": {
+        "knowledgePoint": "住宅ストック",
+        "category": "工法",
+        "frontHtml": "住宅ストック 工法",
+        "backHtml": "📝 简介 既存住宅の蓄積。改修・長寿命化・有効活用の対象となる。 📋 考试出现形式 数值判断、选择题、用语填空 📖 过去问相关 2024専門1Q3。2018年調査の住宅ストック数・空き家数を選択。住宅ストックは約6000万戸、空き家は約800万戸程度。 🏷 标签 工法",
+        "examForm": "数值判断、选择题、用语填空",
+        "pastQuestion": "2024専門1Q3。2018年調査の住宅ストック数・空き家数を選択。住宅ストックは約6000万戸、空き家は約800万戸程度。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081479d2cfbddb1d86812",
+        "originalTags": "工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565376",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "免震化工事",
+      "fields": {
+        "knowledgePoint": "免震化工事",
+        "category": "工法",
+        "frontHtml": "免震化工事 工法 基礎",
+        "backHtml": "📝 简介 建物に免震装置を組み込み、地震動を建物に伝わりにくくする工事。既存建物では基礎部や地下階まわりに免震層を設けることが多い。 📋 考试出现形式 施工手顺、图解识别、论述 📖 过去问相关 2022専門2-2Q3。曳家工事と組み合わせ、建物の仮支持・移動・基礎改修・免震装置設置の流れを説明する問題。 🏷 标签 耐震 · 工法 · 基礎",
+        "examForm": "施工手顺、图解识别、论述",
+        "pastQuestion": "2022専門2-2Q3。曳家工事と組み合わせ、建物の仮支持・移動・基礎改修・免震装置設置の流れを説明する問題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690814eba34fcdfb9b07d6c",
+        "originalTags": "耐震、工法、基礎"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "耐震",
+        "工法",
+        "基礎",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565378",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "スケルトン・インフィル",
+      "fields": {
+        "knowledgePoint": "スケルトン・インフィル",
+        "category": "工法",
+        "frontHtml": "スケルトン・インフィル 工法 躯体 · 内装",
+        "backHtml": "📝 简介 建物の長く使う骨組み・共用部分（スケルトン）と、住戸内の内装・設備（インフィル）を分けて設計する考え方。間取り変更や設備更新をしやすくする。 📋 考试出现形式 论述、案例分析、比较说明 📖 过去问相关 2020専門2-2Q3。スケルトン・インフィル住宅の説明と、NEXT21を例にした長寿命化・可変性・住宅ストック活用の論述として出題。 🏷 标签 工法 · 躯体 · 内装",
+        "examForm": "论述、案例分析、比较说明",
+        "pastQuestion": "2020専門2-2Q3。スケルトン・インフィル住宅の説明と、NEXT21を例にした長寿命化・可変性・住宅ストック活用の論述として出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081778b2bfb8382f8763f",
+        "originalTags": "工法、躯体、内装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "工法",
+        "躯体",
+        "内装",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565380",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "免震レトロフィット",
+      "fields": {
+        "knowledgePoint": "免震レトロフィット",
+        "category": "工法",
+        "frontHtml": "免震レトロフィット 工法 基礎",
+        "backHtml": "📝 简介 既存建物を使い続けるため、建物を壊さずに免震装置を追加する改修工法。基礎下や中間階に免震層を設ける方法がある。 📋 考试出现形式 用语填空、选择题、比较说明 📖 过去问相关 2024専門1Q3。既存建物の耐震性能を高める改修として、免震レトロフィットの用語を選択する問題。住宅ストック活用とも関連。 🏷 标签 耐震 · 工法 · 基礎",
+        "examForm": "用语填空、选择题、比较说明",
+        "pastQuestion": "2024専門1Q3。既存建物の耐震性能を高める改修として、免震レトロフィットの用語を選択する問題。住宅ストック活用とも関連。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690817ab70ecd6a0955d8bc",
+        "originalTags": "耐震、工法、基礎"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "耐震",
+        "工法",
+        "基礎",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565382",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "通気構法",
+      "fields": {
+        "knowledgePoint": "通気構法",
+        "category": "未分類",
+        "frontHtml": "通気構法 外壁",
+        "backHtml": "📝 简介 外壁通気構法は仕上げと下地間に通気層を設け、下部から給気し上部へ排湿、侵入水を排出する。直張りは仕上げを下地へ直接取り付けるため薄いが、排湿・排水経路が少ない。 📋 考试出现形式 用语填空、论述 📖 过去问相关 2024専門1Q3・2026専門2-2Q5。外壁の雨水処理・通気層・耐久性の説明として出題。 🏷 标签 外壁",
+        "examForm": "用语填空、论述",
+        "pastQuestion": "2024専門1Q3・2026専門2-2Q5。外壁の雨水処理・通気層・耐久性の説明として出題。",
+        "sourceUrl": "https://app.notion.com/p/397e961e46908016ab5fcf87b568fa83",
+        "originalTags": "外壁"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "外壁",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565384",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "本瓦茸",
+      "fields": {
+        "knowledgePoint": "本瓦茸",
+        "category": "未分類",
+        "frontHtml": "本瓦茸 屋顶",
+        "backHtml": "📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2014専門1Q3・2024専門1Q3・2026専門1Q3。本瓦葺き・桟瓦葺きなど瓦屋根の名称・違いとして出題。 🏷 标签 屋顶",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2014専門1Q3・2024専門1Q3・2026専門1Q3。本瓦葺き・桟瓦葺きなど瓦屋根の名称・違いとして出題。",
+        "sourceUrl": "https://app.notion.com/p/396e961e469080e18f89f71255498dd3",
+        "originalTags": "屋顶"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "屋顶",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565386",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "シングル葺",
+      "fields": {
+        "knowledgePoint": "シングル葺",
+        "category": "未分類",
+        "frontHtml": "シングル葺 屋顶",
+        "backHtml": "📝 简介 薄い定形の板重ねて、並べたものである。 🏷 标签 屋顶",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/396e961e4690804bb45cf6d0004b0126",
+        "originalTags": "屋顶"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "屋顶",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565388",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "山留め工法",
+      "fields": {
+        "knowledgePoint": "山留め工法",
+        "category": "未分類",
+        "frontHtml": "山留め工法 基礎",
+        "backHtml": "📝 简介 根切り時の土圧・水圧による掘削側面の崩壊や周辺地盤の変形を防ぐ仮設工法。山留め壁、切り梁、腹起し、アンカーなどを組み合わせる。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2024専門1Q3・2026専門1Q3。地下工事の山留め工法、山留め壁、切り梁と関連して出題。 🏷 标签 基礎",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2024専門1Q3・2026専門1Q3。地下工事の山留め工法、山留め壁、切り梁と関連して出題。",
+        "sourceUrl": "https://app.notion.com/p/396e961e4690802ca0a1c153c5c80dec",
+        "originalTags": "基礎"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565390",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "地盤改良工法",
+      "fields": {
+        "knowledgePoint": "地盤改良工法",
+        "category": "工法",
+        "frontHtml": "地盤改良工法 工法 基礎",
+        "backHtml": "📝 简介 軟弱地盤の支持力や沈下特性を改善する工法の総称。サンドドレーンなど、排水・圧密促進による改良方法がある。 📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2017専門1Q3・2022専門1Q3。サンドドレーン、液状化、地盤・基礎工事の関連用語として出題。 🏷 标签 基礎 · 工法",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2017専門1Q3・2022専門1Q3。サンドドレーン、液状化、地盤・基礎工事の関連用語として出題。",
+        "sourceUrl": "https://app.notion.com/p/396e961e46908032a117e2cd4feda99b",
+        "originalTags": "基礎、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "基礎",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565392",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "プレボーリング工法",
+      "fields": {
+        "knowledgePoint": "プレボーリング工法",
+        "category": "工法",
+        "frontHtml": "プレボーリング工法 工法 基礎",
+        "backHtml": "📝 简介 既製杭騒音の対策 📋 考试出现形式 用语填空、施工手顺 📖 过去问相关 2022専門1Q3。杭・基礎工法の一種として、地盤・基礎まわりの総合用語で出題。 🏷 标签 工法 · 基礎",
+        "examForm": "用语填空、施工手顺",
+        "pastQuestion": "2022専門1Q3。杭・基礎工法の一種として、地盤・基礎まわりの総合用語で出題。",
+        "sourceUrl": "https://app.notion.com/p/396e961e469080c784d2e223b1013504",
+        "originalTags": "工法、基礎"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "工法",
+        "基礎",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565394",
+        "deck": "建築構法::共通構法"
+      },
+      "name": "栈瓦葺き",
+      "fields": {
+        "knowledgePoint": "栈瓦葺き",
+        "category": "未分類",
+        "frontHtml": "栈瓦葺き 屋顶",
+        "backHtml": "🏷 标签 屋顶",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/395e961e4690808f8b7de750664832db",
+        "originalTags": "屋顶"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "屋顶",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565396",
+        "deck": "建築構法::木造"
+      },
+      "name": "OSB（配向性ストランドボード）",
+      "fields": {
+        "knowledgePoint": "OSB（配向性ストランドボード）",
+        "category": "材料",
+        "frontHtml": "OSB（配向性ストランドボード） 材料",
+        "backHtml": "📝 简介 細長い木片を配向させて接着成形した木質ボード。 📋 考试出现形式 用语填空 📖 过去问相关 2025専門1Q3・2026専門1Q3系。木質系材料の分類として、合板・パーティクルボード・繊維板と合わせて確認。 🏷 标签 木造 · 材料",
+        "examForm": "用语填空",
+        "pastQuestion": "2025専門1Q3・2026専門1Q3系。木質系材料の分類として、合板・パーティクルボード・繊維板と合わせて確認。",
+        "sourceUrl": "https://app.notion.com/p/399e961e46908112b445ebed3124f141",
+        "originalTags": "木造、材料"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "材料",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565398",
+        "deck": "建築構法::木造"
+      },
+      "name": "CLT（直交集成板）",
+      "fields": {
+        "knowledgePoint": "CLT（直交集成板）",
+        "category": "材料",
+        "frontHtml": "CLT（直交集成板） 材料",
+        "backHtml": "📝 简介 ひき板を繊維方向が直交するように積層接着した木質系構造材料。 📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2025専門1Q3・2026専門1Q3。木質系材料の種類・特徴として、LVL・集成材・合板と比較して出題。 🏷 标签 木造 · 材料",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2025専門1Q3・2026専門1Q3。木質系材料の種類・特徴として、LVL・集成材・合板と比較して出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690813d8c32d8ff60ed4fad",
+        "originalTags": "木造、材料"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "材料",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565400",
+        "deck": "建築構法::木造"
+      },
+      "name": "集成材",
+      "fields": {
+        "knowledgePoint": "集成材",
+        "category": "材料",
+        "frontHtml": "集成材 材料",
+        "backHtml": "📝 简介 ひき板や小角材を繊維方向をほぼ平行にして積層接着した木質材料。 📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2015専門1Q2・2016専門1Q2・2025専門1Q3・2026専門1Q3。CLT・LVLとの違いとして出題。 🏷 标签 木造 · 材料",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2015専門1Q2・2016専門1Q2・2025専門1Q3・2026専門1Q3。CLT・LVLとの違いとして出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081759579fa1a3fdec4d8",
+        "originalTags": "木造、材料"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "材料",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference",
+        "duplicate-name"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565402",
+        "deck": "建築構法::木造"
+      },
+      "name": "土台",
+      "fields": {
+        "knowledgePoint": "土台",
+        "category": "材料",
+        "frontHtml": "土台 材料",
+        "backHtml": "📝 简介 地盤に近いので腐りやすく，ありの害を受けやすい。そのため防腐·防蟻処理を施す 📋 考试出现形式 图解识别、部材名称 📖 过去问相关 2013専門1Q2・2025専門1Q3。木造軸組の基礎上部材として、柱・大引・根太などと合わせて出題。 🏷 标签 木造 · 材料",
+        "examForm": "图解识别、部材名称",
+        "pastQuestion": "2013専門1Q2・2025専門1Q3。木造軸組の基礎上部材として、柱・大引・根太などと合わせて出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080229505c473b6668d6a",
+        "originalTags": "木造、材料"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "材料",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565404",
+        "deck": "建築構法::木造"
+      },
+      "name": "木質系構造材料",
+      "fields": {
+        "knowledgePoint": "木質系構造材料",
+        "category": "未分類",
+        "frontHtml": "木質系構造材料",
+        "backHtml": "📝 简介 集成材による柱、構造用合板、パーティクルポード、木質Iビ一ム 📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2015専門1Q2・2016専門1Q2・2019専門1Q3・2025専門1Q3・2026専門1Q3。CLT、LVL、集成材など木質系材料の名称・特徴として出題。 🏷 标签 木造",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2015専門1Q2・2016専門1Q2・2019専門1Q3・2025専門1Q3・2026専門1Q3。CLT、LVL、集成材など木質系材料の名称・特徴として出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080edad14d171a8880be6",
+        "originalTags": "木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565406",
+        "deck": "建築構法::木造"
+      },
+      "name": "乾燥材",
+      "fields": {
+        "knowledgePoint": "乾燥材",
+        "category": "材料",
+        "frontHtml": "乾燥材 材料",
+        "backHtml": "📝 简介 厚さ38mm，幅89mm 📋 考试出现形式 用语填空 📖 过去问相关 2015専門1Q2・2025専門1Q3。木材の含水率や乾燥状態、木質材料の性質として出題。 🏷 标签 木造 · 材料",
+        "examForm": "用语填空",
+        "pastQuestion": "2015専門1Q2・2025専門1Q3。木材の含水率や乾燥状態、木質材料の性質として出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e46908026b1cedac3cb90855f",
+        "originalTags": "木造、材料"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "材料",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565408",
+        "deck": "建築構法::木造"
+      },
+      "name": "加工樹種",
+      "fields": {
+        "knowledgePoint": "加工樹種",
+        "category": "材料",
+        "frontHtml": "加工樹種 材料",
+        "backHtml": "📝 简介 繊維が素直で軽く，加工が容易な針葉樹が適している 📋 考试出现形式 用语填空 📖 过去问相关 2015専門1Q2・2025専門1Q3。木材・木質材料の基本性質、加工材や集成材の文脈で出題。 🏷 标签 木造 · 材料",
+        "examForm": "用语填空",
+        "pastQuestion": "2015専門1Q2・2025専門1Q3。木材・木質材料の基本性質、加工材や集成材の文脈で出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e4690801f9ad2e283c5160a6f",
+        "originalTags": "木造、材料"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "材料",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565410",
+        "deck": "建築構法::木造"
+      },
+      "name": "含水率",
+      "fields": {
+        "knowledgePoint": "含水率",
+        "category": "概念",
+        "frontHtml": "含水率 概念",
+        "backHtml": "📝 简介 木材の絶乾重量に対する水分の含有量の比率 📋 考试出现形式 用语填空、数值判断 📖 过去问相关 2015専門1Q2・2025専門1Q3。木材の含水率・乾燥材/未乾燥材の性質として出題。 🏷 标签 木造 · 概念",
+        "examForm": "用语填空、数值判断",
+        "pastQuestion": "2015専門1Q2・2025専門1Q3。木材の含水率・乾燥材/未乾燥材の性質として出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080649990c39f9f43a3aa",
+        "originalTags": "木造、概念"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "概念",
+        "建築構法図鑑"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565412",
+        "deck": "建築構法::木造"
+      },
+      "name": "集成材",
+      "fields": {
+        "knowledgePoint": "集成材",
+        "category": "部材",
+        "frontHtml": "集成材 部材",
+        "backHtml": "📝 简介 ひき板や小角材を繊維方向をほぼ平行にして積層接着した木質材料。 🏷 标签 木造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/39ae961e4690800fb1f7e070e0ea0b27",
+        "originalTags": "木造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference",
+        "duplicate-name"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565414",
+        "deck": "建築構法::木造"
+      },
+      "name": "CLT",
+      "fields": {
+        "knowledgePoint": "CLT",
+        "category": "部材",
+        "frontHtml": "CLT 部材",
+        "backHtml": "📝 简介 ひき板を繊維方向が直交するように積層接着した木質系構造材料 🏷 标签 木造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/39ae961e469080f694d0d10adfef7782",
+        "originalTags": "木造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565416",
+        "deck": "建築構法::木造"
+      },
+      "name": "小屋梁・小屋束・雲筋かい",
+      "fields": {
+        "knowledgePoint": "小屋梁・小屋束・雲筋かい",
+        "category": "部材",
+        "frontHtml": "小屋梁・小屋束・雲筋かい 部材 屋顶",
+        "backHtml": "📝 简介 和小屋の主要部材。小屋梁は柱・軒桁間に架け、小屋束はその上に立って母屋・棟木を支える。雲筋かいは小屋束間に斜めに入れ、小屋組の横倒れを防ぐ。 📋 考试出现形式 图解识别、部材名称、比较说明 📖 过去问相关 2014専門2-2Q10・2018専門2-2Q3・2019専門1Q3。和小屋図中の小屋梁・小屋束などの名称と位置を問う。 🏷 标签 木造 · 屋顶 · 部材",
+        "examForm": "图解识别、部材名称、比较说明",
+        "pastQuestion": "2014専門2-2Q10・2018専門2-2Q3・2019専門1Q3。和小屋図中の小屋梁・小屋束などの名称と位置を問う。",
+        "sourceUrl": "https://app.notion.com/p/399e961e46908170a7f8d6123991c2b1",
+        "originalTags": "木造、屋顶、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "屋顶",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565418",
+        "deck": "建築構法::木造"
+      },
+      "name": "陸梁・合掌・真束・対束",
+      "fields": {
+        "knowledgePoint": "陸梁・合掌・真束・対束",
+        "category": "部材",
+        "frontHtml": "陸梁・合掌・真束・対束 部材 屋顶",
+        "backHtml": "📝 简介 洋小屋の主要部材。陸梁はトラス下弦、合掌は屋根勾配に沿う斜材。真束は中央1本の竖材、対束は左右2本の竖材で、三角形の軸力によって屋根荷重を伝える。 📋 考试出现形式 图解识别、部材名称、比较说明 📖 过去问相关 2018専門2-2Q3・2019専門1Q3。洋小屋と和小屋・扠首組の比較、図中部材の名称として出題。 🏷 标签 木造 · 屋顶 · 部材",
+        "examForm": "图解识别、部材名称、比较说明",
+        "pastQuestion": "2018専門2-2Q3・2019専門1Q3。洋小屋と和小屋・扠首組の比較、図中部材の名称として出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081f4a2e2e12736868844",
+        "originalTags": "木造、屋顶、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "屋顶",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565420",
+        "deck": "建築構法::木造"
+      },
+      "name": "土台・柱・横架材",
+      "fields": {
+        "knowledgePoint": "土台・柱・横架材",
+        "category": "部材",
+        "frontHtml": "土台・柱・横架材 部材",
+        "backHtml": "📝 简介 土台は基礎上に据えて柱を受ける水平材、柱は鉛直荷重を下へ伝える垂直材、梁・桁・胴差などの横架材は柱同士をつないで床・屋根荷重を支える。軸組図では方向と階の位置で区別する。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2013専門1Q2・2016専門1Q2・2019専門1Q3・2025専門1Q3。木造軸組図から土台・柱・梁・桁・胴差などを識別する。 🏷 标签 木造 · 部材",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2013専門1Q2・2016専門1Q2・2019専門1Q3・2025専門1Q3。木造軸組図から土台・柱・梁・桁・胴差などを識別する。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081ffb00fd218da53b2a0",
+        "originalTags": "木造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565422",
+        "deck": "建築構法::木造"
+      },
+      "name": "本瓦葺きと栈瓦葺き",
+      "fields": {
+        "knowledgePoint": "本瓦葺きと栈瓦葺き",
+        "category": "组装",
+        "frontHtml": "本瓦葺きと栈瓦葺き 组装",
+        "backHtml": "🏷 标签 木造 · 组装",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/395e961e469080079a6afbb305579521",
+        "originalTags": "木造、组装"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "组装",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565424",
+        "deck": "建築構法::木造"
+      },
+      "name": "ほぞ",
+      "fields": {
+        "knowledgePoint": "ほぞ",
+        "category": "未分類",
+        "frontHtml": "ほぞ",
+        "backHtml": "📝 简介 木材・石材などを接合するときに一方の材にあけた穴に差し込むために、他方の材の一端につくった突起 📋 考试出现形式 图解识别、部材名称 📖 过去问相关 2013専門1Q2・2022専門1Q3・2024専門1Q3・2026専門2-2Q5。木造の継手・仕口に関する部材/接合用語として出題。 🏷 标签 木造",
+        "examForm": "图解识别、部材名称",
+        "pastQuestion": "2013専門1Q2・2022専門1Q3・2024専門1Q3・2026専門2-2Q5。木造の継手・仕口に関する部材/接合用語として出題。",
+        "sourceUrl": "https://app.notion.com/p/395e961e46908033a7a5d511ce647019",
+        "originalTags": "木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565426",
+        "deck": "建築構法::木造"
+      },
+      "name": "木質材料の構造・特性まとめ",
+      "fields": {
+        "knowledgePoint": "木質材料の構造・特性まとめ",
+        "category": "未分類",
+        "frontHtml": "木質材料の構造・特性まとめ",
+        "backHtml": "🏷 标签 木造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/395e961e4690804d9e44e828659f1711",
+        "originalTags": "木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565428",
+        "deck": "建築構法::木造"
+      },
+      "name": "まぐさ",
+      "fields": {
+        "knowledgePoint": "まぐさ",
+        "category": "部材",
+        "frontHtml": "まぐさ 部材",
+        "backHtml": "📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2013専門1Q2・2026専門2-2Q5。開口部上部の横材として、組積造・木造の部材名で問われる。 🏷 标签 木造 · 部材",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2013専門1Q2・2026専門2-2Q5。開口部上部の横材として、組積造・木造の部材名で問われる。",
+        "sourceUrl": "https://app.notion.com/p/395e961e46908046b2d8f09f920a0449",
+        "originalTags": "木造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference",
+        "duplicate-name"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565430",
+        "deck": "建築構法::木造"
+      },
+      "name": "合板",
+      "fields": {
+        "knowledgePoint": "合板",
+        "category": "未分類",
+        "frontHtml": "合板 壁",
+        "backHtml": "📝 简介 単板(ベニア)を繊維の向きを直交させて奇数枚積層接着したもの 🏷 标签 木造 · 壁",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/395e961e469080b9bbfbcf4a154b4d13",
+        "originalTags": "木造、壁"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "壁",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565432",
+        "deck": "建築構法::木造"
+      },
+      "name": "木材の構造と直交異方性",
+      "fields": {
+        "knowledgePoint": "木材の構造と直交異方性",
+        "category": "未分類",
+        "frontHtml": "木材の構造と直交異方性",
+        "backHtml": "🏷 标签 木造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/395e961e4690804ea0ccee630872fc37",
+        "originalTags": "木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565434",
+        "deck": "建築構法::木造"
+      },
+      "name": "在来構法の施工",
+      "fields": {
+        "knowledgePoint": "在来構法の施工",
+        "category": "未分類",
+        "frontHtml": "在来構法の施工",
+        "backHtml": "🏷 标签 木造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/395e961e46908030911ad915b4c8ffac",
+        "originalTags": "木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565436",
+        "deck": "建築構法::木造"
+      },
+      "name": "方立",
+      "fields": {
+        "knowledgePoint": "方立",
+        "category": "部材",
+        "frontHtml": "方立 部材",
+        "backHtml": "📝 简介 開口部の位置や幅に合わせて取り付けた細長いたて材だぞ。 🏷 标签 木造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/394e961e4690803ba80df0199eab5a55",
+        "originalTags": "木造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565438",
+        "deck": "建築構法::木造"
+      },
+      "name": "方づえ",
+      "fields": {
+        "knowledgePoint": "方づえ",
+        "category": "部材",
+        "frontHtml": "方づえ 部材",
+        "backHtml": "📝 简介 方づえは柱と横架材の交点の入隅部分において柱と横架材を斜めに結んで、隅を固める部材だぞ。 📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2018専門2-2Q3・2026専門1Q3。木造小屋組や軸組の図解で補強部材として問われる。 🏷 标签 木造 · 部材",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2018専門2-2Q3・2026専門1Q3。木造小屋組や軸組の図解で補強部材として問われる。",
+        "sourceUrl": "https://app.notion.com/p/394e961e46908027b9fcd468984a8a81",
+        "originalTags": "木造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565440",
+        "deck": "建築構法::木造"
+      },
+      "name": "筋かい",
+      "fields": {
+        "knowledgePoint": "筋かい",
+        "category": "未分類",
+        "frontHtml": "筋かい",
+        "backHtml": "📝 简介 木造軸組の柱と横架材で囲まれた面に斜めに入れる部材。地震・風による水平力に抵抗し、軸組が平行四辺形に変形するのを防ぐ。端部の接合金物も重要。 📋 考试出现形式 图解识别、部材名称 📖 过去问相关 2013専門1Q2・2025専門1Q3。木造軸組の耐力要素として、在来軸組構法の図解や用語で出題。 🏷 标签 木造",
+        "examForm": "图解识别、部材名称",
+        "pastQuestion": "2013専門1Q2・2025専門1Q3。木造軸組の耐力要素として、在来軸組構法の図解や用語で出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080e1a360ecbee7924d46",
+        "originalTags": "木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565442",
+        "deck": "建築構法::木造"
+      },
+      "name": "敷桁と敷梁",
+      "fields": {
+        "knowledgePoint": "敷桁と敷梁",
+        "category": "部材",
+        "frontHtml": "敷桁と敷梁 部材",
+        "backHtml": "📝 简介 外周廻りの桁は軒桁、敷梁は軒桁と平行 🏷 标签 木造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/394e961e4690806cbffcdc6a3abef72b",
+        "originalTags": "木造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565444",
+        "deck": "建築構法::木造"
+      },
+      "name": "桁",
+      "fields": {
+        "knowledgePoint": "桁",
+        "category": "未分類",
+        "frontHtml": "桁",
+        "backHtml": "📝 简介 柱の頭を連結する横架材である 📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2016専門1Q2・2018専門2-2Q3。木造小屋組・屋根部材の名称として出題。 🏷 标签 木造",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2016専門1Q2・2018専門2-2Q3。木造小屋組・屋根部材の名称として出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080fb84abe1afee41d018",
+        "originalTags": "木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565446",
+        "deck": "建築構法::木造"
+      },
+      "name": "胴差",
+      "fields": {
+        "knowledgePoint": "胴差",
+        "category": "部材",
+        "frontHtml": "胴差 部材",
+        "backHtml": "📝 简介 1階と2階の管柱の間に設けられる横架材 🏷 标签 部材 · 木造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/394e961e46908047b0f1f60266329141",
+        "originalTags": "部材、木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "部材",
+        "木造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565448",
+        "deck": "建築構法::木造"
+      },
+      "name": "アンカーボルト（木造土台）",
+      "fields": {
+        "knowledgePoint": "アンカーボルト（木造土台）",
+        "category": "部材",
+        "frontHtml": "アンカーボルト（木造土台） 部材",
+        "backHtml": "📝 简介 木造の土台を鉄筋コンクリート基礎に固定するボルト。水平力による土台の移動や浮上りを防ぎ、耐力壁付近や土台継手付近などに適切に配置する。 📋 考试出现形式 用语填空、图解识别、部材名称 📖 过去问相关 2018専門1Q3・2019専門1Q3・2025専門1Q3。木造基礎・土台まわりの固定部材として出題。 🏷 标签 木造 · 部材",
+        "examForm": "用语填空、图解识别、部材名称",
+        "pastQuestion": "2018専門1Q3・2019専門1Q3・2025専門1Q3。木造基礎・土台まわりの固定部材として出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e46908019a243ff2eaa47b676",
+        "originalTags": "木造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565450",
+        "deck": "建築構法::木造"
+      },
+      "name": "火打土台",
+      "fields": {
+        "knowledgePoint": "火打土台",
+        "category": "部材",
+        "frontHtml": "火打土台 部材",
+        "backHtml": "🏷 标签 木造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080a4a0a4d9d577d54079",
+        "originalTags": "木造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565452",
+        "deck": "建築構法::木造"
+      },
+      "name": "真壁と大壁",
+      "fields": {
+        "knowledgePoint": "真壁と大壁",
+        "category": "未分類",
+        "frontHtml": "真壁と大壁 壁",
+        "backHtml": "📝 简介 目に見える大きな違いは「化粧の木材が見えているか否か」ということ 📋 考试出现形式 图解识别、比较说明 📖 过去问相关 2013専門1Q2・2015専門1Q2。木造壁構法として、真壁・大壁の違いを図解で確認。 🏷 标签 壁 · 木造",
+        "examForm": "图解识别、比较说明",
+        "pastQuestion": "2013専門1Q2・2015専門1Q2。木造壁構法として、真壁・大壁の違いを図解で確認。",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080ab9bcbfdb3115a5358",
+        "originalTags": "壁、木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "壁",
+        "木造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565454",
+        "deck": "建築構法::木造"
+      },
+      "name": "火打梁",
+      "fields": {
+        "knowledgePoint": "火打梁",
+        "category": "部材",
+        "frontHtml": "火打梁 部材",
+        "backHtml": "📝 简介 構造物の水平方向のひずみを防止、梁と桁などの直行する横架材の補強を目的とした梁です。井部分などに隅に斜めの梁がかかっているものが、火打梁ですね。 🏷 标签 木造 · 部材",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/394e961e46908028b563ca58486bb437",
+        "originalTags": "木造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565456",
+        "deck": "建築構法::木造"
+      },
+      "name": "LVL",
+      "fields": {
+        "knowledgePoint": "LVL",
+        "category": "未分類",
+        "frontHtml": "LVL",
+        "backHtml": "📝 简介 薄い単板を繊維方向を平行にして張り合わせたもの 📋 考试出现形式 用语填空、图解识别 📖 过去问相关 2015専門1Q2・2016専門1Q2・2025専門1Q3・2026専門1Q3。木質系材料の種類として、CLT・集成材などと合わせて問われる。 🏷 标签 木造",
+        "examForm": "用语填空、图解识别",
+        "pastQuestion": "2015専門1Q2・2016専門1Q2・2025専門1Q3・2026専門1Q3。木質系材料の種類として、CLT・集成材などと合わせて問われる。",
+        "sourceUrl": "https://app.notion.com/p/394e961e4690803fb18ee468916a5528",
+        "originalTags": "木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565458",
+        "deck": "建築構法::木造"
+      },
+      "name": "扠首組（さすぐみ）",
+      "fields": {
+        "knowledgePoint": "扠首組（さすぐみ）",
+        "category": "工法",
+        "frontHtml": "扠首組（さすぐみ） 工法 屋顶",
+        "backHtml": "📝 简介 二本の扠首を棟付近で合掌状に組み、三角形をつくって屋根荷重を支える伝統的小屋組。柱の上に小屋束を立てる和小屋とは力の伝え方が異なる。 📋 考试出现形式 图解识别、部材名称、比较说明、论述 📖 过去问相关 2018専門2-2Q3。扠首組の特徴を説明し、和小屋・洋小屋など他の小屋組と比較する問題。 🏷 标签 木造 · 屋顶 · 工法",
+        "examForm": "图解识别、部材名称、比较说明、论述",
+        "pastQuestion": "2018専門2-2Q3。扠首組の特徴を説明し、和小屋・洋小屋など他の小屋組と比較する問題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690814589b5f40155756f39",
+        "originalTags": "木造、屋顶、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "屋顶",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565460",
+        "deck": "建築構法::木造"
+      },
+      "name": "木造小屋組・屋根の基本",
+      "fields": {
+        "knowledgePoint": "木造小屋組・屋根の基本",
+        "category": "工法",
+        "frontHtml": "木造小屋組・屋根の基本 工法 屋顶",
+        "backHtml": "📝 简介 小屋組は屋根荷重を柱・壁へ伝える骨組。和小屋は小屋束で母屋を支える鉛直材中心の構成、洋小屋は三角形のトラスで荷重を伝える。棟木・母屋・垂木・野地板の上下関係を図で理解する。 📋 考试出现形式 图解识别、部材名称、比较说明、论述 📖 过去问相关 2014専門2-2Q10・2018専門2-2Q3・2019専門1Q3・2026専門1Q3。屋根伏、小屋組形式、部材名称と機能を問う。 🏷 标签 木造 · 屋顶 · 工法",
+        "examForm": "图解识别、部材名称、比较说明、论述",
+        "pastQuestion": "2014専門2-2Q10・2018専門2-2Q3・2019専門1Q3・2026専門1Q3。屋根伏、小屋組形式、部材名称と機能を問う。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690815aa40df25487f155e1",
+        "originalTags": "木造、屋顶、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "屋顶",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565462",
+        "deck": "建築構法::木造"
+      },
+      "name": "大断面集成材構法",
+      "fields": {
+        "knowledgePoint": "大断面集成材構法",
+        "category": "未分類",
+        "frontHtml": "大断面集成材構法 躯体",
+        "backHtml": "🏷 标签 木造 · 躯体",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/395e961e469080b7adefe0bab043ed4b",
+        "originalTags": "木造、躯体"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "躯体",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565464",
+        "deck": "建築構法::木造"
+      },
+      "name": "プラットフォーム構法",
+      "fields": {
+        "knowledgePoint": "プラットフォーム構法",
+        "category": "未分類",
+        "frontHtml": "プラットフォーム構法",
+        "backHtml": "📝 简介 platform construction 生産性に関しては，所要工数が少なく，大工の熟練を要しない点が特徵である。 気密性が高くそのため遮音性や断熱性の確保が容易であるといった長所 📋 考试出现形式 用语填空、比较说明 📖 过去问相关 2013専門1Q2・2015専門1Q2。枠組壁工法として、在来軸組構法や木造大壁と比較される。 🏷 标签 木造",
+        "examForm": "用语填空、比较说明",
+        "pastQuestion": "2013専門1Q2・2015専門1Q2。枠組壁工法として、在来軸組構法や木造大壁と比較される。",
+        "sourceUrl": "https://app.notion.com/p/395e961e46908064b42df98acb6f6c2a",
+        "originalTags": "木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565466",
+        "deck": "建築構法::木造"
+      },
+      "name": "寄棟屋根の小屋組",
+      "fields": {
+        "knowledgePoint": "寄棟屋根の小屋組",
+        "category": "未分類",
+        "frontHtml": "寄棟屋根の小屋組",
+        "backHtml": "📝 简介 寄棟屋根では四方向に屋根面が下がり、棟木・隅木・垂木などで小屋組を構成する。図では隅木の向きと屋根伏形状を押さえる。 📋 考试出现形式 图解识别、部材名称、论述 📖 过去问相关 2014専門2-2Q10。木造軸組建築に寄棟屋根をかけた場合の屋根伏形状を図示する問題として出題。 🏷 标签 木造",
+        "examForm": "图解识别、部材名称、论述",
+        "pastQuestion": "2014専門2-2Q10。木造軸組建築に寄棟屋根をかけた場合の屋根伏形状を図示する問題として出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e4690800d8b1bea8cfb0e3ae0",
+        "originalTags": "木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565468",
+        "deck": "建築構法::木造"
+      },
+      "name": "和小屋全体(切妻屋根)",
+      "fields": {
+        "knowledgePoint": "和小屋全体(切妻屋根)",
+        "category": "未分類",
+        "frontHtml": "和小屋全体(切妻屋根)",
+        "backHtml": "🏷 标签 木造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080b0a5accd394bd6bef3",
+        "originalTags": "木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565470",
+        "deck": "建築構法::木造"
+      },
+      "name": "小屋梁と軒桁",
+      "fields": {
+        "knowledgePoint": "小屋梁と軒桁",
+        "category": "工法",
+        "frontHtml": "小屋梁と軒桁 工法",
+        "backHtml": "📝 简介 小屋梁は柱・軒桁間に架けて小屋組を受け、軒桁は外周柱上で垂木や小屋梁を受ける。位置関係を図で確認するための補助ページ。 📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2014専門2-2Q10・2018専門2-2Q3。小屋梁・軒桁の位置関係や小屋組名称として出題。 🏷 标签 木造 · 工法",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2014専門2-2Q10・2018専門2-2Q3。小屋梁・軒桁の位置関係や小屋組名称として出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e46908095942bfcecab4f6649",
+        "originalTags": "木造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565472",
+        "deck": "建築構法::木造"
+      },
+      "name": "二重梁小屋",
+      "fields": {
+        "knowledgePoint": "二重梁小屋",
+        "category": "未分類",
+        "frontHtml": "二重梁小屋 躯体",
+        "backHtml": "🏷 标签 木造 · 躯体",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080248473c7cc7018940e",
+        "originalTags": "木造、躯体"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "躯体",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565474",
+        "deck": "建築構法::木造"
+      },
+      "name": "洋小屋",
+      "fields": {
+        "knowledgePoint": "洋小屋",
+        "category": "未分類",
+        "frontHtml": "洋小屋",
+        "backHtml": "📝 简介 三角形のトラスを基本とし、合掌・陸梁・真束などで屋根荷重を軸力として伝える小屋組。比較的大きなスパンに対応しやすく、和小屋との構成差を図で理解する。 📋 考试出现形式 比较说明、图解识别 📖 过去问相关 2018専門2-2Q3・2019専門1Q3。和小屋・扠首組との比較で、小屋組形式の特徴を説明する形で出題。 🏷 标签 木造",
+        "examForm": "比较说明、图解识别",
+        "pastQuestion": "2018専門2-2Q3・2019専門1Q3。和小屋・扠首組との比較で、小屋組形式の特徴を説明する形で出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e4690804caeafc8e34a0ab48b",
+        "originalTags": "木造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565476",
+        "deck": "建築構法::木造"
+      },
+      "name": "和小屋",
+      "fields": {
+        "knowledgePoint": "和小屋",
+        "category": "未分類",
+        "frontHtml": "和小屋 躯体",
+        "backHtml": "📝 简介 日本の在来木造で一般的な小屋組。小屋梁の上に小屋束を立て、その上の母屋・棟木で垂木を支える。鉛直材が多く、小屋裏空間は洋小屋より細かく分かれる。 📋 考试出现形式 图解识别、部材名称、比较说明 📖 过去问相关 2014専門2-2Q10・2018専門2-2Q3・2019専門1Q3。小屋組の形式や部材名称として出題。 🏷 标签 木造 · 躯体",
+        "examForm": "图解识别、部材名称、比较说明",
+        "pastQuestion": "2014専門2-2Q10・2018専門2-2Q3・2019専門1Q3。小屋組の形式や部材名称として出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080809f19cd888be29c8c",
+        "originalTags": "木造、躯体"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "躯体",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565478",
+        "deck": "建築構法::木造"
+      },
+      "name": "柱と横架材",
+      "fields": {
+        "knowledgePoint": "柱と横架材",
+        "category": "工法",
+        "frontHtml": "柱と横架材 工法",
+        "backHtml": "📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2025専門1Q3。木造軸組の柱と横架材の接合・部材名称として出題。 🏷 标签 木造 · 工法",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2025専門1Q3。木造軸組の柱と横架材の接合・部材名称として出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080bc9d01cf4e47e30e51",
+        "originalTags": "木造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565480",
+        "deck": "建築構法::木造"
+      },
+      "name": "布基礎·アンカーボルトと換気口の取付け",
+      "fields": {
+        "knowledgePoint": "布基礎·アンカーボルトと換気口の取付け",
+        "category": "工法",
+        "frontHtml": "布基礎·アンカーボルトと換気口の取付け 工法",
+        "backHtml": "🏷 标签 木造 · 工法",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/394e961e4690801dbe1bff91189dbcb2",
+        "originalTags": "木造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565482",
+        "deck": "建築構法::木造"
+      },
+      "name": "在来軸組構法の基本",
+      "fields": {
+        "knowledgePoint": "在来軸組構法の基本",
+        "category": "未分類",
+        "frontHtml": "在来軸組構法の基本 躯体",
+        "backHtml": "📝 简介 土台・柱・梁などの線状部材で骨組をつくる日本の代表的な木造構法。鉛直荷重は柱・梁で、地震や風の水平力は筋かい・耐力壁で負担し、接合部は仕口・継手や金物で補強する。 📋 考试出现形式 图解识别、部材名称、比较说明 📖 过去问相关 2013専門1Q2・2015専門1Q2・2025専門1Q3。土台・柱・梁・筋かいなどの図解識別、木質系材料と合わせて出題。 🏷 标签 木造 · 躯体",
+        "examForm": "图解识别、部材名称、比较说明",
+        "pastQuestion": "2013専門1Q2・2015専門1Q2・2025専門1Q3。土台・柱・梁・筋かいなどの図解識別、木質系材料と合わせて出題。",
+        "sourceUrl": "https://app.notion.com/p/394e961e469080a79626ee96ede4f39b",
+        "originalTags": "木造、躯体"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "木造",
+        "躯体",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565484",
+        "deck": "建築構法::構造比較"
+      },
+      "name": "SRC造とCFT造の違い",
+      "fields": {
+        "knowledgePoint": "SRC造とCFT造の違い",
+        "category": "未分類",
+        "frontHtml": "SRC造とCFT造の違い 躯体",
+        "backHtml": "📝 简介 SRC造は鉄骨骨組の周囲に鉄筋を配しコンクリートで包む。CFT造は鋼管柱内部にコンクリートを充填する。SRCは複合断面全体、CFTは鋼管柱の拘束効果と充填コンクリートを利用する。 📋 考试出现形式 用语填空、图解识别、比较说明 📖 过去问相关 2017・2022専門1Q3。鋼管柱、ダイアフラム、CFT柱梁接合等と合わせて出題。 🏷 标签 SRC造 · CFT造 · 躯体",
+        "examForm": "用语填空、图解识别、比较说明",
+        "pastQuestion": "2017・2022専門1Q3。鋼管柱、ダイアフラム、CFT柱梁接合等と合わせて出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690816790deca6d6de7010e",
+        "originalTags": "SRC造、CFT造、躯体"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "SRC造",
+        "CFT造",
+        "躯体",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565486",
+        "deck": "建築構法::構造比較"
+      },
+      "name": "PC・SRC・CFT構造の基本",
+      "fields": {
+        "knowledgePoint": "PC・SRC・CFT構造の基本",
+        "category": "未分類",
+        "frontHtml": "PC・SRC・CFT構造の基本 躯体",
+        "backHtml": "📝 简介 PCaは部材を工場製作して現場組立て、PCは緊張材でコンクリートに圧縮力を導入する。SRCは鉄骨をRCで包み、CFTは鋼管内にコンクリートを充填する。材料の組合せと施工順序を区別する。 📋 考试出现形式 用语填空、图解识别、比较说明、论述 📖 过去问相关 2017・2022・2023専門1/2-2。CFT接合、PCa・PC定義、プレキャストシェルとの関係を出題。 🏷 标签 PC造 · SRC造 · CFT造 · 躯体",
+        "examForm": "用语填空、图解识别、比较说明、论述",
+        "pastQuestion": "2017・2022・2023専門1/2-2。CFT接合、PCa・PC定義、プレキャストシェルとの関係を出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081b49a1ecab6b6f93947",
+        "originalTags": "PC造、SRC造、CFT造、躯体"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "PC造",
+        "SRC造",
+        "CFT造",
+        "躯体",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565488",
+        "deck": "建築構法::組積造"
+      },
+      "name": "コンクリートブロック塀(CB塀)",
+      "fields": {
+        "knowledgePoint": "コンクリートブロック塀(CB塀)",
+        "category": "未分類",
+        "frontHtml": "コンクリートブロック塀(CB塀)",
+        "backHtml": "📝 简介 比較的容易に施工できるために，広く普及している。ただ，あまりに安易に設計·施工されている例も多く，不十分な配筋のために地震で倒壊して死傷事故につながることも少なくない 📋 考试出现形式 用语填空、论述 📖 过去问相关 2013専門1Q2・2022専門1Q3。組積造・非耐力壁・耐力壁制限の文脈で、CB塀の構成や注意点として出題。 🏷 标签 組積造",
+        "examForm": "用语填空、论述",
+        "pastQuestion": "2013専門1Q2・2022専門1Q3。組積造・非耐力壁・耐力壁制限の文脈で、CB塀の構成や注意点として出題。",
+        "sourceUrl": "https://app.notion.com/p/38ae961e4690801fb457f4902f6d7764",
+        "originalTags": "組積造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "組積造",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565490",
+        "deck": "建築構法::組積造"
+      },
+      "name": "まぐさ",
+      "fields": {
+        "knowledgePoint": "まぐさ",
+        "category": "部材",
+        "frontHtml": "まぐさ 部材",
+        "backHtml": "📋 考试出现形式 部材名称、图解识别 📖 过去问相关 2013専門1Q2・2023専門1Q3。組積造や木造の開口部上部材として名称を問う形式で出題。 🏷 标签 組積造 · 部材",
+        "examForm": "部材名称、图解识别",
+        "pastQuestion": "2013専門1Q2・2023専門1Q3。組積造や木造の開口部上部材として名称を問う形式で出題。",
+        "sourceUrl": "https://app.notion.com/p/38ae961e469080c2a6c9d8ad55e9b43e",
+        "originalTags": "組積造、部材"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "組積造",
+        "部材",
+        "建築構法図鑑_1"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference",
+        "duplicate-name"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565492",
+        "deck": "建築構法::組積造"
+      },
+      "name": "イギリス積み・フランス積み",
+      "fields": {
+        "knowledgePoint": "イギリス積み・フランス積み",
+        "category": "工法",
+        "frontHtml": "イギリス積み・フランス積み 工法",
+        "backHtml": "📝 简介 イギリス積みは長手だけの段と小口だけの段を交互に積む。フランス積み（フランドル積み）は各段で長手と小口を交互に並べる。立面の模様で識別する。 📋 考试出现形式 用语填空、图解识别、比较说明 📖 过去问相关 2015専門1Q2・2022専門1Q3。レンガ積み形式の名称と図の対応として出題。 🏷 标签 組積造 · 工法",
+        "examForm": "用语填空、图解识别、比较说明",
+        "pastQuestion": "2015専門1Q2・2022専門1Q3。レンガ積み形式の名称と図の対応として出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e4690811eae45ea35b4434ed2",
+        "originalTags": "組積造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "組積造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565494",
+        "deck": "建築構法::組積造"
+      },
+      "name": "まぐさ・臥梁・キーストーン・目地",
+      "fields": {
+        "knowledgePoint": "まぐさ・臥梁・キーストーン・目地",
+        "category": "工法",
+        "frontHtml": "まぐさ・臥梁・キーストーン・目地 工法",
+        "backHtml": "📝 简介 まぐさは開口上部を渡す水平材、臥梁は組積壁上部を連続して固める水平補強材、キーストーンはアーチ頂部の楔形石。芋目地は縦目地が通り、馬目地は上下でずれる。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2013・2022・2026専門1。組積造部材、アーチ頂部、タイル目地形式として出題。 🏷 标签 組積造 · 工法",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2013・2022・2026専門1。組積造部材、アーチ頂部、タイル目地形式として出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081e29671d92f6ca2f4cc",
+        "originalTags": "組積造、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "組積造",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565496",
+        "deck": "建築構法::組積造"
+      },
+      "name": "組積造・タイル・瓦の基本",
+      "fields": {
+        "knowledgePoint": "組積造・タイル・瓦の基本",
+        "category": "工法",
+        "frontHtml": "組積造・タイル・瓦の基本 工法 屋顶",
+        "backHtml": "📝 简介 レンガ・石・コンクリートブロックを積む組積造では、目地、まぐさ、臥梁、キーストーン等が壁体を構成する。タイル・レンガの積み方や目地、瓦の重ねと固定方法を図で区別する。 📋 考试出现形式 用语填空、图解识别、部材名称、比较说明 📖 过去问相关 2013・2014・2015・2022・2024・2026専門1。レンガ積み、まぐさ、キーストーン、目地、瓦葺きを出題。 🏷 标签 組積造 · 屋顶 · 工法",
+        "examForm": "用语填空、图解识别、部材名称、比较说明",
+        "pastQuestion": "2013・2014・2015・2022・2024・2026専門1。レンガ積み、まぐさ、キーストーン、目地、瓦葺きを出題。",
+        "sourceUrl": "https://app.notion.com/p/399e961e469081f0acd1dddf0cf48b6b",
+        "originalTags": "組積造、屋顶、工法"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "組積造",
+        "屋顶",
+        "工法",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    },
+    {
+      "source": {
+        "kind": "anki",
+        "noteId": "1783752565498",
+        "deck": "建築構法::組積造"
+      },
+      "name": "コンクリートブロックの形状 ·寸法の例",
+      "fields": {
+        "knowledgePoint": "コンクリートブロックの形状 ·寸法の例",
+        "category": "未分類",
+        "frontHtml": "コンクリートブロックの形状 ·寸法の例",
+        "backHtml": "🏷 标签 組積造",
+        "examForm": "",
+        "pastQuestion": "",
+        "sourceUrl": "https://app.notion.com/p/38ae961e4690805194aee0777ba2f721",
+        "originalTags": "組積造"
+      },
+      "tags": [
+        "建築構法",
+        "exam_appeared",
+        "組積造",
+        "建築構法図鑑_2"
+      ],
+      "mediaRefs": [],
+      "reviewStatus": "imported",
+      "qualityFlags": [
+        "missing-image-reference"
+      ]
+    }
+  ]
+}

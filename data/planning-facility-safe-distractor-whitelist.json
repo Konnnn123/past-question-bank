@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "template": "planning_facility_fact_recall",
+  "policy": "A distractor is usable only when an explicit source-backed statement proves the proposed feature false for the target facility, or when a human reviewer has added a target-specific exclusivity whitelist entry. Different entity names and absence of a positive fact are never falsity evidence.",
+  "entries": [],
+  "status": "blocked_no_safe_distractors",
+  "evidenceCheck": {
+    "planningHasFeatureFacts": 85,
+    "targetSpecificNegativeFacts": 0,
+    "humanWhitelistEntries": 0,
+    "conclusion": "No four-choice facility item may use runtime-generated distractors under the safe rule. Retain reconstruction/sampler presentation for this template."
+  }
+}

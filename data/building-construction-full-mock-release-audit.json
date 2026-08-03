@@ -1,0 +1,14 @@
+{
+  "id": "building-construction-full-mock-release-audit-v1",
+  "decision": "production_ready",
+  "route": "/exam/mock/building-construction-full",
+  "composition": {"automaticItems":48, "humanReviewItems":3, "blocks":["numeric","shared","short","inline","diagram","image","written"]},
+  "gates": {
+    "source_structure": "pass",
+    "fact_reuse_prevention": "pass",
+    "shared_bank_reuse_rule": "pass",
+    "local_distractor_pools": "pass",
+    "attempt_record_persistence": "pass",
+    "structural_mechanics_excluded": "pass"
+  }
+}

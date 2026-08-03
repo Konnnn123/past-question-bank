@@ -1,0 +1,1201 @@
+{
+  "version": 1,
+  "round": 2,
+  "totalQuestions": 52,
+  "questions": [
+    {
+      "id": "r2-history-arch-01",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "question": {
+        "prompt": "次の建築家の代表作として、最も適切なものを一つ選びなさい。\n\n隠元隆琦",
+        "options": [
+          "A. サン マルコ大聖堂",
+          "B. 萬福寺大雄宝殿",
+          "C. 京都中央電話局上京分局庁舎",
+          "D. バルセロナ大聖堂"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "隠元隆琦の代表作は萬福寺大雄宝殿。"
+      },
+      "traceability": {
+        "roleFixed": "Only designed_by_architect/office → architect_to_work",
+        "distractorRule": "同类型建筑（非跨时代/跨地域一眼排除）",
+        "round1Issue": "皇帝・施主被当作建筑师",
+        "fixApplied": "ROLE_RELATION_WRONG → split people roles"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-history-arch-02",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "question": {
+        "prompt": "次の建築家の代表作として、最も適切なものを一つ選びなさい。\n\nセプティミウス・セウェルス帝",
+        "options": [
+          "A. セプティミウス・セウィルスの凱旋門",
+          "B. 西田川郡役所",
+          "C. プラン・ヴォワザン",
+          "D. 水晶宫"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "セプティミウス・セウェルス帝の代表作はセプティミウス・セウィルスの凱旋門。"
+      },
+      "traceability": {
+        "roleFixed": "Only designed_by_architect/office → architect_to_work",
+        "distractorRule": "同类型建筑（非跨时代/跨地域一眼排除）",
+        "round1Issue": "皇帝・施主被当作建筑师",
+        "fixApplied": "ROLE_RELATION_WRONG → split people roles"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-history-arch-03",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "question": {
+        "prompt": "次の建築家の代表作として、最も適切なものを一つ選びなさい。\n\nブルーノ・タウト",
+        "options": [
+          "A. 浄土寺浄土堂",
+          "B. エピダウロスの劇場",
+          "C. コアのあるH氏の住まい",
+          "D. ガラスの家 Glaspavillon"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "ブルーノ・タウトの代表作はガラスの家 Glaspavillon。"
+      },
+      "traceability": {
+        "roleFixed": "Only designed_by_architect/office → architect_to_work",
+        "distractorRule": "同类型建筑（非跨时代/跨地域一眼排除）",
+        "round1Issue": "皇帝・施主被当作建筑师",
+        "fixApplied": "ROLE_RELATION_WRONG → split people roles"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-history-arch-04",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "question": {
+        "prompt": "次の建築家の代表作として、最も適切なものを一つ選びなさい。\n\nヘリット・トーマス・リートフェルト",
+        "options": [
+          "A. 蓮華王院本堂",
+          "B. シュレーダー邸",
+          "C. 中銀カプセルタワー",
+          "D. ワシントンDC計画"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "ヘリット・トーマス・リートフェルトの代表作はシュレーダー邸。"
+      },
+      "traceability": {
+        "roleFixed": "Only designed_by_architect/office → architect_to_work",
+        "distractorRule": "同类型建筑（非跨时代/跨地域一眼排除）",
+        "round1Issue": "皇帝・施主被当作建筑师",
+        "fixApplied": "ROLE_RELATION_WRONG → split people roles"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-history-arch-05",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "question": {
+        "prompt": "次の建築家の代表作として、最も適切なものを一つ選びなさい。\n\nフィリッポ・ブルネレスキ（設計）",
+        "options": [
+          "A. 東京駅",
+          "B. 孤児養育院",
+          "C. フィアツェーンハイリゲン巡礼教会堂",
+          "D. 聖墳墓教会堂"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "フィリッポ・ブルネレスキ（設計）の代表作は孤児養育院。"
+      },
+      "traceability": {
+        "roleFixed": "Only designed_by_architect/office → architect_to_work",
+        "distractorRule": "同类型建筑（非跨时代/跨地域一眼排除）",
+        "round1Issue": "皇帝・施主被当作建筑师",
+        "fixApplied": "ROLE_RELATION_WRONG → split people roles"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-history-period-01",
+      "subject": "history",
+      "blueprintId": "building_to_period",
+      "question": {
+        "prompt": "次の建築の建設・成立年代として最も適切なものを選びなさい。\n\n琵琶湖疏水運河橋",
+        "options": [
+          "A. 18世紀初頭",
+          "B. 490年頃",
+          "C. 近代",
+          "D. 明治時代"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "琵琶湖疏水運河橋は明治時代。"
+      },
+      "traceability": {
+        "distractorRule": "同時代優先",
+        "round1Issue": "跨时代选项一眼排除",
+        "fixApplied": "DISTRACTOR_WRONG_PERIOD → era proximity enforced"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 90
+    },
+    {
+      "id": "r2-history-period-02",
+      "subject": "history",
+      "blueprintId": "building_to_period",
+      "question": {
+        "prompt": "次の建築の建設・成立年代として最も適切なものを選びなさい。\n\nアンコール・ワット",
+        "options": [
+          "A. 18世紀初頭",
+          "B. 490年頃",
+          "C. 近代",
+          "D. アンコール朝"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "アンコール・ワットはアンコール朝。"
+      },
+      "traceability": {
+        "distractorRule": "同時代優先",
+        "round1Issue": "跨时代选项一眼排除",
+        "fixApplied": "DISTRACTOR_WRONG_PERIOD → era proximity enforced"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 90
+    },
+    {
+      "id": "r2-history-period-03",
+      "subject": "history",
+      "blueprintId": "building_to_period",
+      "question": {
+        "prompt": "次の建築の建設・成立年代として最も適切なものを選びなさい。\n\nハトシェポスト女王葬祭神殿とメントゥホテップ2世葬祭神殿",
+        "options": [
+          "A. 近代",
+          "B. 18世紀初頭",
+          "C. エジプト第11王朝～第18王朝",
+          "D. 490年頃"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "ハトシェポスト女王葬祭神殿とメントゥホテップ2世葬祭神殿はエジプト第11王朝～第18王朝。"
+      },
+      "traceability": {
+        "distractorRule": "同時代優先",
+        "round1Issue": "跨时代选项一眼排除",
+        "fixApplied": "DISTRACTOR_WRONG_PERIOD → era proximity enforced"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 90
+    },
+    {
+      "id": "r2-history-period-04",
+      "subject": "history",
+      "blueprintId": "building_to_period",
+      "question": {
+        "prompt": "次の建築の建設・成立年代として最も適切なものを選びなさい。\n\n大浦天主堂",
+        "options": [
+          "A. 近代",
+          "B. 明治時代",
+          "C. 490年頃",
+          "D. 18世紀初頭"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "大浦天主堂は明治時代。"
+      },
+      "traceability": {
+        "distractorRule": "同時代優先",
+        "round1Issue": "跨时代选项一眼排除",
+        "fixApplied": "DISTRACTOR_WRONG_PERIOD → era proximity enforced"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 90
+    },
+    {
+      "id": "r2-history-period-05",
+      "subject": "history",
+      "blueprintId": "building_to_period",
+      "question": {
+        "prompt": "次の建築の建設・成立年代として最も適切なものを選びなさい。\n\n慶應義塾五十周年記念図書館",
+        "options": [
+          "A. 490年頃",
+          "B. 近代",
+          "C. 18世紀初頭",
+          "D. 大正時代"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "慶應義塾五十周年記念図書館は大正時代。"
+      },
+      "traceability": {
+        "distractorRule": "同時代優先",
+        "round1Issue": "跨时代选项一眼排除",
+        "fixApplied": "DISTRACTOR_WRONG_PERIOD → era proximity enforced"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 90
+    },
+    {
+      "id": "r2-history-style-01",
+      "subject": "history",
+      "blueprintId": "building_style_pairing",
+      "question": {
+        "prompt": "次の建築の建築様式として最も適切なものを選びなさい。\n\n帝国議会議事堂",
+        "options": [
+          "A. 飛鳥様式",
+          "B. コロニアル様式",
+          "C. アール・デコ様式",
+          "D. ゴシック建築（イギリス初期ゴシック）"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "帝国議会議事堂の様式はアール・デコ様式。"
+      },
+      "traceability": {
+        "styleAxisFixed": "has_architectural_style",
+        "round1Issue": "样式/运动/柱式/类型混在同一选项",
+        "fixApplied": "STYLE_AXIS_MIXED → split into architectural_style/movement/order/type/regional"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-history-style-02",
+      "subject": "history",
+      "blueprintId": "building_style_pairing",
+      "question": {
+        "prompt": "次の建築の建築様式として最も適切なものを選びなさい。\n\nサン.アンドレア·アル·クリナー レ教会堂",
+        "options": [
+          "A. コロニアル様式",
+          "B. バロック建築",
+          "C. ゴシック建築（イギリス初期ゴシック）",
+          "D. 飛鳥様式"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "サン.アンドレア·アル·クリナー レ教会堂の様式はバロック建築。"
+      },
+      "traceability": {
+        "styleAxisFixed": "has_architectural_style",
+        "round1Issue": "样式/运动/柱式/类型混在同一选项",
+        "fixApplied": "STYLE_AXIS_MIXED → split into architectural_style/movement/order/type/regional"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-history-style-03",
+      "subject": "history",
+      "blueprintId": "building_style_pairing",
+      "question": {
+        "prompt": "次の建築の建築様式として最も適切なものを選びなさい。\n\n日光東照宮",
+        "options": [
+          "A. コロニアル様式",
+          "B. 飛鳥様式",
+          "C. ゴシック建築（イギリス初期ゴシック）",
+          "D. 権現造"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "日光東照宮の様式は権現造。"
+      },
+      "traceability": {
+        "styleAxisFixed": "has_architectural_style",
+        "round1Issue": "样式/运动/柱式/类型混在同一选项",
+        "fixApplied": "STYLE_AXIS_MIXED → split into architectural_style/movement/order/type/regional"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-history-style-04",
+      "subject": "history",
+      "blueprintId": "building_style_pairing",
+      "question": {
+        "prompt": "次の建築の建築様式として最も適切なものを選びなさい。\n\n旧閑谷学校講堂",
+        "options": [
+          "A. 飛鳥様式",
+          "B. コロニアル様式",
+          "C. 和様",
+          "D. ゴシック建築（イギリス初期ゴシック）"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "旧閑谷学校講堂の様式は和様。"
+      },
+      "traceability": {
+        "styleAxisFixed": "has_architectural_style",
+        "round1Issue": "样式/运动/柱式/类型混在同一选项",
+        "fixApplied": "STYLE_AXIS_MIXED → split into architectural_style/movement/order/type/regional"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-history-style-05",
+      "subject": "history",
+      "blueprintId": "building_style_pairing",
+      "question": {
+        "prompt": "次の建築の建築様式として最も適切なものを選びなさい。\n\n丸の内ビル",
+        "options": [
+          "A. モダニズム",
+          "B. コロニアル様式",
+          "C. 飛鳥様式",
+          "D. ゴシック建築（イギリス初期ゴシック）"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "丸の内ビルの様式はモダニズム。"
+      },
+      "traceability": {
+        "styleAxisFixed": "has_architectural_style",
+        "round1Issue": "样式/运动/柱式/类型混在同一选项",
+        "fixApplied": "STYLE_AXIS_MIXED → split into architectural_style/movement/order/type/regional"
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-const-comp-01",
+      "subject": "construction",
+      "blueprintId": "component_to_function",
+      "question": {
+        "prompt": "次の建築構法部材の主な機能として最も適切なものを選びなさい。\n\nあばら筋（スターラップ）",
+        "options": [
+          "A. あばら筋（スターラップ）",
+          "B. 主筋（RC）",
+          "C. アンカーボルト（S造柱脚）",
+          "D. ボルトbolt"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「あばら筋（スターラップ）」：部材"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 component_to_function"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 80
+    },
+    {
+      "id": "r2-const-comp-02",
+      "subject": "construction",
+      "blueprintId": "component_to_function",
+      "question": {
+        "prompt": "次の建築構法部材の主な機能として最も適切なものを選びなさい。\n\nアンカーボルト（S造柱脚）",
+        "options": [
+          "A. 帯筋（フープ）",
+          "B. アンカーボルト（木造土台）",
+          "C. アンカーボルト（S造柱脚）",
+          "D. スタッド"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「アンカーボルト（S造柱脚）」：2025"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 component_to_function"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 80
+    },
+    {
+      "id": "r2-const-comp-03",
+      "subject": "construction",
+      "blueprintId": "component_to_function",
+      "question": {
+        "prompt": "次の建築構法部材の主な機能として最も適切なものを選びなさい。\n\n主筋（RC）",
+        "options": [
+          "A. 帯筋（フープ）",
+          "B. 主筋（RC）",
+          "C. アンカーボルト（S造柱脚）",
+          "D. あばら筋（スターラップ）"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「主筋（RC）」：部材"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 component_to_function"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 80
+    },
+    {
+      "id": "r2-const-comp-04",
+      "subject": "construction",
+      "blueprintId": "component_to_function",
+      "question": {
+        "prompt": "次の建築構法部材の主な機能として最も適切なものを選びなさい。\n\nボルトbolt",
+        "options": [
+          "A. あばら筋（スターラップ）",
+          "B. 帯筋",
+          "C. ボルトbolt",
+          "D. アンカーフレ一ム"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「ボルトbolt」：部材"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 component_to_function"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 80
+    },
+    {
+      "id": "r2-const-comp-05",
+      "subject": "construction",
+      "blueprintId": "component_to_function",
+      "question": {
+        "prompt": "次の建築構法部材の主な機能として最も適切なものを選びなさい。\n\nアンカーフレ一ム",
+        "options": [
+          "A. 帯筋",
+          "B. 主筋（RC）",
+          "C. 帯筋",
+          "D. アンカーフレ一ム"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「アンカーフレ一ム」：部材"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 component_to_function"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 80
+    },
+    {
+      "id": "r2-const-defect-01",
+      "subject": "construction",
+      "blueprintId": "defect_to_cause",
+      "question": {
+        "prompt": "次の建築構法の欠陥の主な原因として最も適切なものを選びなさい。\n\nコールドジョイント",
+        "options": [
+          "A. コンクリート施工不良",
+          "B. コンクリート施工不良",
+          "C. 豆板（ジャンカ）",
+          "D. コールドジョイント"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「コールドジョイント」の原因：工法"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 defect_to_cause"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 80
+    },
+    {
+      "id": "r2-const-defect-02",
+      "subject": "construction",
+      "blueprintId": "defect_to_cause",
+      "question": {
+        "prompt": "次の建築構法の欠陥の主な原因として最も適切なものを選びなさい。\n\nコールドジョイント",
+        "options": [
+          "A. コンクリート施工不良",
+          "B. コンクリート施工不良",
+          "C. 豆板（ジャンカ）",
+          "D. コールドジョイント"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「コールドジョイント」の原因：2019"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 defect_to_cause"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 80
+    },
+    {
+      "id": "r2-const-defect-03",
+      "subject": "construction",
+      "blueprintId": "defect_to_cause",
+      "question": {
+        "prompt": "次の建築構法の欠陥の主な原因として最も適切なものを選びなさい。\n\nコールドジョイント",
+        "options": [
+          "A. コンクリート施工不良",
+          "B. 豆板（ジャンカ）",
+          "C. コンクリート施工不良",
+          "D. コールドジョイント"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「コールドジョイント」の原因：2024"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 defect_to_cause"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 80
+    },
+    {
+      "id": "r2-const-defect-04",
+      "subject": "construction",
+      "blueprintId": "defect_to_cause",
+      "question": {
+        "prompt": "次の建築構法の欠陥の主な原因として最も適切なものを選びなさい。\n\n豆板（ジャンカ）",
+        "options": [
+          "A. コールドジョイント",
+          "B. 豆板（ジャンカ）",
+          "C. コールドジョイント",
+          "D. コンクリート施工不良"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「豆板（ジャンカ）」の原因：工法"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 defect_to_cause"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 80
+    },
+    {
+      "id": "r2-const-defect-05",
+      "subject": "construction",
+      "blueprintId": "defect_to_cause",
+      "question": {
+        "prompt": "次の建築構法の欠陥の主な原因として最も適切なものを選びなさい。\n\nコンクリート施工不良",
+        "options": [
+          "A. 豆板（ジャンカ）",
+          "B. コンクリート施工不良",
+          "C. コールドジョイント",
+          "D. 豆板（ジャンカ）"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「コンクリート施工不良」の原因：工法"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 defect_to_cause"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 80
+    },
+    {
+      "id": "r2-plan-pattern-01",
+      "subject": "planning",
+      "blueprintId": "description_to_pattern",
+      "question": {
+        "prompt": "次の説明に該当する空間パターンを選びなさい。\n\n『 新建築 』 機能主義的住宅計画論",
+        "options": [
+          "A. コモンシティ星田",
+          "B. 御茶ノ水文化住宅",
+          "C. モダンリビング",
+          "D. コーポラティブハウジング"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「モダンリビング」：『 新建築 』 機能主義的住宅計画論"
+      },
+      "traceability": {
+        "useType": "housing",
+        "analysisAxis": "unit_plan",
+        "round1Issue": "病棟干扰项来自景观协定",
+        "fixApplied": "WRONG_USE_TYPE → same useType enforced"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-plan-pattern-02",
+      "subject": "planning",
+      "blueprintId": "description_to_pattern",
+      "question": {
+        "prompt": "次の説明に該当する空間パターンを選びなさい。\n\nフランク・ロイド・ライト プレーリーハウスの典型例とされ、軒を深く出して水平線を強調し、煙突の垂直線と対比させた住宅である",
+        "options": [
+          "A. 高蔵寺ニュータウン",
+          "B. タウンハウス永山",
+          "C. 池田室町",
+          "D. ロビー邸"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「ロビー邸」：フランク・ロイド・ライト プレーリーハウスの典型例とされ、軒を深く出して水平線を強調し、煙突の垂直線と対比させた住宅である"
+      },
+      "traceability": {
+        "useType": "housing",
+        "analysisAxis": "unit_plan",
+        "round1Issue": "病棟干扰项来自景观协定",
+        "fixApplied": "WRONG_USE_TYPE → same useType enforced"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-plan-pattern-03",
+      "subject": "planning",
+      "blueprintId": "description_to_pattern",
+      "question": {
+        "prompt": "次の説明に該当する空間パターンを選びなさい。\n\n各 アルコープ を 壁で仕切って部屋にした形態 が現れた。",
+        "options": [
+          "A. 東京臨海病院",
+          "B. 中廊下型病棟",
+          "C. 高層·低層分離型",
+          "D. 足利赤十字病院"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「中廊下型病棟」：各 アルコープ を 壁で仕切って部屋にした形態 が現れた。"
+      },
+      "traceability": {
+        "useType": "hospital",
+        "analysisAxis": "ward_plan",
+        "round1Issue": "病棟干扰项来自景观协定",
+        "fixApplied": "WRONG_USE_TYPE → same useType enforced"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-plan-pattern-04",
+      "subject": "planning",
+      "blueprintId": "description_to_pattern",
+      "question": {
+        "prompt": "次の説明に該当する空間パターンを選びなさい。\n\nオイルショック後の価値観見直しを背景に、地域性を生かした公共住宅計画を目指した。 地域ごとの需要に応じた住宅供給策定計画として画期的。 具体例：続き間、開放的な土間玄関、バルコニーアクセス、通風配慮、積雪地のサンルームや雁木など。 景観形成：建築高、形態、材料、工法、色彩のコントロールで、周辺地域と連続的な景観や伝統的町並みを形成。",
+        "options": [
+          "A. スキップフロア型",
+          "B. ハーフメイド方式（日本公共住宅）",
+          "C. 高階高住户",
+          "D. HOPE計画"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「HOPE計画」：オイルショック後の価値観見直しを背景に、地域性を生かした公共住宅計画を目指した。 地域ごとの需要に応じた住宅供給策定計画として画期的。 具体例：続き間、開放的な土間玄関、バルコニーアクセス、通風配慮、"
+      },
+      "traceability": {
+        "useType": "housing",
+        "analysisAxis": "ventilation",
+        "round1Issue": "病棟干扰项来自景观协定",
+        "fixApplied": "WRONG_USE_TYPE → same useType enforced"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-plan-pattern-05",
+      "subject": "planning",
+      "blueprintId": "description_to_pattern",
+      "question": {
+        "prompt": "次の説明に該当する空間パターンを選びなさい。\n\n各戸に採光と通風を確保するための プライベートな中庭 が設けられた 接地型の集合住宅 である",
+        "options": [
+          "A. リビングアクセス",
+          "B. ネクサスワールド香椎",
+          "C. 高蔵寺ニュータウン",
+          "D. 鴨の2世帯住宅"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「ネクサスワールド香椎」：各戸に採光と通風を確保するための プライベートな中庭 が設けられた 接地型の集合住宅 である"
+      },
+      "traceability": {
+        "useType": "housing",
+        "analysisAxis": "daylight",
+        "round1Issue": "病棟干扰项来自景观协定",
+        "fixApplied": "WRONG_USE_TYPE → same useType enforced"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-plan-comp-01",
+      "subject": "planning",
+      "blueprintId": "pattern_comparison",
+      "question": {
+        "prompt": "次の空間パターンのうち、unit_planの観点から最も特徴的なものを選びなさい。\n\nコア型 （ホール型） / B. リビングアクセス",
+        "options": [
+          "A. コア型 （ホール型）",
+          "B. リビングアクセス",
+          "C. 住吉の長屋",
+          "D. 池田室町"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「住吉の長屋」：伝統的な都市住宅の型である長屋"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 pattern_comparison, same useType"
+      },
+      "technicalQuality": 88,
+      "pedagogicalQuality": 82
+    },
+    {
+      "id": "r2-plan-comp-02",
+      "subject": "planning",
+      "blueprintId": "pattern_comparison",
+      "question": {
+        "prompt": "次の空間パターンのうち、area_standardの観点から最も特徴的なものを選びなさい。\n\n三春町立桜中学校 / B. 階段室型",
+        "options": [
+          "A. 三春町立桜中学校",
+          "B. 階段室型",
+          "C. 階段室型",
+          "D. 総合教室型（A型）"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「総合教室型（A型）」：教室の機能を 多くの科目をこなせるように総合的につくれば ， 生徒は自分の教室として落ち着いて利用できる 。 小学校低学年に適する 個々の科目の 専門的な特徴をもたせることができない 各教室の床面積と"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 pattern_comparison, same useType"
+      },
+      "technicalQuality": 88,
+      "pedagogicalQuality": 82
+    },
+    {
+      "id": "r2-plan-comp-03",
+      "subject": "planning",
+      "blueprintId": "pattern_comparison",
+      "question": {
+        "prompt": "次の空間パターンのうち、room_configの観点から最も特徴的なものを選びなさい。\n\n三春町立桜中学校 / B. 教科教室型（V型）",
+        "options": [
+          "A. 三春町立桜中学校",
+          "B. 教科教室型（V型）",
+          "C. 特别教室型（U十V型）",
+          "D. 総合教室型（A型）"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「三春町立桜中学校」：教科教室型を微底的に採用し，機能に応じた教育環境が実現している"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 pattern_comparison, same useType"
+      },
+      "technicalQuality": 88,
+      "pedagogicalQuality": 82
+    },
+    {
+      "id": "r2-plan-comp-04",
+      "subject": "planning",
+      "blueprintId": "pattern_comparison",
+      "question": {
+        "prompt": "次の空間パターンのうち、generalの観点から最も特徴的なものを選びなさい。\n\n「建築計画」から「人間一環境系のデザイン」へ / B. 展示室の計画",
+        "options": [
+          "A. 「建築計画」から「人間一環境系のデザイン」へ",
+          "B. 展示室の計画",
+          "C. ケアセンター成瀬",
+          "D. 中庭型"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「「建築計画」から「人間一環境系のデザイン」へ」：計画以前の プログラミング から使用開始後の マネジメント ， 評価·改善 にも拡がっている。 デザインの主体 もデザイナーに限らず ユーザーも含めたひとつのもの ととらえられるべき状況にある。"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 pattern_comparison, same useType"
+      },
+      "technicalQuality": 88,
+      "pedagogicalQuality": 82
+    },
+    {
+      "id": "r2-plan-comp-05",
+      "subject": "planning",
+      "blueprintId": "pattern_comparison",
+      "question": {
+        "prompt": "次の空間パターンのうち、site_planの観点から最も特徴的なものを選びなさい。\n\nコーポラティブハウジング / B. 鴨の2世帯住宅",
+        "options": [
+          "A. コーポラティブハウジング",
+          "B. 鴨の2世帯住宅",
+          "C. 東雲キャナルコート",
+          "D. 同潤会代官山アパート"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「同潤会代官山アパート」：関東大震災後に建設されたRC造集合住宅。地形に応じた住棟配置と共用空間を持ち、都市型共同住宅を形成した。"
+      },
+      "traceability": {
+        "round1Issue": "无此蓝图",
+        "fixApplied": "新增 pattern_comparison, same useType"
+      },
+      "technicalQuality": 88,
+      "pedagogicalQuality": 82
+    },
+    {
+      "id": "r2-plan-num-01",
+      "subject": "planning",
+      "blueprintId": "number_standard",
+      "question": {
+        "prompt": "「センタ一コア」の基準値として最も適切なものを選びなさい。",
+        "options": [
+          "A. 小さく開かれた住まいは 人とのつながりと自然共生 を促す。 安全で安心な「共」の空間 と 快適な緑環境 が必要 パッシブデザイン ： 建築計画自体で空気・熱の流れを制御 。 太陽光・風・地熱を享受 し、 住み手が能動的に快適環境をコントロールする",
+          "B. 1500-4000m² 2方向避難の確保が難しい。レンタブル比が高く、構造的にもバランスがよい。",
+          "C. 2方向避難の確保が重要 エレベーター·エスカレーターは避難経路としての計画は不可 横長の窓は縱長の窓に比べ、噴出する火炎が外壁から離れにくく、上階への延焼の危険性が高い",
+          "D. 平均14~18m程度 客席部分の中心線上には縦通路を設けない"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「センタ一コア」：1500-4000m² 2方向避難の確保が難しい。レンタブル比が高く、構造的にもバランスがよい。"
+      },
+      "traceability": {
+        "useType": "general",
+        "round1Issue": "数值/概念/案例混在同一选项",
+        "fixApplied": "NON_PEER_PATTERN → same useType + analysisAxis enforced"
+      },
+      "technicalQuality": 92,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r2-plan-num-02",
+      "subject": "planning",
+      "blueprintId": "number_standard",
+      "question": {
+        "prompt": "「高齢期の家族と住まいの計画」の基準値として最も適切なものを選びなさい。",
+        "options": [
+          "A. 走行幅:80~90cm、寸れ違う場合:180cm以上",
+          "B. 特別養護老人ホ一ム 介護利用型軽費老人ホ一ム(ケアハウス) 短期入所施設(ショ一卜スティ) 通所施設(デイケア) 養護老人ホーム(一般) 老人福祉センター",
+          "C. 台所（経済的独立性） と 玄関（対外的独立性） を基準に、 一体型・相互型・分離型 の 同居 、 分居 、 隣居 、 近居 に分類。 分離度は急速に高まる傾向 。",
+          "D. 車いす中心:170cm以上 片侧車輪中心:210cm以上 物理的な最小回転直径:150cm"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「高齢期の家族と住まいの計画」：台所（経済的独立性） と 玄関（対外的独立性） を基準に、 一体型・相互型・分離型 の 同居 、 分居 、 隣居 、 近居 に分類。 分離度は急速に高まる傾向 。"
+      },
+      "traceability": {
+        "useType": "welfare",
+        "round1Issue": "数值/概念/案例混在同一选项",
+        "fixApplied": "NON_PEER_PATTERN → same useType + analysisAxis enforced"
+      },
+      "technicalQuality": 92,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r2-plan-num-03",
+      "subject": "planning",
+      "blueprintId": "number_standard",
+      "question": {
+        "prompt": "「屋内テニスコ一ト」の基準値として最も適切なものを選びなさい。",
+        "options": [
+          "A. 窓際から 6m 以内のデスクは，左側採光とか関係部門は管理者の視野範囲の 10m 以内に置くとかいくつかの原則が設けられている 全体の面積効率からいえば 22m²/人 とゆったりしたスペースが必要である。",
+          "B. 中規模なビルでは 80~90% ,大規模な場合には 65~75% になる",
+          "C. 12m以上",
+          "D. 21.6m²/人"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「屋内テニスコ一ト」：12m以上"
+      },
+      "traceability": {
+        "useType": "general",
+        "round1Issue": "数值/概念/案例混在同一选项",
+        "fixApplied": "NON_PEER_PATTERN → same useType + analysisAxis enforced"
+      },
+      "technicalQuality": 92,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r2-plan-num-04",
+      "subject": "planning",
+      "blueprintId": "number_standard",
+      "question": {
+        "prompt": "「高齢者デイセンター」の基準値として最も適切なものを選びなさい。",
+        "options": [
+          "A. 障害を持った人や福祉サービスの対象者が、差別を受けることなく地域社会の中で暮らしていけるように、問題解決に当たり、援助すること",
+          "B. 2cm以下",
+          "C. 人口 2万人 に 1か所 の基準、但し地域ニーズに応じた柔軟なあり方が必要",
+          "D. 走行幅: 80~90cm 、寸れ違う場合: 180cm以上"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「高齢者デイセンター」：人口 2万人 に 1か所 の基準、但し地域ニーズに応じた柔軟なあり方が必要"
+      },
+      "traceability": {
+        "useType": "welfare",
+        "round1Issue": "数值/概念/案例混在同一选项",
+        "fixApplied": "NON_PEER_PATTERN → same useType + analysisAxis enforced"
+      },
+      "technicalQuality": 92,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r2-plan-num-05",
+      "subject": "planning",
+      "blueprintId": "number_standard",
+      "question": {
+        "prompt": "「園城寺光浄院客殿」の基準値として最も適切なものを選びなさい。",
+        "options": [
+          "A. 大量生産方式 による 郊外戸建住宅地 。標準化された住宅と 自動車依存型 の郊外開発を代表する。",
+          "B. 住宅地としての居住環境や商店街の利便を高めるために、住民が自発的に基準を定めて協定を締結できる",
+          "C. 光浄院客殿の平面は､「 匠明 」の 殿屋集 に描かれている「 主殿の図 」とほぼ同じであり、 桃山時代 の 標準的な武家の住宅 の形式を示すものと考えられている",
+          "D. 1階に 和室＋LDK（多様な組み合わせ） 、北側 水まわり 、2階 私室 。小規模では1階和室が 夫婦寝室 を兼ねる"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "「園城寺光浄院客殿」：光浄院客殿の平面は､「 匠明 」の 殿屋集 に描かれている「 主殿の図 」とほぼ同じであり、 桃山時代 の 標準的な武家の住宅 の形式を示すものと考えられている"
+      },
+      "traceability": {
+        "useType": "housing",
+        "round1Issue": "数值/概念/案例混在同一选项",
+        "fixApplied": "NON_PEER_PATTERN → same useType + analysisAxis enforced"
+      },
+      "technicalQuality": 92,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r2-env-calc-01",
+      "subject": "environment",
+      "blueprintId": "quantity_to_calculation_formula",
+      "question": {
+        "prompt": "「作用温度の近似」を計算する式として最も適切なものを選びなさい。",
+        "options": [
+          "A. 相当外気温度",
+          "B. 多層壁の熱貫流率",
+          "C. 熱損失係数（旧Q値）",
+          "D. 作用温度の近似"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「作用温度の近似」の計算式：2013"
+      },
+      "traceability": {
+        "domain": "thermal",
+        "expressionType": "calculation_formula",
+        "round1Issue": "计算公式/判定条件/单位换算混在同一蓝图",
+        "fixApplied": "FORMULA_TYPE_MIXED → split by domain+expressionType"
+      },
+      "technicalQuality": 93,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r2-env-calc-02",
+      "subject": "environment",
+      "blueprintId": "quantity_to_calculation_formula",
+      "question": {
+        "prompt": "「多層壁の熱貫流率」を計算する式として最も適切なものを選びなさい。",
+        "options": [
+          "A. 多層壁の熱貫流率",
+          "B. 黒体放射",
+          "C. 熱流・表面温度",
+          "D. 黒体放射"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「多層壁の熱貫流率」の計算式：2025"
+      },
+      "traceability": {
+        "domain": "thermal",
+        "expressionType": "calculation_formula",
+        "round1Issue": "计算公式/判定条件/单位换算混在同一蓝图",
+        "fixApplied": "FORMULA_TYPE_MIXED → split by domain+expressionType"
+      },
+      "technicalQuality": 93,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r2-env-calc-03",
+      "subject": "environment",
+      "blueprintId": "quantity_to_calculation_formula",
+      "question": {
+        "prompt": "「透湿量」を計算する式として最も適切なものを選びなさい。",
+        "options": [
+          "A. 湿り空気の比エンタルピー",
+          "B. 透湿量",
+          "C. 相対湿度",
+          "D. 表面結露判定"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「透湿量」の計算式：2024"
+      },
+      "traceability": {
+        "domain": "moisture",
+        "expressionType": "calculation_formula",
+        "round1Issue": "计算公式/判定条件/单位换算混在同一蓝图",
+        "fixApplied": "FORMULA_TYPE_MIXED → split by domain+expressionType"
+      },
+      "technicalQuality": 93,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r2-env-calc-04",
+      "subject": "environment",
+      "blueprintId": "quantity_to_calculation_formula",
+      "question": {
+        "prompt": "「複数音源の合成」を計算する式として最も適切なものを選びなさい。",
+        "options": [
+          "A. octaveと周波数",
+          "B. 比音響インピーダンス",
+          "C. 残響時間",
+          "D. 複数音源の合成"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「複数音源の合成」の計算式：複数音源の合成"
+      },
+      "traceability": {
+        "domain": "acoustics",
+        "expressionType": "calculation_formula",
+        "round1Issue": "计算公式/判定条件/单位换算混在同一蓝图",
+        "fixApplied": "FORMULA_TYPE_MIXED → split by domain+expressionType"
+      },
+      "technicalQuality": 93,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r2-env-calc-05",
+      "subject": "environment",
+      "blueprintId": "quantity_to_calculation_formula",
+      "question": {
+        "prompt": "「複数音源の合成」を計算する式として最も適切なものを選びなさい。",
+        "options": [
+          "A. 残響時間",
+          "B. 自由音場の距離減衰",
+          "C. 自由音場の距離減衰",
+          "D. 複数音源の合成"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "「複数音源の合成」の計算式：L = 10log₁₀(Σ10ᴸⁱ⁄¹⁰)"
+      },
+      "traceability": {
+        "domain": "acoustics",
+        "expressionType": "calculation_formula",
+        "round1Issue": "计算公式/判定条件/单位换算混在同一蓝图",
+        "fixApplied": "FORMULA_TYPE_MIXED → split by domain+expressionType"
+      },
+      "technicalQuality": 93,
+      "pedagogicalQuality": 88
+    },
+    {
+      "id": "r2-env-crit-01",
+      "subject": "environment",
+      "blueprintId": "phenomenon_to_criterion",
+      "question": {
+        "prompt": "「表面結露判定」の判定条件として最も適切なものを選びなさい。",
+        "options": [
+          "A. 内部結露判定",
+          "B. 表面結露判定"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "「表面結露判定」の判定条件：θₛᵢ < θdp → 結露"
+      },
+      "traceability": {
+        "domain": "moisture",
+        "expressionType": "criterion",
+        "round1Issue": "判定条件与计算公式混用",
+        "fixApplied": "CRITERION_NOT_FORMULA → separate blueprint"
+      },
+      "technicalQuality": 93,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-env-crit-02",
+      "subject": "environment",
+      "blueprintId": "phenomenon_to_criterion",
+      "question": {
+        "prompt": "「内部結露判定」の判定条件として最も適切なものを選びなさい。",
+        "options": [
+          "A. 内部結露判定",
+          "B. 表面結露判定"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「内部結露判定」の判定条件：f(x) > fₛ[θ(x)] → 内部結露"
+      },
+      "traceability": {
+        "domain": "moisture",
+        "expressionType": "criterion",
+        "round1Issue": "判定条件与计算公式混用",
+        "fixApplied": "CRITERION_NOT_FORMULA → separate blueprint"
+      },
+      "technicalQuality": 93,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r2-env-phen-01",
+      "subject": "environment",
+      "blueprintId": "phenomenon_to_term",
+      "question": {
+        "prompt": "次の現象説明と最も関係の深い用語を選びなさい。\n\nDF = (Eᵢ / Eₒ) × 100 — 室内照度と屋外全天空照度",
+        "options": [
+          "A. 昼光率",
+          "B. 点光源の照度",
+          "C. 光束法",
+          "D. 必要ランプ・器具数"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「昼光率」：DF = (Eᵢ / Eₒ) × 100 — 室内照度と屋外全天空照度"
+      },
+      "traceability": {
+        "domain": "lighting",
+        "round1Issue": "无现象→术语蓝图",
+        "fixApplied": "新增 phenomenon_to_term"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 82
+    },
+    {
+      "id": "r2-env-phen-02",
+      "subject": "environment",
+      "blueprintId": "phenomenon_to_term",
+      "question": {
+        "prompt": "次の現象説明と最も関係の深い用語を選びなさい。\n\nq𝚌 = α𝚌(θₛ − θ𝒇) — 表面と流体間の対流熱伝達",
+        "options": [
+          "A. Newtonの冷却則",
+          "B. Bernoulliの式",
+          "C. ダクト摩擦・局部損失",
+          "D. 連続の式"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「Newtonの冷却則」：q𝚌 = α𝚌(θₛ − θ𝒇) — 表面と流体間の対流熱伝達"
+      },
+      "traceability": {
+        "domain": "general",
+        "round1Issue": "无现象→术语蓝图",
+        "fixApplied": "新增 phenomenon_to_term"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 82
+    },
+    {
+      "id": "r2-env-phen-03",
+      "subject": "environment",
+      "blueprintId": "phenomenon_to_term",
+      "question": {
+        "prompt": "次の現象説明と最も関係の深い用語を選びなさい。\n\nAᵢFᵢⱼ = AⱼFⱼᵢ,  ΣFᵢⱼ = 1 — 面間放射交換の幾何学的関係",
+        "options": [
+          "A. 形態係数",
+          "B. Wienの変位則",
+          "C. APF",
+          "D. Bernoulliの式"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「形態係数」：AᵢFᵢⱼ = AⱼFⱼᵢ,  ΣFᵢⱼ = 1 — 面間放射交換の幾何学的関係"
+      },
+      "traceability": {
+        "domain": "general",
+        "round1Issue": "无现象→术语蓝图",
+        "fixApplied": "新增 phenomenon_to_term"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 82
+    },
+    {
+      "id": "r2-env-phen-04",
+      "subject": "environment",
+      "blueprintId": "phenomenon_to_term",
+      "question": {
+        "prompt": "次の現象説明と最も関係の深い用語を選びなさい。\n\nαᵣ = εσ(T₁+T₂)(T₁²+T₂²) — 放射を温度差×熱伝達率で扱う",
+        "options": [
+          "A. 線形化放射熱伝達率",
+          "B. 多層壁の熱貫流率",
+          "C. 相当外気温度",
+          "D. 温度差換気の圧力差"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「線形化放射熱伝達率」：αᵣ = εσ(T₁+T₂)(T₁²+T₂²) — 放射を温度差×熱伝達率で扱う"
+      },
+      "traceability": {
+        "domain": "thermal",
+        "round1Issue": "无现象→术语蓝图",
+        "fixApplied": "新增 phenomenon_to_term"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 82
+    },
+    {
+      "id": "r2-env-phen-05",
+      "subject": "environment",
+      "blueprintId": "phenomenon_to_term",
+      "question": {
+        "prompt": "次の現象説明と最も関係の深い用語を選びなさい。\n\nSAT = θₒ + (aI − εRₙ)/αₒ — 日射と夜間放射を外気温へ換算",
+        "options": [
+          "A. 相当外気温度",
+          "B. 多層壁の熱貫流率",
+          "C. 線形化放射熱伝達率",
+          "D. 熱損失係数（旧Q値）"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "「相当外気温度」：SAT = θₒ + (aI − εRₙ)/αₒ — 日射と夜間放射を外気温へ換算"
+      },
+      "traceability": {
+        "domain": "thermal",
+        "round1Issue": "无现象→术语蓝图",
+        "fixApplied": "新增 phenomenon_to_term"
+      },
+      "technicalQuality": 90,
+      "pedagogicalQuality": 82
+    }
+  ]
+}

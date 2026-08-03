@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "source": "processed_questions",
+  "entities": [
+    {
+      "group": "語群I",
+      "term": "寺内町",
+      "examCount": 4,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "building",
+      "priority": 3,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群II",
+      "term": "イスタンブール",
+      "examCount": 3,
+      "examFiles": [
+        "2025_専門1_建筑史_Q5.md",
+        "2025_専門2-2_建筑史_Q3.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "period-or-place",
+      "priority": 3,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群II",
+      "term": "今井町",
+      "examCount": 3,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2020_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "building",
+      "priority": 3,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "東三条殿",
+      "examCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2016_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "building",
+      "priority": 3,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "吉島家住宅",
+      "examCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "building",
+      "priority": 2,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "宿場町",
+      "examCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "building",
+      "priority": 2,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群II",
+      "term": "密教本堂",
+      "examCount": 2,
+      "examFiles": [
+        "2017_専門1_建筑史_Q2.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "concept-or-type",
+      "priority": 2,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "根来寺",
+      "examCount": 2,
+      "examFiles": [
+        "2024_専門2-2_建筑史_Q3.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "building",
+      "priority": 2,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "アドルフ・ロース",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "person",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "アントニオ・サンテリア",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "person",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "シェナージュ",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "unclassified",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "ジャコモ・バロッツィ・ダ・ヴィニョーラ",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "person",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "スポリア",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "concept-or-type",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "デール・エル・メディナ",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "unclassified",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "ドメニコ・フォンターナ",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "person",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "マルク・アントワーヌ・ロージエ",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "person",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群II",
+      "term": "万博",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "period-or-place",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群II",
+      "term": "啓蒙時代",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "period-or-place",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群II",
+      "term": "奈良井",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "building",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "後藤慶二",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "person",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群I",
+      "term": "當麻寺曼荼羅堂",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "building",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群II",
+      "term": "監獄",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "concept-or-type",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    },
+    {
+      "group": "語群II",
+      "term": "飛騨高山",
+      "examCount": 1,
+      "examFiles": [
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "inAnki": false,
+      "gap": true,
+      "entityKind": "building",
+      "priority": 1,
+      "reviewStatus": "needs-review"
+    }
+  ]
+}

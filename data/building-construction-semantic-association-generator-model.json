@@ -1,0 +1,72 @@
+{
+  "id": "building-construction-semantic-association-generator-model-v1",
+  "subject": "building_construction",
+  "exam": "専門1",
+  "format": "shared_word_bank_fill",
+  "modelLayer": "generator_model",
+  "purpose": "Generate new, source-shaped semantic-association word-bank questions from reviewed atomic facts. This model does not reuse past-exam sentences or create facts.",
+  "pastExamPrototypes": [
+    {
+      "id": "2015-q2-semantic-association",
+      "source": "2015 専門1 建築構法 Q2",
+      "promptCount": 10,
+      "answerCount": 10,
+      "wordBankSize": 18,
+      "surplusCount": 8,
+      "reuseRule": "allowed",
+      "answerFormat": "term_to_related_term",
+      "difficultyPattern": "broad, mixed-domain recognition with a large surplus bank"
+    },
+    {
+      "id": "2017-q3-semantic-association",
+      "source": "2017 専門1 建築構法 Q3",
+      "promptCount": 10,
+      "answerCount": 10,
+      "wordBankSize": 10,
+      "surplusCount": 0,
+      "reuseRule": "forbidden",
+      "answerFormat": "term_to_related_term",
+      "difficultyPattern": "one-to-one matching across clearly distinguishable construction domains"
+    }
+  ],
+  "generatorSchema": {
+    "requiredInputs": ["prototypeId", "primaryDomain", "reviewedAtomicFacts"],
+    "primaryDomainExamples": ["timber_system", "rc_construction", "steel_construction", "waterproofing", "facade_openings", "foundation", "construction_defects"],
+    "eligibleFactPool": {
+      "requiredSubject": "building_construction",
+      "requiredReviewStatus": "reviewed",
+      "requiredFields": ["prompt_term", "related_answer_term", "relation_type", "domain", "source_evidence"],
+      "answerUniqueness": "Each selected fact must have exactly one accepted answer within the chosen bank. A reviewed projection may convert a fact relation into its canonical technical-term answer.",
+      "disallowed": ["candidate_facts", "unreviewed_atomic_facts", "structural_mechanics", "facts without a declared domain or relation"]
+    },
+    "domainRule": {
+      "default": "single_primary_domain",
+      "allowedAdjacentDomains": "none by default",
+      "exception": "A cross-domain composition is allowed only when a separately reviewed prototype explicitly declares its domain mix and every selected fact is reviewed.",
+      "prohibitedMixes": ["timber strength with waterproofing", "steel connection with unrelated fire phenomena", "building_construction with structural_mechanics"]
+    },
+    "relationRule": "Every blank asks one declared term-to-related-term relation. A generated set may contain multiple relation subtypes when all canonical answers are technical terms in the declared primary domain and each blank remains uniquely answerable.",
+    "reuseRule": "Read reuseRule from the selected prototype. Reuse is never inferred from the fact pool.",
+    "distractorRule": "For a generated single-domain set, every bank term must be a reviewed technical term in the same primary domain. Surplus terms, when the selected prototype permits them, must also be reviewed terms in that domain. Do not use arbitrary construction terms or values from another property family. For source reconstruction, preserve the source bank instead.",
+    "compositionRule": "Write new neutral prompts from the selected facts; do not copy source sentences. One prompt expresses one relation and must not reveal the answer by wording, unit, or grammatical form.",
+    "output": "A new mock question with provenance for prototype, fact IDs, domain, answer bank, reuse behavior, and validation results."
+  },
+  "validationRule": [
+    "Selected prototype parameters match prompt count, bank size, surplus count, and reuse rule.",
+    "Every selected fact is reviewed, belongs to building_construction, and has source evidence.",
+    "All prompts and bank terms belong to the declared domain unless a reviewed cross-domain prototype was explicitly selected.",
+    "Every blank has one answer in the bank; no duplicate answer appears when reuse is forbidden.",
+    "Every bank term satisfies the declared technical-term and domain rule; every surplus term also satisfies the rule.",
+    "No structural_mechanics term, buckling relation, or unreviewed candidate fact is present.",
+    "A regression record compares the generated set with its selected past-exam prototype parameters."
+  ],
+  "currentFactPoolAudit": {
+    "reviewedDomainPacks": ["data/building-construction-rc-reviewed-facts.json"],
+    "reviewedEligibleFacts": 12,
+    "reviewedProjectionItems": 10,
+    "status": "production_ready_for_rc_association",
+    "meaning": "A reviewed projection supplies ten uniquely answerable RC-construction technical terms for a released 2017-style one-to-one bank."
+  },
+  "generatorReadiness": "production_ready_for_rc_association",
+  "nextGate": "Use a different reviewed RC projection or a different subject-domain pack for the next generated set; retain the same release audit requirements."
+}

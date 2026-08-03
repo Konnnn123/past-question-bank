@@ -1,0 +1,140 @@
+{
+  "ventilation_co2": {
+    "G": {
+      "range": [
+        0.01,
+        0.025
+      ],
+      "unit": "m³/h",
+      "precision": 3
+    },
+    "Ci": {
+      "range": [
+        800,
+        1500
+      ],
+      "unit": "ppm",
+      "precision": 0
+    },
+    "Co": {
+      "range": [
+        300,
+        600
+      ],
+      "unit": "ppm",
+      "precision": 0
+    }
+  },
+  "thermal_transmission": {
+    "ho": {
+      "range": [
+        0.03,
+        0.06
+      ],
+      "unit": "m²·K/W",
+      "precision": 2
+    },
+    "hi": {
+      "range": [
+        0.09,
+        0.13
+      ],
+      "unit": "m²·K/W",
+      "precision": 2
+    },
+    "d1": {
+      "range": [
+        0.05,
+        0.2
+      ],
+      "unit": "m",
+      "precision": 3
+    },
+    "λ1": {
+      "range": [
+        0.03,
+        0.06
+      ],
+      "unit": "W/(m·K)",
+      "precision": 3
+    },
+    "d2": {
+      "range": [
+        0.1,
+        0.2
+      ],
+      "unit": "m",
+      "precision": 3
+    },
+    "λ2": {
+      "range": [
+        0.8,
+        2.0
+      ],
+      "unit": "W/(m·K)",
+      "precision": 1
+    }
+  },
+  "reverberation": {
+    "V": {
+      "range": [
+        100,
+        2000
+      ],
+      "unit": "m³",
+      "precision": 0
+    },
+    "A": {
+      "range": [
+        20,
+        500
+      ],
+      "unit": "m²",
+      "precision": 0
+    }
+  },
+  "illuminance_point": {
+    "I": {
+      "range": [
+        200,
+        2000
+      ],
+      "unit": "cd",
+      "precision": 0
+    },
+    "r": {
+      "range": [
+        1.0,
+        5.0
+      ],
+      "unit": "m",
+      "precision": 1
+    },
+    "θ": {
+      "range": [
+        0,
+        60
+      ],
+      "unit": "°",
+      "precision": 0
+    }
+  },
+  "dynamic_pressure": {
+    "ρ": {
+      "range": [
+        1.1,
+        1.3
+      ],
+      "unit": "kg/m³",
+      "precision": 1
+    },
+    "v": {
+      "range": [
+        2.0,
+        15.0
+      ],
+      "unit": "m/s",
+      "precision": 1
+    }
+  }
+}

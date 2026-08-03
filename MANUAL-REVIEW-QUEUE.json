@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "status": "round_1_decisions_recorded",
+  "activeRound": 2,
+  "activeQueue": "MANUAL-REVIEW-QUEUE-ROUND-2.json",
+  "scope": "minimum decisions required to remove current full-release semantic blockers",
+  "decision_options": ["approve", "reject", "revise"],
+  "minimum_approvals_to_continue": {
+    "history": 3,
+    "planning": 1,
+    "building_construction": 2,
+    "environment": 21
+  },
+  "manual_review_outcome": {
+    "recorded_at": "2026-07-18",
+    "approved": ["HR-003", "BC-001", "EN-DEF-001", "EN-DEF-004", "EN-DEF-005", "EN-DEF-006", "EN-DEF-007", "EN-DEF-008", "EN-DEF-009", "EN-DEF-010", "EN-DEF-011", "EN-DEF-012", "EN-DEF-013", "EN-DEF-014", "EN-DEF-015", "EN-DEF-016", "EN-CS-001", "EN-CS-004", "EN-CS-005"],
+    "revise": ["HR-001", "HR-002", "PL-001", "BC-002", "EN-DEF-002", "EN-DEF-003", "EN-CS-002", "EN-CS-003"],
+    "revisions": {
+      "HR-001": "Attach each 2014/2018 slot's actual prompt, answer-index entry, and one-to-one mapping; the existence of an auditable mapping is not a batch approval.",
+      "HR-002": "List the specific 2015 Q3 building, architect, year, style, and answer-index entry so that uniqueness can be checked.",
+      "PL-001": "Replace different-facility-as-false logic: each distractor needs evidence that its feature does not apply to the target facility; facilities may share features.",
+      "BC-002": "List every a–t slot with answer type and answer-index evidence; no blanket approval from contextual summary.",
+      "EN-DEF-002": "Revise definition to: average time elapsed from air entering the room until it reaches a specified indoor point; do not describe a deterministic single air parcel arrival time.",
+      "EN-DEF-003": "Keep the stack-ventilation zero-pressure-difference definition, but remove 等圧帯 as a false distractor until its synonym relationship is independently resolved.",
+      "EN-CS-002": "Keep the short-circuit/effectiveness core proposition, but replace the unconditional ACH-doubling concentration distractor; it can hold under steady-state, constant-generation conditions.",
+      "EN-CS-003": "Keep the surface-temperature/dew-point core proposition, but replace the unconditional RH-100%-always-condenses distractor; surface state and temperature conditions matter."
+    },
+    "not_automatically_promoted": true
+  },
+  "review_queue": [
+    {
+      "review_id": "HR-001",
+      "priority": 1,
+      "subject": "history",
+      "template": ["history_wordbank_pairing_2014", "history_wordbank_pairing_2018"],
+      "review_item": "Audit the source-to-answer mapping pack for the two no-image word-bank forms; approve only mappings whose answer is explicitly supported by the answer index.",
+      "source_file": ["data/processed_questions/2014_専門1_建筑史_Q5.md", "data/processed_questions/2018_専門1_建筑史_Q5.md", "data/history-review-index.tsv"],
+      "source_location": "2014/2018 Q5 word-bank answer rows; corresponding `history-review-index.tsv` records",
+      "source_excerpt_or_paraphrase": "The processed forms provide word-bank prompts, but the current runtime record has no audited answer mapping for these no-image forms.",
+      "proposed_answer": "Each answer-index term mapped to exactly one source prompt; no inferred architect/year substitution.",
+      "proposed_relation": "historical_description -> canonical_name / architect / era, exactly as indexed",
+      "proposed_distractors": ["other terms in the same source word bank", "same-period but different work", "same architect but different work"],
+      "why_each_distractor_is_false": ["It does not satisfy the indexed description for that slot.", "Its period alone does not establish the requested description relation.", "Shared author does not establish the requested building/name relation."],
+      "ambiguity_risk": "High until each source slot is linked to an indexed answer; names, architects, and dates cannot be inferred from adjacent history records.",
+      "decision_options": ["approve", "reject", "revise"],
+      "exact_effect_if_approved": "Unblocks evidence-backed no-image word-bank pairing reconstruction and the relation-specific fact extraction needed for its guarded generator path (2 templates).",
+      "blocking_release_gate": "history_full_release.source_traceability"
+    },
+    {
+      "review_id": "HR-002",
+      "priority": 2,
+      "subject": "history",
+      "template": "history_description_to_name_2015_Q3",
+      "review_item": "Resolve the conflicting imported building/architect/year record(s) referenced by 2015 Specialist 1 Q3 before using them as one-answer facts.",
+      "source_file": ["data/processed_questions/2015_専門1_建筑史_Q3.md", "data/history-review-index.tsv", "data/history-text-audit.tsv"],
+      "source_location": "2015 Q3 source entry and its imported/review-index rows",
+      "source_excerpt_or_paraphrase": "The source-derived history entry has a conflicting or `要確認` architect/year field, so the description does not yet prove a unique canonical answer.",
+      "proposed_answer": "The single building/architect/year mapping confirmed by the reviewed source record.",
+      "proposed_relation": "building -> architect / completion_year / style",
+      "proposed_distractors": ["conflicting imported architect", "same-era architect", "same-style building"],
+      "why_each_distractor_is_false": ["Conflicts with the approved source mapping.", "Era alone is not the requested building-to-architect relation.", "Style alone is not the requested description-to-name relation."],
+      "ambiguity_risk": "High: a wrong decision would create a confidently graded but historically false answer.",
+      "decision_options": ["approve", "reject", "revise"],
+      "exact_effect_if_approved": "Allows the affected 2015 Q3 relation to enter the unique-answer pool and removes the conflicting-record blocker for the description-to-name template.",
+      "blocking_release_gate": "history_full_release.unique_answer"
+    },
+    {
+      "review_id": "HR-003",
+      "priority": 3,
+      "subject": "history",
+      "template": "history_explanatory_writing_Q7",
+      "review_item": "Approve, reject, or revise the three-dimension manual scoring rubric for Q7-style historical explanation.",
+      "source_file": ["data/processed_questions/2015_専門1_建筑史_Q7.md", "data/history-text-audit.tsv"],
+      "source_location": "2015 Q7 prompt and current unreviewed text-audit routing entry",
+      "source_excerpt_or_paraphrase": "Q7 requires an explanatory response; current code/data have no reviewed dimensions for claim accuracy, source-grounded relation, and contextual qualification.",
+      "proposed_answer": "A response rubric, not one canonical text: (1) identifies the requested object/event, (2) states the source-backed relation, (3) includes required historical qualification.",
+      "proposed_relation": "historical_claim -> evidence -> contextual_qualification",
+      "proposed_distractors": ["name-only response", "unqualified superlative claim", "correct era but wrong relation"],
+      "why_each_distractor_is_false": ["It omits the relation requested by the prompt.", "It introduces an unsupported absolute claim.", "It does not answer the requested relationship despite matching an era."],
+      "ambiguity_risk": "Medium: rubric must permit equivalent wording without accepting unsupported factual claims.",
+      "decision_options": ["approve", "reject", "revise"],
+      "exact_effect_if_approved": "Provides the required human-scoring route for the subjective core item and unblocks history submission/result release validation.",
+      "blocking_release_gate": "history_full_release.subjective_rubric"
+    },
+    {
+      "review_id": "PL-001",
+      "priority": 4,
+      "subject": "planning",
+      "template": "planning_facility_fact_recall",
+      "review_item": "Approve a closed-world exclusivity rule for `facility has_feature` facts used as four-choice distractors, including collision handling.",
+      "source_file": ["src/lib/planning-facility-choice-generator.ts", "data/atomic-facts.json", "data/question-blueprints.json"],
+      "source_location": "facility-choice eligibility and distractor selection; approved planning facility fact records",
+      "source_excerpt_or_paraphrase": "Existing facts establish that a named facility has a feature, but not that a peer facility lacks it. The runtime must not infer falsity merely from non-selection.",
+      "proposed_answer": "Permit a distractor only when an approved fact explicitly ties the same feature to a different named facility and a reviewer accepts the template's closed-world wording for that source scope.",
+      "proposed_relation": "facility -> has_feature",
+      "proposed_distractors": ["Forum building (office/common-space feature)", "Shizuoka Newspaper/Shizuoka Broadcasting building (replaceable office-unit feature)", "Palace Side building (end-core office feature)"],
+      "why_each_distractor_is_false": ["It is a different named facility; it cannot answer a prompt whose entity is another named facility under the approved closed-world rule.", "It is a different named facility and feature relation, not evidence for the prompt entity.", "It is a different named facility and feature relation, not evidence for the prompt entity."],
+      "ambiguity_risk": "High unless the rule prohibits generic feature wording and treats shared features as collisions rather than false options.",
+      "decision_options": ["approve", "reject", "revise"],
+      "exact_effect_if_approved": "Allows the existing 74 confirmed facility facts to be rerun through a truth-preserving distractor filter; collision cases remain rejected rather than guessed. Unlocks the dominant facility-recall template (8 observed years).",
+      "blocking_release_gate": "planning_full_release.distractor_truth"
+    },
+    {
+      "review_id": "BC-001",
+      "priority": 5,
+      "subject": "building_construction",
+      "template": "construction_independent_term_fill_2014_Q3",
+      "review_item": "Audit the 20 `card-supported-draft` answer-index mappings and their term-definition relations; the sample anchor is エキスパンションジョイント.",
+      "source_file": ["data/processed_questions/2014_専門1_建筑构法_Q3.md", "data/construction-exam-answers.json"],
+      "source_location": "`2014:専門1:問題3`, items s01–s20 (all currently `card-supported-draft`)",
+      "source_excerpt_or_paraphrase": "s01: `相対変位に追従する接合部` -> `エキスパンションジョイント`; the remaining nineteen mappings are retained in the same answer-index pack.",
+      "proposed_answer": "Approve/revise/reject each indexed term mapping as a source-backed independent definition; no promotion based only on a learning-card paraphrase.",
+      "proposed_relation": "construction_description -> construction_term",
+      "proposed_distractors": ["落とし込み", "京呂組", "折置組"],
+      "why_each_distractor_is_false": ["A fitting/joinery method, not a joint accommodating relative displacement.", "A timber framing arrangement, not a movement joint.", "A timber framing arrangement, not a movement joint."],
+      "ambiguity_risk": "Medium: this is a multi-domain 20-slot source pack, so each definition needs a separate source check before it can become an eligible fact.",
+      "decision_options": ["approve", "reject", "revise"],
+      "exact_effect_if_approved": "Converts the 2014 answer-index pack from draft evidence to traceable independent-fill facts and unlocks its one template for implementation.",
+      "blocking_release_gate": "building_construction_full_release.source_traceability"
+    },
+    {
+      "review_id": "BC-002",
+      "priority": 6,
+      "subject": "building_construction",
+      "template": "construction_inline_fill_2024_Q3",
+      "review_item": "Audit the a–t inline answer mapping, answer forms, and permitted distractor boundaries for 2024 Q3.",
+      "source_file": ["data/processed_questions/2024_専門1_建筑构法_Q3.md", "data/construction-exam-answers.json"],
+      "source_location": "`2024:専門1:問題3`, item s01; answers a–t currently stored as one `card-supported-draft` block",
+      "source_excerpt_or_paraphrase": "The current indexed block combines numeric, term, material, construction-method and detail answers (for example `レトロフィット`, `透湿防水`, `豆板`, `逆打ち工法`, `かぶり`).",
+      "proposed_answer": "Split and verify each a–t answer with its exact source slot and answer form before reuse.",
+      "proposed_relation": "inline_context -> numeric / term / method / detail answer (slot-specific)",
+      "proposed_distractors": ["`豆板` for a waterproofing slot", "`透湿防水` for a concrete-defect slot", "`逆打ち工法` for a cover-depth slot"],
+      "why_each_distractor_is_false": ["A concrete defect, not a waterproofing material/detail.", "A membrane/material concept, not the concrete-defect answer.", "An underground construction method, not a dimensional cover requirement."],
+      "ambiguity_risk": "High: the single indexed string currently mixes answer types, so word-bank or fill reuse would create invalid same-granularity distractors without slot-level review.",
+      "decision_options": ["approve", "reject", "revise"],
+      "exact_effect_if_approved": "Supplies the slot-level evidence required to implement the 2024 inline-fill template without mixing answer forms or Structural Mechanics.",
+      "blocking_release_gate": "building_construction_full_release.source_traceability"
+    },
+    {
+      "review_id": "EN-DEF-001", "priority": 7, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-001: PMV", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 118", "source_excerpt_or_paraphrase": "Six-input index predicting average thermal sensation.", "proposed_answer": "PMV", "proposed_relation": "defined_as", "proposed_distractors": ["SET*", "作用温度", "PPD"], "why_each_distractor_is_false": ["Different thermal index, not the six-input PMV definition.", "A temperature measure, not a predicted mean vote.", "Dissatisfaction percentage, not the sensation index."], "ambiguity_risk": "Keep all six inputs.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one human_comfort answer/surplus candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-002", "priority": 8, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-002: 空気齢", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 862", "source_excerpt_or_paraphrase": "Travel time of supply air to a specified indoor point.", "proposed_answer": "空気齢", "proposed_relation": "defined_as", "proposed_distractors": ["空気の寿命", "余命", "換気効率"], "why_each_distractor_is_false": ["Describes removal from a point, not arrival from the supply opening.", "A different ventilation-age quantity.", "An effectiveness measure, not travel time."], "ambiguity_risk": "Must retain supply-point and indoor-point conditions.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one ventilation candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-003", "priority": 9, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-003: 中性帯", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 258", "source_excerpt_or_paraphrase": "Height where indoor and outdoor pressure are equal during stack ventilation.", "proposed_answer": "中性帯", "proposed_relation": "defined_as", "proposed_distractors": ["等圧帯", "無風帯", "緩衝帯"], "why_each_distractor_is_false": ["Possible near-synonym requiring reviewer canonicalization; reject if it is deemed synonymous.", "No source relation to stack-pressure equality.", "No source relation to stack-pressure equality."], "ambiguity_risk": "Check whether 等圧帯 is a synonym before approval.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one ventilation candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-004", "priority": 10, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-004: 局所換気", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 873", "source_excerpt_or_paraphrase": "Captures contaminants near their source before room-wide diffusion.", "proposed_answer": "局所換気", "proposed_relation": "defined_as", "proposed_distractors": ["全般換気", "第1種換気方式", "置換換気"], "why_each_distractor_is_false": ["Dilutes/removes room air rather than source capture.", "Classifies supply/exhaust fan arrangement, not capture location.", "A supply/displacement pattern, not source capture."], "ambiguity_risk": "Preserve the near-source condition.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one ventilation candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-005", "priority": 11, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-005: ピストンフロー", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 872", "source_excerpt_or_paraphrase": "Idealized one-direction flow pushing contaminants out.", "proposed_answer": "ピストンフロー", "proposed_relation": "defined_as", "proposed_distractors": ["置換換気", "局所換気", "空気齢"], "why_each_distractor_is_false": ["A practical ventilation approach, not the idealized one-direction flow definition.", "Source-capture method, not whole-flow pattern.", "A travel-time metric, not a flow pattern."], "ambiguity_risk": "Retain the idealized one-direction condition.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one ventilation candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-006", "priority": 12, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-006: 露点温度", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 477", "source_excerpt_or_paraphrase": "Temperature at saturation/condensation when cooling at constant water-vapour partial pressure.", "proposed_answer": "露点温度", "proposed_relation": "defined_as", "proposed_distractors": ["湿球温度", "相対湿度", "表面結露"], "why_each_distractor_is_false": ["Requires wet-bulb evaporative condition, not stated cooling condition.", "A ratio, not a temperature threshold.", "A condensation event, not the threshold temperature."], "ambiguity_risk": "Constant water-vapour partial pressure is required.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one moisture candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-007", "priority": 13, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-007: 回折", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 941", "source_excerpt_or_paraphrase": "Sound bends/reaches behind an obstacle; more conspicuous at low frequency.", "proposed_answer": "回折", "proposed_relation": "defined_as", "proposed_distractors": ["反射", "フラッターエコー", "マスキング効果"], "why_each_distractor_is_false": ["A bounce from a surface, not propagation behind an obstacle.", "Repeated reflection between parallel surfaces.", "Auditory masking by another sound."], "ambiguity_risk": "Retain obstacle-backside and low-frequency qualifiers.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one acoustics candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-008", "priority": 14, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-008: フラッターエコー", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 603", "source_excerpt_or_paraphrase": "Short reflection train between parallel, highly reflective surfaces.", "proposed_answer": "フラッターエコー", "proposed_relation": "defined_as", "proposed_distractors": ["室モード", "回折", "マスキング効果"], "why_each_distractor_is_false": ["Low-frequency room resonance, not reflection train.", "Obstacle diffraction, not parallel-surface reflection.", "Auditory masking, not a room reflection phenomenon."], "ambiguity_risk": "Parallel and reflective-surface conditions are required.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one acoustics candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-009", "priority": 15, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-009: マスキング効果", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 608", "source_excerpt_or_paraphrase": "One sound makes another sound difficult to hear.", "proposed_answer": "マスキング効果", "proposed_relation": "defined_as", "proposed_distractors": ["カクテルパーティー効果", "フラッターエコー", "回折"], "why_each_distractor_is_false": ["Selective listening to a desired sound, not reduced audibility.", "Reflection phenomenon, not auditory interference.", "Wave propagation phenomenon, not auditory interference."], "ambiguity_risk": "Differentiate from cocktail-party effect explicitly.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one acoustics candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-010", "priority": 16, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-010: 室モード", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 942", "source_excerpt_or_paraphrase": "Specific low-frequency resonance in a small room causing non-uniform sound-pressure distribution.", "proposed_answer": "室モード", "proposed_relation": "defined_as", "proposed_distractors": ["フラッターエコー", "コインシデンス効果", "残響"], "why_each_distractor_is_false": ["Parallel-surface reflection train, not low-frequency resonance.", "Wall transmission-loss phenomenon, not room resonance.", "Persistence after sound stops, not spatial pressure distribution."], "ambiguity_risk": "Retain low-frequency, small-room and non-uniform-distribution conditions.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one acoustics candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-011", "priority": 17, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-011: 終日日影", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 52", "source_excerpt_or_paraphrase": "Area in shadow throughout sunrise-to-sunset on a specified day.", "proposed_answer": "終日日影", "proposed_relation": "defined_as", "proposed_distractors": ["永久日影", "日影", "等時間日影線"], "why_each_distractor_is_false": ["Uses yearly rather than one-day criterion.", "Generic shadow, lacking whole-day condition.", "A contour representation, not the area definition."], "ambiguity_risk": "Specified-day qualifier is mandatory.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one solar candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-012", "priority": 18, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-012: 永久日影", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 53", "source_excerpt_or_paraphrase": "Area receiving no direct sunlight throughout the year.", "proposed_answer": "永久日影", "proposed_relation": "defined_as", "proposed_distractors": ["終日日影", "日影", "等時間日影線"], "why_each_distractor_is_false": ["Uses a specified-day rather than annual criterion.", "Generic shadow, lacking annual criterion.", "A contour representation, not the area definition."], "ambiguity_risk": "Annual criterion is mandatory.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one solar candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-013", "priority": 19, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-013: 全熱交換器", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 1006", "source_excerpt_or_paraphrase": "Device recovering sensible and latent heat between exhaust and supply air.", "proposed_answer": "全熱交換器", "proposed_relation": "defined_as", "proposed_distractors": ["顕熱交換器", "第1種換気方式", "VAV"], "why_each_distractor_is_false": ["Does not recover both sensible and latent heat.", "A fan-arrangement category, not a heat-exchange device.", "A variable-air-volume control method, not heat recovery."], "ambiguity_risk": "Both sensible and latent recovery are mandatory.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one systems candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-014", "priority": 20, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-014: 雑排水", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 1053", "source_excerpt_or_paraphrase": "Wastewater from kitchen, bath and washbasin, excluding toilet discharge.", "proposed_answer": "雑排水", "proposed_relation": "defined_as", "proposed_distractors": ["汚水", "雨水", "排水"], "why_each_distractor_is_false": ["Includes toilet sewage; the candidate definition excludes it.", "Stormwater, not domestic greywater.", "Over-broad superordinate term, not the required partition."], "ambiguity_risk": "Toilet-discharge exclusion is mandatory.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one plumbing candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-015", "priority": 21, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-015: VAV", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 1003", "source_excerpt_or_paraphrase": "Variable-air-volume method that changes mainly supply-air volume with room load.", "proposed_answer": "VAV", "proposed_relation": "defined_as", "proposed_distractors": ["CAV", "VWV", "マルチゾーン方式"], "why_each_distractor_is_false": ["Constant rather than variable air volume.", "Variable-water-volume system, not supply-air volume.", "Zoning configuration, not the stated control method."], "ambiguity_risk": "Keep the `mainly supply-air volume` qualifier.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Adds one systems candidate toward the 16-fact technical minimum.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-DEF-016", "priority": 22, "subject": "environment", "template": "environment_phenomenon_to_term_2022", "review_item": "Candidate env-phen-018: 代謝量", "source_file": "data/建築環境工学_総合知識档案.md", "source_location": "line 114", "source_excerpt_or_paraphrase": "Heat generation due to human activity; 1 met = 58.2 W/m².", "proposed_answer": "代謝量", "proposed_relation": "defined_as", "proposed_distractors": ["着衣量", "PMV", "作用温度"], "why_each_distractor_is_false": ["Clothing thermal resistance, not activity heat generation.", "Thermal-sensation index, not an input quantity.", "Combined temperature measure, not activity heat generation."], "ambiguity_risk": "Do not reduce it to an unexplained numerical-unit recall.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Completes the 16-fact technical minimum for guarded phenomenon-to-term runtime validation.", "blocking_release_gate": "environment_full_release.defined_as_pool_minimum" },
+    {
+      "review_id": "EN-CS-001", "priority": 23, "subject": "environment", "template": "environment_correct_statement_select", "review_item": "cs-environment-01 thermal-transmittance proposition and three false options", "source_file": ["data/correct-statement-prototypes.json", "data/misconception-library.json"], "source_location": "question `cs-environment-01`; `env-mis-001`", "source_excerpt_or_paraphrase": "Correct: lower U-value means higher insulation performance.", "proposed_answer": "Select only the lower-U / higher-insulation proposition.", "proposed_relation": "thermal_transmittance -> inverse insulation performance", "proposed_distractors": ["higher U means higher insulation", "thermal transmittance is proportional to temperature difference", "U depends only on thickness"], "why_each_distractor_is_false": ["Reverses U and insulation relation.", "Confuses U with heat flow; U is a property coefficient.", "Omits material conductivity and surface resistances."], "ambiguity_risk": "Confirm the scope is steady-state envelope performance.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Provides one fully evidenced thermal correct-statement proposition pack; removes one missing-false-evidence slot.", "blocking_release_gate": "environment_full_release.false_proposition_evidence" },
+    {
+      "review_id": "EN-CS-002", "priority": 24, "subject": "environment", "template": "environment_correct_statement_select", "review_item": "cs-environment-02 ventilation-effectiveness proposition and three false options", "source_file": ["data/correct-statement-prototypes.json", "data/misconception-library.json"], "source_location": "question `cs-environment-02`; `env-mis-002`, `env-mis-007`", "source_excerpt_or_paraphrase": "Short-circuit flow can lower effective air exchange even when nominal air changes are high.", "proposed_answer": "Select only the short-circuit/effectiveness proposition.", "proposed_relation": "airflow_pattern -> ventilation_effectiveness", "proposed_distractors": ["required ventilation is proportional to room volume", "doubling air-change rate always halves concentration", "displacement ventilation is generally less effective than mixing"], "why_each_distractor_is_false": ["Required flow depends on generation and permissible concentration difference.", "Concentration response depends on conditions and flow pattern; it is not unconditional.", "Reverses the stated effectiveness relationship."], "ambiguity_risk": "Keep steady-state/flow-pattern conditions visible.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Provides one fully evidenced ventilation proposition pack.", "blocking_release_gate": "environment_full_release.false_proposition_evidence" },
+    {
+      "review_id": "EN-CS-003", "priority": 25, "subject": "environment", "template": "environment_correct_statement_select", "review_item": "cs-environment-03 surface-condensation proposition and three false options", "source_file": ["data/correct-statement-prototypes.json", "data/misconception-library.json"], "source_location": "question `cs-environment-03`; `env-mis-005`, `env-mis-008`", "source_excerpt_or_paraphrase": "Surface condensation occurs when wall-surface temperature is below dew-point temperature, even below 100% room RH.", "proposed_answer": "Select only the surface-temperature/dew-point proposition.", "proposed_relation": "surface_temperature -> condensation_condition", "proposed_distractors": ["room temperature above dew point prevents all condensation", "indoor vapour barrier completely prevents internal condensation", "100% relative humidity always creates wall-surface condensation"], "why_each_distractor_is_false": ["Wall-surface, not room-air, temperature governs surface condition.", "Barrier placement/performance cannot support an unconditional guarantee.", "Surface temperature condition is still required."], "ambiguity_risk": "Must distinguish surface from interstitial condensation.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Provides one fully evidenced moisture proposition pack.", "blocking_release_gate": "environment_full_release.false_proposition_evidence" },
+    {
+      "review_id": "EN-CS-004", "priority": 26, "subject": "environment", "template": "environment_correct_statement_select", "review_item": "cs-environment-04 radiative-transfer proposition and three false options", "source_file": ["data/correct-statement-prototypes.json", "data/misconception-library.json"], "source_location": "question `cs-environment-04`; `env-mis-004`", "source_excerpt_or_paraphrase": "Net radiative heat flow is proportional to the difference of fourth powers of absolute temperatures.", "proposed_answer": "Select only the fourth-power absolute-temperature proposition.", "proposed_relation": "radiative_heat_transfer -> absolute_temperature_fourth_power_difference", "proposed_distractors": ["proportional to Celsius temperature difference", "requires a medium", "lower emissivity increases radiative heat flow"], "why_each_distractor_is_false": ["Uses the wrong temperature relationship.", "Radiation transfers through vacuum.", "Reverses emissivity effect under otherwise same conditions."], "ambiguity_risk": "State absolute temperature and net exchange condition.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Provides one fully evidenced radiation proposition pack.", "blocking_release_gate": "environment_full_release.false_proposition_evidence" },
+    {
+      "review_id": "EN-CS-005", "priority": 27, "subject": "environment", "template": "environment_correct_statement_select", "review_item": "cs-environment-05 sound-insulation proposition and three false options", "source_file": ["data/correct-statement-prototypes.json", "data/misconception-library.json"], "source_location": "question `cs-environment-05`; `env-mis-009`", "source_excerpt_or_paraphrase": "A single wall follows mass-law tendency but has a coincidence-related transmission-loss dip at a specific frequency.", "proposed_answer": "Select only the mass-law-with-coincidence-qualification proposition.", "proposed_relation": "wall_mass_and_frequency -> transmission_loss", "proposed_distractors": ["only surface density matters", "reducing double-wall cavity improves every band", "doubling mass doubles transmission loss"], "why_each_distractor_is_false": ["Frequency and coincidence effects remain relevant.", "Double-wall systems have resonance/cavity effects; no unconditional improvement follows.", "Mass-law is logarithmic, not linear."], "ambiguity_risk": "Keep single-wall and frequency qualifications; do not generalize to all assemblies.", "decision_options": ["approve", "reject", "revise"], "exact_effect_if_approved": "Provides one fully evidenced acoustics proposition pack and completes the minimum five-topic correct-statement audit set.", "blocking_release_gate": "environment_full_release.false_proposition_evidence" }
+  ],
+  "operational_actions": [
+    {
+      "action_id": "OPS-LOCALHOST-001",
+      "type": "operational_action",
+      "not_a_semantic_review": true,
+      "required_action": "Stop or hand over the user-owned `next dev -p 3210` process, then rerun controlled build and browser end-to-end verification.",
+      "blocking_release_gate": ["history_full_release.browser_e2e", "planning_full_release.browser_e2e", "building_construction_full_release.browser_e2e", "environment_full_release.browser_e2e"]
+    }
+  ]
+}

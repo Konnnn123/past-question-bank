@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "round": 3,
+  "contractEnforced": true,
+  "totalQuestions": 6,
+  "questions": [
+    {
+      "id": "r3-architect_to_work-01",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "contractVersion": "1.0",
+      "question": {
+        "prompt": "次の建築家の代表作として、最も適切なものを一つ選びなさい。\n\nハンス・ペルツィヒ",
+        "options": [
+          "A. ベルリン大劇場",
+          "B. 19世紀",
+          "C. Bayerische Staatsbibliothek",
+          "D. 歴史主義建築"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "Contract: answer.sourceField=value, semanticType=building_name"
+      },
+      "contractTrace": {
+        "inputFact": {
+          "id": "fact-e63bdff03288",
+          "entityName": "ハンス・ペルツィヒ",
+          "relation": "designed_by_architect",
+          "value": "ベルリン大劇場",
+          "entityType": "person"
+        },
+        "promptFieldUsed": "entityName",
+        "answerFieldUsed": "value",
+        "distractorRationale": {
+          "distractor_0": "shared_metadata=0",
+          "distractor_1": "shared_metadata=0",
+          "distractor_2": "shared_metadata=0"
+        },
+        "assertionsPassed": true
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r3-architect_to_work-02",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "contractVersion": "1.0",
+      "question": {
+        "prompt": "次の建築家の代表作として、最も適切なものを一つ選びなさい。\n\nル・コルビュジエ",
+        "options": [
+          "A. 19世紀",
+          "B. ニュートン記念堂設計案",
+          "C. Bayerische Staatsbibliothek",
+          "D. 歴史主義建築"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "Contract: answer.sourceField=value, semanticType=building_name"
+      },
+      "contractTrace": {
+        "inputFact": {
+          "id": "fact-84f845bbd0fe",
+          "entityName": "ル・コルビュジエ",
+          "relation": "designed_by_architect",
+          "value": "ニュートン記念堂設計案",
+          "entityType": "person"
+        },
+        "promptFieldUsed": "entityName",
+        "answerFieldUsed": "value",
+        "distractorRationale": {
+          "distractor_0": "shared_metadata=0",
+          "distractor_1": "shared_metadata=0",
+          "distractor_2": "shared_metadata=0"
+        },
+        "assertionsPassed": true
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r3-architect_to_work-03",
+      "subject": "history",
+      "blueprintId": "architect_to_work",
+      "contractVersion": "1.0",
+      "question": {
+        "prompt": "次の建築家の代表作として、最も適切なものを一つ選びなさい。\n\nスーリヤヴァルマン2世",
+        "options": [
+          "A. 19世紀",
+          "B. Bayerische Staatsbibliothek",
+          "C. 歴史主義建築",
+          "D. アンコール・ワット"
+        ],
+        "correctIndex": 3,
+        "answerExplanation": "Contract: answer.sourceField=value, semanticType=building_name"
+      },
+      "contractTrace": {
+        "inputFact": {
+          "id": "fact-0ee58ef450fa",
+          "entityName": "スーリヤヴァルマン2世",
+          "relation": "designed_by_architect",
+          "value": "アンコール・ワット",
+          "entityType": "person"
+        },
+        "promptFieldUsed": "entityName",
+        "answerFieldUsed": "value",
+        "distractorRationale": {
+          "distractor_0": "shared_metadata=0",
+          "distractor_1": "shared_metadata=0",
+          "distractor_2": "shared_metadata=0"
+        },
+        "assertionsPassed": true
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r3-description_to_pattern-01",
+      "subject": "planning",
+      "blueprintId": "description_to_pattern",
+      "contractVersion": "1.0",
+      "question": {
+        "prompt": "次の空間的特徴に該当するパターンを一つ選びなさい。\n\n円筒形コアを両端に置き、中央に大きな執務空間を確保したオフィスビル。コアと基準階平面の関係が識別点。",
+        "options": [
+          "A. パレスサイドビル",
+          "B. 事務所の照度",
+          "C. 新宿住友ビル",
+          "D. 新宿住友ビル"
+        ],
+        "correctIndex": 0,
+        "answerExplanation": "Contract: answer.sourceField=entityName, semanticType=pattern_name"
+      },
+      "contractTrace": {
+        "inputFact": {
+          "id": "fact-84c3a966b761",
+          "entityName": "パレスサイドビル",
+          "relation": "has_feature",
+          "value": "円筒形コアを両端に置き、中央に大きな執務空間を確保したオフィスビル。コアと基準階平面の関係が識別点。",
+          "entityType": "term"
+        },
+        "promptFieldUsed": "value",
+        "answerFieldUsed": "entityName",
+        "distractorRationale": {
+          "distractor_0": "shared_metadata=2",
+          "distractor_1": "shared_metadata=2",
+          "distractor_2": "shared_metadata=2"
+        },
+        "assertionsPassed": true
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r3-description_to_pattern-02",
+      "subject": "planning",
+      "blueprintId": "description_to_pattern",
+      "contractVersion": "1.0",
+      "question": {
+        "prompt": "次の空間的特徴に該当するパターンを一つ選びなさい。\n\n小さく開かれた住まいは 人とのつながりと自然共生 を促す。 安全で安心な「共」の空間 と 快適な緑環境 が必要 パッシブデザイン ： 建築計画自体で空気・熱の流れを制御 。 太陽光・風・地熱を享受 し、 住み手が能動的に快適環境をコントロールする",
+        "options": [
+          "A. 視覚障害者誘導ブロック",
+          "B. 視覚障害通路の側方突出物",
+          "C. 環境共生の基本",
+          "D. 視覚障害通路の床に段差がある場合"
+        ],
+        "correctIndex": 2,
+        "answerExplanation": "Contract: answer.sourceField=entityName, semanticType=pattern_name"
+      },
+      "contractTrace": {
+        "inputFact": {
+          "id": "fact-d1e3e669b659",
+          "entityName": "環境共生の基本",
+          "relation": "has_feature",
+          "value": "小さく開かれた住まいは 人とのつながりと自然共生 を促す。 安全で安心な「共」の空間 と 快適な緑環境 が必要 パッシブデザイン ： 建築計画自体で空気・熱の流れを制御 。 太陽光・風・地熱を享受 し",
+          "entityType": "term"
+        },
+        "promptFieldUsed": "value",
+        "answerFieldUsed": "entityName",
+        "distractorRationale": {
+          "distractor_0": "shared_metadata=2",
+          "distractor_1": "shared_metadata=2",
+          "distractor_2": "shared_metadata=2"
+        },
+        "assertionsPassed": true
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    },
+    {
+      "id": "r3-description_to_pattern-03",
+      "subject": "planning",
+      "blueprintId": "description_to_pattern",
+      "contractVersion": "1.0",
+      "question": {
+        "prompt": "次の空間的特徴に該当するパターンを一つ選びなさい。\n\n既存建物の再生を通じ、多様な居住者が共用空間を分かち合うシェア居住の事例。",
+        "options": [
+          "A. 本郷館",
+          "B. SHARE yaraicho",
+          "C. 静岡新聞・静岡放送ビル",
+          "D. 正面のない家（N氏邸）"
+        ],
+        "correctIndex": 1,
+        "answerExplanation": "Contract: answer.sourceField=entityName, semanticType=pattern_name"
+      },
+      "contractTrace": {
+        "inputFact": {
+          "id": "fact-817821b43a4a",
+          "entityName": "SHARE yaraicho",
+          "relation": "defined_as",
+          "value": "既存建物の再生を通じ、多様な居住者が共用空間を分かち合うシェア居住の事例。",
+          "entityType": "term"
+        },
+        "promptFieldUsed": "value",
+        "answerFieldUsed": "entityName",
+        "distractorRationale": {
+          "distractor_0": "shared_metadata=2",
+          "distractor_1": "shared_metadata=2",
+          "distractor_2": "shared_metadata=2"
+        },
+        "assertionsPassed": true
+      },
+      "technicalQuality": 95,
+      "pedagogicalQuality": 85
+    }
+  ]
+}

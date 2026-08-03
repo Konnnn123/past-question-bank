@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640">
+  <rect width="1120" height="640" fill="#f7f4ed"/>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <text x="42" y="48" font-size="27" font-weight="700" fill="#17324d">T6 環境技術史｜外皮を通過する流れで分類する</text>
+    <text x="42" y="78" font-size="16" fill="#52606d">water / heat and air / light / fire and smoke / sound</text>
+    <rect x="450" y="130" width="220" height="370" fill="#e8dfcd" stroke="#17324d" stroke-width="8"/>
+    <rect x="505" y="230" width="110" height="145" fill="#dcebea" stroke="#2e7d75" stroke-width="6"/>
+    <text x="560" y="190" text-anchor="middle" font-size="22" font-weight="700" fill="#17324d">外皮＋設備</text>
+    <g font-size="19" fill="#17324d">
+      <g><path d="M80 160 H420" stroke="#3186a0" stroke-width="8" marker-end="url(#blue)"/><text x="80" y="145">雨・水</text><text x="90" y="190" fill="#52606d">屋根勾配／葺材／樋／防水</text></g>
+      <g><path d="M80 280 H420" stroke="#b14f3b" stroke-width="8" marker-end="url(#red)"/><text x="80" y="265">熱・空気</text><text x="90" y="310" fill="#52606d">厚壁／窓／暖房／換気／空調</text></g>
+      <g><path d="M1040 175 H700" stroke="#d4ad6a" stroke-width="8" marker-end="url(#gold)"/><text x="990" y="155" text-anchor="end">光</text><text x="1030" y="205" text-anchor="end" fill="#52606d">開口／ガラス／照明／遮蔽</text></g>
+      <g><path d="M1040 315 H700" stroke="#8b6b3f" stroke-width="8" marker-end="url(#brown)"/><text x="990" y="295" text-anchor="end">火・煙</text><text x="1030" y="345" text-anchor="end" fill="#52606d">不燃化／区画／避難／排煙</text></g>
+      <g><path d="M80 435 H420" stroke="#735a9c" stroke-width="8" marker-end="url(#violet)"/><text x="80" y="420">音</text><text x="90" y="465" fill="#52606d">形態／吸音／遮音／設備騒音</text></g>
+    </g>
+    <text x="560" y="535" text-anchor="middle" font-size="19" fill="#b14f3b">環境条件 → 性能要求 → 外皮・設備 → 平面・断面 → 生活・用途 → 維持とエネルギー</text>
+    <text x="560" y="578" text-anchor="middle" font-size="18" fill="#52606d">機械設備の導入は「付加」ではなく、窓・奥行・階高・コア・外観を再編する</text>
+    <text x="560" y="614" text-anchor="middle" font-size="18" fill="#2e7d75">自然利用と機械制御を単純な旧／新・劣／優として扱わない</text>
+  </g>
+  <defs>
+    <marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#3186a0"/></marker>
+    <marker id="red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#b14f3b"/></marker>
+    <marker id="gold" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d4ad6a"/></marker>
+    <marker id="brown" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#8b6b3f"/></marker>
+    <marker id="violet" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#735a9c"/></marker>
+  </defs>
+</svg>

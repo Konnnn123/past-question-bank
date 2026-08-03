@@ -1,0 +1,221 @@
+[
+  {
+    "id": "env-calc-ventilation_co2-01",
+    "familyId": "ventilation_co2",
+    "structuralSimilarity": 5.0,
+    "knowledgeValidity": 5.0,
+    "reasoningDepth": 5.0,
+    "unitCorrectness": 5.0,
+    "assumptionCompleteness": 5.0,
+    "averageScore": 5.0,
+    "action": "keep",
+    "details": [
+      "high_frequency_topic",
+      "multi_step",
+      "unit_conversion_required",
+      "explicit_assumptions",
+      "independent_validation_pass",
+      "parameterized"
+    ]
+  },
+  {
+    "id": "env-calc-ventilation_co2-02",
+    "familyId": "ventilation_co2",
+    "structuralSimilarity": 5.0,
+    "knowledgeValidity": 5.0,
+    "reasoningDepth": 5.0,
+    "unitCorrectness": 5.0,
+    "assumptionCompleteness": 5.0,
+    "averageScore": 5.0,
+    "action": "keep",
+    "details": [
+      "high_frequency_topic",
+      "multi_step",
+      "unit_conversion_required",
+      "explicit_assumptions",
+      "independent_validation_pass",
+      "parameterized"
+    ]
+  },
+  {
+    "id": "env-calc-ventilation_co2-03",
+    "familyId": "ventilation_co2",
+    "structuralSimilarity": 5.0,
+    "knowledgeValidity": 5.0,
+    "reasoningDepth": 5.0,
+    "unitCorrectness": 5.0,
+    "assumptionCompleteness": 5.0,
+    "averageScore": 5.0,
+    "action": "keep",
+    "details": [
+      "high_frequency_topic",
+      "multi_step",
+      "unit_conversion_required",
+      "explicit_assumptions",
+      "independent_validation_pass",
+      "parameterized"
+    ]
+  },
+  {
+    "id": "env-calc-thermal_transmission-01",
+    "familyId": "thermal_transmission",
+    "structuralSimilarity": 5.0,
+    "knowledgeValidity": 5.0,
+    "reasoningDepth": 5.0,
+    "unitCorrectness": 5.0,
+    "assumptionCompleteness": 5.0,
+    "averageScore": 5.0,
+    "action": "keep",
+    "details": [
+      "high_frequency_topic",
+      "multi_step",
+      "explicit_assumptions",
+      "independent_validation_pass",
+      "parameterized"
+    ]
+  },
+  {
+    "id": "env-calc-thermal_transmission-02",
+    "familyId": "thermal_transmission",
+    "structuralSimilarity": 5.0,
+    "knowledgeValidity": 5.0,
+    "reasoningDepth": 5.0,
+    "unitCorrectness": 5.0,
+    "assumptionCompleteness": 5.0,
+    "averageScore": 5.0,
+    "action": "keep",
+    "details": [
+      "high_frequency_topic",
+      "multi_step",
+      "explicit_assumptions",
+      "independent_validation_pass",
+      "parameterized"
+    ]
+  },
+  {
+    "id": "env-calc-thermal_transmission-03",
+    "familyId": "thermal_transmission",
+    "structuralSimilarity": 5.0,
+    "knowledgeValidity": 5.0,
+    "reasoningDepth": 5.0,
+    "unitCorrectness": 5.0,
+    "assumptionCompleteness": 5.0,
+    "averageScore": 5.0,
+    "action": "keep",
+    "details": [
+      "high_frequency_topic",
+      "multi_step",
+      "explicit_assumptions",
+      "independent_validation_pass",
+      "parameterized"
+    ]
+  },
+  {
+    "id": "env-calc-reverberation-01",
+    "familyId": "reverberation",
+    "structuralSimilarity": 5.0,
+    "knowledgeValidity": 5.0,
+    "reasoningDepth": 5.0,
+    "unitCorrectness": 5.0,
+    "assumptionCompleteness": 5.0,
+    "averageScore": 5.0,
+    "action": "keep",
+    "details": [
+      "high_frequency_topic",
+      "multi_step",
+      "explicit_assumptions",
+      "independent_validation_pass",
+      "parameterized"
+    ]
+  },
+  {
+    "id": "env-calc-reverberation-02",
+    "familyId": "reverberation",
+    "structuralSimilarity": 5.0,
+    "knowledgeValidity": 5.0,
+    "reasoningDepth": 5.0,
+    "unitCorrectness": 5.0,
+    "assumptionCompleteness": 5.0,
+    "averageScore": 5.0,
+    "action": "keep",
+    "details": [
+      "high_frequency_topic",
+      "multi_step",
+      "explicit_assumptions",
+      "independent_validation_pass",
+      "parameterized"
+    ]
+  },
+  {
+    "id": "env-calc-illuminance_point-01",
+    "familyId": "illuminance_point",
+    "structuralSimilarity": 5.0,
+    "knowledgeValidity": 5.0,
+    "reasoningDepth": 5.0,
+    "unitCorrectness": 5.0,
+    "assumptionCompleteness": 5.0,
+    "averageScore": 5.0,
+    "action": "keep",
+    "details": [
+      "high_frequency_topic",
+      "multi_step",
+      "unit_conversion_required",
+      "explicit_assumptions",
+      "independent_validation_pass",
+      "parameterized"
+    ]
+  },
+  {
+    "id": "env-calc-illuminance_point-02",
+    "familyId": "illuminance_point",
+    "structuralSimilarity": 5.0,
+    "knowledgeValidity": 5.0,
+    "reasoningDepth": 5.0,
+    "unitCorrectness": 5.0,
+    "assumptionCompleteness": 5.0,
+    "averageScore": 5.0,
+    "action": "keep",
+    "details": [
+      "high_frequency_topic",
+      "multi_step",
+      "unit_conversion_required",
+      "explicit_assumptions",
+      "independent_validation_pass",
+      "parameterized"
+    ]
+  },
+  {
+    "id": "env-calc-dynamic_pressure-01",
+    "familyId": "dynamic_pressure",
+    "structuralSimilarity": 4.6,
+    "knowledgeValidity": 5.0,
+    "reasoningDepth": 5.0,
+    "unitCorrectness": 5.0,
+    "assumptionCompleteness": 5.0,
+    "averageScore": 4.9,
+    "action": "keep",
+    "details": [
+      "multi_step",
+      "explicit_assumptions",
+      "independent_validation_pass",
+      "parameterized"
+    ]
+  },
+  {
+    "id": "env-calc-dynamic_pressure-02",
+    "familyId": "dynamic_pressure",
+    "structuralSimilarity": 4.6,
+    "knowledgeValidity": 5.0,
+    "reasoningDepth": 5.0,
+    "unitCorrectness": 5.0,
+    "assumptionCompleteness": 5.0,
+    "averageScore": 4.9,
+    "action": "keep",
+    "details": [
+      "multi_step",
+      "explicit_assumptions",
+      "independent_validation_pass",
+      "parameterized"
+    ]
+  }
+]

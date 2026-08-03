@@ -1,0 +1,9 @@
+{
+  "specialty_1_subjects": [
+    {"id":"history","status":"analyzed"},
+    {"id":"planning","status":"analyzed"},
+    {"id":"environment","status":"analyzed"},
+    {"id":"building_construction","status":"analyzed"},
+    {"id":"structural_mechanics","status":"out_of_current_scope","pending_separate_analysis":true,"generator_status":"not_started"}
+  ]
+}

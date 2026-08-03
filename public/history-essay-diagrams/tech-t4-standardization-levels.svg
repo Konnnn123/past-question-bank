@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="680" viewBox="0 0 1160 680">
+  <rect width="1160" height="680" fill="#f7f4ed"/>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <text x="42" y="48" font-size="27" font-weight="700" fill="#17324d">T4 寸法史｜比例・モジュール・規格・互換性を分ける</text>
+    <text x="42" y="78" font-size="16" fill="#52606d">proportion ≠ module ≠ product standard ≠ dimensional coordination ≠ interchangeability</text>
+    <g transform="translate(55 135)">
+      <g transform="translate(0 320)"><rect width="200" height="85" rx="12" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><text x="100" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#17324d">比例</text><text x="100" y="64" text-anchor="middle" font-size="16" fill="#52606d">部分／全体の関係</text></g>
+      <g transform="translate(215 245)"><rect width="200" height="160" rx="12" fill="#f2d3a7" stroke="#8b6b3f" stroke-width="4"/><text x="100" y="42" text-anchor="middle" font-size="20" font-weight="700" fill="#17324d">モジュール</text><text x="100" y="78" text-anchor="middle" font-size="16" fill="#52606d">一枝・柱径・基準寸法</text><text x="100" y="110" text-anchor="middle" font-size="16" fill="#52606d">寸法を連動</text></g>
+      <g transform="translate(430 170)"><rect width="200" height="235" rx="12" fill="#dcebea" stroke="#2e7d75" stroke-width="4"/><text x="100" y="42" text-anchor="middle" font-size="20" font-weight="700" fill="#17324d">製品規格</text><text x="100" y="78" text-anchor="middle" font-size="16" fill="#52606d">煉瓦・形鋼・板材</text><text x="100" y="110" text-anchor="middle" font-size="16" fill="#52606d">寸法・品質・試験</text><text x="100" y="145" text-anchor="middle" font-size="16" fill="#52606d">大量生産と流通</text></g>
+      <g transform="translate(645 95)"><rect width="200" height="310" rx="12" fill="#f6d8d1" stroke="#b14f3b" stroke-width="4"/><text x="100" y="42" text-anchor="middle" font-size="20" font-weight="700" fill="#17324d">寸法調整</text><text x="100" y="78" text-anchor="middle" font-size="16" fill="#52606d">躯体・外皮・設備</text><text x="100" y="110" text-anchor="middle" font-size="16" fill="#52606d">複数部品を納める</text><text x="100" y="145" text-anchor="middle" font-size="16" fill="#52606d">公差・目地・取合い</text></g>
+      <g transform="translate(860 20)"><rect width="200" height="385" rx="12" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><text x="100" y="42" text-anchor="middle" font-size="20" font-weight="700" fill="#17324d">互換・更新</text><text x="100" y="78" text-anchor="middle" font-size="16" fill="#52606d">部品交換</text><text x="100" y="110" text-anchor="middle" font-size="16" fill="#52606d">プレファブ・ユニット</text><text x="100" y="145" text-anchor="middle" font-size="16" fill="#52606d">供給期間・後継規格</text><text x="100" y="180" text-anchor="middle" font-size="16" fill="#b14f3b">設計上の交換可能性</text><text x="100" y="210" text-anchor="middle" font-size="16" fill="#b14f3b">≠実際の交換</text></g>
+    </g>
+    <g font-size="18" fill="#52606d" text-anchor="middle">
+      <text x="580" y="585">標準化の対象：形・寸法・材料品質・性能・試験・接合・情報形式</text>
+      <text x="580" y="625" fill="#b14f3b">標準化は反復と共有を助ける一方、地域差・個別適応・長期更新を制約しうる</text>
+      <text x="580" y="660" fill="#2e7d75">答案の因果：基準単位 → 連動範囲 → 生産主体 → 反復・互換 → 空間秩序 → 例外</text>
+    </g>
+  </g>
+</svg>

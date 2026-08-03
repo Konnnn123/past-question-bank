@@ -1,0 +1,89 @@
+{
+  "construction_multi_blank_wordbank": {
+    "minimumFacts": 15,
+    "mustInclude": [
+      "term_entity",
+      "technical_definition"
+    ],
+    "perItemMinimum": 1,
+    "surplusRatio": [
+      0.3,
+      0.5
+    ],
+    "compositionRequired": true
+  },
+  "environment_numerical_calculation": {
+    "minimumFacts": 1,
+    "mustInclude": [
+      "formula",
+      "variables",
+      "units",
+      "value_ranges"
+    ],
+    "workedSolutionRequired": true,
+    "assumptionsRequired": true
+  },
+  "environment_correct_statement": {
+    "minimumFacts": 4,
+    "mustInclude": [
+      "principle",
+      "condition",
+      "misconception_ref"
+    ],
+    "falseStatementOrigin": "misconception_library_only"
+  },
+  "environment_formula_completion": {
+    "minimumFacts": 1,
+    "mustInclude": [
+      "formula",
+      "blank_target"
+    ],
+    "dimensionalCheckRequired": true
+  },
+  "planning_contextual_numeric_select": {
+    "minimumFacts": 1,
+    "mustInclude": [
+      "standard_value",
+      "unit",
+      "building_type",
+      "scope_condition"
+    ]
+  },
+  "planning_correct_statement": {
+    "minimumFacts": 4,
+    "mustInclude": [
+      "principle",
+      "building_type",
+      "misconception_ref"
+    ]
+  },
+  "planning_scoped_short_answer": {
+    "minimumFacts": 1,
+    "mustInclude": [
+      "entity",
+      "feature",
+      "rubric",
+      "model_answer"
+    ]
+  },
+  "history_image_multi_wordbank_matching": {
+    "minimumFacts": 8,
+    "mustInclude": [
+      "building_entity",
+      "image_asset",
+      "architect",
+      "style",
+      "period"
+    ],
+    "perImageMinimum": 1,
+    "perBankFieldMinimum": 4,
+    "surplusRatio": [
+      0.0,
+      0.5
+    ],
+    "imageVerificationRequired": true,
+    "fieldHomogeneityRequired": true,
+    "independentShuffleRequired": true,
+    "heterogeneousImageSetAllowed": true
+  }
+}

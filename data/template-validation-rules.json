@@ -1,0 +1,101 @@
+{
+  "history_image_free_recall": {
+    "blockedIf": "no_image_asset",
+    "prohibitedShortcuts": [
+      "do_not_convert_to_mcq",
+      "do_not_add_fake_options"
+    ],
+    "ambiguityControls": [
+      "accepted_aliases"
+    ]
+  },
+  "history_image_wordbank_matching": {
+    "blockedIf": "fewer_than_10_entities_with_images",
+    "prohibitedShortcuts": [
+      "single_fact_name_to_value",
+      "architect_to_work_mcq"
+    ],
+    "ambiguityControls": [
+      "each_term_used_once",
+      "two_independent_clues_per_item"
+    ]
+  },
+  "construction_multi_blank_wordbank": {
+    "blockedIf": "fewer_than_15_terms_in_domain",
+    "prohibitedShortcuts": [
+      "do_not_copy_anki_definition",
+      "do_not_single_term_mcq"
+    ],
+    "ambiguityControls": [
+      "only_one_term_fits_technically",
+      "no_grammar_only_hint"
+    ]
+  },
+  "environment_numerical_calculation": {
+    "blockedIf": "no_worked_solution_or_no_variable_ranges",
+    "prohibitedShortcuts": [
+      "direct_substitution_only",
+      "no_assumptions_stated"
+    ],
+    "ambiguityControls": [
+      "deterministic_answer",
+      "tolerance_defined",
+      "dimensional_check"
+    ]
+  },
+  "environment_correct_statement": {
+    "blockedIf": "no_misconception_library_for_topic",
+    "prohibitedShortcuts": [
+      "increase_to_decrease",
+      "add_not",
+      "swap_numbers_arbitrarily"
+    ],
+    "ambiguityControls": [
+      "exactly_one_defensible",
+      "all_same_topic"
+    ]
+  },
+  "environment_formula_completion": {
+    "blockedIf": "formula_has_no_meaningful_internal_blank",
+    "prohibitedShortcuts": [
+      "name_to_formula_recall",
+      "recognize_not_understand"
+    ],
+    "ambiguityControls": [
+      "unique_solution",
+      "dimensional_consistency"
+    ]
+  },
+  "planning_contextual_numeric_select": {
+    "blockedIf": "no_building_type_context_or_no_peer_values",
+    "prohibitedShortcuts": [
+      "bare_fact_without_context",
+      "cross_useType_distractors"
+    ],
+    "ambiguityControls": [
+      "single_standard_applies",
+      "code_edition_specified"
+    ]
+  },
+  "planning_correct_statement": {
+    "blockedIf": "no_misconception_library",
+    "prohibitedShortcuts": [
+      "mechanical_inversion",
+      "cross_useType_confusion_as_distractor"
+    ],
+    "ambiguityControls": [
+      "exactly_one_correct"
+    ]
+  },
+  "planning_scoped_short_answer": {
+    "blockedIf": "no_rubric_or_no_model_answer",
+    "prohibitedShortcuts": [
+      "bare_explain_X",
+      "no_response_boundary"
+    ],
+    "ambiguityControls": [
+      "rubric_defined",
+      "alternative_formulations_accepted"
+    ]
+  }
+}

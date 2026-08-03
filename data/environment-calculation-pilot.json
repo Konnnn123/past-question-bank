@@ -1,0 +1,657 @@
+{
+  "phase": "5A",
+  "total": 12,
+  "questions": [
+    {
+      "id": "env-calc-ventilation_co2-01",
+      "templateId": "environment_numerical_calculation",
+      "familyId": "ventilation_co2",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "prompt": "室内のCO2発生量を 0.02 m³/h、室内許容濃度を 818.0 ppm、\n外気濃度を 383.0 ppm とする。\n定常状態における1人当たりの必要換気量 [m³/h] を求めなさい。",
+      "assumptions": [
+        "定常状態",
+        "完全混合",
+        "室内CO2発生のみ"
+      ],
+      "correctAnswer": "46.0 m³/h",
+      "workedSolution": "Ci = 818.0 ppm = 0.000818\nCo = 383.0 ppm = 0.000383\nQ = G / (Ci − Co) = 0.02 / (0.000818 − 0.000383) = 0.02 / 0.000435 = 46.0 m³/h",
+      "reasoningSteps": 2,
+      "unitConversions": [
+        "ppm → 無次元 (÷10⁶)"
+      ],
+      "variables": {
+        "G": {
+          "value": 0.02,
+          "unit": "m³/h"
+        },
+        "Ci": {
+          "value": 818.0,
+          "unit": "ppm"
+        },
+        "Co": {
+          "value": 383.0,
+          "unit": "ppm"
+        }
+      },
+      "validation": {
+        "passed": true,
+        "issues": []
+      },
+      "examRef": "8/13年出題",
+      "fidelityAudit": {
+        "structuralSimilarity": 5.0,
+        "knowledgeValidity": 5.0,
+        "reasoningDepth": 5.0,
+        "unitCorrectness": 5.0,
+        "assumptionCompleteness": 5.0,
+        "averageScore": 5.0,
+        "action": "keep",
+        "details": [
+          "high_frequency_topic",
+          "multi_step",
+          "unit_conversion_required",
+          "explicit_assumptions",
+          "independent_validation_pass",
+          "parameterized"
+        ]
+      }
+    },
+    {
+      "id": "env-calc-ventilation_co2-02",
+      "templateId": "environment_numerical_calculation",
+      "familyId": "ventilation_co2",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "prompt": "室内のCO2発生量を 0.013 m³/h、室内許容濃度を 1316.0 ppm、\n外気濃度を 503.0 ppm とする。\n定常状態における1人当たりの必要換気量 [m³/h] を求めなさい。",
+      "assumptions": [
+        "定常状態",
+        "完全混合",
+        "室内CO2発生のみ"
+      ],
+      "correctAnswer": "16.0 m³/h",
+      "workedSolution": "Ci = 1316.0 ppm = 0.001316\nCo = 503.0 ppm = 0.000503\nQ = G / (Ci − Co) = 0.013 / (0.001316 − 0.000503) = 0.013 / 0.000813 = 16.0 m³/h",
+      "reasoningSteps": 2,
+      "unitConversions": [
+        "ppm → 無次元 (÷10⁶)"
+      ],
+      "variables": {
+        "G": {
+          "value": 0.013,
+          "unit": "m³/h"
+        },
+        "Ci": {
+          "value": 1316.0,
+          "unit": "ppm"
+        },
+        "Co": {
+          "value": 503.0,
+          "unit": "ppm"
+        }
+      },
+      "validation": {
+        "passed": true,
+        "issues": []
+      },
+      "examRef": "8/13年出題",
+      "fidelityAudit": {
+        "structuralSimilarity": 5.0,
+        "knowledgeValidity": 5.0,
+        "reasoningDepth": 5.0,
+        "unitCorrectness": 5.0,
+        "assumptionCompleteness": 5.0,
+        "averageScore": 5.0,
+        "action": "keep",
+        "details": [
+          "high_frequency_topic",
+          "multi_step",
+          "unit_conversion_required",
+          "explicit_assumptions",
+          "independent_validation_pass",
+          "parameterized"
+        ]
+      }
+    },
+    {
+      "id": "env-calc-ventilation_co2-03",
+      "templateId": "environment_numerical_calculation",
+      "familyId": "ventilation_co2",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "prompt": "室内のCO2発生量を 0.023 m³/h、室内許容濃度を 861.0 ppm、\n外気濃度を 427.0 ppm とする。\n定常状態における1人当たりの必要換気量 [m³/h] を求めなさい。",
+      "assumptions": [
+        "定常状態",
+        "完全混合",
+        "室内CO2発生のみ"
+      ],
+      "correctAnswer": "53.0 m³/h",
+      "workedSolution": "Ci = 861.0 ppm = 0.000861\nCo = 427.0 ppm = 0.000427\nQ = G / (Ci − Co) = 0.023 / (0.000861 − 0.000427) = 0.023 / 0.000434 = 53.0 m³/h",
+      "reasoningSteps": 2,
+      "unitConversions": [
+        "ppm → 無次元 (÷10⁶)"
+      ],
+      "variables": {
+        "G": {
+          "value": 0.023,
+          "unit": "m³/h"
+        },
+        "Ci": {
+          "value": 861.0,
+          "unit": "ppm"
+        },
+        "Co": {
+          "value": 427.0,
+          "unit": "ppm"
+        }
+      },
+      "validation": {
+        "passed": true,
+        "issues": []
+      },
+      "examRef": "8/13年出題",
+      "fidelityAudit": {
+        "structuralSimilarity": 5.0,
+        "knowledgeValidity": 5.0,
+        "reasoningDepth": 5.0,
+        "unitCorrectness": 5.0,
+        "assumptionCompleteness": 5.0,
+        "averageScore": 5.0,
+        "action": "keep",
+        "details": [
+          "high_frequency_topic",
+          "multi_step",
+          "unit_conversion_required",
+          "explicit_assumptions",
+          "independent_validation_pass",
+          "parameterized"
+        ]
+      }
+    },
+    {
+      "id": "env-calc-thermal_transmission-01",
+      "templateId": "environment_numerical_calculation",
+      "familyId": "thermal_transmission",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "prompt": "外壁の熱伝達抵抗：外気側 0.03 m²·K/W、室内側 0.1 m²·K/W\n断熱材：厚さ 0.126 m、熱伝導率 0.031 W/(m·K)\nコンクリート：厚さ 0.12 m、熱伝導率 1.6 W/(m·K)\nこの壁の熱貫流率 U 値 [W/(m²·K)] を求めなさい。",
+      "assumptions": [
+        "定常状態",
+        "一次元熱伝導",
+        "接触抵抗無視"
+      ],
+      "correctAnswer": "0.23 W/(m²·K)",
+      "workedSolution": "R1(断熱材) = d1/λ1 = 0.126/0.031 = 4.065 m²·K/W\nR2(コンクリート) = d2/λ2 = 0.12/1.6 = 0.075 m²·K/W\nR_total = ho + R1 + R2 + hi = 0.03 + 4.065 + 0.075 + 0.1 = 4.27 m²·K/W\nU = 1 / R_total = 1 / 4.27 = 0.23 W/(m²·K)",
+      "reasoningSteps": 3,
+      "unitConversions": [],
+      "variables": {
+        "ho": {
+          "value": 0.03,
+          "unit": "m²·K/W"
+        },
+        "hi": {
+          "value": 0.1,
+          "unit": "m²·K/W"
+        },
+        "d1": {
+          "value": 0.126,
+          "unit": "m"
+        },
+        "λ1": {
+          "value": 0.031,
+          "unit": "W/(m·K)"
+        },
+        "d2": {
+          "value": 0.12,
+          "unit": "m"
+        },
+        "λ2": {
+          "value": 1.6,
+          "unit": "W/(m·K)"
+        }
+      },
+      "validation": {
+        "passed": true,
+        "issues": []
+      },
+      "examRef": "5/13年出題",
+      "fidelityAudit": {
+        "structuralSimilarity": 5.0,
+        "knowledgeValidity": 5.0,
+        "reasoningDepth": 5.0,
+        "unitCorrectness": 5.0,
+        "assumptionCompleteness": 5.0,
+        "averageScore": 5.0,
+        "action": "keep",
+        "details": [
+          "high_frequency_topic",
+          "multi_step",
+          "explicit_assumptions",
+          "independent_validation_pass",
+          "parameterized"
+        ]
+      }
+    },
+    {
+      "id": "env-calc-thermal_transmission-02",
+      "templateId": "environment_numerical_calculation",
+      "familyId": "thermal_transmission",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "prompt": "外壁の熱伝達抵抗：外気側 0.05 m²·K/W、室内側 0.1 m²·K/W\n断熱材：厚さ 0.138 m、熱伝導率 0.054 W/(m·K)\nコンクリート：厚さ 0.101 m、熱伝導率 1.8 W/(m·K)\nこの壁の熱貫流率 U 値 [W/(m²·K)] を求めなさい。",
+      "assumptions": [
+        "定常状態",
+        "一次元熱伝導",
+        "接触抵抗無視"
+      ],
+      "correctAnswer": "0.36 W/(m²·K)",
+      "workedSolution": "R1(断熱材) = d1/λ1 = 0.138/0.054 = 2.556 m²·K/W\nR2(コンクリート) = d2/λ2 = 0.101/1.8 = 0.056 m²·K/W\nR_total = ho + R1 + R2 + hi = 0.05 + 2.556 + 0.056 + 0.1 = 2.762 m²·K/W\nU = 1 / R_total = 1 / 2.762 = 0.36 W/(m²·K)",
+      "reasoningSteps": 3,
+      "unitConversions": [],
+      "variables": {
+        "ho": {
+          "value": 0.05,
+          "unit": "m²·K/W"
+        },
+        "hi": {
+          "value": 0.1,
+          "unit": "m²·K/W"
+        },
+        "d1": {
+          "value": 0.138,
+          "unit": "m"
+        },
+        "λ1": {
+          "value": 0.054,
+          "unit": "W/(m·K)"
+        },
+        "d2": {
+          "value": 0.101,
+          "unit": "m"
+        },
+        "λ2": {
+          "value": 1.8,
+          "unit": "W/(m·K)"
+        }
+      },
+      "validation": {
+        "passed": true,
+        "issues": []
+      },
+      "examRef": "5/13年出題",
+      "fidelityAudit": {
+        "structuralSimilarity": 5.0,
+        "knowledgeValidity": 5.0,
+        "reasoningDepth": 5.0,
+        "unitCorrectness": 5.0,
+        "assumptionCompleteness": 5.0,
+        "averageScore": 5.0,
+        "action": "keep",
+        "details": [
+          "high_frequency_topic",
+          "multi_step",
+          "explicit_assumptions",
+          "independent_validation_pass",
+          "parameterized"
+        ]
+      }
+    },
+    {
+      "id": "env-calc-thermal_transmission-03",
+      "templateId": "environment_numerical_calculation",
+      "familyId": "thermal_transmission",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "prompt": "外壁の熱伝達抵抗：外気側 0.05 m²·K/W、室内側 0.1 m²·K/W\n断熱材：厚さ 0.073 m、熱伝導率 0.059 W/(m·K)\nコンクリート：厚さ 0.134 m、熱伝導率 0.9 W/(m·K)\nこの壁の熱貫流率 U 値 [W/(m²·K)] を求めなさい。",
+      "assumptions": [
+        "定常状態",
+        "一次元熱伝導",
+        "接触抵抗無視"
+      ],
+      "correctAnswer": "0.65 W/(m²·K)",
+      "workedSolution": "R1(断熱材) = d1/λ1 = 0.073/0.059 = 1.237 m²·K/W\nR2(コンクリート) = d2/λ2 = 0.134/0.9 = 0.149 m²·K/W\nR_total = ho + R1 + R2 + hi = 0.05 + 1.237 + 0.149 + 0.1 = 1.536 m²·K/W\nU = 1 / R_total = 1 / 1.536 = 0.65 W/(m²·K)",
+      "reasoningSteps": 3,
+      "unitConversions": [],
+      "variables": {
+        "ho": {
+          "value": 0.05,
+          "unit": "m²·K/W"
+        },
+        "hi": {
+          "value": 0.1,
+          "unit": "m²·K/W"
+        },
+        "d1": {
+          "value": 0.073,
+          "unit": "m"
+        },
+        "λ1": {
+          "value": 0.059,
+          "unit": "W/(m·K)"
+        },
+        "d2": {
+          "value": 0.134,
+          "unit": "m"
+        },
+        "λ2": {
+          "value": 0.9,
+          "unit": "W/(m·K)"
+        }
+      },
+      "validation": {
+        "passed": true,
+        "issues": []
+      },
+      "examRef": "5/13年出題",
+      "fidelityAudit": {
+        "structuralSimilarity": 5.0,
+        "knowledgeValidity": 5.0,
+        "reasoningDepth": 5.0,
+        "unitCorrectness": 5.0,
+        "assumptionCompleteness": 5.0,
+        "averageScore": 5.0,
+        "action": "keep",
+        "details": [
+          "high_frequency_topic",
+          "multi_step",
+          "explicit_assumptions",
+          "independent_validation_pass",
+          "parameterized"
+        ]
+      }
+    },
+    {
+      "id": "env-calc-reverberation-01",
+      "templateId": "environment_numerical_calculation",
+      "familyId": "reverberation",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "prompt": "室容積 284.0 m³、等価吸音面積 427.0 m² の室について、\nSabine の残響式を用いて残響時間 [s] を求めなさい。",
+      "assumptions": [
+        "拡散音場",
+        "Sabineの残響式適用可能"
+      ],
+      "correctAnswer": "0.11 s",
+      "workedSolution": "T₆₀ = 0.161 × V / A = 0.161 × 284.0 / 427.0 = 45.7 / 427.0 = 0.11 s",
+      "reasoningSteps": 2,
+      "unitConversions": [],
+      "variables": {
+        "V": {
+          "value": 284.0,
+          "unit": "m³"
+        },
+        "A": {
+          "value": 427.0,
+          "unit": "m²"
+        }
+      },
+      "validation": {
+        "passed": true,
+        "issues": []
+      },
+      "examRef": "5/13年出題",
+      "fidelityAudit": {
+        "structuralSimilarity": 5.0,
+        "knowledgeValidity": 5.0,
+        "reasoningDepth": 5.0,
+        "unitCorrectness": 5.0,
+        "assumptionCompleteness": 5.0,
+        "averageScore": 5.0,
+        "action": "keep",
+        "details": [
+          "high_frequency_topic",
+          "multi_step",
+          "explicit_assumptions",
+          "independent_validation_pass",
+          "parameterized"
+        ]
+      }
+    },
+    {
+      "id": "env-calc-reverberation-02",
+      "templateId": "environment_numerical_calculation",
+      "familyId": "reverberation",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "prompt": "室容積 1247.0 m³、等価吸音面積 407.0 m² の室について、\nSabine の残響式を用いて残響時間 [s] を求めなさい。",
+      "assumptions": [
+        "拡散音場",
+        "Sabineの残響式適用可能"
+      ],
+      "correctAnswer": "0.49 s",
+      "workedSolution": "T₆₀ = 0.161 × V / A = 0.161 × 1247.0 / 407.0 = 200.8 / 407.0 = 0.49 s",
+      "reasoningSteps": 2,
+      "unitConversions": [],
+      "variables": {
+        "V": {
+          "value": 1247.0,
+          "unit": "m³"
+        },
+        "A": {
+          "value": 407.0,
+          "unit": "m²"
+        }
+      },
+      "validation": {
+        "passed": true,
+        "issues": []
+      },
+      "examRef": "5/13年出題",
+      "fidelityAudit": {
+        "structuralSimilarity": 5.0,
+        "knowledgeValidity": 5.0,
+        "reasoningDepth": 5.0,
+        "unitCorrectness": 5.0,
+        "assumptionCompleteness": 5.0,
+        "averageScore": 5.0,
+        "action": "keep",
+        "details": [
+          "high_frequency_topic",
+          "multi_step",
+          "explicit_assumptions",
+          "independent_validation_pass",
+          "parameterized"
+        ]
+      }
+    },
+    {
+      "id": "env-calc-illuminance_point-01",
+      "templateId": "environment_numerical_calculation",
+      "familyId": "illuminance_point",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "prompt": "光度 1514.0 cd の点光源が、光源から受照点までの直線距離 3.1 m、\n入射角 58.0° で水平面を照らしている。反射を無視したとき、\n水平面照度 [lx] を求めなさい。",
+      "assumptions": [
+        "点光源",
+        "直射光のみ（反射無視）"
+      ],
+      "correctAnswer": "83.0 lx",
+      "workedSolution": "cos θ = cos(58.0°) = 0.53\nE = I × cosθ / r² = 1514.0 × 0.53 / 3.1² = 802.4 / 9.610000000000001 = 83.0 lx",
+      "reasoningSteps": 2,
+      "unitConversions": [
+        "° → rad for cos (if needed)"
+      ],
+      "variables": {
+        "I": {
+          "value": 1514.0,
+          "unit": "cd"
+        },
+        "r": {
+          "value": 3.1,
+          "unit": "m"
+        },
+        "θ": {
+          "value": 58.0,
+          "unit": "°"
+        }
+      },
+      "validation": {
+        "passed": true,
+        "issues": []
+      },
+      "examRef": "5/13年出題",
+      "fidelityAudit": {
+        "structuralSimilarity": 5.0,
+        "knowledgeValidity": 5.0,
+        "reasoningDepth": 5.0,
+        "unitCorrectness": 5.0,
+        "assumptionCompleteness": 5.0,
+        "averageScore": 5.0,
+        "action": "keep",
+        "details": [
+          "high_frequency_topic",
+          "multi_step",
+          "unit_conversion_required",
+          "explicit_assumptions",
+          "independent_validation_pass",
+          "parameterized"
+        ]
+      }
+    },
+    {
+      "id": "env-calc-illuminance_point-02",
+      "templateId": "environment_numerical_calculation",
+      "familyId": "illuminance_point",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "prompt": "光度 881.0 cd の点光源が、光源から受照点までの直線距離 3.2 m、\n入射角 50.0° で水平面を照らしている。反射を無視したとき、\n水平面照度 [lx] を求めなさい。",
+      "assumptions": [
+        "点光源",
+        "直射光のみ（反射無視）"
+      ],
+      "correctAnswer": "55.0 lx",
+      "workedSolution": "cos θ = cos(50.0°) = 0.643\nE = I × cosθ / r² = 881.0 × 0.643 / 3.2² = 566.5 / 10.240000000000002 = 55.0 lx",
+      "reasoningSteps": 2,
+      "unitConversions": [
+        "° → rad for cos (if needed)"
+      ],
+      "variables": {
+        "I": {
+          "value": 881.0,
+          "unit": "cd"
+        },
+        "r": {
+          "value": 3.2,
+          "unit": "m"
+        },
+        "θ": {
+          "value": 50.0,
+          "unit": "°"
+        }
+      },
+      "validation": {
+        "passed": true,
+        "issues": []
+      },
+      "examRef": "5/13年出題",
+      "fidelityAudit": {
+        "structuralSimilarity": 5.0,
+        "knowledgeValidity": 5.0,
+        "reasoningDepth": 5.0,
+        "unitCorrectness": 5.0,
+        "assumptionCompleteness": 5.0,
+        "averageScore": 5.0,
+        "action": "keep",
+        "details": [
+          "high_frequency_topic",
+          "multi_step",
+          "unit_conversion_required",
+          "explicit_assumptions",
+          "independent_validation_pass",
+          "parameterized"
+        ]
+      }
+    },
+    {
+      "id": "env-calc-dynamic_pressure-01",
+      "templateId": "environment_numerical_calculation",
+      "familyId": "dynamic_pressure",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "prompt": "空気密度 1.2 kg/m³、風速 13.2 m/s の気流の\n動圧 [Pa] を求めなさい。",
+      "assumptions": [
+        "非圧縮性流体",
+        "定常流"
+      ],
+      "correctAnswer": "104.5 Pa",
+      "workedSolution": "q = ρ × v² / 2 = 1.2 × 13.2² / 2 = 1.2 × 174.23999999999998 / 2 = 104.5 Pa",
+      "reasoningSteps": 2,
+      "unitConversions": [],
+      "variables": {
+        "ρ": {
+          "value": 1.2,
+          "unit": "kg/m³"
+        },
+        "v": {
+          "value": 13.2,
+          "unit": "m/s"
+        }
+      },
+      "validation": {
+        "passed": true,
+        "issues": []
+      },
+      "examRef": "2/13年出題",
+      "fidelityAudit": {
+        "structuralSimilarity": 4.6,
+        "knowledgeValidity": 5.0,
+        "reasoningDepth": 5.0,
+        "unitCorrectness": 5.0,
+        "assumptionCompleteness": 5.0,
+        "averageScore": 4.9,
+        "action": "keep",
+        "details": [
+          "multi_step",
+          "explicit_assumptions",
+          "independent_validation_pass",
+          "parameterized"
+        ]
+      }
+    },
+    {
+      "id": "env-calc-dynamic_pressure-02",
+      "templateId": "environment_numerical_calculation",
+      "familyId": "dynamic_pressure",
+      "subject": "environment",
+      "format": "numerical_calculation",
+      "prompt": "空気密度 1.2 kg/m³、風速 11.2 m/s の気流の\n動圧 [Pa] を求めなさい。",
+      "assumptions": [
+        "非圧縮性流体",
+        "定常流"
+      ],
+      "correctAnswer": "75.3 Pa",
+      "workedSolution": "q = ρ × v² / 2 = 1.2 × 11.2² / 2 = 1.2 × 125.43999999999998 / 2 = 75.3 Pa",
+      "reasoningSteps": 2,
+      "unitConversions": [],
+      "variables": {
+        "ρ": {
+          "value": 1.2,
+          "unit": "kg/m³"
+        },
+        "v": {
+          "value": 11.2,
+          "unit": "m/s"
+        }
+      },
+      "validation": {
+        "passed": true,
+        "issues": []
+      },
+      "examRef": "2/13年出題",
+      "fidelityAudit": {
+        "structuralSimilarity": 4.6,
+        "knowledgeValidity": 5.0,
+        "reasoningDepth": 5.0,
+        "unitCorrectness": 5.0,
+        "assumptionCompleteness": 5.0,
+        "averageScore": 4.9,
+        "action": "keep",
+        "details": [
+          "multi_step",
+          "explicit_assumptions",
+          "independent_validation_pass",
+          "parameterized"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">四つの高齢者施設</title>
+  <desc id="desc">老健、認知症グループホーム、特養、小規模多機能の主要数値</desc>
+  <rect width="960" height="560" rx="36" fill="#f5f3ff"/>
+  <g font-family="sans-serif">
+    <g><rect x="48" y="48" width="414" height="210" rx="28" fill="#ede9fe" stroke="#a78bfa" stroke-width="5"/><text x="78" y="100" font-size="28" font-weight="700" fill="#4c1d95">老健</text><text x="78" y="148" font-size="23" fill="#5b21b6">在宅復帰を目指す</text><text x="78" y="200" font-size="27" font-weight="700" fill="#6d28d9">4人以下・8㎡以上</text></g>
+    <g><rect x="498" y="48" width="414" height="210" rx="28" fill="#ede9fe" stroke="#a78bfa" stroke-width="5"/><text x="528" y="100" font-size="28" font-weight="700" fill="#4c1d95">認知症 GH</text><text x="528" y="148" font-size="23" fill="#5b21b6">小規模共同生活</text><text x="528" y="200" font-size="27" font-weight="700" fill="#6d28d9">5–9人・7.43㎡以上</text></g>
+    <g><rect x="48" y="294" width="414" height="210" rx="28" fill="#ede9fe" stroke="#a78bfa" stroke-width="5"/><text x="78" y="346" font-size="28" font-weight="700" fill="#4c1d95">特養</text><text x="78" y="394" font-size="23" fill="#5b21b6">長期介護・原則個室</text><text x="78" y="446" font-size="25" font-weight="700" fill="#6d28d9">10.65㎡・Unit 10人以下</text></g>
+    <g><rect x="498" y="294" width="414" height="210" rx="28" fill="#ede9fe" stroke="#a78bfa" stroke-width="5"/><text x="528" y="346" font-size="28" font-weight="700" fill="#4c1d95">小規模多機能</text><text x="528" y="394" font-size="23" fill="#5b21b6">通い＋訪問＋宿泊</text><text x="528" y="446" font-size="30" font-weight="700" fill="#6d28d9">29／18／9</text></g>
+  </g>
+</svg>

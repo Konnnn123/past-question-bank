@@ -1,0 +1,361 @@
+{
+  "version": 1,
+  "engine": "exam_reconstruction",
+  "totalQuestions": 21,
+  "examStyles": {
+    "word_bank_matching": 6,
+    "fill_blank_word_bank": 3,
+    "numerical_calculation": 3,
+    "correct_statement_select": 2,
+    "formula_recall": 2,
+    "inline_numeric_select": 3,
+    "short_answer": 2
+  },
+  "questions": [
+    {
+      "id": "wb-architect_to_work-公慶上人",
+      "subject": "history",
+      "style": "word_bank_matching",
+      "blueprintId": "architect_to_work",
+      "prompt": "「公慶上人」に対応する語を語群から選びなさい。",
+      "correctAnswer": "東大寺大仏殿",
+      "wordBank": [
+        "アーヘン宮廷礼拝堂",
+        "旧緒方洪庵住宅",
+        "第三インターナショナル記念塔計画案",
+        "最澄",
+        "東大寺大仏殿",
+        "如庵",
+        "レオン・バッティスタ・アルベルティ",
+        "サン ロレンツォ マッジョーレ教会堂",
+        "カステルヴェッキオ美術館",
+        "L・H・ボワロー"
+      ],
+      "explanation": "公慶上人 → 東大寺大仏殿"
+    },
+    {
+      "id": "wb-architect_to_work-緒方洪庵",
+      "subject": "history",
+      "style": "word_bank_matching",
+      "blueprintId": "architect_to_work",
+      "prompt": "「緒方洪庵」に対応する語を語群から選びなさい。",
+      "correctAnswer": "旧緒方洪庵住宅",
+      "wordBank": [
+        "アーヘン宮廷礼拝堂",
+        "旧緒方洪庵住宅",
+        "第三インターナショナル記念塔計画案",
+        "最澄",
+        "東大寺大仏殿",
+        "如庵",
+        "レオン・バッティスタ・アルベルティ",
+        "サン ロレンツォ マッジョーレ教会堂",
+        "カステルヴェッキオ美術館",
+        "L・H・ボワロー"
+      ],
+      "explanation": "緒方洪庵 → 旧緒方洪庵住宅"
+    },
+    {
+      "id": "wb-building_to_period-サンタ コスタンツァ廟堂",
+      "subject": "history",
+      "style": "word_bank_matching",
+      "blueprintId": "building_to_period",
+      "prompt": "「サンタ コスタンツァ廟堂」に対応する語を語群から選びなさい。",
+      "correctAnswer": "4世紀",
+      "wordBank": [
+        "平安時代",
+        "中世",
+        "大正時代",
+        "4世紀",
+        "18世紀",
+        "紀元前6世紀",
+        "ルネサンス期",
+        "江戸時代",
+        "明治時代"
+      ],
+      "explanation": "サンタ コスタンツァ廟堂 → 4世紀"
+    },
+    {
+      "id": "wb-building_to_period-サンスーシ宮殿",
+      "subject": "history",
+      "style": "word_bank_matching",
+      "blueprintId": "building_to_period",
+      "prompt": "「サンスーシ宮殿」に対応する語を語群から選びなさい。",
+      "correctAnswer": "18世紀",
+      "wordBank": [
+        "平安時代",
+        "中世",
+        "大正時代",
+        "4世紀",
+        "18世紀",
+        "紀元前6世紀",
+        "ルネサンス期",
+        "江戸時代",
+        "明治時代"
+      ],
+      "explanation": "サンスーシ宮殿 → 18世紀"
+    },
+    {
+      "id": "wb-building_style_pairing-永保寺観音堂",
+      "subject": "history",
+      "style": "word_bank_matching",
+      "blueprintId": "building_style_pairing",
+      "prompt": "「永保寺観音堂」に対応する語を語群から選びなさい。",
+      "correctAnswer": "禅宗様を基調としつつ和様も取り入れた折衷様",
+      "wordBank": [
+        "歴史主義建築",
+        "ロマネスク様式",
+        "桃山様式",
+        "ポストモダン建築",
+        "モダニズム・地域主義",
+        "禅宗様を基調としつつ和様も取り入れた折衷様",
+        "煉瓦造・石積",
+        "アーツ・アンド・クラフツ運動 / スコティッシュ・バロニアル様式",
+        "新古典主義（ネオクラシシズム）",
+        "織部好み"
+      ],
+      "explanation": "永保寺観音堂 → 禅宗様を基調としつつ和様も取り入れた折衷様"
+    },
+    {
+      "id": "wb-building_style_pairing-サンティーヴォ聖堂",
+      "subject": "history",
+      "style": "word_bank_matching",
+      "blueprintId": "building_style_pairing",
+      "prompt": "「サンティーヴォ聖堂」に対応する語を語群から選びなさい。",
+      "correctAnswer": "ロマネスク様式",
+      "wordBank": [
+        "歴史主義建築",
+        "ロマネスク様式",
+        "桃山様式",
+        "ポストモダン建築",
+        "モダニズム・地域主義",
+        "禅宗様を基調としつつ和様も取り入れた折衷様",
+        "煉瓦造・石積",
+        "アーツ・アンド・クラフツ運動 / スコティッシュ・バロニアル様式",
+        "新古典主義（ネオクラシシズム）",
+        "織部好み"
+      ],
+      "explanation": "サンティーヴォ聖堂 → ロマネスク様式"
+    },
+    {
+      "id": "fb-definition_to_term-毛細管現象",
+      "subject": "construction",
+      "style": "fill_blank_word_bank",
+      "blueprintId": "definition_to_term",
+      "prompt": "次の説明文の空欄に入る最も適切な用語を語群から選びなさい。\n\nい管や隙間に液体が重力に逆らって自発的に吸い上げられる現象 住宅や建築においては雨漏りなどのトラブルの原因：（　　　）",
+      "correctAnswer": "毛細管現象",
+      "wordBank": [
+        "在来軸組構法の基本",
+        "土台",
+        "洋小屋",
+        "住宅ストック",
+        "建具の開閉・ガラス固定・排水",
+        "加工樹種",
+        "小屋梁・小屋束・雲筋かい",
+        "地盤改良工法",
+        "スケルトン・インフィルと工業化",
+        "ハイブリッド造",
+        "小屋梁と軒桁",
+        "CLT（直交集成板）",
+        "含水率",
+        "プレキャストコンクリート組立床構造",
+        "毛細管現象"
+      ],
+      "explanation": "毛細管現象: い管や隙間に液体が重力に逆らって自発的に吸い上げられる現象 住宅や建築においては雨漏りなどのトラブルの原因"
+    },
+    {
+      "id": "fb-definition_to_term-建具の開閉・ガラス固定・排水",
+      "subject": "construction",
+      "style": "fill_blank_word_bank",
+      "blueprintId": "definition_to_term",
+      "prompt": "次の説明文の空欄に入る最も適切な用語を語群から選びなさい。\n\nはめ殺しは開閉しない固定窓。ガラスはガスケットやシーリングで枠に固定し、外側の水密線、内部の気密線、下枠の排水孔で浸入水を外へ戻す。：（　　　）",
+      "correctAnswer": "建具の開閉・ガラス固定・排水",
+      "wordBank": [
+        "在来軸組構法の基本",
+        "土台",
+        "洋小屋",
+        "住宅ストック",
+        "建具の開閉・ガラス固定・排水",
+        "加工樹種",
+        "小屋梁・小屋束・雲筋かい",
+        "地盤改良工法",
+        "スケルトン・インフィルと工業化",
+        "ハイブリッド造",
+        "小屋梁と軒桁",
+        "CLT（直交集成板）",
+        "含水率",
+        "プレキャストコンクリート組立床構造",
+        "毛細管現象"
+      ],
+      "explanation": "建具の開閉・ガラス固定・排水: はめ殺しは開閉しない固定窓。ガラスはガスケットやシーリングで枠に固定し、外側の水密線、内部の気密線、下枠の排水孔で浸入水を外へ戻す。"
+    },
+    {
+      "id": "fb-definition_to_term-洋小屋",
+      "subject": "construction",
+      "style": "fill_blank_word_bank",
+      "blueprintId": "definition_to_term",
+      "prompt": "次の説明文の空欄に入る最も適切な用語を語群から選びなさい。\n\n三角形のトラスを基本とし、合掌・陸梁・真束などで屋根荷重を軸力として伝える小屋組。比較的大きなスパンに対応しやすく、和小屋との構成差を図で理解する。：（　　　）",
+      "correctAnswer": "洋小屋",
+      "wordBank": [
+        "在来軸組構法の基本",
+        "土台",
+        "洋小屋",
+        "住宅ストック",
+        "建具の開閉・ガラス固定・排水",
+        "加工樹種",
+        "小屋梁・小屋束・雲筋かい",
+        "地盤改良工法",
+        "スケルトン・インフィルと工業化",
+        "ハイブリッド造",
+        "小屋梁と軒桁",
+        "CLT（直交集成板）",
+        "含水率",
+        "プレキャストコンクリート組立床構造",
+        "毛細管現象"
+      ],
+      "explanation": "洋小屋: 三角形のトラスを基本とし、合掌・陸梁・真束などで屋根荷重を軸力として伝える小屋組。比較的大きなスパンに対応しやすく、和小屋との構成差を図で理解する。"
+    },
+    {
+      "id": "nc-numeric_calculation-昼光率",
+      "subject": "environment",
+      "style": "numerical_calculation",
+      "blueprintId": "numeric_calculation",
+      "prompt": "「昼光率」の公式を用いて、適切な数値例で計算しなさい。\n公式: DF = (Eᵢ / Eₒ) × 100",
+      "correctAnswer": "（公式 DF = (Eᵢ / Eₒ) × 100 に数値を代入して計算）",
+      "explanation": "公式: DF = (Eᵢ / Eₒ) × 100"
+    },
+    {
+      "id": "nc-numeric_calculation-黒体放射",
+      "subject": "environment",
+      "style": "numerical_calculation",
+      "blueprintId": "numeric_calculation",
+      "prompt": "「黒体放射」の公式を用いて、適切な数値例で計算しなさい。\n公式: q = σT⁴",
+      "correctAnswer": "（公式 q = σT⁴ に数値を代入して計算）",
+      "explanation": "公式: q = σT⁴"
+    },
+    {
+      "id": "nc-numeric_calculation-自由音場の距離減衰",
+      "subject": "environment",
+      "style": "numerical_calculation",
+      "blueprintId": "numeric_calculation",
+      "prompt": "「自由音場の距離減衰」の公式を用いて、適切な数値例で計算しなさい。\n公式: I = W/(4πr²),  ΔLₚ = −20log₁₀(r₂/r₁)",
+      "correctAnswer": "（公式 I = W/(4πr²),  ΔLₚ = −20log₁₀(r₂/r₁) に数値を代入して計算）",
+      "explanation": "公式: I = W/(4πr²),  ΔLₚ = −20log₁₀(r₂/r₁)"
+    },
+    {
+      "id": "fr-quantity_to_calculation_formula-Newtonの冷却則",
+      "subject": "environment",
+      "style": "formula_recall",
+      "blueprintId": "quantity_to_calculation_formula",
+      "prompt": "「Newtonの冷却則」の計算式を書きなさい。",
+      "correctAnswer": "q𝚌 = α𝚌(θₛ − θ𝒇)",
+      "explanation": "公式: q𝚌 = α𝚌(θₛ − θ𝒇)"
+    },
+    {
+      "id": "fr-quantity_to_calculation_formula-多層壁の熱貫流率",
+      "subject": "environment",
+      "style": "formula_recall",
+      "blueprintId": "quantity_to_calculation_formula",
+      "prompt": "「多層壁の熱貫流率」の計算式を書きなさい。",
+      "correctAnswer": "U = 1 / (1/hᵢ + Σd/λ + 1/hₒ)",
+      "explanation": "公式: U = 1 / (1/hᵢ + Σd/λ + 1/hₒ)"
+    },
+    {
+      "id": "ns-number_four_choice-オフイスランドスケープ",
+      "subject": "planning",
+      "style": "inline_numeric_select",
+      "blueprintId": "number_four_choice",
+      "prompt": "「オフイスランドスケープ」の基準値として最も適切なものを選びなさい。\n\n(窓際から6m以内のデスクは，左側採光とか関係部門は管理者の視野範囲の10m以内に置くとかいくつかの原則が設けられている 全体の面積効率からいえば22m²人とゆったりしたスペースが必要である。 / 5~12m² 有効延べ床面積では1人当たり 10~20m² が目 / 4~6人掛け の場合 1.6m²/人 。 / 事務室1人当たりの床面積は、 8~12m²)",
+      "options": [
+        "窓際から6m以内のデスクは，左側採光とか関係部門は管理者の視野範囲の10m以内に置くとかいくつかの原則が設けられている 全体の面積効率からいえば22m²人とゆったりしたスペースが必要である。",
+        "5~12m² 有効延べ床面積では1人当たり 10~20m² が目",
+        "4~6人掛け の場合 1.6m²/人 。",
+        "事務室1人当たりの床面積は、 8~12m²"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "窓際から6m以内のデスクは，左側採光とか関係部門は管理者の視野範囲の10m以内に置くとかいくつかの原則が設けられている 全体の面積効率からいえば22m²人とゆったりしたスペースが必要である。",
+      "explanation": "「オフイスランドスケープ」: 窓際から6m以内のデスクは，左側採光とか関係部門は管理者の視野範囲の10m以内に置くとかいくつかの原則が設けられている 全体の面積効率からいえば22m²人とゆったりしたスペースが必要である。"
+    },
+    {
+      "id": "ns-number_four_choice-nLDK型住宅の普及要因",
+      "subject": "planning",
+      "style": "inline_numeric_select",
+      "blueprintId": "number_four_choice",
+      "prompt": "「nLDK型住宅の普及要因」の基準値として最も適切なものを選びなさい。\n\n(1950年の 住宅金融公庫法（持家融資制度） や 日本経済の回復 、 新たな家族像の成立 を背景に、 集合住宅 や 商品化住宅 へ波及。 nLDK型 が 中間層の住宅 として定着 / 内科·外科で 40~50床 、産科·小科で 30床 程度 / 続き間座敷を存続し、1階和室を続き間とし、田の字型を変容させLDKを加えた型 / 人口800人弱 の村の コミュニティ施設 の 複合体)",
+      "options": [
+        "1950年の 住宅金融公庫法（持家融資制度） や 日本経済の回復 、 新たな家族像の成立 を背景に、 集合住宅 や 商品化住宅 へ波及。 nLDK型 が 中間層の住宅 として定着",
+        "内科·外科で 40~50床 、産科·小科で 30床 程度",
+        "続き間座敷を存続し、1階和室を続き間とし、田の字型を変容させLDKを加えた型",
+        "人口800人弱 の村の コミュニティ施設 の 複合体"
+      ],
+      "correctIndex": 0,
+      "correctAnswer": "1950年の 住宅金融公庫法（持家融資制度） や 日本経済の回復 、 新たな家族像の成立 を背景に、 集合住宅 や 商品化住宅 へ波及。 nLDK型 が 中間層の住宅 として定着",
+      "explanation": "「nLDK型住宅の普及要因」: 1950年の 住宅金融公庫法（持家融資制度） や 日本経済の回復 、 新たな家族像の成立 を背景に、 集合住宅 や 商品化住宅 へ波及。 nLDK型 が 中間層の住宅 として定着"
+    },
+    {
+      "id": "ns-number_four_choice-事務室1人当たりの床面積",
+      "subject": "planning",
+      "style": "inline_numeric_select",
+      "blueprintId": "number_four_choice",
+      "prompt": "「事務室1人当たりの床面積」の基準値として最も適切なものを選びなさい。\n\n(一般病床 個室6.4m²以上 2人室以上6.4m²/床以上 小児病床 個室6.3m²超 2人室以上6.4×2/3m²床以 / ゴ一ルドプラン21での整備目標は36万床である 65歳以上を対象に、身体上もしくは精神上著し情害があるため、常時介護を必要とする人で、居宅において適切な介護を受けることが困難な人を入所させる施設である。 個室ユニット化したユニット型特別養護老人ホームが主流であり、1ユニク卜の入居定員は原則10人以下である / 事務室1人当たりの床面積は、 8~12m² / 1990年 900名の全学生を 近隣 と呼ばれる 3つのグループ に分割している。 情報センター · 音楽室 · 体育館 · 食堂 などは共用で用いるが，各「近隣」の中ではある程度の落ち着きが得られ 教師と児童との緊密な人間関係 も保てるようになっている。)",
+      "options": [
+        "一般病床 個室6.4m²以上 2人室以上6.4m²/床以上 小児病床 個室6.3m²超 2人室以上6.4×2/3m²床以",
+        "ゴ一ルドプラン21での整備目標は36万床である 65歳以上を対象に、身体上もしくは精神上著し情害があるため、常時介護を必要とする人で、居宅において適切な介護を受けることが困難な人を入所させる施設である。 個室ユニット化したユニット型特別養護老人ホームが主流であり、1ユニク卜の入居定員は原則10人以下である",
+        "事務室1人当たりの床面積は、 8~12m²",
+        "1990年 900名の全学生を 近隣 と呼ばれる 3つのグループ に分割している。 情報センター · 音楽室 · 体育館 · 食堂 などは共用で用いるが，各「近隣」の中ではある程度の落ち着きが得られ 教師と児童との緊密な人間関係 も保てるようになっている。"
+      ],
+      "correctIndex": 2,
+      "correctAnswer": "事務室1人当たりの床面積は、 8~12m²",
+      "explanation": "「事務室1人当たりの床面積」: 事務室1人当たりの床面積は、 8~12m²"
+    },
+    {
+      "id": "cs-description_to_pattern-屋内運動場(体育館)防暑計画",
+      "subject": "planning",
+      "style": "correct_statement_select",
+      "blueprintId": "description_to_pattern",
+      "prompt": "次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "誤：体育館は、防暑計画上、長軸を 東西方向 に配置し、自然採光と夏期の通風·換気に配慮する（誤：逆である）",
+        "誤：（誤：体育館は、防暑計画上、長軸を 東西方向 に配置し、自然採光と夏期の通風·換気に配慮するではない）",
+        "誤：（誤った記述：体育館は、防暑計画上、長軸を 東西方向 に配置し、自然採光と夏期の通風·換気に配慮するの逆）",
+        "正：体育館は、防暑計画上、長軸を 東西方向 に配置し、自然採光と夏期の通風·換気に配慮する"
+      ],
+      "correctIndex": 3,
+      "correctAnswer": "体育館は、防暑計画上、長軸を 東西方向 に配置し、自然採光と夏期の通風·換気に配慮する",
+      "explanation": "「屋内運動場(体育館)防暑計画」について正しい記述。"
+    },
+    {
+      "id": "cs-description_to_pattern-外庭型",
+      "subject": "planning",
+      "style": "correct_statement_select",
+      "blueprintId": "description_to_pattern",
+      "prompt": "次の記述のうち、正しいものを一つ選びなさい。",
+      "options": [
+        "誤：（誤った記述：庭を介して生活が外へと広がる開放性 をもち, 遠心的平面 と 近傍依存の生活 に特徴を持つ 融和的な森の文化 として位置づけられるの逆）",
+        "正：庭を介して生活が外へと広がる開放性 をもち, 遠心的平面 と 近傍依存の生活 に特徴を持つ 融和的な森の文化 として位置づけられる",
+        "誤：庭を介して生活が外へと広がる開放性 をもち, 遠心的平面 と 近傍依存の生活 に特徴を持つ 融和的な森の文化 として位置づけられる（誤：逆である）",
+        "誤：（誤：庭を介して生活が外へと広がる開放性 をもち, 遠心的平面 と 近傍依存の生活 に特徴を持つ 融和的な森の文化 として位置ではない）"
+      ],
+      "correctIndex": 1,
+      "correctAnswer": "庭を介して生活が外へと広がる開放性 をもち, 遠心的平面 と 近傍依存の生活 に特徴を持つ 融和的な森の文化 として位置づけられる",
+      "explanation": "「外庭型」について正しい記述。"
+    },
+    {
+      "id": "sa-pattern_comparison-東雲キャナルコート",
+      "subject": "planning",
+      "style": "short_answer",
+      "blueprintId": "pattern_comparison",
+      "prompt": "次の空間的特徴を持つパターン名を答えなさい。\n\n中廊下形式を採用し、中廊下への通風や採光を確保するための大きなテラスを住棟各所にもつ高層板状住棟により構成した高密度な賃貸集合住宅である",
+      "correctAnswer": "東雲キャナルコート",
+      "explanation": "「東雲キャナルコート」の特徴。"
+    },
+    {
+      "id": "sa-pattern_comparison-十和田市現代美術館",
+      "subject": "planning",
+      "style": "short_answer",
+      "blueprintId": "pattern_comparison",
+      "prompt": "次の空間的特徴を持つパターン名を答えなさい。\n\n作品ごとの 独立展示室 を敷地内に分散し、 ガラス張りの通路 で結ぶ。街路・庭・展示を交互に経験する 都市開放型美術館 。",
+      "correctAnswer": "十和田市現代美術館",
+      "explanation": "「十和田市現代美術館」の特徴。"
+    }
+  ]
+}

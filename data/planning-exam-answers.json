@@ -1,0 +1,1332 @@
+{
+  "version": 1,
+  "description": "Building-planning answer records. `card-supported-draft` means that the answer is supported by the listed study cards but has not been checked against an official answer key.",
+  "records": [
+    {
+      "questionId": "2023:専門1:問題4",
+      "fileName": "2023_専門1_建筑计划_Q問題4.md",
+      "items": [
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s01",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "西山夘三",
+          "explanation": "食寝分離論を主張したのは西山夘三。",
+          "evidenceCards": [
+            "西山 夘三"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s02",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "晴海高層アパート",
+          "explanation": "3層ごとの共用廊下から上下階住戸へアクセスするスキップフロア型の事例。",
+          "evidenceCards": [
+            "集合住宅"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s03",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "コモンシティ星田",
+          "explanation": "中央緑道から枝分かれする緑道と専用庭による段階的な外部空間構成。",
+          "evidenceCards": [
+            "コモンシティ星田"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s04",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "真野ふれあい住宅",
+          "explanation": "阪神・淡路大震災後、仮設住宅退去後の高齢者の相互扶助を意図したコレクティブ住宅。",
+          "evidenceCards": [
+            "コレクティブハウジング"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s05",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "30床",
+          "explanation": "ナイチンゲールが提案した大部屋病棟は約30床。",
+          "evidenceCards": [
+            "ナイチンゲール病院"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s06",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "1.0m",
+          "explanation": "看護作業のため、ベッド横には約1.0mの作業空間を確保する。",
+          "evidenceCards": [
+            "病室の床面積"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s07",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "神戸市立西神戸医療センター",
+          "explanation": "重症個室で窓側便所を設ける病室配置の事例。",
+          "evidenceCards": [
+            "病院"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s08",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "特別養護老人ホーム",
+          "explanation": "ケアタウンたかのすは小規模生活単位を導入した特別養護老人ホーム。",
+          "evidenceCards": [
+            "グループホームやコレクティブハウジングの誕生"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s09",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "25㎡",
+          "explanation": "サービス付き高齢者向け住宅の居室面積は原則25㎡以上。",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s10",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "3.5m",
+          "explanation": "車椅子使用者用駐車スペースの幅は3.5m以上。",
+          "evidenceCards": [
+            "高齢者、身体障害駐車スペ一ス"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s11",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "150cm",
+          "explanation": "歩行者と車椅子使用者がすれ違う通路幅は150cm以上。",
+          "evidenceCards": [
+            "高齢者、身体障害通路の幅"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s12",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "エドワード・ホール",
+          "explanation": "パーソナルスペースはE.ホールのプロクセミックスに関わる概念。",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s13",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "西戸山小学校",
+          "explanation": "1949年発表のRC造校舎標準設計のモデルスクールとして建設された。",
+          "evidenceCards": [
+            "西戸山小学校"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s14",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "笠原小学校",
+          "explanation": "楕円形体育館を中心にオープン化された教室群を配置した学校。",
+          "evidenceCards": [
+            "笠原小学校"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s15",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "BDS",
+          "explanation": "図書館の利用者出入口には資料持出しを管理するBDSを設ける。",
+          "evidenceCards": [
+            "公共図書館"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s16",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "オルケストラ",
+          "explanation": "古代ギリシャ・ローマの屋外劇場中央の円形舞台はオルケストラ。",
+          "evidenceCards": [
+            "古代ギリシャ劇場の起源"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s17",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "シューボックス型",
+          "explanation": "器楽中心の音楽ホールではシューボックス型が代表的な室形。",
+          "evidenceCards": [
+            "劇場の持つ役割"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s18",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "キンベル美術館",
+          "explanation": "連続するサイクロイドシェル・ボールトと自然採光の拡散が特徴。",
+          "evidenceCards": [
+            "キンベル美術館"
+          ]
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s19",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "霞ヶ関ビル",
+          "explanation": "1968年竣工の霞ヶ関ビルは日本初の超高層オフィスビル。",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2023_専門1_建筑计划_Q問題4.md#s20",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "中央型",
+          "explanation": "中央型コアは貸しビルで対称的かつ効率的に貸室を計画しやすい。",
+          "evidenceCards": [
+            "センタ一コア",
+            "コア4分類"
+          ]
+        }
+      ]
+    },
+    {
+      "questionId": "2017:専門1:問題1",
+      "fileName": "2017_専門1_建筑计划_Q1.md",
+      "items": [
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s01",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "田園都市",
+          "evidenceCards": [
+            "田園都市論"
+          ]
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s02",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "コアハウジング",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s03",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "リビングアクセス",
+          "evidenceCards": [
+            "リビングアクセス"
+          ]
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s04",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "コーポラティブハウジング",
+          "evidenceCards": [
+            "コーポラティブハウジング"
+          ]
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s05",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "シュレーダー邸",
+          "evidenceCards": [
+            "シュレーダー邸"
+          ]
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s06",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "晴海高層アパート",
+          "evidenceCards": [
+            "集合住宅"
+          ]
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s07",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "7部門",
+          "evidenceCards": [
+            "病院"
+          ]
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s08",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "フローレンス・ナイチンゲール",
+          "evidenceCards": [
+            "病院"
+          ]
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s09",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "10人",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s10",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "介護老人保健施設",
+          "evidenceCards": [
+            "介護老人保健施設"
+          ]
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s11",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "オープンスクール",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s12",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "24cm",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s13",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "ルイジアナ近代美術館",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s14",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "シューボックス型",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s15",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "オフィスランドスケープ",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s16",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "パーソナルスペース",
+          "evidenceCards": [
+            "領域"
+          ]
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s17",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "少ない身体的な努力",
+          "evidenceCards": [
+            "ユニバーサルデザイン"
+          ]
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s18",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "クリストファー・アレクザンダー",
+          "evidenceCards": [
+            "セミラティス型"
+          ]
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s19",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "ボンエルフ",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2017_専門1_建筑计划_Q1.md#s20",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "主婦と子ども",
+          "evidenceCards": []
+        }
+      ]
+    },
+    {
+      "questionId": "2019:専門1:問題4",
+      "fileName": "2019_専門1_建筑计划_Q4.md",
+      "items": [
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s01",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "ルシオ・コスタ",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s02",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "ラドバーン",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s03",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "HOPE計画",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s04",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "NEXT21",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s05",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "高齢者向けデイサービス",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s06",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "求道学舎",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s07",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "50床",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s08",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "東京臨海病院",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s09",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "25㎡",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s10",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "小規模多機能型居宅介護",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s11",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "施設入所支援",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s12",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "フォドレア小学校",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s13",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "笠原小学校",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s14",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "日野市立図書館",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s15",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "武蔵野プレイス",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s16",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "十和田市現代美術館",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s17",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "バイロイト祝祭劇場",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s18",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "守りやすい空間",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s19",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "ケヴィン・リンチ",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2019_専門1_建筑计划_Q4.md#s20",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "50室",
+          "evidenceCards": []
+        }
+      ]
+    },
+    {
+      "questionId": "2020:専門1:問題4",
+      "fileName": "2020_専門1_建筑计划_Q4.md",
+      "items": [
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s01",
+          "reviewStatus": "historical-law-draft",
+          "choice": "C",
+          "answer": "チャンディガール",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s02",
+          "reviewStatus": "historical-law-draft",
+          "choice": "A",
+          "answer": "トランジットモール",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s03",
+          "reviewStatus": "historical-law-draft",
+          "choice": "B",
+          "answer": "約8,000〜10,000人",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s04",
+          "reviewStatus": "historical-law-draft",
+          "choice": "C",
+          "answer": "コホーティング",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s05",
+          "reviewStatus": "historical-law-draft",
+          "choice": "C",
+          "answer": "大阪南港事件判決",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s06",
+          "reviewStatus": "historical-law-draft",
+          "choice": "A",
+          "answer": "第一種住居地域",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s07",
+          "reviewStatus": "historical-law-draft",
+          "choice": "D",
+          "answer": "斜線制限",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s08",
+          "reviewStatus": "historical-law-draft",
+          "choice": "C",
+          "answer": "2,000㎡",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s09",
+          "reviewStatus": "historical-law-draft",
+          "choice": "A",
+          "answer": "1:1.25",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s10",
+          "reviewStatus": "historical-law-draft",
+          "choice": "A",
+          "answer": "全階",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s11",
+          "reviewStatus": "historical-law-draft",
+          "choice": "A",
+          "answer": "準住居地域",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s12",
+          "reviewStatus": "historical-law-draft",
+          "choice": "B",
+          "answer": "都市計画決定",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s13",
+          "reviewStatus": "historical-law-draft",
+          "choice": "A",
+          "answer": "市街化区域",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s14",
+          "reviewStatus": "historical-law-draft",
+          "choice": "C",
+          "answer": "変更許可",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s15",
+          "reviewStatus": "historical-law-draft",
+          "choice": "A",
+          "answer": "第36条",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s16",
+          "reviewStatus": "historical-law-draft",
+          "choice": "A",
+          "answer": "第36条",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s17",
+          "reviewStatus": "historical-law-draft",
+          "choice": "C",
+          "answer": "第38条",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s18",
+          "reviewStatus": "historical-law-draft",
+          "choice": "D",
+          "answer": "建築物エネルギー消費性能計画届出",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s19",
+          "reviewStatus": "historical-law-draft",
+          "choice": "D",
+          "answer": "建築物エネルギー消費性能認定",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2020_専門1_建筑计划_Q4.md#s20",
+          "reviewStatus": "historical-law-draft",
+          "choice": "D",
+          "answer": "建築物エネルギー消費性能審査",
+          "evidenceCards": []
+        }
+      ]
+    },
+    {
+      "questionId": "2022:専門1:問題4",
+      "fileName": "2022_専門1_建筑计划_Q4.md",
+      "items": [
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sa",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "10000㎡",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sb",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "220人",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sc",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "50000㎡",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sd",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "6m",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#se",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "30m",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sf",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "110cm",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sg",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "800m",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sh",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "2m",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#si",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "2DK",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sj",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "3つ",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sk",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "3層",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sl",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "2300m",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sm",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "2本",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sn",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "2本",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#so",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "1949年",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sp",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "1964年",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sq",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "66年",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#sr",
+          "reviewStatus": "card-supported-draft",
+          "choice": "G",
+          "answer": "1400m",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#ss",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "1080m",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2022_専門1_建筑计划_Q4.md#st",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "1000m",
+          "evidenceCards": []
+        }
+      ]
+    },
+    {
+      "questionId": "2024:専門1:問題4",
+      "fileName": "2024_専門1_建筑计划_Q4.md",
+      "items": [
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s01",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "レッチワース",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s02",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "ラドバーン",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s03",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "500m",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s04",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "コーポラティブハウス",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s05",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "スカイハウス",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s06",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "東雲キャナルコート",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s07",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "両端型",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s08",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "ケアハウス",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s09",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "せんねん村",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s10",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "6.4㎡",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s11",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "三角型",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s12",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "北側廊下南側教室",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s13",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "テアトロ・ファルネーゼ",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s14",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "22m",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s15",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "りゅーとぴあ",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s16",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "坂倉準三",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s17",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "宮城県図書館",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s18",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "3/1",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s19",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "クリストファー・アレクザンダー",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2024_専門1_建筑计划_Q4.md#s20",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "1:1.618",
+          "evidenceCards": []
+        }
+      ]
+    },
+    {
+      "questionId": "2026:専門1:問題4",
+      "fileName": "2026_専門1_建筑计划_Q4.md",
+      "items": [
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s01",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "パーソナルスペース",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s02",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "蹴上15cm・踏面30cm",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s03",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "約1/18",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s04",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "普通車2.5m・車椅子用3.5m",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s05",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "テラスハウス",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s06",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "中廊下型",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s07",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "六甲の集合住宅",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s08",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "普通教室70㎡",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s09",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "児童間の交流を促進",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s10",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "レンタブル比80%",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s11",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "パレスサイドビル",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s12",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "診療部門を外来部門と病棟部門の間に配置",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s13",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "座席幅50cm・前後間隔100cm",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s14",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "グッゲンハイム美術館",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s15",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "ポンピドゥー・センター",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s16",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "チューブ状の構造コア",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s17",
+          "reviewStatus": "card-supported-draft",
+          "choice": "D",
+          "answer": "専用の障害者向け機能",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s18",
+          "reviewStatus": "card-supported-draft",
+          "choice": "A",
+          "answer": "廊下幅150cm以上",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s19",
+          "reviewStatus": "card-supported-draft",
+          "choice": "B",
+          "answer": "小学校を核にした徒歩圏",
+          "evidenceCards": []
+        },
+        {
+          "itemId": "2026_専門1_建筑计划_Q4.md#s20",
+          "reviewStatus": "card-supported-draft",
+          "choice": "C",
+          "answer": "スカイライン",
+          "evidenceCards": []
+        }
+      ]
+    },
+    {
+      "questionId": "2025:専門1:問題4",
+      "fileName": "2025_専門1_建筑计划_Q4.md",
+      "items": [],
+      "pairingReference": [
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "a",
+            "answer": "コモンシティ星田"
+          },
+          "group2": {
+            "choice": "a",
+            "answer": "ボンエルフ"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "b",
+            "answer": "田園都市"
+          },
+          "group2": {
+            "choice": "g",
+            "answer": "E. ハワード"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "c",
+            "answer": "工業都市"
+          },
+          "group2": {
+            "choice": "i",
+            "answer": "トニー・ガルニエ"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "d",
+            "answer": "住宅営団"
+          },
+          "group2": {
+            "choice": "c",
+            "answer": "土地区画整理事業"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "e",
+            "answer": "近隣住区"
+          },
+          "group2": {
+            "choice": "h",
+            "answer": "C. A. ペリー"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "f",
+            "answer": "コミュニティケア型仮設住宅"
+          },
+          "group2": {
+            "choice": "d",
+            "answer": "東日本大震災"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "g",
+            "answer": "ラドバーン"
+          },
+          "group2": {
+            "choice": "b",
+            "answer": "歩車分離"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "h",
+            "answer": "高蔵寺ニュータウン"
+          },
+          "group2": {
+            "choice": "e",
+            "answer": "ワンセンター方式"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "i",
+            "answer": "シーサイド"
+          },
+          "group2": {
+            "choice": "f",
+            "answer": "ニュー・アーバニズム"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "j",
+            "answer": "池田室町"
+          },
+          "group2": {
+            "choice": "j",
+            "answer": "阪急電鉄"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "k",
+            "answer": "阿佐ヶ谷住宅"
+          },
+          "group2": {
+            "choice": "n",
+            "answer": "W. M. ヴォーリズ"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "l",
+            "answer": "同潤会代官山アパート"
+          },
+          "group2": {
+            "choice": "p",
+            "answer": "関東大震災"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "m",
+            "answer": "本郷館"
+          },
+          "group2": {
+            "choice": "l",
+            "answer": "高等下宿"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "n",
+            "answer": "軍艦島30号棟"
+          },
+          "group2": {
+            "choice": "s",
+            "answer": "炭鉱住宅"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "o",
+            "answer": "大島四丁目団地"
+          },
+          "group2": {
+            "choice": "q",
+            "answer": "面開発市街地住宅"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "p",
+            "answer": "御茶ノ水文化住宅"
+          },
+          "group2": {
+            "choice": "k",
+            "answer": "津端修一"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "q",
+            "answer": "玉姫公設長屋"
+          },
+          "group2": {
+            "choice": "t",
+            "answer": "浅草大火"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "r",
+            "answer": "桜台コートビレッジ"
+          },
+          "group2": {
+            "choice": "o",
+            "answer": "コーポラティブ・ハウス"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "s",
+            "answer": "猿江裏町"
+          },
+          "group2": {
+            "choice": "m",
+            "answer": "不良住宅地区改良事業"
+          }
+        },
+        {
+          "reviewStatus": "concept-pair-draft",
+          "group1": {
+            "choice": "t",
+            "answer": "ユーコート"
+          },
+          "group2": {
+            "choice": "r",
+            "answer": "内井昭蔵"
+          }
+        }
+      ]
+    }
+  ]
+}

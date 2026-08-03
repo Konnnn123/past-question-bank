@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="680" viewBox="0 0 1160 680">
+  <rect width="1160" height="680" fill="#f7f4ed"/>
+  <g font-family="Arial, 'Noto Sans JP', sans-serif">
+    <text x="42" y="48" font-size="27" font-weight="700" fill="#17324d">T3 接合史｜力の伝達・組立・交換可能性で分類する</text>
+    <text x="42" y="78" font-size="16" fill="#52606d">bearing / interlocking / fastening / bonding / monolithic casting / dry replaceable assembly</text>
+    <g transform="translate(45 130)" text-anchor="middle">
+      <g><text x="85" y="0" font-size="20" font-weight="700" fill="#17324d">載せる・重ねる</text><rect x="20" y="50" width="130" height="45" fill="#d4ad6a" stroke="#17324d" stroke-width="4"/><rect x="65" y="95" width="40" height="120" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><text x="85" y="250" font-size="16" fill="#52606d">圧縮・摩擦</text></g>
+      <g transform="translate(185)"><text x="85" y="0" font-size="20" font-weight="700" fill="#17324d">嵌める</text><path d="M20 70 H72 V105 H98 V70 H150 V115 H98 V150 H72 V115 H20 Z" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><text x="85" y="250" font-size="16" fill="#52606d">継手・仕口・迫石</text></g>
+      <g transform="translate(370)"><text x="85" y="0" font-size="20" font-weight="700" fill="#17324d">締める</text><rect x="15" y="72" width="140" height="38" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><rect x="15" y="110" width="140" height="38" fill="#f2d3a7" stroke="#17324d" stroke-width="4"/><line x1="85" y1="45" x2="85" y2="180" stroke="#b14f3b" stroke-width="10"/><circle cx="85" cy="45" r="16" fill="#b14f3b"/><text x="85" y="250" font-size="16" fill="#52606d">釘・クランプ・リベット・ボルト</text></g>
+      <g transform="translate(555)"><text x="85" y="0" font-size="20" font-weight="700" fill="#17324d">接着・溶接</text><rect x="15" y="72" width="140" height="40" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><rect x="15" y="123" width="140" height="40" fill="#e8dfcd" stroke="#17324d" stroke-width="4"/><path d="M15 117 H155" stroke="#2e7d75" stroke-width="10" stroke-dasharray="12 7"/><text x="85" y="250" font-size="16" fill="#52606d">接着剤・モルタル・溶接</text></g>
+      <g transform="translate(740)"><text x="85" y="0" font-size="20" font-weight="700" fill="#17324d">一体化する</text><rect x="15" y="55" width="140" height="130" fill="#f6d8d1" stroke="#b14f3b" stroke-width="4"/><path d="M50 55 V185 M85 55 V185 M120 55 V185" stroke="#17324d" stroke-width="5"/><text x="85" y="250" font-size="16" fill="#52606d">打設・付着・定着</text></g>
+      <g transform="translate(925)"><text x="85" y="0" font-size="20" font-weight="700" fill="#17324d">乾式で交換</text><rect x="10" y="62" width="62" height="105" fill="#dcebea" stroke="#2e7d75" stroke-width="4"/><rect x="98" y="62" width="62" height="105" fill="#dcebea" stroke="#2e7d75" stroke-width="4"/><path d="M68 115 H102" stroke="#b14f3b" stroke-width="10"/><circle cx="85" cy="115" r="12" fill="#b14f3b"/><text x="85" y="250" font-size="16" fill="#52606d">ファスナー・ユニット接合</text></g>
+    </g>
+    <g font-size="18" fill="#52606d" text-anchor="middle">
+      <text x="580" y="450">共通比較軸：圧縮／引張／せん断／曲げ → 剛性 → 施工公差 → 解体性 → 劣化 → 破壊形</text>
+      <text x="580" y="500" fill="#b14f3b">接合は部材より先に壊れる弱点にも、変形を逃がす安全装置にもなりうる</text>
+      <text x="580" y="550" fill="#17324d">完成時性能だけでなく、組立順序・仮締め・養生・検査・後日の交換を比較する</text>
+      <text x="580" y="600" fill="#2e7d75">答案の因果：必要な力・変形 → 接合原理 → 工程 → 架構・外皮 → 維持・限界</text>
+      <text x="580" y="640" fill="#52606d">注意：名称が同じでも材料、時代、細部により剛性・破壊挙動は異なる</text>
+    </g>
+  </g>
+</svg>

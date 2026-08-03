@@ -1,0 +1,188 @@
+{
+  "id": "proto-hist-mwb-01",
+  "templateId": "history_image_multi_wordbank_matching",
+  "format": "multi_wordbank_matching",
+  "subject": "history",
+  "images": [
+    {
+      "assetId": "img-0430",
+      "webPath": "/images/anki/2e1e961e4690804c8833ebb81a54e290.png",
+      "buildingName": "ベルリン大劇場",
+      "architect": "ハンス・ペルツィヒ",
+      "style": "ドイツ表現主義",
+      "period": "20世紀初頭"
+    },
+    {
+      "assetId": "img-0100",
+      "webPath": "/images/anki/124e961e4690809d8e8eec1d19a03779_0.png",
+      "buildingName": "サン ロレンツォ マッジョーレ教会堂",
+      "architect": "聖アンブロジウス",
+      "style": "初期キリスト教建築",
+      "period": "古代末期"
+    },
+    {
+      "assetId": "img-0354",
+      "webPath": "/images/anki/2ede961e46908066b443cde18aa040b1_1.png",
+      "buildingName": "カステルヴェッキオ美術館",
+      "architect": "カルロ・スカルパ",
+      "style": "モダニズム",
+      "period": "20世紀"
+    },
+    {
+      "assetId": "img-0423",
+      "webPath": "/images/anki/2e1e961e4690805b96c0ebd391db238f.png",
+      "buildingName": "カフェ・デ・ユニ",
+      "architect": "J・J・P・アウト",
+      "style": "ロシア構成主義",
+      "period": "大正末期（1924年）"
+    },
+    {
+      "assetId": "img-0372",
+      "webPath": "/images/anki/2e7e961e4690806180e1c60554b987a3.png",
+      "buildingName": "大阪市中央公会堂",
+      "architect": "岡田信一郎",
+      "style": "ネオ・ルネサンス様式",
+      "period": "大正時代"
+    },
+    {
+      "assetId": "img-0137",
+      "webPath": "/images/anki/3a0e961e4690804494d7cecd2fb303e0.png",
+      "buildingName": "ワシントンDC計画",
+      "architect": "ピエール・シャルル・ランファン",
+      "style": "新古典主義（ネオクラシシズム）",
+      "period": "18世紀末～19世紀"
+    }
+  ],
+  "wordBanks": {
+    "A_building_names": {
+      "terms": [
+        "サン ロレンツォ マッジョーレ教会堂",
+        "ワシントンDC計画",
+        "セント·ポール大聖堂",
+        "ベルリン大劇場",
+        "カフェ・デ・ユニ",
+        "ハトシェポスト女王葬祭神殿とメントゥホテップ2世葬祭神殿",
+        "サン·ビ工卜口大聖堂計画案",
+        "大阪市中央公会堂",
+        "カステルヴェッキオ美術館"
+      ],
+      "semanticField": "building_name"
+    },
+    "B_architects": {
+      "terms": [
+        "クリストファー・レン",
+        "センムト（ハトシェプストの建築家）／メンチュホテプ2世（自身の葬祭殿を建設）",
+        "ハンス・ペルツィヒ",
+        "カルロ・スカルパ",
+        "ジョセフ・パクストン",
+        "聖アンブロジウス",
+        "岡田信一郎",
+        "J・J・P・アウト",
+        "ピエール・シャルル・ランファン"
+      ],
+      "semanticField": "architect"
+    },
+    "C_styles": {
+      "terms": [
+        "初期キリスト教建築",
+        "ドイツ表現主義",
+        "バロック建築",
+        "ロシア構成主義",
+        "エジプト建築（岩窟墓と葬祭殿の複合様式）",
+        "モダニズム",
+        "新古典主義（ネオクラシシズム）",
+        "ネオ・ルネサンス様式",
+        "メタボリズム"
+      ],
+      "semanticField": "architectural_style"
+    }
+  },
+  "prompt": "次の(1)~(6)の各図について、建築名称、建築家、建築様式をそれぞれ語群A・B・Cから選びなさい。",
+  "correctMapping": {
+    "ベルリン大劇場": {
+      "bankA_index": 3,
+      "bankA_term": "ベルリン大劇場",
+      "bankB_index": 2,
+      "bankB_term": "ハンス・ペルツィヒ",
+      "bankC_index": 1,
+      "bankC_term": "ドイツ表現主義"
+    },
+    "サン ロレンツォ マッジョーレ教会堂": {
+      "bankA_index": 0,
+      "bankA_term": "サン ロレンツォ マッジョーレ教会堂",
+      "bankB_index": 5,
+      "bankB_term": "聖アンブロジウス",
+      "bankC_index": 0,
+      "bankC_term": "初期キリスト教建築"
+    },
+    "カステルヴェッキオ美術館": {
+      "bankA_index": 8,
+      "bankA_term": "カステルヴェッキオ美術館",
+      "bankB_index": 3,
+      "bankB_term": "カルロ・スカルパ",
+      "bankC_index": 5,
+      "bankC_term": "モダニズム"
+    },
+    "カフェ・デ・ユニ": {
+      "bankA_index": 4,
+      "bankA_term": "カフェ・デ・ユニ",
+      "bankB_index": 7,
+      "bankB_term": "J・J・P・アウト",
+      "bankC_index": 3,
+      "bankC_term": "ロシア構成主義"
+    },
+    "大阪市中央公会堂": {
+      "bankA_index": 7,
+      "bankA_term": "大阪市中央公会堂",
+      "bankB_index": 6,
+      "bankB_term": "岡田信一郎",
+      "bankC_index": 7,
+      "bankC_term": "ネオ・ルネサンス様式"
+    },
+    "ワシントンDC計画": {
+      "bankA_index": 1,
+      "bankA_term": "ワシントンDC計画",
+      "bankB_index": 8,
+      "bankB_term": "ピエール・シャルル・ランファン",
+      "bankC_index": 6,
+      "bankC_term": "新古典主義（ネオクラシシズム）"
+    }
+  },
+  "validation": {
+    "eachBankHomogeneous": true,
+    "surplusInRange": true,
+    "noNonArchitectsInBankB": true,
+    "noStyleAmbiguity": true,
+    "noUnbuiltProjects": true,
+    "heterogeneousImageSet": true,
+    "banksIndependentlyShuffled": true,
+    "noBankDuplicates": true
+  },
+  "closestExamRef": "2019 Q5 専門1 建築史",
+  "correctMappingLegacy": {
+    "ベルリン大劇場": {
+      "architect": "ハンス・ペルツィヒ",
+      "style": "ドイツ表現主義"
+    },
+    "サン ロレンツォ マッジョーレ教会堂": {
+      "architect": "聖アンブロジウス",
+      "style": "初期キリスト教建築"
+    },
+    "カステルヴェッキオ美術館": {
+      "architect": "カルロ・スカルパ",
+      "style": "モダニズム"
+    },
+    "カフェ・デ・ユニ": {
+      "architect": "J・J・P・アウト",
+      "style": "ロシア構成主義"
+    },
+    "大阪市中央公会堂": {
+      "architect": "岡田信一郎",
+      "style": "ネオ・ルネサンス様式"
+    },
+    "ワシントンDC計画": {
+      "architect": "ピエール・シャルル・ランファン",
+      "style": "新古典主義（ネオクラシシズム）"
+    }
+  }
+}

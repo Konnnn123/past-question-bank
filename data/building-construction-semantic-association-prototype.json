@@ -1,0 +1,47 @@
+{
+  "id": "building-construction-semantic-association-past-exam-reconstruction-v1",
+  "subject": "building_construction",
+  "exam": "専門1",
+  "status": "past_exam_reconstruction",
+  "format": "shared_word_bank_fill",
+  "notice": "Past Exam Reconstruction for format verification. The pair evidence remains card-supported draft; this is not a Generator or a production mock exam.",
+  "sets": [
+    {
+      "id": "2015-q2",
+      "source": "2015 専門1 建築構法 Q2",
+      "reuseAllowed": true,
+      "wordBank": ["ガラス", "挽板", "単板", "煉瓦", "杭地業", "真束", "枠組壁工法", "木造軸組構法", "引張力", "引抜力", "切妻", "PC鋼棒", "開口部", "縁", "溶接", "方立", "継手", "仕口"],
+      "items": [
+        {"id":"2015-01","prompt":"イングリッシュ・ボンド","answer":"煉瓦","domain":"masonry"},
+        {"id":"2015-02","prompt":"キングポスト","answer":"真束","domain":"timber_roof_truss"},
+        {"id":"2015-03","prompt":"けらば","answer":"切妻","domain":"roof_form"},
+        {"id":"2015-04","prompt":"2×4（ツーバイフォー）工法","answer":"枠組壁工法","domain":"timber_system"},
+        {"id":"2015-05","prompt":"集成材","answer":"挽板","domain":"engineered_timber"},
+        {"id":"2015-06","prompt":"DPG（Dot Point Glazing）構法","answer":"ガラス","domain":"curtain_wall"},
+        {"id":"2015-07","prompt":"マリオン","answer":"方立","domain":"curtain_wall"},
+        {"id":"2015-08","prompt":"オールケーシング","answer":"杭地業","domain":"foundation"},
+        {"id":"2015-09","prompt":"金輪","answer":"継手","domain":"timber_joint"},
+        {"id":"2015-10","prompt":"釘接合","answer":"引抜力","domain":"fastener_force"}
+      ]
+    },
+    {
+      "id": "2017-q3",
+      "source": "2017 専門1 建築構法 Q3",
+      "reuseAllowed": false,
+      "wordBank": ["直交集成板（CLT）", "合板", "コンクリート", "鉄筋コンクリート梁", "鉄筋コンクリート柱", "H形鋼", "鋼管", "トラス", "液状化", "火災"],
+      "items": [
+        {"id":"2017-01","prompt":"スランプ","answer":"コンクリート","domain":"concrete"},
+        {"id":"2017-02","prompt":"挽板","answer":"直交集成板（CLT）","domain":"engineered_timber"},
+        {"id":"2017-03","prompt":"サンドドレーン","answer":"液状化","domain":"ground_improvement"},
+        {"id":"2017-04","prompt":"クイーンポスト","answer":"トラス","domain":"timber_roof_truss"},
+        {"id":"2017-05","prompt":"バックドラフト","answer":"火災","domain":"fire"},
+        {"id":"2017-06","prompt":"単板","answer":"合板","domain":"engineered_timber"},
+        {"id":"2017-07","prompt":"帯筋","answer":"鉄筋コンクリート柱","domain":"rc_column"},
+        {"id":"2017-08","prompt":"ウェブ","answer":"H形鋼","domain":"steel_section"},
+        {"id":"2017-09","prompt":"あばら筋","answer":"鉄筋コンクリート梁","domain":"rc_beam"},
+        {"id":"2017-10","prompt":"ダイアフラム","answer":"鋼管","domain":"steel_tube"}
+      ]
+    }
+  ],
+  "validation": {"setCount":2,"itemCount":20,"sourceBanksPreserved":true,"sourceReusePoliciesDeclared":true,"excludesStructuralMechanics":true}
+}

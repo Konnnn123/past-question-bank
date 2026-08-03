@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "atomic-fact",
+  "title": "Atomic Fact",
+  "description": "A single verifiable architectural knowledge atom extracted from Anki/Notion/past-exam sources.",
+  "type": "object",
+  "required": ["id", "subject", "entityType", "entityName", "relation", "value", "sourceType", "sourceId"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable hash-based ID, e.g. 'fact-history-{md5(entityName+relation+value)[:10]}'"
+    },
+    "subject": {
+      "type": "string",
+      "enum": ["history", "planning", "environment", "construction"],
+      "description": "Discipline"
+    },
+    "entityType": {
+      "type": "string",
+      "enum": ["building", "person", "style", "movement", "term", "formula", "number", "material", "component", "system", "urban_plan", "institution"],
+      "description": "Type of the subject entity"
+    },
+    "entityName": {
+      "type": "string",
+      "description": "Primary Japanese name of the entity"
+    },
+    "entityNameOriginal": {
+      "type": "string",
+      "description": "Original-language name if different"
+    },
+    "relation": {
+      "type": "string",
+      "description": "Predicate, e.g. 'has_style', 'designed_by', 'built_in', 'defined_as', 'has_feature', 'belongs_to', 'appears_in_exam', 'has_original_name', 'computes'"
+    },
+    "value": {
+      "type": "string",
+      "description": "Value of the relation"
+    },
+    "valueType": {
+      "type": "string",
+      "enum": ["text", "number", "image_ref", "html"],
+      "default": "text"
+    },
+    "sourceType": {
+      "type": "string",
+      "enum": ["anki", "notion", "past_exam", "textbook"],
+      "description": "Where this fact came from"
+    },
+    "sourceId": {
+      "type": "string",
+      "description": "Identifier within the source (Anki noteId, Notion pageId, exam fileName)"
+    },
+    "sourceField": {
+      "type": "string",
+      "description": "Which field in the source this was extracted from, e.g. 'people', 'period', 'history'"
+    },
+    "evidenceText": {
+      "type": "string",
+      "description": "Verbatim excerpt from the source that supports this fact"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "candidate"],
+      "description": "high = structured field, no ambiguity; medium = parsed with minor normalization; low = contains uncertain markers; candidate = extracted from long text, needs human review"
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": ["unreviewed", "confirmed", "rejected", "edited"],
+      "default": "unreviewed",
+      "description": "Only 'confirmed' facts may enter the question pool"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Era, region, or topic tags for distractor matching"
+    },
+    "usableBlueprints": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Blueprint IDs this fact can generate questions for"
+    }
+  }
+}

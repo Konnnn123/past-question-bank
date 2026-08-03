@@ -1,0 +1,83 @@
+{
+  "id": "building-construction-production-formats-v1",
+  "scope": {"exam": "専門1", "subject": "building_construction", "excluded": ["structural_mechanics", "専門2-2"]},
+  "releaseStatus": "production_ready",
+  "families": {
+    "scoped_term_short_answer": {
+      "status": "production_ready", "prototype": {"source": "2014 専門1 建築構法 Q3", "itemCount": 20, "answerMode": "independent term"}, "domainRule": "Each item remains in its declared construction domain; accepted answers are explicit.",
+      "items": [
+        {"id":"sa01","prompt":"温度伸縮や地震時の相対変位を吸収するため、建物を構造的に分ける目地は何か。","answer":"エキスパンションジョイント","accepted":["エキスパンションジョイント"]},
+        {"id":"sa02","prompt":"木造で、上部材を下部材の欠込みへ落として納める仕口は何か。","answer":"落とし込み","accepted":["落とし込み"]},
+        {"id":"sa03","prompt":"隅で直交する二材を高低差なく組む木造の組手は何か。","answer":"京呂組","accepted":["京呂組"]},
+        {"id":"sa04","prompt":"梁を柱の上に載せて納める木造の組手は何か。","answer":"折置組","accepted":["折置組"]},
+        {"id":"sa05","prompt":"階段の段板を支える、側面に沿った斜材は何か。","answer":"ささら桁","accepted":["ささら桁"]},
+        {"id":"sa06","prompt":"軒先を支えるため垂木から外へ持ち出す短材は何か。","answer":"跳木","accepted":["跳木"]},
+        {"id":"sa07","prompt":"四方向へ屋根面が下がる屋根形式は何か。","answer":"方形屋根","accepted":["方形屋根"]},
+        {"id":"sa08","prompt":"二つの屋根面が棟で交わる屋根形式は何か。","answer":"切妻屋根","accepted":["切妻屋根"]},
+        {"id":"sa09","prompt":"本葺き土を用い、平瓦と丸瓦を組み合わせる瓦葺きは何か。","answer":"本瓦葺き","accepted":["本瓦葺き"]},
+        {"id":"sa10","prompt":"金属板の継目を心木で押さえる屋根葺きは何か。","answer":"瓦棒葺き","accepted":["瓦棒葺き"]},
+        {"id":"sa11","prompt":"フレッシュコンクリートの施工しやすさを総合的に表す性質は何か。","answer":"ワーカビリティ","accepted":["ワーカビリティ"]},
+        {"id":"sa12","prompt":"高流動コンクリートの流動性を広がり径で測る試験は何か。","answer":"スランプフロー試験","accepted":["スランプフロー試験"]},
+        {"id":"sa13","prompt":"コンクリートの水量をセメント量で割った品質管理の比は何か。","answer":"水セメント比","accepted":["水セメント比"]},
+        {"id":"sa14","prompt":"地盤に板を載せ、荷重と沈下の関係を測る試験は何か。","answer":"平板載荷試験","accepted":["平板載荷試験"]},
+        {"id":"sa15","prompt":"木材を繊維直交方向に引張り、二分する破壊を何というか。","answer":"割裂","accepted":["割裂"]},
+        {"id":"sa16","prompt":"木材の繊維直交方向の局部圧縮で生じる変形を何というか。","answer":"めり込み","accepted":["めり込み"]},
+        {"id":"sa17","prompt":"単板を繊維方向をそろえて積層した木質材料は何か。","answer":"LVL","accepted":["LVL"]},
+        {"id":"sa18","prompt":"鋼材が弾性限界を越え、永久変形を生じ始める現象は何か。","answer":"降伏","accepted":["降伏"]},
+        {"id":"sa19","prompt":"鋼材を加熱後に急冷して硬さを高める熱処理は何か。","answer":"焼入れ","accepted":["焼入れ"]},
+        {"id":"sa20","prompt":"H形鋼で、ウェブの両側にある幅広い板部分は何か。","answer":"フランジ","accepted":["フランジ"]}
+      ]
+    },
+    "inline_four_choice_fill": {
+      "status": "production_ready", "prototype": {"source":"2024 専門1 建築構法 Q3", "itemCount":20, "choiceCount":4, "reuseAllowed":false}, "distractorRule":"Each local pool contains terms from the same property, component, or construction-operation domain.",
+      "items":[
+        {"id":"mc01","prompt":"木材のヤング係数として最も適切な値を選ぶ。","answer":"7,000 N/mm²","choices":["700 N/mm²","7,000 N/mm²","70,000 N/mm²","700,000 N/mm²"]},
+        {"id":"mc02","prompt":"普通コンクリートのヤング係数として最も適切な値を選ぶ。","answer":"21,000 N/mm²","choices":["2,100 N/mm²","21,000 N/mm²","210,000 N/mm²","2,100,000 N/mm²"]},
+        {"id":"mc03","prompt":"鋼材の線膨張係数として最も適切な桁を選ぶ。","answer":"1.2×10⁻⁵ /K","choices":["1.2×10⁻³ /K","1.2×10⁻⁴ /K","1.2×10⁻⁵ /K","1.2×10⁻⁶ /K"]},
+        {"id":"mc04","prompt":"コンクリートの線膨張係数として最も適切な桁を選ぶ。","answer":"1.0×10⁻⁵ /K","choices":["1.0×10⁻³ /K","1.0×10⁻⁴ /K","1.0×10⁻⁵ /K","1.0×10⁻⁶ /K"]},
+        {"id":"mc05","prompt":"ガラスの比重として最も適切な値を選ぶ。","answer":"2.5","choices":["0.5","1.5","2.5","3.5"]},
+        {"id":"mc06","prompt":"鋼材の比重として最も適切な値を選ぶ。","answer":"7.8","choices":["0.78","2.4","7.8","15.6"]},
+        {"id":"mc07","prompt":"鉄筋コンクリートのかぶり厚さに関係する目的を選ぶ。","answer":"耐久性の確保","choices":["耐久性の確保","梁せいの低減","スランプの増加","母屋の支持"]},
+        {"id":"mc08","prompt":"既存建物の性能を後から改善する工事を選ぶ。","answer":"レトロフィット","choices":["アスベスト除去","レトロフィット","山留め","焼入れ"]},
+        {"id":"mc09","prompt":"外壁で水は遮りつつ水蒸気を通すシートを選ぶ。","answer":"透湿防水シート","choices":["防湿層","透湿防水シート","ラス","野地板"]},
+        {"id":"mc10","prompt":"締固め不足でコンクリートに粗骨材が露出する欠陥を選ぶ。","answer":"豆板","choices":["ひび割れ","豆板","白華","スカラップ"]},
+        {"id":"mc11","prompt":"金属屋根材を下地へ直接固定する接合方法を選ぶ。","answer":"留め付け","choices":["留め付け","溶接","割裂","ロッキング"]},
+        {"id":"mc12","prompt":"直交積層した板材からなる木質パネルを選ぶ。","answer":"CLT","choices":["LVL","CLT","ALC","CFT"]},
+        {"id":"mc13","prompt":"H形鋼でフランジをつなぐ薄板部分を選ぶ。","answer":"ウェブ","choices":["フランジ","ウェブ","ハンチ","ブラケット"]},
+        {"id":"mc14","prompt":"地下工事で上部躯体を先行して施工する工法を選ぶ。","answer":"逆打ち工法","choices":["順打ち工法","逆打ち工法","場所打ち杭","地盤改良"]},
+        {"id":"mc15","prompt":"鉄筋を腐食から守る、表面から鉄筋までの距離を選ぶ。","answer":"かぶり厚さ","choices":["定着長さ","かぶり厚さ","梁せい","スパン"]},
+        {"id":"mc16","prompt":"薄板を常温で曲げ加工して成形する方法を選ぶ。","answer":"コールドフォーミング","choices":["熱間圧延","コールドフォーミング","焼なまし","焼入れ"]},
+        {"id":"mc17","prompt":"木造耐火設計で燃焼後に残る断面を見込む考え方を選ぶ。","answer":"燃えしろ","choices":["かぶり","燃えしろ","目地","ハンチ"]},
+        {"id":"mc18","prompt":"壁と床の取り合いを保護する見切り材を選ぶ。","answer":"巾木","choices":["まわり縁","巾木","野縁","母屋"]},
+        {"id":"mc19","prompt":"壁と天井の取り合いに設ける見切り材を選ぶ。","answer":"まわり縁","choices":["巾木","まわり縁","胴縁","ラス"]},
+        {"id":"mc20","prompt":"タイル施工で部材の端部を納めるための部品を選ぶ。","answer":"エッジ材","choices":["キーストーン","エッジ材","セパレーター","シース"]}
+      ]
+    },
+    "diagram_label_word_bank": {
+      "status":"production_ready", "prototype":{"source":"2016 専門1 建築構法 Q2", "labelCount":7, "bankSize":7, "reuseAllowed":false}, "asset":{"path":"/past-exams/2016年度_建築専門1+2_公開版_2062812112045744128_b5b799e5a23a.jpg", "status":"source_asset_verified", "description":"Source roof-frame diagram; label identities verified against the answer index."},
+      "items":[{"id":"dl01","prompt":"屋根の最上部で垂木を受ける横架材","answer":"棟木"},{"id":"dl02","prompt":"垂木を中間で支える横架材","answer":"母屋"},{"id":"dl03","prompt":"屋根勾配に沿って野地板を支える材","answer":"垂木"},{"id":"dl04","prompt":"柱頭をつなぎ小屋組を受ける横架材","answer":"桁"},{"id":"dl05","prompt":"柱と横架材の交点を補強する斜材","answer":"方づえ"},{"id":"dl06","prompt":"主要な横架材として荷重を受ける材","answer":"梁"},{"id":"dl07","prompt":"小屋束のうち棟木を支える鉛直材","answer":"真束"}], "wordBank":["棟木","母屋","垂木","桁","方づえ","梁","真束"]
+    },
+    "image_form_matching": {
+      "status":"production_ready", "prototype":{"source":"2020 専門1 建築構法 Q3", "pairCount":10, "answerMode":"architect-to-form matching"}, "assetPolicy":"The visual card is a generator-owned schematic representation of the reviewed structural-form relation, not a copy of the source photograph. Source names and forms are answer-index audited.",
+      "items":[{"id":"im01","prompt":"Buckminster Fuller の構造形式","answer":"テンセグリティ"},{"id":"im02","prompt":"Pier Luigi Nervi のオルヴィエト飛行機格納庫","answer":"シェル"},{"id":"im03","prompt":"Peter Rice の軽量屋根を支える形式","answer":"ケーブルトラス"},{"id":"im04","prompt":"Heinrich Gerber に由来する梁形式","answer":"ゲルバー梁"},{"id":"im05","prompt":"Frei Otto の張力主体の屋根形式","answer":"ケーブルネット"},{"id":"im06","prompt":"Félix Candela の反復する薄肉形式","answer":"傘型シェル"},{"id":"im07","prompt":"Eduardo Torroja のサルスエラ競馬場","answer":"シェル"},{"id":"im08","prompt":"Riccardo Morandi の橋梁形式","answer":"斜張橋"},{"id":"im09","prompt":"Arthur Vierendeel のトラス形式","answer":"フィーレンディールトラス"},{"id":"im10","prompt":"Konrad Wachsmann の立体骨組形式","answer":"スペースフレーム"}], "wordBank":["テンセグリティ","シェル","ケーブルトラス","ゲルバー梁","ケーブルネット","傘型シェル","斜張橋","フィーレンディールトラス","スペースフレーム"]
+    },
+    "diagram_constrained_explanation": {
+      "status":"production_ready_human_review", "prototype":{"source":"2015 専門1 建築構法 Q12/Q13", "responseMode":"annotated line drawing plus concise explanation"}, "reviewMode":"human", "items":[
+        {"id":"ex01","prompt":"層間変形を受けるカーテンウォールの支持詳細を、固定支持・可動支持・クリアランスが分かる単線図で描き、60〜120字で説明せよ。","rubric":["自重を負担する固定支持を示す","層間変形を逃がす長孔又はスライド支持を示す","パネル間又は躯体とのクリアランスを示す","変形追従の理由を説明する"]},
+        {"id":"ex02","prompt":"ガラスと石材を用いる外装で、雨水を室内側へ到達させない断面を単線図で描き、60〜120字で説明せよ。","rubric":["外装材・下地・防水層の順序を示す","排水又は水切りの経路を示す","開口・継目の水密処理を示す","石材又はガラスを安全に支持する方法を説明する"]}
+      ]
+    },
+    "diagram_comparison_explanation": {
+      "status":"production_ready_human_review", "prototype":{"source":"2026 専門1 建築構法 Q3", "responseMode":"paired-term annotated comparison"}, "reviewMode":"human", "items":[
+        {"id":"cp01","terms":["カーテンウォールのロッキング","カーテンウォールのスウェイ"],"rubric":["両者の変形又は支持の違いを描く","相対変位の向きを示す"]},
+        {"id":"cp02","terms":["巾木","まわり縁"],"rubric":["床‐壁と壁‐天井の位置を区別する","各見切り材の納まりを示す"]},
+        {"id":"cp03","terms":["あり継ぎ","かま継ぎ"],"rubric":["木材断面の形状差を示す","抜け止め又は方向性を説明する"]},
+        {"id":"cp04","terms":["ガラスの合わせガラス","ガラスの複層ガラス"],"rubric":["中間膜と中空層を区別する","安全性又は断熱性の差を説明する"]},
+        {"id":"cp05","terms":["タイルのいも目地","タイルの馬目地"],"rubric":["上下目地の揃い方を描く","割付の違いを説明する"]},
+        {"id":"cp06","terms":["山留め壁","切り梁"],"rubric":["土留め面と内部支保工を区別する","掘削時の役割を説明する"]},
+        {"id":"cp07","terms":["本瓦葺き","桟瓦葺き"],"rubric":["瓦の構成又は固定方法を区別する","屋根下地との関係を示す"]},
+        {"id":"cp08","terms":["CLT","集成材"],"rubric":["直交積層と平行集成を区別する","主な断面又は用途の違いを説明する"]}
+      ]
+    }
+  }
+}

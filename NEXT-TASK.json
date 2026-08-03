@@ -1,0 +1,6 @@
+{
+  "updatedAt": "2026-07-18",
+  "taskId": "four-section-release-blueprint-baseline",
+  "scope": "All four section release gates pass against the frozen direct-year blueprints. Keep HR-001/HR-002 as missing-source reconstructions and PL-001 as reconstruction/sampler only; neither changes the released blueprint without a new approved release decision.",
+  "resumeFrom": "Use the four data/*-full-exam-blueprint.json files as the only paper-composition authority. Any future expansion must create a separately evidence-backed blueprint rather than changing released counts opportunistically."
+}

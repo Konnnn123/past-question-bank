@@ -1,0 +1,343 @@
+{
+  "ウルのジッグラト": {
+    "buildingId": "building-65ec8fa96c3e",
+    "learningCardIds": [
+      "style-mesopotamian"
+    ]
+  },
+  "ペルセポリス": {
+    "buildingId": "building-8939ae388132",
+    "learningCardIds": [
+      "style-ancient-persian"
+    ]
+  },
+  "ギザの3大ピラミッド": {
+    "buildingId": "building-76e521d49df9",
+    "learningCardIds": [
+      "style-ancient-egyptian"
+    ]
+  },
+  "パルテノン神殿": {
+    "buildingId": "building-e103164c6ab5",
+    "learningCardIds": [
+      "style-greek"
+    ]
+  },
+  "エレクテイオン": {
+    "buildingId": "building-d3a0925a13d7",
+    "learningCardIds": [
+      "style-greek"
+    ]
+  },
+  "アテネのアクロポリス": {
+    "buildingId": "building-28e43c77fb17",
+    "learningCardIds": [
+      "style-greek"
+    ]
+  },
+  "エピダウロスの劇場": {
+    "buildingId": "building-447bf49194ae",
+    "learningCardIds": [
+      "style-greek"
+    ]
+  },
+  "パンテオン": {
+    "buildingId": "building-6e028baa8a9c",
+    "learningCardIds": [
+      "style-roman"
+    ]
+  },
+  "コロッセウム": {
+    "buildingId": "building-2b0068b43050",
+    "learningCardIds": [
+      "style-roman"
+    ]
+  },
+  "カラカラ浴場": {
+    "buildingId": "building-2704d2af1286",
+    "learningCardIds": [
+      "style-roman"
+    ]
+  },
+  "トラヤヌス帝市場": {
+    "buildingId": "building-8a1a1f2e5ef0",
+    "learningCardIds": [
+      "style-roman"
+    ]
+  },
+  "聖墳墓教会堂": {
+    "buildingId": "building-2893a6b19010",
+    "learningCardIds": [
+      "style-early-christian"
+    ]
+  },
+  "シュパイヤー大聖堂": {
+    "buildingId": "building-81d00608e078",
+    "learningCardIds": [
+      "style-romanesque"
+    ]
+  },
+  "ピサ大聖堂": {
+    "buildingId": "building-debcab541f41",
+    "learningCardIds": [
+      "style-romanesque"
+    ]
+  },
+  "アミアンのノートル＝ダム大聖堂": {
+    "buildingId": "building-13707b7e3bdb",
+    "learningCardIds": [
+      "style-gothic"
+    ]
+  },
+  "ケルン大聖堂": {
+    "buildingId": "building-bc5e47ef4b62",
+    "learningCardIds": [
+      "style-gothic"
+    ]
+  },
+  "ミラノ大聖堂": {
+    "buildingId": "building-83d00fdd1e3a",
+    "learningCardIds": [
+      "style-gothic"
+    ]
+  },
+  "ソールズベリ大聖堂": {
+    "buildingId": "building-7160b9195147",
+    "learningCardIds": [
+      "style-gothic"
+    ]
+  },
+  "ウルム大聖堂": {
+    "buildingId": "building-dfbf951bc2a6",
+    "learningCardIds": [
+      "style-gothic"
+    ]
+  },
+  "ウィーンのシュテファン大聖堂": {
+    "buildingId": "building-0f5144d82ae7",
+    "learningCardIds": [
+      "style-gothic"
+    ]
+  },
+  "ピエルフォン城": {
+    "buildingId": "building-c374f5b9ad62",
+    "learningCardIds": [
+      "style-gothic"
+    ]
+  },
+  "テンピエット": {
+    "buildingId": "building-ba42283edcef",
+    "learningCardIds": [
+      "style-renaissance"
+    ]
+  },
+  "ファグス靴工場": {
+    "buildingId": "building-e005da0846ca",
+    "learningCardIds": [
+      "architect-walter-gropius"
+    ]
+  },
+  "バウハウス校舎": {
+    "buildingId": "building-e77b587cf8db",
+    "learningCardIds": [
+      "architect-walter-gropius",
+      "movement-modernism"
+    ]
+  },
+  "サヴォア邸": {
+    "buildingId": "building-8b870f1608b2",
+    "learningCardIds": [
+      "architect-le-corbusier",
+      "movement-modernism"
+    ]
+  },
+  "落水荘": {
+    "buildingId": "building-d788e3555873",
+    "learningCardIds": [
+      "architect-frank-lloyd-wright"
+    ]
+  },
+  "リチャーズ医学研究所": {
+    "buildingId": "building-b20352982a51",
+    "learningCardIds": [
+      "architect-louis-kahn",
+      "movement-modernism"
+    ]
+  },
+  "シドニーオペラハウス": {
+    "buildingId": "building-ae45db9b5282",
+    "learningCardIds": [
+      "style-structural-expressionism"
+    ]
+  },
+  "グッゲンハイム美術館": {
+    "buildingId": "building-9b933083f1e3",
+    "learningCardIds": [
+      "architect-frank-lloyd-wright",
+      "movement-modernism"
+    ]
+  },
+  "ジョンソン・ワックス本社": {
+    "buildingId": "building-047bc7812a81",
+    "learningCardIds": [
+      "architect-frank-lloyd-wright",
+      "movement-modernism"
+    ]
+  },
+  "クライスラー・ビル": {
+    "buildingId": "building-68669d3b1704",
+    "learningCardIds": [
+      "style-art-deco"
+    ]
+  },
+  "テート・モダン": {
+    "buildingId": "building-7d68f935b2b0",
+    "learningCardIds": [
+      "style-postmodern"
+    ]
+  },
+  "ポンピドゥーセンター": {
+    "buildingId": "building-0b0fbab86d30",
+    "learningCardIds": [
+      "style-high-tech"
+    ]
+  },
+  "フランス国立図書館": {
+    "buildingId": "building-1a84c81136b0",
+    "learningCardIds": [
+      "style-historicism",
+      "style-postmodern"
+    ]
+  },
+  "法隆寺金堂&五重塔": {
+    "buildingId": "building-4a300426c168",
+    "learningCardIds": [
+      "style-wayo"
+    ]
+  },
+  "薬師寺東塔": {
+    "buildingId": "building-8837236fe047",
+    "learningCardIds": [
+      "style-hakuho"
+    ]
+  },
+  "飛鳥寺": {
+    "buildingId": "building-e9d903f58f2c",
+    "learningCardIds": [
+      "style-asuka"
+    ]
+  },
+  "四天王寺": {
+    "buildingId": "building-e46b3040221f",
+    "learningCardIds": [
+      "style-wayo"
+    ]
+  },
+  "唐招提寺金堂": {
+    "buildingId": "building-aa2b036d9ced",
+    "learningCardIds": [
+      "style-wayo"
+    ]
+  },
+  "長弓寺本堂": {
+    "buildingId": "building-5b0f2abb6fd1",
+    "learningCardIds": [
+      "style-wayo"
+    ]
+  },
+  "円覚寺舎利殿": {
+    "buildingId": "building-62de22f13d90",
+    "learningCardIds": [
+      "style-zenshuyo"
+    ]
+  },
+  "慈照寺東求堂（同仁斎）": {
+    "buildingId": "building-7da3f3b68c2e",
+    "learningCardIds": [
+      "style-shoin"
+    ]
+  },
+  "二条城二の丸御殿": {
+    "buildingId": "building-f190251f082a",
+    "learningCardIds": [
+      "style-shoin"
+    ]
+  },
+  "日光東照宮": {
+    "buildingId": "building-f78ab4f94be1",
+    "learningCardIds": [
+      "style-gongen"
+    ]
+  },
+  "東京駅": {
+    "buildingId": "building-cdd8ab01e640",
+    "learningCardIds": [
+      "architect-kingo-tatsuno"
+    ]
+  },
+  "東京帝国ホテル": {
+    "buildingId": "building-d6e67c9cd2e7",
+    "learningCardIds": [
+      "architect-frank-lloyd-wright"
+    ]
+  },
+  "大阪市中央公会堂": {
+    "buildingId": "building-a41a59e109de",
+    "learningCardIds": [
+      "style-historicism"
+    ]
+  },
+  "同潤会アパート": {
+    "buildingId": "building-58e99c003436",
+    "learningCardIds": [
+      "movement-modernism"
+    ]
+  },
+  "東京中央電信局": {
+    "buildingId": "building-e0c362fd2907",
+    "learningCardIds": [
+      "architect-mamoru-yamada",
+      "style-expressionism"
+    ]
+  },
+  "大浦天主堂": {
+    "buildingId": "building-52162f7e99ee",
+    "learningCardIds": [
+      "style-historicism"
+    ]
+  },
+  "中銀カプセルタワービル": {
+    "buildingId": "building-ab6876cdf5f3",
+    "learningCardIds": [
+      "architect-kisho-kurokawa",
+      "movement-metabolism"
+    ]
+  },
+  "住吉の長屋": {
+    "buildingId": "building-24e6845bdc15",
+    "learningCardIds": [
+      "architect-tadao-ando",
+      "movement-modernism"
+    ]
+  },
+  "ラウレンツィアーナ図書館": { "buildingId": "building-exam-39a8f4cbeee6", "learningCardIds": ["architect-michelangelo", "style-mannerism"] },
+  "浄土寺浄土堂": { "buildingId": "building-13b897c12c40", "learningCardIds": ["style-daibutsuyo"] },
+  "オックスフォード大学自然史博物館": { "buildingId": "building-exam-9659021fd22d", "learningCardIds": ["style-historicism"] },
+  "日向別邸": { "buildingId": "building-exam-cce753cde4c1", "learningCardIds": ["movement-modernism"] },
+  "曼殊院小書院": { "buildingId": "building-85cca9615eba", "learningCardIds": ["style-sukiya"] },
+  "宇治上神社本殿": { "buildingId": "building-40cbd0ebfdee", "learningCardIds": ["style-nagare"] },
+  "丸善書店": { "buildingId": "building-exam-2013-maruzen", "learningCardIds": [] },
+  "如庵": { "buildingId": "building-9716abff0e95", "learningCardIds": ["style-sukiya"] },
+  "不動院金堂": { "buildingId": "building-752f9a856be3", "learningCardIds": ["style-zenshuyo"] },
+  "大報恩寺本堂": { "buildingId": "building-95ced25318a0", "learningCardIds": ["style-wayo"] },
+  "サンティーヴォ・アッラ・サピエンツァ聖堂": { "buildingId": "building-exam-12f0efbc7307", "learningCardIds": ["architect-francesco-borromini", "style-baroque"] },
+  "聴竹居": { "buildingId": "building-exam-2013-chikuchikukyo", "learningCardIds": ["architect-koji-fujii"] },
+  "リヴァプール大聖堂": { "buildingId": "building-exam-79ca0d98058b", "learningCardIds": ["style-historicism"] },
+  "サンタ・マリア・ノヴェッラ教会": { "buildingId": "building-core-santa-maria-novella", "learningCardIds": ["style-renaissance"] },
+  "アーヘン宮廷礼拝堂": { "buildingId": "building-exam-5308ab6b084d", "learningCardIds": ["style-carolingian"] },
+  "室生寺金堂": { "buildingId": "building-50b4a1f5a92c", "learningCardIds": ["style-wayo"] },
+  "マジョリカ・ハウス": { "buildingId": "building-exam-2013-majolica-house", "learningCardIds": ["architect-otto-wagner"] },
+  "サン＝ジャン＝ド＝モンマルトル教会": { "buildingId": "building-exam-2013-saint-jean-montmartre", "learningCardIds": ["style-gothic"] },
+  "ハギア・ソフィア大聖堂": { "buildingId": "building-ad7b5b62435c", "learningCardIds": ["style-byzantine"] },
+  "サント＝シャペル": { "buildingId": "building-exam-2013-sainte-chapelle", "learningCardIds": ["style-gothic"] }
+}

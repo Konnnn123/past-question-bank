@@ -1,0 +1,423 @@
+{
+  "version": 1,
+  "cards": [
+    {
+      "id": "past-exam-gap-東三条殿",
+      "entityKind": "building",
+      "name": {
+        "ja": "東三条殿",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 3,
+      "examFileCount": 3,
+      "examFiles": [
+        "2014_専門1_建筑史_Q5.md",
+        "2016_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-アダプティブ・リユース",
+      "entityKind": "theory-or-institution",
+      "name": {
+        "ja": "アダプティブ・リユース",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 1,
+      "examFiles": [
+        "2020_専門2-2_建筑史_Q5.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-アミアン大聖堂",
+      "entityKind": "building",
+      "name": {
+        "ja": "アミアン大聖堂",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 2,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-アヤ・ソフィア",
+      "entityKind": "building",
+      "name": {
+        "ja": "アヤ・ソフィア",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 2,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2020_専門1_建筑史_Q5.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-アンコール・ワット",
+      "entityKind": "building",
+      "name": {
+        "ja": "アンコール・ワット",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 2,
+      "examFiles": [
+        "2015_専門1_建筑史_Q3.md",
+        "2024_専門1_建筑史_Q5.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-オーセンティシティ",
+      "entityKind": "theory-or-institution",
+      "name": {
+        "ja": "オーセンティシティ",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 1,
+      "examFiles": [
+        "2016_専門2-2_建筑史_Q10.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-カサ・ミラ",
+      "entityKind": "building",
+      "name": {
+        "ja": "カサ・ミラ",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 2,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-サント＝ジュヌヴィエーヴ",
+      "entityKind": "building",
+      "name": {
+        "ja": "サント＝ジュヌヴィエーヴ",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 2,
+      "examFiles": [
+        "2013_専門1_建筑史_Q5.md",
+        "2018_専門1_建筑史_Q5.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-シャルトル大聖堂",
+      "entityKind": "building",
+      "name": {
+        "ja": "シャルトル大聖堂",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 2,
+      "examFiles": [
+        "2020_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-ジョン・ソーン",
+      "entityKind": "person",
+      "name": {
+        "ja": "ジョン・ソーン",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 2,
+      "examFiles": [
+        "2016_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-ビザンチン",
+      "entityKind": "style-or-movement",
+      "name": {
+        "ja": "ビザンチン",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2025_専門1_建筑史_Q5.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-フランス王立図書館",
+      "entityKind": "building",
+      "name": {
+        "ja": "フランス王立図書館",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 2,
+      "examFiles": [
+        "2018_専門1_建筑史_Q5.md",
+        "2019_専門1_建筑史_Q5.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-ローマン・コンクリート",
+      "entityKind": "theory-or-institution",
+      "name": {
+        "ja": "ローマン・コンクリート",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 1,
+      "examFiles": [
+        "2014_専門2-2_建筑史_Q11.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-保存修復",
+      "entityKind": "theory-or-institution",
+      "name": {
+        "ja": "保存修復",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 2,
+      "examFiles": [
+        "2015_専門1_建筑史_Q7.md",
+        "2015_専門1_建筑史_Q8.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    },
+    {
+      "id": "past-exam-gap-吉島家住宅",
+      "entityKind": "building",
+      "name": {
+        "ja": "吉島家住宅",
+        "zh": ""
+      },
+      "examFrequencyLowerBound": 2,
+      "examFileCount": 2,
+      "examFiles": [
+        "2019_専門1_建筑史_Q5.md",
+        "2026_専門1_建筑史_Q5.md"
+      ],
+      "typeIds": [],
+      "styleIds": [],
+      "movementIds": [],
+      "relatedPersonIds": [],
+      "imageIds": [],
+      "summary": {
+        "ja": "",
+        "zh": ""
+      },
+      "reviewStatus": "needs-review",
+      "qualityFlags": [
+        "past-exam-gap",
+        "stub-only-no-generated-facts"
+      ]
+    }
+  ]
+}

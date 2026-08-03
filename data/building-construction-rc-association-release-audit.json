@@ -1,0 +1,16 @@
+{
+  "id": "building-construction-rc-association-release-audit-v1",
+  "target": "generated-building-construction-rc-association-v1",
+  "auditType": "source, structure, scope, and editorial release audit",
+  "results": {
+    "prototypeRegression": {"status":"pass","evidence":"10 prompts, 10 bank terms, zero surplus terms, and no reuse match the 2017 prototype."},
+    "factProvenance": {"status":"pass","evidence":"Each of the ten items points to one reviewed RC fact and one reviewed projection."},
+    "domainBoundary": {"status":"pass","evidence":"All answers are RC-construction technical terms; no structural mechanics, timber, or facade fact is used."},
+    "answerUniqueness": {"status":"pass","evidence":"All ten answers are distinct and each occurs once in the bank."},
+    "sourceReuse": {"status":"pass","evidence":"No source sentence is copied; all ten prompts carry a distinct applied context."},
+    "japaneseEditorial": {"status":"pass","evidence":"The temperature-compatibility, tensile-side, cover-thickness, placement-defect, and formwork contexts were reviewed for unambiguous Japanese wording."},
+    "uiRule": {"status":"pass","evidence":"The page clears a prior selection when the same bank term is selected for another blank, enforcing one-to-one use."}
+  },
+  "decision": "production_ready",
+  "checkedItemCount": 10
+}
