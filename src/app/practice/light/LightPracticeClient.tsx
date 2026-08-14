@@ -57,6 +57,17 @@ function sample<T>(items: T[], amount: number) {
   return shuffled.slice(0, amount);
 }
 
+function optionLabel(index: number) {
+  let value = index + 1;
+  let label = "";
+  while (value > 0) {
+    value -= 1;
+    label = String.fromCharCode(65 + (value % 26)) + label;
+    value = Math.floor(value / 26);
+  }
+  return label;
+}
+
 export default function LightPracticeClient({ questions }: { questions: LightPracticeQuestion[] }) {
   const [subject, setSubject] = useState<(typeof subjects)[number]["value"]>("建筑史");
   const [amount, setAmount] = useState<(typeof amounts)[number]>(3);
@@ -229,7 +240,7 @@ export default function LightPracticeClient({ questions }: { questions: LightPra
 
         {/* Interactive options */}
         {isInteractive && !revealed && (
-          <div className="mt-5 space-y-2">
+          <div className={`mt-5 grid gap-2 ${current.options!.length > 8 ? "sm:grid-cols-2" : ""}`}>
             {current.options!.map((opt, oi) => (
               <button key={oi} onClick={() => handleOptionClick(oi)}
                 className={`w-full rounded-xl border px-4 py-3 text-left text-sm transition ${
@@ -237,7 +248,7 @@ export default function LightPracticeClient({ questions }: { questions: LightPra
                     ? "border-violet-500 bg-violet-50 ring-2 ring-violet-200 font-medium"
                     : "border-slate-200 hover:border-violet-200"
                 }`}>
-                <span className="mr-2 font-bold text-violet-600">{String.fromCharCode(65 + oi)}.</span>
+                <span className="mr-2 font-bold text-violet-600">{optionLabel(oi)}.</span>
                 {opt.replace(/^[A-D][.．]\s*/, "")}
               </button>
             ))}

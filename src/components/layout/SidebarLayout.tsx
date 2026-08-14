@@ -31,9 +31,11 @@ interface SidebarLayoutProps {
   slot?: ReactNode;
   /** 页面主体内容 */
   children: ReactNode;
+  /** このページだけ共通ナビゲーションを日本語表示にする */
+  language?: "default" | "ja";
 }
 
-export default function SidebarLayout({ slot, children }: SidebarLayoutProps) {
+export default function SidebarLayout({ slot, children, language = "default" }: SidebarLayoutProps) {
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
   return (
@@ -48,7 +50,7 @@ export default function SidebarLayout({ slot, children }: SidebarLayoutProps) {
           {/* ---- 上半部：全局导航（固定在顶部，不滚动） ---- */}
           <div className="shrink-0 p-4 pb-0 min-w-0">
             <div className="flex items-center justify-between mb-3">
-              <h2 className="text-sm font-bold text-gray-900">建筑考试学习中心</h2>
+              <h2 className="text-sm font-bold text-gray-900">{language === "ja" ? "建築試験学習センター" : "建筑考试学习中心"}</h2>
               <button
                 onClick={() => setSidebarOpen(false)}
                 className="text-gray-400 hover:text-gray-600 text-xs"
@@ -57,7 +59,7 @@ export default function SidebarLayout({ slot, children }: SidebarLayoutProps) {
                 ✕
               </button>
             </div>
-            <GlobalNav />
+            <GlobalNav language={language} />
           </div>
 
           {/* ---- 分隔线 ---- */}
@@ -83,7 +85,7 @@ export default function SidebarLayout({ slot, children }: SidebarLayoutProps) {
 
       {/* ====== 主内容区 ====== */}
       <main className="flex-1 min-w-0 h-screen overflow-y-auto">
-        <ExploreLanguageSwitch />
+        {language !== "ja" && <ExploreLanguageSwitch />}
         {children}
       </main>
     </div>

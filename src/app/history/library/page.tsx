@@ -5,6 +5,7 @@ import { HISTORY_LEARNING_CARDS } from "@/lib/history-learning-cards";
 import { getBuildingChronology } from "@/lib/japanese-building-chronology";
 import { getOriginalLanguageTerm } from "@/lib/original-language-terms";
 import HistoryLibraryClient, {
+  type HistoryAssociation,
   type HistoryLibraryItem,
   type HistoryQuizBuilding,
   type LibraryCopy,
@@ -43,6 +44,35 @@ function copy(value: RuntimeLocalized, context: string): LibraryCopy {
   return { ja: value.ja, zh: value.zh, en: value.en };
 }
 
+function fallbackCopy(value: string): LibraryCopy {
+  return { ja: value, zh: value, en: getOriginalLanguageTerm(value)?.original ?? value };
+}
+
+function historyAssociations(cardIds: string[], styles: string[]): HistoryAssociation[] {
+  const associations: HistoryAssociation[] = [];
+  for (const id of cardIds) {
+    const card = HISTORY_LEARNING_CARDS.find((candidate) => candidate.id === id);
+    if (!card) continue;
+    if (card.kind === "architect" || card.kind === "style" || card.kind === "movement") {
+      associations.push({ kind: card.kind, label: copy(card.name as RuntimeLocalized, `${card.id}.name`) });
+    }
+    // Past-exam word banks use atomic terms such as 花頭窓 or フライング・バットレス.
+    // Every curated keyword is eligible; the batch seed chooses among them at runtime.
+    for (const [keywordIndex, keyword] of card.keywords.entries()) {
+      const localizedKeyword = keyword as RuntimeLocalized;
+      if (localizedKeyword.en?.trim()) associations.push({ kind: "feature", label: copy(localizedKeyword, `${card.id}.keyword.${keywordIndex}`) });
+    }
+  }
+  for (const style of styles) associations.push({ kind: "style", label: fallbackCopy(style) });
+  const seen = new Set<string>();
+  return associations.filter((association) => {
+    const key = `${association.kind}:${association.label.ja.normalize("NFKC").trim().toLocaleLowerCase()}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 function validImageFile(imageMap: Record<string, { imageFiles?: string[] }>, buildingId: string) {
   const file = imageMap[buildingId]?.imageFiles?.[0];
   if (!file) return null;
@@ -69,14 +99,15 @@ export default function HistoryLibraryPage() {
       ?? building.buildingNameJa;
   };
 
-  const approximateYear = (period: string) => {
-    const exact = period.match(/(?:紀元前|前)?\s*(\d{3,4})年/);
-    if (exact) return period.includes("紀元前") || period.startsWith("前") ? -Number(exact[1]) : Number(exact[1]);
-    const century = period.match(/(\d{1,2})世紀/);
+  const approximateYear = (period: string, chronology?: string | null) => {
+    const dating = chronology || period;
+    const exact = dating.match(/(?:紀元前|前)?\s*(\d{3,4})年/);
+    if (exact) return dating.includes("紀元前") || dating.startsWith("前") ? -Number(exact[1]) : Number(exact[1]);
+    const century = dating.match(/(\d{1,2})世紀/);
     if (century) {
       const value = Number(century[1]);
-      if (period.includes("紀元前")) return -(value * 100 - 50);
-      const offset = period.includes("初頭") ? 10 : period.includes("前半") ? 25 : period.includes("後半") ? 75 : period.includes("末") ? 90 : 50;
+      if (dating.includes("紀元前")) return -(value * 100 - 50);
+      const offset = dating.includes("初頭") ? 10 : dating.includes("前半") ? 25 : dating.includes("後半") ? 75 : dating.includes("末") ? 90 : 50;
       return (value - 1) * 100 + offset;
     }
     const eras: [string, number][] = [
@@ -103,6 +134,8 @@ export default function HistoryLibraryPage() {
           ?? canonicalJa;
     const chronologyJa = getBuildingChronology(building, "ja");
     const chronologyZh = getBuildingChronology(building, "zh");
+    const people = building.normalizedPersonNames?.filter((value) => value !== "要確認") ?? [];
+    const styles = building.normalizedStyleNames?.filter((value) => value !== "要確認") ?? [];
     const relatedCards = (link?.learningCardIds ?? []).flatMap((id) => {
       const card = HISTORY_LEARNING_CARDS.find((candidate) => candidate.id === id);
       return card ? [{ id: card.id, name: copy(card.name as RuntimeLocalized, `${card.id}.name`) }] : [];
@@ -115,12 +148,13 @@ export default function HistoryLibraryPage() {
       chronology: chronologyJa && chronologyZh ? { ja: chronologyJa, zh: chronologyZh, en: chronologyJa.replace("時代範囲：", "Era range: ") } : null,
       regions: building.regions,
       typeIds: building.typeIds,
-      styles: building.normalizedStyleNames?.filter((value) => value !== "要確認") ?? [],
-      people: building.normalizedPersonNames?.filter((value) => value !== "要確認") ?? [],
-      sortYear: approximateYear(building.period.ja),
+      styles,
+      people,
+      sortYear: approximateYear(building.period.ja, chronologyJa),
       examCount: building.examEvidence.length,
       priority: building.priorityLevel ?? "normal",
       relatedCards,
+      associations: historyAssociations(link?.learningCardIds ?? [], styles),
       image: imageFile ? { file: imageFile } : null,
       href: `/history/buildings/${building.id}`,
     };
@@ -143,7 +177,7 @@ export default function HistoryLibraryPage() {
       imageFile,
       period: { ja: entity.period.ja, zh: entity.period.zh || entity.period.ja, en: entity.period.ja },
       chronology: chronologyJa && chronologyZh ? { ja: chronologyJa, zh: chronologyZh, en: chronologyJa.replace("時代範囲：", "Era range: ") } : null,
-      sortYear: approximateYear(entity.period.ja),
+      sortYear: approximateYear(entity.period.ja, chronologyJa),
       architects: entity.normalizedPersonNames?.filter((value) => value !== "要確認") ?? [],
       regions: entity.regions,
       relatedCards,

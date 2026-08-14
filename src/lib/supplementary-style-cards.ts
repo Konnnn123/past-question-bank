@@ -74,6 +74,14 @@ const ENGLISH_BY_ID:Record<string,EnglishSupplementaryStyle>={
     spatialFeatures:["Legible axes, streets, plazas, and room-like sequences restore hierarchy, context, and multiple readings to modern programs"],
     visualClues:["Articulated masses, ornamental facades, emphasized entrances, and quotations with multiple meanings"],
   },
+  "style-organic-architecture":{
+    name:"Organic Architecture",period:"First half of the 20th century",
+    summary:"An architectural approach that integrates building, site, materials, structure, and human life as one continuous whole.",
+    formationBackground:"Frank Lloyd Wright developed the idea against architecture treated as an applied style or an isolated object, extending lessons from the Prairie House into later works.",
+    structuralFeatures:["Local stone and modern concrete or steel are composed so structure grows from the conditions of the site", "Cantilevers, central masonry cores, and integrated built-in elements unify construction and space"],
+    spatialFeatures:["Continuous interiors extend toward terraces, landscape, water, and light instead of ending at a sealed exterior wall"],
+    visualClues:["Strong horizontal projections, a grounded stone core, continuous inside-outside space, and geometry responding to the site"],
+  },
 };
 const c=(id:string,ja:string,zh:string,pja:string,pzh:string,s:[string,string],b:[string,string],structure:[string,string][],space:[string,string][],v:[string,string][],prev:string[],next:string[]):StyleLearningCard=>({id,kind:"style",name:l(ja,zh,ENGLISH_BY_ID[id]?.name),aliases:[],period:l(pja,pzh,ENGLISH_BY_ID[id]?.period),regions:["western","global"],summary:l(s[0],s[1],ENGLISH_BY_ID[id]?.summary),formationBackground:l(b[0],b[1],ENGLISH_BY_ID[id]?.formationBackground),structuralFeatures:structure.map((x,index)=>l(x[0],x[1],ENGLISH_BY_ID[id]?.structuralFeatures[index])),spatialFeatures:space.map((x,index)=>l(x[0],x[1],ENGLISH_BY_ID[id]?.spatialFeatures[index])),visualClues:v.map((x,index)=>l(x[0],x[1],ENGLISH_BY_ID[id]?.visualClues[index])),keywords:[],relatedBuildingIds:[],relatedPersonIds:[],relatedCardIds:[...prev,...next],comparisonCardIds:[...prev,...next],predecessorCardIds:prev,successorCardIds:next,examEvidence:[],reviewStatus:"draft"});
 export const SUPPLEMENTARY_STYLE_CARDS:StyleLearningCard[]=[
@@ -86,4 +94,14 @@ c("style-expressionism","表現主義建築","表现主义建筑","1910〜1920�
 c("style-international","インターナショナル・スタイル","国际主义风格","1920〜1960年代","20世纪20至60年代",["ヴォリューム、規則的グリッド、ガラスの外皮、装飾排除によって構成された国際的近代建築言語。","由体量、规则网格、玻璃表皮和无装饰构成的国际现代建筑语言。"],["近代建築が展覧会・出版・企業活動・戦後建設を通じて世界的に普及した。","现代主义经展览、出版、企业与战后建设全球传播。"],[["独立した構造骨組み、自由な平面計画、軽量なカーテンウォール。","独立结构框架、自由平面与轻质幕墙。"]],[["開放的で可変な内部、機能別ゾーニング、内外の視覚的連続によって耐力壁に囲まれた室を置き換える。","以开放灵活的内部、功能分区和内外视觉连续取代承重墙围合房间。"]],[["直方体のヴォリューム、連続水平窓、ガラス・カーテンウォールと装飾の排除。","矩形体量、水平窗、玻璃幕墙和少装饰。"]],["movement-modernism","movement-bauhaus"],["style-high-tech","movement-postmodernism"]),
 c("style-high-tech","ハイテク建築","高技派建筑","1960年代後半以降","20世纪60年代后半以后",["構造・設備・生産・保守の諸システムを外部に露出させ、それ自体を建築的表現へと転化した技術志向の建築。","外露结构、设备、生产与维护系统并将其转化为建筑表达。"],["戦後の工学技術の進歩、プレファブリケーション（工業化生産）と、閉鎖的モダニズムの箱への批判を背景とする。","战后工程技术、预制化和对封闭现代主义盒子的反思。"],[["大スパン構造、工業化された接合部、設備の外部化。","大跨度结构、预制节点与外置设备。"]],[["設備・コア・動線を周縁へ押し出し、内部に大きく開放された可変性の高い床を確保する。","把设备、核心筒与交通推向外围，在内部保留大面积开放且高度可变的楼面。"]],[["露出した配管・ダクト、軽量な鉄骨フレーム、可変性のある内部空間。","外露管线、轻质骨架与可变内部。"]],["style-international","movement-constructivism"],["contemporary-technology-architecture"]),
 c("style-postmodern","ポストモダン建築","后现代建筑","1960年代後半〜1990年代","20世纪60年代后半至90年代",["近代主義の単一的な造形言語を批判し、歴史的引用、記号、文脈、多義性を建築表現へ戻した傾向。","批判现代主义单一造型语言，把历史引用、符号、语境与多义性重新带入建筑表达。"],["画一化した国際様式と大規模都市更新への批判、歴史的環境と大衆文化の再評価を背景とする。","源于对趋同国际风格和大规模都市更新的批评，以及对历史环境与大众文化的重新评价。"],[["近代的な構造に歴史的形態や記号的要素を意図的に重ねる。","在现代结构上有意识地叠加历史形态与符号要素。"]],[["明快な軸線、街路・広場・部屋のような空間序列によって、近代的用途に階層性・文脈・多義性を戻す。","以清晰轴线以及街道、广场、房间式空间序列，为现代功能恢复层级、语境和多义性。"]],[["分節された量塊、装飾的ファサード、強調された入口、複数の意味をもつ引用。","分节体量、装饰性立面、强调入口及具有多重意义的引用。"]],["movement-modernism"],["movement-postmodernism"]),
+{
+  ...c("style-organic-architecture","有機的建築","有机建筑","20世紀前半","20世纪前半",["建築を敷地・材料・構造・人間の生活と連続する一つの全体として構成する建築思想。","把建筑与场地、材料、结构及人的生活组织为连续整体的建筑思想。"],["フランク・ロイド・ライトが、建築を外から貼り付ける様式や敷地から孤立した物体として扱う考えに対し、プレーリー住宅から後期作品まで発展させた。","弗兰克·劳埃德·赖特反对把建筑视为外加样式或脱离场地的物体，并从草原住宅到晚期作品持续发展这一思想。"],[["地域の石材と鉄筋コンクリート・鉄骨を、敷地条件から成長するように統合する。","将地方石材与钢筋混凝土、钢结构按场地条件整合。"],["片持ち床、石造コア、造付家具を構造と空間の一体として扱う。","把悬挑楼板、石砌核心和固定家具作为结构与空间的整体。"]],[["連続する内部空間をテラス、地形、水、光へ伸ばし、内外を分断しない。","让连续室内空间延伸至露台、地形、水体与光线，避免割裂内外。"]],[["強い水平の張出し、地面に根差す石造コア、連続する内外空間、敷地に応答する幾何学。","强烈水平悬挑、扎根地面的石砌核心、连续内外空间和回应场地的几何构成。"]],["movement-arts-crafts","movement-modernism"],["movement-critical-regionalism"]),
+  aliases:["オーガニック建築","Organic Architecture"],
+  relatedBuildingIds:["building-d788e3555873","building-047bc7812a81","building-9b933083f1e3","building-d6e67c9cd2e7","building-a52ed69b1219"],
+  relatedPersonIds:["architect-frank-lloyd-wright"],
+  examEvidence:[
+    {year:2019,category:"専門2-2",questionNumber:"1",fileName:"2019_専門2-2_建筑计划_Q1.md",relation:"direct"},
+    {year:2022,category:"専門2-2",questionNumber:"1",fileName:"2022_専門2-2_建筑史_Q1.md",relation:"related"},
+  ],
+},
 ];

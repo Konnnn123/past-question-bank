@@ -927,6 +927,11 @@
       "sourceFile": "history-gap-cards.ts"
     },
     {
+      "cardId": "style-organic-architecture",
+      "nameJa": "有機的建築",
+      "sourceFile": "supplementary-style-cards.ts"
+    },
+    {
       "cardId": "style-postmodern",
       "nameJa": "ポストモダン建築",
       "sourceFile": "supplementary-style-cards.ts"

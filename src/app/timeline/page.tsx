@@ -24,6 +24,7 @@ const TIMELINE_BUILDING_NAME_OVERRIDES: Record<string, string> = {
 };
 
 const TIMELINE_BUILDING_ENGLISH_NAME_OVERRIDES: Record<string, string> = {
+  "building-81d00608e078": "Speyer Cathedral",
   "building-supplemental-higashi-sanjo-dono": "Higashi Sanjō Palace",
   "building-f13903fd9d85": "Kalenderhane Mosque",
   "building-e66d6c36d41d": "Sōfuku-ji Sanmon Gate",

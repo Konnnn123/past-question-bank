@@ -127,7 +127,8 @@ export function buildLightPracticeQuestions(
       result.push(unit({
         id: `light:construction:${practiceItem.id}`, subject: "建筑构法", year: question.year, category: question.category,
         label: practiceItem.id.includes(":part-") ? `小問 ${practiceItem.id.split(":part-").at(-1)}` : item.itemId.slice(item.itemId.lastIndexOf("#") + 1).toUpperCase(),
-        prompt: practiceItem.prompt, answer: practiceItem.answer, sourceQuestionId: question.id,
+        prompt: practiceItem.prompt, answer: practiceItem.answer, options: practiceItem.options,
+        correctIndex: practiceItem.correctIndex, sourceQuestionId: question.id,
       }));
     }
   }

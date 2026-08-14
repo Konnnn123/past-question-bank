@@ -4736,12 +4736,15 @@
       "buildingNameJa": "グーリー自邸",
       "learningCardIds": [
         "architect-frank-gehry",
-        "style-postmodern"
+        "style-postmodern",
+        "movement-postmodernism"
       ],
       "styleIds": [
         "style-postmodern"
       ],
-      "movementIds": [],
+      "movementIds": [
+        "movement-postmodernism"
+      ],
       "architectCardIds": [
         "architect-frank-gehry"
       ],
@@ -4755,12 +4758,15 @@
       "buildingNameJa": "つくばセンタービル",
       "learningCardIds": [
         "architect-audit-42",
-        "style-postmodern"
+        "style-postmodern",
+        "movement-postmodernism"
       ],
       "styleIds": [
         "style-postmodern"
       ],
-      "movementIds": [],
+      "movementIds": [
+        "movement-postmodernism"
+      ],
       "architectCardIds": [
         "architect-audit-42"
       ],
@@ -5353,9 +5359,12 @@
       "buildingId": "building-d6e67c9cd2e7",
       "buildingNameJa": "東京帝国ホテル",
       "learningCardIds": [
-        "architect-frank-lloyd-wright"
+        "architect-frank-lloyd-wright",
+        "style-organic-architecture"
       ],
-      "styleIds": [],
+      "styleIds": [
+        "style-organic-architecture"
+      ],
       "movementIds": [],
       "architectCardIds": [
         "architect-frank-lloyd-wright"
@@ -6212,9 +6221,12 @@
       "buildingId": "building-d788e3555873",
       "buildingNameJa": "落水荘・カウフマン邸",
       "learningCardIds": [
-        "architect-frank-lloyd-wright"
+        "architect-frank-lloyd-wright",
+        "style-organic-architecture"
       ],
-      "styleIds": [],
+      "styleIds": [
+        "style-organic-architecture"
+      ],
       "movementIds": [],
       "architectCardIds": [
         "architect-frank-lloyd-wright"
@@ -6222,16 +6234,30 @@
       "imageIds": [
         "building-anki-1783835496689-image-0"
       ],
-      "examEvidence": []
+      "examEvidence": [
+        {
+          "year": 2022,
+          "category": "専門2-2",
+          "questionNumber": "1",
+          "fileName": "2022_専門2-2_建筑史_Q1.md",
+          "relation": "direct",
+          "matchedAlias": "落水荘",
+          "originalText": "落水荘（カウフマン邸）",
+          "confidence": "confirmed"
+        }
+      ]
     },
     {
       "buildingId": "building-047bc7812a81",
       "buildingNameJa": "ジョンソン・ワックス本社",
       "learningCardIds": [
         "architect-frank-lloyd-wright",
-        "movement-modernism"
+        "movement-modernism",
+        "style-organic-architecture"
       ],
-      "styleIds": [],
+      "styleIds": [
+        "style-organic-architecture"
+      ],
       "movementIds": [
         "movement-modernism"
       ],
@@ -6249,9 +6275,12 @@
       "buildingNameJa": "グッゲンハイム美術館",
       "learningCardIds": [
         "architect-frank-lloyd-wright",
-        "movement-modernism"
+        "movement-modernism",
+        "style-organic-architecture"
       ],
-      "styleIds": [],
+      "styleIds": [
+        "style-organic-architecture"
+      ],
       "movementIds": [
         "movement-modernism"
       ],
@@ -6287,9 +6316,12 @@
       "buildingId": "building-a52ed69b1219",
       "buildingNameJa": "ロビー邸 Robie House",
       "learningCardIds": [
-        "architect-frank-lloyd-wright"
+        "architect-frank-lloyd-wright",
+        "style-organic-architecture"
       ],
-      "styleIds": [],
+      "styleIds": [
+        "style-organic-architecture"
+      ],
       "movementIds": [],
       "architectCardIds": [
         "architect-frank-lloyd-wright"

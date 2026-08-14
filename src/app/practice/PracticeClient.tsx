@@ -12,6 +12,7 @@ const practiceMaps = [
   { href: "/environment-knowledge-map", icon: "🌤️", titleZh: "环境工学", titleJa: "環境工学", descriptionZh: "按主题训练环境工学过去问", descriptionJa: "テーマ別に環境工学の過去問を練習する" },
   { href: "/construction-methods-knowledge-map", icon: "🧱", titleZh: "建筑构法", titleJa: "建築構法", descriptionZh: "材料、部材与工法的分类练习", descriptionJa: "材料・部材・工法の分類と識別を練習する" },
   { href: "/knowledge-map", icon: "🏗️", titleZh: "结构力学", titleJa: "構造力学", descriptionZh: "按概念与题型定位结构练习", descriptionJa: "概念と問題形式から力学練習へ進む" },
+  { href: "/practice/first-class-planning", icon: "📝", titleZh: "一级建筑师真题", titleJa: "一級建築士過去問", descriptionZh: "2016～2025 学科Ⅰ（计划）官方真题与答案", descriptionJa: "2016～2025年 学科Ⅰ（計画）の公式問題と正答" },
 ];
 
 const copy = {

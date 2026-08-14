@@ -21,7 +21,13 @@ import {
 
 export type LibraryCopy = Record<ExploreLanguage, string>;
 export type BuildingCategory = "religious" | "residential" | "civic" | "fortification" | "urban" | "other";
+export type HistoryAssociationKind = "architect" | "style" | "movement" | "feature";
 type ViewMode = "library" | HistoryPracticeMode;
+
+export interface HistoryAssociation {
+  kind: HistoryAssociationKind;
+  label: LibraryCopy;
+}
 
 export interface HistoryLibraryItem {
   id: string;
@@ -37,6 +43,7 @@ export interface HistoryLibraryItem {
   examCount: number;
   priority: "S" | "A" | "B" | "normal";
   relatedCards: { id: string; name: LibraryCopy }[];
+  associations: HistoryAssociation[];
   image: { file: string } | null;
   href: string;
 }
@@ -65,7 +72,7 @@ const COPY = {
   library: { zh: "展示库", ja: "ギャラリー", en: "Gallery" },
   image: { zh: "看图挑战", ja: "画像クイズ", en: "Image quiz" },
   chronology: { zh: "年代排序", ja: "年代順クイズ", en: "Chronology" },
-  architect: { zh: "建筑师配对", ja: "建築家マッチ", en: "Architect match" },
+  architect: { zh: "模拟语群题", ja: "模擬語群問題", en: "Word-bank mock" },
   daily: { zh: "每日十题", ja: "今日の10問", en: "Daily ten" },
   progress: { zh: "学习进度", ja: "学習進捗", en: "Learning progress" },
   explored: { zh: "已学习建筑", ja: "学習した建築", en: "Buildings studied" },
@@ -105,14 +112,34 @@ const COPY = {
   correct: { zh: "答对了！", ja: "正解！", en: "Correct!" },
   incorrect: { zh: "再观察一下线索", ja: "手がかりをもう一度確認しよう", en: "Take another look at the clues" },
   imagePrompt: { zh: "这座建筑叫什么？", ja: "この建築は何でしょう？", en: "Which building is this?" },
+  imageQuizHelp: { zh: "参照过去问的语群结构，在建筑师、样式、运动与相关关键词之间轮换；同一学习卡的多个关键词也会随批次变化。", ja: "過去問の語群構成を参照し、建築家・様式・運動・関連キーワードを交替で出題します。同じ学習カードでもキーワードはセットごとに変わります。", en: "Following past-exam word-bank structure, questions rotate among architects, styles, movements, and related keywords; a card's keyword also varies between sets." },
+  imageTypeBuilding: { zh: "建筑名称", ja: "建築名", en: "Building" },
+  imageTypeMixed: { zh: "混合关系", ja: "混合関係", en: "Mixed" },
+  imageTypeArchitect: { zh: "建筑师", ja: "建築家", en: "Architect" },
+  imageTypeStyle: { zh: "建筑风格", ja: "建築様式", en: "Style" },
+  imageTypeMovement: { zh: "背后的运动", ja: "背景の運動", en: "Movement" },
+  imageTypeFeature: { zh: "相关关键词", ja: "関連キーワード", en: "Related keyword" },
+  imageArchitectPrompt: { zh: "哪位建筑师与这座建筑有关？", ja: "この建築に関係する建築家は？", en: "Which architect is associated with this building?" },
+  imageStylePrompt: { zh: "这座建筑属于哪种风格？", ja: "この建築の様式は？", en: "Which style is associated with this building?" },
+  imageMovementPrompt: { zh: "这座建筑与哪项运动有关？", ja: "この建築に関係する運動は？", en: "Which movement is associated with this building?" },
+  imageFeaturePrompt: { zh: "哪项关键词与这座建筑最相关？", ja: "この建築に最も関係するキーワードは？", en: "Which keyword is most closely associated with this building?" },
   chronologyPrompt: { zh: "按由早到晚排列", ja: "古い順に並べてください", en: "Arrange from earliest to latest" },
   chronologyHelp: { zh: "用上下按钮移动卡片，提交后显示正确年代。", ja: "上下ボタンで並べ替え、回答後に年代を確認できます。", en: "Move the cards with the arrow buttons, then reveal the dates." },
   correctOrder: { zh: "正确顺序", ja: "正しい順序", en: "Correct order" },
-  architectPrompt: { zh: "建筑师与风格配对", ja: "建築家・様式マッチ", en: "Architect and style match" },
-  architectHelp: { zh: "每轮 3 座建筑，同时匹配建筑师与对应的风格／社会运动时期。", ja: "1セット3件。建築家と様式・社会運動の時期を同時に組み合わせます。", en: "Three buildings per round. Match both the architect and the associated style or movement period." },
+  architectPrompt: { zh: "建筑史模拟语群题", ja: "建築史・模擬語群問題", en: "Architectural history word-bank mock" },
+  architectHelp: { zh: "每批自动生成 10 题。语群 A 为建筑名称，语群 B 参照过去问混合建筑师、样式、运动与相关关键词；语群 C 每批只采用“世纪”或“单一年份”其中一种格式。", ja: "1セット10問を自動生成します。語群Aは建築名、語群Bは過去問にならい建築家・様式・運動・関連キーワードを組み合わせます。語群Cはセット全体を「世紀」または「単一年」のどちらか一方に統一します。", en: "Each set has 10 items. Following past exams, Group A contains buildings while Group B mixes architects, styles, movements, and related keywords. Group C consistently uses either centuries or single years." },
   architectLabel: { zh: "建筑师", ja: "建築家", en: "Architect" },
   peopleLabel: { zh: "建筑师／相关人物", ja: "建築家・関連人物", en: "Architects / related people" },
   styleMovementLabel: { zh: "风格／社会运动时期", ja: "様式・社会運動の時期", en: "Style / movement period" },
+  groupA: { zh: "语群 A · 建筑名称", ja: "語群 A・建築名", en: "Group A · Building" },
+  groupB: { zh: "语群 B · 关系关键词", ja: "語群 B・関連キーワード", en: "Group B · Related keyword" },
+  groupCCentury: { zh: "语群 C · 世纪", ja: "語群 C・世紀", en: "Group C · Century" },
+  groupCYear: { zh: "语群 C · 相关年份", ja: "語群 C・関連年", en: "Group C · Related year" },
+  selectFromGroup: { zh: "请选择", ja: "選択してください", en: "Select" },
+  associationArchitect: { zh: "建筑师", ja: "建築家", en: "Architect" },
+  associationStyle: { zh: "建筑风格", ja: "建築様式", en: "Style" },
+  associationMovement: { zh: "背后的运动", ja: "背景となる運動", en: "Movement" },
+  associationFeature: { zh: "相关关键词", ja: "関連キーワード", en: "Related keyword" },
   dailyIntro: { zh: "每天固定十题，混合看图、建筑师与年代判断；刷新后题目不变。", ja: "毎日固定の10問。画像・建築家・年代を組み合わせ、再読み込みしても問題は変わりません。", en: "Ten fixed questions each day, mixing images, architects, and chronology. Refreshing keeps the same set." },
   earlierPrompt: { zh: "哪座建筑更早？", ja: "どちらが古いでしょう？", en: "Which building is earlier?" },
   architectQuestion: { zh: "这座建筑的建筑师是谁？", ja: "この建築の建築家は誰でしょう？", en: "Who designed this building?" },
@@ -142,8 +169,28 @@ const MODE_OPTIONS: { value: ViewMode; label: keyof typeof COPY; icon: string }[
 ];
 
 function hash(value: string) { let result = 0; for (let index = 0; index < value.length; index += 1) result = (result * 31 + value.charCodeAt(index)) >>> 0; return result; }
-function seeded<T>(values: T[], seed: string) { return [...values].sort((a, b) => hash(`${seed}-${JSON.stringify(a)}`) - hash(`${seed}-${JSON.stringify(b)}`)); }
+function seeded<T>(values: T[], seed: string) {
+  const next = [...values];
+  let state = hash(seed) || 0x9e3779b9;
+  const random = () => {
+    state = (state + 0x6d2b79f5) >>> 0;
+    let value = state;
+    value = Math.imul(value ^ value >>> 15, value | 1);
+    value ^= value + Math.imul(value ^ value >>> 7, value | 61);
+    return ((value ^ value >>> 14) >>> 0) / 4294967296;
+  };
+  for (let index = next.length - 1; index > 0; index -= 1) {
+    const swap = Math.floor(random() * (index + 1));
+    [next[index], next[swap]] = [next[swap], next[index]];
+  }
+  return next;
+}
 function shuffled<T>(values: T[]) { const next = [...values]; for (let index = next.length - 1; index > 0; index -= 1) { const swap = Math.floor(Math.random() * (index + 1)); [next[index], next[swap]] = [next[swap], next[index]]; } return next; }
+function newBatchSeed() {
+  const random = new Uint32Array(1);
+  window.crypto?.getRandomValues(random);
+  return `${Date.now()}-${random[0]}`;
+}
 function normalizedChoice(value: string) { return value.normalize("NFKC").replace(/\s+/g, " ").trim().toLocaleLowerCase(); }
 function distinctByLabel<T>(values: T[], label: (value: T) => string) {
   const seen = new Set<string>();
@@ -179,12 +226,6 @@ function libraryBuildingLabel(building: HistoryLibraryItem, language: ExploreLan
   return language === "en" ? `${originalName} / ${japaneseName}` : `${japaneseName}（${originalName}）`;
 }
 
-function uniqueQuizBuildings(buildings: HistoryQuizBuilding[], randomize: boolean, limit: number, completed = new Set<string>()) {
-  const pool = randomize ? shuffled(buildings) : seeded(buildings, "image-initial");
-  const distinct = distinctByLabel(pool, (building) => `${building.nameJa}|${building.name}`);
-  return [...distinct.filter((building) => !completed.has(building.id)), ...distinct.filter((building) => completed.has(building.id))].slice(0, limit);
-}
-
 function chronologyLabel(item: HistoryLibraryItem, language: ExploreLanguage) {
   const period = item.period[language];
   const chronology = item.chronology?.[language];
@@ -193,12 +234,39 @@ function chronologyLabel(item: HistoryLibraryItem, language: ExploreLanguage) {
   return chronology && chronology !== period ? `${period} · ${chronology}` : period;
 }
 
-function quizChronologyLabel(item: HistoryQuizBuilding, language: ExploreLanguage) {
-  const period = item.period[language];
-  const chronology = item.chronology?.[language];
-  const unresolvedPeriod = language !== "ja" && normalizedChoice(period) === normalizedChoice(item.period.ja);
-  if (chronology && unresolvedPeriod) return chronology;
-  return chronology && chronology !== period ? `${period} · ${chronology}` : period;
+function ordinal(value: number) {
+  const remainder = value % 100;
+  if (remainder >= 11 && remainder <= 13) return `${value}th`;
+  return `${value}${value % 10 === 1 ? "st" : value % 10 === 2 ? "nd" : value % 10 === 3 ? "rd" : "th"}`;
+}
+
+type PeriodBankMode = "century" | "year";
+
+function centuryPeriodLabel(item: HistoryLibraryItem, language: ExploreLanguage) {
+  const year = item.sortYear as number;
+  const century = Math.max(1, Math.ceil(Math.abs(year) / 100));
+  if (language === "en") return `${ordinal(century)} century ${year < 0 ? "BCE" : "CE"}`;
+  return `${year < 0 ? language === "zh" ? "公元前" : "紀元前" : ""}${century}${language === "zh" ? "世纪" : "世紀"}`;
+}
+
+function exactRelatedYear(item: HistoryLibraryItem) {
+  const source = item.period.ja.normalize("NFKC");
+  if (/\d{3,4}年代/.test(source)) return null;
+  if (/\d{3,4}\s*年?\s*[〜～–—-]\s*\d{2,4}年/.test(source)) return null;
+  const values = [...new Set([...source.matchAll(/(?<!\d)(\d{3,4})(?!\d)/g)].map((match) => Number(match[1])))];
+  if (values.length !== 1) return null;
+  return source.includes("紀元前") ? -values[0] : values[0];
+}
+
+function exactYearLabel(item: HistoryLibraryItem, language: ExploreLanguage) {
+  const year = exactRelatedYear(item);
+  if (year === null) return null;
+  if (language === "en") return `${Math.abs(year)} ${year < 0 ? "BCE" : "CE"}`;
+  return `${year < 0 ? language === "zh" ? "公元前" : "紀元前" : ""}${Math.abs(year)}年`;
+}
+
+function periodBankMode(batchSeed: string): PeriodBankMode {
+  return hash(`period-bank-${batchSeed || "initial"}`) % 2 === 0 ? "century" : "year";
 }
 
 function localizedFacetLabel(value: string, language: ExploreLanguage) {
@@ -216,6 +284,14 @@ function localizedPeopleLabels(item: HistoryLibraryItem, language: ExploreLangua
   return distinctByLabel(related.length ? related : item.people.map((person) => localizedFacetLabel(person, language)), (value) => value);
 }
 
+function architectAnswerLabel(item: HistoryLibraryItem, language: ExploreLanguage) {
+  const people = distinctByLabel(
+    item.relatedCards.filter((card) => card.id.startsWith("architect-")).map((card) => card.name[language]),
+    (value) => value,
+  );
+  return people.join(language === "en" ? " & " : "、");
+}
+
 function pickChronologyCards(eligible: HistoryLibraryItem[], randomize: boolean, completed = new Set<string>()) {
   const years = new Set<number>();
   const names = new Set<string>();
@@ -231,24 +307,47 @@ function pickChronologyCards(eligible: HistoryLibraryItem[], randomize: boolean,
   }).slice(0, 4);
 }
 
-function pickArchitectStyleCards(eligible: HistoryLibraryItem[], randomize: boolean, completed = new Set<string>()) {
-  const usedArchitects = new Set<string>();
-  const usedStyles = new Set<string>();
+interface WordBankMatchCard {
+  item: HistoryLibraryItem;
+  association: HistoryAssociation;
+  buildingLabel: string;
+  associationLabel: string;
+  periodLabel: string;
+}
+
+function pickWordBankCards(eligible: HistoryLibraryItem[], language: ExploreLanguage, batchSeed: string, completed = new Set<string>()) {
+  const source = seeded(eligible, `history-word-bank-${batchSeed || "initial"}`);
+  const periodMode = periodBankMode(batchSeed);
+  const pool = [...source.filter((item) => !completed.has(item.id)), ...source.filter((item) => completed.has(item.id))];
   const usedBuildings = new Set<string>();
-  const shuffledPool = randomize ? shuffled(eligible) : seeded(eligible, "architect-style-initial");
-  const pool = [...shuffledPool.filter((item) => !completed.has(item.id)), ...shuffledPool.filter((item) => completed.has(item.id))];
-  return pool.filter((item) => {
-    const architect = item.people[0];
-    const style = item.styles[0];
-    const architectKey = normalizedChoice(architect);
-    const styleKey = normalizedChoice(style);
-    const building = normalizedChoice(`${item.name.ja}|${item.name.en}`);
-    if (usedBuildings.has(building) || usedArchitects.has(architectKey) || usedStyles.has(styleKey)) return false;
-    usedBuildings.add(building);
-    usedArchitects.add(architectKey);
-    usedStyles.add(styleKey);
-    return true;
-  }).slice(0, 3);
+  const usedAssociations = new Set<string>();
+  const usedPeriods = new Set<string>();
+  const kindCounts: Record<HistoryAssociationKind, number> = { architect: 0, style: 0, movement: 0, feature: 0 };
+  const selected: WordBankMatchCard[] = [];
+
+  for (const item of pool) {
+    const buildingLabel = libraryBuildingLabel(item, language);
+    const periodLabel = periodMode === "century" ? centuryPeriodLabel(item, language) : exactYearLabel(item, language);
+    if (!periodLabel) continue;
+    const buildingKey = normalizedChoice(buildingLabel);
+    const periodKey = normalizedChoice(periodLabel);
+    if (usedBuildings.has(buildingKey) || usedPeriods.has(periodKey)) continue;
+
+    const associations = seeded(item.associations, `${batchSeed || "initial"}-${item.id}-${selected.length}`)
+      .filter((association) => !usedAssociations.has(normalizedChoice(association.label[language])))
+      .sort((left, right) => kindCounts[left.kind] - kindCounts[right.kind]);
+    const association = associations[0];
+    if (!association) continue;
+
+    const associationLabel = association.label[language];
+    selected.push({ item, association, buildingLabel, associationLabel, periodLabel });
+    usedBuildings.add(buildingKey);
+    usedAssociations.add(normalizedChoice(associationLabel));
+    usedPeriods.add(periodKey);
+    kindCounts[association.kind] += 1;
+    if (selected.length === 10) break;
+  }
+  return selected;
 }
 
 export default function HistoryLibraryClient({ items, quizBuildings }: Props) {
@@ -366,23 +465,67 @@ function PracticePanel(props: PracticeProps) {
   return <ImageQuiz {...props} />;
 }
 
-function ImageQuiz({ quizBuildings, progress, language, t, detailHref, onReview, record }: PracticeProps) {
-  const completed = useMemo(() => new Set(Object.keys(progress.buildings)), [progress.buildings]);
-  const [ids, setIds] = useState(() => uniqueQuizBuildings(quizBuildings, false, 10).map((item) => item.id));
+type ImageQuestionType = "building" | HistoryAssociationKind | "mixed";
+const IMAGE_QUESTION_OPTIONS: { value: ImageQuestionType; label: keyof typeof COPY }[] = [
+  { value: "mixed", label: "imageTypeMixed" }, { value: "building", label: "imageTypeBuilding" },
+  { value: "architect", label: "imageTypeArchitect" }, { value: "style", label: "imageTypeStyle" },
+  { value: "movement", label: "imageTypeMovement" }, { value: "feature", label: "imageTypeFeature" },
+];
+
+interface ImageRelationQuestion {
+  target: HistoryLibraryItem;
+  kind: "building" | HistoryAssociationKind;
+  correctId: string;
+  choices: { id: string; label: string }[];
+}
+
+function buildImageRelationQuestions(items: HistoryLibraryItem[], language: ExploreLanguage, questionType: ImageQuestionType, batchSeed: string) {
+  const imageItems = items.filter((item) => item.image);
+  const source = seeded(imageItems, `image-${questionType}-${batchSeed || "initial"}`);
+  const usedAnswers = new Set<string>();
+  const kindCounts: Record<HistoryAssociationKind, number> = { architect: 0, style: 0, movement: 0, feature: 0 };
+  const questions: ImageRelationQuestion[] = [];
+  for (const target of source) {
+    const associations = questionType === "building" ? [] : seeded(
+      target.associations.filter((association) => questionType === "mixed" || association.kind === questionType),
+      `${batchSeed || "initial"}-${target.id}-associations`,
+    )
+      .filter((association) => !usedAnswers.has(normalizedChoice(association.label[language])))
+      .sort((left, right) => kindCounts[left.kind] - kindCounts[right.kind]);
+    const association = associations[0];
+    if (questionType !== "building" && !association) continue;
+    const kind: "building" | HistoryAssociationKind = questionType === "building" ? "building" : association!.kind;
+    const correctLabel = questionType === "building" ? libraryBuildingLabel(target, language) : association!.label[language];
+    if (usedAnswers.has(normalizedChoice(correctLabel))) continue;
+    const distractorLabels = kind === "building"
+      ? imageItems.filter((item) => item.id !== target.id).map((item) => libraryBuildingLabel(item, language))
+      : imageItems.flatMap((item) => item.id === target.id ? [] : item.associations.filter((candidate) => candidate.kind === kind).map((candidate) => candidate.label[language]));
+    const distractors = distinctByLabel(seeded(distractorLabels.filter((label) => normalizedChoice(label) !== normalizedChoice(correctLabel)), `${batchSeed || "initial"}-${target.id}-${kind}-distractors`), (label) => label).slice(0, 3);
+    if (distractors.length < 3) continue;
+    const choices = seeded([correctLabel, ...distractors], `${batchSeed || "initial"}-${target.id}-${kind}-choices`).map((label) => ({ id: label, label }));
+    questions.push({ target, kind, correctId: correctLabel, choices });
+    usedAnswers.add(normalizedChoice(correctLabel));
+    if (association) kindCounts[association.kind] += 1;
+    if (questions.length === 10) break;
+  }
+  return questions;
+}
+
+function ImageQuiz({ items, language, t, detailHref, onReview, record }: PracticeProps) {
+  const [questionType, setQuestionType] = useState<ImageQuestionType>("mixed");
+  const [batchSeed, setBatchSeed] = useState("");
   const [index, setIndex] = useState(0); const [answer, setAnswer] = useState<string | null>(null); const [score, setScore] = useState(0);
-  useEffect(() => {
-    if (index !== 0 || answer !== null) return;
-    const nextIds = uniqueQuizBuildings(quizBuildings, true, 10, completed).map((item) => item.id);
-    queueMicrotask(() => setIds(nextIds));
-  }, [answer, completed, index, quizBuildings]);
-  const byId = useMemo(() => new Map(quizBuildings.map((item) => [item.id, item])), [quizBuildings]);
-  const questions = useMemo(() => ids.flatMap((id, questionIndex) => { const target = byId.get(id); if (!target) return []; const targetLabel = normalizedChoice(quizBuildingLabel(target, language)); const distractors = distinctByLabel(seeded(quizBuildings.filter((item) => item.id !== id && normalizedChoice(quizBuildingLabel(item, language)) !== targetLabel), `${id}-${questionIndex}`), (item) => quizBuildingLabel(item, language)).slice(0, 3); const choices = seeded([target, ...distractors], `${id}-choices`); return [{ target, choices }]; }), [byId, ids, language, quizBuildings]);
+  useEffect(() => { queueMicrotask(() => setBatchSeed(newBatchSeed())); }, []);
+  const questions = useMemo(() => buildImageRelationQuestions(items, language, questionType, batchSeed), [batchSeed, items, language, questionType]);
   const question = questions[index]; const finished = questions.length > 0 && index >= questions.length;
-  const restart = () => { setIds(uniqueQuizBuildings(quizBuildings, true, 10, completed).map((item) => item.id)); setIndex(0); setAnswer(null); setScore(0); };
-  if (finished) return <ResultCard score={score} total={questions.length} onRestart={restart} t={t} />;
-  if (!question) return <IntroCard icon="◉" title={t(COPY.image)} description={t(COPY.imagePrompt)} onStart={restart} t={t} />;
-  const choose = (id: string) => { if (answer) return; const correct = id === question.target.id; setAnswer(id); if (correct) setScore((value) => value + 1); record([{ id: question.target.id, correct }], "image", index + 1 === questions.length); };
-  return <section className="mx-auto mt-6 max-w-4xl overflow-hidden rounded-3xl border border-stone-200 bg-white shadow-lg"><QuizHeader index={index} total={questions.length} score={score} title={t(COPY.imagePrompt)} /><div className="grid lg:grid-cols-[1.15fr_1fr]"><div className="relative min-h-[320px] bg-stone-100 lg:min-h-[520px]"><Image src={`/architecture-images/${question.target.imageFile}`} alt={t(COPY.imagePrompt)} fill priority unoptimized sizes="(max-width: 1024px) 100vw, 55vw" className="object-contain" /></div><div className="flex flex-col p-5 sm:p-7"><ChoiceButtons choices={question.choices.map((item) => ({ id: item.id, label: quizBuildingLabel(item, language) }))} answer={answer} correctId={question.target.id} onChoose={choose} />{answer && <Feedback correct={answer === question.target.id} t={t}><p className="mt-2 text-sm text-slate-600"><b>{t(COPY.period)}：</b>{quizChronologyLabel(question.target, language)}</p><div className="mt-3 flex flex-wrap gap-3"><button type="button" onClick={() => onReview(question.target.id)} className="text-sm font-bold text-violet-700">{t(COPY.review)} ↗</button><Link href={detailHref(question.target.href)} className="text-sm font-bold text-slate-500">{t(COPY.details)} →</Link></div></Feedback>}<NextButton visible={Boolean(answer)} final={index + 1 === questions.length} onClick={() => { setIndex((value) => value + 1); setAnswer(null); }} t={t} /></div></div></section>;
+  const restart = () => { setBatchSeed(newBatchSeed()); setIndex(0); setAnswer(null); setScore(0); };
+  const changeType = (value: ImageQuestionType) => { setQuestionType(value); setBatchSeed(newBatchSeed()); setIndex(0); setAnswer(null); setScore(0); };
+  const promptByKind: Record<"building" | HistoryAssociationKind, LibraryCopy> = { building: COPY.imagePrompt, architect: COPY.imageArchitectPrompt, style: COPY.imageStylePrompt, movement: COPY.imageMovementPrompt, feature: COPY.imageFeaturePrompt };
+  const typePicker = <section className="mx-auto mt-6 max-w-4xl rounded-3xl border border-stone-200 bg-white p-4 shadow-sm sm:p-5"><p className="text-sm leading-6 text-slate-500">{t(COPY.imageQuizHelp)}</p><div className="mt-3 flex flex-wrap gap-2">{IMAGE_QUESTION_OPTIONS.map((option) => <button key={option.value} type="button" onClick={() => changeType(option.value)} className={`rounded-full px-3.5 py-2 text-xs font-black transition ${questionType === option.value ? "bg-violet-600 text-white" : "bg-stone-100 text-slate-600 hover:bg-stone-200"}`}>{t(COPY[option.label])}</button>)}</div></section>;
+  if (finished) return <>{typePicker}<ResultCard score={score} total={questions.length} onRestart={restart} t={t} /></>;
+  if (!question) return <>{typePicker}<IntroCard icon="◉" title={t(COPY.image)} description={t(COPY.imagePrompt)} onStart={restart} t={t} /></>;
+  const choose = (id: string) => { if (answer) return; const correct = id === question.correctId; setAnswer(id); if (correct) setScore((value) => value + 1); record([{ id: question.target.id, correct }], "image", index + 1 === questions.length); };
+  return <>{typePicker}<section className="mx-auto mt-4 max-w-4xl overflow-hidden rounded-3xl border border-stone-200 bg-white shadow-lg"><QuizHeader index={index} total={questions.length} score={score} title={t(promptByKind[question.kind])} /><div className="grid lg:grid-cols-[1.15fr_1fr]"><div className="relative min-h-[320px] bg-stone-100 lg:min-h-[520px]"><Image src={`/architecture-images/${question.target.image!.file}`} alt={t(promptByKind[question.kind])} fill priority unoptimized sizes="(max-width: 1024px) 100vw, 55vw" className="object-contain" /></div><div className="flex flex-col p-5 sm:p-7"><ChoiceButtons choices={question.choices} answer={answer} correctId={question.correctId} onChoose={choose} />{answer && <Feedback correct={answer === question.correctId} t={t}><p className="mt-2 text-sm font-bold text-slate-800">{libraryBuildingLabel(question.target, language)}</p><p className="mt-1 text-sm text-slate-600"><b>{t(COPY.period)}：</b>{chronologyLabel(question.target, language)}</p><div className="mt-3 flex flex-wrap gap-3"><button type="button" onClick={() => onReview(question.target.id)} className="text-sm font-bold text-violet-700">{t(COPY.review)} ↗</button><Link href={detailHref(question.target.href)} className="text-sm font-bold text-slate-500">{t(COPY.details)} →</Link></div></Feedback>}<NextButton visible={Boolean(answer)} final={index + 1 === questions.length} onClick={() => { setIndex((value) => value + 1); setAnswer(null); }} t={t} /></div></div></section></>;
 }
 
 function ChronologyQuiz({ items, progress, language, t, onReview, record }: PracticeProps) {
@@ -402,19 +545,41 @@ function ChronologyQuiz({ items, progress, language, t, onReview, record }: Prac
 }
 
 function ArchitectQuiz({ items, progress, language, t, onReview, record }: PracticeProps) {
-  const eligible = useMemo(() => items.filter((item) => item.people.length > 0 && item.styles.length > 0 && item.image), [items]);
+  const eligible = useMemo(() => items.filter((item) => item.image && item.sortYear !== null && item.associations.length > 0), [items]);
   const completed = useMemo(() => new Set(Object.keys(progress.buildings)), [progress.buildings]);
-  const [cards, setCards] = useState(() => pickArchitectStyleCards(eligible, false)); const [architectAnswers, setArchitectAnswers] = useState<Record<string, string>>({}); const [styleAnswers, setStyleAnswers] = useState<Record<string, string>>({}); const [checked, setChecked] = useState(false);
+  const [batchSeed, setBatchSeed] = useState("");
+  const [cards, setCards] = useState(() => pickWordBankCards(eligible, language, ""));
+  const [answers, setAnswers] = useState<Record<string, { building?: string; association?: string; period?: string }>>({});
+  const [checked, setChecked] = useState(false);
+  useEffect(() => { queueMicrotask(() => setBatchSeed(newBatchSeed())); }, []);
   useEffect(() => {
-    if (checked || Object.keys(architectAnswers).length > 0 || Object.keys(styleAnswers).length > 0) return;
-    const nextCards = pickArchitectStyleCards(eligible, true, completed);
+    if (!batchSeed || checked || Object.keys(answers).length > 0) return;
+    const nextCards = pickWordBankCards(eligible, language, batchSeed, completed);
     queueMicrotask(() => setCards(nextCards));
-  }, [architectAnswers, checked, completed, eligible, styleAnswers]);
-  const architects = useMemo(() => seeded(cards.map((card) => card.people[0]), cards.map((card) => card.id).join("-")), [cards]);
-  const styleChoices = useMemo(() => seeded(cards.map((card) => ({ value: card.styles[0], label: `${card.styles[0]} · ${card.period[language]}` })), `${language}-${cards.map((card) => card.id).join("-")}`), [cards, language]);
-  const reset = () => { setCards(pickArchitectStyleCards(eligible, true, completed)); setArchitectAnswers({}); setStyleAnswers({}); setChecked(false); };
-  const check = () => { setChecked(true); record(cards.map((card) => ({ id: card.id, correct: architectAnswers[card.id] === card.people[0] && styleAnswers[card.id] === card.styles[0] })), "architect", true); };
-  return <section className="mx-auto mt-6 max-w-5xl rounded-3xl border border-stone-200 bg-white p-6 shadow-sm sm:p-8"><h2 className="text-2xl font-black text-slate-900">{t(COPY.architectPrompt)}</h2><p className="mt-2 text-sm text-slate-500">{t(COPY.architectHelp)}</p><div className="mt-6 grid gap-4 lg:grid-cols-3">{cards.map((card) => { const architectCorrect = architectAnswers[card.id] === card.people[0]; const styleCorrect = styleAnswers[card.id] === card.styles[0]; const correct = architectCorrect && styleCorrect; return <article key={card.id} className={`overflow-hidden rounded-2xl border ${checked ? correct ? "border-emerald-300" : "border-rose-300" : "border-stone-200"}`}><div className="relative aspect-[16/9] bg-stone-100"><Image src={`/architecture-images/${card.image!.file}`} alt={libraryBuildingLabel(card, language)} fill unoptimized className="object-cover" /></div><div className="p-4"><h3 className="font-black text-slate-900">{libraryBuildingLabel(card, language)}</h3>{checked && <button type="button" onClick={() => onReview(card.id)} className="mt-1 text-xs font-bold text-violet-700">{t(COPY.review)} ↗</button>}<label className="mt-4 block text-xs font-bold text-slate-500">{t(COPY.architectLabel)}</label><select value={architectAnswers[card.id] ?? ""} onChange={(event) => setArchitectAnswers((current) => ({ ...current, [card.id]: event.target.value }))} disabled={checked} className="mt-1.5 w-full rounded-xl border border-stone-200 bg-white px-3 py-2 text-sm"><option value="">—</option>{architects.map((architect) => <option key={architect} value={architect}>{architect}</option>)}</select>{checked && !architectCorrect && <p className="mt-1.5 text-xs font-bold text-rose-700">✓ {card.people[0]}</p>}<label className="mt-4 block text-xs font-bold text-slate-500">{t(COPY.styleMovementLabel)}</label><select value={styleAnswers[card.id] ?? ""} onChange={(event) => setStyleAnswers((current) => ({ ...current, [card.id]: event.target.value }))} disabled={checked} className="mt-1.5 w-full rounded-xl border border-stone-200 bg-white px-3 py-2 text-sm"><option value="">—</option>{styleChoices.map((style) => <option key={style.value} value={style.value}>{style.label}</option>)}</select>{checked && !styleCorrect && <p className="mt-1.5 text-xs font-bold text-rose-700">✓ {card.styles[0]} · {card.period[language]}</p>}</div></article>; })}</div>{checked ? <button onClick={reset} className="mt-6 w-full rounded-2xl bg-amber-300 px-5 py-3 font-bold text-slate-950">{t(COPY.nextSet)}</button> : <button onClick={check} disabled={cards.some((card) => !architectAnswers[card.id] || !styleAnswers[card.id])} className="mt-6 w-full rounded-2xl bg-slate-950 px-5 py-3 font-bold text-white disabled:opacity-40">{t(COPY.submit)}</button>}</section>;
+  }, [answers, batchSeed, checked, completed, eligible, language]);
+  const seed = cards.map((card) => card.item.id).join("-");
+  const banks = useMemo(() => ({
+    building: seeded(cards.map((card) => card.buildingLabel), `${seed}-building`),
+    association: seeded(cards.map((card) => card.associationLabel), `${seed}-association`),
+    period: seeded(cards.map((card) => card.periodLabel), `${seed}-period`),
+  }), [cards, seed]);
+  const updateAnswer = (id: string, axis: "building" | "association" | "period", value: string) => setAnswers((current) => ({ ...current, [id]: { ...current[id], [axis]: value } }));
+  const isCorrect = (card: WordBankMatchCard, axis: "building" | "association" | "period") => answers[card.item.id]?.[axis] === card[`${axis}Label`];
+  const reset = () => { const nextSeed = newBatchSeed(); setBatchSeed(nextSeed); setCards(pickWordBankCards(eligible, language, nextSeed, completed)); setAnswers({}); setChecked(false); };
+  const check = () => {
+    setChecked(true);
+    record(cards.map((card) => ({ id: card.item.id, correct: (["building", "association", "period"] as const).every((axis) => isCorrect(card, axis)) })), "architect", true);
+  };
+  const kindCopy: Record<HistoryAssociationKind, LibraryCopy> = { architect: COPY.associationArchitect, style: COPY.associationStyle, movement: COPY.associationMovement, feature: COPY.associationFeature };
+  const currentPeriodMode = periodBankMode(batchSeed);
+  const bankGroups = [[COPY.groupA, banks.building], [COPY.groupB, banks.association], [currentPeriodMode === "century" ? COPY.groupCCentury : COPY.groupCYear, banks.period]] as const;
+  const complete = cards.length === 10 && cards.every((card) => answers[card.item.id]?.building && answers[card.item.id]?.association && answers[card.item.id]?.period);
+
+  return <section className="mx-auto mt-6 max-w-6xl rounded-3xl border border-stone-200 bg-white p-5 shadow-sm sm:p-8"><h2 className="text-2xl font-black text-slate-900">{t(COPY.architectPrompt)}</h2><p className="mt-2 max-w-4xl text-sm leading-6 text-slate-500">{t(COPY.architectHelp)}</p>
+    <div className="mt-6 grid gap-3 lg:grid-cols-3">{bankGroups.map(([title, terms], groupIndex) => <section key={groupIndex} className={`rounded-2xl p-4 ${groupIndex === 0 ? "bg-violet-50" : groupIndex === 1 ? "bg-amber-50" : "bg-sky-50"}`}><h3 className="text-sm font-black text-slate-900">{t(title)}</h3><ol className="mt-3 grid gap-x-4 gap-y-1 text-xs leading-5 text-slate-600 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">{terms.map((term, index) => <li key={term}><span className="mr-1 font-black text-slate-400">{index + 1}.</span>{term}</li>)}</ol></section>)}</div>
+    <div className="mt-6 grid gap-4 lg:grid-cols-2">{cards.map((card, index) => { const axes = ["building", "association", "period"] as const; const correct = axes.every((axis) => isCorrect(card, axis)); return <article key={card.item.id} className={`overflow-hidden rounded-2xl border ${checked ? correct ? "border-emerald-300 bg-emerald-50/30" : "border-rose-300 bg-rose-50/20" : "border-stone-200"}`}><div className="grid sm:grid-cols-[12rem_1fr]"><div className="relative min-h-48 bg-stone-100"><Image src={`/architecture-images/${card.item.image!.file}`} alt={`${index + 1}`} fill unoptimized sizes="(max-width: 640px) 100vw, 12rem" className="object-contain" /><span className="absolute left-3 top-3 flex h-8 w-8 items-center justify-center rounded-full bg-slate-950 text-xs font-black text-white">{index + 1}</span></div><div className="p-4">{axes.map((axis, axisIndex) => { const choices = axis === "building" ? banks.building : axis === "association" ? banks.association : banks.period; const selected = answers[card.item.id]?.[axis] ?? ""; const axisCorrect = isCorrect(card, axis); return <label key={axis} className={`${axisIndex ? "mt-3" : ""} block text-xs font-black text-slate-500`}><span>{String.fromCharCode(65 + axisIndex)}</span><select value={selected} onChange={(event) => updateAnswer(card.item.id, axis, event.target.value)} disabled={checked} className={`mt-1 w-full rounded-xl border bg-white px-3 py-2 text-sm font-medium ${checked ? axisCorrect ? "border-emerald-300 text-emerald-800" : "border-rose-300 text-rose-700" : "border-stone-200"}`}><option value="">— {t(COPY.selectFromGroup)} —</option>{choices.map((choice) => <option key={choice} value={choice}>{choice}</option>)}</select>{checked && !axisCorrect && <span className="mt-1 block text-xs font-bold text-rose-700">✓ {card[`${axis}Label`]}</span>}</label>; })}{checked && <div className="mt-4 border-t border-stone-200 pt-3"><p className="font-black text-slate-900">{card.buildingLabel}</p><p className="mt-1 text-xs font-bold text-amber-800">{t(kindCopy[card.association.kind])} · {card.associationLabel}</p><button type="button" onClick={() => onReview(card.item.id)} className="mt-2 text-xs font-bold text-violet-700">{t(COPY.review)} ↗</button></div>}</div></div></article>; })}</div>
+    {checked ? <button onClick={reset} className="mt-6 w-full rounded-2xl bg-amber-300 px-5 py-3 font-bold text-slate-950">{t(COPY.nextSet)}</button> : <button onClick={check} disabled={!complete} className="mt-6 w-full rounded-2xl bg-slate-950 px-5 py-3 font-bold text-white disabled:opacity-40">{t(COPY.submit)}</button>}
+  </section>;
 }
 
 interface DailyQuestion { id: string; buildingId: string; reviewBuildingIds: string[]; prompt: LibraryCopy; image?: string; choices: { id: string; label: string }[]; correctId: string }
@@ -423,7 +588,7 @@ function DailyQuiz({ items, quizBuildings, language, t, onReview, record, todayD
   const questions = useMemo(() => {
     const result: DailyQuestion[] = [];
     const imagePool = distinctByLabel(seeded(quizBuildings, `${date}-images`), (item) => `${item.nameJa}|${item.name}`);
-    const architectPool = distinctByLabel(seeded(items.filter((item) => item.people.length > 0), `${date}-architects`), (item) => `${item.name.ja}|${item.name.en}`);
+    const architectPool = distinctByLabel(seeded(items.filter((item) => architectAnswerLabel(item, language)), `${date}-architects`), (item) => `${item.name.ja}|${item.name.en}`);
     const datedPool = distinctByLabel(seeded(items.filter((item) => item.sortYear !== null), `${date}-dates`), (item) => `${item.name.ja}|${item.name.en}`);
     const usedBuildingIds = new Set<string>();
     const unusedFrom = <T extends { id: string }>(pool: T[], offset: number) => {
@@ -446,10 +611,14 @@ function DailyQuiz({ items, quizBuildings, language, t, onReview, record, todayD
         const target = unusedFrom(architectPool, index);
         if (target) {
           usedBuildingIds.add(target.id);
-          const targetArchitect = normalizedChoice(target.people[0]);
-          const people = distinctByLabel(seeded(items.filter((item) => item.id !== target.id && item.people.length > 0).map((item) => item.people[0]).filter((person) => normalizedChoice(person) !== targetArchitect), `${date}-${index}`), (person) => person).slice(0, 3);
+          const targetArchitect = architectAnswerLabel(target, language);
+          const targetArchitectKey = normalizedChoice(targetArchitect);
+          const people = distinctByLabel(
+            seeded(items.filter((item) => item.id !== target.id).map((item) => architectAnswerLabel(item, language)).filter((person) => person && normalizedChoice(person) !== targetArchitectKey), `${date}-${index}`),
+            (person) => person,
+          ).slice(0, 3);
           const displayName = libraryBuildingLabel(target, language);
-          result.push({ id: `architect-${target.id}`, buildingId: target.id, reviewBuildingIds: [target.id], prompt: { zh: `${displayName} 的建筑师是谁？`, ja: `${displayName}の建築家は？`, en: `Who designed ${displayName}?` }, choices: seeded([target.people[0], ...people], `${date}-${index}-people`).map((label) => ({ id: label, label })), correctId: target.people[0] });
+          result.push({ id: `architect-${target.id}`, buildingId: target.id, reviewBuildingIds: [target.id], prompt: { zh: `${displayName} 的建筑师是谁？`, ja: `${displayName}の建築家は？`, en: `Who designed ${displayName}?` }, choices: seeded([targetArchitect, ...people], `${date}-${index}-people`).map((label) => ({ id: label, label })), correctId: targetArchitect });
           continue;
         }
       }

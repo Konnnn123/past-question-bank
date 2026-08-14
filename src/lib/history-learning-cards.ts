@@ -17,6 +17,13 @@ import { ADDITIONAL_HISTORY_STYLE_CARDS } from "@/lib/additional-history-style-c
 import { BUILDING_TYPE_LEARNING_CARDS } from "@/lib/building-type-learning-cards";
 import { JAPANESE_SPECIAL_STYLE_CARDS } from "@/lib/japanese-special-style-cards";
 import { HISTORY_GAP_CARDS } from "@/lib/history-gap-cards";
+import { HISTORY_FORMATION_BACKGROUND_OVERRIDES } from "@/lib/history-formation-backgrounds";
+import { EXTRA_HISTORY_FORMATION_BACKGROUNDS } from "@/lib/history-formation-backgrounds-extra";
+
+const FORMATION_BACKGROUND_OVERRIDES = {
+  ...HISTORY_FORMATION_BACKGROUND_OVERRIDES,
+  ...EXTRA_HISTORY_FORMATION_BACKGROUNDS,
+};
 
 const all = [
   ...HISTORY_LEARNING_CARD_EXAMPLES,
@@ -37,7 +44,19 @@ const all = [
   ...BATCH_THREE_ARCHITECT_CARDS,
   ...BATCH_FOUR_ARCHITECT_CARDS,
   ...FINAL_AUDIT_ARCHITECT_CARDS,
-].map((card) => ({ ...card, reviewStatus: "reviewed" as const }));
+].map((card): HistoryLearningCard => {
+  if (card.kind === "style") {
+    const background = FORMATION_BACKGROUND_OVERRIDES[card.id];
+    return {
+      ...card,
+      ...(background
+        ? { formationBackground: { ...card.formationBackground, ...background } }
+        : {}),
+      reviewStatus: "reviewed",
+    };
+  }
+  return { ...card, reviewStatus: "reviewed" };
+});
 
 const byId = new Map<string, HistoryLearningCard>();
 for (const card of all) {

@@ -8,13 +8,16 @@ const labels: Record<ExploreLanguage, string> = { zh: "中文", ja: "日本語",
 export default function ExploreLanguageSwitch() {
   const pathname = usePathname();
   const { language, setLanguage } = useExploreLanguage();
+  const normalizedPathname = pathname.replace(/\/+$/, "") || "/";
   const supportsLanguageSwitch =
-    pathname === "/explore" ||
-    pathname === "/history/library" ||
-    pathname === "/history/topics" ||
-    pathname.startsWith("/history/essay-framework") ||
-    pathname === "/history-construction" ||
-    pathname.startsWith("/current-topics");
+    normalizedPathname === "/explore" ||
+    normalizedPathname === "/history/library" ||
+    normalizedPathname === "/history/topics" ||
+    normalizedPathname.startsWith("/history/essay-framework") ||
+    normalizedPathname === "/history-construction" ||
+    normalizedPathname === "/planning/library" ||
+    normalizedPathname === "/planning/practice" ||
+    normalizedPathname.startsWith("/current-topics");
   if (!supportsLanguageSwitch) return null;
 
   return (

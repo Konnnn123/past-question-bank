@@ -4,11 +4,11 @@ export type ParsedMultipleChoice = {
   correctIndex: number;
 };
 
-const OPTION_MARKER = /(?:^|\n)[ \t]*([A-HＡ-Ｈ])[ \t]*[：:.．、・)）][ \t]*/gimu;
+const OPTION_MARKER = /(?:^|\n)[ \t]*([A-ZＡ-Ｚ])[ \t]*[：:.．、・)）][ \t]*/gimu;
 
 function asciiLetter(value: string) {
   const code = value.normalize("NFKC").toUpperCase().charCodeAt(0);
-  return code >= 65 && code <= 72 ? String.fromCharCode(code) : "";
+  return code >= 65 && code <= 90 ? String.fromCharCode(code) : "";
 }
 
 function comparable(value: string) {
@@ -30,10 +30,10 @@ export function parseEmbeddedMultipleChoice(prompt: string, answer: string): Par
   });
   if (options.some((option) => !option) || new Set(options.map(comparable)).size !== options.length) return null;
 
-  const answerLetter = asciiLetter(answer.match(/^\s*([A-HＡ-Ｈ])(?:\s*[：:.．、・)）]|\s*$)/iu)?.[1] ?? "");
+  const answerLetter = asciiLetter(answer.match(/^\s*([A-ZＡ-Ｚ])(?:\s*[：:.．、・)）]|\s*$)/iu)?.[1] ?? "");
   let correctIndex = answerLetter ? letters.indexOf(answerLetter) : -1;
   if (correctIndex < 0) {
-    const answerText = comparable(answer.replace(/^\s*[A-HＡ-Ｈ]\s*[：:.．、・)）]\s*/iu, ""));
+    const answerText = comparable(answer.replace(/^\s*[A-ZＡ-Ｚ]\s*[：:.．、・)）]\s*/iu, ""));
     correctIndex = options.findIndex((option) => {
       const optionText = comparable(option);
       return answerText === optionText || answerText.startsWith(`${optionText} `) || answerText.includes(optionText);

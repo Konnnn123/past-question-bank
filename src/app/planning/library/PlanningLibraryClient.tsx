@@ -4,9 +4,10 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { SidebarLayout } from "@/components/layout";
-import type { ExploreLanguage } from "@/components/ExploreLanguageProvider";
+import { useExploreLanguage, type ExploreLanguage } from "@/components/ExploreLanguageProvider";
 import type { PlanningCopy, PlanningLibraryItem, PlanningPracticeMode } from "@/lib/planning-library-types";
 import { PLANNING_MANUAL_PRACTICE_QUESTIONS, type PlanningManualPracticeQuestion } from "@/lib/planning-practice-questions";
+import { officialPlanningSource } from "@/lib/first-class-architect-planning-exams";
 import {
   EMPTY_PLANNING_LIBRARY_PROGRESS,
   localPlanningDate,
@@ -65,7 +66,7 @@ const COPY = {
   cleaned: { zh: "条空白或重复记录已从练习池排除", ja: "件の空欄・重複レコードを練習対象外にしました", en: "blank or duplicate records excluded from practice" },
   imageOnly: { zh: "查看图片", ja: "画像を見る", en: "View image" },
   photoIntro: { zh: "集中浏览原 Anki 中的图片与图面。", ja: "元のAnkiに収録されていた写真・図面をまとめて閲覧できます。", en: "Browse the photographs and drawings from the original Anki deck." },
-  openPractice: { zh: "开始趣味练习", ja: "ゲーム練習へ", en: "Open practice" },
+  openPractice: { zh: "进入计划记忆练习", ja: "計画の記憶練習へ", en: "Open planning memory practice" },
   backLibrary: { zh: "返回知识库", ja: "知識ライブラリに戻る", en: "Back to library" },
   practiceTitle: { zh: "看图、联想、补数值", ja: "見て、結んで、数値を埋める", en: "See, connect, and fill the value" },
   practiceIntro: { zh: "图片、概念和数值可分别练习，每局三题；每日题组为十题。", ja: "画像・概念・数値は1ゲーム3問ずつ、デイリーセットは10問に挑戦します。", en: "Practice images, concepts, and values in three-question games, or take the ten-question daily set." },
@@ -84,7 +85,7 @@ const MODE_OPTIONS: { value: ViewMode; label: keyof typeof COPY; icon: string }[
   { value: "numeric", label: "numeric", icon: "#" },
   { value: "daily", label: "daily", icon: "✦" },
 ];
-const PRACTICE_OPTIONS: { value: PlanningPracticeMode; label: keyof typeof COPY; icon: string }[] = [
+const PRACTICE_OPTIONS: { value: ViewMode; label: keyof typeof COPY; icon: string }[] = [
   { value: "image", label: "image", icon: "▧" },
   { value: "match", label: "match", icon: "↔" },
   { value: "numeric", label: "numeric", icon: "#" },
@@ -110,11 +111,42 @@ function buildImageQuestions(pool: PlanningLibraryItem[], count: number, seed: s
   });
 }
 
+function spreadManualCategories(questions: PlanningManualPracticeQuestion[], seed: string) {
+  const buckets = new Map<string, PlanningManualPracticeQuestion[]>();
+  for (const question of questions) {
+    const bucket = buckets.get(question.categoryJa) ?? [];
+    bucket.push(question);
+    buckets.set(question.categoryJa, bucket);
+  }
+
+  const categories = seeded([...buckets.keys()], `${seed}-categories`);
+  const orderedBuckets = new Map(categories.map((category) => [category, seeded(buckets.get(category) ?? [], `${seed}-${category}`)]));
+  const result: PlanningManualPracticeQuestion[] = [];
+  let depth = 0;
+  while (result.length < questions.length) {
+    for (const category of categories) {
+      const question = orderedBuckets.get(category)?.[depth];
+      if (question) result.push(question);
+    }
+    depth += 1;
+  }
+  return result;
+}
+
 function buildManualQuestions(mode: PlanningPracticeMode, count: number, seed: string, completed: Set<string>) {
   const pool = PLANNING_MANUAL_PRACTICE_QUESTIONS.filter((question) => mode === "daily" || question.mode === mode);
-  const ordered = mode === "daily" ? seeded(pool, `${seed}-daily`) : [
-    ...seeded(pool.filter((question) => !completed.has(`manual:${question.id}`)), `${seed}-unseen`),
-    ...seeded(pool.filter((question) => completed.has(`manual:${question.id}`)), `${seed}-review`),
+  const ordered = mode === "daily" ? (() => {
+    const matchQuestions = spreadManualCategories(pool.filter((question) => question.mode === "match"), `${seed}-daily-match`).slice(0, 7);
+    const matchCategories = new Set(matchQuestions.map((question) => question.categoryJa));
+    const numericPool = spreadManualCategories(pool.filter((question) => question.mode === "numeric"), `${seed}-daily-numeric`);
+    const numericQuestions = [
+      ...numericPool.filter((question) => !matchCategories.has(question.categoryJa)),
+      ...numericPool.filter((question) => matchCategories.has(question.categoryJa)),
+    ].slice(0, 3);
+    return seeded([...matchQuestions, ...numericQuestions], `${seed}-daily-order`);
+  })() : [
+    ...spreadManualCategories(pool.filter((question) => !completed.has(`manual:${question.id}`)), `${seed}-unseen`),
+    ...spreadManualCategories(pool.filter((question) => completed.has(`manual:${question.id}`)), `${seed}-review`),
   ];
   return ordered.slice(0, count).map((question, index) => ({ ...question, choicesJa: seeded([...question.choicesJa], `${seed}-${index}-choices`) }));
 }
@@ -124,8 +156,8 @@ function familiarityClass(level: ReturnType<typeof planningFamiliarity>) {
 }
 
 export default function PlanningLibraryClient({ items, excludedCount, surface }: { items: PlanningLibraryItem[]; excludedCount: number; surface: "library" | "practice" }) {
-  const language: ExploreLanguage = "ja";
-  const t = (copy: PlanningCopy) => copy.ja;
+  const { language } = useExploreLanguage();
+  const t = (copy: PlanningCopy) => copy[language];
   const [mode, setMode] = useState<ViewMode>(surface === "library" ? "library" : "image");
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("all");
@@ -189,7 +221,7 @@ export default function PlanningLibraryClient({ items, excludedCount, surface }:
           {surface === "library" ? <Link href="/planning/practice" className="mt-6 inline-flex rounded-full bg-amber-300 px-5 py-3 text-sm font-black text-slate-950">{t(COPY.openPractice)} →</Link> : <div className="mt-6 grid gap-3 sm:grid-cols-3"><Stat label={t(COPY.challenged)} value={String(Object.keys(progress.items).length)} /><Stat label={t(COPY.stars)} value={`★ ${correct}`} /><Stat label={t(COPY.mastered)} value={String(mastery)} /></div>}
         </header>
 
-        <nav className={`mt-5 grid grid-cols-2 gap-2 rounded-2xl border border-stone-200 bg-white p-2 shadow-sm ${surface === "library" ? "sm:grid-cols-2" : "sm:grid-cols-4"}`}>
+        <nav className={`mt-5 grid grid-cols-2 gap-2 rounded-2xl border border-stone-200 bg-white p-2 shadow-sm ${surface === "library" ? "sm:grid-cols-2" : "sm:grid-cols-5"}`}>
           {(surface === "library" ? MODE_OPTIONS.filter((option) => option.value === "library" || option.value === "photos") : PRACTICE_OPTIONS).map((option) => <button key={option.value} onClick={() => setMode(option.value)} className={`rounded-xl px-3 py-3 text-sm font-bold transition ${mode === option.value ? "bg-violet-700 text-white" : "text-slate-600 hover:bg-violet-50"}`}><span className="mr-2">{option.icon}</span>{t(COPY[option.label])}</button>)}
         </nav>
 
@@ -285,9 +317,10 @@ function ManualQuiz({ questions, mode, itemById, t, onResult, onComplete, onRevi
   if (!question) return <section className="mx-auto mt-6 max-w-3xl rounded-3xl bg-white p-10 text-center"><p className="text-4xl font-black">{score} / {questions.length}</p><p className="mt-3 font-bold text-violet-700">{mode === "daily" ? t(COPY.dailyComplete) : t(COPY.complete)}</p><button onClick={onRestart} className="mt-6 rounded-full bg-amber-300 px-6 py-3 font-bold">{t(COPY.newSet)}</button></section>;
   const correct = answer === question.answerJa;
   const reviewItem = question.reviewItemId ? itemById.get(question.reviewItemId) : undefined;
+  const officialSource = officialPlanningSource(question.id);
   const choose = (value: string) => { if (answer) return; const result = value === question.answerJa; setAnswer(value); if (result) setScore((current) => current + 1); onResult(`manual:${question.id}`, result, mode); };
   const next = () => { if (index + 1 === questions.length) onComplete(mode, score + (correct ? 1 : 0), questions.length); setIndex((current) => current + 1); setAnswer(null); };
-  return <section className="mx-auto mt-6 max-w-4xl overflow-hidden rounded-3xl border border-stone-200 bg-white shadow-sm"><div className="flex items-center justify-between border-b border-stone-100 px-6 py-4"><div><p className="text-xs font-bold text-violet-600">{index + 1} / {questions.length}</p><h2 className="mt-1 text-xl font-black">{t(mode === "numeric" ? COPY.numericQuestion : COPY.question)}</h2></div><p className="rounded-full bg-stone-100 px-3 py-1.5 text-xs font-bold">★ {score}</p></div><div className="p-6"><span className="rounded-full bg-violet-50 px-3 py-1 text-xs font-bold text-violet-700">{question.categoryJa}</span><h3 className="mt-4 text-xl font-black leading-8">{question.promptJa}</h3><div className="mt-5 grid gap-3">{question.choicesJa.map((choice, choiceIndex) => <button key={choice} disabled={Boolean(answer)} onClick={() => choose(choice)} className={`rounded-2xl border px-4 py-4 text-left font-bold ${answer && choice === question.answerJa ? "border-emerald-400 bg-emerald-50 text-emerald-800" : answer === choice ? "border-rose-300 bg-rose-50 text-rose-700" : "border-stone-200 hover:border-violet-300"}`}><span className="mr-2 text-stone-400">{String.fromCharCode(65 + choiceIndex)}.</span>{choice}</button>)}</div>{answer && <div className={`mt-5 rounded-2xl p-4 ${correct ? "bg-emerald-50" : "bg-amber-50"}`}><p className="font-black">{correct ? t(COPY.correct) : t(COPY.incorrect)}</p><p className="mt-2 font-bold text-slate-800">正解：{question.answerJa}</p><p className="mt-2 text-sm leading-7 text-slate-700">{question.explanationJa}</p>{reviewItem && <button onClick={() => onReview(reviewItem)} className="mt-2 text-sm font-bold text-violet-700">{t(COPY.quickReview)} ↗</button>}</div>}{answer && <button onClick={next} className="mt-5 w-full rounded-2xl bg-slate-950 px-5 py-3 text-sm font-bold text-white">{index + 1 === questions.length ? t(COPY.finish) : t(COPY.next)}</button>}</div></section>;
+  return <section className="mx-auto mt-6 max-w-4xl overflow-hidden rounded-3xl border border-stone-200 bg-white shadow-sm"><div className="flex items-center justify-between border-b border-stone-100 px-6 py-4"><div><p className="text-xs font-bold text-violet-600">{index + 1} / {questions.length}</p><h2 className="mt-1 text-xl font-black">{t(mode === "numeric" ? COPY.numericQuestion : COPY.question)}</h2></div><p className="rounded-full bg-stone-100 px-3 py-1.5 text-xs font-bold">★ {score}</p></div><div className="p-6"><span className="rounded-full bg-violet-50 px-3 py-1 text-xs font-bold text-violet-700">{question.categoryJa}</span><h3 className="mt-4 text-xl font-black leading-8">{question.promptJa}</h3><div className="mt-5 grid gap-3">{question.choicesJa.map((choice, choiceIndex) => <button key={choice} disabled={Boolean(answer)} onClick={() => choose(choice)} className={`rounded-2xl border px-4 py-4 text-left font-bold ${answer && choice === question.answerJa ? "border-emerald-400 bg-emerald-50 text-emerald-800" : answer === choice ? "border-rose-300 bg-rose-50 text-rose-700" : "border-stone-200 hover:border-violet-300"}`}><span className="mr-2 text-stone-400">{String.fromCharCode(65 + choiceIndex)}.</span>{choice}</button>)}</div>{answer && <div className={`mt-5 rounded-2xl p-4 ${correct ? "bg-emerald-50" : "bg-amber-50"}`}><p className="font-black">{correct ? t(COPY.correct) : t(COPY.incorrect)}</p><p className="mt-2 font-bold text-slate-800">練習題正解：{question.answerJa}</p><p className="mt-2 text-sm leading-7 text-slate-700">{question.explanationJa}</p>{officialSource && <div className="mt-4 rounded-xl border border-violet-200 bg-white/70 p-3"><p className="text-sm font-black text-violet-900">公式原題正答：第 {officialSource.answer} 肢</p><div className="mt-2 flex flex-wrap gap-x-4 gap-y-2 text-xs font-bold text-violet-700"><a href={officialSource.exam.questionHref} target="_blank" rel="noreferrer">{officialSource.exam.eraLabel} No.{officialSource.questionNo} 問題PDF ↗</a><a href={officialSource.exam.answerHref} target="_blank" rel="noreferrer">公式正答PDF ↗</a></div></div>}{!officialSource && question.sourceHref && <a href={question.sourceHref} target="_blank" rel="noreferrer" className="mt-3 inline-flex text-sm font-bold text-violet-700">出典：{question.sourceLabel ?? "公式過去問"} ↗</a>}{reviewItem && <button onClick={() => onReview(reviewItem)} className="mt-2 block text-sm font-bold text-violet-700">{t(COPY.quickReview)} ↗</button>}</div>}{answer && <button onClick={next} className="mt-5 w-full rounded-2xl bg-slate-950 px-5 py-3 text-sm font-bold text-white">{index + 1 === questions.length ? t(COPY.finish) : t(COPY.next)}</button>}</div></section>;
 }
 
 function ReviewModal({ item, language, t, onClose }: { item: PlanningLibraryItem; language: ExploreLanguage; t: (copy: PlanningCopy) => string; onClose: () => void }) {

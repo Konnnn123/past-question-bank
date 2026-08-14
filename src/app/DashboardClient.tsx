@@ -66,6 +66,13 @@ export default function DashboardClient({ totalQuestions, questionIds }: { total
             </div>
             <span className="shrink-0 text-sm font-bold text-slate-900">进入今日计划 <span className="inline-block transition group-hover:translate-x-1">→</span></span>
           </Link>
+          <Link href="/term-cards" className="group mt-4 flex flex-col gap-4 rounded-3xl border border-teal-200 bg-teal-50/80 p-5 transition hover:-translate-y-0.5 hover:border-teal-300 hover:shadow-lg sm:flex-row sm:items-center sm:justify-between sm:p-6">
+            <div className="flex items-start gap-4">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-teal-800 text-sm font-black text-white">語</span>
+              <div><p className="text-xs font-bold tracking-[0.16em] text-teal-700">PERSONAL LEXICON · 日文为主</p><h2 className="mt-1 text-lg font-black text-slate-950">遇到一个不会的词，就把它变成可识别、可输出的术语卡</h2><p className="mt-1 text-sm text-slate-600">按学科归档，连接自定义 AI API；卡片与密钥只保存在你的浏览器。</p></div>
+            </div>
+            <span className="shrink-0 text-sm font-bold text-slate-900">打开术语库 <span className="inline-block transition group-hover:translate-x-1">→</span></span>
+          </Link>
 
           <section className="grid gap-4 py-8 md:grid-cols-2 xl:grid-cols-4">
             {modes.map((mode) => (

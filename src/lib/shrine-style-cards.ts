@@ -6,7 +6,7 @@ type EnglishStyleContent={
 };
 const ENGLISH_BY_ID:Record<string,EnglishStyleContent>={
   "style-shinmei":{
-    name:"Shinmei-zukuri", period:"Established in antiquity; continuing into later periods",
+    name:"Shinmei-zukuri", period:"Attested from the 7th century; archaic form transmitted into later periods",
     summary:"A shrine main-hall form based on granary-like raised floors, a gabled roof, and hirairi orientation, retaining a plain rectilinear composition.",
     formationBackground:"Its archaic form has been repeatedly transmitted through the rites and periodic rebuilding of Ise Jingū.",
     structuralFeatures:["Post-in-ground construction, raised floor, gabled roof, and hirairi orientation", "Munamochibashira ridge-supporting posts carrying the ridge directly"],
@@ -15,7 +15,7 @@ const ENGLISH_BY_ID:Record<string,EnglishStyleContent>={
     keywords:["hirairi", "munamochibashira"],
   },
   "style-taisha":{
-    name:"Taisha-zukuri", period:"Established in antiquity; continuing into later periods",
+    name:"Taisha-zukuri", period:"Attested from the 7th century; archaic form transmitted into later periods",
     summary:"A shrine main-hall form of raised-floor, gabled, tsumairi construction that evokes ancient dwellings and palaces.",
     formationBackground:"It was preserved as a distinctive, strongly vertical form within Izumo belief and the worship of Ōkuninushi.",
     structuralFeatures:["Gabled tsumairi construction, raised floor, and a central shin-no-mihashira post", "An entrance stair placed at the front or side"],
@@ -24,7 +24,7 @@ const ENGLISH_BY_ID:Record<string,EnglishStyleContent>={
     keywords:["tsumairi", "shin-no-mihashira"],
   },
   "style-kasuga":{
-    name:"Kasuga-zukuri", period:"Established in antiquity; continuing into later periods",
+    name:"Kasuga-zukuri", period:"Emerged in the late 8th century; continuing into later periods",
     summary:"A small gabled, tsumairi shrine main hall with a front eave that gives the composition its graceful curves.",
     formationBackground:"It developed through the rites and rebuilding of Kasuga Taisha and spread principally from Nara.",
     structuralFeatures:["Gabled tsumairi construction with a front eave across one bay", "A compact timber frame forming the moya core and eave"],
@@ -33,7 +33,7 @@ const ENGLISH_BY_ID:Record<string,EnglishStyleContent>={
     keywords:["tsumairi", "front eave"],
   },
   "style-nagare":{
-    name:"Nagare-zukuri", period:"Established in antiquity; continuing into later periods",
+    name:"Nagare-zukuri", period:"Emerged in the late 8th century; continuing into later periods",
     summary:"Japan's most widespread shrine main-hall form, extending the front slope of a gabled hirairi roof to unite a front eave with the worship space.",
     formationBackground:"It developed as a worship forecourt was added to the front of hirairi main halls and then spread widely among shrines across Japan.",
     structuralFeatures:["Gabled hirairi construction with an extended front roof slope", "Classified by the number of front bays, as in one-bay and three-bay nagare-zukuri"],
@@ -42,7 +42,7 @@ const ENGLISH_BY_ID:Record<string,EnglishStyleContent>={
     keywords:["extended front slope", "hirairi"],
   },
   "style-hachiman":{
-    name:"Hachiman-zukuri", period:"Established in antiquity; continuing into later periods",
+    name:"Hachiman-zukuri", period:"Established in the 8th century; continuing into later periods",
     summary:"A composite shrine main-hall form that joins two gabled hirairi buildings, integrating the inner and outer sanctuaries.",
     formationBackground:"It developed at shrines such as Usa Jingū to serve the worship and rites of the Hachiman cult.",
     structuralFeatures:["Two front-to-back buildings joined by an ai-no-ma connecting space", "A gutter set in the valley between the two roofs"],
@@ -51,7 +51,7 @@ const ENGLISH_BY_ID:Record<string,EnglishStyleContent>={
     keywords:["paired sanctuaries", "ai-no-ma"],
   },
   "style-gongen":{
-    name:"Gongen-zukuri", period:"Established in the early modern period",
+    name:"Gongen-zukuri", period:"Established from the late 16th to the early 17th century",
     summary:"An early modern shrine composition that joins the main sanctuary and worship hall through a low intermediate bay, such as an ishi-no-ma, to form one complex.",
     formationBackground:"It developed in early modern Tōshōgū and mausoleum architecture; Nikkō Tōshōgū is its leading example, and its name derives from Tōshō Daigongen, the deified Tokugawa Ieyasu.",
     structuralFeatures:["The main sanctuary, ishi-no-ma, and worship hall are linked as volumes of differing floor and roof heights"],
@@ -60,8 +60,16 @@ const ENGLISH_BY_ID:Record<string,EnglishStyleContent>={
     keywords:["ishi-no-ma", "Tōshōgū"],
   },
 };
+const PERIOD_BY_ID:Record<string,[string,string]>={
+  "style-shinmei":["7世紀以降に実在確認・古式を後世継承","7世纪以后可由资料确认，古式延续至后世"],
+  "style-taisha":["7世紀以降に実在確認・古式を後世継承","7世纪以后可由资料确认，古式延续至后世"],
+  "style-kasuga":["8世紀後半に成立・後世継承","形成于8世纪后半并延续至后世"],
+  "style-nagare":["8世紀後半に成立・後世継承","形成于8世纪后半并延续至后世"],
+  "style-hachiman":["8世紀に成立・後世継承","形成于8世纪并延续至后世"],
+  "style-gongen":["16世紀末〜17世紀前半に成立","形成于16世纪末至17世纪前半"],
+};
 const make=(id:string,ja:string,zh:string,summary:[string,string],background:[string,string],structure:[string,string][],space:[string,string][],clues:[string,string][],keywords:[string,string][],buildings:string[],compare:string[]):StyleLearningCard=>({
-  id,kind:"style",name:l(ja,zh,ENGLISH_BY_ID[id]?.name),aliases:[],period:l("古代成立・後世継承","形成于古代并延续至后世",ENGLISH_BY_ID[id]?.period),regions:["japan"],summary:l(summary[0],summary[1],ENGLISH_BY_ID[id]?.summary),formationBackground:l(background[0],background[1],ENGLISH_BY_ID[id]?.formationBackground),
+  id,kind:"style",name:l(ja,zh,ENGLISH_BY_ID[id]?.name),aliases:[],period:l(PERIOD_BY_ID[id]?.[0] ?? "時期未設定",PERIOD_BY_ID[id]?.[1] ?? "时期未设置",ENGLISH_BY_ID[id]?.period),regions:["japan"],summary:l(summary[0],summary[1],ENGLISH_BY_ID[id]?.summary),formationBackground:l(background[0],background[1],ENGLISH_BY_ID[id]?.formationBackground),
   structuralFeatures:structure.map((x,index)=>l(x[0],x[1],ENGLISH_BY_ID[id]?.structuralFeatures[index])),spatialFeatures:space.map((x,index)=>l(x[0],x[1],ENGLISH_BY_ID[id]?.spatialFeatures[index])),visualClues:clues.map((x,index)=>l(x[0],x[1],ENGLISH_BY_ID[id]?.visualClues[index])),keywords:keywords.map((x,index)=>l(x[0],x[1],ENGLISH_BY_ID[id]?.keywords[index])),
   relatedBuildingIds:buildings,relatedPersonIds:[],relatedCardIds:compare,comparisonCardIds:compare,predecessorCardIds:[],successorCardIds:[],examEvidence:[],reviewStatus:"draft",
 });

@@ -68,10 +68,10 @@ function collectTimelineBuildingReferences(node) {
   if (ts.isObjectLiteralExpression(node)) {
     const buildingIds = node.properties.find((property) => propertyName(property) === "buildingIds");
     const cardIds = node.properties.find((property) => propertyName(property) === "relatedCardIds");
-    for (const [property, target] of [[buildingIds, displayedBuildingIds], [cardIds, relatedCardIds]]) {
-      if (property && ts.isPropertyAssignment(property) && ts.isArrayLiteralExpression(property.initializer)) {
-        for (const item of property.initializer.elements) if (ts.isStringLiteral(item)) target.add(item.text);
-      }
+    if (buildingIds && ts.isPropertyAssignment(buildingIds) && ts.isArrayLiteralExpression(buildingIds.initializer) && buildingIds.initializer.elements.length > 0) {
+      for (const item of buildingIds.initializer.elements) if (ts.isStringLiteral(item)) displayedBuildingIds.add(item.text);
+    } else if (cardIds && ts.isPropertyAssignment(cardIds) && ts.isArrayLiteralExpression(cardIds.initializer)) {
+      for (const item of cardIds.initializer.elements) if (ts.isStringLiteral(item)) relatedCardIds.add(item.text);
     }
   }
   node.forEachChild(collectTimelineBuildingReferences);

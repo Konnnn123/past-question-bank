@@ -71,6 +71,40 @@ const WORLD_ERA_RANGES = [
 
 const CONSTRUCTION_TERMS = /(建立|建設|創建|竣工|完成|造営|再建|改修|築造|建造|落成|開館)/;
 
+const ERA_YEAR_BOUNDS = [
+  { pattern: /縄文時代/, start: -14000, end: -300 },
+  { pattern: /弥生時代/, start: -900, end: 300 },
+  { pattern: /古墳時代/, start: 250, end: 710 },
+  { pattern: /白鳳時代/, start: 645, end: 710 },
+  { pattern: /飛鳥時代/, start: 592, end: 710 },
+  { pattern: /奈良時代/, start: 710, end: 794 },
+  { pattern: /平安時代後期/, start: 1000, end: 1185 },
+  { pattern: /平安時代/, start: 794, end: 1185 },
+  { pattern: /鎌倉時代前期/, start: 1185, end: 1250 },
+  { pattern: /鎌倉時代後期|鎌倉時代末期/, start: 1250, end: 1336 },
+  { pattern: /鎌倉時代/, start: 1185, end: 1336 },
+  { pattern: /室町時代初期/, start: 1336, end: 1400 },
+  { pattern: /室町時代中期/, start: 1400, end: 1500 },
+  { pattern: /室町時代後期/, start: 1467, end: 1573 },
+  { pattern: /室町時代/, start: 1336, end: 1573 },
+  { pattern: /戦国時代/, start: 1467, end: 1603 },
+  { pattern: /安土桃山時代|桃山時代/, start: 1573, end: 1603 },
+  { pattern: /江戸時代初期/, start: 1603, end: 1650 },
+  { pattern: /江戸時代前期/, start: 1603, end: 1750 },
+  { pattern: /江戸時代中期/, start: 1700, end: 1800 },
+  { pattern: /江戸時代後期/, start: 1750, end: 1868 },
+  { pattern: /江戸時代/, start: 1603, end: 1868 },
+  { pattern: /明治時代/, start: 1868, end: 1912 },
+  { pattern: /大正時代/, start: 1912, end: 1926 },
+  { pattern: /昭和初期/, start: 1926, end: 1945 },
+  { pattern: /昭和中期/, start: 1945, end: 1965 },
+  { pattern: /昭和後期/, start: 1965, end: 1989 },
+  { pattern: /昭和時代/, start: 1926, end: 1989 },
+  { pattern: /古代/, start: 592, end: 794 },
+  { pattern: /中世/, start: 1185, end: 1603 },
+  { pattern: /近世/, start: 1573, end: 1868 },
+] as const;
+
 function exactYearLabel(year: number, lang: Language) {
   const century = Math.ceil(year / 100);
   return lang === "ja" ? `${year}年 · ${century}世紀 CE` : `公元${year}年 · ${century}世纪`;
@@ -140,20 +174,20 @@ function periodNotation(period: string, lang: Language) {
   return null;
 }
 
-function constructionYear(history: string) {
+function constructionYears(history: string) {
   const sentences = history.split("。").filter(Boolean);
   const constructionSentences = sentences.filter((sentence) => CONSTRUCTION_TERMS.test(sentence));
 
   // Prefer the date of the extant/current building when the record distinguishes
   // it from an earlier foundation.
   const currentSentence = constructionSentences.find((sentence) => /(現在の|現存する|現存建物|現在地)/.test(sentence));
+  const candidates: number[] = [];
   for (const sentence of currentSentence ? [currentSentence, ...constructionSentences] : constructionSentences) {
     const years = Array.from(sentence.matchAll(/(\d{3,4})年(?!前)/g), (match) => Number(match[1]));
-    if (!years.length) continue;
-    if (/(現在の|現存する|現存建物)/.test(sentence) && years.length > 1) return years.at(-1) ?? null;
-    return years[0];
+    const ordered = /(現在の|現存する|現存建物)/.test(sentence) && years.length > 1 ? [...years].reverse() : years;
+    for (const year of ordered) if (!candidates.includes(year)) candidates.push(year);
   }
-  return null;
+  return candidates;
 }
 
 export function getJapaneseBuildingChronology(
@@ -162,15 +196,27 @@ export function getJapaneseBuildingChronology(
 ) {
   if (!building.regions.includes("japan")) return null;
 
+  const era = ERA_RANGES.find(({ pattern }) => pattern.test(building.period.ja));
+  const bounds = ERA_YEAR_BOUNDS.find(({ pattern }) => pattern.test(building.period.ja));
+
   // An explicit year/century in the normalized period is the card's intended
   // dating and takes precedence over later repairs mentioned in its history.
+  // For an era-labelled record, however, a parenthetical restoration or
+  // designation year must not replace the historical period of the subject.
   const directNotation = periodNotation(building.period.ja, lang);
-  if (directNotation) return directNotation;
+  const periodYears = [...new Set(Array.from(
+    building.period.ja.matchAll(/(?<!\d)(\d{3,4})年/g),
+    (match) => Number(match[1])
+  ))];
+  const directYearMatchesEra = !bounds || periodYears.length === 0 ||
+    periodYears.length === 1 && periodYears[0] >= bounds.start && periodYears[0] <= bounds.end;
+  if (directNotation && directYearMatchesEra) return directNotation;
 
-  const year = constructionYear(building.history.ja);
+  const year = constructionYears(building.history.ja).find((candidate) =>
+    !bounds || candidate >= bounds.start && candidate <= bounds.end
+  );
   if (year) return exactYearLabel(year, lang);
 
-  const era = ERA_RANGES.find(({ pattern }) => pattern.test(building.period.ja));
   if (!era) return null;
   return lang === "ja" ? `時代範囲：${era.ja}` : `时代范围：${era.zh}`;
 }
